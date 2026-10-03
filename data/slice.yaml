@@ -1,0 +1,57 @@
+genes:
+  - STXBP1
+  - DNM1
+  - SNAP25
+  - STX1B
+  - VAMP2
+  - SYNGAP1
+  - GNAO1
+  - GABRG2
+  - KCNT1
+  - SCN1A
+  - SCN2A
+  - SCN8A
+  - KCNQ2
+  - CDKL5
+  - FRRS1L
+  - SLC6A1
+  - HNRNPU
+  - KCNB1
+  - KCNA2
+  - GRIN2B
+  - GRIN1
+  - GRIA2
+  - GRIA3
+  - GABRA1
+  - GABRB3
+  - PCDH19
+  - MECP2
+  - FOXG1
+  - WWOX
+  - PNKP
+  - SMC1A
+  - KIF1A
+  - KCNT2
+  - CACNA1A
+  - CACNA2D2
+  - PRRT2
+  - DEPDC5
+  - NPRL3
+  - TBC1D24
+  - SLC2A1
+foundations:
+  - {name: STXBP1 Foundation, url: https://stxbp1disorders.org, genes: [STXBP1]}
+  - {name: DNM1 Foundation, url: https://dnm1.org, genes: [DNM1]}
+  - {name: SYNGAP1 Foundation, url: https://www.syngap1foundation.org, genes: [SYNGAP1]}
+  - {name: Dravet Syndrome Foundation, url: https://dravetfoundation.org, genes: [SCN1A]}
+  - {name: KCNQ2 Cure Alliance, url: https://kcnq2cure.org, genes: [KCNQ2]}
+  - {name: CDKL5 Alliance, url: https://www.cdkl5.com, genes: [CDKL5]}
+  - {name: GNAO1 Bow Foundation, url: https://www.bowfoundation.org, genes: [GNAO1]}
+  - {name: FamilieSCN2A, url: https://familiescn2a.org, genes: [SCN2A]}
+  - {name: SCN8A Alliance, url: https://www.scn8a.net, genes: [SCN8A]}
+  - {name: CURE Epilepsy, url: https://www.cureepilepsy.org, genes: [KCNT1]}
+  - {name: CURE SYNGAP1, url: https://curesyngap1.org, genes: [SYNGAP1]}
+  - {name: CureGRIN, url: https://www.curegrin.org, genes: [GRIN2B]}
+  - {name: HNRNPU Foundation, url: https://www.hnrnpu.org, genes: [HNRNPU]}
+  - {name: KIF1A.ORG, url: https://kif1a.org, genes: [KIF1A]}
+  - {name: Rare Epilepsy Network, url: https://www.rareepilepsynetwork.org, genes: [STXBP1]}

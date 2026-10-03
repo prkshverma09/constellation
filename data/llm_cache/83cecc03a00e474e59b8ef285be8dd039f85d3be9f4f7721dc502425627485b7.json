@@ -1,0 +1,114 @@
+{
+  "disease_id": "MONDO:0012812",
+  "persona": "maria",
+  "mode": "offline",
+  "snapshot_hash": "162823e47517f87bccac6b00da34ba4bf9739cf8a3677404064166d9efbd0650",
+  "trace_id": "e0115931-6b57-4ade-9f0d-9a7546233af2",
+  "generated_at": "2026-10-03T22:12:24.877103+00:00",
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "developmental and epileptic encephalopathy, 2 is a mechanism-supported neighbour (P 0.85, M 1.00, V 1.00, S 0.93).",
+          "edge_ids": [
+            "1d4782af45282392"
+          ]
+        },
+        {
+          "text": "generalized epilepsy with febrile seizures plus, type 9 is a mechanism-supported neighbour (P 0.83, M 1.00, V 1.00, S 0.92).",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "intellectual disability, autosomal dominant 5 is a mechanism-supported neighbour (P 0.82, M 1.00, V 1.00, S 0.91).",
+          "edge_ids": [
+            "c924e295953c72ed"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "STXBP1 and SYNGAP1 Related Disorders Natural History Study is mapped as a reusable natural_history_study.",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "The indexed variant-effect class is loss_of_function; clinical interpretation should be checked against the cited source.",
+          "edge_ids": [
+            "87257c69fcfbcdad"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Yan Liu has source-linked evidence associated with both disease groups.",
+          "edge_ids": [
+            "79fa1a1741cd33f6",
+            "79fa1a1741cd33f6"
+          ]
+        },
+        {
+          "text": "Fei Song has source-linked evidence associated with both disease groups.",
+          "edge_ids": [
+            "7cf292a6a96d794e",
+            "7cf292a6a96d794e"
+          ]
+        },
+        {
+          "text": "Yanlin Guo has source-linked evidence associated with both disease groups.",
+          "edge_ids": [
+            "546f96f0d5ca4063",
+            "546f96f0d5ca4063"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Could the STXBP1 and SYNGAP1 Related Disorders Natural History Study protocol be reviewed for a phenotype-matched outcome in developmental and epileptic encephalopathy, 4?",
+          "edge_ids": [
+            "1d4782af45282392"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage reflects only source responses represented in this snapshot; unindexed records are not evidence of absence.",
+          "edge_ids": [
+            "0e2887d69909953a",
+            "120bb346a8245924",
+            "9f2990222ce3ef83"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": null,
+  "markdown": "## Who shares our characteristics\ndevelopmental and epileptic encephalopathy, 2 is a mechanism-supported neighbour (P 0.85, M 1.00, V 1.00, S 0.93). [1d4782af45282392]\ngeneralized epilepsy with febrile seizures plus, type 9 is a mechanism-supported neighbour (P 0.83, M 1.00, V 1.00, S 0.92). [ab5fe5ff268d13ba]\nintellectual disability, autosomal dominant 5 is a mechanism-supported neighbour (P 0.82, M 1.00, V 1.00, S 0.91). [c924e295953c72ed]\n\n## What already exists\nSTXBP1 and SYNGAP1 Related Disorders Natural History Study is mapped as a reusable natural_history_study. [dcec503694916ae3]\n\n## What differs and must be verified\nThe indexed variant-effect class is loss_of_function; clinical interpretation should be checked against the cited source. [87257c69fcfbcdad]\n\n## Who to contact\nYan Liu has source-linked evidence associated with both disease groups. [79fa1a1741cd33f6, 79fa1a1741cd33f6]\nFei Song has source-linked evidence associated with both disease groups. [7cf292a6a96d794e, 7cf292a6a96d794e]\nYanlin Guo has source-linked evidence associated with both disease groups. [546f96f0d5ca4063, 546f96f0d5ca4063]\n\n## Proposed first joint step\nCould the STXBP1 and SYNGAP1 Related Disorders Natural History Study protocol be reviewed for a phenotype-matched outcome in developmental and epileptic encephalopathy, 4? [1d4782af45282392]\n\n## Search coverage\nCoverage reflects only source responses represented in this snapshot; unindexed records are not evidence of absence. [0e2887d69909953a, 120bb346a8245924, 9f2990222ce3ef83]"
+}

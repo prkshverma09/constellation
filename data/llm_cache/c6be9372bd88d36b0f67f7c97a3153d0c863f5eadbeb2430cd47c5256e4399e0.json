@@ -1,0 +1,127 @@
+{
+  "disease_id": "MONDO:0014859",
+  "persona": "osei",
+  "mode": "offline",
+  "snapshot_hash": "162823e47517f87bccac6b00da34ba4bf9739cf8a3677404064166d9efbd0650",
+  "trace_id": "3e0fd580-a1d3-43a8-974b-8680a94fb089",
+  "generated_at": "2026-10-03T22:12:25.608263+00:00",
+  "sections": [
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "The indexed variant-effect class is loss_of_function; clinical interpretation should be checked against the cited source.",
+          "edge_ids": [
+            "449e02838927bc3a"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "cerebellar atrophy with seizures and variable developmental delay is the nearest phenotypic lead, but the fused mechanism score is below threshold.",
+          "edge_ids": [
+            "92307a1900838526"
+          ]
+        },
+        {
+          "text": "developmental and epileptic encephalopathy, 54 is the nearest phenotypic lead, but the fused mechanism score is below threshold.",
+          "edge_ids": [
+            "71e141a135475a63"
+          ]
+        },
+        {
+          "text": "developmental and epileptic encephalopathy, 32 is the nearest phenotypic lead, but the fused mechanism score is below threshold.",
+          "edge_ids": [
+            "a7a5a724a2cbe280"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "No reusable asset is mapped to this disease in the current snapshot.",
+          "edge_ids": [
+            "f2b60615091cda3b"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "No cross-disease investigator bridge is verified in the current graph.",
+          "edge_ids": [
+            "f2b60615091cda3b"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Could a functional study test whether the leading mechanism evidence applies to developmental and epileptic encephalopathy, 37?",
+          "edge_ids": [
+            "92307a1900838526"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage reflects only source responses represented in this snapshot; unindexed records are not evidence of absence.",
+          "edge_ids": [
+            "b001669c7964445c",
+            "876e4c480796f232",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": {
+    "reasons": [
+      "No within-cluster mechanism neighbour meets the P/M/V support threshold.",
+      "No reusable asset or investigator bridge is mapped to this cluster."
+    ],
+    "what_would_change": [
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "92307a1900838526"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "d30b8d092282e8a9"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "71e141a135475a63"
+        ]
+      }
+    ]
+  },
+  "markdown": "## What differs and must be verified\nThe indexed variant-effect class is loss_of_function; clinical interpretation should be checked against the cited source. [449e02838927bc3a]\n\n## Who shares our characteristics\ncerebellar atrophy with seizures and variable developmental delay is the nearest phenotypic lead, but the fused mechanism score is below threshold. [92307a1900838526]\ndevelopmental and epileptic encephalopathy, 54 is the nearest phenotypic lead, but the fused mechanism score is below threshold. [71e141a135475a63]\ndevelopmental and epileptic encephalopathy, 32 is the nearest phenotypic lead, but the fused mechanism score is below threshold. [a7a5a724a2cbe280]\n\n## What already exists\nNo reusable asset is mapped to this disease in the current snapshot. [f2b60615091cda3b]\n\n## Who to contact\nNo cross-disease investigator bridge is verified in the current graph. [f2b60615091cda3b]\n\n## Proposed first joint step\nCould a functional study test whether the leading mechanism evidence applies to developmental and epileptic encephalopathy, 37? [92307a1900838526]\n\n## Search coverage\nCoverage reflects only source responses represented in this snapshot; unindexed records are not evidence of absence. [b001669c7964445c, 876e4c480796f232, 19b5eceb4aa1259d]"
+}

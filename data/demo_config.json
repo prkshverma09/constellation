@@ -1,0 +1,5 @@
+{
+  "supported_disease": "MONDO:0012812",
+  "gap_disease": "MONDO:0014859",
+  "gap_gene": "FRRS1L"
+}

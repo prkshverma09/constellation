@@ -1,0 +1,343 @@
+
+ What this plan commits to
+ This is the build plan for Constellation , the concept recommended in the pitch brief: a mechanism-first rare-disease
+ knowledge graph whose product surface is a cited Shared Path Dossier . It fixes every decision the pitch left open,
+ defines the data model, pipeline, analytics, agents, API, interface, test gates and hour-by-hour schedule for a team of four over
+ 24 hours, and ends with the submission checklist and a post-hackathon roadmap. Where a choice is a judgement call, the
+ decision and the condition under which to revisit it are stated side by side.
+ Slice
+ DEE · ~40 genes
+ developmental and epileptic encephalopathies
+ Graph store
+ DuckDB + igraph
+ zero-ops, KGX export, Neo4j loader optional
+ Stack
+ FastAPI · Next.js
+ Python 3.12 / uv · TypeScript / pnpm
+ Deploy
+ Modal + Vercel
+ snapshot committed; demo runs offline
+ Decisions made
+ Each open question from the pitch, the choice, why, and what would make us change it.
+ Open decisions resolved for the build
+ Decision Choice Why Revisit if
+ Disease slice DEE / presynaptic vesicle cycle, ~40 DEE genes from MONDO descendants of DEE (MONDO:0100062) Live two-gene natural history study (NCT06555965), many active foundations, dense PubMed and RePORTER signal, a clean counterexample (GNAO1) At H1 the DEE descendant list exceeds 60 genes with annotations — cap to the 40 with most HPO terms
+ Graph store DuckDB (Parquet tables) for nodes, edges, ledger; igraph + leidenalg for analytics; NetworkX only for ad-hoc paths; KGX TSV export; optional Neo4j Aura loader script Zero infrastructure, deterministic rebuild from one command, judges can run it locally; the whole slice is < 100k edges and fits in memory Someone on the team has shipped Neo4j GDS and wants Cypher in the demo — keep the DuckDB build and add the loader at H14+ only
+ Backend Python 3.12, FastAPI, Pydantic v2, uv; httpx with on-disk HTTP cache for every public API Pydantic schemas double as Structured Outputs schemas and API contracts; team already uses this stack Never during the 24 hours
+ Frontend Next.js 15 (App Router), TypeScript, Tailwind, D3 for the two SVG views, pnpm Fast to ship, deploys to Vercel in minutes, D3 gives full control for a low-ink SVG instead of a force-directed hairball Never during the 24 hours
+ Models GPT-5 mini via Batch API for bulk extraction and classification; GPT-5 for reconciliation of ambiguous cases and for the three agents; text-embedding-3-small for candidate retrieval Bulk work is cheap and parallel; judgement calls get the stronger model; keeps the estimated OpenAI spend under $25 Extraction eval precision < 0.85 at H8 — switch extraction to GPT-5 for the ~1,500 abstracts that mention a mechanism keyword
+ Agents OpenAI Agents SDK (Python): Navigator → Skeptic → Writer with typed graph tools; handoffs, not free chat Required for track prizes; the SDK gives tool-call tracing for the demo and README SDK tracing flakes under Modal — fall back to plain Responses API tool loops behind the same interface
+ Hosting FastAPI on Modal (one web endpoint, snapshot on a Modal Volume); Next.js on Vercel; both also run locally with make demo No servers to babysit; cold start is acceptable because the UI preloads the demo disease Modal cold start > 10 s on the demo path — pin a warm container ( min_containers=1 ) at H20
+ Honest-gap demo disease A slice gene with < 20 PubMed hits, no ClinicalTrials.gov record and no foundation; candidate FRRS1L (DEE 37), confirmed at H1 from live counts Shows both outcomes in one slice; no extra ingestion FRRS1L turns out to have a registry or trial — pick the next gene by the same rule
+ Patient-group source Curated seed list of ~15 DEE foundations with verified URLs plus Responses API web-search discovery, each stored as a dated, web-discovered edge Orphadata free products do not include patient organisations; NORD/Global Genes directories are HTML Web search returns fewer than 10 verifiable organisations — scrape the Global Genes RARE Foundation Alliance list for the slice
+ Stretch goals In: web-search discovery of registries and RFAs; persona toggle; contribute-evidence form. Out: Realtime voice, JAX model ingestion beyond a hand-entered row for Stxbp1 and Dnm1 Each "in" item reuses an existing component; the "out" items each cost 3+ hours and do not change the judged journey Feature freeze at H18 passes with time left
+ Name Constellation Echoes the brief's own language Trademark conflict found in the final hour — fallback "Kinship"
+ Scope and acceptance criteria
+ The product is done when a judge can perform the following journey live, unassisted, in under two minutes, and the second journey shows an honest gap.
+ Journey A — supported path (STXBP1)
+ Type STXBP1 , Munc18-1 , DEE4 or STXBP1 Foundation ; all resolve to MONDO:0012812 with the synonym shown.
+ Overview shows counts with links: HPO terms, ClinVar pathogenic variants, trials, active NIH projects, papers, exact-match community.
+ Cluster view lists DNM1, SNAP25, STX1B, VAMP2 as supported neighbours with the mechanism label, and GNAO1 in a counterexample lane with the layer that excluded it.
+ Any edge opens an inspector: source, retrieval date, relationship type, evidence class, confidence, contradicting evidence.
+ Asset view compares NCT06555965 against DNM1-DEE: matches, differences, expert checks.
+ People view shows at least one investigator with edges to both STXBP1 and DNM1 and the proving paper or award.
+ Dossier renders with every sentence footnoted to an edge ID; export produces a PDF via print styles and a Markdown file.
+ Persona switch to Priya (mechanism in → ranked clusters) and Devon (plain language) re-renders without a new query.
+ Journey B — honest gap (FRRS1L or equivalent)
+ Search resolves the disease and shows the sparse counts honestly.
+ Cluster view says no supported neighbour meets the threshold, lists the nearest unsupported leads and which layer is missing for each.
+ Coverage panel lists sources queried, term sets, counts and dates.
+ Dossier is replaced by a "what would change this" plan: the specific evidence (for example a functional study classifying the variant effect) and where it would come from.
+ Non-goals for the 24 hours. No user accounts, no write-back to public databases, no general chat. Anything not in the dossier template or the two journeys is cut at feature freeze (H18).
+ Repository layout and tooling
+ constellation/
+ README.md # architecture, one-command rebuild, demo script
+ Makefile # make data | make demo | make test | make deploy
+ backend/
+ pyproject.toml # uv-managed; fastapi, pydantic, httpx, duckdb,
+ # igraph, leidenalg, openai, openai-agents
+ constellation/
+ ingest/ # one module per source, all cached to data/raw
+ extract/ # Structured Outputs schemas + Batch API driver
+ reconcile/ # ID resolution, person de-duplication
+ graph/ # build.py (DuckDB tables), kgx.py, neo4j_loader.py
+ analytics/ # similarity.py, clusters.py, bridges.py,
+ # coverage.py, gaps.py
+ agents/ # navigator.py, skeptic.py, writer.py, tools.py
+ api/ # FastAPI routers, response models
+ tests/ # unit, golden, eval, contract
+ modal_app.py
+ apps/web/ # Next.js 15 app; pnpm
+ app/ # routes: /, /d/[id], /d/[id]/dossier
+ components/ # Search, Overview, ClusterView, EdgeInspector,
+ # AssetCompare, BridgePeople, Dossier, PersonaToggle,
+ # CoverageReport
+ lib/api.ts # typed client generated from OpenAPI
+ e2e/ # Playwright journeys A and B
+ data/
+ slice.yaml # the ~40 genes, MONDO IDs, seed foundations
+ raw/ # cached API responses (gitignored, rebuildable)
+ snapshot/ # nodes.parquet, edges.parquet, ledger.parquet,
+ # clusters.parquet (committed; ~20 MB)
+ llm_cache/ # extraction + agent outputs keyed by content hash
+ eval/ # 50 hand-labelled abstracts, golden cluster
+ docs/
+ DECISIONS.md SCHEMA.md DEMO_SCRIPT.md
+ Python 3.12, uv, ruff, pyright (basic), pytest
+ Web Node 22, pnpm, Next.js 15, TypeScript strict, Tailwind, D3 (selection, scale, shape only), Playwright
+ Secrets OPENAI_API_KEY , NCBI_API_KEY (raises E-utilities to 10 req/s). Local .env ; Modal secret for deploy. Nothing else.
+ Make targets make data rebuilds the snapshot from raw caches (network only for cache misses); make demo starts API + web against the committed snapshot with LLM_MODE=cached ; make test runs unit, golden and contract tests; make deploy pushes Modal and Vercel.
+ Determinism Every LLM call is keyed by a hash of model, schema version and input; cached outputs are committed so the demo and the tests do not depend on live model calls. Leiden runs with a fixed seed and the chosen resolution is recorded in clusters.parquet .
+ CI GitHub Actions: ruff, pyright, pytest (unit + golden on the committed snapshot), pnpm typecheck, Playwright against make demo . Target under 6 minutes.
+ Graph schema
+ Biolink-compatible so the KGX export loads into Monarch tooling. Identifiers are CURIEs; the graph never mints an ID for a thing that has a public one.
+ Node types
+ Node types, identifiers, sources and key properties
+ Type ID namespace Primary source Key properties Expected count
+ Disease MONDO Monarch, Orphadata product 1 (synonyms, OMIM/Orpha xrefs) name, synonyms[], omim, orphacode, inheritance ~45
+ Gene HGNC Monarch, HGNC symbol, aliases[], uniprot, pLI (optional) ~40
+ VariantClass constellation:vc/<gene>/<class> ClinVar summaries + literature extraction class ∈ {loss_of_function, gain_of_function, dominant_negative, mixed, unknown}, lof_fraction, n_pathogenic, support_pmids[] ~40
+ Mechanism Reactome R-HSA-*, GO, CORUM Reactome mapping file, STRING for complex membership name, level, member_genes[] ~120
+ Phenotype HP HPO ontology + phenotype.hpoa name, information_content, parents[] ~900
+ Paper PMID PubMed E-utilities title, year, journal, abstract (cached, not served), doi ~4,000
+ Person constellation:person/<hash>; ORCID when found PubMed authors, CT.gov officials, RePORTER PIs display_name, name_variants[], affiliations[], roles[] ~6,000 → ~4,500 after merge
+ Study NCT ClinicalTrials.gov v2 title, status, type, conditions[], eligibility (structured), outcome_measures[], sponsor ~150
+ Award NIH project number NIH RePORTER v2 title, pi_names[], org, fiscal_year, amount, activity_code, terms[] ~500
+ PatientGroup constellation:org/<slug>; website as xref Seed list + web-search discovery name, url, diseases[], registry_url, country, verified_on ~20
+ Asset constellation:asset/<slug> Derived from Study (natural history, registry), PatientGroup (registry), hand-entered model rows asset_type ∈ {natural_history_study, registry, biobank, animal_model, biomarker, protocol}, covers_phenotypes[] ~30
+ Cluster constellation:cluster/<n> Analytics label (mechanism), members[], counterexample, resolution, stability ~8
+ Edge types and the evidence ledger
+ Edge predicates by subject and object type
+ Predicate Subject → object Produced by
+ causes Gene → Disease Monarch (curated)
+ has_phenotype Disease → Phenotype (frequency, onset) phenotype.hpoa (curated)
+ has_variant_class Gene → VariantClass ClinVar aggregation (observed) + extraction (llm_extracted)
+ participates_in Gene → Mechanism Reactome, STRING (curated)
+ phenotypically_similar_to Disease → Disease (score) Monarch semsim (inferred)
+ shares_mechanism_with Disease → Disease (fused score, layers) Analytics (inferred)
+ member_of / counterexample_of Disease → Cluster Analytics (inferred)
+ claims Paper → (Gene, Mechanism | Gene, VariantClass | Disease, Phenotype) with polarity Extraction (llm_extracted)
+ authored / investigates / funds Person → Paper; Person → Study; Award → Person PubMed, CT.gov, RePORTER (observed)
+ studies Study → Disease; Award → Gene/Disease CT.gov conditions, RePORTER terms (observed)
+ measures Study → Phenotype Outcome measure → HPO mapping (llm_extracted)
+ serves PatientGroup → Disease; PatientGroup → Asset Seed list (curated), web search (web_discovered)
+ reusable_for Asset → Disease (coverage, gaps) Analytics (inferred)
+ bridges Person → Cluster pair (evidence edges) Analytics (inferred)
+ Every edge row in edges.parquet carries a ledger. The frontend inspector shows the ledger verbatim; the Writer agent may only cite edge_id s.
+ edge_id : str # sha1(subject, predicate, object, source, source_record)
+subject, object: CURIE
+predicate : biolink slot
+evidence_class : observed | curated | inferred | llm_extracted | web_discovered
+source : "monarch" | "hpoa" | "clinvar" | "reactome" | "string"
+ | "pubmed" | "ctgov" | "reporter" | "orphadata"
+ | "seed_list" | "openai_web_search" | "analytics"
+source_record : stable record id (PMID, NCT, project num, URL, file+row)
+retrieved_at : ISO date
+confidence : 0..1 (observed/curated = 1.0; semsim normalised; extraction
+ = model-reported confidence × validation pass; analytics =
+ fused score)
+quote : verbatim supporting text (required for llm_extracted;
+ must be a substring of the cached abstract)
+polarity : supports | contradicts | null
+contradicted_by: [edge_id] # filled by the Skeptic pass
+method : free text, e.g. "leiden r=0.9 seed=7", "semsim phenodigm"
+schema_version : int
+ Rule: no identifier without a lookup. Before any llm_extracted or web_discovered edge is written, its PMID, NCT, project number, MONDO, HGNC or HP identifier is checked against the live source (E-utilities esummary , CT.gov /studies/{nct} , RePORTER search, Monarch /entity/{id} ). Failures are logged to data/rejected_edges.jsonl and shown as a count in the README.
+ Data pipeline
+ One module per source, all idempotent and cached. Endpoints were spot-checked on 3 Oct 2026; counts drift.
+ Zoom out
+ Zoom in
+ Reset view
+ Select a stage
+ Each stage's inputs, outputs, owner and hour window appear here.
+ Source-by-source ingestion plan with endpoints, fields, volume and time budget
+ Source Endpoint or file What we take Volume Notes
+ Monarch v3 GET /v3/api/search?q=&category= , GET /v3/api/entity/{id} , GET /v3/api/association?subject=&category= , POST /v3/api/semsim/search Disease and gene IDs, synonyms, gene→disease causal edges, disease→phenotype associations with frequency, phenotype-similarity scores between slice diseases ~45 diseases · ~2k phenotype edges · 45×45 semsim No key. Semsim is run per disease with its HPO termset against "Human Diseases", then restricted to the slice. Monarch entity lookups double as the ID validator.
+ HPO phenotype.hpoa (latest release), hp.json Disease (OMIM/Orpha) → HP with frequency, evidence code, source; ontology parents for information content ~1 file, filter to slice Mapped to MONDO through Monarch xrefs. Information content computed over the full hpoa so "broad symptoms" (seizure, hypotonia) are down-weighted in coverage.
+ ClinVar E-utilities esearch / esummary db=clinvar per gene, filter pathogenic/likely pathogenic Counts by molecular consequence; LoF fraction (nonsense, frameshift, splice, large deletion) vs missense ~40 genes · ~15k variants Produces the observed half of VariantClass. The mechanism half (haploinsufficiency vs dominant-negative vs gain-of-function) comes from literature extraction with quotes.
+ Reactome, STRING UniProt2Reactome_All_Levels.txt ; GET string-db.org/api/json/network?identifiers=&species=9606&required_score=700 Gene → pathway memberships at all levels; high-confidence physical/functional partners among slice genes ~40 genes · ~120 pathways STRING edge between two causal genes counts as shared complex evidence (e.g. STXBP1–SNAP25–STX1B–VAMP2).
+ PubMed esearch ( <gene>[tiab] AND (encephalopathy OR epilepsy OR seizure OR neurodevelopmental) , ≤100 most recent + ≤50 most cited per gene) then efetch XML Title, abstract, year, authors with affiliations, MeSH ~4,000 abstracts Abstracts are cached locally for extraction and quote validation but never served to the UI (only PMID, title, quote).
+ ClinicalTrials.gov v2 GET /api/v2/studies?query.cond=<gene or disease>&fields=NCTId,BriefTitle,OverallStatus,StudyType,Condition,EligibilityCriteria,MinimumAge,MaximumAge,PrimaryOutcomeMeasure,SecondaryOutcomeMeasure,OverallOfficialName,OverallOfficialAffiliation,CentralContactName,LeadSponsorName Study nodes, officials as Person, outcome measures for coverage, eligibility for the differences table ~150 studies Observational studies with "natural history" or "registry" in title/type become Asset nodes automatically.
+ NIH RePORTER v2 POST /v2/projects/search (advanced_text_search on title, abstract, terms; is_active true and false), POST /v2/publications/search Award nodes, PIs as Person, org, amount, terms; project→PMID links to merge PIs with authors ~500 awards Publication links are the strongest person-reconciliation signal we have without ORCID.
+ Orphadata en_product1.xml (disorders, synonyms, xrefs), en_product6.xml (genes) Synonyms and ORPHA codes for search; cross-check of gene→disease filter to slice Patient organisations are not in the free products; see community discovery.
+ Patient groups data/slice.yaml seed list (~15 verified DEE foundations); Responses API web_search for the rest; optional Global Genes alliance list PatientGroup nodes, registry URLs, served diseases ~20 orgs Every web-discovered org is fetched once; the page must name the gene or disease or the edge is rejected.
+ Models (stretch) Hand-entered rows for Stxbp1 and Dnm1 MGI alleles with URLs Two Asset rows of type animal_model 2 Marked curated with the MGI URL; full JAX ingestion is day-2.
+ OpenAI usage: extraction, reconciliation, agents
+ Extraction (GPT-5 mini, Structured Outputs, Batch API)
+ One batch job per schema. Input: PMID, title, abstract, the gene list for the slice. Output must satisfy the strict schema below; anything else is a rejected row.
+ class Claim(BaseModel):
+ subject_gene: Literal[*SLICE_GENES]
+ claim_type: Literal["mechanism", "variant_effect",
+ "phenotype", "model", "therapy"]
+ object_text: str # free text, reconciled later
+ object_hint_id: str | None # e.g. "HP:0001250" if the model is sure
+ polarity: Literal["supports", "contradicts"]
+ quote: str # verbatim; validator requires substring match
+ confidence: float # 0..1
+ evidence_level: Literal["in_vitro", "animal", "human_case",
+ "human_cohort", "review"]
+class ExtractionResult(BaseModel):
+ pmid: str
+ claims: list[Claim] # may be empty
+ investigator_roles: list[InvestigatorRole] # first/last author flags
+ Two further schemas: OutcomeMeasureMapping (measure text → HP terms + domain) and EligibilityFacts (age range, genotype requirement, variant classes, exclusions). Variant-effect claims across papers for a gene are aggregated by majority with the dissenting PMIDs kept as contradicts edges.
+ Reconciliation (GPT-5 + text-embedding-3-small)
+ Diseases and phenotypes. Free-text mentions are embedded and matched against Monarch search results for the same text; GPT-5 chooses among the top five candidate CURIEs or returns none . The model never emits an ID that was not in the candidate list.
+ People. Blocking on normalised surname + first initial; GPT-5 decides merges using affiliations, co-authors, project→publication links from RePORTER, and gene overlap. Merge decisions are stored with the reason so the people view can show "same person because…".
+ Organisations. Web-discovered names are matched to seed-list entries by domain; otherwise a new PatientGroup is created with verified_on .
+ Agents (OpenAI Agents SDK)
+ Agent roles, tools and output contracts
+ Agent Tools Output contract
+ Navigator resolve(query) , get_cluster(disease) , get_assets(cluster) , get_bridges(a, b) , get_coverage(disease) , persona parameter PathPlan : ordered list of edge IDs that form the route from disease to cluster, asset, person and next step, or a Gap object
+ Skeptic find_contradicting(edge_id) over the claims table, pubmed_search(term) limited to the slice cache, compare_variant_effect(gene_a, gene_b) Objections : per edge, contradicting edge IDs and a one-line "what must be verified"; writes contradicted_by
+ Writer get_edge(edge_id) only Dossier JSON: sections with sentences, each sentence carries edge_ids[] ; a post-validator drops any sentence whose IDs do not resolve and fails the run if a required section is empty
+ Cite-or-drop is enforced in code, not in the prompt. The Writer's output is validated against the edge table; sentences without a resolvable edge are removed before rendering and counted in the response so the UI can say "2 sentences removed for lack of evidence".
+ Estimated spend
+ Estimated OpenAI token volume and cost by job
+ Job Model Input tokens Est. cost
+ Claim extraction, 4,000 abstracts GPT-5 mini, Batch ~8M ~$3–5
+ Outcome and eligibility mapping, 150 studies GPT-5 mini, Batch ~0.5M < $1
+ Reconciliation decisions (~3,000) GPT-5 ~3M ~$5–8
+ Agents, ~200 dossier runs during build GPT-5 ~4M ~$6–10
+ Web search discovery (~100 calls) Responses API — ~$2–3
+ Costs are order-of-magnitude estimates at current list prices; the Batch API halves the bulk jobs. Set a $50 hard limit on the project key.
+ Analytics
+ Fused similarity
+ For two slice diseases \(d_i, d_j\) with causal genes \(g_i, g_j\):
+ P = semsim(d_i, d_j) / max semsim within slice # phenotype, 0..1
+M = max( jaccard(reactome_lowest_level(g_i), reactome_lowest_level(g_j)),
+ 1.0 if STRING(g_i, g_j) >= 0.7 else 0 ) # mechanism, 0..1
+V = 1.0 if same variant class
+ else 0.5 if either class unknown
+ else 0.0 # variant effect
+S = 0.5*P + 0.3*M + 0.2*V
+edge shares_mechanism_with if S >= 0.45 AND M > 0 # phenotype alone never suffices
+ The M > 0 guard is what turns "DEE 17 looks closest by symptoms" into a counterexample rather than a neighbour. Weights are recorded on every analytics edge and exposed in the README; the UI shows the three layer scores, not just S.
+ Clustering and counterexamples
+ Leiden (leidenalg, modularity objective) on the weighted shares_mechanism_with graph, resolution swept 0.6–1.4 in steps of 0.1, 20 seeds each. Choose the lowest resolution at which the mean pairwise adjusted Rand index across seeds is ≥ 0.8; record resolution, seed and stability on each Cluster node.
+ Cluster label: GPT-5 names the cluster from its shared Reactome pathways and STRING complex, constrained to the pathway vocabulary ("presynaptic vesicle cycle — SNARE/Munc18").
+ Counterexample per cluster: the non-member with the highest P against any member; displayed with the layer that excluded it (M = 0, or V = 0).
+ Golden test: STXBP1's cluster must contain DNM1 and at least two of SNAP25, STX1B, VAMP2, and must not contain GNAO1, GABRG2 or KCNT1. If the sweep cannot satisfy this, the weights are wrong, not the test; investigate before touching the test.
+ Bridge people
+ Candidate set for clusters (or diseases) A and B: persons with at least one authored , investigates or funds -derived edge to a member of A and one to a member of B.
+ Rank by min(n_A, n_B) , then by betweenness centrality on the person–disease bipartite subgraph induced by A ∪ B, then by recency.
+ Each card shows the proving edges (paper title and year, study NCT, award number). No contact details beyond public affiliation and the CT.gov central contact if listed.
+ Precision check at H16: 20 top-ranked bridges hand-checked by D; target ≥ 0.8 are genuine same-person bridges.
+ Asset coverage
+ For a study asset and a neighbour disease: coverage = information-content-weighted fraction of the neighbour's HPO terms (frequency ≥ occasional) that are ancestors-or-equal to any HP term mapped from the study's outcome measures.
+ Differences table from EligibilityFacts : age window, genotype requirement, variant classes accepted, exclusions — each row marked "matches", "differs" or "needs expert review" (the last whenever VariantClass differs or is unknown).
+ The demo claim "ENDD outcome measures cover ~80% of DNM1's phenotype" is computed, not typed; whatever the number is, it is shown with its denominator.
+ Honest-gap detector
+ Gap if: no neighbour with S ≥ 0.45, or cluster has no Asset and no bridge Person.
+ Coverage report lists each source, the query terms, record counts, retrieval dates, and the nearest three leads with the missing layer named.
+ "What would change this" is templated per missing layer: missing M → functional or pathway study; missing V → variant classification study; missing asset → the nearest study whose protocol could be adapted; missing people → the nearest cluster's bridge investigators as cold-start contacts.
+ API contract
+ Read-only over the snapshot except /dossier , which runs the agents. OpenAPI generates the TypeScript client at H6 so the frontend builds against fixtures until real data lands.
+ FastAPI endpoints, parameters and responses
+ Endpoint Returns Backs
+ GET /search?q= Resolved entity with matched synonym, type, alternatives Search box
+ GET /disease/{mondo} Overview counts with the edge IDs behind each count, exact-match PatientGroup Overview
+ GET /disease/{mondo}/cluster Cluster node, members with P/M/V/S, counterexample with excluding layer, stability Cluster view
+ GET /edge/{edge_id} Full ledger row plus contradicted_by expanded Edge inspector
+ GET /cluster/{id}/assets?for= Assets with coverage score, matched and unmatched phenotypes, eligibility diff Asset view
+ GET /bridges?a=&b= Ranked persons with proving edges People view
+ GET /disease/{mondo}/coverage Sources, terms, counts, dates, nearest leads, what-would-change-this Honest-gap state
+ POST /dossier {disease, persona} Dossier JSON with sentence-level edge IDs, dropped-sentence count, agent trace ID; cached by (disease, persona, snapshot hash) Dossier view, export
+ GET /mechanism/search?q= Clusters ranked for a therapeutic mechanism (Priya), using VariantClass and pathway match Priya persona
+ POST /contribute Stores a proposed edge with evidence_class=proposed and a URL; never enters analytics Contribute evidence (stretch)
+ GET /export/kgx Zip of KGX nodes and edges TSV README, judges
+ Interface
+ Low ink, one search, progressive reveal. Colour encodes evidence class only (five hues, always paired with a text label). No force-directed graph anywhere.
+ Screens, components and behaviours
+ Screen Component Behaviour Owner · window
+ Search Search Command-palette input; debounced /search ; shows "STXBP1 → developmental and epileptic encephalopathy 4 (MONDO:0012812), matched synonym 'Munc18-1'"; accepts gene, disease, HPO term, organisation, mechanism C · H4–H7
+ Overview Overview Six count tiles, each a link to a filtered list; exact-match community card; three-line plain summary (Devon) or technical summary (others) C · H7–H9
+ Cluster ClusterView (D3 SVG) Ranked neighbour rows with three stacked layer bars (P, M, V) and the mechanism label; a counterexample lane below; a 200 px mini-map of the cluster as a radial layout anchored on the query disease; clicking a row expands its edges C · H9–H13
+ Edge inspector EdgeInspector drawer Ledger verbatim; quote highlighted; contradicting edges listed with their own sources; "open source record" link C · H11–H13
+ Assets AssetCompare Three columns: matches, differs, needs expert review; coverage number with denominator; eligibility diff table C · H13–H15
+ People BridgePeople Cards with proving edges, affiliations, role chips (author, PI, study official); "why same person" disclosure D · H12–H15
+ Dossier Dossier Rendered sections with superscript edge footnotes; footnote hover opens the inspector; "Export PDF" uses print CSS; "Copy Markdown"; dropped-sentence notice C · H15–H18
+ Persona PersonaToggle Maria, Devon, Priya, Dr. Osei; changes copy density and ordering, re-requests dossier; Priya adds a mechanism input D · H15–H18
+ Honest gap CoverageReport Replaces cluster and dossier when the detector fires; same visual language, no red error styling D · H14–H17
+ Contribute ContributeEvidence URL + one sentence + which edge it supports or contradicts; stored as proposed; shown as pending in the inspector D · H18–H20 if time
+ State URL is the state: /d/MONDO:0012812?persona=maria&edge=… . No client store beyond React Query caching.
+ Accessibility Keyboard path through the whole journey; every SVG has a text equivalent list; Lighthouse accessibility ≥ 90 on the cluster page.
+ Performance Demo disease pre-rendered on the server; dossier for the demo disease served from cache; everything else under 1 s from the snapshot.
+ Shared Path Dossier specification
+ The template is the product spec. Each section names the edge types it may cite; the validator enforces the required ones.
+ Dossier sections, required content and permitted edge types
+ Section Required content Cites Required
+ Who shares our characteristics Cluster members with the shared mechanism in one sentence each; counterexample with the excluding layer shares_mechanism_with, participates_in, has_variant_class, counterexample_of Yes
+ What already exists Top asset with coverage number; registries and models in the cluster reusable_for, measures, serves, studies Yes (or explicit "none found" with coverage)
+ What differs and must be verified Eligibility and variant-effect differences; every Skeptic objection with its contradicting edge has_variant_class, claims (contradicts), eligibility facts Yes
+ Who to contact Up to three bridge people with proving edges and a suggested reach-out path (study official, PI, corresponding author) bridges, authored, investigates, funds Yes if any bridge exists
+ Proposed first joint step One experiment or protocol action phrased as a testable question, with the asset it reuses reusable_for, measures Yes
+ Search coverage Sources, dates, counts; dropped-sentence count — Always
+ 24-hour schedule, team of four
+ A — data and graph engineer. B — LLM and agents engineer. C — frontend engineer. D — product lead and full-stack (demo, people view, README, video). Integration checkpoints at H6, H12, H18, H21.
+ 01
+ Freeze slice, schema, contracts H0–2 · All hands
+ Pull the MONDO DEE descendant list and cap to ~40 genes (A). Confirm the honest-gap gene from live counts (D). Write SCHEMA.md with node and edge tables and the ledger (A+B). Write the dossier template and the one-minute script (D). Scaffold both apps, CI, Makefile, HTTP cache (C+B). Generate fixture JSON for every endpoint from the schema so C can start immediately (B).
+ Exit criteria make demo serves fixtures end to end; slice.yaml committed; everyone can name the demo sentence.
+ 02
+ Ingest everything; first extraction batch in flight H2–6 · A, B, C, D
+ A: Monarch, HPO, ClinVar, Reactome, STRING, Orphadata fetchers into data/raw ; normalise biology nodes. B: PubMed, CT.gov, RePORTER fetchers; submit the first Batch API extraction job on 500 abstracts; build the ID validator. C: Search and Overview against fixtures; design tokens; evidence-class colour scale. D: seed foundation list with verified URLs; web-search discovery script; hand-label 50 abstracts for the extraction eval.
+ Checkpoint H6 Real biology nodes and edges in DuckDB; first batch returned; extraction precision on the 50-abstract eval ≥ 0.85 or the model decision is revisited; OpenAPI client regenerated from real response models.
+ 03
+ Full graph build and first analytics H6–12 · A, B, C, D
+ A: full Batch extraction over ~4,000 abstracts; validate and write; KGX export; similarity fusion and the Leiden sweep; golden test green. B: reconciliation (diseases, people, orgs); outcome-measure and eligibility mapping; Agents SDK skeleton with graph tools and the cite-or-drop validator. C: Cluster view and Edge inspector on real data. D: community discovery edges; bridge-person ranking with A; People view skeleton.
+ Checkpoint H12 Journey A steps 1–4 run on real data; STXBP1 cluster matches the golden test; every edge has a complete ledger; rejected-edge count known.
+ 04
+ Assets, people, agents, dossier H12–18 · A, B, C, D
+ A: asset coverage scoring, honest-gap detector, /coverage , /mechanism/search ; snapshot committed; Modal deploy of the API. B: Navigator, Skeptic and Writer end to end; dossier cache; Skeptic fills contradicted_by for the demo cluster; agent traces saved for the README. C: Asset view, Dossier view with footnote-to-inspector hover, export. D: People view, Persona toggle, Coverage report; hand-check 20 bridges.
+ Checkpoint H18 — feature freeze Journeys A and B complete in the deployed app; dossier has zero uncited sentences; Playwright journeys pass locally. Anything not done is cut.
+ 05
+ Polish, deploy, README, rehearse H18–21 · All hands
+ Fix everything found in two full rehearsals of the script (all). Vercel deploy with the Modal URL; warm container pinned (A). README: architecture, one-command rebuild, data sources with dates, rejected-edge and dropped-sentence counts, cost, known limitations (D+B). Lighthouse and keyboard pass (C). Contribute-evidence form only if nothing else is open (D).
+ Checkpoint H21 — content freeze Deployed URL works from a phone on cellular; README reproduces the snapshot on a clean machine (tested by the person who did not write it).
+ 06
+ Record and submit H21–24 · All hands
+ Record the one-minute walkthrough against the deployed app (D narrates, C drives); record the team video; tag the release; submit repository, URLs and videos. Keep the last 30 minutes empty.
+ Exit criteria Submission confirmed; a judge can open the URL cold and complete Journey A.
+ Planned engineer-hours by workstream (96 total)
+ Engineer-hours allocated to each workstream across the four-person team
+ Workstream Hours
+ Ingest, normalise, validate, graph build 20
+ Extraction, reconciliation, agents 18
+ Analytics (similarity, clusters, bridges, coverage, gaps) 10
+ Frontend views 22
+ Integration, QA, rehearsals 10
+ Deploy, README, videos, submission 8
+ Slack (unplanned) 8
+ Quality gates
+ Tests, what they assert, and when they must pass
+ Gate Asserts Runs Must pass by
+ Ledger invariants (pytest) Every edge has source, source_record, retrieved_at, evidence_class, confidence in [0,1]; every llm_extracted edge has a quote that is a substring of the cached abstract; no CURIE outside known namespaces CI, on the committed snapshot H10
+ Identifier validation 100% of PMIDs, NCTs, project numbers, MONDO/HGNC/HP IDs on written edges resolve; rejected count reported make data H10
+ Extraction eval On 50 hand-labelled abstracts: claim precision ≥ 0.85, recall ≥ 0.6, quote fidelity 100% Manual at H6, H10 H10
+ Golden cluster STXBP1 cluster contains DNM1 and ≥ 2 of SNAP25/STX1B/VAMP2; excludes GNAO1, GABRG2, KCNT1; stability ≥ 0.8 CI H12
+ Bridge precision ≥ 16 of top 20 bridges are genuine same-person, cross-gene links Manual (D) H16
+ Dossier validator Zero uncited sentences after validation; all required sections non-empty for the demo disease; gap plan produced for the honest-gap disease CI with cached agent outputs; live at H16 H18
+ API contract OpenAPI unchanged since H6 or client regenerated; all endpoints answer for both demo diseases under 1 s from snapshot CI H18
+ Playwright journeys Journey A (8 steps) and Journey B (4 steps) complete with keyboard only; no console errors CI against make demo ; manual against deployed URL H18 local, H21 deployed
+ Accessibility and print Lighthouse accessibility ≥ 90 on cluster and dossier pages; dossier prints to a clean two-page PDF Manual H21
+ Cold reproduction Fresh clone, make demo runs with no network and no API key; make data rebuilds the snapshot with a key Manual, by a teammate who did not write it H21
+ Risks and fallbacks
+ Batch API latency. Batch jobs can take hours. Mitigation: submit the first 500 abstracts at H3 and the rest in four chunks by H6; if any chunk is not back by H9, run it synchronously with GPT-5 mini at 20 concurrent requests (~25 minutes).
+ Cluster does not match the biology. If the Leiden sweep cannot satisfy the golden test, inspect the three layers for STXBP1–DNM1 first (Reactome may place them in different lowest-level pathways; STRING should still link SNARE partners). Adjust weights once, document why, and never special-case gene names.
+ Person reconciliation noise. Common surnames produce false merges. Mitigation: require two signals (affiliation or co-author or RePORTER publication link) for a merge; show "why same person"; the demo bridge is hand-verified at H16.
+ Public API outage during judging. All reads come from the committed snapshot; identifier links point to public pages, not live calls. The dossier for both demo diseases is cached. The app has no runtime dependency on any external API in LLM_MODE=cached .
+ Over-claiming biology. Every mechanistic sentence is labelled with its evidence class and level (in vitro, animal, human); the Skeptic's objections appear in the dossier, not a hidden log; the README states that the atlas proposes, clinicians decide.
+ Scope creep. The dossier template and the two journeys are the spec. The feature-freeze checkpoint at H18 is owned by D and is not negotiable; stretch items are listed in priority order and taken only from the top.
+ Submission checklist
+ Deployed URL (Vercel) with the Modal API; demo disease preloaded; works on mobile.
+ Repository public at tag v0.1-hacknation ; README with architecture diagram, data sources and dates, one-command rebuild, evidence-class legend, rejected-edge and dropped-sentence counts, OpenAI usage (Extract, Reconcile, Explain mapped to code paths), cost, limitations, and the 10× assumptions.
+ KGX export downloadable from the README.
+ One-minute walkthrough video following the pitch script: search → cluster with counterexample → edge inspector → asset comparison → bridge person → dossier export → persona switch → honest gap.
+ Team video (≤ 2 minutes): problem, insight, what is real in the demo, what must be validated next.
+ After the hackathon (day 2 onward)
+ Scale the slice: all monogenic diseases with ≥ 10 HPO annotations (~3,000), nightly rebuild, Monarch KG bulk download instead of per-entity calls.
+ Person identity through ORCID and OpenAlex; organisation identity through ROR.
+ Clinician review workflow: proposed and contradicted edges routed to a reviewer queue; reviewed edges gain a sixth evidence class.
+ Validation study for the 10× claim: two foundations use a dossier for a partner search; measure weeks to first partner meeting against their own history.
+ Realtime voice for Devon over the same ledger; JAX and preprint ingestion.
