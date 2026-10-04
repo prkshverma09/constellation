@@ -60,19 +60,19 @@ defaults to the real API, not fixtures.
 
 ## Deploy (free tier)
 
-- **API on Render**: the repo ships a `render.yaml` Blueprint — add it as a
-  Blueprint instance and it creates a `constellation-api` web service that
-  installs dependencies with `uv` and runs uvicorn in `LLM_MODE=offline` (no
-  OpenAI key needed). The free plan sleeps after ~15 minutes idle, so the
-  first request after idle can take ~30 seconds while it cold-starts.
-- **Web on Vercel**: import the repo, set **Root Directory** to `apps/web`,
-  and add `NEXT_PUBLIC_API_BASE=https://<your-service>.onrender.com` before
-  deploying.
-- **CORS**: the API accepts extra origins via `CORS_ORIGINS` (comma-separated
-  exact origins) and `CORS_ORIGIN_REGEX` (a regex). `render.yaml` sets
-  `CORS_ORIGIN_REGEX` to `^https://constellation[a-z0-9-]*\.vercel\.app$`,
-  covering the production URL and preview deployments; adjust the prefix if
-  your Vercel project name differs.
+Both halves run on the Vercel Hobby plan as two projects:
+
+- **API** (repo root): `api/index.py` exposes the FastAPI app, and the root
+  `requirements.txt` lists only the API's runtime dependencies. `.vercelignore`
+  hides `backend/pyproject.toml` so Vercel uses those files instead of the uv
+  project. Set `LLM_MODE=offline` (no OpenAI key needed) and
+  `CORS_ORIGIN_REGEX=^https://constellation[a-z0-9-]*\.vercel\.app$`. The
+  snapshot needs about 500 MB of memory, so 512 MB hosts such as Render's free
+  plan run out of memory.
+- **Web** (`apps/web`): set `NEXT_PUBLIC_API_BASE` to the API's URL.
+
+The API also accepts exact extra origins through `CORS_ORIGINS`
+(comma-separated).
 
 ## Architecture
 

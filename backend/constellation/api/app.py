@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import functools
 import json
 import os
 import time
@@ -65,6 +66,7 @@ class ContributeRequest(BaseModel):
     polarity: Literal["supports", "contradicts"]
 
 
+@functools.cache
 def get_snapshot() -> Snapshot:
     if not (SNAPSHOT / "nodes.parquet").exists():
         raise HTTPException(status_code=503, detail="Snapshot is not built; run `make data`.")
