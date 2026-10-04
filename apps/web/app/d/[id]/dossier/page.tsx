@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { api } from "@/lib/api";
 import { Dossier } from "@/components/Dossier";
@@ -10,9 +10,11 @@ import { ErrorNotice, usePersona, withPersona } from "@/components/Shared";
 
 function DossierContent() {
   const params = useParams<{ id: string }>();
+  const search = useSearchParams();
   const id = decodeURIComponent(params.id);
   const persona = usePersona();
-  const query = useQuery({ queryKey: ["dossier", id, persona], queryFn: () => api.dossier(id, persona) });
+  const vs = search.get("vs") ?? undefined;
+  const query = useQuery({ queryKey: ["dossier", id, persona, vs], queryFn: () => api.dossier(id, persona, vs) });
   return <main id="main-content" className="page-shell dossier-shell">
     <div className="page-topline no-print"><Link href={withPersona(`/d/${encodeURIComponent(id)}`, persona)}>← Disease overview</Link></div>
     {query.isPending && <p>Preparing cited dossier…</p>}

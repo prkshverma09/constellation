@@ -56,13 +56,14 @@ export type EdgeResponse = LedgerRow & { contradicting: LedgerRow[] };
 export type Asset = {
   id: string; name: string; asset_type: "natural_history_study" | "registry" | "biobank" | "animal_model" | "biomarker" | "protocol";
   url: string; record_id: string; serves: DiseaseRef[];
-  coverage: { value: number; numerator_ic: number; denominator_ic: number; n_matched: number; n_total: number; matched: { id: string; label: string }[]; unmatched: { id: string; label: string }[] } | null;
+  coverage: { value: number; numerator_ic: number; denominator_ic: number; n_matched: number; n_total: number; matched: { id: string; label: string; match_type: "exact" | "descendant" | "ancestor"; matched_by: { id: string; label: string } }[]; unmatched: { id: string; label: string }[] } | null;
   eligibility_diff: { field: string; asset_value: string; target_value: string; status: "matches" | "differs" | "needs_expert_review" }[];
+  eligibility_text: string;
   edge_ids: string[];
 };
 export type AssetsResponse = { cluster_id: string; for_disease: DiseaseRef; assets: Asset[] };
 export type Bridge = {
-  id: string; display_name: string; affiliations: string[]; roles: ("author" | "pi" | "study_official")[];
+  id: string; display_name: string; affiliations: string[]; additional_affiliations: string[]; roles: ("author" | "pi" | "study_official")[];
   n_a: number; n_b: number; score: number;
   proving_edges: { edge_id: string; kind: "paper" | "study" | "award"; record_id: string; title: string; year: number | null; url: string; disease_id: string; disease_ids: string[] }[];
   why_same_person: string;
@@ -113,7 +114,7 @@ export const api = {
   assets: (clusterId: string, diseaseId: string) => base === "mock" ? import("./mock").then((m) => m.mockAssets(clusterId, diseaseId)) : request<AssetsResponse>(`/api/cluster/${encodeURIComponent(clusterId)}/assets?for=${encodeURIComponent(diseaseId)}`),
   bridges: (a: string, b: string) => base === "mock" ? import("./mock").then((m) => m.mockBridges(a, b)) : request<BridgesResponse>(`/api/bridges?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`),
   coverage: (id: string) => base === "mock" ? import("./mock").then((m) => m.mockCoverage(id)) : request<CoverageResponse>(`/api/disease/${encodeURIComponent(id)}/coverage`),
-  dossier: (disease: string, persona: Persona) => base === "mock" ? import("./mock").then((m) => m.mockDossier(disease, persona)) : request<Dossier>("/api/dossier", { method: "POST", body: JSON.stringify({ disease, persona }) }),
+  dossier: (disease: string, persona: Persona, vs?: string) => base === "mock" ? import("./mock").then((m) => m.mockDossier(disease, persona)) : request<Dossier>("/api/dossier", { method: "POST", body: JSON.stringify({ disease, persona, vs }) }),
   mechanismSearch: (q: string) => base === "mock" ? import("./mock").then((m) => m.mockMechanismSearch(q)) : request<MechanismSearchResponse>(`/api/mechanism/search?q=${encodeURIComponent(q)}`),
   contribute: (body: ContributeRequest) => base === "mock" ? import("./mock").then((m) => m.mockContribute(body)) : request<ContributeResponse>("/api/contribute", { method: "POST", body: JSON.stringify(body) }),
   exportKgx: async (): Promise<Blob> => {

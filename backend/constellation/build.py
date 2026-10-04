@@ -45,7 +45,15 @@ from constellation.ingest.sources import (
     trial_by_nct,
     uniprot_accession,
 )
-from constellation.ledger import make_edge, person_curie, reject_edge, validate_edge
+from constellation.ledger import (
+    make_edge,
+    person_curie,
+    reject_edge,
+    sanitize_affiliation,
+    sanitize_affiliations,
+    sanitize_snapshot_record,
+    validate_edge,
+)
 
 TRIAL_SEED = "NCT06555965"
 MECHANISM_CLASS_LABELS = {
@@ -98,6 +106,10 @@ def _study_to_asset(
     genes_by_symbol: dict[str, dict[str, Any]],
     nodes: dict[str, dict[str, Any]],
     edges: list[dict[str, Any]],
+    hpo_labels: dict[str, str],
+    hpo_synonyms: dict[str, list[str]],
+    information_content: dict[str, float],
+    phenotype_parents: dict[str, list[str]],
 ) -> None:
     modules = _clinical_modules(study)
     ident = modules.get("identificationModule", {})
@@ -135,7 +147,7 @@ def _study_to_asset(
         name = official.get("name", "").strip()
         if not name:
             continue
-        affiliation = official.get("affiliation", "")
+        affiliation = sanitize_affiliation(official.get("affiliation", ""))
         identifier = person_curie(name, affiliation)
         orcid = official.get("orcid")
         add_node(
@@ -195,13 +207,44 @@ def _study_to_asset(
     asset_id = f"constellation:asset/{nct_id.lower()}"
     outcome_measures = nodes[study_id]["properties"]["outcome_measures"]
     outcome_text = " ".join(outcome_measures).casefold()
-    outcome_phenotypes = [
-        node_id
-        for node_id, node in nodes.items()
-        if node.get("type") == "phenotype"
-        and node.get("label")
-        and re.search(rf"\b{re.escape(node['label'].casefold())}\b", outcome_text)
-    ]
+    hpo_names: dict[str, set[str]] = defaultdict(set)
+    for term_id, label in hpo_labels.items():
+        hpo_names[term_id].add(label)
+    for term_id, terms in hpo_synonyms.items():
+        hpo_names[term_id].update(terms)
+    for term_id, node in nodes.items():
+        if node.get("type") == "phenotype" and node.get("label"):
+            hpo_names[term_id].add(node["label"])
+            hpo_names[term_id].update(node.get("properties", {}).get("synonyms", []))
+    outcome_phenotypes = sorted(
+        term_id
+        for term_id, names in hpo_names.items()
+        if any(
+            re.search(rf"(?<!\w){re.escape(name.casefold())}(?!\w)", outcome_text)
+            for name in names
+            if name.strip()
+        )
+    )
+    for phenotype_id in outcome_phenotypes:
+        if phenotype_id not in nodes:
+            add_node(
+                nodes,
+                phenotype_id,
+                "phenotype",
+                hpo_labels.get(phenotype_id, phenotype_id),
+                {
+                    "information_content": information_content.get(phenotype_id, 0.0),
+                    "parents": phenotype_parents.get(phenotype_id, []),
+                    "synonyms": hpo_synonyms.get(phenotype_id, []),
+                },
+            )
+    served_phenotypes = {
+        edge["object"]
+        for edge in edges
+        if edge["subject"] in related_diseases and edge["predicate"] == "has_phenotype"
+    }
+    phenotype_profile = sorted(served_phenotypes | set(outcome_phenotypes))
+    enrollment_info = design.get("enrollmentInfo") or {}
     add_node(
         nodes,
         asset_id,
@@ -214,10 +257,15 @@ def _study_to_asset(
             "record_id": nct_id,
             "url": f"https://clinicaltrials.gov/study/{nct_id}",
             "outcome_phenotypes": outcome_phenotypes,
+            "phenotype_profile": phenotype_profile,
             "outcome_measures": outcome_measures,
             "eligibility": eligibility.get("eligibilityCriteria", ""),
             "minimum_age": eligibility.get("minimumAge", ""),
             "maximum_age": eligibility.get("maximumAge", ""),
+            "study_type": design.get("studyType", ""),
+            "overall_status": modules.get("statusModule", {}).get("overallStatus", ""),
+            "enrollment": enrollment_info.get("count"),
+            "n_locations": len(details.get("locations") or []),
             "variant_class": "unknown",
         },
     )
@@ -246,7 +294,7 @@ def _study_to_asset(
                 source="ctgov",
                 source_record=nct_id,
                 source_url=f"https://clinicaltrials.gov/study/{nct_id}",
-                method="exact phenotype-label match in registered outcome text",
+                method="exact HPO label/synonym match in registered outcome text",
             )
         )
     for disease_id in related_diseases:
@@ -348,7 +396,7 @@ def _author_edges(
         )
     for author in paper.get("authors", []):
         name = author["name"]
-        affiliations = author.get("affiliations", [])
+        affiliations = sanitize_affiliations(author.get("affiliations", []))
         affiliation = affiliations[0] if affiliations else ""
         person_id = person_curie(name, affiliation)
         orcid = author.get("orcid")
@@ -418,7 +466,12 @@ def build() -> dict[str, Any]:
     trial_counts: dict[str, int] = {}
     trial_ids: set[str] = {TRIAL_SEED}
     trial_gene_hits: dict[str, set[str]] = defaultdict(set)
-    information_content, phenotype_parents = hpo_information(http)
+    (
+        information_content,
+        phenotype_parents,
+        phenotype_labels,
+        phenotype_synonyms,
+    ) = hpo_information(http)
 
     for symbol in symbols:
         entity = resolve_gene(http, symbol)
@@ -517,8 +570,9 @@ def build() -> dict[str, Any]:
                 "phenotype",
                 label,
                 {
-                    "information_content": information_content.get(phenotype_id, 1.0),
+                    "information_content": information_content.get(phenotype_id, 0.0),
                     "parents": phenotype_parents.get(phenotype_id, []),
+                    "synonyms": phenotype_synonyms.get(phenotype_id, []),
                 },
             )
             phenotype_sets[disease_id].add(phenotype_id)
@@ -923,7 +977,7 @@ def build() -> dict[str, Any]:
             name = pi if isinstance(pi, str) else pi.get("full_name", "")
             if not name:
                 continue
-            affiliation = str(project.get("organization", "") or "")
+            affiliation = sanitize_affiliation(project.get("organization", ""))
             orcid = pi.get("orcid") if isinstance(pi, dict) else None
             person_id = person_curie(name, affiliation)
             add_node(
@@ -996,7 +1050,16 @@ def build() -> dict[str, Any]:
         if not study:
             continue
         trial_cache[nct_id] = study
-        _study_to_asset(study, genes, nodes, edges)
+        _study_to_asset(
+            study,
+            genes,
+            nodes,
+            edges,
+            phenotype_labels,
+            phenotype_synonyms,
+            information_content,
+            phenotype_parents,
+        )
         study_id = f"NCT:{nct_id}"
         if study_id not in nodes:
             continue
@@ -1210,11 +1273,19 @@ def build() -> dict[str, Any]:
             if score["supported"] and score["string_mech"] >= 0.7
             else ""
         )
+    term_gene_counts = {**reactome_data["gene_counts"], **go_term_counts}
+    pathway_specificity = {
+        term: 1.0 / count
+        for term, count in term_gene_counts.items()
+        if count > 0
+    }
     clusters, _cluster_for_disease = cluster_records(
         disease_ids,
         scores,
         {disease_id: nodes[disease_id]["label"] for disease_id in disease_ids},
         pathway_labels,
+        reactome_parents,
+        pathway_specificity,
     )
     for cluster in clusters:
         add_node(
@@ -1285,6 +1356,11 @@ def build() -> dict[str, Any]:
                 },
             )
         )
+
+    for node in nodes.values():
+        sanitize_snapshot_record(node)
+    for edge in edges:
+        sanitize_snapshot_record(edge)
 
     known_ids = set(nodes)
     valid_edges: list[dict[str, Any]] = []
@@ -1367,6 +1443,11 @@ def build() -> dict[str, Any]:
         "counts distinct human genes assigned to each term or its descendants across all "
         "evidence codes; ≤500 is the GSEA default maximum gene-set size. Per-gene scoring "
         "uses experimental codes only, and `M_go` is the Jaccard of specific propagated terms.\n"
+        "- HPO information content uses `phenotype.hpoa` and `hp.json` `is_a` ancestry. "
+        "Each term counts distinct HPOA diseases annotated to it or a descendant, independent "
+        "of the slice. Asset profiles union served-disease phenotypes and HPO terms matched "
+        "by exact outcome label/synonym; coverage accepts exact terms, descendants, and "
+        "ancestors whose IC is at least half the target term IC, weighted by target IC.\n"
         "- Mechanism support is the maximum of Reactome lowest-level Jaccard, specific GO "
         "Jaccard, and the thresholded STRING indicator. The support guard is "
         "`S >= 0.45 AND M >= 0.25`; weights and the 0.45 S threshold are unchanged. "
@@ -1416,15 +1497,9 @@ def build() -> dict[str, Any]:
         if cache_path in current_dossier_paths:
             continue
         try:
-            cached_payload = json.loads(cache_path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        if (
-            isinstance(cached_payload, dict)
-            and cached_payload.get("snapshot_hash")
-            and cached_payload["snapshot_hash"] != snapshot.snapshot_hash
-        ):
             cache_path.unlink()
+        except OSError:
+            continue
     http.close()
     return {
         "nodes": len(nodes),

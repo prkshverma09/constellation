@@ -20,6 +20,7 @@
       "affiliations": [
         "Institution 1"
       ],
+      "additional_affiliations": [],
       "roles": [
         "author",
         "pi"
@@ -63,6 +64,7 @@
       "affiliations": [
         "Institution 2"
       ],
+      "additional_affiliations": [],
       "roles": [
         "study_official"
       ],

@@ -190,9 +190,11 @@ def _mechanism_edge_ids(
 
 def _member_label(node: dict[str, Any]) -> str:
     properties = node.get("properties", {})
-    if properties.get("gene_symbol") == "DNM1":
-        return "DNM1-related disease (developmental and epileptic encephalopathy 31)"
-    return properties.get("gene_symbol") or node.get("label", node["id"])
+    gene_symbol = properties.get("gene_symbol")
+    disease_name = node.get("label", node["id"])
+    if gene_symbol:
+        return f"{gene_symbol}-related disease ({disease_name})"
+    return disease_name
 
 
 def _shared_terms(snapshot: Snapshot, edge: dict[str, Any]) -> list[dict[str, str]]:
@@ -270,6 +272,7 @@ def build_dossier(
     persona: str = "maria",
     *,
     mode: str = "offline",
+    comparator_id: str | None = None,
 ) -> dict[str, Any]:
     disease = snapshot.node_by_id.get(disease_id)
     if not disease:
@@ -300,14 +303,55 @@ def build_dossier(
         )
     cluster_rows.sort(key=lambda row: (-row["score"], row["label"].casefold()))
     partial_rows = _partial_overlap_rows(snapshot, disease_id)
+    partial_prose_rows = partial_rows[:3]
+    selected_partial = next(
+        (row for row in partial_rows if row["disease_id"] == comparator_id),
+        None,
+    )
+    if selected_partial and selected_partial not in partial_prose_rows:
+        partial_prose_rows.append(selected_partial)
     shared_sentences = []
+    if cluster:
+        membership_edge = next(
+            (
+                edge
+                for edge in snapshot.edges_by_subject.get(disease_id, [])
+                if edge["predicate"] == "member_of" and edge["object"] == cluster["id"]
+            ),
+            None,
+        )
+        if membership_edge:
+            cluster_label = cluster.get("label") or "shared-pathway"
+            if persona == "devon":
+                membership_text = (
+                    f"{gene_symbol} is grouped with {len(member_ids)} related diseases "
+                    f"under {cluster_label}."
+                )
+            elif persona == "osei":
+                membership_text = (
+                    f"Verify {gene_symbol} membership in {cluster_label} "
+                    f"(stability {cluster.get('stability', 0):.2f})."
+                )
+            elif persona == "priya":
+                membership_text = (
+                    f"Mechanism cluster label: {cluster_label}; membership stability "
+                    f"{cluster.get('stability', 0):.2f}."
+                )
+            else:
+                membership_text = (
+                    f"{gene_symbol}-related disease is grouped in the "
+                    f"{cluster_label} research cluster."
+                )
+            shared_sentences.append(
+                _sentence(membership_text, [membership_edge["edge_id"]])
+            )
     for row in cluster_rows:
         edge = row["edge"]
         mechanism = _mechanism_label(snapshot, edge)
         terms = _shared_terms(snapshot, edge)
         term_ids = ", ".join(term["id"] for term in terms[:2])
         if persona == "devon":
-            text = f"{row['label']} is in the same research cluster."
+            text = f"{row['label']} shares a research pattern with {gene_symbol}."
         elif persona == "osei":
             text = (
                 f"Verify {row['label']}: shared mechanism evidence is {mechanism} "
@@ -320,46 +364,18 @@ def build_dossier(
                 f"(terms {identifiers}; S {row['score']:.2f})."
             )
         else:
-            support_note = (
-                "supported"
-                if edge.get("properties", {}).get("supported")
-                else "below the direct-pair support threshold"
-            )
             text = (
-                f"{row['label']} is a Leiden-cluster member (S {row['score']:.2f}, "
-                f"{support_note}); "
-                f"shared mechanism: {mechanism}."
+                f"{row['label']} shares mechanism evidence with {gene_symbol}: "
+                f"{mechanism}."
             )
         shared_sentences.append(_sentence(text, [edge["edge_id"]]))
     if not shared_sentences and coverage_refs:
         shared_sentences.append(
             _sentence(
-                "No other Leiden-cluster member is mapped in the current snapshot.",
+                "No other supported mechanism neighbour is mapped in the current snapshot.",
                 coverage_refs[:3],
             )
         )
-
-    counterexample = cluster.get("counterexample_id") if cluster else None
-    if cluster and counterexample and counterexample not in member_ids:
-        counter_edges = _pair_edges(snapshot, disease_id, counterexample)
-        if counter_edges:
-            counter_edge = max(
-                counter_edges,
-                key=lambda row: float(row.get("properties", {}).get("P") or 0),
-            )
-            excluded_by = str(cluster.get("excluded_by") or "")
-            exclusion = {
-                "M": "M=0 (no mechanism support)",
-                "V": "V=0 (variant classes differ)",
-                "S": "S is below the support threshold",
-            }.get(excluded_by, "the fused support rule")
-            shared_sentences.append(
-                _sentence(
-                    f"The highest-phenotype non-member counterexample is excluded because "
-                    f"{exclusion}.",
-                    [counter_edge["edge_id"]],
-                )
-            )
 
     cluster_assets = disease_assets(snapshot, disease_id)
     asset_sentences = []
@@ -425,22 +441,13 @@ def build_dossier(
     best_coverage = coverage_candidates[0] if coverage_candidates else None
     if best_coverage:
         asset, coverage, refs = best_coverage
-        if persona == "devon":
-            text = (
-                f"The leading neighbour has {coverage['n_matched']} of "
-                f"{coverage['n_total']} phenotype terms covered by {asset['label']}."
-            )
-        elif persona == "osei":
-            text = (
-                f"Verify coverage for {top_neighbor_label}: {asset['label']} scores "
-                f"{coverage['value']:.2f} ({coverage['n_matched']}/{coverage['n_total']})."
-            )
-        else:
-            text = (
-                f"For the top-S neighbour {top_neighbor_label}, {asset['label']} has "
-                f"coverage {coverage['value']:.2f} "
-                f"({coverage['n_matched']}/{coverage['n_total']} phenotype terms)."
-            )
+        percent = round(float(coverage["value"]) * 100)
+        text = (
+            f"{asset['label']} is mapped to {top_neighbor_label}; it covers {percent}% "
+            f"of the target disease phenotype information "
+            f"({coverage['n_matched']} of {coverage['n_total']} terms; IC "
+            f"{coverage['numerator_ic']:.2f}/{coverage['denominator_ic']:.2f})."
+        )
         asset_sentences.append(_sentence(text, refs))
 
     exact_group_sentences = []
@@ -461,7 +468,7 @@ def build_dossier(
             elif persona == "osei":
                 text = f"Verify exact foundation link: {group['label']}."
             else:
-                text = f"Exact-match foundation {group['label']} is mapped to this cluster."
+                text = f"Exact-match foundation {group['label']} supports this disease group."
             exact_group_sentences.append(_sentence(text, [edge["edge_id"]]))
     asset_sentences.extend(exact_group_sentences[:3])
     if not asset_sentences and coverage_refs:
@@ -474,7 +481,7 @@ def build_dossier(
 
     differs = []
     variant_differences = []
-    for row in [*cluster_rows, *partial_rows]:
+    for row in [*cluster_rows, *partial_prose_rows]:
         pair_edge = row["edge"]
         pair_properties = pair_edge.get("properties", {})
         if float(pair_properties.get("V") or 0) != 0:
@@ -494,7 +501,7 @@ def build_dossier(
             continue
         if persona == "devon":
             text = (
-                f"Variant evidence differs: {gene_symbol} ({evidence_self['class']}), "
+                f"Variant evidence differs (V=0): {gene_symbol} ({evidence_self['class']}), "
                 f"“{evidence_self['quote']}”; {row['label']} "
                 f"({evidence_other['class']}), “{evidence_other['quote']}”."
             )
@@ -506,7 +513,8 @@ def build_dossier(
             )
         else:
             text = (
-                f"V=0 against {row['label']}: {gene_symbol} is {evidence_self['class']} "
+                f"Variant evidence differs (V=0) against {row['label']}: "
+                f"{gene_symbol} is {evidence_self['class']} "
                 f"(“{evidence_self['quote']}”); the comparator is {evidence_other['class']} "
                 f"(“{evidence_other['quote']}”)."
             )
@@ -521,33 +529,78 @@ def build_dossier(
             )
         )
 
-    for row in partial_rows:
+    counterexample_id = cluster.get("counterexample_id") if cluster else None
+    counterexample = snapshot.node_by_id.get(counterexample_id or "")
+    if counterexample_id and counterexample:
+        counterexample_edges = _pair_edges(snapshot, disease_id, counterexample_id)
+        if counterexample_edges:
+            counterexample_edge = max(
+                counterexample_edges,
+                key=lambda edge: float(edge.get("properties", {}).get("P") or 0),
+            )
+            counterexample_properties = counterexample_edge.get("properties", {})
+            counterexample_label = _member_label(counterexample)
+            p_score = float(counterexample_properties.get("P") or 0)
+            m_score = float(counterexample_properties.get("M") or 0)
+            if persona == "devon":
+                text = (
+                    f"{counterexample_label} looks similar clinically but shares no "
+                    "supported mechanism, so it is excluded."
+                )
+            elif persona == "osei":
+                text = (
+                    f"Verify the counterexample {counterexample_label}: clinical "
+                    f"similarity P={p_score:.2f}, mechanism M={m_score:.2f}; it is "
+                    "excluded by the mechanism layer."
+                )
+            elif persona == "priya":
+                text = (
+                    f"Mechanism counterexample: {counterexample_label} has P={p_score:.2f} "
+                    f"but M={m_score:.2f}, below support; it is excluded."
+                )
+            else:
+                text = (
+                    f"{counterexample_label} looks similar clinically (P {p_score:.2f}) "
+                    f"but shares no supported mechanism (M = {m_score:.2f}), so it is "
+                    "excluded."
+                )
+            differs.append(_sentence(text, [counterexample_edge["edge_id"]]))
+
+    for row in partial_prose_rows:
         edge = row["edge"]
         terms = _shared_terms(snapshot, edge)
         if not terms:
             continue
         term_names = ", ".join(term["name"] for term in terms[:2])
         term_ids = ", ".join(term["id"] for term in terms[:2])
+        term_count = len(terms)
         if persona == "devon":
             text = (
-                f"{row['label']}: same process, different step / weak overlap at "
-                f"{term_names} (M={row['M']:.2f})."
+                f"{row['label']} overlaps only weakly at {term_names}, a related process "
+                "but a different step."
             )
         elif persona == "osei":
             text = (
-                f"Verify {row['label']}: same process, different step / weak overlap at "
-                f"{term_names} ({term_ids}; M={row['M']:.2f}, excluded by "
-                f"{row['excluded_by']} layer)."
+                f"Verify {row['label']}: {term_count} shared process term(s) "
+                f"({term_names}; {term_ids}); M={row['M']:.2f}, S={row['S']:.2f}, "
+                f"excluded by {row['excluded_by']} layer."
             )
         elif persona == "priya":
             text = (
-                f"Mechanism first: {row['label']} has a same process, different step / "
-                f"weak overlap at {term_names} ({term_ids}; M={row['M']:.2f})."
+                f"Mechanism first: {row['label']} overlaps at {term_names} "
+                f"({term_ids}; M={row['M']:.2f}, S={row['S']:.2f})."
+            )
+        elif row["excluded_by"] == "M":
+            text = (
+                f"{row['label']} overlaps only weakly: {term_count} shared process "
+                f"term(s) ({term_names}; {term_ids}); M = {row['M']:.2f} is below "
+                "the 0.25 support threshold."
             )
         else:
             text = (
-                f"{row['label']} has a same process, different step / weak overlap at "
-                f"{term_names} (M={row['M']:.2f}; excluded by {row['excluded_by']} layer)."
+                f"{row['label']} shares {term_count} process term(s) "
+                f"({term_names}; {term_ids}; M = {row['M']:.2f}) but S = "
+                f"{row['S']:.2f} is below the 0.45 fused-score threshold."
             )
         refs = [
             edge["edge_id"],
@@ -606,7 +659,7 @@ def build_dossier(
                     for proof in bridge.get("proving_edges", [])
                     if proof.get("edge_id") in snapshot.edge_by_id
                 )
-            )
+            )[:3]
             if proof_ids:
                 rows.append((bridge, proof_ids, comparator["label"]))
         return rows
@@ -675,14 +728,14 @@ def build_dossier(
             )
         else:
             step_text = (
-                f"Review {asset['label']} for the top-S neighbour "
+                f"Review {asset['label']} coverage for {top_neighbor_label} "
                 f"({coverage['value']:.2f}, {coverage['n_matched']}/{coverage['n_total']}) "
                 f"and verify {bridge['display_name']} as a contact."
             )
     elif best_coverage:
         asset, coverage, _ = best_coverage
         step_text = (
-            f"Review {asset['label']} coverage for {top_neighbor_label} "
+            f"Review {asset['label']} coverage of {top_neighbor_label} "
             f"({coverage['value']:.2f}, {coverage['n_matched']}/{coverage['n_total']}); "
             "no verified bridge is mapped."
         )
@@ -706,7 +759,17 @@ def build_dossier(
         edge["predicate"] == "has_phenotype"
         for edge in snapshot.edges_by_subject.get(disease_id, [])
     )
-    if persona == "devon":
+    if best_coverage:
+        asset, coverage, _ = best_coverage
+        percent = round(float(coverage["value"]) * 100)
+        coverage_text = (
+            f"Coverage of {top_neighbor_label} phenotype information is {percent}% "
+            f"({coverage['n_matched']} of {coverage['n_total']} terms; IC "
+            f"{coverage['numerator_ic']:.2f}/{coverage['denominator_ic']:.2f}) using "
+            f"{asset['label']}."
+        )
+        coverage_refs = best_coverage[2]
+    elif persona == "devon":
         coverage_text = f"The snapshot records {phenotype_count} phenotype links."
     elif persona == "osei":
         coverage_text = (

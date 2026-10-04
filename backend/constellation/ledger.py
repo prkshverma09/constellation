@@ -41,6 +41,13 @@ ALLOWED_SOURCES = {
 CURIE_PATTERN = re.compile(r"^(?:[A-Za-z][A-Za-z0-9_-]*):[A-Za-z0-9_.:-]+$")
 INTERNAL_CURIE_PATTERN = re.compile(r"^constellation:[A-Za-z0-9_.:-]+(?:/[A-Za-z0-9_.:-]+)*$")
 REACTOME_CURIE_PATTERN = re.compile(r"^R-HSA-[0-9]+(?:\.[0-9]+)?$")
+EMAIL_PATTERN = re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE)
+URL_PATTERN = re.compile(r"\bhttps?://\S+", re.IGNORECASE)
+PHONE_PATTERN = re.compile(r"(?<!\w)\+?\d[\d\s().-]{6,}\d(?!\w)")
+LABELED_CONTACT_PATTERN = re.compile(
+    r"(?:e-?mail|phone|telephone|tel|fax|mobile|contact)\s*[:=]\s*[^,;\n]+",
+    re.IGNORECASE,
+)
 
 
 def validate_curie(identifier: str) -> bool:
@@ -133,9 +140,56 @@ def iso_datetime() -> str:
 
 
 def person_curie(name: str, affiliation: str = "") -> str:
-    identity = f"{name.casefold().strip()}\x1f{affiliation.casefold().strip()}"
+    identity = f"{name.casefold().strip()}\x1f{sanitize_affiliation(affiliation).casefold()}"
     digest = hashlib.sha1(identity.encode()).hexdigest()[:16]
     return f"constellation:person/{digest}"
+
+
+def sanitize_affiliation(value: Any) -> str:
+    if isinstance(value, dict):
+        value = (
+            value.get("org_name")
+            or value.get("organization_name")
+            or value.get("name")
+            or value.get("institution")
+            or ""
+        )
+    text = str(value or "")
+    text = EMAIL_PATTERN.sub("", text)
+    text = URL_PATTERN.sub("", text)
+    text = LABELED_CONTACT_PATTERN.sub("", text)
+    text = PHONE_PATTERN.sub("", text)
+    return re.sub(r"\s+", " ", text).strip(" \t\r\n,;|")
+
+
+def sanitize_affiliations(value: Any) -> list[str]:
+    values = value if isinstance(value, list) else [value]
+    cleaned: list[str] = []
+    seen: set[str] = set()
+    for item in values:
+        affiliation = sanitize_affiliation(item)
+        key = affiliation.casefold()
+        if affiliation and key not in seen:
+            cleaned.append(affiliation)
+            seen.add(key)
+    return cleaned
+
+
+def sanitize_snapshot_record(value: dict[str, Any]) -> None:
+    def sanitize(item: Any, key: str = "") -> Any:
+        if isinstance(item, dict):
+            return {child_key: sanitize(child, child_key) for child_key, child in item.items()}
+        if isinstance(item, list):
+            if key.casefold() == "affiliations":
+                return sanitize_affiliations(item)
+            return [sanitize(child, key) for child in item]
+        if isinstance(item, str):
+            if key.casefold() == "affiliations" or key.casefold() == "affiliation":
+                return sanitize_affiliation(item)
+            return EMAIL_PATTERN.sub("", item)
+        return item
+
+    value.update({key: sanitize(item, key) for key, item in value.items()})
 
 
 def json_safe(value: Any) -> str:

@@ -72,6 +72,8 @@ def cluster_records(
     scores: list[dict[str, Any]],
     disease_labels: dict[str, str],
     pathway_labels: dict[str, str] | None = None,
+    pathway_parents: dict[str, set[str]] | None = None,
+    pathway_specificity: dict[str, float] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     membership, resolution, seed, stability = leiden_sweep(disease_ids, scores)
     grouped: dict[int, list[str]] = {}
@@ -86,25 +88,57 @@ def cluster_records(
             for row in scores
             if row["disease_a"] in members and row["disease_b"] in members and row["supported"]
         ]
-        pathway_counts: dict[str, int] = {}
-        pathway_order: dict[str, int] = {}
+        pathway_members: dict[str, set[str]] = {}
+        parent_children: dict[str, set[str]] = {}
         for row in intra:
-            for order, term in enumerate(row["shared_pathways"]):
-                pathway_counts[term] = pathway_counts.get(term, 0) + 1
-                pathway_order[term] = min(pathway_order.get(term, order), order)
-        pathways = sorted(
-            pathway_counts,
-            key=lambda term: (-pathway_counts[term], pathway_order[term], term),
-        )
+            for term in row["shared_pathways"]:
+                pathway_members.setdefault(term, set()).update(
+                    (row["disease_a"], row["disease_b"])
+                )
+                if term.startswith("R-HSA-"):
+                    for parent in (pathway_parents or {}).get(term, set()):
+                        parent_children.setdefault(parent, set()).add(term)
         labels = pathway_labels or {}
-        label = (
-            "shared mechanisms: "
-            + ", ".join((labels.get(pathway) or pathway) for pathway in pathways[:2])
-            if pathways
-            else "STRING channel-supported interactions"
-            if any(float(row.get("string_mech") or 0) >= 0.7 for row in intra)
-            else "DEE mechanisms"
+        specificity = pathway_specificity or {}
+        pathways = sorted(
+            pathway_members,
+            key=lambda item: (
+                -len(pathway_members[item]),
+                -specificity.get(item, 0.0),
+                (labels.get(item) or item).casefold(),
+                item,
+            ),
         )
+        parent_candidates = [
+            parent for parent, children in parent_children.items() if len(children) >= 2
+        ]
+        if parent_candidates:
+            parent = min(
+                parent_candidates,
+                key=lambda item: (
+                    -len(parent_children[item]),
+                    (labels.get(item) or item).casefold(),
+                    item,
+                ),
+            )
+            label = labels.get(parent) or parent
+        elif pathway_members:
+            term = min(
+                pathway_members,
+                key=lambda item: (
+                    -len(pathway_members[item]),
+                    -specificity.get(item, 0.0),
+                    (labels.get(item) or item).casefold(),
+                    item,
+                ),
+            )
+            label = f"shared mechanism: {labels.get(term) or term}"
+        else:
+            label = (
+                "STRING channel-supported interactions"
+                if any(float(row.get("string_mech") or 0) >= 0.7 for row in intra)
+                else "DEE mechanisms"
+            )
         outsiders = [
             row for row in scores if (row["disease_a"] in members) != (row["disease_b"] in members)
         ]

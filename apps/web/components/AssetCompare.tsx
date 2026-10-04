@@ -9,6 +9,15 @@ const statuses = [
   { key: "differs", label: "Differs", icon: "↔" },
   { key: "needs_expert_review", label: "Needs expert review", icon: "?" },
 ] as const;
+const fieldLabels: Record<string, string> = {
+  genotype_requirement: "Gene requirement",
+  age_window: "Age window",
+  study_type: "Study type",
+  overall_status: "Overall status",
+  enrollment: "Enrollment",
+  n_locations: "Locations",
+  exclusion_other_gene: "Other-gene exclusion",
+};
 export function AssetCompare({ assets, persona, options, selected, onSelect }: {
   assets: Asset[];
   persona: Persona;
@@ -35,16 +44,19 @@ export function AssetCompare({ assets, persona, options, selected, onSelect }: {
           {open === asset.id ? "Hide" : "Review"} matched and unmatched phenotype terms
         </button>
         {open === asset.id && <div className="phenotype-lists">
-          <div><strong>Matched ({asset.coverage.matched.length})</strong><ul>{asset.coverage.matched.map((item) => <li key={item.id}>{item.label} <span>{item.id}</span></li>)}</ul></div>
+          <div><strong>Matched ({asset.coverage.matched.length})</strong><ul>{asset.coverage.matched.map((item) => <li key={item.id}>{item.label} <span>{item.id} · {item.match_type ?? "exact"}</span></li>)}</ul></div>
           <div><strong>Unmatched ({asset.coverage.unmatched.length})</strong><ul>{asset.coverage.unmatched.map((item) => <li key={item.id}>{item.label} <span>{item.id}</span></li>)}</ul></div>
         </div>}
       </div>}
       <div className="eligibility-columns">{statuses.map((status) => <div className="eligibility-col" key={status.key}>
         <h4><span aria-hidden="true">{status.icon}</span> {status.label}</h4>
-        <ul>{asset.eligibility_diff.filter((item) => item.status === status.key).map((item) => <li key={item.field}><strong>{item.field}:</strong> {item.asset_value}</li>)}</ul>
+        <ul>{asset.eligibility_diff.filter((item) => item.status === status.key).map((item) => <li key={item.field}>
+          <strong>{fieldLabels[item.field] ?? item.field}</strong>
+          <span>Asset: {item.asset_value}</span>
+          <span>Target: {item.target_value}</span>
+        </li>)}</ul>
       </div>)}</div>
-      <details className="diff-details"><summary>Full eligibility difference table</summary><div className="table-scroll"><table><thead><tr><th>Field</th><th>Asset value</th><th>Target value</th><th>Status</th></tr></thead>
-        <tbody>{asset.eligibility_diff.map((item) => <tr key={item.field}><td>{item.field}</td><td>{item.asset_value}</td><td>{item.target_value}</td><td>{item.status.replaceAll("_", " ")}</td></tr>)}</tbody></table></div></details>
+      {asset.eligibility_text && <details className="diff-details"><summary>Full eligibility text</summary><pre>{asset.eligibility_text}</pre></details>}
       <div className="asset-evidence">Evidence {asset.edge_ids.map((id, index) => <a key={id} href={`?persona=${persona}&edge=${encodeURIComponent(id)}`} aria-label={`Evidence ${id}`}><sup>{index + 1}</sup></a>)}</div>
     </article>)}
   </section>;

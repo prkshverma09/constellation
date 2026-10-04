@@ -2,12 +2,13 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Any
 
 import igraph as ig
 
 from constellation.graph.store import Snapshot
+from constellation.ledger import sanitize_affiliations
 
 NAME_PREFIXES = {"dr", "doctor", "prof", "professor"}
 NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "md", "do", "phd"}
@@ -41,6 +42,22 @@ AFFILIATION_STOPWORDS = {
     "school",
     "the",
     "university",
+}
+INSTITUTION_PATTERN = re.compile(
+    r"\b(?:university|universit[aä]t|hospital|hosp|institute|institut|center|centre|"
+    r"clinic|college|school|foundation|health system)\b",
+    re.IGNORECASE,
+)
+AFFILIATION_PLACEHOLDER_PATTERN = re.compile(
+    r"\b(?:authors?'? )?affiliations? (?:are|is) (?:provided|listed) "
+    r"(?:at|in) the end of the article\b",
+    re.IGNORECASE,
+)
+AFFILIATION_ABBREVIATIONS: dict[str, str] = {
+    "hosp": "hospital",
+    "univ": "university",
+    "inst": "institute",
+    "ctr": "center",
 }
 ROLE_NAMES = {
     "authored": "author",
@@ -152,11 +169,7 @@ def _year(value: Any) -> int:
 
 
 def _affiliations(value: Any) -> list[str]:
-    if isinstance(value, str):
-        value = [value]
-    if not isinstance(value, list):
-        return []
-    return [str(item).strip() for item in value if str(item).strip()]
+    return sanitize_affiliations(value)
 
 
 def _affiliation_tokens(value: str) -> set[str]:
@@ -170,6 +183,37 @@ def _affiliation_tokens(value: str) -> set[str]:
 
 def _edge_affiliations(edge: dict[str, Any]) -> list[str]:
     return _affiliations(edge.get("properties", {}).get("affiliations"))
+
+
+def _institution_name(value: str) -> str:
+    cleaned = " ".join(value.split()).strip(" ,;.")
+    if not cleaned or AFFILIATION_PLACEHOLDER_PATTERN.search(cleaned):
+        return ""
+    candidates = [
+        part.strip(" ,;.")
+        for part in re.split(r"[,;]", cleaned)
+        if INSTITUTION_PATTERN.search(part)
+    ]
+    return candidates[-1] if candidates else cleaned
+
+
+def _institution_key(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
+    tokens = re.findall(r"[a-z0-9]+", normalized.casefold())
+    return " ".join(
+        AFFILIATION_ABBREVIATIONS[token]
+        if token in AFFILIATION_ABBREVIATIONS
+        else token
+        for token in tokens
+        if token not in {"and", "of", "the"}
+    )
+
+
+def _institution_display_rank(value: str) -> tuple[int, int, str]:
+    abbreviations = len(
+        re.findall(r"\b(?:hosp|univ|inst|ctr)\.?\b", value, re.IGNORECASE)
+    )
+    return abbreviations, -len(value), value.casefold()
 
 
 def _side_edges(records: dict[str, list[dict[str, Any]]]) -> list[dict[str, Any]]:
@@ -226,16 +270,23 @@ def _corroborating_signals(
     affiliations_b = {
         affiliation for edge in edges_b for affiliation in _edge_affiliations(edge)
     }
-    for affiliation_a in affiliations_a:
-        for affiliation_b in affiliations_b:
-            overlap = _affiliation_tokens(affiliation_a) & _affiliation_tokens(
-                affiliation_b
+    affiliation_matches = 0
+    for affiliation_a in sorted(affiliations_a):
+        institution_a = _institution_name(affiliation_a)
+        if not institution_a:
+            continue
+        for affiliation_b in sorted(affiliations_b):
+            institution_b = _institution_name(affiliation_b)
+            if not institution_b:
+                continue
+            overlap = _affiliation_tokens(institution_a) & _affiliation_tokens(
+                institution_b
             )
             if overlap:
-                tokens = ", ".join(sorted(overlap))
+                tokens = ", ".join(sorted(overlap)[:3])
                 signals.add(
-                    f"overlapping affiliation tokens [{tokens}] in "
-                    f"{affiliation_a!r} and {affiliation_b!r}"
+                    f"overlapping affiliation tokens [{tokens}] at "
+                    f"{institution_a!r} and {institution_b!r}"
                 )
                 role_edges = [
                     edge
@@ -257,14 +308,34 @@ def _corroborating_signals(
                     )
                     signals.add(
                         f"{'/'.join(sources)} affiliation match "
-                        f"{affiliation_a!r} / {affiliation_b!r}"
+                        f"{institution_a!r} / {institution_b!r}"
                     )
+                affiliation_matches += 1
+                if affiliation_matches >= 2:
+                    break
+        if affiliation_matches >= 2:
+            break
     coauthor = _shared_coauthor_signal(
         authors_by_record, records_a, records_b, candidate_name
     )
     if coauthor:
         signals.add(coauthor)
     return sorted(signals)
+
+
+def _summarize_signals(signals: set[str]) -> str:
+    ordered = sorted(signals)
+    categories = (
+        lambda signal: signal.startswith("matching ORCID "),
+        lambda signal: "affiliation match" in signal,
+        lambda signal: signal.startswith("overlapping affiliation tokens "),
+        lambda signal: signal.startswith("shared co-author "),
+    )
+    selected = [
+        next((signal for signal in ordered if matches(signal)), None)
+        for matches in categories
+    ]
+    return "; ".join(signal for signal in selected if signal)
 
 
 def _person_evidence(
@@ -364,7 +435,9 @@ def find_bridges_with_unverified(
                     "records_a": set(),
                     "records_b": set(),
                     "proofs": {},
-                    "affiliations": set(),
+                    "affiliation_counts": Counter(),
+                    "affiliation_names": {},
+                    "affiliation_edges": set(),
                     "roles": set(),
                     "signals": set(),
                     "graph_edges": set(),
@@ -373,9 +446,6 @@ def find_bridges_with_unverified(
             bridge["names"].update({evidence_a["name"], evidence_b["name"]})
             bridge["records_a"].update(records_a)
             bridge["records_b"].update(records_b)
-            bridge["affiliations"].update(
-                evidence_a["affiliations"] + evidence_b["affiliations"]
-            )
             bridge["signals"].update(signals)
             bridge["graph_edges"].update(
                 (bridge["id"], record_id) for record_id in records_a | records_b
@@ -385,7 +455,28 @@ def find_bridges_with_unverified(
                     role = ROLE_NAMES.get(edge["predicate"])
                     if role:
                         bridge["roles"].add(role)
-                    bridge["affiliations"].update(_edge_affiliations(edge))
+                    if edge["edge_id"] not in bridge["affiliation_edges"]:
+                        bridge["affiliation_edges"].add(edge["edge_id"])
+                        edge_institutions: dict[str, str] = {}
+                        for affiliation in _edge_affiliations(edge):
+                            institution = _institution_name(affiliation)
+                            affiliation_key = _institution_key(institution)
+                            if not affiliation_key:
+                                continue
+                            current = edge_institutions.get(affiliation_key)
+                            if current is None or _institution_display_rank(
+                                institution
+                            ) < _institution_display_rank(current):
+                                edge_institutions[affiliation_key] = institution
+                        for affiliation_key, institution in sorted(
+                            edge_institutions.items()
+                        ):
+                            bridge["affiliation_counts"][affiliation_key] += 1
+                            current = bridge["affiliation_names"].get(affiliation_key)
+                            if current is None or _institution_display_rank(
+                                institution
+                            ) < _institution_display_rank(current):
+                                bridge["affiliation_names"][affiliation_key] = institution
                     linked = disease_cache.get(edge["object"], set())
                     proof = bridge["proofs"].setdefault(
                         edge["edge_id"], {"edge": edge, "disease_ids": set()}
@@ -442,16 +533,24 @@ def find_bridges_with_unverified(
         )
         display_name = _display_name(names[0]) if names else canonical_name
         roles = sorted(bridge["roles"])
+        institutions = sorted(
+            (
+                (bridge["affiliation_names"][key], count)
+                for key, count in bridge["affiliation_counts"].items()
+            ),
+            key=lambda item: (-item[1], item[0].casefold()),
+        )
         row = {
             "id": bridge["id"],
             "display_name": display_name,
-            "affiliations": sorted(bridge["affiliations"]),
+            "affiliations": [name for name, _ in institutions[:2]],
+            "additional_affiliations": [name for name, _ in institutions[2:]],
             "roles": roles,
             "n_a": len(bridge["records_a"]),
             "n_b": len(bridge["records_b"]),
             "score": float(min(len(bridge["records_a"]), len(bridge["records_b"]))),
             "proving_edges": proof_rows,
-            "why_same_person": "; ".join(sorted(bridge["signals"])),
+            "why_same_person": _summarize_signals(bridge["signals"]),
             "betweenness": 0.0,
             "_recency": max(recency, default=0),
             "_role_priority": int(bool({"study_official", "pi"} & set(roles))),

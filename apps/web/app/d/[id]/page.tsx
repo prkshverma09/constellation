@@ -1,7 +1,6 @@
 "use client";
 
-import { Suspense } from "react";
-import { useMemo } from "react";
+import { Suspense, useEffect, useMemo } from "react";
 import { useParams, usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
@@ -53,6 +52,13 @@ function DiseaseContent() {
   const selectedComparator = comparatorOptions.some((option) => option.disease.id === selectedParam)
     ? selectedParam!
     : defaultComparator;
+  useEffect(() => {
+    if (!selectedComparator || selectedParam === selectedComparator) return;
+    const query = new URLSearchParams(search.toString());
+    query.set("vs", selectedComparator);
+    router.replace(`${pathname}?${query.toString()}`, { scroll: false });
+  }, [pathname, router, search, selectedComparator, selectedParam]);
+  const dossierHref = `${withPersona(`/d/${encodeURIComponent(id)}/dossier`, persona)}${selectedComparator ? `&vs=${encodeURIComponent(selectedComparator)}` : ""}`;
   const selectComparator = (value: string) => {
     const query = new URLSearchParams(search.toString());
     query.set("vs", value);
@@ -81,7 +87,7 @@ function DiseaseContent() {
       {coverage.data && <CoverageReport data={coverage.data} />}
       {coverage.isError && <ErrorNotice message="Coverage details are not available in this snapshot." />}
       <section className="section-block dossier-callout"><div><div className="section-eyebrow">Next step</div><h2>What evidence would change this?</h2><p>Open the evidence plan and coverage notes for this disease.</p></div>
-        <Link className="button primary" href={withPersona(`/d/${encodeURIComponent(id)}/dossier`, persona)}>Open Shared Path Dossier</Link></section>
+        <Link className="button primary" href={dossierHref}>Open Shared Path Dossier</Link></section>
     </> : <>
       {cluster.isPending && <section id="cluster" className="section-block loading-card">Resolving mechanism cluster…</section>}
       {cluster.data && <ClusterView data={cluster.data} diseaseGene={disease.data.disease.gene_symbol} persona={persona} selectedVs={selectedComparator} />}
@@ -91,7 +97,7 @@ function DiseaseContent() {
       <div className="progressive-section">{bridges.isPending && <section id="people" className="section-block loading-card">Loading bridge people…</section>}
         {bridges.data && <BridgePeople data={bridges.data} persona={persona} options={comparatorOptions} selected={selectedComparator} onSelect={selectComparator} />}{bridges.isError && <ErrorNotice message="Bridge people are unavailable." />}</div>
       <section className="section-block dossier-callout"><div><div className="section-eyebrow">Synthesis</div><h2>Carry the shared path forward</h2><p>A cited summary of mechanism, reusable assets and evidence gaps.</p></div>
-        <Link className="button primary" href={withPersona(`/d/${encodeURIComponent(id)}/dossier`, persona)}>Open Shared Path Dossier</Link></section>
+        <Link className="button primary" href={dossierHref}>Open Shared Path Dossier</Link></section>
     </>}
     {edgeId && <EdgeInspector key={edgeId} edgeId={edgeId} />}
   </main>;

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gzip
+import math
 import re
 from collections import Counter, defaultdict
 from io import BytesIO
@@ -25,6 +26,92 @@ EXPERIMENTAL_GO_EVIDENCE = {
     "HGI",
     "HEP",
 }
+
+
+def parse_hpo_information(
+    hpoa_content: str,
+    ontology: dict[str, Any],
+) -> tuple[dict[str, float], dict[str, list[str]], dict[str, str], dict[str, list[str]]]:
+    graphs = ontology.get("graphs", [])
+    graph = graphs[0] if graphs and isinstance(graphs[0], dict) else {}
+    parents: dict[str, set[str]] = defaultdict(set)
+    labels: dict[str, str] = {}
+    synonyms: dict[str, set[str]] = defaultdict(set)
+
+    for edge in graph.get("edges", []):
+        if edge.get("pred") == "is_a":
+            subject = str(edge.get("sub") or "")
+            parent = str(edge.get("obj") or "")
+            if subject.startswith("HP:") and parent.startswith("HP:"):
+                parents[subject].add(parent)
+
+    for node in graph.get("nodes", []):
+        term_id = str(node.get("id") or "")
+        if not term_id.startswith("HP:"):
+            continue
+        parents.setdefault(term_id, set())
+        parents[term_id].update(
+            value
+            for value in node.get("is_a", [])
+            if isinstance(value, str) and value.startswith("HP:")
+        )
+        label = node.get("lbl") or node.get("label")
+        if label:
+            labels[term_id] = str(label)
+        meta = node.get("meta", {})
+        for item in meta.get("synonyms", []) if isinstance(meta, dict) else []:
+            synonym = item.get("val") if isinstance(item, dict) else item
+            if synonym:
+                synonyms[term_id].add(str(synonym))
+        for item in node.get("synonyms", []):
+            synonym = item.get("val") if isinstance(item, dict) else item
+            if synonym:
+                synonyms[term_id].add(str(synonym))
+
+    closure_cache: dict[str, set[str]] = {}
+
+    def ancestors(term_id: str, visiting: frozenset[str] = frozenset()) -> set[str]:
+        if term_id in closure_cache:
+            return closure_cache[term_id]
+        if term_id in visiting:
+            return {term_id}
+        result = {term_id}
+        for parent in parents.get(term_id, set()):
+            result.update(ancestors(parent, visiting | {term_id}))
+        closure_cache[term_id] = result
+        return result
+
+    diseases_by_term: dict[str, set[str]] = defaultdict(set)
+    diseases: set[str] = set()
+    for line in hpoa_content.splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        fields = line.split("\t")
+        if len(fields) < 4 or not fields[0] or not fields[3].startswith("HP:"):
+            continue
+        if "NOT" in fields[2].split("|"):
+            continue
+        disease_id, term_id = fields[0], fields[3]
+        diseases.add(disease_id)
+        diseases_by_term[term_id].add(disease_id)
+
+    propagated_diseases: dict[str, set[str]] = defaultdict(set)
+    for term_id, disease_ids in diseases_by_term.items():
+        for ancestor in ancestors(term_id):
+            propagated_diseases[ancestor].update(disease_ids)
+
+    total = len(diseases)
+    information_content = {
+        term_id: -math.log(len(disease_ids) / total)
+        for term_id, disease_ids in propagated_diseases.items()
+        if total and disease_ids
+    }
+    return (
+        information_content,
+        {term_id: sorted(values) for term_id, values in parents.items()},
+        labels,
+        {term_id: sorted(values) for term_id, values in synonyms.items()},
+    )
 
 
 def parse_go_basic_obo(content: bytes) -> tuple[dict[str, str], dict[str, set[str]]]:

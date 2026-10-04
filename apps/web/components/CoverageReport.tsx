@@ -3,11 +3,11 @@
 import type { CoverageResponse } from "@/lib/api";
 import { Sentence } from "./Shared";
 
-const missingLabels: Record<string, string> = { M: "mechanism layer", V: "variant-effect layer", asset: "reusable asset evidence", people: "bridge-person evidence" };
+const missingLabels: Record<string, string> = { P: "phenotype layer", M: "mechanism layer", V: "variant-effect layer", S: "fused-score threshold", asset: "reusable asset evidence", people: "bridge-person evidence" };
 export function CoverageReport({ data }: { data: CoverageResponse }) {
   return <section id="coverage" className="section-block coverage-report">
     <div className="section-eyebrow">Evidence coverage</div><h2>Honest gap report</h2>
-    <div className="notice calm"><strong>No supported neighbour meets the threshold (S ≥ 0.45)</strong><p>The snapshot is sparse here. This is a coverage gap, not a negative finding.</p></div>
+    <div className="notice calm"><strong>No neighbour meets both the fused-score (S ≥ 0.45) and mechanism (M ≥ 0.25) thresholds.</strong><p>The snapshot is sparse here. This is a coverage gap, not a negative finding.</p></div>
     <h3>Why the path is not supported yet</h3><ul className="reason-list">{data.reasons.map((reason) => <li key={reason}>{reason}</li>)}</ul>
     <h3>Sources checked</h3><div className="table-scroll"><table><thead><tr><th>Source</th><th>Query</th><th>Count</th><th>Retrieved</th></tr></thead>
       <tbody>{data.sources.map((source) => <tr key={`${source.source}-${source.query}`}><td>{source.source}</td><td>{source.query}</td><td>{source.count}</td><td>{source.retrieved_at}</td></tr>)}</tbody></table></div>

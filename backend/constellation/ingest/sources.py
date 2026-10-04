@@ -1,13 +1,12 @@
 from __future__ import annotations
 
-import math
 import re
 import xml.etree.ElementTree as ET
-from collections import Counter
 from collections.abc import Iterable
 from typing import Any
 
 from constellation.ingest.cache import CachedHTTP
+from constellation.ingest.ontology import parse_hpo_information
 
 MONARCH = "https://api.monarchinitiative.org/v3/api"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
@@ -384,46 +383,17 @@ def monarch_semsim_multicompare(
         return []
 
 
-def hpo_information(http: CachedHTTP) -> tuple[dict[str, float], dict[str, list[str]]]:
-    information_content: dict[str, float] = {}
-    parents: dict[str, list[str]] = {}
-    try:
-        hpoa = http.get(
-            "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/master/src/ontology/phenotype.hpoa"
-        ).get("_text", "")
-        counts: Counter[str] = Counter()
-        diseases: set[str] = set()
-        for line in hpoa.splitlines():
-            if line.startswith("#") or not line.strip():
-                continue
-            columns = line.split("\t")
-            if len(columns) < 4 or not columns[3].startswith("HP:"):
-                continue
-            diseases.add(columns[0])
-            counts[columns[3]] += 1
-        total = max(len(diseases), 1)
-        information_content = {
-            term_id: -math.log2(count / total) for term_id, count in counts.items() if count > 0
-        }
-    except Exception:
-        pass
-    try:
-        ontology = http.get(
-            "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/master/src/ontology/hp.json"
-        )
-        graph = ontology.get("graphs", [{}])[0]
-        for edge in graph.get("edges", []):
-            if edge.get("pred") == "is_a":
-                parents.setdefault(edge.get("sub", ""), []).append(edge.get("obj", ""))
-        for node in graph.get("nodes", []):
-            if node.get("id", "").startswith("HP:"):
-                parents.setdefault(node["id"], [])
-                parents[node["id"]].extend(
-                    value for value in node.get("is_a", []) if value.startswith("HP:")
-                )
-    except Exception:
-        pass
-    return information_content, parents
+def hpo_information(
+    http: CachedHTTP,
+) -> tuple[dict[str, float], dict[str, list[str]], dict[str, str], dict[str, list[str]]]:
+    hpoa = http.get(
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa"
+    ).get("_text", "")
+    ontology = http.get("https://purl.obolibrary.org/obo/hp.json")
+    parsed = parse_hpo_information(hpoa, ontology)
+    if not parsed[0]:
+        raise RuntimeError("HPO annotations produced no information-content values.")
+    return parsed
 
 
 def extract_uniprot(entity: dict[str, Any]) -> str | None:

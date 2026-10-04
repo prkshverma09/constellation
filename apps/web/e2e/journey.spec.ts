@@ -45,6 +45,9 @@ test("Journey A: inspect the STXBP1 cluster and compare against DNM1", async ({ 
 
   const assetSelector = page.getByLabel("Compare assets against");
   await expect(assetSelector.locator("option:checked")).toContainText("STX1B");
+  const defaultComparator = await assetSelector.locator("option:checked").getAttribute("value");
+  expect(defaultComparator).toBeTruthy();
+  await expect.poll(() => new URL(page.url()).searchParams.get("vs")).toBe(defaultComparator);
   const groupOrder = await assetSelector.locator("optgroup").evaluateAll((groups) =>
     groups.map((group) => group.getAttribute("label")),
   );
@@ -68,6 +71,19 @@ test("Journey A: inspect the STXBP1 cluster and compare against DNM1", async ({ 
   });
   await expect(ingoCard).toBeVisible();
   await expect(ingoCard.locator(".proving-edges li").first()).toBeVisible();
+  const hasContactInfo = await page.locator(".person-card").evaluateAll((cards) =>
+    cards.some((card) => card.textContent?.includes("@")),
+  );
+  expect(hasContactInfo).toBe(false);
+
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.goto("/d/MONDO%3A0012812?persona=maria");
+  const shellBounds = await page.locator("main.page-shell").evaluate((element) => {
+    const { x, right } = element.getBoundingClientRect();
+    return { x, right };
+  });
+  expect(shellBounds.x).toBeCloseTo(24, 0);
+  expect(shellBounds.right).toBeLessThanOrEqual(375);
   assertNoBrowserErrors();
 });
 
@@ -76,12 +92,16 @@ test("Journey B: identify FRRS1L as an honest coverage gap", async ({ page }) =>
   await page.goto("/");
   const input = page.getByRole("combobox", { name: "Search diseases and mechanisms" });
   await input.fill("FRRS1L");
-  await input.press("Enter");
+  const suggestion = page.getByRole("option").filter({ hasText: "FRRS1L" }).first();
+  await expect(suggestion).toBeVisible({ timeout: 15_000 });
+  await suggestion.click();
   await expect(page).toHaveURL(/MONDO%3A0014859/);
   await expect(page.locator("#overview")).toContainText("FRRS1L");
   await expect(page.locator("#overview")).toContainText("MONDO:0014859");
-  await expect(page.getByRole("heading", { name: "Honest gap report" })).toBeVisible();
-  await expect(page.getByText("No supported neighbour meets the threshold (S ≥ 0.45)")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Honest gap report" })).toBeVisible({
+    timeout: 15_000,
+  });
+  await expect(page.getByText("No neighbour meets both the fused-score (S ≥ 0.45) and mechanism (M ≥ 0.25) thresholds.")).toBeVisible();
   await expect(page.locator("#cluster")).toHaveCount(0);
 
   await page.getByRole("link", { name: "Open Shared Path Dossier" }).click();

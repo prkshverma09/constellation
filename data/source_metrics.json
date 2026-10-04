@@ -3,1476 +3,1476 @@
     "source": "GOA human GAF",
     "query": "goa_human.gaf.gz; aspect P; skip NOT; all evidence for specificity counts",
     "count": 204298,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:STXBP1": {
     "source": "PubMed",
     "query": "\"STXBP1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 356,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:STXBP1": {
     "source": "ClinVar",
     "query": "STXBP1 pathogenic or likely pathogenic",
     "count": 608,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:STXBP1": {
     "source": "ClinicalTrials.gov",
     "query": "STXBP1",
     "count": 11,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:DNM1": {
     "source": "PubMed",
     "query": "\"DNM1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 68,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:DNM1": {
     "source": "ClinVar",
     "query": "DNM1 pathogenic or likely pathogenic",
     "count": 234,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:DNM1": {
     "source": "ClinicalTrials.gov",
     "query": "DNM1",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SNAP25": {
     "source": "PubMed",
     "query": "\"SNAP25\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 453,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SNAP25": {
     "source": "ClinVar",
     "query": "SNAP25 pathogenic or likely pathogenic",
     "count": 82,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SNAP25": {
     "source": "ClinicalTrials.gov",
     "query": "SNAP25",
     "count": 3,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:STX1B": {
     "source": "PubMed",
     "query": "\"STX1B\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 49,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:STX1B": {
     "source": "ClinVar",
     "query": "STX1B pathogenic or likely pathogenic",
     "count": 137,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:STX1B": {
     "source": "ClinicalTrials.gov",
     "query": "STX1B",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:VAMP2": {
     "source": "PubMed",
     "query": "\"VAMP2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 110,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:VAMP2": {
     "source": "ClinVar",
     "query": "VAMP2 pathogenic or likely pathogenic",
     "count": 45,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:VAMP2": {
     "source": "ClinicalTrials.gov",
     "query": "VAMP2",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SYNGAP1": {
     "source": "PubMed",
     "query": "\"SYNGAP1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 205,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SYNGAP1": {
     "source": "ClinVar",
     "query": "SYNGAP1 pathogenic or likely pathogenic",
     "count": 662,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SYNGAP1": {
     "source": "ClinicalTrials.gov",
     "query": "SYNGAP1",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GNAO1": {
     "source": "PubMed",
     "query": "\"GNAO1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 161,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GNAO1": {
     "source": "ClinVar",
     "query": "GNAO1 pathogenic or likely pathogenic",
     "count": 189,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GNAO1": {
     "source": "ClinicalTrials.gov",
     "query": "GNAO1",
     "count": 6,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GABRG2": {
     "source": "PubMed",
     "query": "\"GABRG2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 253,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GABRG2": {
     "source": "ClinVar",
     "query": "GABRG2 pathogenic or likely pathogenic",
     "count": 287,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GABRG2": {
     "source": "ClinicalTrials.gov",
     "query": "GABRG2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KCNT1": {
     "source": "PubMed",
     "query": "\"KCNT1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 252,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KCNT1": {
     "source": "ClinVar",
     "query": "KCNT1 pathogenic or likely pathogenic",
     "count": 346,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KCNT1": {
     "source": "ClinicalTrials.gov",
     "query": "KCNT1",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SCN1A": {
     "source": "PubMed",
     "query": "\"SCN1A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 1717,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SCN1A": {
     "source": "ClinVar",
     "query": "SCN1A pathogenic or likely pathogenic",
     "count": 3069,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SCN1A": {
     "source": "ClinicalTrials.gov",
     "query": "SCN1A",
     "count": 13,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SCN2A": {
     "source": "PubMed",
     "query": "\"SCN2A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 634,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SCN2A": {
     "source": "ClinVar",
     "query": "SCN2A pathogenic or likely pathogenic",
     "count": 1326,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SCN2A": {
     "source": "ClinicalTrials.gov",
     "query": "SCN2A",
     "count": 7,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SCN8A": {
     "source": "PubMed",
     "query": "\"SCN8A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 380,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SCN8A": {
     "source": "ClinVar",
     "query": "SCN8A pathogenic or likely pathogenic",
     "count": 823,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SCN8A": {
     "source": "ClinicalTrials.gov",
     "query": "SCN8A",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KCNQ2": {
     "source": "PubMed",
     "query": "\"KCNQ2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 701,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KCNQ2": {
     "source": "ClinVar",
     "query": "KCNQ2 pathogenic or likely pathogenic",
     "count": 1214,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KCNQ2": {
     "source": "ClinicalTrials.gov",
     "query": "KCNQ2",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:CDKL5": {
     "source": "PubMed",
     "query": "\"CDKL5\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 587,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:CDKL5": {
     "source": "ClinVar",
     "query": "CDKL5 pathogenic or likely pathogenic",
     "count": 1931,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:CDKL5": {
     "source": "ClinicalTrials.gov",
     "query": "CDKL5",
     "count": 103,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:FRRS1L": {
     "source": "PubMed",
     "query": "\"FRRS1L\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 11,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:FRRS1L": {
     "source": "ClinVar",
     "query": "FRRS1L pathogenic or likely pathogenic",
     "count": 116,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:FRRS1L": {
     "source": "ClinicalTrials.gov",
     "query": "FRRS1L",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SLC6A1": {
     "source": "PubMed",
     "query": "\"SLC6A1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 131,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SLC6A1": {
     "source": "ClinVar",
     "query": "SLC6A1 pathogenic or likely pathogenic",
     "count": 360,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SLC6A1": {
     "source": "ClinicalTrials.gov",
     "query": "SLC6A1",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:HNRNPU": {
     "source": "PubMed",
     "query": "\"HNRNPU\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 60,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:HNRNPU": {
     "source": "ClinVar",
     "query": "HNRNPU pathogenic or likely pathogenic",
     "count": 337,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:HNRNPU": {
     "source": "ClinicalTrials.gov",
     "query": "HNRNPU",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KCNB1": {
     "source": "PubMed",
     "query": "\"KCNB1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 82,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KCNB1": {
     "source": "ClinVar",
     "query": "KCNB1 pathogenic or likely pathogenic",
     "count": 258,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KCNB1": {
     "source": "ClinicalTrials.gov",
     "query": "KCNB1",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KCNA2": {
     "source": "PubMed",
     "query": "\"KCNA2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KCNA2": {
     "source": "ClinVar",
     "query": "KCNA2 pathogenic or likely pathogenic",
     "count": 170,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KCNA2": {
     "source": "ClinicalTrials.gov",
     "query": "KCNA2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GRIN2B": {
     "source": "PubMed",
     "query": "\"GRIN2B\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 200,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GRIN2B": {
     "source": "ClinVar",
     "query": "GRIN2B pathogenic or likely pathogenic",
     "count": 567,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GRIN2B": {
     "source": "ClinicalTrials.gov",
     "query": "GRIN2B",
     "count": 8,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GRIN1": {
     "source": "PubMed",
     "query": "\"GRIN1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 125,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GRIN1": {
     "source": "ClinVar",
     "query": "GRIN1 pathogenic or likely pathogenic",
     "count": 375,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GRIN1": {
     "source": "ClinicalTrials.gov",
     "query": "GRIN1",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GRIA2": {
     "source": "PubMed",
     "query": "\"GRIA2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 64,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GRIA2": {
     "source": "ClinVar",
     "query": "GRIA2 pathogenic or likely pathogenic",
     "count": 136,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GRIA2": {
     "source": "ClinicalTrials.gov",
     "query": "GRIA2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GRIA3": {
     "source": "PubMed",
     "query": "\"GRIA3\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 55,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GRIA3": {
     "source": "ClinVar",
     "query": "GRIA3 pathogenic or likely pathogenic",
     "count": 306,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GRIA3": {
     "source": "ClinicalTrials.gov",
     "query": "GRIA3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GABRA1": {
     "source": "PubMed",
     "query": "\"GABRA1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 195,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GABRA1": {
     "source": "ClinVar",
     "query": "GABRA1 pathogenic or likely pathogenic",
     "count": 226,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GABRA1": {
     "source": "ClinicalTrials.gov",
     "query": "GABRA1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:GABRB3": {
     "source": "PubMed",
     "query": "\"GABRB3\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 160,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:GABRB3": {
     "source": "ClinVar",
     "query": "GABRB3 pathogenic or likely pathogenic",
     "count": 510,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:GABRB3": {
     "source": "ClinicalTrials.gov",
     "query": "GABRB3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:PCDH19": {
     "source": "PubMed",
     "query": "\"PCDH19\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 256,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:PCDH19": {
     "source": "ClinVar",
     "query": "PCDH19 pathogenic or likely pathogenic",
     "count": 819,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:PCDH19": {
     "source": "ClinicalTrials.gov",
     "query": "PCDH19",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:MECP2": {
     "source": "PubMed",
     "query": "\"MECP2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 902,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:MECP2": {
     "source": "ClinVar",
     "query": "MECP2 pathogenic or likely pathogenic",
     "count": 1460,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:MECP2": {
     "source": "ClinicalTrials.gov",
     "query": "MECP2",
     "count": 105,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:FOXG1": {
     "source": "PubMed",
     "query": "\"FOXG1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 207,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:FOXG1": {
     "source": "ClinVar",
     "query": "FOXG1 pathogenic or likely pathogenic",
     "count": 393,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:FOXG1": {
     "source": "ClinicalTrials.gov",
     "query": "FOXG1",
     "count": 7,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:WWOX": {
     "source": "PubMed",
     "query": "\"WWOX\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 121,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:WWOX": {
     "source": "ClinVar",
     "query": "WWOX pathogenic or likely pathogenic",
     "count": 332,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:WWOX": {
     "source": "ClinicalTrials.gov",
     "query": "WWOX",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:PNKP": {
     "source": "PubMed",
     "query": "\"PNKP\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 77,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:PNKP": {
     "source": "ClinVar",
     "query": "PNKP pathogenic or likely pathogenic",
     "count": 337,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:PNKP": {
     "source": "ClinicalTrials.gov",
     "query": "PNKP",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SMC1A": {
     "source": "PubMed",
     "query": "\"SMC1A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 50,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SMC1A": {
     "source": "ClinVar",
     "query": "SMC1A pathogenic or likely pathogenic",
     "count": 479,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SMC1A": {
     "source": "ClinicalTrials.gov",
     "query": "SMC1A",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KIF1A": {
     "source": "PubMed",
     "query": "\"KIF1A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 89,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KIF1A": {
     "source": "ClinVar",
     "query": "KIF1A pathogenic or likely pathogenic",
     "count": 701,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KIF1A": {
     "source": "ClinicalTrials.gov",
     "query": "KIF1A",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:KCNT2": {
     "source": "PubMed",
     "query": "\"KCNT2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 19,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:KCNT2": {
     "source": "ClinVar",
     "query": "KCNT2 pathogenic or likely pathogenic",
     "count": 134,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:KCNT2": {
     "source": "ClinicalTrials.gov",
     "query": "KCNT2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:CACNA1A": {
     "source": "PubMed",
     "query": "\"CACNA1A\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 715,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:CACNA1A": {
     "source": "ClinVar",
     "query": "CACNA1A pathogenic or likely pathogenic",
     "count": 1576,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:CACNA1A": {
     "source": "ClinicalTrials.gov",
     "query": "CACNA1A",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:CACNA2D2": {
     "source": "PubMed",
     "query": "\"CACNA2D2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 30,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:CACNA2D2": {
     "source": "ClinVar",
     "query": "CACNA2D2 pathogenic or likely pathogenic",
     "count": 109,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:CACNA2D2": {
     "source": "ClinicalTrials.gov",
     "query": "CACNA2D2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:PRRT2": {
     "source": "PubMed",
     "query": "\"PRRT2\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 280,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:PRRT2": {
     "source": "ClinVar",
     "query": "PRRT2 pathogenic or likely pathogenic",
     "count": 587,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:PRRT2": {
     "source": "ClinicalTrials.gov",
     "query": "PRRT2",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:DEPDC5": {
     "source": "PubMed",
     "query": "\"DEPDC5\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 225,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:DEPDC5": {
     "source": "ClinVar",
     "query": "DEPDC5 pathogenic or likely pathogenic",
     "count": 824,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:DEPDC5": {
     "source": "ClinicalTrials.gov",
     "query": "DEPDC5",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:NPRL3": {
     "source": "PubMed",
     "query": "\"NPRL3\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 90,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:NPRL3": {
     "source": "ClinVar",
     "query": "NPRL3 pathogenic or likely pathogenic",
     "count": 387,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:NPRL3": {
     "source": "ClinicalTrials.gov",
     "query": "NPRL3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:TBC1D24": {
     "source": "PubMed",
     "query": "\"TBC1D24\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 89,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:TBC1D24": {
     "source": "ClinVar",
     "query": "TBC1D24 pathogenic or likely pathogenic",
     "count": 287,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:TBC1D24": {
     "source": "ClinicalTrials.gov",
     "query": "TBC1D24",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "pubmed:SLC2A1": {
     "source": "PubMed",
     "query": "\"SLC2A1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
     "count": 284,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "clinvar:SLC2A1": {
     "source": "ClinVar",
     "query": "SLC2A1 pathogenic or likely pathogenic",
     "count": 538,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "ctgov:SLC2A1": {
     "source": "ClinicalTrials.gov",
     "query": "SLC2A1",
     "count": 30,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reactome_all_levels": {
     "source": "Reactome UniProt2Reactome",
     "query": "UniProt2Reactome_All_Levels.txt; Homo sapiens",
     "count": 161425,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go_specificity_counts": {
     "source": "GOA human GAF + go-basic OBO",
     "query": "distinct genes propagated through is_a/part_of using all evidence codes",
     "count": 13794,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:STXBP1": {
     "source": "GOA human GAF",
     "query": "STXBP1; aspect P; experimental evidence codes",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:DNM1": {
     "source": "GOA human GAF",
     "query": "DNM1; aspect P; experimental evidence codes",
     "count": 8,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SNAP25": {
     "source": "GOA human GAF",
     "query": "SNAP25; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:STX1B": {
     "source": "GOA human GAF",
     "query": "STX1B; aspect P; experimental evidence codes",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:VAMP2": {
     "source": "GOA human GAF",
     "query": "VAMP2; aspect P; experimental evidence codes",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SYNGAP1": {
     "source": "GOA human GAF",
     "query": "SYNGAP1; aspect P; experimental evidence codes",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GNAO1": {
     "source": "GOA human GAF",
     "query": "GNAO1; aspect P; experimental evidence codes",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GABRG2": {
     "source": "GOA human GAF",
     "query": "GABRG2; aspect P; experimental evidence codes",
     "count": 7,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KCNT1": {
     "source": "GOA human GAF",
     "query": "KCNT1; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SCN1A": {
     "source": "GOA human GAF",
     "query": "SCN1A; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SCN2A": {
     "source": "GOA human GAF",
     "query": "SCN2A; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SCN8A": {
     "source": "GOA human GAF",
     "query": "SCN8A; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KCNQ2": {
     "source": "GOA human GAF",
     "query": "KCNQ2; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:CDKL5": {
     "source": "GOA human GAF",
     "query": "CDKL5; aspect P; experimental evidence codes",
     "count": 9,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:FRRS1L": {
     "source": "GOA human GAF",
     "query": "FRRS1L; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SLC6A1": {
     "source": "GOA human GAF",
     "query": "SLC6A1; aspect P; experimental evidence codes",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:HNRNPU": {
     "source": "GOA human GAF",
     "query": "HNRNPU; aspect P; experimental evidence codes",
     "count": 22,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KCNB1": {
     "source": "GOA human GAF",
     "query": "KCNB1; aspect P; experimental evidence codes",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KCNA2": {
     "source": "GOA human GAF",
     "query": "KCNA2; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GRIN2B": {
     "source": "GOA human GAF",
     "query": "GRIN2B; aspect P; experimental evidence codes",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GRIN1": {
     "source": "GOA human GAF",
     "query": "GRIN1; aspect P; experimental evidence codes",
     "count": 18,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GRIA2": {
     "source": "GOA human GAF",
     "query": "GRIA2; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GRIA3": {
     "source": "GOA human GAF",
     "query": "GRIA3; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GABRA1": {
     "source": "GOA human GAF",
     "query": "GABRA1; aspect P; experimental evidence codes",
     "count": 8,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:GABRB3": {
     "source": "GOA human GAF",
     "query": "GABRB3; aspect P; experimental evidence codes",
     "count": 10,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:PCDH19": {
     "source": "GOA human GAF",
     "query": "PCDH19; aspect P; experimental evidence codes",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:MECP2": {
     "source": "GOA human GAF",
     "query": "MECP2; aspect P; experimental evidence codes",
     "count": 7,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:FOXG1": {
     "source": "GOA human GAF",
     "query": "FOXG1; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:WWOX": {
     "source": "GOA human GAF",
     "query": "WWOX; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:PNKP": {
     "source": "GOA human GAF",
     "query": "PNKP; aspect P; experimental evidence codes",
     "count": 6,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SMC1A": {
     "source": "GOA human GAF",
     "query": "SMC1A; aspect P; experimental evidence codes",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KIF1A": {
     "source": "GOA human GAF",
     "query": "KIF1A; aspect P; experimental evidence codes",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:KCNT2": {
     "source": "GOA human GAF",
     "query": "KCNT2; aspect P; experimental evidence codes",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:CACNA1A": {
     "source": "GOA human GAF",
     "query": "CACNA1A; aspect P; experimental evidence codes",
     "count": 8,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:CACNA2D2": {
     "source": "GOA human GAF",
     "query": "CACNA2D2; aspect P; experimental evidence codes",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:PRRT2": {
     "source": "GOA human GAF",
     "query": "PRRT2; aspect P; experimental evidence codes",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:DEPDC5": {
     "source": "GOA human GAF",
     "query": "DEPDC5; aspect P; experimental evidence codes",
     "count": 7,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:NPRL3": {
     "source": "GOA human GAF",
     "query": "NPRL3; aspect P; experimental evidence codes",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:TBC1D24": {
     "source": "GOA human GAF",
     "query": "TBC1D24; aspect P; experimental evidence codes",
     "count": 3,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "go:SLC2A1": {
     "source": "GOA human GAF",
     "query": "SLC2A1; aspect P; experimental evidence codes",
     "count": 19,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:STXBP1": {
     "source": "NIH RePORTER",
     "query": "STXBP1",
     "count": 64,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:DNM1": {
     "source": "NIH RePORTER",
     "query": "DNM1",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SNAP25": {
     "source": "NIH RePORTER",
     "query": "SNAP25",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:STX1B": {
     "source": "NIH RePORTER",
     "query": "STX1B",
     "count": 12,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:VAMP2": {
     "source": "NIH RePORTER",
     "query": "VAMP2",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SYNGAP1": {
     "source": "NIH RePORTER",
     "query": "SYNGAP1",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GNAO1": {
     "source": "NIH RePORTER",
     "query": "GNAO1",
     "count": 5,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GABRG2": {
     "source": "NIH RePORTER",
     "query": "GABRG2",
     "count": 51,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KCNT1": {
     "source": "NIH RePORTER",
     "query": "KCNT1",
     "count": 33,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SCN1A": {
     "source": "NIH RePORTER",
     "query": "SCN1A",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SCN2A": {
     "source": "NIH RePORTER",
     "query": "SCN2A",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SCN8A": {
     "source": "NIH RePORTER",
     "query": "SCN8A",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KCNQ2": {
     "source": "NIH RePORTER",
     "query": "KCNQ2",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:CDKL5": {
     "source": "NIH RePORTER",
     "query": "CDKL5",
     "count": 63,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:FRRS1L": {
     "source": "NIH RePORTER",
     "query": "FRRS1L",
     "count": 4,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SLC6A1": {
     "source": "NIH RePORTER",
     "query": "SLC6A1",
     "count": 19,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:HNRNPU": {
     "source": "NIH RePORTER",
     "query": "HNRNPU",
     "count": 20,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KCNB1": {
     "source": "NIH RePORTER",
     "query": "KCNB1",
     "count": 15,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KCNA2": {
     "source": "NIH RePORTER",
     "query": "KCNA2",
     "count": 18,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GRIN2B": {
     "source": "NIH RePORTER",
     "query": "GRIN2B",
     "count": 75,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GRIN1": {
     "source": "NIH RePORTER",
     "query": "GRIN1",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GRIA2": {
     "source": "NIH RePORTER",
     "query": "GRIA2",
     "count": 22,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GRIA3": {
     "source": "NIH RePORTER",
     "query": "GRIA3",
     "count": 52,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GABRA1": {
     "source": "NIH RePORTER",
     "query": "GABRA1",
     "count": 45,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:GABRB3": {
     "source": "NIH RePORTER",
     "query": "GABRB3",
     "count": 63,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:PCDH19": {
     "source": "NIH RePORTER",
     "query": "PCDH19",
     "count": 60,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:MECP2": {
     "source": "NIH RePORTER",
     "query": "MECP2",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:FOXG1": {
     "source": "NIH RePORTER",
     "query": "FOXG1",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:WWOX": {
     "source": "NIH RePORTER",
     "query": "WWOX",
     "count": 61,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:PNKP": {
     "source": "NIH RePORTER",
     "query": "PNKP",
     "count": 82,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SMC1A": {
     "source": "NIH RePORTER",
     "query": "SMC1A",
     "count": 23,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KIF1A": {
     "source": "NIH RePORTER",
     "query": "KIF1A",
     "count": 66,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:KCNT2": {
     "source": "NIH RePORTER",
     "query": "KCNT2",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:CACNA1A": {
     "source": "NIH RePORTER",
     "query": "CACNA1A",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:CACNA2D2": {
     "source": "NIH RePORTER",
     "query": "CACNA2D2",
     "count": 28,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:PRRT2": {
     "source": "NIH RePORTER",
     "query": "PRRT2",
     "count": 6,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:DEPDC5": {
     "source": "NIH RePORTER",
     "query": "DEPDC5",
     "count": 63,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:NPRL3": {
     "source": "NIH RePORTER",
     "query": "NPRL3",
     "count": 24,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:TBC1D24": {
     "source": "NIH RePORTER",
     "query": "TBC1D24",
     "count": 25,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reporter:SLC2A1": {
     "source": "NIH RePORTER",
     "query": "SLC2A1",
     "count": 100,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "NCT06555965": {
     "source": "ClinicalTrials.gov",
     "query": "NCT06555965",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "patient_groups": {
     "source": "verified foundation seed list",
     "query": "15 curated DEE patient groups",
     "count": 12,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:STXBP1": {
     "source": "verified foundation seed list",
     "query": "STXBP1",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:DNM1": {
     "source": "verified foundation seed list",
     "query": "DNM1",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SNAP25": {
     "source": "verified foundation seed list",
     "query": "SNAP25",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:STX1B": {
     "source": "verified foundation seed list",
     "query": "STX1B",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:VAMP2": {
     "source": "verified foundation seed list",
     "query": "VAMP2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SYNGAP1": {
     "source": "verified foundation seed list",
     "query": "SYNGAP1",
     "count": 2,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GNAO1": {
     "source": "verified foundation seed list",
     "query": "GNAO1",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GABRG2": {
     "source": "verified foundation seed list",
     "query": "GABRG2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KCNT1": {
     "source": "verified foundation seed list",
     "query": "KCNT1",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SCN1A": {
     "source": "verified foundation seed list",
     "query": "SCN1A",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SCN2A": {
     "source": "verified foundation seed list",
     "query": "SCN2A",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SCN8A": {
     "source": "verified foundation seed list",
     "query": "SCN8A",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KCNQ2": {
     "source": "verified foundation seed list",
     "query": "KCNQ2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:CDKL5": {
     "source": "verified foundation seed list",
     "query": "CDKL5",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:FRRS1L": {
     "source": "verified foundation seed list",
     "query": "FRRS1L",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SLC6A1": {
     "source": "verified foundation seed list",
     "query": "SLC6A1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:HNRNPU": {
     "source": "verified foundation seed list",
     "query": "HNRNPU",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KCNB1": {
     "source": "verified foundation seed list",
     "query": "KCNB1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KCNA2": {
     "source": "verified foundation seed list",
     "query": "KCNA2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GRIN2B": {
     "source": "verified foundation seed list",
     "query": "GRIN2B",
     "count": 1,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GRIN1": {
     "source": "verified foundation seed list",
     "query": "GRIN1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GRIA2": {
     "source": "verified foundation seed list",
     "query": "GRIA2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GRIA3": {
     "source": "verified foundation seed list",
     "query": "GRIA3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GABRA1": {
     "source": "verified foundation seed list",
     "query": "GABRA1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:GABRB3": {
     "source": "verified foundation seed list",
     "query": "GABRB3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:PCDH19": {
     "source": "verified foundation seed list",
     "query": "PCDH19",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:MECP2": {
     "source": "verified foundation seed list",
     "query": "MECP2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:FOXG1": {
     "source": "verified foundation seed list",
     "query": "FOXG1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:WWOX": {
     "source": "verified foundation seed list",
     "query": "WWOX",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:PNKP": {
     "source": "verified foundation seed list",
     "query": "PNKP",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SMC1A": {
     "source": "verified foundation seed list",
     "query": "SMC1A",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KIF1A": {
     "source": "verified foundation seed list",
     "query": "KIF1A",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:KCNT2": {
     "source": "verified foundation seed list",
     "query": "KCNT2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:CACNA1A": {
     "source": "verified foundation seed list",
     "query": "CACNA1A",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:CACNA2D2": {
     "source": "verified foundation seed list",
     "query": "CACNA2D2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:PRRT2": {
     "source": "verified foundation seed list",
     "query": "PRRT2",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:DEPDC5": {
     "source": "verified foundation seed list",
     "query": "DEPDC5",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:NPRL3": {
     "source": "verified foundation seed list",
     "query": "NPRL3",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:TBC1D24": {
     "source": "verified foundation seed list",
     "query": "TBC1D24",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "foundation:SLC2A1": {
     "source": "verified foundation seed list",
     "query": "SLC2A1",
     "count": 0,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   },
   "reactome_hierarchy": {
     "source": "Reactome",
     "query": "eventsHierarchy/9606",
     "count": 18961,
-    "retrieved_at": "2026-10-03"
+    "retrieved_at": "2026-10-04"
   }
 }

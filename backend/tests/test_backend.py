@@ -3,6 +3,8 @@ from __future__ import annotations
 import gzip
 import importlib
 import json
+import math
+import re
 import urllib.request
 import zipfile
 from collections import defaultdict
@@ -23,6 +25,8 @@ from constellation.agents.dossier import (
     validate_dossier,
 )
 from constellation.analytics.bridges import find_bridges_with_unverified
+from constellation.analytics.clusters import cluster_records
+from constellation.analytics.coverage import asset_coverage, eligibility_diff
 from constellation.analytics.gaps import is_gap
 from constellation.analytics.similarity import (
     fused_similarity,
@@ -37,9 +41,11 @@ from constellation.ingest.cache import CachedHTTP
 from constellation.ingest.ontology import (
     parse_go_basic_obo,
     parse_goa_human_gaf,
+    parse_hpo_information,
     parse_reactome_all_levels,
 )
 from constellation.ingest.sources import (
+    hpo_information,
     monarch_semsim,
     monarch_semsim_multicompare,
     pubmed_records,
@@ -47,7 +53,7 @@ from constellation.ingest.sources import (
     search_trials_with_count,
     uniprot_accession,
 )
-from constellation.ledger import edge_id, validate_curie
+from constellation.ledger import edge_id, sanitize_affiliation, validate_curie
 
 api_module = importlib.import_module("constellation.api.app")
 
@@ -294,6 +300,36 @@ def test_committed_snapshot_contains_the_full_gene_slice() -> None:
     assert found == expected
 
 
+def test_snapshot_properties_do_not_contain_email_addresses() -> None:
+    snapshot = Snapshot()
+    email = re.compile(
+        r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b",
+        re.IGNORECASE,
+    )
+
+    def strings(value: Any) -> list[str]:
+        if isinstance(value, dict):
+            return [text for child in value.values() for text in strings(child)]
+        if isinstance(value, list):
+            return [text for child in value for text in strings(child)]
+        return [value] if isinstance(value, str) else []
+
+    for record in [*snapshot.nodes, *snapshot.edges]:
+        for text in strings(record.get("properties", {})):
+            assert email.search(text) is None
+
+
+def test_affiliation_objects_keep_institution_name_only() -> None:
+    affiliation = sanitize_affiliation(
+        {
+            "org_name": "Children's Hospital of Philadelphia",
+            "email": "contact@example.org",
+            "phone": "+1 555 0100",
+        }
+    )
+    assert affiliation == "Children's Hospital of Philadelphia"
+
+
 def test_stxbp1_golden_mechanism_cluster() -> None:
     snapshot = Snapshot()
     supported, _ = _demo_ids()
@@ -377,6 +413,38 @@ def test_string_only_support_has_a_channel_score_mechanism_label() -> None:
     )
 
 
+def test_cluster_label_uses_a_shared_direct_reactome_parent() -> None:
+    clusters, _ = cluster_records(
+        ["MONDO:A", "MONDO:B"],
+        [
+            {
+                "disease_a": "MONDO:A",
+                "disease_b": "MONDO:B",
+                "P": 0.5,
+                "M": 0.5,
+                "V": 0.5,
+                "S": 0.5,
+                "supported": True,
+                "shared_pathways": ["R-HSA-1", "R-HSA-2"],
+                "string_mech": 0.0,
+            }
+        ],
+        {"MONDO:A": "Disease A", "MONDO:B": "Disease B"},
+        {
+            "R-HSA-1": "Pathway one",
+            "R-HSA-2": "Pathway two",
+            "R-HSA-parent": "Neurotransmitter release cycle",
+        },
+        {
+            "R-HSA-1": {"R-HSA-parent"},
+            "R-HSA-2": {"R-HSA-parent"},
+        },
+        {"R-HSA-1": 0.01, "R-HSA-2": 0.02},
+    )
+    assert len(clusters) == 1
+    assert clusters[0]["label"] == "Neurotransmitter release cycle"
+
+
 def test_cached_reactome_lowest_pathways_overlap_for_stxbp1_and_snap25() -> None:
     snapshot = Snapshot()
     genes = {
@@ -455,6 +523,128 @@ def test_seeded_natural_history_asset_serves_stxbp1_and_syngap1() -> None:
     assert {diseases["STXBP1"], diseases["SYNGAP1"]} <= served
 
 
+def test_hpo_information_content_counts_distinct_diseases_through_descendants() -> None:
+    ontology = {
+        "graphs": [
+            {
+                "edges": [
+                    {"sub": "HP:0000002", "pred": "is_a", "obj": "HP:0000001"},
+                    {"sub": "HP:0000003", "pred": "is_a", "obj": "HP:0000002"},
+                ],
+                "nodes": [
+                    {"id": "HP:0000001", "lbl": "root"},
+                    {"id": "HP:0000002", "lbl": "parent"},
+                    {
+                        "id": "HP:0000003",
+                        "lbl": "child",
+                        "meta": {"synonyms": [{"pred": "hasExactSynonym", "val": "child term"}]},
+                    },
+                ],
+            }
+        ]
+    }
+    hpoa = "\n".join(
+        [
+            "OMIM:1\tdisease one\t\tHP:0000003",
+            "OMIM:2\tdisease two\t\tHP:0000003",
+            "OMIM:2\tdisease two\t\tHP:0000003",
+            "OMIM:3\tdisease three\t\tHP:0000002",
+            "OMIM:4\tdisease four\tNOT\tHP:0000003",
+        ]
+    )
+    information_content, parents, labels, synonyms = parse_hpo_information(hpoa, ontology)
+    assert math.isclose(information_content["HP:0000003"], -math.log(2 / 3))
+    assert information_content["HP:0000002"] == 0
+    assert information_content["HP:0000001"] == 0
+    assert parents["HP:0000003"] == ["HP:0000002"]
+    assert labels["HP:0000003"] == "child"
+    assert synonyms["HP:0000003"] == ["child term"]
+
+
+def test_hpo_information_fetches_published_annotations_and_ontology() -> None:
+    http = Mock()
+    http.get.side_effect = [
+        {
+            "_text": (
+                "OMIM:1\tdisease one\t\tHP:0000002\n"
+                "OMIM:2\tdisease two\t\tHP:0000001"
+            )
+        },
+        {
+            "graphs": [
+                {
+                    "edges": [
+                        {"sub": "HP:0000002", "pred": "is_a", "obj": "HP:0000001"}
+                    ],
+                    "nodes": [
+                        {"id": "HP:0000001", "lbl": "root"},
+                        {"id": "HP:0000002", "lbl": "child"},
+                    ],
+                }
+            ]
+        },
+    ]
+
+    information_content, _, _, _ = hpo_information(http)
+
+    assert information_content["HP:0000002"] > 0
+    assert [call.args[0] for call in http.get.call_args_list] == [
+        "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "https://purl.obolibrary.org/obo/hp.json",
+    ]
+
+
+def test_nct06555965_coverage_and_eligibility_against_dnm1() -> None:
+    snapshot = Snapshot()
+    asset = next(
+        node
+        for node in snapshot.nodes
+        if node.get("type") == "asset"
+        and node.get("properties", {}).get("record_id") == "NCT06555965"
+    )
+    dnm1 = next(
+        node["id"]
+        for node in snapshot.nodes
+        if node.get("type") == "disease"
+        and node.get("properties", {}).get("gene_symbol") == "DNM1"
+    )
+
+    coverage = asset_coverage(asset, dnm1, snapshot)
+    assert coverage is not None
+    assert 0 <= coverage["value"] <= 1
+    target_terms = [
+        edge["object"]
+        for edge in snapshot.edges_by_subject[dnm1]
+        if edge["predicate"] == "has_phenotype"
+    ]
+    weights = {
+        snapshot.node_by_id[term]["properties"]["information_content"] for term in target_terms
+    }
+    assert len(weights) > 1
+    assert coverage["matched"]
+    assert all(
+        item["match_type"] in {"exact", "descendant", "ancestor"}
+        for item in coverage["matched"]
+    )
+
+    fields = {row["field"]: row for row in eligibility_diff(asset, dnm1, snapshot)}
+    assert fields["genotype_requirement"] == {
+        "field": "genotype_requirement",
+        "asset_value": "requires STXBP1 or SYNGAP1 variant",
+        "target_value": "DNM1 variant",
+        "status": "differs",
+    }
+    assert fields["age_window"]["asset_value"] == "any age"
+    assert fields["exclusion_other_gene"]["status"] == "differs"
+    assert fields["age_window"]["status"] == "needs_expert_review"
+    assert all(
+        fields[field]["status"] == "matches"
+        and fields[field]["target_value"] == "—"
+        for field in ("study_type", "overall_status", "enrollment", "n_locations")
+    )
+    assert all("Inclusion Criteria" not in row["asset_value"] for row in fields.values())
+
+
 def test_gene_bridge_proofs_touch_both_requested_diseases() -> None:
     snapshot = Snapshot()
     diseases = {
@@ -465,7 +655,10 @@ def test_gene_bridge_proofs_touch_both_requested_diseases() -> None:
     left, right = diseases["STXBP1"], diseases["DNM1"]
     bridges, _ = find_bridges_with_unverified(snapshot, left, right)
     assert bridges
-    assert any(bridge["display_name"] == "Ingo Helbig" for bridge in bridges)
+    ingo = next(bridge for bridge in bridges if bridge["display_name"] == "Ingo Helbig")
+    assert "0000000184860558" in ingo["why_same_person"]
+    assert "philadelphia" in ingo["why_same_person"].casefold()
+    assert len(ingo["why_same_person"]) < 500
     for bridge in bridges:
         proof_diseases = {
             disease_id
@@ -503,6 +696,21 @@ def test_surname_first_alias_merges_when_affiliation_corroborates() -> None:
     assert len(people) == 1
     assert people[0]["display_name"] == "Ingo Helbig"
     assert "philadelphia" in people[0]["why_same_person"].casefold()
+
+
+def test_bridge_affiliations_normalize_and_dedupe_institutions() -> None:
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(
+            "Division of Neurology, Children's Hospital of Philadelphia, Philadelphia, PA",
+            "CHILDREN'S HOSP OF PHILADELPHIA",
+        ),
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert unverified_count == 0
+    assert len(people) == 1
+    assert people[0]["affiliations"] == ["Children's Hospital of Philadelphia"]
+    assert people[0]["additional_affiliations"] == []
 
 
 def test_middle_initial_aliases_merge_across_records() -> None:
@@ -592,6 +800,25 @@ def test_generic_affiliation_text_does_not_verify_name_only_bridge() -> None:
     )
     assert people == []
     assert unverified_count == 1
+
+
+def test_bridge_affiliation_signals_are_concise_for_long_source_text() -> None:
+    long_context = " ".join(["clinical"] * 100)
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(
+            f"{long_context}, Children's Hospital of Philadelphia",
+            f"{long_context}, CHILDREN'S HOSP OF PHILADELPHIA",
+        ),
+        "MONDO:A",
+        "MONDO:B",
+    )
+
+    assert unverified_count == 0
+    assert len(people) == 1
+    reason = people[0]["why_same_person"]
+    assert "philadelphia" in reason.casefold()
+    assert len(reason) < 500
+    assert long_context not in reason
 
 
 def test_affiliation_corroborates_bridge_and_proof_edges_are_deduplicated() -> None:
@@ -980,6 +1207,19 @@ def test_offline_dossier_has_cited_required_sections() -> None:
             for sentence in section["sentences"]
         )
     assert supported_dossier is not None
+    dnm1_id = next(
+        node["id"]
+        for node in snapshot.nodes
+        if node.get("type") == "disease"
+        and node.get("properties", {}).get("gene_symbol") == "DNM1"
+    )
+    supported_dossier = build_dossier(
+        snapshot,
+        supported,
+        "maria",
+        mode="offline",
+        comparator_id=dnm1_id,
+    )
     sections = {section["key"]: section for section in supported_dossier["sections"]}
     who_shares = " ".join(sentence["text"] for sentence in sections["who_shares"]["sentences"])
     cluster = snapshot.cluster_for(supported)
@@ -998,8 +1238,12 @@ def test_offline_dossier_has_cited_required_sections() -> None:
     assert all(symbol in who_shares for symbol in member_symbols if symbol)
     assert not any(symbol in who_shares for symbol in outside_symbols if symbol)
     assert "DNM1-related disease" not in who_shares
-    assert "counterexample" in who_shares.casefold()
-    assert "M=0" in who_shares or "V=0" in who_shares or "support threshold" in who_shares
+    what_differs = " ".join(
+        sentence["text"] for sentence in sections["what_differs"]["sentences"]
+    )
+    assert "GNAO1-related disease" in what_differs
+    assert "looks similar clinically" in what_differs
+    assert "so it is excluded" in what_differs
     member_rows = []
     for member_id in members - {supported}:
         pair_edges = [
@@ -1022,14 +1266,18 @@ def test_offline_dossier_has_cited_required_sections() -> None:
     what_exists = " ".join(
         sentence["text"] for sentence in sections["what_exists"]["sentences"]
     )
-    assert "coverage" in what_exists.casefold()
+    assert "covers" in what_exists.casefold()
+    assert "%" in what_exists
+    assert " of " in what_exists and " terms" in what_exists.casefold()
     assert any(character.isdigit() for character in what_exists)
     assert "Exact-match foundation" in what_exists
     what_differs = " ".join(
         sentence["text"] for sentence in sections["what_differs"]["sentences"]
     )
     assert "V=0" in what_differs and "“" in what_differs
-    assert "same process, different step / weak overlap" in what_differs
+    assert "overlaps only weakly" in what_differs
+    assert "vesicle organization" in what_differs
+    assert "GO:0016050" in what_differs
     assert "DNM1" in what_differs
     variant_class_ids = {
         edge["edge_id"]
@@ -1052,6 +1300,7 @@ def test_offline_dossier_has_cited_required_sections() -> None:
     )
     contact_sentences = sections["who_to_contact"]["sentences"]
     assert len(contact_sentences) <= 3
+    assert all(len(sentence["edge_ids"]) <= 3 for sentence in contact_sentences)
     assert any("Ingo Helbig" in sentence["text"] for sentence in contact_sentences)
     assert all(
         "signals:" in sentence["text"]
@@ -1261,18 +1510,22 @@ def test_api_contract_for_both_demo_diseases() -> None:
                 "serves",
                 "coverage",
                 "eligibility_diff",
+                "eligibility_text",
                 "edge_ids",
             } <= asset.keys()
 
         bridge_response = client.get("/api/bridges", params={"a": supported, "b": gap})
         assert bridge_response.status_code == 200
+        bridges_payload = bridge_response.json()
         assert {
             "a",
             "b",
             "people",
             "unverified_name_matches",
-        } <= bridge_response.json().keys()
-        _assert_edges_resolve(bridge_response.json(), snapshot, client, resolved_edge_ids)
+        } <= bridges_payload.keys()
+        assert bridges_payload["a"]["id"] == supported
+        assert bridges_payload["b"]["id"] == gap
+        _assert_edges_resolve(bridges_payload, snapshot, client, resolved_edge_ids)
         coverage_response = client.get(f"/api/disease/{quote(disease_id, safe='')}/coverage")
         assert coverage_response.status_code == 200
         assert {

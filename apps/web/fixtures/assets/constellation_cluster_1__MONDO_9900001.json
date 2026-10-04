@@ -137,42 +137,49 @@
       },
       "eligibility_diff": [
         {
-          "field": "Age at enrollment",
+          "field": "genotype_requirement",
+          "asset_value": "requires STXBP1 or SYNGAP1 variant",
+          "target_value": "STXBP1 variant",
+          "status": "matches"
+        },
+        {
+          "field": "age_window",
           "asset_value": "Birth–18 years",
-          "target_value": "Birth–18 years",
-          "status": "matches"
-        },
-        {
-          "field": "Molecular diagnosis",
-          "asset_value": "STXBP1 or SYNGAP1",
-          "target_value": "STXBP1",
-          "status": "matches"
-        },
-        {
-          "field": "Study visit schedule",
-          "asset_value": "Annual",
-          "target_value": "Flexible",
-          "status": "differs"
-        },
-        {
-          "field": "Prior treatment",
-          "asset_value": "Recorded",
-          "target_value": "Not specified",
+          "target_value": "no HPO onset terms",
           "status": "needs_expert_review"
         },
         {
-          "field": "Outcome measures",
-          "asset_value": "Development and seizure history",
-          "target_value": "Development and seizure history",
+          "field": "study_type",
+          "asset_value": "OBSERVATIONAL",
+          "target_value": "—",
           "status": "matches"
         },
         {
-          "field": "Geographic access",
-          "asset_value": "Multiple sites",
-          "target_value": "Local access",
-          "status": "needs_expert_review"
+          "field": "overall_status",
+          "asset_value": "RECRUITING",
+          "target_value": "—",
+          "status": "matches"
+        },
+        {
+          "field": "enrollment",
+          "asset_value": "60",
+          "target_value": "—",
+          "status": "matches"
+        },
+        {
+          "field": "n_locations",
+          "asset_value": "4",
+          "target_value": "—",
+          "status": "matches"
+        },
+        {
+          "field": "exclusion_other_gene",
+          "asset_value": "excludes mutations outside STXBP1 or SYNGAP1",
+          "target_value": "STXBP1 variant",
+          "status": "matches"
         }
       ],
+      "eligibility_text": "Inclusion Criteria: STXBP1 or SYNGAP1 variant. Exclusion Criteria: mutation in another gene.",
       "edge_ids": [
         "edge:trial:nct06555965"
       ]
@@ -194,12 +201,25 @@
       "coverage": null,
       "eligibility_diff": [
         {
-          "field": "Genetic background",
-          "asset_value": "Model strain 1",
-          "target_value": "Target strain",
+          "field": "study_type",
+          "asset_value": "not reported",
+          "target_value": "—",
+          "status": "matches"
+        },
+        {
+          "field": "overall_status",
+          "asset_value": "not reported",
+          "target_value": "—",
+          "status": "matches"
+        },
+        {
+          "field": "genotype_requirement",
+          "asset_value": "gene requirement not specified",
+          "target_value": "DNM1 variant",
           "status": "needs_expert_review"
         }
       ],
+      "eligibility_text": "",
       "edge_ids": [
         "edge:smw:stxbp1-dnm1"
       ]

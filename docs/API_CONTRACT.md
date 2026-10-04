@@ -35,15 +35,19 @@ GET  /api/disease/{mondo}/cluster -> {disease_id, cluster: {id, label, resolutio
 GET  /api/edge/{edge_id} -> LedgerRow & {contradicting: [LedgerRow]}
 GET  /api/cluster/{cluster_id}/assets?for={mondo} -> {cluster_id, for_disease, assets:[Asset]}
      Asset = {id, name, asset_type:"natural_history_study"|"registry"|"biobank"|"animal_model"|"biomarker"|"protocol", url, record_id (e.g. NCT06555965),
-              serves:[DiseaseRef], coverage:{value 0..1, numerator_ic, denominator_ic, n_matched, n_total, matched:[{id,label}], unmatched:[{id,label}]}|null,
-              eligibility_diff:[{field, asset_value, target_value, status:"matches"|"differs"|"needs_expert_review"}], edge_ids:[edge_id]}
-GET  /api/bridges?a={mondo}&b={mondo} -> {a, b, people:[Bridge], unverified_name_matches:int}
-     Bridge = {id, display_name, affiliations:[str], roles:["author"|"pi"|"study_official"], n_a, n_b, score,
+              serves:[DiseaseRef], coverage:{value 0..1, numerator_ic, denominator_ic, n_matched, n_total,
+              matched:[{id,label,match_type:"exact"|"descendant"|"ancestor",matched_by:{id,label}}], unmatched:[{id,label}]}|null,
+              eligibility_diff:[{field, asset_value, target_value, status:"matches"|"differs"|"needs_expert_review"}],
+              eligibility_text:str, edge_ids:[edge_id]}
+GET  /api/bridges?a={mondo}&b={mondo} -> {a:DiseaseRef, b:DiseaseRef, people:[Bridge], unverified_name_matches:int}
+     Bridge = {id, display_name, affiliations:[str] (top 2 by record frequency), additional_affiliations:[str],
+               roles:["author"|"pi"|"study_official"], n_a, n_b, score,
                proving_edges:[{edge_id, kind:"paper"|"study"|"award", record_id, title, year|null, url, disease_id, disease_ids:[mondo]}], why_same_person: str}
      people contains only name-compatible matches with ORCID, cross-side affiliation, shared co-author, or official/PI affiliation corroboration; name-only candidates are counted separately.
+     Affiliation properties are normalized and stripped of emails, URLs, phone numbers, and labeled contact details at build time.
 GET  /api/disease/{mondo}/coverage -> {disease_id, is_gap, reasons:[str], sources:[{source, query, count, retrieved_at}],
-     nearest_leads:[{disease: DiseaseRef, S, missing_layer:"M"|"V"|"asset"|"people"}], what_would_change:[{layer, text, edge_ids}]}
-POST /api/dossier {disease, persona:"maria"|"devon"|"priya"|"osei"} -> Dossier
+     nearest_leads:[{disease: DiseaseRef, S, missing_layer:"P"|"M"|"V"|"S"|"asset"|"people"}], what_would_change:[{layer, text, edge_ids}]}
+POST /api/dossier {disease, persona:"maria"|"devon"|"priya"|"osei", vs?:disease_id} -> Dossier
      Dossier = {disease_id, persona, mode:"live"|"cached"|"offline", snapshot_hash, trace_id, generated_at,
                 sections:[{key:"who_shares"|"what_exists"|"what_differs"|"who_to_contact"|"next_step"|"coverage", title, sentences:[Sentence]}],
                 dropped_sentences:int, gap_plan: {reasons, what_would_change:[{layer,text,edge_ids}]}|null, markdown: str}

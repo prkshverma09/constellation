@@ -45,6 +45,7 @@ app.add_middleware(
 class DossierRequest(BaseModel):
     disease: str
     persona: Literal["maria", "devon", "priya", "osei"] = "maria"
+    vs: str | None = None
 
 
 class ContributeRequest(BaseModel):
@@ -360,14 +361,116 @@ def disease_overview(mondo: str) -> dict[str, Any]:
     )
     technical = []
     plain = []
-    if technical_edge:
+    cluster = snapshot.cluster_for(disease_id)
+    member_ids = set(cluster.get("member_ids", [])) - {disease_id} if cluster else set()
+    member_edges = [
+        edge
+        for edge in snapshot.edges_by_subject.get(disease_id, [])
+        if edge["predicate"] == "member_of"
+    ]
+    supported_members = [
+        row
+        for row in _neighbor_rows(snapshot, disease_id)
+        if row["supported"] and row["disease"]["id"] in member_ids
+    ]
+    cluster_node = (
+        snapshot.node_by_id.get(member_edges[0]["object"], {}) if member_edges else {}
+    )
+    cluster_label = (cluster or {}).get("label") or cluster_node.get("label")
+    member_names = [
+        snapshot.node_by_id[member_id]["properties"].get("gene_symbol")
+        or snapshot.node_by_id[member_id]["label"]
+        for member_id in sorted(member_ids)
+        if member_id in snapshot.node_by_id
+    ][:3]
+    membership_refs = [
+        edge["edge_id"] for edge in member_edges[:1]
+    ] + [row["edge_id"] for row in supported_members[:1]]
+    if membership_refs:
+        member_text = ", ".join(member_names) or "related diseases"
+        technical.append(
+            {
+                "text": (
+                    f"{properties.get('gene_symbol', '')} is grouped with {member_text} "
+                    f"under {cluster_label or 'the indexed mechanism cluster'}."
+                ),
+                "edge_ids": list(dict.fromkeys(membership_refs)),
+            }
+        )
+        plain.append(
+            {
+                "text": (
+                    f"The evidence groups {properties.get('gene_symbol', '')} with "
+                    f"related diseases under {cluster_label or 'a shared research pattern'}."
+                ),
+                "edge_ids": list(dict.fromkeys(membership_refs)),
+            }
+        )
+    if variant_edges:
+        variant_edge = variant_edges[0]
+        variant_class = variant_edge.get("object_label", "reported variant class")
+        source = variant_edge.get("source", "indexed source")
+        source_label = {"clinvar": "ClinVar", "orphanet": "Orphanet"}.get(
+            source.casefold(), source
+        )
+        technical.append(
+            {
+                "text": (
+                    f"Variant-class evidence records {variant_class} for "
+                    f"{properties.get('gene_symbol', '')} in {source_label}."
+                ),
+                "edge_ids": [variant_edge["edge_id"]],
+            }
+        )
+        plain.append(
+            {
+                "text": (
+                    f"{properties.get('gene_symbol', '')} has a reported "
+                    f"{variant_class} variant class in {source_label} records."
+                ),
+                "edge_ids": [variant_edge["edge_id"]],
+            }
+        )
+    counterexample_id = cluster.get("counterexample_id") if cluster else None
+    counterexample = next(
+        (
+            row
+            for row in _neighbor_rows(snapshot, disease_id)
+            if row["disease"]["id"] == counterexample_id
+        ),
+        None,
+    )
+    if counterexample:
+        symbol = properties.get("gene_symbol", disease["label"])
+        label = counterexample["disease"]["gene_symbol"]
+        technical.append(
+            {
+                "text": (
+                    f"{label}-related disease looks clinically similar "
+                    f"(P {counterexample['P']:.2f}) but shares no supported mechanism "
+                    f"(M = {counterexample['M']:.2f}), so it is excluded from the "
+                    f"{symbol} cluster."
+                ),
+                "edge_ids": [counterexample["edge_id"]],
+            }
+        )
+        plain.append(
+            {
+                "text": (
+                    f"{label}-related disease looks similar in reported symptoms but "
+                    "does not share enough mechanism evidence to join this group."
+                ),
+                "edge_ids": [counterexample["edge_id"]],
+            }
+        )
+    if not technical and technical_edge:
         ref = technical_edge[0]["edge_id"]
         technical.append(
             {
                 "text": (
-                    f"{disease['label']} is linked to "
-                    f"{len(phenotype_edges)} indexed phenotype terms "
-                    f"and {len(variant_edges)} variant-effect classifications."
+                    f"The snapshot links {disease['label']} to "
+                    f"{len(phenotype_edges)} phenotype terms and "
+                    f"{len(variant_edges)} variant-effect classifications."
                 ),
                 "edge_ids": [ref],
             }
@@ -560,6 +663,7 @@ def assets_for_cluster(cluster_id: str, for_disease: str = Query(alias="for")) -
                 ],
                 "coverage": asset_coverage(asset, for_disease, snapshot),
                 "eligibility_diff": eligibility_diff(asset, for_disease, snapshot),
+                "eligibility_text": properties.get("eligibility", ""),
                 "edge_ids": [
                     edge["edge_id"] for edge in snapshot.edges_by_subject.get(asset["id"], [])
                 ],
@@ -580,8 +684,8 @@ def bridges(a: str, b: str) -> dict[str, Any]:
         raise HTTPException(status_code=404, detail="Disease not found.")
     people, unverified = find_bridges_with_unverified(snapshot, a, b)
     return {
-        "a": a,
-        "b": b,
+        "a": snapshot.disease_ref(a),
+        "b": snapshot.disease_ref(b),
         "people": people,
         "unverified_name_matches": unverified,
     }
@@ -630,12 +734,18 @@ async def dossier(request: DossierRequest) -> dict[str, Any]:
     )
     if mode == "live":
         return await build_live_dossier(snapshot, request.disease, request.persona)
-    if cache_file.exists() and mode != "offline":
+    if request.vs is None and cache_file.exists() and mode != "offline":
         result = json.loads(cache_file.read_text(encoding="utf-8"))
         result["mode"] = "cached"
         return result
-    result = build_dossier(snapshot, request.disease, request.persona, mode="offline")
-    if mode != "offline":
+    result = build_dossier(
+        snapshot,
+        request.disease,
+        request.persona,
+        mode="offline",
+        comparator_id=request.vs,
+    )
+    if mode != "offline" and request.vs is None:
         cache_file.parent.mkdir(parents=True, exist_ok=True)
         cache_file.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     return result
