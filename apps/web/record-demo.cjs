@@ -94,7 +94,7 @@ const BASE = 'http://localhost:3000';
   await seg('s6b', async () => {
     await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'smooth' })); await sleep(800);
     await page.getByRole('radio', { name: 'Dr. Osei' }).click();
-    await page.getByText(/Persona: osei/).waitFor();
+    await page.locator('[role=radio][aria-checked=true]', { hasText: 'Dr. Osei' }).waitFor(); await sleep(2000);
     await page.getByText(/GPT-5 · generated/).waitFor({ timeout: 90000 });
     await sleep(3500); await scrollBy(450); await sleep(2500); await scrollBy(450);
   });
