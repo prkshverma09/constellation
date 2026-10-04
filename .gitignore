@@ -12,3 +12,5 @@ apps/web/tsconfig.tsbuildinfo
 data/raw/*
 !data/raw/.gitkeep
 data/proposed.jsonl
+.vercel
+.env*

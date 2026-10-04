@@ -58,6 +58,22 @@ The fixture-backed frontend client remains available with
 `NEXT_PUBLIC_API_BASE=mock pnpm dev` for isolated interface work. `make e2e`
 defaults to the real API, not fixtures.
 
+## Deploy (free tier)
+
+Both halves run on the Vercel Hobby plan as two projects:
+
+- **API** (repo root): `api/index.py` exposes the FastAPI app, and the root
+  `requirements.txt` lists only the API's runtime dependencies. `.vercelignore`
+  hides `backend/pyproject.toml` so Vercel uses those files instead of the uv
+  project. Set `LLM_MODE=offline` (no OpenAI key needed) and
+  `CORS_ORIGIN_REGEX=^https://constellation[a-z0-9-]*\.vercel\.app$`. The
+  snapshot needs about 500 MB of memory, so 512 MB hosts such as Render's free
+  plan run out of memory.
+- **Web** (`apps/web`): set `NEXT_PUBLIC_API_BASE` to the API's URL.
+
+The API also accepts exact extra origins through `CORS_ORIGINS`
+(comma-separated).
+
 ## Architecture
 
 - **Ingestion and normalization** (`backend/constellation/ingest/`) fetch and

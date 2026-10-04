@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import functools
 import json
 import os
 import time
@@ -38,7 +39,13 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "http://localhost:3100",
         "http://127.0.0.1:3100",
+        *[
+            origin.strip()
+            for origin in os.getenv("CORS_ORIGINS", "").split(",")
+            if origin.strip()
+        ],
     ],
+    allow_origin_regex=os.getenv("CORS_ORIGIN_REGEX") or None,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -59,6 +66,7 @@ class ContributeRequest(BaseModel):
     polarity: Literal["supports", "contradicts"]
 
 
+@functools.cache
 def get_snapshot() -> Snapshot:
     if not (SNAPSHOT / "nodes.parquet").exists():
         raise HTTPException(status_code=503, detail="Snapshot is not built; run `make data`.")

@@ -1,0 +1,11 @@
+apps
+docs
+data/raw
+backend/.venv
+backend/tests
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+backend/pyproject.toml
+backend/uv.lock
+Makefile
