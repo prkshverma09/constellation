@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:hp:stxbp1-0002",
+  "subject": "MONDO:0012812",
+  "subject_label": "developmental and epileptic encephalopathy 4",
+  "predicate": "has_phenotype",
+  "object": "HP:99000002",
+  "object_label": "Developmental delay",
+  "evidence_class": "curated",
+  "source": "HPO",
+  "source_record": "HP:99000002",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Developmental delay is recorded in the snapshot.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

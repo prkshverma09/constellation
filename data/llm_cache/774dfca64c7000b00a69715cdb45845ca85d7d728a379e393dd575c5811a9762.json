@@ -1,0 +1,131 @@
+{
+  "disease_id": "MONDO:0014859",
+  "persona": "osei",
+  "mode": "offline",
+  "snapshot_hash": "5653b2ca624258433f4dd15ddcb02d79b9ce1f08a56febecbfbfbee8580cf9da",
+  "trace_id": "a7caaf88-5627-4f79-89d0-6dde4240f1e2",
+  "generated_at": "2026-10-04T00:29:22.129894+00:00",
+  "sections": [
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "No quote-backed V=0 variant-class pair or contradiction edge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Verify source coverage: 21 disease phenotype associations are represented in this snapshot.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "No other Leiden-cluster member is mapped in the current snapshot.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        },
+        {
+          "text": "The highest-phenotype non-member counterexample is excluded because M=0 (no mechanism support).",
+          "edge_ids": [
+            "b0f727ee907516be"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "No reusable cluster asset or exact-match foundation is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "No corroborated cross-disease investigator bridge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Use the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": {
+    "reasons": [
+      "No within-cluster mechanism neighbour meets the P/M/V support threshold.",
+      "No reusable asset or investigator bridge is mapped to this cluster."
+    ],
+    "what_would_change": [
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "92307a1900838526"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "d30b8d092282e8a9"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional or pathway study could establish a shared disease mechanism.",
+        "edge_ids": [
+          "71e141a135475a63"
+        ]
+      }
+    ]
+  },
+  "markdown": "## What differs and must be verified\nNo quote-backed V=0 variant-class pair or contradiction edge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Search coverage\nVerify source coverage: 21 disease phenotype associations are represented in this snapshot. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Who shares our characteristics\nNo other Leiden-cluster member is mapped in the current snapshot. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\nThe highest-phenotype non-member counterexample is excluded because M=0 (no mechanism support). [b0f727ee907516be]\n\n## What already exists\nNo reusable cluster asset or exact-match foundation is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Who to contact\nNo corroborated cross-disease investigator bridge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Proposed first joint step\nUse the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]"
+}

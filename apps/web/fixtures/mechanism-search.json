@@ -1,0 +1,28 @@
+{
+  "_fixture": true,
+  "query": "",
+  "clusters": [
+    {
+      "id": "constellation:cluster/1",
+      "label": "Presynaptic vesicle cycle (SNARE)",
+      "score": 0.91,
+      "member_ids": [
+        "MONDO:0012812",
+        "MONDO:9900001",
+        "MONDO:9900002",
+        "MONDO:9900003",
+        "MONDO:9900004"
+      ],
+      "matched_pathways": [
+        {
+          "id": "R-HSA-0000001",
+          "name": "Synaptic vesicle cycle"
+        },
+        {
+          "id": "R-HSA-0000002",
+          "name": "SNARE complex assembly"
+        }
+      ]
+    }
+  ]
+}

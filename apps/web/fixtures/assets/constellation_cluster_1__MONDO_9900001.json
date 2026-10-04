@@ -1,0 +1,208 @@
+{
+  "_fixture": true,
+  "cluster_id": "constellation:cluster/1",
+  "for_disease": {
+    "id": "MONDO:9900001",
+    "name": "developmental and epileptic encephalopathy 31",
+    "gene_id": "HGNC:00000001",
+    "gene_symbol": "DNM1"
+  },
+  "assets": [
+    {
+      "id": "constellation:asset/nct06555965-fixture",
+      "name": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+      "asset_type": "natural_history_study",
+      "url": "https://clinicaltrials.gov/study/NCT06555965",
+      "record_id": "NCT06555965",
+      "serves": [
+        {
+          "id": "MONDO:0012812",
+          "name": "developmental and epileptic encephalopathy 4",
+          "gene_id": "HGNC:00000007",
+          "gene_symbol": "STXBP1"
+        },
+        {
+          "id": "MONDO:9900006",
+          "name": "SYNGAP1-related disorder",
+          "gene_id": "HGNC:00000006",
+          "gene_symbol": "SYNGAP1"
+        }
+      ],
+      "coverage": {
+        "value": 0.78,
+        "numerator_ic": 41.2,
+        "denominator_ic": 52.8,
+        "n_matched": 18,
+        "n_total": 24,
+        "matched": [
+          {
+            "id": "HP:99000001",
+            "label": "Early-onset seizures"
+          },
+          {
+            "id": "HP:99000002",
+            "label": "Developmental delay"
+          },
+          {
+            "id": "HP:99000003",
+            "label": "Hypotonia"
+          },
+          {
+            "id": "HP:99000004",
+            "label": "Speech impairment"
+          },
+          {
+            "id": "HP:99000005",
+            "label": "Early-onset seizures"
+          },
+          {
+            "id": "HP:99000006",
+            "label": "Developmental delay"
+          },
+          {
+            "id": "HP:99000007",
+            "label": "Hypotonia"
+          },
+          {
+            "id": "HP:99000008",
+            "label": "Speech impairment"
+          },
+          {
+            "id": "HP:99000009",
+            "label": "Early-onset seizures"
+          },
+          {
+            "id": "HP:99000010",
+            "label": "Developmental delay"
+          },
+          {
+            "id": "HP:99000011",
+            "label": "Hypotonia"
+          },
+          {
+            "id": "HP:99000012",
+            "label": "Speech impairment"
+          },
+          {
+            "id": "HP:99000013",
+            "label": "Early-onset seizures"
+          },
+          {
+            "id": "HP:99000014",
+            "label": "Developmental delay"
+          },
+          {
+            "id": "HP:99000015",
+            "label": "Hypotonia"
+          },
+          {
+            "id": "HP:99000016",
+            "label": "Speech impairment"
+          },
+          {
+            "id": "HP:99000017",
+            "label": "Early-onset seizures"
+          },
+          {
+            "id": "HP:99000018",
+            "label": "Developmental delay"
+          }
+        ],
+        "unmatched": [
+          {
+            "id": "HP:99001001",
+            "label": "Sleep disturbance"
+          },
+          {
+            "id": "HP:99001002",
+            "label": "Feeding difficulty"
+          },
+          {
+            "id": "HP:99001003",
+            "label": "Movement disorder"
+          },
+          {
+            "id": "HP:99001004",
+            "label": "Sleep disturbance"
+          },
+          {
+            "id": "HP:99001005",
+            "label": "Feeding difficulty"
+          },
+          {
+            "id": "HP:99001006",
+            "label": "Movement disorder"
+          }
+        ]
+      },
+      "eligibility_diff": [
+        {
+          "field": "Age at enrollment",
+          "asset_value": "Birth–18 years",
+          "target_value": "Birth–18 years",
+          "status": "matches"
+        },
+        {
+          "field": "Molecular diagnosis",
+          "asset_value": "STXBP1 or SYNGAP1",
+          "target_value": "STXBP1",
+          "status": "matches"
+        },
+        {
+          "field": "Study visit schedule",
+          "asset_value": "Annual",
+          "target_value": "Flexible",
+          "status": "differs"
+        },
+        {
+          "field": "Prior treatment",
+          "asset_value": "Recorded",
+          "target_value": "Not specified",
+          "status": "needs_expert_review"
+        },
+        {
+          "field": "Outcome measures",
+          "asset_value": "Development and seizure history",
+          "target_value": "Development and seizure history",
+          "status": "matches"
+        },
+        {
+          "field": "Geographic access",
+          "asset_value": "Multiple sites",
+          "target_value": "Local access",
+          "status": "needs_expert_review"
+        }
+      ],
+      "edge_ids": [
+        "edge:trial:nct06555965"
+      ]
+    },
+    {
+      "id": "constellation:asset/model-fixture",
+      "name": "Illustrative synaptic vesicle model resource",
+      "asset_type": "animal_model",
+      "url": "https://example.org/model-resource",
+      "record_id": "MODEL-0000001",
+      "serves": [
+        {
+          "id": "MONDO:9900001",
+          "name": "developmental and epileptic encephalopathy 31",
+          "gene_id": "HGNC:00000001",
+          "gene_symbol": "DNM1"
+        }
+      ],
+      "coverage": null,
+      "eligibility_diff": [
+        {
+          "field": "Genetic background",
+          "asset_value": "Model strain 1",
+          "target_value": "Target strain",
+          "status": "needs_expert_review"
+        }
+      ],
+      "edge_ids": [
+        "edge:smw:stxbp1-dnm1"
+      ]
+    }
+  ]
+}

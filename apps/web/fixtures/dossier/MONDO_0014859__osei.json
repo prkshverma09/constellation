@@ -1,0 +1,47 @@
+{
+  "_fixture": true,
+  "disease_id": "MONDO:0014859",
+  "persona": "osei",
+  "mode": "cached",
+  "snapshot_hash": "fixture-2025-02-14",
+  "trace_id": "trace:fixture:osei",
+  "generated_at": "2025-02-14T12:00:00Z",
+  "sections": [
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "The current snapshot does not support a mechanism-first neighbour for FRRS1L.",
+          "edge_ids": [
+            "edge:hp:frrs1l-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": {
+    "reasons": [
+      "No candidate reaches the mechanism threshold in the committed snapshot.",
+      "The functional variant-effect layer remains sparse."
+    ],
+    "what_would_change": [
+      {
+        "layer": "V",
+        "text": "A functional study classifying the FRRS1L variant effect (loss of function vs other) would populate the variant-effect layer; source: a reproducible functional assay.",
+        "edge_ids": [
+          "edge:variant:frrs1l-0001"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A replicated mechanism study linking FRRS1L to a shared pathway would strengthen the mechanism layer.",
+        "edge_ids": [
+          "edge:mechanism:frrs1l-0001"
+        ]
+      }
+    ]
+  },
+  "markdown": "## Search coverage\n\nThe current snapshot does not support a mechanism-first neighbour for FRRS1L. [^1]"
+}

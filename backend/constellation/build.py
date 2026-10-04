@@ -12,15 +12,24 @@ import yaml
 
 from constellation.analytics.clusters import cluster_records
 from constellation.analytics.gaps import gap_reasons, is_gap
-from constellation.analytics.similarity import fused_similarity, lowest_level_pathways
+from constellation.analytics.similarity import (
+    fused_similarity,
+    lowest_level_pathways,
+    pathway_depths,
+    string_mechanism_score,
+)
 from constellation.config import CACHE, DATA, RAW, configured_mode
 from constellation.extract.cache import extract_claims
 from constellation.extract.heuristic import extract_heuristic
 from constellation.graph.store import Snapshot, write_snapshot
 from constellation.ingest.cache import CachedHTTP
+from constellation.ingest.ontology import (
+    load_goa_human_data,
+    load_reactome_all_levels,
+    propagate_go_terms,
+)
 from constellation.ingest.sources import (
     clinvar_pathogenic_count,
-    extract_uniprot,
     hpo_information,
     monarch_associations,
     monarch_entity,
@@ -28,7 +37,6 @@ from constellation.ingest.sources import (
     pubmed_count,
     pubmed_records,
     reactome_pathway_parents,
-    reactome_pathways,
     reporter_projects,
     reporter_publications,
     resolve_gene,
@@ -129,12 +137,17 @@ def _study_to_asset(
             continue
         affiliation = official.get("affiliation", "")
         identifier = person_curie(name, affiliation)
+        orcid = official.get("orcid")
         add_node(
             nodes,
             identifier,
             "person",
             name,
-            {"affiliations": [affiliation] if affiliation else []},
+            {
+                "affiliations": [affiliation] if affiliation else [],
+                "roles": ["study_official"],
+                **({"orcid": orcid} if orcid else {}),
+            },
         )
         edges.append(
             make_edge(
@@ -147,7 +160,11 @@ def _study_to_asset(
                 source="ctgov",
                 source_record=nct_id,
                 source_url=f"https://clinicaltrials.gov/study/{nct_id}",
-                properties={"role": official.get("role", "study_official")},
+                properties={
+                    "role": official.get("role", "study_official"),
+                    "affiliations": [affiliation] if affiliation else [],
+                    **({"orcid": orcid} if orcid else {}),
+                },
             )
         )
     genenames = re.findall(r"\b[A-Z][A-Z0-9]{1,8}\b", title)
@@ -259,6 +276,9 @@ def _add_seed_foundations(
     verified: list[dict[str, str]] = []
     for seed in seeds:
         url = seed["url"]
+        match_kind = seed.get("match_kind", "exact")
+        if match_kind not in {"exact", "umbrella"}:
+            raise ValueError(f"Unknown patient-group match_kind for {seed['name']}: {match_kind}")
         try:
             response = http.get(url, timeout=20)
             if response.status_code < 200 or response.status_code >= 400:
@@ -273,7 +293,11 @@ def _add_seed_foundations(
             patient_group_id,
             "patient_group",
             seed["name"],
-            {"url": str(response.url), "verified_on": date.today().isoformat()},
+            {
+                "url": str(response.url),
+                "verified_on": date.today().isoformat(),
+                "match_kind": match_kind,
+            },
         )
         for symbol in seed.get("genes", []):
             gene = genes.get(symbol)
@@ -291,7 +315,10 @@ def _add_seed_foundations(
                     source="seed_list",
                     source_record=url,
                     source_url=str(response.url),
-                    properties={"verified_on": date.today().isoformat()},
+                    properties={
+                        "verified_on": date.today().isoformat(),
+                        "match_kind": match_kind,
+                    },
                 )
             )
         verified.append({"name": seed["name"], "url": str(response.url)})
@@ -324,7 +351,13 @@ def _author_edges(
         affiliations = author.get("affiliations", [])
         affiliation = affiliations[0] if affiliations else ""
         person_id = person_curie(name, affiliation)
-        properties = {"affiliations": affiliations, "name_variants": [name], "roles": ["author"]}
+        orcid = author.get("orcid")
+        properties = {
+            "affiliations": affiliations,
+            "name_variants": [name],
+            "roles": ["author"],
+            **({"orcid": orcid} if orcid else {}),
+        }
         add_node(nodes, person_id, "person", name, properties)
         edges.append(
             make_edge(
@@ -337,6 +370,10 @@ def _author_edges(
                 source="pubmed",
                 source_record=paper["pmid"],
                 source_url=f"https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']}/",
+                properties={
+                    "affiliations": affiliations,
+                    **({"orcid": orcid} if orcid else {}),
+                },
             )
         )
 
@@ -370,6 +407,9 @@ def build() -> dict[str, Any]:
     phenotype_sets: dict[str, set[str]] = defaultdict(set)
     pathway_sets: dict[str, set[str]] = defaultdict(set)
     pathway_labels: dict[str, str] = {}
+    uniprot_by_symbol: dict[str, str] = {}
+    go_terms_by_gene: dict[str, set[str]] = defaultdict(set)
+    go_term_counts: dict[str, int] = {}
     source_counts: dict[str, dict[str, Any]] = {}
     papers: dict[str, dict[str, Any]] = {}
     pubmed_full_counts: dict[str, int] = {}
@@ -377,6 +417,7 @@ def build() -> dict[str, Any]:
     clinvar_records: dict[str, str | None] = {}
     trial_counts: dict[str, int] = {}
     trial_ids: set[str] = {TRIAL_SEED}
+    trial_gene_hits: dict[str, set[str]] = defaultdict(set)
     information_content, phenotype_parents = hpo_information(http)
 
     for symbol in symbols:
@@ -503,6 +544,14 @@ def build() -> dict[str, Any]:
     if unresolved:
         raise RuntimeError("Unresolved DEE slice entries: " + "; ".join(unresolved))
 
+    go_data = load_goa_human_data(http, set(genes))
+    source_counts["go_gaf"] = {
+        "source": "GOA human GAF",
+        "query": "goa_human.gaf.gz; aspect P; skip NOT; all evidence for specificity counts",
+        "count": go_data["annotation_rows"],
+        "retrieved_at": date.today().isoformat(),
+    }
+
     for symbol, gene in genes.items():
         papers_for_gene = pubmed_records(http, symbol, retmax=60)
         pubmed_full_counts[symbol] = pubmed_count(http, symbol)
@@ -528,50 +577,156 @@ def build() -> dict[str, Any]:
             "count": count,
             "retrieved_at": date.today().isoformat(),
         }
-        uniprot = extract_uniprot(gene["entity"]) or uniprot_accession(http, symbol)
+        uniprot = uniprot_accession(http, gene["entity"])
         if uniprot:
-            for pathway in reactome_pathways(http, uniprot):
-                pathway_id = pathway.get("stId") or pathway.get("stableIdentifier")
-                if not pathway_id or not str(pathway_id).startswith("R-HSA-"):
-                    continue
-                pathway_name = pathway.get("displayName") or pathway.get("name") or pathway_id
-                add_node(
-                    nodes,
-                    pathway_id,
-                    "mechanism",
-                    pathway_name,
-                    {"level": pathway.get("speciesName", "Homo sapiens"), "member_genes": []},
-                )
-                pathway_sets[symbol].add(pathway_id)
-                pathway_labels[pathway_id] = pathway_name
-                nodes[pathway_id]["properties"]["member_genes"] = sorted(
-                    set(nodes[pathway_id]["properties"].get("member_genes", [])) | {symbol}
-                )
-                edges.append(
-                    make_edge(
-                        gene["id"],
-                        symbol,
-                        "participates_in",
-                        pathway_id,
-                        pathway_name,
-                        evidence_class="curated",
-                        source="reactome",
-                        source_record=pathway_id,
-                        source_url=f"https://reactome.org/content/detail/{pathway_id}",
-                    )
-                )
-        trial_results, trial_count = search_trials_with_count(http, symbol, page_size=10)
+            nodes[gene["id"]]["properties"]["uniprot_id"] = uniprot
+            uniprot_by_symbol[symbol] = uniprot
+        trial_results, trial_count = search_trials_with_count(http, symbol, page_size=100)
         trial_counts[actual_symbol] = trial_count
-        for study in trial_results[:3]:
+        for study in trial_results:
             nct = study.get("protocolSection", {}).get("identificationModule", {}).get("nctId")
             if nct:
                 trial_ids.add(nct)
+                trial_gene_hits[str(nct)].add(actual_symbol)
         source_counts[f"ctgov:{symbol}"] = {
             "source": "ClinicalTrials.gov",
             "query": symbol,
             "count": trial_count,
             "retrieved_at": date.today().isoformat(),
         }
+
+    reactome_uniprot_to_symbol = dict(go_data["uniprot_to_symbol"])
+    reactome_uniprot_to_symbol.update(
+        {accession: symbol for symbol, accession in uniprot_by_symbol.items()}
+    )
+    reactome_data = load_reactome_all_levels(http, reactome_uniprot_to_symbol)
+    pathway_sets = defaultdict(
+        set,
+        {
+            symbol: set(pathways)
+            for symbol, pathways in reactome_data["pathways_by_gene"].items()
+            if symbol in genes
+        },
+    )
+    pathway_labels.update(reactome_data["term_names"])
+    source_counts["reactome_all_levels"] = {
+        "source": "Reactome UniProt2Reactome",
+        "query": "UniProt2Reactome_All_Levels.txt; Homo sapiens",
+        "count": reactome_data["mapping_rows"],
+        "retrieved_at": date.today().isoformat(),
+    }
+    for symbol, pathway_ids in pathway_sets.items():
+        for pathway_id in sorted(pathway_ids):
+            pathway_name = pathway_labels.get(pathway_id, pathway_id)
+            gene_count = reactome_data["gene_counts"].get(pathway_id, 0)
+            add_node(
+                nodes,
+                pathway_id,
+                "mechanism",
+                pathway_name,
+                {
+                    "level": "Reactome pathway",
+                    "human_gene_count": gene_count,
+                    "member_genes": [],
+                },
+            )
+            nodes[pathway_id]["properties"]["member_genes"] = sorted(
+                set(nodes[pathway_id]["properties"].get("member_genes", [])) | {symbol}
+            )
+            edges.append(
+                make_edge(
+                    genes[symbol]["id"],
+                    symbol,
+                    "participates_in",
+                    pathway_id,
+                    pathway_name,
+                    evidence_class="curated",
+                    source="reactome",
+                    source_record=pathway_id,
+                    source_url=f"https://reactome.org/content/detail/{pathway_id}",
+                    properties={"human_gene_count": gene_count},
+                )
+            )
+
+    go_term_counts = go_data["gene_counts"]
+    go_term_labels = go_data["term_names"]
+    go_annotations_by_gene = go_data["annotations_by_gene"]
+    source_counts["go_specificity_counts"] = {
+        "source": "GOA human GAF + go-basic OBO",
+        "query": "distinct genes propagated through is_a/part_of using all evidence codes",
+        "count": len(go_term_counts),
+        "retrieved_at": date.today().isoformat(),
+    }
+    for symbol in genes:
+        annotations = go_annotations_by_gene.get(symbol, [])
+        source_counts[f"go:{symbol}"] = {
+            "source": "GOA human GAF",
+            "query": f"{symbol}; aspect P; experimental evidence codes",
+            "count": len(annotations),
+            "retrieved_at": date.today().isoformat(),
+        }
+    experimental_terms = {
+        annotation["go_id"]
+        for annotations in go_annotations_by_gene.values()
+        for annotation in annotations
+    }
+    go_ancestor_sets = {
+        term_id: propagate_go_terms({term_id}, go_data["parents"])
+        for term_id in experimental_terms
+    }
+    go_evidence_by_gene_term: dict[str, dict[str, dict[str, Any]]] = defaultdict(dict)
+    for symbol, gene_annotations in go_annotations_by_gene.items():
+        for annotation in gene_annotations:
+            for term_id in go_ancestor_sets[annotation["go_id"]]:
+                gene_count = go_term_counts.get(term_id, 0)
+                if gene_count > 500:
+                    continue
+                go_terms_by_gene[symbol].add(term_id)
+                go_evidence_by_gene_term[symbol].setdefault(term_id, annotation)
+    for symbol, terms in go_terms_by_gene.items():
+        for term_id in sorted(terms):
+            annotation = go_evidence_by_gene_term[symbol][term_id]
+            label = go_term_labels.get(term_id, term_id)
+            add_node(
+                nodes,
+                term_id,
+                "mechanism",
+                label,
+                {
+                    "level": "GO biological process",
+                    "human_gene_count": go_term_counts[term_id],
+                    "member_genes": [],
+                },
+            )
+            nodes[term_id]["properties"]["member_genes"] = sorted(
+                set(nodes[term_id]["properties"].get("member_genes", [])) | {symbol}
+            )
+            pathway_labels[term_id] = label
+            source_record = (
+                f"{annotation['go_id']}|{annotation['reference']}|"
+                f"{annotation['evidence_code']}"
+            )
+            edges.append(
+                make_edge(
+                    genes[symbol]["id"],
+                    symbol,
+                    "annotated_to",
+                    term_id,
+                    label,
+                    evidence_class="curated",
+                    source="go",
+                    source_record=source_record,
+                    source_url=f"https://amigo.geneontology.org/amigo/term/{term_id}",
+                    properties={
+                        "direct_go_id": annotation["go_id"],
+                        "evidence_code": annotation["evidence_code"],
+                        "reference": annotation["reference"],
+                        "assigned_by": annotation["assigned_by"],
+                        "human_gene_count": go_term_counts[term_id],
+                        "propagated": term_id != annotation["go_id"],
+                    },
+                )
+            )
 
     for paper in papers.values():
         add_node(
@@ -706,17 +861,32 @@ def build() -> dict[str, Any]:
         gene["variant_class"] = observed_class
         nodes[gene["disease_id"]]["properties"]["variant_class"] = observed_class
 
-    projects = {
-        str(row.get("project_num")): row
-        for symbol in genes
-        for row in reporter_projects(http, symbol)[:3]
-        if row.get("project_num")
-    }
+    projects: dict[str, dict[str, Any]] = {}
+    project_gene_hits: dict[str, set[str]] = defaultdict(set)
+    for symbol in genes:
+        project_rows = reporter_projects(http, symbol)[:100]
+        source_counts[f"reporter:{symbol}"] = {
+            "source": "NIH RePORTER",
+            "query": symbol,
+            "count": len(project_rows),
+            "retrieved_at": date.today().isoformat(),
+        }
+        for row in project_rows:
+            project_num = str(row.get("project_num") or "")
+            if not project_num:
+                continue
+            projects[project_num] = row
+            project_gene_hits[project_num].add(symbol)
     for project in projects.values():
         project_num = str(project["project_num"])
         project_id = f"NIH:{project_num}"
         title = project.get("project_title", project_num)
-        project_terms = project.get("terms") or []
+        active_flag = str(project.get("is_active", "")).casefold() in {
+            "true",
+            "1",
+            "yes",
+        }
+        end_date = str(project.get("project_end_date") or "")[:10]
         add_node(
             nodes,
             project_id,
@@ -726,13 +896,13 @@ def build() -> dict[str, Any]:
                 "fiscal_year": project.get("fiscal_year"),
                 "organization": project.get("organization"),
                 "amount": project.get("award_amount"),
-                "terms": project_terms,
-                "active": bool((project.get("project_end_date") or "") >= date.today().isoformat()),
+                "terms": project.get("terms") or "",
+                "active": active_flag or end_date >= date.today().isoformat(),
             },
         )
-        project_text = " ".join([str(title), *(str(term) for term in project_terms)]).casefold()
-        for symbol, gene in genes.items():
-            if symbol.casefold() in project_text:
+        for symbol in sorted(project_gene_hits[project_num]):
+            gene = genes.get(symbol)
+            if gene:
                 edges.append(
                     make_edge(
                         project_id,
@@ -753,13 +923,19 @@ def build() -> dict[str, Any]:
             name = pi if isinstance(pi, str) else pi.get("full_name", "")
             if not name:
                 continue
-            person_id = person_curie(name, str(project.get("organization", "")))
+            affiliation = str(project.get("organization", "") or "")
+            orcid = pi.get("orcid") if isinstance(pi, dict) else None
+            person_id = person_curie(name, affiliation)
             add_node(
                 nodes,
                 person_id,
                 "person",
                 name,
-                {"affiliations": [project.get("organization", "")], "roles": ["pi"]},
+                {
+                    "affiliations": [affiliation] if affiliation else [],
+                    "roles": ["pi"],
+                    **({"orcid": orcid} if orcid else {}),
+                },
             )
             edges.append(
                 make_edge(
@@ -772,6 +948,11 @@ def build() -> dict[str, Any]:
                     source="reporter",
                     source_record=project_num,
                     source_url=f"https://reporter.nih.gov/project-details/{project_num}",
+                    properties={
+                        "role": "pi",
+                        "affiliations": [affiliation] if affiliation else [],
+                        **({"orcid": orcid} if orcid else {}),
+                    },
                 )
             )
         for publication in reporter_publications(http, project_num):
@@ -816,6 +997,32 @@ def build() -> dict[str, Any]:
             continue
         trial_cache[nct_id] = study
         _study_to_asset(study, genes, nodes, edges)
+        study_id = f"NCT:{nct_id}"
+        if study_id not in nodes:
+            continue
+        existing_gene_links = {
+            edge["object"]
+            for edge in edges
+            if edge["subject"] == study_id and edge["predicate"] == "studies_gene"
+        }
+        for symbol in sorted(trial_gene_hits.get(nct_id, set())):
+            gene = genes[symbol]
+            if gene["id"] in existing_gene_links:
+                continue
+            edges.append(
+                make_edge(
+                    study_id,
+                    nodes[study_id]["label"],
+                    "studies_gene",
+                    gene["id"],
+                    symbol,
+                    evidence_class="observed",
+                    source="ctgov",
+                    source_record=nct_id,
+                    source_url=f"https://clinicaltrials.gov/study/{nct_id}",
+                )
+            )
+            existing_gene_links.add(gene["id"])
     source_counts["NCT06555965"] = {
         "source": "ClinicalTrials.gov",
         "query": TRIAL_SEED,
@@ -847,14 +1054,29 @@ def build() -> dict[str, Any]:
             "retrieved_at": date.today().isoformat(),
         }
 
-    string_scores: dict[tuple[str, str], float] = {}
+    string_scores: dict[tuple[str, str], dict[str, float]] = {}
     string_rows = string_network(http, genes)
     for row in string_rows:
         left, right = row.get("preferredName_A"), row.get("preferredName_B")
-        score = float(row.get("score", 0))
         if left in genes and right in genes:
+            channel_names = ("nscore", "fscore", "pscore", "ascore", "escore", "dscore", "tscore")
+            channel_scores = {
+                name: float(row.get(name) or 0.0)
+                for name in channel_names
+            }
+            combined_raw = float(row.get("score") or 0.0)
+            score_scale = 1000.0 if max([combined_raw, *channel_scores.values()]) > 1 else 1.0
+            combined_score = combined_raw / score_scale
+            escore = channel_scores["escore"] / score_scale
+            dscore = channel_scores["dscore"] / score_scale
+            string_mech = string_mechanism_score(escore, dscore)
             pair = tuple(sorted((left, right)))
-            string_scores[pair] = max(string_scores.get(pair, 0), score)
+            previous = string_scores.get(pair)
+            if previous is None or combined_score > previous["string_score"]:
+                string_scores[pair] = {
+                    "string_score": combined_score,
+                    "string_mech": string_mech,
+                }
             pair_digest = hashlib.sha1("-".join(pair).encode()).hexdigest()[:12]
             mechanism_id = f"constellation:mechanism/string/{pair_digest}"
             add_node(
@@ -876,8 +1098,15 @@ def build() -> dict[str, Any]:
                         source="string",
                         source_record=f"{left}|{right}",
                         source_url="https://string-db.org",
-                        confidence=score,
-                        properties={"score": score, "required_score": 0.7},
+                        confidence=combined_score,
+                        properties={
+                            **channel_scores,
+                            "score": combined_raw,
+                            "string_score": combined_score,
+                            "string_mech": string_mech,
+                            "channel_score_scale": score_scale,
+                            "required_score": 0.7,
+                        },
                     )
                 )
 
@@ -924,9 +1153,29 @@ def build() -> dict[str, Any]:
         "count": len(reactome_parents),
         "retrieved_at": date.today().isoformat(),
     }
+    for pathway_id, parent_ids in reactome_parents.items():
+        if pathway_id in nodes and nodes[pathway_id]["type"] == "mechanism":
+            nodes[pathway_id]["properties"]["parents"] = sorted(parent_ids)
+            ancestors: set[str] = set()
+            pending = list(parent_ids)
+            while pending:
+                parent_id = pending.pop()
+                if parent_id in ancestors:
+                    continue
+                ancestors.add(parent_id)
+                pending.extend(reactome_parents.get(parent_id, set()))
+            nodes[pathway_id]["properties"]["ancestor_ids"] = sorted(ancestors)
+    lowest_pathway_sets = lowest_level_pathways(dict(pathway_sets), reactome_parents)
     pathway_sets = defaultdict(
         set,
-        lowest_level_pathways(dict(pathway_sets), reactome_parents),
+        {
+            symbol: {
+                pathway_id
+                for pathway_id in pathway_ids
+                if 0 < reactome_data["gene_counts"].get(pathway_id, 0) <= 500
+            }
+            for symbol, pathway_ids in lowest_pathway_sets.items()
+        },
     )
     disease_ids = list(diseases)
     genes_by_id = {gene["id"]: symbol for symbol, gene in genes.items()}
@@ -942,7 +1191,25 @@ def build() -> dict[str, Any]:
         {symbol: gene.get("variant_class", "unknown") for symbol, gene in genes.items()},
         string_scores,
         semsim_scores,
+        go_terms=go_terms_by_gene,
+        go_counts=go_term_counts,
+        reactome_depths=pathway_depths(reactome_parents),
+        reactome_counts=reactome_data["gene_counts"],
     )
+    for score in scores:
+        shared_terms = score["shared_pathways"]
+        score["mechanism_label"] = (
+            "; ".join(
+                pathway_labels.get(term) or str(term) for term in shared_terms[:2]
+            )
+            if shared_terms
+            else (
+                "physical/curated interaction "
+                f"(STRING exp/db {score['string_mech']:.2f})"
+            )
+            if score["supported"] and score["string_mech"] >= 0.7
+            else ""
+        )
     clusters, _cluster_for_disease = cluster_records(
         disease_ids,
         scores,
@@ -1001,10 +1268,14 @@ def build() -> dict[str, Any]:
                         for key in (
                             "P",
                             "M",
+                            "M_reactome",
+                            "M_go",
+                            "string_mech",
                             "V",
                             "S",
                             "supported",
                             "shared_pathways",
+                            "mechanism_label",
                             "string_score",
                             "variant_class_a",
                             "variant_class_b",
@@ -1082,8 +1353,33 @@ def build() -> dict[str, Any]:
         f"verified foundation links: {foundation_count}.\n"
         f"- Gap detector fired: {'; '.join(gap_reasons(snapshot_for_gap, gap_disease))}.\n"
         "- Similarity layers: source-derived Monarch semantic-similarity results, "
-        "lowest-level Reactome pathway sets, STRING score ≥0.7, and literature-derived "
-        "variant-class labels. No gene-name exceptions are used in the analytics.\n"
+        "lowest-level specific Reactome pathway sets, specific GO biological-process terms, "
+        "filtered STRING mechanism scores, and literature-derived variant-class labels. "
+        "No gene-name exceptions are used in the analytics.\n"
+        "- STRING mechanism uses `1 - (1-escore)*(1-dscore)`; text-mining is excluded because "
+        "co-mention can inflate mechanism evidence. STRING supports M only when this score is "
+        "at least 0.7; every channel score is retained in edge properties.\n"
+        "- Reactome pathways come from the human UniProt2Reactome all-level mapping. "
+        "Specificity counts distinct human genes per pathway; only lowest-level pathways "
+        "with counts ≤500 contribute to `M_reactome`.\n"
+        "- GO biological-process annotations use `goa_human.gaf.gz` and `go-basic.obo`, "
+        "aspect P, excluding NOT qualifiers, propagated over `is_a`/`part_of`. Specificity "
+        "counts distinct human genes assigned to each term or its descendants across all "
+        "evidence codes; ≤500 is the GSEA default maximum gene-set size. Per-gene scoring "
+        "uses experimental codes only, and `M_go` is the Jaccard of specific propagated terms.\n"
+        "- Mechanism support is the maximum of Reactome lowest-level Jaccard, specific GO "
+        "Jaccard, and the thresholded STRING indicator. The support guard is "
+        "`S >= 0.45 AND M >= 0.25`; weights and the 0.45 S threshold are unchanged. "
+        "The previous `M > 0` guard admitted tiny incidental overlaps such as SLC2A1's "
+        "single insulin-secretion pathway (M=0.083).\n"
+        "- Golden expectation revised: DNM1 removed from required members after evidence "
+        "review (experimental GO / Reactome / physical STRING show no specific shared "
+        "mechanism; DNM1 acts at vesicle endocytosis, the cluster core at SNARE exocytosis); "
+        "it is surfaced as a partial overlap instead.\n"
+        "- Monarch pairwise scores use `/v3/api/semsim/multicompare` for the in-slice "
+        "phenotype sets. `/v3/api/semsim/search` caps responses at 50 and omitted DNM1 from "
+        "STXBP1's result set; multicompare provides a complete slice matrix without changing "
+        "the weights.\n"
         "- Animal-model assets were omitted unless a source-validated MGI allele record and live "
         "URL could be verified.\n"
     )
@@ -1104,16 +1400,31 @@ def build() -> dict[str, Any]:
     from constellation.agents.dossier import build_dossier, dossier_cache_path
 
     snapshot = Snapshot()
+    current_dossier_paths = set()
     for disease_id in ("MONDO:0012812", gap_disease):
         if disease_id not in snapshot.node_by_id:
             continue
         for persona in ("maria", "devon", "priya", "osei"):
             dossier = build_dossier(snapshot, disease_id, persona, mode="offline")
             cache_path = dossier_cache_path(disease_id, persona, snapshot.snapshot_hash, "offline")
+            current_dossier_paths.add(cache_path)
             cache_path.parent.mkdir(parents=True, exist_ok=True)
             cache_path.write_text(
                 json.dumps(dossier, ensure_ascii=False, indent=2), encoding="utf-8"
             )
+    for cache_path in CACHE.glob("*.json"):
+        if cache_path in current_dossier_paths:
+            continue
+        try:
+            cached_payload = json.loads(cache_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if (
+            isinstance(cached_payload, dict)
+            and cached_payload.get("snapshot_hash")
+            and cached_payload["snapshot_hash"] != snapshot.snapshot_hash
+        ):
+            cache_path.unlink()
     http.close()
     return {
         "nodes": len(nodes),

@@ -1,0 +1,264 @@
+{
+  "disease_id": "MONDO:0012812",
+  "persona": "devon",
+  "mode": "offline",
+  "snapshot_hash": "5653b2ca624258433f4dd15ddcb02d79b9ce1f08a56febecbfbfbee8580cf9da",
+  "trace_id": "4bd9daa3-e842-4b79-b4b9-daccdb7703e2",
+  "generated_at": "2026-10-04T00:29:12.681118+00:00",
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "STX1B is in the same research cluster.",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "VAMP2 is in the same research cluster.",
+          "edge_ids": [
+            "ca33d6f8f475990e"
+          ]
+        },
+        {
+          "text": "SNAP25 is in the same research cluster.",
+          "edge_ids": [
+            "fcb938d1b0386f7c"
+          ]
+        },
+        {
+          "text": "The highest-phenotype non-member counterexample is excluded because M=0 (no mechanism support).",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy is a possible cluster resource.",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "STXBP1 and SYNGAP1 Related Disorders Natural History Study is a possible cluster resource.",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "The leading neighbour has 0 of 8 phenotype terms covered by Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "STXBP1 Foundation is a disease-specific foundation.",
+          "edge_ids": [
+            "e89bf791c617aac3"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "CACNA1A: same process, different step / weak overlap at Regulation of insulin secretion (M=0.11).",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "3a40a3f53a18b664",
+            "187be2699f417de6"
+          ]
+        },
+        {
+          "text": "SLC2A1: same process, different step / weak overlap at Regulation of insulin secretion (M=0.08).",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "3a40a3f53a18b664",
+            "5490966f0991bdf8"
+          ]
+        },
+        {
+          "text": "GRIN1: same process, different step / weak overlap at Neurexins and neuroligins (M=0.06).",
+          "edge_ids": [
+            "9b5a310872598764",
+            "ce6dd3aad07a277e",
+            "072a91fd2fdb335f"
+          ]
+        },
+        {
+          "text": "GRIN2B: same process, different step / weak overlap at Neurexins and neuroligins (M=0.06).",
+          "edge_ids": [
+            "c9a2d0b4d2017a76",
+            "ce6dd3aad07a277e",
+            "b06e5693ee213e29"
+          ]
+        },
+        {
+          "text": "KCNT2: same process, different step / weak overlap at export from cell (M=0.03).",
+          "edge_ids": [
+            "29aaf05ddc9a0982",
+            "23791896ba71de93",
+            "9cf2b7818971cd42"
+          ]
+        },
+        {
+          "text": "DNM1-related disease (developmental and epileptic encephalopathy 31): same process, different step / weak overlap at vesicle organization (M=0.03).",
+          "edge_ids": [
+            "6df8a36e97901f12",
+            "34c673fba26b1793",
+            "f1a54e7fce5ac22f"
+          ]
+        },
+        {
+          "text": "Variant evidence differs: STXBP1 (loss_of_function), “De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”; KCNT2 (gain_of_function), “The review highlights the dual impact of both gain- and loss-of-function KCNT mutations on cognitive function, with gain-of-function mutations often associated with more severe phenotypes.”.",
+          "edge_ids": [
+            "29aaf05ddc9a0982",
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "34dd8e307d6cf9a2",
+            "a752060a8c0680f8"
+          ]
+        },
+        {
+          "text": "Variant evidence differs: STXBP1 (loss_of_function), “De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”; DNM1-related disease (developmental and epileptic encephalopathy 31) (dominant_negative), “Effective gene therapy for gain-of-function or dominant-negative disease mutations may require eliminating expression of the mutant copy together with wild-type replacement.”.",
+          "edge_ids": [
+            "6df8a36e97901f12",
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "bf09c06b5961a639",
+            "fee81ceaefd7845c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Rikke S Møller is a verified bridge to STX1B.",
+          "edge_ids": [
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d",
+            "4e499cd180eed61d",
+            "519398d0165c5348",
+            "5323221bffdcb45a",
+            "56b3bba1ed509a4e",
+            "5c3a5da39a338638",
+            "5cc1cbba98063fc5",
+            "5e7fb5abd737f338",
+            "b24c81bd7118893b",
+            "c7e9301ac40be7c8"
+          ]
+        },
+        {
+          "text": "Ingo Helbig is a verified bridge to STX1B.",
+          "edge_ids": [
+            "18e9e45f700b90dd",
+            "220ad6798167d0d5",
+            "27892ccd07d00ab1",
+            "2e0c901523868f53",
+            "3ca640c7b6e31df9",
+            "3cdb876a774fbc4c",
+            "3dda04e4b5e6a1ef",
+            "43ecc1f55d37d9b9",
+            "5d715c50a4aa2a73",
+            "748b09f0bdfbb400",
+            "76b177bf28e7adcb",
+            "8cbdd2abcd1f8cfa",
+            "97ab34f55a5f82fc",
+            "a0540bad7f3531b2",
+            "a1440d2f050457d0",
+            "a6c2408173737915",
+            "ae5e70af99928249",
+            "b801dd15385f19c9",
+            "b9ed284febe23248",
+            "bcddee950f0e1d11",
+            "c36552e71d4237ec",
+            "caab597c6cc250b3",
+            "cb33f256abba4eb2",
+            "d63a6887ef62cbbf",
+            "dcf1cab5c6f3d771",
+            "e11d8606966b18b7",
+            "e9dfe36e0a0ff3e9",
+            "f6b727e0e8bbb275"
+          ]
+        },
+        {
+          "text": "Ingrid E Scheffer is a verified bridge to CACNA1A.",
+          "edge_ids": [
+            "33346fc493c96dfd",
+            "b57c18a44198a014",
+            "b5a02768b92112a6",
+            "c981e67148a36180",
+            "f8dc581957614938"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and contact Rikke S Møller.",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416",
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba",
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d",
+            "4e499cd180eed61d",
+            "519398d0165c5348",
+            "5323221bffdcb45a",
+            "56b3bba1ed509a4e",
+            "5c3a5da39a338638",
+            "5cc1cbba98063fc5",
+            "5e7fb5abd737f338",
+            "b24c81bd7118893b",
+            "c7e9301ac40be7c8"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "The snapshot records 55 phenotype links.",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": null,
+  "markdown": "## Who shares our characteristics\nSTX1B is in the same research cluster. [ab5fe5ff268d13ba]\nVAMP2 is in the same research cluster. [ca33d6f8f475990e]\nSNAP25 is in the same research cluster. [fcb938d1b0386f7c]\nThe highest-phenotype non-member counterexample is excluded because M=0 (no mechanism support). [f94ad5494a3e9ab8]\n\n## What already exists\nNatural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy is a possible cluster resource. [bc71e274e1c691ec]\nSTXBP1 and SYNGAP1 Related Disorders Natural History Study is a possible cluster resource. [dcec503694916ae3]\nThe leading neighbour has 0 of 8 phenotype terms covered by Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]\nSTXBP1 Foundation is a disease-specific foundation. [e89bf791c617aac3]\n\n## What differs and must be verified\nCACNA1A: same process, different step / weak overlap at Regulation of insulin secretion (M=0.11). [34c9bc447921f8cb, 3a40a3f53a18b664, 187be2699f417de6]\nSLC2A1: same process, different step / weak overlap at Regulation of insulin secretion (M=0.08). [20c30f77dc2491fb, 3a40a3f53a18b664, 5490966f0991bdf8]\nGRIN1: same process, different step / weak overlap at Neurexins and neuroligins (M=0.06). [9b5a310872598764, ce6dd3aad07a277e, 072a91fd2fdb335f]\nGRIN2B: same process, different step / weak overlap at Neurexins and neuroligins (M=0.06). [c9a2d0b4d2017a76, ce6dd3aad07a277e, b06e5693ee213e29]\nKCNT2: same process, different step / weak overlap at export from cell (M=0.03). [29aaf05ddc9a0982, 23791896ba71de93, 9cf2b7818971cd42]\nDNM1-related disease (developmental and epileptic encephalopathy 31): same process, different step / weak overlap at vesicle organization (M=0.03). [6df8a36e97901f12, 34c673fba26b1793, f1a54e7fce5ac22f]\nVariant evidence differs: STXBP1 (loss_of_function), “De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”; KCNT2 (gain_of_function), “The review highlights the dual impact of both gain- and loss-of-function KCNT mutations on cognitive function, with gain-of-function mutations often associated with more severe phenotypes.”. [29aaf05ddc9a0982, 87257c69fcfbcdad, df57b34e24ef5206, 34dd8e307d6cf9a2, a752060a8c0680f8]\nVariant evidence differs: STXBP1 (loss_of_function), “De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”; DNM1-related disease (developmental and epileptic encephalopathy 31) (dominant_negative), “Effective gene therapy for gain-of-function or dominant-negative disease mutations may require eliminating expression of the mutant copy together with wild-type replacement.”. [6df8a36e97901f12, 87257c69fcfbcdad, df57b34e24ef5206, bf09c06b5961a639, fee81ceaefd7845c]\n\n## Who to contact\nRikke S Møller is a verified bridge to STX1B. [00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d, 4e499cd180eed61d, 519398d0165c5348, 5323221bffdcb45a, 56b3bba1ed509a4e, 5c3a5da39a338638, 5cc1cbba98063fc5, 5e7fb5abd737f338, b24c81bd7118893b, c7e9301ac40be7c8]\nIngo Helbig is a verified bridge to STX1B. [18e9e45f700b90dd, 220ad6798167d0d5, 27892ccd07d00ab1, 2e0c901523868f53, 3ca640c7b6e31df9, 3cdb876a774fbc4c, 3dda04e4b5e6a1ef, 43ecc1f55d37d9b9, 5d715c50a4aa2a73, 748b09f0bdfbb400, 76b177bf28e7adcb, 8cbdd2abcd1f8cfa, 97ab34f55a5f82fc, a0540bad7f3531b2, a1440d2f050457d0, a6c2408173737915, ae5e70af99928249, b801dd15385f19c9, b9ed284febe23248, bcddee950f0e1d11, c36552e71d4237ec, caab597c6cc250b3, cb33f256abba4eb2, d63a6887ef62cbbf, dcf1cab5c6f3d771, e11d8606966b18b7, e9dfe36e0a0ff3e9, f6b727e0e8bbb275]\nIngrid E Scheffer is a verified bridge to CACNA1A. [33346fc493c96dfd, b57c18a44198a014, b5a02768b92112a6, c981e67148a36180, f8dc581957614938]\n\n## Proposed first joint step\nReview Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and contact Rikke S Møller. [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416, bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba, 00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d, 4e499cd180eed61d, 519398d0165c5348, 5323221bffdcb45a, 56b3bba1ed509a4e, 5c3a5da39a338638, 5cc1cbba98063fc5, 5e7fb5abd737f338, b24c81bd7118893b, c7e9301ac40be7c8]\n\n## Search coverage\nThe snapshot records 55 phenotype links. [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416]"
+}

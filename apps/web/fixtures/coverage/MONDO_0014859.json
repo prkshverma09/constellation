@@ -1,0 +1,95 @@
+{
+  "_fixture": true,
+  "disease_id": "MONDO:0014859",
+  "is_gap": true,
+  "reasons": [
+    "No candidate reaches the mechanism threshold in the committed snapshot.",
+    "The functional variant-effect layer remains sparse."
+  ],
+  "sources": [
+    {
+      "source": "PubMed",
+      "query": "FRRS1L developmental epileptic encephalopathy",
+      "count": 14,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "query": "FRRS1L",
+      "count": 0,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "NIH RePORTER",
+      "query": "FRRS1L",
+      "count": 0,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "ClinVar",
+      "query": "FRRS1L pathogenic variant",
+      "count": 4,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "HPO",
+      "query": "FRRS1L-associated phenotypes",
+      "count": 6,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "Web search",
+      "query": "FRRS1L patient group",
+      "count": 0,
+      "retrieved_at": "2025-02-14"
+    }
+  ],
+  "nearest_leads": [
+    {
+      "disease": {
+        "id": "MONDO:9900001",
+        "name": "developmental and epileptic encephalopathy 31",
+        "gene_id": "HGNC:00000001",
+        "gene_symbol": "DNM1"
+      },
+      "S": 0.428,
+      "missing_layer": "M"
+    },
+    {
+      "disease": {
+        "id": "MONDO:9900002",
+        "name": "developmental and epileptic encephalopathy 4-like",
+        "gene_id": "HGNC:00000002",
+        "gene_symbol": "SNAP25"
+      },
+      "S": 0.419,
+      "missing_layer": "V"
+    },
+    {
+      "disease": {
+        "id": "MONDO:9900003",
+        "name": "developmental and epileptic encephalopathy 26",
+        "gene_id": "HGNC:00000003",
+        "gene_symbol": "STX1B"
+      },
+      "S": 0.408,
+      "missing_layer": "people"
+    }
+  ],
+  "what_would_change": [
+    {
+      "layer": "V",
+      "text": "A functional study classifying the FRRS1L variant effect (loss of function vs other) would populate the variant-effect layer; source: a reproducible functional assay.",
+      "edge_ids": [
+        "edge:variant:frrs1l-0001"
+      ]
+    },
+    {
+      "layer": "M",
+      "text": "A replicated mechanism study linking FRRS1L to a shared pathway would strengthen the mechanism layer.",
+      "edge_ids": [
+        "edge:mechanism:frrs1l-0001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "_fixture": true,
+  "disease_id": "MONDO:0012812",
+  "persona": "devon",
+  "mode": "cached",
+  "snapshot_hash": "fixture-2025-02-14",
+  "trace_id": "trace:fixture:devon",
+  "generated_at": "2025-02-14T12:00:00Z",
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "SNAP25, STX1B, and VAMP2 share the same brain-cell communication pathway.",
+          "edge_ids": [
+            "edge:smw:stxbp1-snap25",
+            "edge:smw:stxbp1-stx1b",
+            "edge:smw:stxbp1-vamp2"
+          ]
+        },
+        {
+          "text": "GNAO1 is a phenotype-similar counterexample, excluded by the mechanism layer.",
+          "edge_ids": [
+            "edge:counter:stxbp1-gnao1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "The NCT06555965 natural-history study includes STXBP1 and SYNGAP1 and has a measured phenotype coverage score for the selected comparison.",
+          "edge_ids": [
+            "edge:trial:nct06555965",
+            "edge:hp:stxbp1-0001"
+          ]
+        },
+        {
+          "text": "The STXBP1 Foundation is an exact-match patient community.",
+          "edge_ids": [
+            "edge:org:stxbp1-foundation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "DNM1 is a same process, different step / weak overlap: vesicle organization (GO:0016050) reflects endocytosis, not the cluster's SNARE exocytosis core.",
+          "edge_ids": [
+            "edge:partial:stxbp1-dnm1"
+          ]
+        },
+        {
+          "text": "A dominant-negative DNM1 variant-class claim is contradicted and should be checked with an expert.",
+          "edge_ids": [
+            "edge:claim:dnm1-class-contradiction"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Investigator A appears on evidence linked to both sides; a study or corresponding-author route is a reasonable starting point.",
+          "edge_ids": [
+            "edge:smw:stxbp1-dnm1",
+            "edge:smw:stxbp1-snap25"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Could a shared natural-history protocol compare seizure trajectories using NCT06555965, starting with its phenotype coverage and a verified bridge investigator?",
+          "edge_ids": [
+            "edge:trial:nct06555965",
+            "edge:hp:stxbp1-0001",
+            "edge:smw:stxbp1-dnm1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "This snapshot includes curated, observed, inferred and web-discovered evidence; two low-support sentences were omitted.",
+          "edge_ids": [
+            "edge:hp:stxbp1-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 2,
+  "gap_plan": null,
+  "markdown": "## Who shares our characteristics\n\nSNAP25, STX1B, and VAMP2 share the same brain-cell communication pathway. [^1]\n\nGNAO1 is a phenotype-similar counterexample, excluded by the mechanism layer. [^2]\n\n## What already exists\n\nThe NCT06555965 natural-history study includes STXBP1 and SYNGAP1 and has a measured phenotype coverage score for the selected comparison. [^1]\n\nThe STXBP1 Foundation is an exact-match patient community. [^2]\n\n## What differs and must be verified\n\nDNM1 is a same process, different step / weak overlap: vesicle organization (GO:0016050) reflects endocytosis, not the cluster's SNARE exocytosis core. [^1]\n\nA dominant-negative DNM1 variant-class claim is contradicted and should be checked with an expert. [^2]\n\n## Who to contact\n\nInvestigator A appears on evidence linked to both sides; a study or corresponding-author route is a reasonable starting point. [^1]\n\n## Proposed first joint step\n\nCould a shared natural-history protocol compare seizure trajectories using NCT06555965, starting with its phenotype coverage and a verified bridge investigator? [^1]\n\n## Search coverage\n\nThis snapshot includes curated, observed, inferred and web-discovered evidence; two low-support sentences were omitted. [^1]"
+}

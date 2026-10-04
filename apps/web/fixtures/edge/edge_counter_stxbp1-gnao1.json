@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:counter:stxbp1-gnao1",
+  "subject": "MONDO:0012812",
+  "subject_label": "developmental and epileptic encephalopathy 4",
+  "predicate": "phenotypically_similar_to",
+  "object": "MONDO:9900005",
+  "object_label": "developmental and epileptic encephalopathy 17",
+  "evidence_class": "inferred",
+  "source": "Phenotype similarity fixture",
+  "source_record": "MONDO:9900005",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Phenotype overlap without the mechanism layer.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

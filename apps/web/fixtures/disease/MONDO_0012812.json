@@ -1,0 +1,99 @@
+{
+  "_fixture": true,
+  "disease": {
+    "id": "MONDO:0012812",
+    "name": "developmental and epileptic encephalopathy 4",
+    "gene_id": "HGNC:00000007",
+    "gene_symbol": "STXBP1",
+    "synonyms": [
+      "DEE4",
+      "Munc18-1-related disorder"
+    ],
+    "omim": null,
+    "orphacode": null
+  },
+  "counts": {
+    "phenotypes": {
+      "n": 48,
+      "edge_ids": [
+        "edge:hp:stxbp1-0001",
+        "edge:hp:stxbp1-0002"
+      ]
+    },
+    "pathogenic_variants": {
+      "n": 26,
+      "edge_ids": [
+        "edge:variant:stxbp1-0001"
+      ]
+    },
+    "trials": {
+      "n": 1,
+      "edge_ids": [
+        "edge:trial:nct06555965"
+      ]
+    },
+    "awards_active": {
+      "n": 3,
+      "edge_ids": [
+        "edge:variant:stxbp1-0001"
+      ]
+    },
+    "papers": {
+      "n": 128,
+      "edge_ids": [
+        "edge:smw:stxbp1-dnm1",
+        "edge:smw:stxbp1-snap25",
+        "edge:smw:stxbp1-stx1b"
+      ]
+    },
+    "patient_groups": {
+      "n": 1,
+      "edge_ids": [
+        "edge:org:stxbp1-foundation"
+      ]
+    }
+  },
+  "patient_groups": [
+    {
+      "id": "constellation:org/stxbp1-foundation-fixture",
+      "name": "STXBP1 Foundation",
+      "url": "https://example.org/stxbp1-foundation",
+      "edge_id": "edge:org:stxbp1-foundation",
+      "evidence_class": "web_discovered",
+      "match_kind": "exact"
+    }
+  ],
+  "summary": {
+    "technical": [
+      {
+        "text": "STXBP1-related disease shares a presynaptic vesicle-cycle mechanism with several candidate disorders.",
+        "edge_ids": [
+          "edge:smw:stxbp1-dnm1",
+          "edge:smw:stxbp1-stx1b"
+        ]
+      },
+      {
+        "text": "The DNM1 variant-class interpretation remains contested and needs expert review.",
+        "edge_ids": [
+          "edge:claim:dnm1-class-contradiction"
+        ]
+      }
+    ],
+    "plain": [
+      {
+        "text": "Several related conditions affect the same tiny communication points between brain cells.",
+        "edge_ids": [
+          "edge:smw:stxbp1-dnm1",
+          "edge:smw:stxbp1-stx1b"
+        ]
+      },
+      {
+        "text": "One difference needs a closer expert check before it is treated as settled.",
+        "edge_ids": [
+          "edge:claim:dnm1-class-contradiction"
+        ]
+      }
+    ]
+  },
+  "is_gap": false
+}

@@ -1,0 +1,103 @@
+{
+  "_fixture": true,
+  "a": {
+    "id": "MONDO:0012812",
+    "name": "developmental and epileptic encephalopathy 4",
+    "gene_id": "HGNC:00000007",
+    "gene_symbol": "STXBP1"
+  },
+  "b": {
+    "id": "MONDO:9900001",
+    "name": "developmental and epileptic encephalopathy 31",
+    "gene_id": "HGNC:00000001",
+    "gene_symbol": "DNM1"
+  },
+  "unverified_name_matches": 0,
+  "people": [
+    {
+      "id": "constellation:person/investigator-a",
+      "display_name": "Investigator A",
+      "affiliations": [
+        "Institution 1"
+      ],
+      "roles": [
+        "author",
+        "pi"
+      ],
+      "n_a": 3,
+      "n_b": 2,
+      "score": 0.91,
+      "proving_edges": [
+        {
+          "edge_id": "edge:smw:stxbp1-dnm1",
+          "kind": "paper",
+          "record_id": "PMID:00000001",
+          "title": "Vesicle cycling across related disorders",
+          "year": 2024,
+          "url": "https://example.org/paper-a",
+          "disease_id": "MONDO:0012812",
+          "disease_ids": [
+            "MONDO:0012812",
+            "MONDO:9900001"
+          ]
+        },
+        {
+          "edge_id": "edge:smw:stxbp1-snap25",
+          "kind": "award",
+          "record_id": "AWARD-0000001",
+          "title": "Shared synaptic mechanisms",
+          "year": 2023,
+          "url": "https://example.org/award-a",
+          "disease_id": "MONDO:9900001",
+          "disease_ids": [
+            "MONDO:0012812",
+            "MONDO:9900001"
+          ]
+        }
+      ],
+      "why_same_person": "The same de-identified author record occurs in publications linked to both disease sides."
+    },
+    {
+      "id": "constellation:person/investigator-b",
+      "display_name": "Investigator B",
+      "affiliations": [
+        "Institution 2"
+      ],
+      "roles": [
+        "study_official"
+      ],
+      "n_a": 2,
+      "n_b": 1,
+      "score": 0.78,
+      "proving_edges": [
+        {
+          "edge_id": "edge:trial:nct06555965",
+          "kind": "study",
+          "record_id": "NCT06555965",
+          "title": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+          "year": 2025,
+          "url": "https://clinicaltrials.gov/study/NCT06555965",
+          "disease_id": "MONDO:0012812",
+          "disease_ids": [
+            "MONDO:0012812",
+            "MONDO:9900001"
+          ]
+        },
+        {
+          "edge_id": "edge:smw:stxbp1-dnm1",
+          "kind": "paper",
+          "record_id": "PMID:00000002",
+          "title": "A fixture study of DNM1",
+          "year": 2022,
+          "url": "https://example.org/paper-b",
+          "disease_id": "MONDO:9900001",
+          "disease_ids": [
+            "MONDO:0012812",
+            "MONDO:9900001"
+          ]
+        }
+      ],
+      "why_same_person": "A de-identified investigator affiliation recurs across a study and a disease-linked paper."
+    }
+  ]
+}

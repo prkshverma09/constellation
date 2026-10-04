@@ -1,0 +1,59 @@
+{
+  "_fixture": true,
+  "query": "",
+  "best": null,
+  "results": [
+    {
+      "id": "HGNC:00000007",
+      "type": "gene",
+      "label": "STXBP1",
+      "matched_text": "STXBP1",
+      "match_kind": "symbol",
+      "disease": {
+        "id": "MONDO:0012812",
+        "name": "developmental and epileptic encephalopathy 4",
+        "gene_id": "HGNC:00000007",
+        "gene_symbol": "STXBP1"
+      }
+    },
+    {
+      "id": "MONDO:0012812",
+      "type": "disease",
+      "label": "developmental and epileptic encephalopathy 4",
+      "matched_text": "Munc18-1",
+      "match_kind": "synonym",
+      "disease": {
+        "id": "MONDO:0012812",
+        "name": "developmental and epileptic encephalopathy 4",
+        "gene_id": "HGNC:00000007",
+        "gene_symbol": "STXBP1"
+      }
+    },
+    {
+      "id": "MONDO:0012812",
+      "type": "disease",
+      "label": "developmental and epileptic encephalopathy 4",
+      "matched_text": "DEE4",
+      "match_kind": "synonym",
+      "disease": {
+        "id": "MONDO:0012812",
+        "name": "developmental and epileptic encephalopathy 4",
+        "gene_id": "HGNC:00000007",
+        "gene_symbol": "STXBP1"
+      }
+    },
+    {
+      "id": "constellation:org/stxbp1-foundation-fixture",
+      "type": "patient_group",
+      "label": "STXBP1 Foundation",
+      "matched_text": "STXBP1 Foundation",
+      "match_kind": "org",
+      "disease": {
+        "id": "MONDO:0012812",
+        "name": "developmental and epileptic encephalopathy 4",
+        "gene_id": "HGNC:00000007",
+        "gene_symbol": "STXBP1"
+      }
+    }
+  ]
+}

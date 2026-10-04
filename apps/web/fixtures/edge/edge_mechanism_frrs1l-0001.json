@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:mechanism:frrs1l-0001",
+  "subject": "MONDO:0014859",
+  "subject_label": "developmental and epileptic encephalopathy 37",
+  "predicate": "candidate_mechanism",
+  "object": "R-HSA-0000001",
+  "object_label": "Synaptic vesicle cycle",
+  "evidence_class": "inferred",
+  "source": "Reactome fixture",
+  "source_record": "R-HSA-0000001",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "A candidate pathway relationship without replicated mechanism evidence.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

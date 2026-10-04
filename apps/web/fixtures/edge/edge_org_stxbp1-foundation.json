@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:org:stxbp1-foundation",
+  "subject": "constellation:org/stxbp1-foundation-fixture",
+  "subject_label": "STXBP1 Foundation",
+  "predicate": "supports",
+  "object": "MONDO:0012812",
+  "object_label": "developmental and epileptic encephalopathy 4",
+  "evidence_class": "web_discovered",
+  "source": "Web search",
+  "source_record": "MONDO:0012812",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Organization result associated with the disease.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

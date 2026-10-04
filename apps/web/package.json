@@ -1,0 +1,43 @@
+{
+  "name": "constellation-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "e2e": "playwright test",
+    "fixtures:gen": "tsx scripts/gen-fixtures.mts",
+    "fixtures:check": "tsx scripts/check-fixtures.mts",
+    "screenshots": "tsx scripts/screenshots.mts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.66.0",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-shape": "^3.2.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "1.63.0",
+    "@eslint/eslintrc": "^3.3.0",
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-shape": "^3.1.7",
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "^15.2.0",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

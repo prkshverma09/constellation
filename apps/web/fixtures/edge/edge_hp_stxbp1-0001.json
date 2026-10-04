@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:hp:stxbp1-0001",
+  "subject": "MONDO:0012812",
+  "subject_label": "developmental and epileptic encephalopathy 4",
+  "predicate": "has_phenotype",
+  "object": "HP:99000001",
+  "object_label": "Early-onset seizures",
+  "evidence_class": "observed",
+  "source": "HPO",
+  "source_record": "HP:99000001",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Early-onset seizures are recorded in the snapshot.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

@@ -12,6 +12,7 @@ from constellation.ingest.cache import CachedHTTP
 MONARCH = "https://api.monarchinitiative.org/v3/api"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 CTGOV = "https://clinicaltrials.gov/api/v2"
+ENSEMBL = "https://rest.ensembl.org"
 
 
 def monarch_search(http: CachedHTTP, query: str, category: str) -> list[dict[str, Any]]:
@@ -111,13 +112,24 @@ def pubmed_records(http: CachedHTTP, symbol: str, retmax: int = 60) -> list[dict
             fore = author.findtext("ForeName", "")
             collective = author.findtext("CollectiveName", "")
             name = collective or " ".join(part for part in (fore, last) if part)
+            orcid = next(
+                (
+                    identifier.text.strip()
+                    for identifier in author.findall("Identifier")
+                    if identifier.attrib.get("Source", "").casefold() == "orcid"
+                    and identifier.text
+                ),
+                None,
+            )
             affiliations = [
                 " ".join("".join(node.itertext()).split())
                 for node in author.findall(".//Affiliation")
                 if "".join(node.itertext()).strip()
             ]
             if name:
-                authors.append({"name": name, "affiliations": affiliations})
+                authors.append(
+                    {"name": name, "affiliations": affiliations, "orcid": orcid}
+                )
         records.append(
             {
                 "id": f"PMID:{pmid}",
@@ -182,7 +194,12 @@ def search_trials_with_count(
     try:
         payload = http.get(
             f"{CTGOV}/studies",
-            params={"query.cond": query, "pageSize": page_size, "format": "json"},
+            params={
+                "query.cond": query,
+                "pageSize": page_size,
+                "countTotal": True,
+                "format": "json",
+            },
         )
         studies = payload.get("studies", [])
         return studies, int(payload.get("totalCount", len(studies)))
@@ -232,21 +249,45 @@ def reactome_pathways(http: CachedHTTP, uniprot_id: str) -> list[dict[str, Any]]
         return []
 
 
-def uniprot_accession(http: CachedHTTP, symbol: str) -> str | None:
-    try:
-        payload = http.get(
-            "https://rest.uniprot.org/uniprotkb/search",
-            params={
-                "query": f"gene_exact:{symbol} AND organism_id:9606",
-                "fields": "accession,gene_names",
-                "format": "json",
-                "size": 1,
-            },
+def uniprot_accession(http: CachedHTTP, entity: dict[str, Any]) -> str | None:
+    direct = extract_uniprot(entity)
+    if direct:
+        return direct
+    xrefs = entity.get("xref") or []
+    if not isinstance(xrefs, list):
+        xrefs = [xrefs]
+    ensembl_ids = [
+        str(value).split(":", 1)[1]
+        for value in xrefs
+        if str(value).startswith("ENSEMBL:")
+    ]
+    reviewed_pattern = re.compile(r"[A-Z][0-9][A-Z0-9]{3}[0-9]$")
+    for ensembl_id in ensembl_ids:
+        try:
+            records = http.get(
+                f"{ENSEMBL}/xrefs/id/{ensembl_id}",
+                params={
+                    "external_db": "Uniprot_gn",
+                    "content-type": "application/json",
+                },
+            )
+        except Exception:
+            continue
+        accessions = (
+            [
+                str(record.get("primary_id", ""))
+                for record in records
+                if isinstance(record, dict) and record.get("dbname") == "Uniprot_gn"
+            ]
+            if isinstance(records, list)
+            else []
         )
-        results = payload.get("results", [])
-        return results[0]["primaryAccession"] if results else None
-    except Exception:
-        return None
+        canonical = next((item for item in accessions if reviewed_pattern.fullmatch(item)), None)
+        if canonical:
+            return canonical
+        if accessions:
+            return accessions[0]
+    return None
 
 
 def reporter_projects(http: CachedHTTP, symbol: str) -> list[dict[str, Any]]:
@@ -269,11 +310,12 @@ def reporter_projects(http: CachedHTTP, symbol: str) -> list[dict[str, Any]]:
                     "Organization",
                     "ProjectStartDate",
                     "ProjectEndDate",
+                    "IsActive",
                     "AwardAmount",
                     "Terms",
                 ],
                 "offset": 0,
-                "limit": 50,
+                "limit": 100,
             },
         )
         return payload.get("results", [])
@@ -392,11 +434,24 @@ def extract_uniprot(entity: dict[str, Any]) -> str | None:
             values.extend(item)
         elif item:
             values.append(item)
+    accession_pattern = re.compile(
+        r"(?:[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9](?:[A-Z0-9]{3}[0-9]){1,2})"
+    )
     for value in values:
-        match = re.search(
-            r"(?:UniProtKB:)?([OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9](?:[A-Z0-9]{3}[0-9]){1,2})",
-            str(value),
-        )
-        if match:
-            return match.group(1)
+        text = str(value).strip()
+        if accession_pattern.fullmatch(text):
+            return text
+        if text.casefold().startswith(("uniprotkb:", "uniprot:")):
+            accession = text.split(":", 1)[1]
+            if accession_pattern.fullmatch(accession):
+                return accession
+        if text.casefold().startswith(
+            (
+                "http://purl.uniprot.org/uniprot/",
+                "https://purl.uniprot.org/uniprot/",
+            )
+        ):
+            accession = text.rsplit("/", 1)[-1]
+            if accession_pattern.fullmatch(accession):
+                return accession
     return None

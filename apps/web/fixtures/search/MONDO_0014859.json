@@ -1,0 +1,20 @@
+{
+  "_fixture": true,
+  "query": "",
+  "best": null,
+  "results": [
+    {
+      "id": "HGNC:00000008",
+      "type": "gene",
+      "label": "FRRS1L",
+      "matched_text": "FRRS1L",
+      "match_kind": "symbol",
+      "disease": {
+        "id": "MONDO:0014859",
+        "name": "developmental and epileptic encephalopathy 37",
+        "gene_id": "HGNC:00000008",
+        "gene_symbol": "FRRS1L"
+      }
+    }
+  ]
+}

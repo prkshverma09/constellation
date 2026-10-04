@@ -1,4 +1,10 @@
 {
+  "go_gaf": {
+    "source": "GOA human GAF",
+    "query": "goa_human.gaf.gz; aspect P; skip NOT; all evidence for specificity counts",
+    "count": 204298,
+    "retrieved_at": "2026-10-03"
+  },
   "pubmed:STXBP1": {
     "source": "PubMed",
     "query": "\"STXBP1\"[Title/Abstract] AND (epilepsy OR encephalopathy OR seizure OR neurodevelopment)",
@@ -14,7 +20,7 @@
   "ctgov:STXBP1": {
     "source": "ClinicalTrials.gov",
     "query": "STXBP1",
-    "count": 10,
+    "count": 11,
     "retrieved_at": "2026-10-03"
   },
   "pubmed:DNM1": {
@@ -176,7 +182,7 @@
   "ctgov:SCN1A": {
     "source": "ClinicalTrials.gov",
     "query": "SCN1A",
-    "count": 10,
+    "count": 13,
     "retrieved_at": "2026-10-03"
   },
   "pubmed:SCN2A": {
@@ -248,7 +254,7 @@
   "ctgov:CDKL5": {
     "source": "ClinicalTrials.gov",
     "query": "CDKL5",
-    "count": 10,
+    "count": 103,
     "retrieved_at": "2026-10-03"
   },
   "pubmed:FRRS1L": {
@@ -482,7 +488,7 @@
   "ctgov:MECP2": {
     "source": "ClinicalTrials.gov",
     "query": "MECP2",
-    "count": 10,
+    "count": 105,
     "retrieved_at": "2026-10-03"
   },
   "pubmed:FOXG1": {
@@ -716,7 +722,499 @@
   "ctgov:SLC2A1": {
     "source": "ClinicalTrials.gov",
     "query": "SLC2A1",
+    "count": 30,
+    "retrieved_at": "2026-10-03"
+  },
+  "reactome_all_levels": {
+    "source": "Reactome UniProt2Reactome",
+    "query": "UniProt2Reactome_All_Levels.txt; Homo sapiens",
+    "count": 161425,
+    "retrieved_at": "2026-10-03"
+  },
+  "go_specificity_counts": {
+    "source": "GOA human GAF + go-basic OBO",
+    "query": "distinct genes propagated through is_a/part_of using all evidence codes",
+    "count": 13794,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:STXBP1": {
+    "source": "GOA human GAF",
+    "query": "STXBP1; aspect P; experimental evidence codes",
+    "count": 5,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:DNM1": {
+    "source": "GOA human GAF",
+    "query": "DNM1; aspect P; experimental evidence codes",
+    "count": 8,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SNAP25": {
+    "source": "GOA human GAF",
+    "query": "SNAP25; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:STX1B": {
+    "source": "GOA human GAF",
+    "query": "STX1B; aspect P; experimental evidence codes",
+    "count": 0,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:VAMP2": {
+    "source": "GOA human GAF",
+    "query": "VAMP2; aspect P; experimental evidence codes",
+    "count": 4,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SYNGAP1": {
+    "source": "GOA human GAF",
+    "query": "SYNGAP1; aspect P; experimental evidence codes",
+    "count": 0,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GNAO1": {
+    "source": "GOA human GAF",
+    "query": "GNAO1; aspect P; experimental evidence codes",
+    "count": 5,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GABRG2": {
+    "source": "GOA human GAF",
+    "query": "GABRG2; aspect P; experimental evidence codes",
+    "count": 7,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KCNT1": {
+    "source": "GOA human GAF",
+    "query": "KCNT1; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SCN1A": {
+    "source": "GOA human GAF",
+    "query": "SCN1A; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SCN2A": {
+    "source": "GOA human GAF",
+    "query": "SCN2A; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SCN8A": {
+    "source": "GOA human GAF",
+    "query": "SCN8A; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KCNQ2": {
+    "source": "GOA human GAF",
+    "query": "KCNQ2; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:CDKL5": {
+    "source": "GOA human GAF",
+    "query": "CDKL5; aspect P; experimental evidence codes",
+    "count": 9,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:FRRS1L": {
+    "source": "GOA human GAF",
+    "query": "FRRS1L; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SLC6A1": {
+    "source": "GOA human GAF",
+    "query": "SLC6A1; aspect P; experimental evidence codes",
+    "count": 4,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:HNRNPU": {
+    "source": "GOA human GAF",
+    "query": "HNRNPU; aspect P; experimental evidence codes",
+    "count": 22,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KCNB1": {
+    "source": "GOA human GAF",
+    "query": "KCNB1; aspect P; experimental evidence codes",
+    "count": 4,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KCNA2": {
+    "source": "GOA human GAF",
+    "query": "KCNA2; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GRIN2B": {
+    "source": "GOA human GAF",
+    "query": "GRIN2B; aspect P; experimental evidence codes",
+    "count": 5,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GRIN1": {
+    "source": "GOA human GAF",
+    "query": "GRIN1; aspect P; experimental evidence codes",
+    "count": 18,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GRIA2": {
+    "source": "GOA human GAF",
+    "query": "GRIA2; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GRIA3": {
+    "source": "GOA human GAF",
+    "query": "GRIA3; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GABRA1": {
+    "source": "GOA human GAF",
+    "query": "GABRA1; aspect P; experimental evidence codes",
+    "count": 8,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:GABRB3": {
+    "source": "GOA human GAF",
+    "query": "GABRB3; aspect P; experimental evidence codes",
     "count": 10,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:PCDH19": {
+    "source": "GOA human GAF",
+    "query": "PCDH19; aspect P; experimental evidence codes",
+    "count": 0,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:MECP2": {
+    "source": "GOA human GAF",
+    "query": "MECP2; aspect P; experimental evidence codes",
+    "count": 7,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:FOXG1": {
+    "source": "GOA human GAF",
+    "query": "FOXG1; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:WWOX": {
+    "source": "GOA human GAF",
+    "query": "WWOX; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:PNKP": {
+    "source": "GOA human GAF",
+    "query": "PNKP; aspect P; experimental evidence codes",
+    "count": 6,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SMC1A": {
+    "source": "GOA human GAF",
+    "query": "SMC1A; aspect P; experimental evidence codes",
+    "count": 4,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KIF1A": {
+    "source": "GOA human GAF",
+    "query": "KIF1A; aspect P; experimental evidence codes",
+    "count": 0,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:KCNT2": {
+    "source": "GOA human GAF",
+    "query": "KCNT2; aspect P; experimental evidence codes",
+    "count": 2,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:CACNA1A": {
+    "source": "GOA human GAF",
+    "query": "CACNA1A; aspect P; experimental evidence codes",
+    "count": 8,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:CACNA2D2": {
+    "source": "GOA human GAF",
+    "query": "CACNA2D2; aspect P; experimental evidence codes",
+    "count": 0,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:PRRT2": {
+    "source": "GOA human GAF",
+    "query": "PRRT2; aspect P; experimental evidence codes",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:DEPDC5": {
+    "source": "GOA human GAF",
+    "query": "DEPDC5; aspect P; experimental evidence codes",
+    "count": 7,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:NPRL3": {
+    "source": "GOA human GAF",
+    "query": "NPRL3; aspect P; experimental evidence codes",
+    "count": 5,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:TBC1D24": {
+    "source": "GOA human GAF",
+    "query": "TBC1D24; aspect P; experimental evidence codes",
+    "count": 3,
+    "retrieved_at": "2026-10-03"
+  },
+  "go:SLC2A1": {
+    "source": "GOA human GAF",
+    "query": "SLC2A1; aspect P; experimental evidence codes",
+    "count": 19,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:STXBP1": {
+    "source": "NIH RePORTER",
+    "query": "STXBP1",
+    "count": 64,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:DNM1": {
+    "source": "NIH RePORTER",
+    "query": "DNM1",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SNAP25": {
+    "source": "NIH RePORTER",
+    "query": "SNAP25",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:STX1B": {
+    "source": "NIH RePORTER",
+    "query": "STX1B",
+    "count": 12,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:VAMP2": {
+    "source": "NIH RePORTER",
+    "query": "VAMP2",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SYNGAP1": {
+    "source": "NIH RePORTER",
+    "query": "SYNGAP1",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GNAO1": {
+    "source": "NIH RePORTER",
+    "query": "GNAO1",
+    "count": 5,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GABRG2": {
+    "source": "NIH RePORTER",
+    "query": "GABRG2",
+    "count": 51,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KCNT1": {
+    "source": "NIH RePORTER",
+    "query": "KCNT1",
+    "count": 33,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SCN1A": {
+    "source": "NIH RePORTER",
+    "query": "SCN1A",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SCN2A": {
+    "source": "NIH RePORTER",
+    "query": "SCN2A",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SCN8A": {
+    "source": "NIH RePORTER",
+    "query": "SCN8A",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KCNQ2": {
+    "source": "NIH RePORTER",
+    "query": "KCNQ2",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:CDKL5": {
+    "source": "NIH RePORTER",
+    "query": "CDKL5",
+    "count": 63,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:FRRS1L": {
+    "source": "NIH RePORTER",
+    "query": "FRRS1L",
+    "count": 4,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SLC6A1": {
+    "source": "NIH RePORTER",
+    "query": "SLC6A1",
+    "count": 19,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:HNRNPU": {
+    "source": "NIH RePORTER",
+    "query": "HNRNPU",
+    "count": 20,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KCNB1": {
+    "source": "NIH RePORTER",
+    "query": "KCNB1",
+    "count": 15,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KCNA2": {
+    "source": "NIH RePORTER",
+    "query": "KCNA2",
+    "count": 18,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GRIN2B": {
+    "source": "NIH RePORTER",
+    "query": "GRIN2B",
+    "count": 75,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GRIN1": {
+    "source": "NIH RePORTER",
+    "query": "GRIN1",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GRIA2": {
+    "source": "NIH RePORTER",
+    "query": "GRIA2",
+    "count": 22,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GRIA3": {
+    "source": "NIH RePORTER",
+    "query": "GRIA3",
+    "count": 52,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GABRA1": {
+    "source": "NIH RePORTER",
+    "query": "GABRA1",
+    "count": 45,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:GABRB3": {
+    "source": "NIH RePORTER",
+    "query": "GABRB3",
+    "count": 63,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:PCDH19": {
+    "source": "NIH RePORTER",
+    "query": "PCDH19",
+    "count": 60,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:MECP2": {
+    "source": "NIH RePORTER",
+    "query": "MECP2",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:FOXG1": {
+    "source": "NIH RePORTER",
+    "query": "FOXG1",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:WWOX": {
+    "source": "NIH RePORTER",
+    "query": "WWOX",
+    "count": 61,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:PNKP": {
+    "source": "NIH RePORTER",
+    "query": "PNKP",
+    "count": 82,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SMC1A": {
+    "source": "NIH RePORTER",
+    "query": "SMC1A",
+    "count": 23,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KIF1A": {
+    "source": "NIH RePORTER",
+    "query": "KIF1A",
+    "count": 66,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:KCNT2": {
+    "source": "NIH RePORTER",
+    "query": "KCNT2",
+    "count": 1,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:CACNA1A": {
+    "source": "NIH RePORTER",
+    "query": "CACNA1A",
+    "count": 100,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:CACNA2D2": {
+    "source": "NIH RePORTER",
+    "query": "CACNA2D2",
+    "count": 28,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:PRRT2": {
+    "source": "NIH RePORTER",
+    "query": "PRRT2",
+    "count": 6,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:DEPDC5": {
+    "source": "NIH RePORTER",
+    "query": "DEPDC5",
+    "count": 63,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:NPRL3": {
+    "source": "NIH RePORTER",
+    "query": "NPRL3",
+    "count": 24,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:TBC1D24": {
+    "source": "NIH RePORTER",
+    "query": "TBC1D24",
+    "count": 25,
+    "retrieved_at": "2026-10-03"
+  },
+  "reporter:SLC2A1": {
+    "source": "NIH RePORTER",
+    "query": "SLC2A1",
+    "count": 100,
     "retrieved_at": "2026-10-03"
   },
   "NCT06555965": {
@@ -728,7 +1226,7 @@
   "patient_groups": {
     "source": "verified foundation seed list",
     "query": "15 curated DEE patient groups",
-    "count": 11,
+    "count": 12,
     "retrieved_at": "2026-10-03"
   },
   "foundation:STXBP1": {
@@ -782,7 +1280,7 @@
   "foundation:KCNT1": {
     "source": "verified foundation seed list",
     "query": "KCNT1",
-    "count": 0,
+    "count": 1,
     "retrieved_at": "2026-10-03"
   },
   "foundation:SCN1A": {

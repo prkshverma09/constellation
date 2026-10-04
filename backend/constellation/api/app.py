@@ -15,7 +15,7 @@ from constellation.agents.dossier import (
     build_live_dossier,
     dossier_cache_path,
 )
-from constellation.analytics.bridges import find_bridges
+from constellation.analytics.bridges import find_bridges_with_unverified
 from constellation.analytics.coverage import asset_coverage, eligibility_diff
 from constellation.analytics.gaps import (
     gap_reasons,
@@ -30,7 +30,12 @@ from constellation.ledger import make_edge
 app = FastAPI(title="Constellation API", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:3100",
+        "http://127.0.0.1:3100",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -168,6 +173,14 @@ def _count(
     }
 
 
+def _source_count(source_key: str) -> int | None:
+    try:
+        metrics = json.loads((DATA / "source_metrics.json").read_text(encoding="utf-8"))
+        return int(metrics[source_key]["count"])
+    except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+        return None
+
+
 def _neighbor_rows(snapshot: Snapshot, disease_id: str) -> list[dict[str, Any]]:
     edges = [
         edge
@@ -200,7 +213,7 @@ def _neighbor_rows(snapshot: Snapshot, disease_id: str) -> list[dict[str, Any]]:
             row["edge_id"]
             for gene_id in (gene_a, gene_b)
             for row in snapshot.edges_by_subject.get(gene_id or "", [])
-            if row["predicate"] == "participates_in"
+            if row["predicate"] in {"participates_in", "annotated_to"}
             and (
                 not properties.get("shared_pathways")
                 or row["object"] in properties["shared_pathways"]
@@ -221,10 +234,22 @@ def _neighbor_rows(snapshot: Snapshot, disease_id: str) -> list[dict[str, Any]]:
             "disease": ref,
             "P": float(properties.get("P", 0)),
             "M": float(properties.get("M", 0)),
+            "M_reactome": float(properties.get("M_reactome", 0)),
+            "M_go": float(properties.get("M_go", 0)),
+            "string_mech": float(properties.get("string_mech", 0)),
             "V": float(properties.get("V", 0)),
             "S": float(properties.get("S", 0)),
             "supported": bool(properties.get("supported")),
-            "mechanism_label": pathways[0]["name"] if pathways else "shared mechanism not assigned",
+            "mechanism_label": (
+                properties.get("mechanism_label")
+                or "; ".join(item["name"] for item in pathways[:2])
+                or (
+                    f"physical/curated interaction "
+                    f"(STRING exp/db {properties.get('string_mech', 0):.2f})"
+                    if properties.get("string_mech", 0) >= 0.7
+                    else ""
+                )
+            ),
             "shared_pathways": pathways,
             "string_score": properties.get("string_score"),
             "variant_class_a": variant_a,
@@ -313,6 +338,12 @@ def disease_overview(mondo: str) -> dict[str, Any]:
         for edge in groups
         if snapshot.node_by_id.get(edge["subject"], {}).get("type") == "patient_group"
     ]
+    groups.sort(
+        key=lambda edge: (
+            edge.get("properties", {}).get("match_kind", "exact") != "exact",
+            edge["subject_label"].casefold(),
+        )
+    )
     pathogenic_count = sum(
         int(edge.get("properties", {}).get("n_pathogenic", 0)) for edge in variant_edges
     )
@@ -363,7 +394,10 @@ def disease_overview(mondo: str) -> dict[str, Any]:
         "counts": {
             "phenotypes": _count(phenotype_edges),
             "pathogenic_variants": _count(variant_edges, pathogenic_count),
-            "trials": _count(trial_edges),
+            "trials": _count(
+                trial_edges,
+                _source_count(f"ctgov:{properties.get('gene_symbol', '')}"),
+            ),
             "awards_active": _count(award_edges),
             "papers": _count(paper_edges),
             "patient_groups": _count(groups),
@@ -378,6 +412,7 @@ def disease_overview(mondo: str) -> dict[str, Any]:
                 .get("url", ""),
                 "edge_id": edge["edge_id"],
                 "evidence_class": edge["evidence_class"],
+                "match_kind": edge.get("properties", {}).get("match_kind", "exact"),
             }
             for edge in groups
         ],
@@ -395,12 +430,23 @@ def disease_cluster(mondo: str) -> dict[str, Any]:
         or snapshot.node_by_id[disease_id].get("type") != "disease"
     ):
         raise HTTPException(status_code=404, detail="Disease not found.")
+    slice_diseases = [
+        disease
+        for node in snapshot.nodes
+        if node.get("type") == "disease"
+        if (disease := snapshot.disease_ref(node["id"])) is not None
+    ]
     cluster = snapshot.cluster_for(disease_id)
     if not cluster:
         return {
             "disease_id": disease_id,
             "cluster": None,
             "neighbours": [],
+            "partial_overlaps": [],
+            "slice_diseases": sorted(
+                slice_diseases,
+                key=lambda disease: (disease["gene_symbol"].casefold(), disease["id"]),
+            ),
             "counterexample": None,
             "nearest_leads": [],
             "weights": {"P": 0.5, "M": 0.3, "V": 0.2, "threshold": 0.45},
@@ -408,6 +454,24 @@ def disease_cluster(mondo: str) -> dict[str, Any]:
     neighbors = _neighbor_rows(snapshot, disease_id)
     supported = [row for row in neighbors if row["supported"]]
     nearest = [row for row in neighbors if not row["supported"]][:3]
+    partial_overlaps = []
+    for row in neighbors:
+        mechanism = float(row["M"])
+        score = float(row["S"])
+        if 0 < mechanism < 0.25:
+            excluded_by = "M"
+        elif mechanism >= 0.25 and score < 0.45:
+            excluded_by = "S"
+        else:
+            continue
+        partial_overlaps.append({**row, "excluded_by": excluded_by})
+    partial_overlaps.sort(
+        key=lambda row: (
+            -row["M"],
+            -row["S"],
+            row["disease"]["gene_symbol"].casefold(),
+        )
+    )
     counter_id = cluster.get("counterexample_id")
     counterexample = next((row for row in neighbors if row["disease"]["id"] == counter_id), None)
     if counterexample:
@@ -420,6 +484,11 @@ def disease_cluster(mondo: str) -> dict[str, Any]:
         "disease_id": disease_id,
         "cluster": cluster_payload,
         "neighbours": supported,
+        "partial_overlaps": partial_overlaps,
+        "slice_diseases": sorted(
+            slice_diseases,
+            key=lambda disease: (disease["gene_symbol"].casefold(), disease["id"]),
+        ),
         "counterexample": counterexample,
         "nearest_leads": nearest,
         "weights": {"P": 0.5, "M": 0.3, "V": 0.2, "threshold": 0.45},
@@ -509,7 +578,13 @@ def bridges(a: str, b: str) -> dict[str, Any]:
         or snapshot.node_by_id[b].get("type") != "disease"
     ):
         raise HTTPException(status_code=404, detail="Disease not found.")
-    return {"a": a, "b": b, "people": find_bridges(snapshot, a, b)}
+    people, unverified = find_bridges_with_unverified(snapshot, a, b)
+    return {
+        "a": a,
+        "b": b,
+        "people": people,
+        "unverified_name_matches": unverified,
+    }
 
 
 @app.get("/api/disease/{mondo}/coverage")

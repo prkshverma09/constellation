@@ -1,0 +1,159 @@
+{
+  "_fixture": true,
+  "disease_id": "MONDO:0014859",
+  "cluster": null,
+  "neighbours": [],
+  "partial_overlaps": [],
+  "slice_diseases": [
+    {
+      "id": "MONDO:0012812",
+      "name": "developmental and epileptic encephalopathy 4",
+      "gene_id": "HGNC:00000007",
+      "gene_symbol": "STXBP1"
+    },
+    {
+      "id": "MONDO:9900001",
+      "name": "developmental and epileptic encephalopathy 31",
+      "gene_id": "HGNC:00000001",
+      "gene_symbol": "DNM1"
+    },
+    {
+      "id": "MONDO:9900002",
+      "name": "developmental and epileptic encephalopathy 4-like",
+      "gene_id": "HGNC:00000002",
+      "gene_symbol": "SNAP25"
+    },
+    {
+      "id": "MONDO:9900003",
+      "name": "developmental and epileptic encephalopathy 26",
+      "gene_id": "HGNC:00000003",
+      "gene_symbol": "STX1B"
+    },
+    {
+      "id": "MONDO:9900004",
+      "name": "developmental and epileptic encephalopathy 45",
+      "gene_id": "HGNC:00000004",
+      "gene_symbol": "VAMP2"
+    },
+    {
+      "id": "MONDO:9900005",
+      "name": "developmental and epileptic encephalopathy 17",
+      "gene_id": "HGNC:00000005",
+      "gene_symbol": "GNAO1"
+    },
+    {
+      "id": "MONDO:0014859",
+      "name": "developmental and epileptic encephalopathy 37",
+      "gene_id": "HGNC:00000008",
+      "gene_symbol": "FRRS1L"
+    }
+  ],
+  "counterexample": null,
+  "nearest_leads": [
+    {
+      "disease": {
+        "id": "MONDO:9900001",
+        "name": "developmental and epileptic encephalopathy 31",
+        "gene_id": "HGNC:00000001",
+        "gene_symbol": "DNM1"
+      },
+      "P": 0.7,
+      "M": 0.16,
+      "V": 0.15,
+      "S": 0.428,
+      "supported": false,
+      "mechanism_label": "candidate pathway overlap",
+      "shared_pathways": [
+        {
+          "id": "R-HSA-0000001",
+          "name": "Synaptic vesicle cycle"
+        }
+      ],
+      "string_score": null,
+      "variant_class_a": "unknown",
+      "variant_class_b": "unknown",
+      "edge_id": "edge:lead:frrs1l-dnm1",
+      "layer_edge_ids": {
+        "P": [
+          "edge:hp:frrs1l-0001"
+        ],
+        "M": [],
+        "V": [
+          "edge:variant:frrs1l-0001"
+        ]
+      }
+    },
+    {
+      "disease": {
+        "id": "MONDO:9900002",
+        "name": "developmental and epileptic encephalopathy 4-like",
+        "gene_id": "HGNC:00000002",
+        "gene_symbol": "SNAP25"
+      },
+      "P": 0.66,
+      "M": 0.13,
+      "V": 0.25,
+      "S": 0.419,
+      "supported": false,
+      "mechanism_label": "candidate pathway overlap",
+      "shared_pathways": [
+        {
+          "id": "R-HSA-0000001",
+          "name": "Synaptic vesicle cycle"
+        }
+      ],
+      "string_score": null,
+      "variant_class_a": "unknown",
+      "variant_class_b": "unknown",
+      "edge_id": "edge:lead:frrs1l-snap25",
+      "layer_edge_ids": {
+        "P": [
+          "edge:hp:frrs1l-0001"
+        ],
+        "M": [],
+        "V": [
+          "edge:variant:frrs1l-0001"
+        ]
+      }
+    },
+    {
+      "disease": {
+        "id": "MONDO:9900003",
+        "name": "developmental and epileptic encephalopathy 26",
+        "gene_id": "HGNC:00000003",
+        "gene_symbol": "STX1B"
+      },
+      "P": 0.61,
+      "M": 0.21,
+      "V": 0.2,
+      "S": 0.408,
+      "supported": false,
+      "mechanism_label": "candidate pathway overlap",
+      "shared_pathways": [
+        {
+          "id": "R-HSA-0000001",
+          "name": "Synaptic vesicle cycle"
+        }
+      ],
+      "string_score": null,
+      "variant_class_a": "unknown",
+      "variant_class_b": "unknown",
+      "edge_id": "edge:lead:frrs1l-stx1b",
+      "layer_edge_ids": {
+        "P": [
+          "edge:hp:frrs1l-0001"
+        ],
+        "M": [],
+        "V": [
+          "edge:variant:frrs1l-0001"
+        ]
+      }
+    }
+  ],
+  "weights": {
+    "P": 0.5,
+    "M": 0.3,
+    "V": 0.2,
+    "threshold": 0.45
+  }
+}

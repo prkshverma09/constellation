@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:variant:frrs1l-0001",
+  "subject": "HGNC:00000008",
+  "subject_label": "FRRS1L",
+  "predicate": "has_variant_class",
+  "object": "constellation:variant/frrs1l-uncertain-fixture",
+  "object_label": "Uncertain functional effect",
+  "evidence_class": "curated",
+  "source": "ClinVar",
+  "source_record": "constellation:variant/frrs1l-uncertain-fixture",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Illustrative FRRS1L variant-class evidence.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

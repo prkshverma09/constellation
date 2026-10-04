@@ -1,14 +1,18 @@
 from __future__ import annotations
 
+import gzip
 import importlib
 import json
+import urllib.request
 import zipfile
+from collections import defaultdict
 from io import BytesIO
 from pathlib import Path
 from typing import Any
 from unittest.mock import Mock
 from urllib.parse import quote
 
+import httpx
 import yaml
 from fastapi.testclient import TestClient
 
@@ -18,14 +22,31 @@ from constellation.agents.dossier import (
     dossier_cache_path,
     validate_dossier,
 )
-from constellation.analytics.bridges import find_bridges
+from constellation.analytics.bridges import find_bridges_with_unverified
 from constellation.analytics.gaps import is_gap
-from constellation.analytics.similarity import fused_similarity, lowest_level_pathways
+from constellation.analytics.similarity import (
+    fused_similarity,
+    lowest_level_pathways,
+    string_mechanism_score,
+)
 from constellation.config import DATA
 from constellation.extract.live import extract_live
 from constellation.extract.models import Claim, ExtractionResult
 from constellation.graph.store import Snapshot
-from constellation.ingest.sources import monarch_semsim, monarch_semsim_multicompare
+from constellation.ingest.cache import CachedHTTP
+from constellation.ingest.ontology import (
+    parse_go_basic_obo,
+    parse_goa_human_gaf,
+    parse_reactome_all_levels,
+)
+from constellation.ingest.sources import (
+    monarch_semsim,
+    monarch_semsim_multicompare,
+    pubmed_records,
+    reporter_projects,
+    search_trials_with_count,
+    uniprot_accession,
+)
 from constellation.ledger import edge_id, validate_curie
 
 api_module = importlib.import_module("constellation.api.app")
@@ -53,6 +74,30 @@ def _edge_refs(value: Any) -> set[str]:
     return found
 
 
+def _coverage_ids(snapshot: Snapshot, disease_id: str) -> set[str]:
+    disease = snapshot.node_by_id[disease_id]
+    gene_id = disease.get("properties", {}).get("gene_id", "")
+    edges = (
+        snapshot.edges_by_subject.get(disease_id, [])
+        + snapshot.edges_by_object.get(disease_id, [])
+        + snapshot.edges_by_subject.get(gene_id, [])
+        + snapshot.edges_by_object.get(gene_id, [])
+    )
+    coverage_predicates = {
+        "source_query",
+        "source_count",
+        "has_source_count",
+        "coverage",
+        "has_phenotype",
+        "causes",
+    }
+    return {
+        edge["edge_id"]
+        for edge in edges
+        if edge["predicate"] in coverage_predicates
+    }
+
+
 def _assert_edges_resolve(
     payload: Any,
     snapshot: Snapshot,
@@ -64,6 +109,101 @@ def _assert_edges_resolve(
     for identifier in references - resolved:
         assert client.get(f"/api/edge/{identifier}").status_code == 200
     resolved.update(references)
+
+
+def _bridge_snapshot(
+    affiliation_a: str = "",
+    affiliation_b: str = "",
+    shared_record: bool = False,
+    name_a: str = "Alex Smith",
+    name_b: str = "Alex Smith",
+) -> Snapshot:
+    disease_a, disease_b = "MONDO:A", "MONDO:B"
+    gene_a, gene_b = "HGNC:A", "HGNC:B"
+    person_a, person_b = "constellation:person/a", "constellation:person/b"
+    record_a = "PMID:1"
+    record_b = record_a if shared_record else "PMID:2"
+    nodes = [
+        {
+            "id": person_a,
+            "type": "person",
+            "label": name_a,
+            "properties": {"affiliations": [affiliation_a] if affiliation_a else []},
+        },
+        {
+            "id": person_b,
+            "type": "person",
+            "label": name_b,
+            "properties": {"affiliations": [affiliation_b] if affiliation_b else []},
+        },
+        {"id": record_a, "type": "paper", "label": "A paper", "properties": {"year": 2024}},
+        *(
+            []
+            if shared_record
+            else [
+                {
+                    "id": record_b,
+                    "type": "paper",
+                    "label": "B paper",
+                    "properties": {"year": 2023},
+                }
+            ]
+        ),
+    ]
+    edges: list[dict[str, Any]] = []
+
+    def add_edge(
+        subject: str,
+        predicate: str,
+        obj: str,
+        properties: dict[str, Any] | None = None,
+    ) -> None:
+        edges.append(
+            {
+                "edge_id": f"{subject}|{predicate}|{obj}",
+                "subject": subject,
+                "subject_label": subject,
+                "predicate": predicate,
+                "object": obj,
+                "object_label": obj,
+                "source": "pubmed",
+                "source_url": None,
+                "properties": properties or {},
+            }
+        )
+
+    add_edge(
+        person_a,
+        "authored",
+        record_a,
+        {"affiliations": [affiliation_a] if affiliation_a else []},
+    )
+    if not shared_record:
+        add_edge(
+            person_b,
+            "authored",
+            record_b,
+            {"affiliations": [affiliation_b] if affiliation_b else []},
+        )
+    add_edge(record_a, "mentions_gene", gene_a)
+    add_edge(gene_a, "causes", disease_a)
+    if shared_record:
+        add_edge(record_a, "mentions_gene", gene_b)
+        add_edge(gene_b, "causes", disease_b)
+    else:
+        add_edge(record_b, "mentions_gene", gene_b)
+        add_edge(gene_b, "causes", disease_b)
+
+    snapshot = Snapshot.__new__(Snapshot)
+    snapshot.nodes = nodes
+    snapshot.edges = edges
+    snapshot.node_by_id = {node["id"]: node for node in nodes}
+    snapshot.edges_by_subject = defaultdict(list)
+    snapshot.edges_by_object = defaultdict(list)
+    for edge in edges:
+        snapshot.edges_by_subject[edge["subject"]].append(edge)
+        snapshot.edges_by_object[edge["object"]].append(edge)
+    return snapshot
 
 
 def test_snapshot_ledger_invariants() -> None:
@@ -94,6 +234,8 @@ def test_snapshot_ledger_invariants() -> None:
     )
     assert snapshot.nodes and snapshot.edges
     assert validate_curie("constellation:person/0123456789abcdef")
+    assert validate_curie("GO:0099504")
+    assert validate_curie("R-HSA-210500")
     assert not validate_curie("untrusted:person/0123456789abcdef")
     assert all(validate_curie(node["id"]) for node in snapshot.nodes)
     for edge in snapshot.edges:
@@ -112,6 +254,31 @@ def test_snapshot_ledger_invariants() -> None:
             abstract = abstracts.get(f"PMID:{edge['source_record']}")
             if abstract:
                 assert edge["quote"] in abstract
+    string_edges = [edge for edge in snapshot.edges if edge["source"] == "string"]
+    assert string_edges
+    assert all(
+        {
+            "nscore",
+            "fscore",
+            "pscore",
+            "ascore",
+            "escore",
+            "dscore",
+            "tscore",
+            "string_mech",
+        }
+        <= edge["properties"].keys()
+        for edge in string_edges
+    )
+    go_edges = [edge for edge in snapshot.edges if edge["source"] == "go"]
+    assert go_edges
+    assert all(edge["evidence_class"] == "curated" for edge in go_edges)
+    assert all(edge["object"].startswith("GO:") for edge in go_edges)
+    assert all(
+        edge["source_record"].startswith("GO:")
+        and len(edge["source_record"].split("|")) == 3
+        for edge in go_edges
+    )
 
 
 def test_committed_snapshot_contains_the_full_gene_slice() -> None:
@@ -132,6 +299,7 @@ def test_stxbp1_golden_mechanism_cluster() -> None:
     supported, _ = _demo_ids()
     cluster = snapshot.cluster_for(supported)
     assert cluster is not None
+    assert cluster["stability"] >= 0.8
     symbol_by_disease = {
         node["id"]: node.get("properties", {}).get("gene_symbol")
         for node in snapshot.nodes
@@ -139,9 +307,106 @@ def test_stxbp1_golden_mechanism_cluster() -> None:
     }
     members = {symbol_by_disease[item] for item in cluster["member_ids"]}
     assert "STXBP1" in members
-    assert "DNM1" in members
     assert len(members & {"SNAP25", "STX1B", "VAMP2"}) >= 2
     assert not members & {"GNAO1", "GABRG2", "KCNT1"}
+    cluster_response = TestClient(api_module.app).get(
+        f"/api/disease/{quote(supported, safe='')}/cluster"
+    )
+    assert cluster_response.status_code == 200
+    payload = cluster_response.json()
+    assert payload["counterexample"]["disease"]["gene_symbol"] == "GNAO1"
+    assert len(payload["slice_diseases"]) == 40
+    assert {row["gene_symbol"] for row in payload["slice_diseases"]} == {
+        node.get("properties", {}).get("gene_symbol")
+        for node in snapshot.nodes
+        if node["type"] == "disease"
+    }
+    dnm1 = next(
+        (
+            row
+            for row in [*payload["partial_overlaps"], *payload["neighbours"]]
+            if row["disease"]["gene_symbol"] == "DNM1"
+        ),
+        None,
+    )
+    assert dnm1 is not None
+    assert dnm1["shared_pathways"]
+    assert dnm1 in payload["partial_overlaps"]
+    assert dnm1["excluded_by"] == "M"
+    partial_rows = payload["partial_overlaps"]
+    assert all(
+        partial_rows[index]["M"] >= partial_rows[index + 1]["M"]
+        for index in range(len(partial_rows) - 1)
+    )
+    expected_partial_count = sum(
+        1
+        for edge in snapshot.edges
+        if supported in {edge["subject"], edge["object"]}
+        and edge["predicate"] in {"shares_mechanism_with", "phenotypically_similar_to"}
+        and (
+            0 < float(edge["properties"].get("M", 0)) < 0.25
+            or (
+                float(edge["properties"].get("M", 0)) >= 0.25
+                and float(edge["properties"].get("S", 0)) < 0.45
+            )
+        )
+    )
+    assert len(partial_rows) == expected_partial_count
+
+
+def test_string_only_support_has_a_channel_score_mechanism_label() -> None:
+    snapshot = Snapshot()
+    diseases = {
+        node.get("properties", {}).get("gene_symbol"): node["id"]
+        for node in snapshot.nodes
+        if node["type"] == "disease"
+    }
+    pair = {diseases["STXBP1"], diseases["STX1B"]}
+    edge = next(
+        row
+        for row in snapshot.edges
+        if {row["subject"], row["object"]} == pair
+        and row["predicate"] == "shares_mechanism_with"
+    )
+    properties = edge["properties"]
+    assert properties["shared_pathways"] == []
+    assert properties["supported"] is True
+    assert round(properties["string_mech"], 2) == 0.96
+    assert properties["mechanism_label"] == (
+        "physical/curated interaction (STRING exp/db 0.96)"
+    )
+
+
+def test_cached_reactome_lowest_pathways_overlap_for_stxbp1_and_snap25() -> None:
+    snapshot = Snapshot()
+    genes = {
+        node["properties"]["symbol"]: node["id"]
+        for node in snapshot.nodes
+        if node.get("type") == "gene"
+    }
+    pathway_sets = {
+        symbol: {
+            edge["object"]
+            for edge in snapshot.edges_by_subject.get(gene_id, [])
+            if edge["source"] == "reactome" and edge["predicate"] == "participates_in"
+        }
+        for symbol, gene_id in genes.items()
+    }
+    parents = {
+        node["id"]: set(node.get("properties", {}).get("ancestor_ids", []))
+        for node in snapshot.nodes
+        if node.get("type") == "mechanism" and node["id"].startswith("R-HSA-")
+    }
+    lowest = lowest_level_pathways(pathway_sets, parents)
+    specific = {
+        symbol: {
+            pathway_id
+            for pathway_id in pathways
+            if snapshot.node_by_id[pathway_id]["properties"]["human_gene_count"] <= 500
+        }
+        for symbol, pathways in lowest.items()
+    }
+    assert specific["STXBP1"] & specific["SNAP25"]
 
 
 def test_gap_candidate_matches_source_counts_and_detector() -> None:
@@ -198,11 +463,163 @@ def test_gene_bridge_proofs_touch_both_requested_diseases() -> None:
         if node.get("type") == "disease"
     }
     left, right = diseases["STXBP1"], diseases["DNM1"]
-    bridges = find_bridges(snapshot, left, right)
+    bridges, _ = find_bridges_with_unverified(snapshot, left, right)
     assert bridges
+    assert any(bridge["display_name"] == "Ingo Helbig" for bridge in bridges)
     for bridge in bridges:
-        proof_diseases = {edge["disease_id"] for edge in bridge["proving_edges"]}
+        proof_diseases = {
+            disease_id
+            for edge in bridge["proving_edges"]
+            for disease_id in edge["disease_ids"]
+        }
         assert {left, right} <= proof_diseases
+        proof_ids = [edge["edge_id"] for edge in bridge["proving_edges"]]
+        assert len(proof_ids) == len(set(proof_ids))
+        assert bridge["why_same_person"]
+
+
+def test_name_only_bridge_is_reported_as_unverified() -> None:
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(name_a="HELBIG, INGO", name_b="Ingo Helbig, MD"),
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert people == []
+    assert unverified_count == 1
+
+
+def test_surname_first_alias_merges_when_affiliation_corroborates() -> None:
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(
+            "Children's Hospital of Philadelphia",
+            "Children's Hospital of Philadelphia",
+            name_a="HELBIG, INGO",
+            name_b="Ingo Helbig, MD",
+        ),
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert unverified_count == 0
+    assert len(people) == 1
+    assert people[0]["display_name"] == "Ingo Helbig"
+    assert "philadelphia" in people[0]["why_same_person"].casefold()
+
+
+def test_middle_initial_aliases_merge_across_records() -> None:
+    affiliation = "Children's Hospital of Philadelphia"
+    snapshot = _bridge_snapshot(
+        affiliation,
+        affiliation,
+        name_a="Sarah McKeown Ruggiero",
+        name_b="Sarah McKeown Ruggiero",
+    )
+
+    def add_alias(
+        person_id: str,
+        record_id: str,
+        name: str,
+        gene_id: str,
+        affiliation_text: str,
+    ) -> None:
+        person = {
+            "id": person_id,
+            "type": "person",
+            "label": name,
+            "properties": {"affiliations": [affiliation_text]},
+        }
+        record = {
+            "id": record_id,
+            "type": "paper",
+            "label": "Alias paper",
+            "properties": {"year": 2024},
+        }
+        snapshot.nodes.extend([person, record])
+        snapshot.node_by_id.update({person_id: person, record_id: record})
+        for subject, predicate, obj in (
+            (person_id, "authored", record_id),
+            (record_id, "mentions_gene", gene_id),
+        ):
+            edge = {
+                "edge_id": f"{subject}|{predicate}|{obj}",
+                "subject": subject,
+                "subject_label": subject,
+                "predicate": predicate,
+                "object": obj,
+                "object_label": obj,
+                "source": "pubmed",
+                "source_url": None,
+                "properties": {"affiliations": [affiliation_text]},
+            }
+            snapshot.edges.append(edge)
+            snapshot.edges_by_subject[subject].append(edge)
+            snapshot.edges_by_object[obj].append(edge)
+
+    add_alias(
+        "constellation:person/a-initial",
+        "PMID:3",
+        "Sarah M Ruggiero",
+        "HGNC:A",
+        affiliation,
+    )
+    add_alias(
+        "constellation:person/b-initial",
+        "PMID:4",
+        "Sarah M Ruggiero",
+        "HGNC:B",
+        affiliation,
+    )
+
+    people, unverified_count = find_bridges_with_unverified(
+        snapshot,
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert unverified_count == 0
+    assert len(people) == 1
+    assert people[0]["display_name"] == "Sarah McKeown Ruggiero"
+    assert people[0]["n_a"] == 2
+    assert people[0]["n_b"] == 2
+
+
+def test_generic_affiliation_text_does_not_verify_name_only_bridge() -> None:
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(
+            "Authors' affiliations are listed at the end of the article.",
+            "Author affiliations are provided at the end of the article.",
+        ),
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert people == []
+    assert unverified_count == 1
+
+
+def test_affiliation_corroborates_bridge_and_proof_edges_are_deduplicated() -> None:
+    people, unverified_count = find_bridges_with_unverified(
+        _bridge_snapshot(
+            "Department of Neurology, University of Pennsylvania",
+            "Child Neurology, University of Pennsylvania",
+            name_a="K. L. Helbig",
+            name_b="Katherine L Helbig",
+        ),
+        "MONDO:A",
+        "MONDO:B",
+    )
+    assert unverified_count == 0
+    assert len(people) == 1
+    bridge = people[0]
+    assert bridge["display_name"] == "Katherine L Helbig"
+    assert "pennsylvania" in bridge["why_same_person"].casefold()
+    proof_ids = [edge["edge_id"] for edge in bridge["proving_edges"]]
+    assert len(proof_ids) == len(set(proof_ids))
+    assert {
+        disease_id
+        for edge in bridge["proving_edges"]
+        for disease_id in edge["disease_ids"]
+    } == {
+        "MONDO:A",
+        "MONDO:B",
+    }
 
 
 def test_similarity_fusion_uses_prescribed_weights_and_gate() -> None:
@@ -226,6 +643,82 @@ def test_similarity_fusion_uses_prescribed_weights_and_gate() -> None:
     assert all(not row["supported"] for row in rows if row is not supported)
 
 
+def test_mechanism_guard_requires_at_least_025() -> None:
+    common = (
+        ["MONDO:1", "MONDO:2"],
+        {"MONDO:1": "A", "MONDO:2": "B"},
+        {"MONDO:1": set(), "MONDO:2": set()},
+        {"A": "loss_of_function", "B": "loss_of_function"},
+        {},
+        {("MONDO:1", "MONDO:2"): 1.0},
+    )
+    incidental = fused_similarity(
+        common[0],
+        common[1],
+        common[2],
+        {"A": {"R-HSA-shared"}, "B": {"R-HSA-shared", *{f"R-HSA-{i}" for i in range(11)}}},
+        common[3],
+        common[4],
+        common[5],
+    )[0]
+    adequate = fused_similarity(
+        common[0],
+        common[1],
+        common[2],
+        {"A": {"R-HSA-shared", "R-HSA-a"}, "B": {"R-HSA-shared", "R-HSA-b", "R-HSA-c"}},
+        common[3],
+        common[4],
+        common[5],
+    )[0]
+    assert round(incidental["M"], 3) == 0.083
+    assert incidental["S"] >= 0.45
+    assert incidental["supported"] is False
+    assert adequate["M"] == 0.25
+    assert adequate["supported"] is True
+
+
+def test_string_mechanism_ignores_text_mining_channel() -> None:
+    common = (
+        ["MONDO:1", "MONDO:2"],
+        {"MONDO:1": "A", "MONDO:2": "B"},
+        {"MONDO:1": set(), "MONDO:2": set()},
+        {"A": set(), "B": set()},
+        {"A": "loss_of_function", "B": "gain_of_function"},
+    )
+    text_only = fused_similarity(
+        *common,
+        {("A", "B"): {"string_score": 0.857, "string_mech": 0.045}},
+        {("MONDO:1", "MONDO:2"): 1.0},
+    )[0]
+    curated_channels = fused_similarity(
+        *common,
+        {("A", "B"): {"string_score": 0.75, "string_mech": 0.7}},
+        {("MONDO:1", "MONDO:2"): 1.0},
+    )[0]
+    assert text_only["M"] == 0
+    assert text_only["supported"] is False
+    assert curated_channels["M"] == 1
+    assert curated_channels["supported"] is True
+    assert abs(string_mechanism_score(0.045, 0.0) - 0.045) < 1e-12
+
+
+def test_go_jaccard_contributes_to_mechanism_score() -> None:
+    row = fused_similarity(
+        ["MONDO:1", "MONDO:2"],
+        {"MONDO:1": "A", "MONDO:2": "B"},
+        {"MONDO:1": set(), "MONDO:2": set()},
+        {"A": set(), "B": set()},
+        {"A": "loss_of_function", "B": "gain_of_function"},
+        {("A", "B"): {"string_score": 0.857, "string_mech": 0.045}},
+        {("MONDO:1", "MONDO:2"): 1.0},
+        go_terms={"A": {"GO:0099504", "GO:0006810"}, "B": {"GO:0099504"}},
+        go_counts={"GO:0099504": 250, "GO:0006810": 400},
+    )[0]
+    assert row["M_reactome"] == 0
+    assert row["M_go"] == 0.5
+    assert row["M"] == 0.5
+
+
 def test_similarity_uses_only_lowest_level_reactome_pathways() -> None:
     pathways = {
         "A": {"R-HSA-parent", "R-HSA-child", "R-HSA-unrelated"},
@@ -240,6 +733,216 @@ def test_similarity_uses_only_lowest_level_reactome_pathways() -> None:
         "B": {"R-HSA-child"},
     }
     assert lowest_level_pathways(pathways, {}) == {"A": set(), "B": set()}
+
+
+def test_cached_http_binary_resources_can_be_seeded_from_local_files(tmp_path: Path) -> None:
+    source = tmp_path / "source.gz"
+    source.write_bytes(b"cached binary resource")
+    cache_dir = tmp_path / "cache"
+    first = CachedHTTP(cache_dir=cache_dir)
+    assert first.get_bytes("https://example.org/resource.gz", local_fallback=source) == (
+        b"cached binary resource"
+    )
+    first.close()
+
+    second = CachedHTTP(cache_dir=cache_dir)
+    assert second.get_bytes("https://example.org/resource.gz") == b"cached binary resource"
+    second.close()
+    assert list(cache_dir.glob("*.bin"))
+
+
+def test_goa_gaf_counts_distinct_genes_and_uses_experimental_annotations() -> None:
+    obo = b"""[Term]
+id: GO:0000001
+name: biological process root
+
+[Term]
+id: GO:0000002
+name: child process
+is_a: GO:0000001 ! biological process root
+
+[Term]
+id: GO:0000003
+name: related process
+relationship: part_of GO:0000001 ! biological process root
+"""
+    names, parents = parse_go_basic_obo(obo)
+
+    def row(
+        symbol: str,
+        go_id: str,
+        evidence: str,
+        *,
+        qualifier: str = "",
+        aspect: str = "P",
+        protein_id: str = "P00001",
+    ) -> str:
+        return "\t".join(
+            [
+                "UniProtKB",
+                protein_id,
+                symbol,
+                qualifier,
+                go_id,
+                "PMID:1",
+                evidence,
+                "",
+                aspect,
+                symbol,
+                "",
+                "protein",
+                "taxon:9606",
+                "20250101",
+                "TEST",
+                "",
+                "",
+            ]
+        )
+
+    gaf_text = "\n".join(
+        [
+            "!gaf-version: 2.2",
+            row("STXBP1", "GO:0000002", "EXP"),
+            row("STXBP1", "GO:0000002", "IEA"),
+            row("OTHER", "GO:0000002", "IEA", protein_id="P00002"),
+            row("DNM1", "GO:0000003", "IDA", protein_id="P00003"),
+            row(
+                "SNAP25",
+                "GO:0000002",
+                "EXP",
+                qualifier="NOT",
+                protein_id="P00004",
+            ),
+            row("GNAO1", "GO:0000002", "EXP", aspect="F", protein_id="P00005"),
+        ]
+    )
+    data = parse_goa_human_gaf(
+        gzip.compress(gaf_text.encode("utf-8")),
+        parents,
+        {"STXBP1", "DNM1", "SNAP25", "GNAO1"},
+    )
+
+    assert names["GO:0000002"] == "child process"
+    assert parents["GO:0000003"] == {"GO:0000001"}
+    assert data["gene_counts"]["GO:0000002"] == 2
+    assert data["gene_counts"]["GO:0000001"] == 3
+    assert data["experimental_slice_rows"] == 2
+    assert [row["evidence_code"] for row in data["annotations_by_gene"]["STXBP1"]] == ["EXP"]
+    assert "SNAP25" not in data["annotations_by_gene"]
+
+
+def test_goa_jaccards_match_stxbp1_reference_values() -> None:
+    snapshot = Snapshot()
+    disease_by_symbol = {
+        node["properties"]["gene_symbol"]: node["id"]
+        for node in snapshot.nodes
+        if node["type"] == "disease"
+    }
+    scores = {
+        "SNAP25": 0.172,
+        "VAMP2": 0.238,
+        "DNM1": 0.026,
+        "KCNT2": 0.030,
+    }
+    for symbol, expected in scores.items():
+        disease_a, disease_b = disease_by_symbol["STXBP1"], disease_by_symbol[symbol]
+        edge = next(
+            row
+            for row in snapshot.edges
+            if {row["subject"], row["object"]} == {disease_a, disease_b}
+            and row["predicate"] in {"shares_mechanism_with", "phenotypically_similar_to"}
+        )
+        assert round(float(edge["properties"]["M_go"]), 3) == expected
+    dnm1_edge = next(
+        row
+        for row in snapshot.edges
+        if {row["subject"], row["object"]}
+        == {disease_by_symbol["STXBP1"], disease_by_symbol["DNM1"]}
+        and row["predicate"] in {"shares_mechanism_with", "phenotypically_similar_to"}
+    )
+    shared_terms = [
+        snapshot.node_by_id[term_id]
+        for term_id in dnm1_edge["properties"]["shared_pathways"]
+        if term_id.startswith("GO:")
+    ]
+    vesicle_organization = next(
+        term for term in shared_terms if term["label"].casefold() == "vesicle organization"
+    )
+    assert vesicle_organization["properties"]["human_gene_count"] == 384
+
+
+def test_reactome_mapping_counts_distinct_human_genes() -> None:
+    mapping = b"""P00001\tR-HSA-1\thttps://reactome.org/R-HSA-1\tPathway one\tIEA\tHomo sapiens
+P00002\tR-HSA-1\thttps://reactome.org/R-HSA-1\tPathway one\tIEA\tHomo sapiens
+P00003\tR-HSA-1\thttps://reactome.org/R-HSA-1\tPathway one\tIEA\tHomo sapiens
+P00004\tR-HSA-1\thttps://reactome.org/R-HSA-1\tPathway one\tIEA\tMus musculus
+"""
+    data = parse_reactome_all_levels(
+        mapping,
+        {
+            "P00001": "GENE1",
+            "P00002": "GENE1",
+            "P00003": "GENE2",
+        },
+    )
+    assert data["gene_counts"]["R-HSA-1"] == 2
+    assert data["pathways_by_gene"] == {
+        "GENE1": {"R-HSA-1"},
+        "GENE2": {"R-HSA-1"},
+    }
+
+
+def test_uniprot_accession_uses_ensembl_gene_cross_references() -> None:
+    http = Mock()
+    http.get.return_value = [
+        {"dbname": "Uniprot_gn", "primary_id": "A0A0D9SG72"},
+        {"dbname": "Uniprot_gn", "primary_id": "P61764"},
+    ]
+    entity = {"xref": ["ENSEMBL:ENSG00000136854", "OMIM:602926"]}
+    assert uniprot_accession(http, entity) == "P61764"
+    assert http.get.call_args.args[0].endswith("/xrefs/id/ENSG00000136854")
+
+
+def test_pubmed_records_retain_author_orcid() -> None:
+    http = Mock()
+    http.get.side_effect = [
+        {"esearchresult": {"idlist": ["12345"]}},
+        {
+            "_text": (
+                "<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>12345</PMID>"
+                "<Article><ArticleTitle>Title</ArticleTitle><AuthorList><Author>"
+                "<LastName>Helbig</LastName><ForeName>Katherine</ForeName>"
+                '<Identifier Source="ORCID">0000-0002-1825-0097</Identifier>'
+                "<AffiliationInfo><Affiliation>University of Pennsylvania</Affiliation>"
+                "</AffiliationInfo></Author></AuthorList></Article></MedlineCitation>"
+                "</PubmedArticle></PubmedArticleSet>"
+            )
+        },
+    ]
+    records = pubmed_records(http, "STXBP1", retmax=1)
+    assert records[0]["authors"][0]["orcid"] == "0000-0002-1825-0097"
+
+
+def test_clinical_trials_search_uses_condition_total_count() -> None:
+    http = Mock()
+    http.get.return_value = {"totalCount": 11, "studies": [{"id": "NCT00000001"}]}
+    studies, count = search_trials_with_count(http, "STXBP1", page_size=100)
+    assert count == 11
+    assert len(studies) == 1
+    assert http.get.call_args.kwargs["params"] == {
+        "query.cond": "STXBP1",
+        "pageSize": 100,
+        "countTotal": True,
+        "format": "json",
+    }
+
+
+def test_reporter_search_requests_up_to_one_hundred_projects() -> None:
+    http = Mock()
+    http.post.return_value = {"results": [{"project_num": str(i)} for i in range(100)]}
+    rows = reporter_projects(http, "STXBP1")
+    assert len(rows) == 100
+    assert http.post.call_args.kwargs["json_body"]["limit"] == 100
 
 
 def test_monarch_semsim_uses_supported_limit() -> None:
@@ -262,18 +965,143 @@ def test_monarch_semsim_multicompare_uses_source_candidates() -> None:
 def test_offline_dossier_has_cited_required_sections() -> None:
     snapshot = Snapshot()
     supported, gap = _demo_ids()
+    supported_dossier = None
     for disease_id in (supported, gap):
         dossier = build_dossier(snapshot, disease_id, "maria", mode="offline")
+        if disease_id == supported:
+            supported_dossier = dossier
         assert dossier["dropped_sentences"] == 0
         assert set(SECTION_TITLES) <= {section["key"] for section in dossier["sections"]}
         assert all(section["sentences"] for section in dossier["sections"])
         assert all(
             sentence["edge_ids"] and set(sentence["edge_ids"]) <= snapshot.edge_by_id.keys()
+            and len(sentence["edge_ids"]) == len(set(sentence["edge_ids"]))
             for section in dossier["sections"]
             for sentence in section["sentences"]
         )
+    assert supported_dossier is not None
+    sections = {section["key"]: section for section in supported_dossier["sections"]}
+    who_shares = " ".join(sentence["text"] for sentence in sections["who_shares"]["sentences"])
+    cluster = snapshot.cluster_for(supported)
+    assert cluster is not None
+    members = set(cluster["member_ids"])
+    member_symbols = {
+        snapshot.node_by_id[disease_id].get("properties", {}).get("gene_symbol")
+        for disease_id in members
+        if disease_id != supported
+    }
+    outside_symbols = {
+        node.get("properties", {}).get("gene_symbol")
+        for node in snapshot.nodes
+        if node.get("type") == "disease" and node["id"] not in members
+    }
+    assert all(symbol in who_shares for symbol in member_symbols if symbol)
+    assert not any(symbol in who_shares for symbol in outside_symbols if symbol)
+    assert "DNM1-related disease" not in who_shares
+    assert "counterexample" in who_shares.casefold()
+    assert "M=0" in who_shares or "V=0" in who_shares or "support threshold" in who_shares
+    member_rows = []
+    for member_id in members - {supported}:
+        pair_edges = [
+            edge
+            for edge in snapshot.edges_by_subject.get(supported, [])
+            if edge["object"] == member_id and edge["predicate"] == "shares_mechanism_with"
+        ] + [
+            edge
+            for edge in snapshot.edges_by_subject.get(member_id, [])
+            if edge["object"] == supported and edge["predicate"] == "shares_mechanism_with"
+        ]
+        if pair_edges:
+            symbol = snapshot.node_by_id[member_id].get("properties", {}).get(
+                "gene_symbol", snapshot.node_by_id[member_id]["label"]
+            )
+            member_rows.append((max(edge["properties"]["S"] for edge in pair_edges), symbol))
+    ordered_members = sorted(member_rows, key=lambda row: (-row[0], row[1].casefold()))
+    member_positions = [who_shares.index(symbol) for _, symbol in ordered_members]
+    assert member_positions == sorted(member_positions)
+    what_exists = " ".join(
+        sentence["text"] for sentence in sections["what_exists"]["sentences"]
+    )
+    assert "coverage" in what_exists.casefold()
+    assert any(character.isdigit() for character in what_exists)
+    assert "Exact-match foundation" in what_exists
+    what_differs = " ".join(
+        sentence["text"] for sentence in sections["what_differs"]["sentences"]
+    )
+    assert "V=0" in what_differs and "“" in what_differs
+    assert "same process, different step / weak overlap" in what_differs
+    assert "DNM1" in what_differs
+    variant_class_ids = {
+        edge["edge_id"]
+        for edge in snapshot.edges
+        if edge["predicate"] == "has_variant_class"
+    }
+    assert any(
+        sentence["edge_ids"] and set(sentence["edge_ids"]) & variant_class_ids
+        for sentence in sections["what_differs"]["sentences"]
+        if "V=0" in sentence["text"] and "“" in sentence["text"]
+    )
+    dnm1_partial_sentence = next(
+        sentence
+        for sentence in sections["what_differs"]["sentences"]
+        if "DNM1" in sentence["text"]
+    )
+    assert any(
+        snapshot.edge_by_id[edge_id]["source"] in {"go", "reactome"}
+        for edge_id in dnm1_partial_sentence["edge_ids"]
+    )
+    contact_sentences = sections["who_to_contact"]["sentences"]
+    assert len(contact_sentences) <= 3
+    assert any("Ingo Helbig" in sentence["text"] for sentence in contact_sentences)
+    assert all(
+        "signals:" in sentence["text"]
+        for sentence in contact_sentences
+        if "No corroborated" not in sentence["text"]
+    )
+    next_step_ids = set(
+        edge_id
+        for sentence in sections["next_step"]["sentences"]
+        for edge_id in sentence["edge_ids"]
+    )
+    next_step_edges = [snapshot.edge_by_id[edge_id] for edge_id in next_step_ids]
+    assert any(
+        edge["predicate"] == "serves"
+        and snapshot.node_by_id.get(edge["subject"], {}).get("type") == "asset"
+        for edge in next_step_edges
+    )
+    assert any(edge["predicate"] == "has_phenotype" for edge in next_step_edges)
+    assert any(
+        edge["predicate"] in {"authored", "funds", "investigates"}
+        for edge in next_step_edges
+    )
     assert build_dossier(snapshot, supported, "maria", mode="offline")["gap_plan"] is None
     assert build_dossier(snapshot, gap, "maria", mode="offline")["gap_plan"] is not None
+
+
+def test_dossier_personas_change_language_and_order() -> None:
+    snapshot = Snapshot()
+    supported, _ = _demo_ids()
+    devon = build_dossier(snapshot, supported, "devon")
+    priya = build_dossier(snapshot, supported, "priya")
+    osei = build_dossier(snapshot, supported, "osei")
+    devon_text = " ".join(
+        sentence["text"]
+        for section in devon["sections"]
+        for sentence in section["sentences"]
+    )
+    priya_text = " ".join(
+        sentence["text"]
+        for section in priya["sections"]
+        for sentence in section["sentences"]
+    )
+    assert "Verify" not in devon_text
+    assert "Verify" in " ".join(
+        sentence["text"]
+        for section in osei["sections"]
+        for sentence in section["sentences"]
+    )
+    assert osei["sections"][0]["key"] == "what_differs"
+    assert "GO:" in priya_text or "R-HSA-" in priya_text
 
 
 def test_committed_offline_dossier_cache_covers_demo_personas() -> None:
@@ -291,6 +1119,7 @@ def test_committed_offline_dossier_cache_covers_demo_personas() -> None:
 def test_dossier_validator_drops_uncited_and_unresolvable_sentences() -> None:
     snapshot = Snapshot()
     disease_id, _ = _demo_ids()
+    coverage_edge = next(iter(_coverage_ids(snapshot, disease_id)))
     payload = {
         "sections": [
             {
@@ -300,15 +1129,34 @@ def test_dossier_validator_drops_uncited_and_unresolvable_sentences() -> None:
                     {"text": "No citation.", "edge_ids": []},
                     {"text": "Unknown citation.", "edge_ids": ["not-an-edge"]},
                 ],
+            },
+            {
+                "key": "what_exists",
+                "title": "What exists",
+                "sentences": [
+                    {
+                        "text": "Duplicate reference.",
+                        "edge_ids": [coverage_edge, coverage_edge],
+                    }
+                ],
             }
         ]
     }
     validated = validate_dossier(payload, snapshot, disease_id)
     assert validated["dropped_sentences"] == 2
+    coverage_ids = _coverage_ids(snapshot, disease_id)
     assert all(
         sentence["edge_ids"] and set(sentence["edge_ids"]) <= snapshot.edge_by_id.keys()
+        and len(sentence["edge_ids"]) == len(set(sentence["edge_ids"]))
         for section in validated["sections"]
         for sentence in section["sentences"]
+    )
+    assert all(
+        edge_id in coverage_ids
+        for section in validated["sections"]
+        if section["key"] != "what_exists"
+        for sentence in section["sentences"]
+        for edge_id in sentence["edge_ids"]
     )
 
 
@@ -332,6 +1180,13 @@ def test_api_contract_for_both_demo_diseases() -> None:
             "summary",
             "is_gap",
         } <= overview.keys()
+        match_kinds = [group["match_kind"] for group in overview["patient_groups"]]
+        assert match_kinds == sorted(match_kinds, key=lambda value: value != "exact")
+        for group in overview["patient_groups"]:
+            group_edge = snapshot.edge_by_id[group["edge_id"]]
+            group_node = snapshot.node_by_id[group["id"]]
+            assert group_edge["properties"]["match_kind"] == group["match_kind"]
+            assert group_node["properties"]["match_kind"] == group["match_kind"]
         assert {"technical", "plain"} <= overview["summary"].keys()
         assert {
             "phenotypes",
@@ -342,6 +1197,13 @@ def test_api_contract_for_both_demo_diseases() -> None:
             "patient_groups",
         } <= overview["counts"].keys()
         _assert_edges_resolve(overview, snapshot, client, resolved_edge_ids)
+        if overview["disease"]["gene_symbol"] == "STXBP1":
+            metrics = json.loads((DATA / "source_metrics.json").read_text(encoding="utf-8"))
+            assert overview["counts"]["trials"]["n"] == metrics["ctgov:STXBP1"]["count"]
+            assert {group["match_kind"] for group in overview["patient_groups"]} == {
+                "exact",
+                "umbrella",
+            }
         first_id = next(iter(_edge_refs(overview)))
         edge_response = client.get(f"/api/edge/{first_id}")
         assert edge_response.status_code == 200
@@ -374,6 +1236,8 @@ def test_api_contract_for_both_demo_diseases() -> None:
             "disease_id",
             "cluster",
             "neighbours",
+            "partial_overlaps",
+            "slice_diseases",
             "counterexample",
             "nearest_leads",
             "weights",
@@ -402,7 +1266,12 @@ def test_api_contract_for_both_demo_diseases() -> None:
 
         bridge_response = client.get("/api/bridges", params={"a": supported, "b": gap})
         assert bridge_response.status_code == 200
-        assert {"a", "b", "people"} <= bridge_response.json().keys()
+        assert {
+            "a",
+            "b",
+            "people",
+            "unverified_name_matches",
+        } <= bridge_response.json().keys()
         _assert_edges_resolve(bridge_response.json(), snapshot, client, resolved_edge_ids)
         coverage_response = client.get(f"/api/disease/{quote(disease_id, safe='')}/coverage")
         assert coverage_response.status_code == 200
@@ -450,6 +1319,45 @@ def test_api_contract_for_both_demo_diseases() -> None:
     assert export.status_code == 200
     with zipfile.ZipFile(BytesIO(export.content)) as archive:
         assert {"nodes.tsv", "edges.tsv"} <= set(archive.namelist())
+
+
+def test_offline_api_constructs_no_outbound_http_clients(monkeypatch: Any) -> None:
+    monkeypatch.setenv("LLM_MODE", "offline")
+    client = TestClient(api_module.app)
+
+    def reject_outbound(*_args: Any, **_kwargs: Any) -> None:
+        raise AssertionError("offline API constructed an outbound HTTP client")
+
+    monkeypatch.setattr(httpx, "Client", reject_outbound)
+    monkeypatch.setattr(httpx, "AsyncClient", reject_outbound)
+    monkeypatch.setattr(urllib.request, "urlopen", reject_outbound)
+
+    with client:
+        health = client.get("/api/health")
+        assert health.status_code == 200
+        assert health.json()["llm_mode"] == "offline"
+        stxbp1 = "MONDO:0012812"
+        cluster_response = client.get(
+            f"/api/disease/{quote(stxbp1, safe='')}/cluster"
+        )
+        assert cluster_response.status_code == 200
+        cluster = cluster_response.json()
+        dnm1 = next(
+            row["disease"]["id"]
+            for row in cluster["partial_overlaps"]
+            if row["disease"]["gene_symbol"] == "DNM1"
+        )
+        cluster_id = cluster["cluster"]["id"]
+        assert client.get(
+            f"/api/cluster/{quote(cluster_id, safe='')}/assets",
+            params={"for": dnm1},
+        ).status_code == 200
+        assert client.get(
+            "/api/bridges", params={"a": stxbp1, "b": dnm1}
+        ).status_code == 200
+        assert client.post(
+            "/api/dossier", json={"disease": stxbp1, "persona": "maria"}
+        ).status_code == 200
 
 
 def test_contribution_persists_only_as_proposed(

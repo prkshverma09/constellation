@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "disease_id": "MONDO:0012812",
+  "is_gap": false,
+  "reasons": [],
+  "sources": [
+    {
+      "source": "PubMed",
+      "query": "STXBP1 mechanism",
+      "count": 128,
+      "retrieved_at": "2025-02-14"
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "query": "STXBP1",
+      "count": 1,
+      "retrieved_at": "2025-02-14"
+    }
+  ],
+  "nearest_leads": [],
+  "what_would_change": []
+}

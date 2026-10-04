@@ -1,0 +1,10 @@
+{
+  "_fixture": true,
+  "status": "ok",
+  "snapshot_hash": "fixture-2025-02-14",
+  "llm_mode": "cached",
+  "counts": {
+    "nodes": 274,
+    "edges": 812
+  }
+}

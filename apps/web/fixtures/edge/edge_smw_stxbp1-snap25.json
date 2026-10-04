@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:smw:stxbp1-snap25",
+  "subject": "MONDO:0012812",
+  "subject_label": "developmental and epileptic encephalopathy 4",
+  "predicate": "shares_mechanism_with",
+  "object": "MONDO:9900002",
+  "object_label": "developmental and epileptic encephalopathy 4-like",
+  "evidence_class": "observed",
+  "source": "STRING fixture",
+  "source_record": "MONDO:9900002",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Shared presynaptic vesicle-cycle mechanism.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

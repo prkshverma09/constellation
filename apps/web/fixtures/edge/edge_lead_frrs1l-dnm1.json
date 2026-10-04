@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:lead:frrs1l-dnm1",
+  "subject": "MONDO:0014859",
+  "subject_label": "developmental and epileptic encephalopathy 37",
+  "predicate": "phenotypically_similar_to",
+  "object": "MONDO:9900001",
+  "object_label": "developmental and epileptic encephalopathy 31",
+  "evidence_class": "inferred",
+  "source": "Phenotype similarity fixture",
+  "source_record": "MONDO:9900001",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Illustrative phenotype overlap for a nearest lead.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

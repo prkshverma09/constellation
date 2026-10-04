@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:claim:dnm1-class-contradiction",
+  "subject": "HGNC:00000001",
+  "subject_label": "DNM1",
+  "predicate": "claims",
+  "object": "constellation:variant/class-conflicting-fixture",
+  "object_label": "Dominant-negative variant class",
+  "evidence_class": "llm_extracted",
+  "source": "Curated literature review",
+  "source_record": "constellation:variant/class-conflicting-fixture",
+  "source_url": "https://example.org/contradiction",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "A limited claim assigns a dominant-negative effect; expert review is needed.",
+  "polarity": "contradicts",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

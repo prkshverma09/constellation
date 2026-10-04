@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:variant:stxbp1-0001",
+  "subject": "HGNC:00000007",
+  "subject_label": "STXBP1",
+  "predicate": "has_variant_class",
+  "object": "constellation:variant/class-fixture",
+  "object_label": "Loss of function",
+  "evidence_class": "inferred",
+  "source": "ClinVar",
+  "source_record": "constellation:variant/class-fixture",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Illustrative variant classification.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

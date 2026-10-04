@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:trial:nct06555965",
+  "subject": "NCT06555965",
+  "subject_label": "STXBP1 and SYNGAP1 Related Disorders Natural History Study",
+  "predicate": "studies",
+  "object": "MONDO:0012812",
+  "object_label": "developmental and epileptic encephalopathy 4",
+  "evidence_class": "observed",
+  "source": "ClinicalTrials.gov",
+  "source_record": "MONDO:0012812",
+  "source_url": "https://clinicaltrials.gov/study/NCT06555965",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "Natural history study record for STXBP1 and SYNGAP1 related disorders.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}

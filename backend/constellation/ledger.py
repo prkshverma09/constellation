@@ -13,6 +13,7 @@ ALLOWED_NAMESPACES = {
     "HGNC",
     "MONDO",
     "HP",
+    "GO",
     "PMID",
     "NCT",
     "NIH",
@@ -24,17 +25,33 @@ ALLOWED_NAMESPACES = {
     "NCBITaxon",
     "constellation",
 }
+ALLOWED_SOURCES = {
+    "analytics",
+    "clinvar",
+    "ctgov",
+    "go",
+    "monarch",
+    "pubmed",
+    "reactome",
+    "reporter",
+    "seed_list",
+    "string",
+    "user_contribution",
+}
 CURIE_PATTERN = re.compile(r"^(?:[A-Za-z][A-Za-z0-9_-]*):[A-Za-z0-9_.:-]+$")
 INTERNAL_CURIE_PATTERN = re.compile(r"^constellation:[A-Za-z0-9_.:-]+(?:/[A-Za-z0-9_.:-]+)*$")
+REACTOME_CURIE_PATTERN = re.compile(r"^R-HSA-[0-9]+(?:\.[0-9]+)?$")
 
 
 def validate_curie(identifier: str) -> bool:
     if identifier.startswith("constellation:"):
         return bool(INTERNAL_CURIE_PATTERN.fullmatch(identifier))
+    if identifier.startswith("R-HSA-"):
+        return bool(REACTOME_CURIE_PATTERN.fullmatch(identifier))
     if not CURIE_PATTERN.fullmatch(identifier):
         return False
     namespace = identifier.split(":", 1)[0]
-    return namespace in ALLOWED_NAMESPACES or identifier.startswith("R-HSA-")
+    return namespace in ALLOWED_NAMESPACES
 
 
 def edge_id(subject: str, predicate: str, obj: str, source: str, record: str) -> str:
@@ -91,6 +108,8 @@ def reject_edge(edge: dict[str, Any], reason: str) -> None:
 def validate_edge(edge: dict[str, Any], known_ids: set[str]) -> str | None:
     if any(not validate_curie(str(edge.get(field, ""))) for field in ("subject", "object")):
         return "subject/object CURIE namespace is not whitelisted"
+    if edge.get("source") not in ALLOWED_SOURCES:
+        return "source is not whitelisted"
     if edge.get("subject") not in known_ids or edge.get("object") not in known_ids:
         return "subject/object absent from source-validated node IDs"
     if edge.get("evidence_class") not in {

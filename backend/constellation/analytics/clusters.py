@@ -86,14 +86,23 @@ def cluster_records(
             for row in scores
             if row["disease_a"] in members and row["disease_b"] in members and row["supported"]
         ]
-        pathways = sorted({term for row in intra for term in row["shared_pathways"]})
+        pathway_counts: dict[str, int] = {}
+        pathway_order: dict[str, int] = {}
+        for row in intra:
+            for order, term in enumerate(row["shared_pathways"]):
+                pathway_counts[term] = pathway_counts.get(term, 0) + 1
+                pathway_order[term] = min(pathway_order.get(term, order), order)
+        pathways = sorted(
+            pathway_counts,
+            key=lambda term: (-pathway_counts[term], pathway_order[term], term),
+        )
         labels = pathway_labels or {}
         label = (
-            "shared Reactome pathways: "
+            "shared mechanisms: "
             + ", ".join((labels.get(pathway) or pathway) for pathway in pathways[:2])
             if pathways
-            else "shared STRING interaction mechanism"
-            if any(float(row.get("string_score") or 0) >= 0.7 for row in intra)
+            else "STRING channel-supported interactions"
+            if any(float(row.get("string_mech") or 0) >= 0.7 for row in intra)
             else "DEE mechanisms"
         )
         outsiders = [
@@ -104,7 +113,7 @@ def cluster_records(
             counter_id = (
                 counter["disease_b"] if counter["disease_a"] in members else counter["disease_a"]
             )
-            excluding = "M" if counter["M"] == 0 else "V" if counter["V"] == 0 else "S"
+            excluding = "M" if counter["M"] < 0.25 else "V" if counter["V"] == 0 else "S"
         else:
             counter_id, excluding = None, None
         clusters.append(

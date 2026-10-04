@@ -58,6 +58,24 @@ class CachedHTTP:
     def get(self, url: str, *, params: dict[str, Any] | None = None, ncbi: bool = False) -> Any:
         return self.request("GET", url, params=params, ncbi=ncbi)
 
+    def get_bytes(self, url: str, *, local_fallback: Path | None = None) -> bytes:
+        request_key = json.dumps(
+            ["GET", url, {}, {}],
+            sort_keys=True,
+            separators=(",", ":"),
+        )
+        cache_path = self.cache_dir / (hashlib.sha256(request_key.encode()).hexdigest() + ".bin")
+        if cache_path.exists():
+            return cache_path.read_bytes()
+        if local_fallback and local_fallback.exists():
+            content = local_fallback.read_bytes()
+        else:
+            response = self.client.get(url)
+            response.raise_for_status()
+            content = response.content
+        cache_path.write_bytes(content)
+        return content
+
     def post(
         self, url: str, *, json_body: dict[str, Any], params: dict[str, Any] | None = None
     ) -> Any:

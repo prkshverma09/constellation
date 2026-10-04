@@ -49,9 +49,9 @@ foundations:
   - {name: GNAO1 Bow Foundation, url: https://www.bowfoundation.org, genes: [GNAO1]}
   - {name: FamilieSCN2A, url: https://familiescn2a.org, genes: [SCN2A]}
   - {name: SCN8A Alliance, url: https://www.scn8a.net, genes: [SCN8A]}
-  - {name: CURE Epilepsy, url: https://www.cureepilepsy.org, genes: [KCNT1]}
+  - {name: CURE Epilepsy, url: https://www.cureepilepsy.org, genes: [KCNT1], match_kind: umbrella}
   - {name: CURE SYNGAP1, url: https://curesyngap1.org, genes: [SYNGAP1]}
   - {name: CureGRIN, url: https://www.curegrin.org, genes: [GRIN2B]}
   - {name: HNRNPU Foundation, url: https://www.hnrnpu.org, genes: [HNRNPU]}
   - {name: KIF1A.ORG, url: https://kif1a.org, genes: [KIF1A]}
-  - {name: Rare Epilepsy Network, url: https://www.rareepilepsynetwork.org, genes: [STXBP1]}
+  - {name: Rare Epilepsy Network, url: https://www.rareepilepsynetwork.org, genes: [STXBP1], match_kind: umbrella}

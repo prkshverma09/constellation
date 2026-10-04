@@ -1,0 +1,66 @@
+{
+  "_fixture": true,
+  "disease": {
+    "id": "MONDO:0014859",
+    "name": "developmental and epileptic encephalopathy 37",
+    "gene_id": "HGNC:00000008",
+    "gene_symbol": "FRRS1L",
+    "synonyms": [
+      "DEE37"
+    ],
+    "omim": null,
+    "orphacode": null
+  },
+  "counts": {
+    "phenotypes": {
+      "n": 6,
+      "edge_ids": [
+        "edge:hp:frrs1l-0001"
+      ]
+    },
+    "pathogenic_variants": {
+      "n": 4,
+      "edge_ids": [
+        "edge:variant:frrs1l-0001"
+      ]
+    },
+    "trials": {
+      "n": 0,
+      "edge_ids": []
+    },
+    "awards_active": {
+      "n": 0,
+      "edge_ids": []
+    },
+    "papers": {
+      "n": 14,
+      "edge_ids": [
+        "edge:mechanism:frrs1l-0001"
+      ]
+    },
+    "patient_groups": {
+      "n": 0,
+      "edge_ids": []
+    }
+  },
+  "patient_groups": [],
+  "summary": {
+    "technical": [
+      {
+        "text": "The available snapshot contains limited evidence for FRRS1L-related disease.",
+        "edge_ids": [
+          "edge:hp:frrs1l-0001"
+        ]
+      }
+    ],
+    "plain": [
+      {
+        "text": "There is not enough connected evidence in this snapshot to suggest a supported path.",
+        "edge_ids": [
+          "edge:hp:frrs1l-0001"
+        ]
+      }
+    ]
+  },
+  "is_gap": true
+}

@@ -1,0 +1,22 @@
+{
+  "_fixture": true,
+  "edge_id": "edge:partial:stxbp1-dnm1",
+  "subject": "MONDO:0012812",
+  "subject_label": "developmental and epileptic encephalopathy 4",
+  "predicate": "partial_overlap_with",
+  "object": "MONDO:9900001",
+  "object_label": "developmental and epileptic encephalopathy 31",
+  "evidence_class": "curated",
+  "source": "go",
+  "source_record": "MONDO:9900001",
+  "source_url": "https://example.org/evidence",
+  "retrieved_at": "2025-02-14",
+  "confidence": 0.88,
+  "quote": "GO:0016050 vesicle organization is a weak shared term; DNM1 acts at endocytosis, apart from the SNARE exocytosis core.",
+  "polarity": "supports",
+  "contradicted_by": [],
+  "method": "fixture evidence graph",
+  "schema_version": 1,
+  "properties": {},
+  "contradicting": []
+}
