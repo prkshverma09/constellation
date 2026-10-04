@@ -38,7 +38,13 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "http://localhost:3100",
         "http://127.0.0.1:3100",
+        *[
+            origin.strip()
+            for origin in os.getenv("CORS_ORIGINS", "").split(",")
+            if origin.strip()
+        ],
     ],
+    allow_origin_regex=os.getenv("CORS_ORIGIN_REGEX") or None,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

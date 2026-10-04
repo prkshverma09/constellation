@@ -58,6 +58,22 @@ The fixture-backed frontend client remains available with
 `NEXT_PUBLIC_API_BASE=mock pnpm dev` for isolated interface work. `make e2e`
 defaults to the real API, not fixtures.
 
+## Deploy (free tier)
+
+- **API on Render**: the repo ships a `render.yaml` Blueprint — add it as a
+  Blueprint instance and it creates a `constellation-api` web service that
+  installs dependencies with `uv` and runs uvicorn in `LLM_MODE=offline` (no
+  OpenAI key needed). The free plan sleeps after ~15 minutes idle, so the
+  first request after idle can take ~30 seconds while it cold-starts.
+- **Web on Vercel**: import the repo, set **Root Directory** to `apps/web`,
+  and add `NEXT_PUBLIC_API_BASE=https://<your-service>.onrender.com` before
+  deploying.
+- **CORS**: the API accepts extra origins via `CORS_ORIGINS` (comma-separated
+  exact origins) and `CORS_ORIGIN_REGEX` (a regex). `render.yaml` sets
+  `CORS_ORIGIN_REGEX` to `^https://constellation[a-z0-9-]*\.vercel\.app$`,
+  covering the production URL and preview deployments; adjust the prefix if
+  your Vercel project name differs.
+
 ## Architecture
 
 - **Ingestion and normalization** (`backend/constellation/ingest/`) fetch and
