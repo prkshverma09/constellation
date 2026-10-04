@@ -1,0 +1,16 @@
+{
+  "pmid": "34474328",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "genetic-cellular epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GCE (with pathogenic variants KCNQ2, KCNQ3, SCN2A, TBC1D24, CHD2, and STXBP) was diagnosed in 9 (6%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

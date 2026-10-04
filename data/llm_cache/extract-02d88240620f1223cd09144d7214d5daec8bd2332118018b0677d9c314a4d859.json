@@ -1,0 +1,46 @@
+{
+  "pmid": "41388523",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "identified as a hub gene across multiple algorithms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six hub genes, SYP, SYN1, RAB3A, SLC17A7, SYN2, and STXBP1, were consistently identified across all algorithms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "significantly downregulated in glioma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All six genes were significantly downregulated in glioma, as confirmed by GEO datasets (area under the curve [AUC]: 0.787-0.802) and clinical qRT-PCR validation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "low expression associated with activation of the cell cycle, complement and coagulation cascades, and immune dysregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GSEA revealed that low expression of these genes was associated with activation of the cell cycle, complement and coagulation cascades, and immune dysregulation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "enriched in tumor-propagating cell (TPC)-like tumor cells and reduced in glioma core regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Single-cell analyses indicated that these hub genes were primarily enriched in tumor-propagating cell (TPC)-like tumor cells but were markedly reduced in glioma core regions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

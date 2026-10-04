@@ -1,0 +1,234 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "Mechanism cluster label: Neurotransmitter release cycle (Reactome R-HSA-112310; membership stability S=1.00).",
+          "edge_ids": [
+            "8b8a74101835d1d2",
+            "9ade5a695a352157"
+          ]
+        },
+        {
+          "text": "Shares mechanism with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9; S=0.92) and has STRING-supported links STX1B–STXBP1 and SNAP25–STXBP1.",
+          "edge_ids": [
+            "ab5fe5ff268d13ba",
+            "8a5b259c2af7cfea",
+            "27de234d6ca90e53"
+          ]
+        },
+        {
+          "text": "Shares mechanism with VAMP2-related disease (neurodevelopmental disorder with hypotonia and autistic features with or without hyperkinetic movements; S=0.85) via Acetylcholine and Serotonin Neurotransmitter Release Cycles (R-HSA-264642; R-HSA-181429).",
+          "edge_ids": [
+            "ca33d6f8f475990e",
+            "cdc0a9af79e4b2f6",
+            "78d613b03a5d2f16",
+            "d8497858c88a7d26",
+            "e6d5b0914532b438"
+          ]
+        },
+        {
+          "text": "Shares mechanism with SNAP25-related disease (congenital myasthenic syndrome 18; S=0.75) via Acetylcholine and Serotonin Neurotransmitter Release Cycles (R-HSA-264642; R-HSA-181429).",
+          "edge_ids": [
+            "fcb938d1b0386f7c",
+            "cdc0a9af79e4b2f6",
+            "78d613b03a5d2f16",
+            "c8fcfc6ef79c0a33",
+            "9c42c5bf01870c1c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) serves STXBP1-related disease (developmental and epileptic encephalopathy, 4).",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) serves STXBP1-related disease (developmental and epileptic encephalopathy, 4).",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) maps to DNM1-related disease (developmental and epileptic encephalopathy, 31B) phenotypes covering 12% (6/39; IC 20.63/167.43).",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b"
+          ]
+        },
+        {
+          "text": "Asociación Síndrome STXBP1 (Spain), European STXBP1 Consortium (ESCO), and Raging Raymond Foundation are active supporters within this disease space.",
+          "edge_ids": [
+            "453d4be996145f4e",
+            "ba44da54694ec39f",
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "Counterexample: GNAO1-related disease (neurodevelopmental disorder with involuntary movements) shows high phenotypic proximity but no mechanism support (P=0.98, M=0.00) and is excluded.",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        },
+        {
+          "text": "Overlap with CACNA1A-related disease (migraine, familial hemiplegic, 1) occurs via Regulation of insulin secretion (Reactome R-HSA-422356; M=0.11, S=0.40).",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "3a40a3f53a18b664",
+            "187be2699f417de6"
+          ]
+        },
+        {
+          "text": "Overlap with SLC2A1-related disease (hereditary cryohydrocytosis with reduced stomatin) occurs via Regulation of insulin secretion (Reactome R-HSA-422356; M=0.08, S=0.49).",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "3a40a3f53a18b664",
+            "5490966f0991bdf8"
+          ]
+        },
+        {
+          "text": "Overlap with GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant) occurs via Neurexins and neuroligins (Reactome R-HSA-6794361; M=0.06, S=0.45).",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "Comparator linkage: DNM1-related disease (developmental and epileptic encephalopathy, 31B) overlaps via vesicle organization (GO:0035493 for STXBP1; GO:0007032 for DNM1; M=0.03, S=0.51).",
+          "edge_ids": [
+            "6df8a36e97901f12",
+            "34c673fba26b1793",
+            "f1a54e7fce5ac22f"
+          ]
+        },
+        {
+          "text": "Variant-effect contrast (V=0) with CACNA1A: STXBP1 predominantly loss_of_function, while CACNA1A reports gain_of_function variants.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040",
+            "34c9bc447921f8cb"
+          ]
+        },
+        {
+          "text": "Variant-effect contrast (V=0) with GRIN1: STXBP1 predominantly loss_of_function, while GRIN1 reports gain_of_function variants increasing NMDA receptor-mediated charge transfer.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730",
+            "9b5a310872598764"
+          ]
+        },
+        {
+          "text": "Contradictory clinical correlations within STXBP1 evidence are indexed: no correlation between seizure severity and ID severity; no correlation between mutation type and seizure/cognitive outcomes; recurrent variants not tied to distinct electroclinical syndromes.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2",
+            "e362983ef11a54b1",
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Ingo Helbig is a verified bridge to the comparator DNM1-related disease (developmental and epileptic encephalopathy, 31B) through authorship and program roles relevant to STXBP1 and DNM1.",
+          "edge_ids": [
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd",
+            "76a3a3ea2627afdc",
+            "bcddee950f0e1d11",
+            "748b09f0bdfbb400",
+            "0bead7fade435d02"
+          ]
+        },
+        {
+          "text": "Sarah McKeown Ruggiero and Katherine L Helbig are additional bridges to the comparator via DNM1/STXBP1 publications with overlapping co-authorship and affiliations.",
+          "edge_ids": [
+            "3e4ae99a27cf8209",
+            "54fc3ff5f2a9b51f",
+            "702d0b63ccf87eb4",
+            "270b287e0a68cd44",
+            "4a0508e26e9d06db",
+            "6f44f9b5593572e3"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) eligibility for DNM1-related disease (developmental and epileptic encephalopathy, 31B) and verify Ingo Helbig as a contact.",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416",
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b",
+            "049ef546da3cdfdc",
+            "6df8a36e97901f12",
+            "0bead7fade435d02",
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Comparator phenotype coverage by STXBP1 and SYNGAP1 Related Disorders Natural History Study is partial at 12% (6 of 39; IC 20.63/167.43) for DNM1-related disease (developmental and epileptic encephalopathy, 31B).",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 2,
+  "markdown": "## Who shares our characteristics\nMechanism cluster label: Neurotransmitter release cycle (Reactome R-HSA-112310; membership stability S=1.00). [8b8a74101835d1d2, 9ade5a695a352157]\nShares mechanism with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9; S=0.92) and has STRING-supported links STX1B–STXBP1 and SNAP25–STXBP1. [ab5fe5ff268d13ba, 8a5b259c2af7cfea, 27de234d6ca90e53]\nShares mechanism with VAMP2-related disease (neurodevelopmental disorder with hypotonia and autistic features with or without hyperkinetic movements; S=0.85) via Acetylcholine and Serotonin Neurotransmitter Release Cycles (R-HSA-264642; R-HSA-181429). [ca33d6f8f475990e, cdc0a9af79e4b2f6, 78d613b03a5d2f16, d8497858c88a7d26, e6d5b0914532b438]\nShares mechanism with SNAP25-related disease (congenital myasthenic syndrome 18; S=0.75) via Acetylcholine and Serotonin Neurotransmitter Release Cycles (R-HSA-264642; R-HSA-181429). [fcb938d1b0386f7c, cdc0a9af79e4b2f6, 78d613b03a5d2f16, c8fcfc6ef79c0a33, 9c42c5bf01870c1c]\n\n## What already exists\nNatural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) serves STXBP1-related disease (developmental and epileptic encephalopathy, 4). [bc71e274e1c691ec]\nSTXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) serves STXBP1-related disease (developmental and epileptic encephalopathy, 4). [dcec503694916ae3]\nSTXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) maps to DNM1-related disease (developmental and epileptic encephalopathy, 31B) phenotypes covering 12% (6/39; IC 20.63/167.43). [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b]\nAsociación Síndrome STXBP1 (Spain), European STXBP1 Consortium (ESCO), and Raging Raymond Foundation are active supporters within this disease space. [453d4be996145f4e, ba44da54694ec39f, 202ca5201eca2102]\n\n## What differs and must be verified\nCounterexample: GNAO1-related disease (neurodevelopmental disorder with involuntary movements) shows high phenotypic proximity but no mechanism support (P=0.98, M=0.00) and is excluded. [f94ad5494a3e9ab8]\nOverlap with CACNA1A-related disease (migraine, familial hemiplegic, 1) occurs via Regulation of insulin secretion (Reactome R-HSA-422356; M=0.11, S=0.40). [34c9bc447921f8cb, 3a40a3f53a18b664, 187be2699f417de6]\nOverlap with SLC2A1-related disease (hereditary cryohydrocytosis with reduced stomatin) occurs via Regulation of insulin secretion (Reactome R-HSA-422356; M=0.08, S=0.49). [20c30f77dc2491fb, 3a40a3f53a18b664, 5490966f0991bdf8]\nOverlap with GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant) occurs via Neurexins and neuroligins (Reactome R-HSA-6794361; M=0.06, S=0.45). [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nComparator linkage: DNM1-related disease (developmental and epileptic encephalopathy, 31B) overlaps via vesicle organization (GO:0035493 for STXBP1; GO:0007032 for DNM1; M=0.03, S=0.51). [6df8a36e97901f12, 34c673fba26b1793, f1a54e7fce5ac22f]\nVariant-effect contrast (V=0) with CACNA1A: STXBP1 predominantly loss_of_function, while CACNA1A reports gain_of_function variants. [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040, 34c9bc447921f8cb]\nVariant-effect contrast (V=0) with GRIN1: STXBP1 predominantly loss_of_function, while GRIN1 reports gain_of_function variants increasing NMDA receptor-mediated charge transfer. [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730, 9b5a310872598764]\nContradictory clinical correlations within STXBP1 evidence are indexed: no correlation between seizure severity and ID severity; no correlation between mutation type and seizure/cognitive outcomes; recurrent variants not tied to distinct electroclinical syndromes. [b1f9e5eeafbc81d2, e362983ef11a54b1, ddc8cd6784a496fb]\n\n## Who to contact\nIngo Helbig is a verified bridge to the comparator DNM1-related disease (developmental and epileptic encephalopathy, 31B) through authorship and program roles relevant to STXBP1 and DNM1. [1787b8db0c61e674, 18e9e45f700b90dd, 76a3a3ea2627afdc, bcddee950f0e1d11, 748b09f0bdfbb400, 0bead7fade435d02]\nSarah McKeown Ruggiero and Katherine L Helbig are additional bridges to the comparator via DNM1/STXBP1 publications with overlapping co-authorship and affiliations. [3e4ae99a27cf8209, 54fc3ff5f2a9b51f, 702d0b63ccf87eb4, 270b287e0a68cd44, 4a0508e26e9d06db, 6f44f9b5593572e3]\n\n## Proposed first joint step\nReview STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) eligibility for DNM1-related disease (developmental and epileptic encephalopathy, 31B) and verify Ingo Helbig as a contact. [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416, dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b, 049ef546da3cdfdc, 6df8a36e97901f12, 0bead7fade435d02, 1787b8db0c61e674, 18e9e45f700b90dd]\n\n## Search coverage\nComparator phenotype coverage by STXBP1 and SYNGAP1 Related Disorders Natural History Study is partial at 12% (6 of 39; IC 20.63/167.43) for DNM1-related disease (developmental and epileptic encephalopathy, 31B). [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b]",
+  "usage": {
+    "input_tokens": 134717,
+    "output_tokens": 8140
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "priya",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "4735c3d7-a43a-4007-b508-c8560d93fd12",
+  "generated_at": "2026-10-04T11:33:33.350481+00:00",
+  "gap_plan": null,
+  "fallback_sections": [
+    "next_step"
+  ],
+  "model": "gpt-5",
+  "elapsed_ms": 116864,
+  "comparator_id": "MONDO:0957248"
+}

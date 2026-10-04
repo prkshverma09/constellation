@@ -1,0 +1,26 @@
+{
+  "pmid": "29741207",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal-dominant GLUT1 deficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of SLC2A1 leading to autosomal-dominant GLUT1 deficiency account for up to 1% of cases,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures starting before age 4 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of SLC2A1 leading to autosomal-dominant GLUT1 deficiency account for up to 1% of cases, increasing to 10% of those with absence seizures starting before age 4 years.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

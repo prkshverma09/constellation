@@ -1,0 +1,26 @@
+{
+  "pmid": "39711511",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "synaptic protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptic proteins (e.g., GABRB3, GABRB2, GLUA3, GLUA4, SNAP47, dynamin1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "preserved cognitive states",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key mitochondrial oxidative phosphorylation proteins (e.g., COX7A2, TOMM40L, NDUFV1), and synaptic proteins (e.g., GABRB3, GABRB2, GLUA3, GLUA4, SNAP47, dynamin1) were more abundant in preserved cognitive states.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

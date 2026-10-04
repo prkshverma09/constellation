@@ -1,0 +1,16 @@
+{
+  "pmid": "25356899",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also identified 12 possibly pathogenic DNMs in genes (HNRNPU, WAC, RYR2, SET, EGR1, MYH10, EIF2C1, COL4A3BP, CHMP2A, PPP1CB, VPS4A, PPP2R2B) that have not previously been causally linked to ID.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

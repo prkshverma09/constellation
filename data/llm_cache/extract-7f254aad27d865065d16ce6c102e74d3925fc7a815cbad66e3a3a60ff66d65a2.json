@@ -1,0 +1,16 @@
+{
+  "pmid": "36154780",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "XEN 496 (Phase III development for KCNQ2-DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "XEN 496 is under Phase III development for potassium voltage-gated channel subfamily Q member 2 developmental and epileptic encephalopathy (KCNQ2-DEE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

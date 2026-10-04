@@ -1,0 +1,126 @@
+{
+  "pmid": "40501831",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "NaV1.2 channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the NaV1.2 channel",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the voltage-gated sodium channel gene SCN2A, which encodes the NaV1.2 channel, cause severe epileptic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with SCN2A loss-of-function (LoF) mutations, such as protein-truncating mutations, often experience later-onset and drug-resistant epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "later-onset and drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with SCN2A loss-of-function (LoF) mutations, such as protein-truncating mutations, often experience later-onset and drug-resistant epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "gene-trap Scn2a (Scn2a gt/gt ) mouse model with a global NaV1.2 reduction in the C57BL/6N (B6) strain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We previously developed a gene-trap Scn2a (Scn2a gt/gt ) mouse model with a global NaV1.2 reduction in the widely used C57BL/6N (B6) strain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "multiple behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these mice display multiple behavioral abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "mild epileptiform discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG recordings indicated only mild epileptiform discharges",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "prominent spontaneous absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these mice exhibit prominent spontaneous absence seizures, marked by both short and long spike-wave discharges (SWDs).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "SCN2A gene replacement therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Restoring NaV1.2 expression in adult mice substantially reduced their SWDs,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "broad downregulation of voltage-gated potassium channel (KV) genes, including KV1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RNA sequencing revealed significant alterations in gene expression in the Scn2a gt/gt mice, in particular a broad downregulation of voltage-gated potassium channel (KV) genes, including KV1.1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "reduction of KV1.1 expression in human cerebral organoids with SCN2A deficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The reduction of KV1.1 expression was further validated in human cerebral organoids with SCN2A deficiency,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "AAV-mediated exogenous human KV1.1 expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delivery of exogenous human KV1.1 expression via adeno-associated virus (AAV) in D2J Scn2a gt/gt mice substantially reduced absence seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41818656",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "specific clinical and EEG features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HCA identified genotype-phenotype groupings, including clusters involving SCN1A, PRRT2, STXBP1, KCNQ2, SCN2A, CHD2, SYNGAP1, and MECP2, each linked to specific clinical and EEG features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

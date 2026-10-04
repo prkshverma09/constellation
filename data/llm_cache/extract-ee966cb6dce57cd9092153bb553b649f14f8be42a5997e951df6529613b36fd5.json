@@ -1,0 +1,56 @@
+{
+  "pmid": "26216793",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "major cause of familial focal epilepsy with variable foci (FFEVF) and are predicted to account for 12-37% of families with inherited focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the DEPDC5 (DEP domain-containing protein 5) gene are a major cause of familial focal epilepsy with variable foci (FFEVF) and are predicted to account for 12-37% of families with inherited focal epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "DEPDC5 nonsense mutation (c.918C>G; p.Tyr306*) identified in a family clinically classified as FMTLE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified a DEPDC5 nonsense mutation (c.918C>G; p.Tyr306*) in a family with two affected members, clinically classified as FMTLE.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "temporal lobe seizures with prominent psychic symptoms (déjà vu, derealization, and forced thoughts)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The proband had temporal lobe seizures with prominent psychic symptoms (déjà vu, derealization, and forced thoughts);",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "temporal lobe seizures mainly featuring visceral epigastric auras and anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "her mother had temporal lobe seizures, mainly featuring visceral epigastric auras and anxiety.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "a single DEPDC5 mutation in 1 of 45 families (2.2%) with genetic temporal lobe epilepsy, a proportion much lower than that reported in other inherited focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In total, we found a single DEPDC5 mutation in one of (2.2%) 45 families with genetic temporal lobe epilepsy, a proportion much lower than that reported in other inherited focal epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

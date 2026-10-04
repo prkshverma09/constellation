@@ -1,0 +1,36 @@
+{
+  "pmid": "33063868",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gene sequencing revealed that they carried two novel compound heterozygous missense variants of the TBC1D24: c.116 C > T (p.Ala39Val) and c.827 T > C (p.Ile276Thr) in patient 1; c.404 C > T (p.Pro135Leu) and c.679 T > C (p.Arg227Trp) in patient 2.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They result in a rare phenotype, characterized by drug-resistant epilepsy and deafness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "bilateral sensorineural hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Audiologic examination showed bilateral sensorineural hearing loss in both patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

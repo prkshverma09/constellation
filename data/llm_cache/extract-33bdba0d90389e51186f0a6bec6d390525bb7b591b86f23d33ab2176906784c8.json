@@ -1,0 +1,16 @@
+{
+  "pmid": "41144451",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "rat middle cerebral artery occlusion (MCAO) model: GRIA3 protein expression significantly downregulated in model vs sham",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression levels of key proteins -- CaMKII, calmodulin, CX36, PKC, CX43, GRIA3, GABRA6, and NPY1R were significantly downregulated in the model group, while the expression of CaN was significantly upregulated (P < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

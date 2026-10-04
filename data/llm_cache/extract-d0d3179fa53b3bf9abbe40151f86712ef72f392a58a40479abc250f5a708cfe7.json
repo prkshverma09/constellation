@@ -1,0 +1,86 @@
+{
+  "pmid": "34906499",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "milder epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "milder epilepsy syndromes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Generalized epilepsy, with a median age at onset of 12 months, and mild-to-moderate ID were associated with variants in the extracellular domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "mild-to-moderate ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Generalized epilepsy, with a median age at onset of 12 months, and mild-to-moderate ID were associated with variants in the extracellular domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal epilepsy with earlier onset (median: age 4 months) and severe ID were associated with variants in both the pore-lining helical transmembrane domain and the extracellular domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "severe ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal epilepsy with earlier onset (median: age 4 months) and severe ID were associated with variants in both the pore-lining helical transmembrane domain and the extracellular domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

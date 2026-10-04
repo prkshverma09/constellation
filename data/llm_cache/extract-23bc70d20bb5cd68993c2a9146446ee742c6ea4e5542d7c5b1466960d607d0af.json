@@ -1,0 +1,16 @@
+{
+  "pmid": "39801227",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decreased levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also found decreased levels of GABRA1, BDNF, PSD-95, and c-Fos in total homogenates and in synaptosomal preparations of knockdown TCF20 rat cortical cultures.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

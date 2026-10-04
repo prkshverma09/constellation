@@ -1,0 +1,96 @@
+{
+  "pmid": "40139278",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Existing literature has identified the WWOX/MAF genes as potential risk factors for AD",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "verbal fluency performance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The WWOX gene was found to influence verbal fluency performance across the entire cohort.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "attention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PD significantly moderated the effect of genetic variants on attention (p = 0.000040), non-verbal memory (p = 0.000007), and visuospatial function (p = 0.000303), suggesting a distinct impact within this group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "non-verbal memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PD significantly moderated the effect of genetic variants on attention (p = 0.000040), non-verbal memory (p = 0.000007), and visuospatial function (p = 0.000303), suggesting a distinct impact within this group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "visuospatial function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PD significantly moderated the effect of genetic variants on attention (p = 0.000040), non-verbal memory (p = 0.000007), and visuospatial function (p = 0.000303), suggesting a distinct impact within this group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "verbal memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further analysis indicated that cognitive status moderated the effect of genetic variants on verbal memory across the entire cohort (p < 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "verbal fluency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among individuals with PD, genetic variants also influenced verbal fluency (p = 0.000113) and verbal memory (p = 0.000440 and p = 0.000032).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "verbal memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among individuals with PD, genetic variants also influenced verbal fluency (p = 0.000113) and verbal memory (p = 0.000440 and p = 0.000032).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairments associated with PD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings underscore the critical role of WWOX/MAF genes in cognitive impairments associated with PD, enhancing our understanding of their connection to AD and providing deeper insights into neurodegenerative disease progression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

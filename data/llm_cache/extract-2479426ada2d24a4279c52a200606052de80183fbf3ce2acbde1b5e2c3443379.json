@@ -1,0 +1,16 @@
+{
+  "pmid": "31394400",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants in KCNB1 (n = 2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

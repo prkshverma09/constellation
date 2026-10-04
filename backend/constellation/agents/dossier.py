@@ -1,7 +1,12 @@
 from __future__ import annotations
 
+import asyncio
 import hashlib
 import json
+import logging
+import os
+import re
+import time
 import uuid
 from datetime import UTC, datetime
 from pathlib import Path
@@ -15,7 +20,7 @@ from constellation.analytics.gaps import (
     is_gap,
     what_would_change,
 )
-from constellation.config import CACHE
+from constellation.config import CACHE, agent_model
 from constellation.graph.store import Snapshot
 
 SECTION_TITLES = {
@@ -26,11 +31,270 @@ SECTION_TITLES = {
     "next_step": "Proposed first joint step",
     "coverage": "Search coverage",
 }
+WRITER_VERSION = "writer-v2"
+NUMBER_TOKEN = re.compile(r"\d+(?:\.\d+)?%?")
+IDENTIFIER = re.compile(
+    r"\b(?:GO|HP|MONDO|HGNC):[A-Za-z0-9_.:-]+\b"
+    r"|\bR-HSA-\d+\b|\bNCT\d+\b|\bPMID\s*:?\s*\d+\b",
+    re.IGNORECASE,
+)
+NCT_IDENTIFIER = re.compile(r"\bNCT\d+\b")
+PERSON_NAME = re.compile(
+    r"^(?:Verify\s+)?(?:identity\s+for\s+)?"
+    r"([A-Z][\w’'.-]*(?:\s+(?:[A-Z]\.?|[A-Z][\w’'.-]*)){1,3})\b"
+)
+logger = logging.getLogger(__name__)
 
 
 def dossier_cache_path(disease: str, persona: str, snapshot_hash: str, mode: str) -> Path:
     key = json.dumps([disease, persona, snapshot_hash, mode], separators=(",", ":"))
     return CACHE / f"{hashlib.sha256(key.encode()).hexdigest()}.json"
+
+
+def live_dossier_cache_path(
+    disease: str,
+    persona: str,
+    comparator_id: str | None,
+    snapshot_hash: str,
+    model: str | None = None,
+) -> Path:
+    key = json.dumps(
+        [
+            disease,
+            persona,
+            comparator_id,
+            snapshot_hash,
+            model or agent_model(),
+            WRITER_VERSION,
+        ],
+        separators=(",", ":"),
+    )
+    return CACHE / f"dossier-live-{hashlib.sha256(key.encode()).hexdigest()}.json"
+
+
+def _pair_evidence_ids(snapshot: Snapshot, edge: dict[str, Any]) -> list[str]:
+    ids = [edge["edge_id"]]
+    disease_ids = [edge["subject"], edge["object"]]
+    genes = [
+        snapshot.node_by_id.get(disease_id, {}).get("properties", {}).get("gene_id")
+        for disease_id in disease_ids
+    ]
+    pathways = set(edge.get("properties", {}).get("shared_pathways", []))
+    for disease_id in disease_ids:
+        ids.extend(
+            [
+                row["edge_id"]
+                for row in snapshot.edges_by_subject.get(disease_id, [])
+                if row["predicate"] == "has_phenotype"
+            ][:5]
+        )
+    for gene_id in genes:
+        ids.extend(
+            [
+                row["edge_id"]
+                for row in snapshot.edges_by_subject.get(gene_id or "", [])
+                if row["predicate"] in {"participates_in", "annotated_to"}
+                and (
+                    not pathways
+                    or row["object"] in pathways
+                    or row.get("source") == "string"
+                )
+            ][:5]
+        )
+        ids.extend(
+            [
+                row["edge_id"]
+                for row in snapshot.edges_by_subject.get(gene_id or "", [])
+                if row["predicate"] == "has_variant_class"
+            ][:2]
+        )
+    return ids
+
+
+def _live_evidence_pack(
+    snapshot: Snapshot,
+    disease_id: str,
+    draft: dict[str, Any],
+    comparator_id: str | None,
+) -> list[dict[str, Any]]:
+    edge_ids: list[str] = []
+    for section in draft.get("sections", []):
+        for sentence in section.get("sentences", []):
+            edge_ids.extend(sentence.get("edge_ids", []))
+
+    cluster = snapshot.cluster_for(disease_id)
+    member_ids = set(cluster.get("member_ids", [])) if cluster else {disease_id}
+    pair_targets = set(member_ids - {disease_id})
+    pair_targets.update(
+        row["disease_id"] for row in _partial_overlap_rows(snapshot, disease_id)
+    )
+    if cluster:
+        counterexample_id = cluster.get("counterexample_id")
+        if counterexample_id:
+            pair_targets.add(counterexample_id)
+    for target in sorted(pair_targets):
+        edge_ids.extend(
+            edge_id
+            for edge in _pair_edges(snapshot, disease_id, target)
+            for edge_id in _pair_evidence_ids(snapshot, edge)
+        )
+
+    relevant_diseases = {disease_id}
+    if comparator_id and comparator_id in snapshot.node_by_id:
+        relevant_diseases.add(comparator_id)
+        edge_ids.extend(_coverage_edge_ids(snapshot, comparator_id))
+        for edge in _pair_edges(snapshot, disease_id, comparator_id):
+            edge_ids.extend(_pair_evidence_ids(snapshot, edge))
+        for bridge in find_bridges(snapshot, disease_id, comparator_id)[:5]:
+            edge_ids.extend(
+                proof.get("edge_id", "")
+                for proof in bridge.get("proving_edges", [])
+            )
+    edge_ids.extend(_coverage_edge_ids(snapshot, disease_id))
+    for item in (draft.get("gap_plan") or {}).get("what_would_change", []):
+        edge_ids.extend(item.get("edge_ids", []))
+
+    assets = {
+        asset["id"]: asset
+        for target_id in relevant_diseases
+        for asset in disease_assets(snapshot, target_id)
+    }
+    for asset in assets.values():
+        for edge in snapshot.edges_by_subject.get(asset["id"], []):
+            if edge["predicate"] in {"serves", "measures_phenotype"}:
+                edge_ids.append(edge["edge_id"])
+            if edge["predicate"] == "serves":
+                edge_ids.extend(
+                    phenotype["edge_id"]
+                    for phenotype in snapshot.edges_by_subject.get(edge["object"], [])
+                    if phenotype["predicate"] == "has_phenotype"
+                )
+        for target_id in relevant_diseases:
+            coverage = asset_coverage(asset, target_id, snapshot)
+            edge_ids.extend(_coverage_edge_ids(snapshot, target_id))
+            if coverage:
+                covered_terms = {
+                    item["id"]
+                    for item in [*coverage["matched"], *coverage["unmatched"]]
+                }
+                edge_ids.extend(
+                    edge["edge_id"]
+                    for edge in snapshot.edges_by_subject.get(target_id, [])
+                    if edge["predicate"] == "has_phenotype"
+                    and edge["object"] in covered_terms
+                )
+
+    rows = []
+    seen: set[str] = set()
+    for edge_id in edge_ids:
+        edge = snapshot.edge_by_id.get(edge_id)
+        if not edge or edge_id in seen:
+            continue
+        seen.add(edge_id)
+        rows.append(
+            {
+                "edge_id": edge_id,
+                "subject_label": edge.get("subject_label", ""),
+                "predicate": edge.get("predicate", ""),
+                "object_label": edge.get("object_label", ""),
+                "evidence_class": edge.get("evidence_class", ""),
+                "source": edge.get("source", ""),
+                "source_record": edge.get("source_record", ""),
+                "confidence": edge.get("confidence"),
+                "quote": str(edge.get("quote") or "")[:200],
+            }
+        )
+        if len(rows) >= 400:
+            break
+    return rows
+
+
+def _number_tokens(value: str) -> set[str]:
+    return set(NUMBER_TOKEN.findall(IDENTIFIER.sub("", value)))
+
+
+def _slice_gene_symbols(snapshot: Snapshot) -> set[str]:
+    return {
+        str(symbol)
+        for node in snapshot.nodes
+        if node.get("type") == "disease"
+        and (symbol := node.get("properties", {}).get("gene_symbol"))
+    }
+
+
+def _mentioned_gene_symbols(text: str, symbols: set[str]) -> set[str]:
+    return {
+        symbol
+        for symbol in symbols
+        if re.search(rf"\b{re.escape(symbol)}\b", text)
+    }
+
+
+def _cited_gene_symbols(
+    snapshot: Snapshot,
+    edge_ids: list[str],
+    slice_symbols: set[str],
+) -> set[str]:
+    supported = set()
+    for edge_id in edge_ids:
+        edge = snapshot.edge_by_id[edge_id]
+        for key in ("subject_label", "object_label"):
+            supported.update(
+                _mentioned_gene_symbols(str(edge.get(key) or ""), slice_symbols)
+            )
+        for node_id in (edge.get("subject"), edge.get("object")):
+            node = snapshot.node_by_id.get(node_id, {})
+            properties = node.get("properties", {})
+            symbol = properties.get("gene_symbol")
+            if symbol in slice_symbols:
+                supported.add(symbol)
+            gene_node = snapshot.node_by_id.get(properties.get("gene_id"), {})
+            gene_symbol = gene_node.get("properties", {}).get("gene_symbol")
+            if gene_symbol in slice_symbols:
+                supported.add(gene_symbol)
+    return supported
+
+
+def _draft_next_step_anchors(
+    draft_sections: dict[str, dict[str, Any]],
+) -> set[str]:
+    next_step = draft_sections.get("next_step", {})
+    next_text = " ".join(
+        sentence.get("text", "") for sentence in next_step.get("sentences", [])
+    )
+    anchors = set(NCT_IDENTIFIER.findall(next_text))
+    for sentence in draft_sections.get("who_to_contact", {}).get("sentences", []):
+        match = PERSON_NAME.match(sentence.get("text", ""))
+        if match and match.group(1).casefold() in next_text.casefold():
+            anchors.add(match.group(1))
+    return anchors
+
+
+def _mentions_draft_anchor(text: str, anchors: set[str]) -> bool:
+    folded = text.casefold()
+    return any(anchor.casefold() in folded for anchor in anchors)
+
+
+def _mentions_comparator(text: str, comparator_terms: set[str]) -> bool:
+    for term in comparator_terms:
+        if term and re.search(rf"\b{re.escape(term)}\b", text, re.IGNORECASE):
+            return True
+    return False
+
+
+def _offline_section_map(draft: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    return {section["key"]: section for section in draft.get("sections", [])}
+
+
+def _markdown(sections: list[dict[str, Any]]) -> str:
+    return "\n\n".join(
+        f"## {section['title']}\n"
+        + "\n".join(
+            f"{sentence['text']} [{', '.join(sentence['edge_ids'])}]"
+            for sentence in section["sentences"]
+        )
+        for section in sections
+    )
 
 
 def _coverage_edge_ids(
@@ -419,7 +683,15 @@ def build_dossier(
         )
 
     coverage_candidates = []
-    top_neighbor = cluster_rows[0] if cluster_rows else None
+    comparator_neighbor = next(
+        (
+            row
+            for row in [*cluster_rows, *partial_rows]
+            if row["disease_id"] == comparator_id
+        ),
+        None,
+    )
+    top_neighbor = comparator_neighbor or (cluster_rows[0] if cluster_rows else None)
     top_neighbor_label = (
         top_neighbor["label"] if top_neighbor else "the leading neighbour"
     )
@@ -694,24 +966,27 @@ def build_dossier(
         return rows
 
     cluster_bridge_rows = verified_bridges(top_neighbor)
-    top_partial = partial_rows[0] if partial_rows else None
+    top_partial = selected_partial or (partial_rows[0] if partial_rows else None)
     partial_bridge_rows = verified_bridges(top_partial)
-    contact_rows = cluster_bridge_rows[: 2 if partial_bridge_rows else 3]
-    seen_bridge_ids = {row[0]["id"] for row in contact_rows}
-    if partial_bridge_rows:
-        top_partial_bridge = next(
-            (row for row in partial_bridge_rows if row[0]["id"] not in seen_bridge_ids),
-            None,
-        )
-        if top_partial_bridge:
-            contact_rows.append(top_partial_bridge)
-            seen_bridge_ids.add(top_partial_bridge[0]["id"])
-    for row in [*cluster_bridge_rows[2:], *partial_bridge_rows]:
-        if len(contact_rows) >= 3:
-            break
-        if row[0]["id"] not in seen_bridge_ids:
-            contact_rows.append(row)
-            seen_bridge_ids.add(row[0]["id"])
+    if comparator_neighbor:
+        contact_rows = cluster_bridge_rows[:3]
+    else:
+        contact_rows = cluster_bridge_rows[: 2 if partial_bridge_rows else 3]
+        seen_bridge_ids = {row[0]["id"] for row in contact_rows}
+        if partial_bridge_rows:
+            top_partial_bridge = next(
+                (row for row in partial_bridge_rows if row[0]["id"] not in seen_bridge_ids),
+                None,
+            )
+            if top_partial_bridge:
+                contact_rows.append(top_partial_bridge)
+                seen_bridge_ids.add(top_partial_bridge[0]["id"])
+        for row in [*cluster_bridge_rows[2:], *partial_bridge_rows]:
+            if len(contact_rows) >= 3:
+                break
+            if row[0]["id"] not in seen_bridge_ids:
+                contact_rows.append(row)
+                seen_bridge_ids.add(row[0]["id"])
     contact_sentences = []
     for bridge, proof_ids, comparator_label, comparator_gene in contact_rows[:3]:
         if persona in {"maria", "devon"}:
@@ -759,7 +1034,27 @@ def build_dossier(
     if best_coverage and contact_rows:
         asset, coverage, _ = best_coverage
         bridge = contact_rows[0][0]
-        if persona == "devon":
+        if comparator_neighbor:
+            record_id = asset.get("properties", {}).get("record_id")
+            asset_name = (
+                f"{asset['label']} ({record_id})" if record_id else asset["label"]
+            )
+            if persona == "devon":
+                step_text = (
+                    f"Review {asset_name} eligibility for {top_neighbor_label} "
+                    f"and contact {bridge['display_name']}."
+                )
+            elif persona == "osei":
+                step_text = (
+                    f"Verify {asset_name} eligibility for {top_neighbor_label} and "
+                    f"confirm {bridge['display_name']} using {bridge['why_same_person']}."
+                )
+            else:
+                step_text = (
+                    f"Review {asset_name} eligibility for {top_neighbor_label} and "
+                    f"verify {bridge['display_name']} as a contact."
+                )
+        elif persona == "devon":
             step_text = f"Review {asset['label']} and contact {bridge['display_name']}."
         elif persona == "osei":
             step_text = (
@@ -775,11 +1070,21 @@ def build_dossier(
             )
     elif best_coverage:
         asset, coverage, _ = best_coverage
-        step_text = (
-            f"Review {asset['label']} coverage of {top_neighbor_label} "
-            f"({coverage['value']:.2f}, {coverage['n_matched']}/{coverage['n_total']}); "
-            "no verified bridge is mapped."
-        )
+        if comparator_neighbor:
+            record_id = asset.get("properties", {}).get("record_id")
+            asset_name = (
+                f"{asset['label']} ({record_id})" if record_id else asset["label"]
+            )
+            step_text = (
+                f"Review {asset_name} eligibility for {top_neighbor_label}; "
+                "no verified bridge is mapped."
+            )
+        else:
+            step_text = (
+                f"Review {asset['label']} coverage of {top_neighbor_label} "
+                f"({coverage['value']:.2f}, {coverage['n_matched']}/{coverage['n_total']}); "
+                "no verified bridge is mapped."
+            )
     elif contact_rows:
         bridge = contact_rows[0][0]
         step_text = (
@@ -883,20 +1188,197 @@ def build_dossier(
     return validate_dossier(output, snapshot, disease_id)
 
 
-async def build_live_dossier(snapshot: Snapshot, disease_id: str, persona: str) -> dict[str, Any]:
+async def build_live_dossier(
+    snapshot: Snapshot,
+    disease_id: str,
+    persona: str,
+    comparator_id: str | None = None,
+) -> dict[str, Any]:
     from constellation.agents.live import run_agent_chain
 
-    draft = build_dossier(snapshot, disease_id, persona, mode="live")
-    generated = await run_agent_chain(snapshot, disease_id, persona, draft)
-    generated.update(
-        {
-            "disease_id": disease_id,
-            "persona": persona,
-            "mode": "live",
-            "snapshot_hash": snapshot.snapshot_hash,
-            "trace_id": str(uuid.uuid4()),
-            "generated_at": datetime.now(UTC).isoformat(),
-            "gap_plan": draft["gap_plan"],
-        }
+    started = time.perf_counter()
+    model = agent_model()
+    draft = build_dossier(
+        snapshot,
+        disease_id,
+        persona,
+        mode="live",
+        comparator_id=comparator_id,
     )
-    return validate_dossier(generated, snapshot, disease_id)
+    evidence_pack = _live_evidence_pack(snapshot, disease_id, draft, comparator_id)
+    pack_ids = {row["edge_id"] for row in evidence_pack}
+    draft_numbers = _number_tokens(
+        " ".join(
+            sentence.get("text", "")
+            for section in draft.get("sections", [])
+            for sentence in section.get("sentences", [])
+        )
+    )
+    draft_sections = _offline_section_map(draft)
+    draft_next_step_anchors = _draft_next_step_anchors(draft_sections)
+    comparator_node = snapshot.node_by_id.get(comparator_id or "", {})
+    comparator_terms = {
+        str(term)
+        for term in (
+            comparator_node.get("properties", {}).get("gene_symbol"),
+            comparator_node.get("label"),
+        )
+        if term
+    }
+    try:
+        remaining = 180 - (time.perf_counter() - started)
+        if remaining <= 0:
+            raise TimeoutError("Live dossier preparation exceeded 180 seconds.")
+        generated = await asyncio.wait_for(
+            run_agent_chain(
+                snapshot,
+                disease_id,
+                persona,
+                draft,
+                comparator_id,
+                evidence_pack,
+            ),
+            timeout=remaining,
+        )
+        generated.update(
+            {
+                "disease_id": disease_id,
+                "persona": persona,
+                "mode": "live",
+                "snapshot_hash": snapshot.snapshot_hash,
+                "trace_id": str(uuid.uuid4()),
+                "generated_at": datetime.now(UTC).isoformat(),
+                "gap_plan": draft["gap_plan"],
+            }
+        )
+        validated = validate_dossier(generated, snapshot, disease_id)
+        writer_keys = {
+            section.get("key")
+            for section in generated.get("sections", [])
+            if isinstance(section, dict)
+        }
+        validated_by_key = {
+            section["key"]: section
+            for section in validated.get("sections", [])
+            if section.get("key") in SECTION_TITLES
+        }
+        fallback_sections = []
+        guard_dropped = 0
+        final_sections = []
+        slice_gene_symbols = _slice_gene_symbols(snapshot)
+        for key, title in SECTION_TITLES.items():
+            section = validated_by_key.get(key, {"key": key, "title": title, "sentences": []})
+            kept = []
+            for sentence in section.get("sentences", []):
+                refs = list(dict.fromkeys(sentence.get("edge_ids", [])))
+                if not refs or any(edge_id not in pack_ids for edge_id in refs):
+                    guard_dropped += 1
+                    continue
+                cited_fields = json.dumps(
+                    [snapshot.edge_by_id[edge_id] for edge_id in refs],
+                    ensure_ascii=False,
+                    sort_keys=True,
+                    default=str,
+                )
+                if not _number_tokens(sentence.get("text", "")) <= (
+                    draft_numbers | _number_tokens(cited_fields)
+                ):
+                    guard_dropped += 1
+                    continue
+                mentioned_symbols = _mentioned_gene_symbols(
+                    sentence.get("text", ""),
+                    slice_gene_symbols,
+                )
+                if not mentioned_symbols <= _cited_gene_symbols(
+                    snapshot,
+                    refs,
+                    slice_gene_symbols,
+                ):
+                    guard_dropped += 1
+                    continue
+                kept.append({**sentence, "edge_ids": refs})
+            if key == "who_to_contact" and comparator_terms:
+                comparator_kept = [
+                    sentence
+                    for sentence in kept
+                    if _mentions_comparator(sentence.get("text", ""), comparator_terms)
+                ]
+                guard_dropped += len(kept) - len(comparator_kept)
+                kept = comparator_kept
+            if key == "next_step":
+                next_step_text = " ".join(
+                    sentence.get("text", "") for sentence in kept
+                )
+                drifted = bool(kept) and not _mentions_draft_anchor(
+                    next_step_text,
+                    draft_next_step_anchors,
+                )
+                if comparator_terms and kept and not _mentions_comparator(
+                    next_step_text,
+                    comparator_terms,
+                ):
+                    drifted = True
+                if drifted:
+                    guard_dropped += len(kept)
+                    kept = []
+            if key not in writer_keys or not kept:
+                fallback = draft_sections.get(key)
+                if fallback:
+                    section = fallback
+                    fallback_sections.append(key)
+                else:
+                    section = {"key": key, "title": title, "sentences": []}
+            else:
+                section = {**section, "sentences": kept}
+            final_sections.append(section)
+
+        validated.update(
+            {
+                "sections": final_sections,
+                "dropped_sentences": int(validated.get("dropped_sentences", 0))
+                + guard_dropped,
+                "fallback_sections": fallback_sections,
+                "model": model,
+                "mode": "live",
+                "elapsed_ms": round((time.perf_counter() - started) * 1000),
+                "comparator_id": comparator_id,
+            }
+        )
+        validated["markdown"] = _markdown(final_sections)
+        cache_file = live_dossier_cache_path(
+            disease_id,
+            persona,
+            comparator_id,
+            snapshot.snapshot_hash,
+            model,
+        )
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
+        cache_file.write_text(
+            json.dumps(validated, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        return validated
+    except Exception as error:
+        elapsed_ms = round((time.perf_counter() - started) * 1000)
+        reason = str(error)
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if api_key:
+            reason = reason.replace(api_key, "[redacted]")
+        logger.warning(
+            "Live dossier fallback for %s (%s): %s",
+            disease_id,
+            type(error).__name__,
+            reason,
+        )
+        fallback = dict(draft)
+        fallback.update(
+            {
+                "mode": "offline-fallback",
+                "model": model,
+                "elapsed_ms": elapsed_ms,
+                "fallback_sections": list(SECTION_TITLES),
+                "usage": {"input_tokens": 0, "output_tokens": 0},
+                "comparator_id": comparator_id,
+            }
+        )
+        return fallback

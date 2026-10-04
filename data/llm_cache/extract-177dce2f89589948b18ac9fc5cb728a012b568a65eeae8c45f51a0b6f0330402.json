@@ -1,0 +1,26 @@
+{
+  "pmid": "30996354",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "increased phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(5) Phosphorylation levels of Grin1, Arhgef 2, Arhgap33, Tiam1, Sptbn1/2/4 and Ank2 in experimental group were significantly higher than in the control (P<0.001).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "focused in protein-protein interaction network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(4) STRING database showed that the protein-protein interaction network formed by the 159 proteins was focused on Grin1/Dlg3, Arhgef 2/Arhgap33/Tiam1 and Sptnb1/3/4/Add3/Ank2 protein group respectively.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

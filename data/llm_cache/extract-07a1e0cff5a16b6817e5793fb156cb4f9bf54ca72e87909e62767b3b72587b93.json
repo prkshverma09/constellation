@@ -1,0 +1,16 @@
+{
+  "pmid": "31056551",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder with epilepsy (NDD+E)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes with highest frequencies of ultrarare variants in NDD+E comprised SCN1A, KCNQ2, SCN2A, CDKL5, SCN8A, and STXBP1",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

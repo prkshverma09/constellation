@@ -1,0 +1,56 @@
+{
+  "pmid": "26786403",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "cortical dysplasia with focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have recently been reported to cause cortical dysplasia with focal epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "early childhood onset of mainly nocturnal frontal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This truncating mutation causes an epilepsy phenotype characterized by early childhood onset of mainly nocturnal frontal lobe epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "low penetrance (three affected out of six mutation carriers)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The penetrance in our family was low (three affected out of six mutation carriers)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "mutations in NPRL3 are not necessarily associated with focal cortical dysplasia",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "different, yet unknown pathomechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "might be able to cause epilepsy by different, yet unknown pathomechanisms",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

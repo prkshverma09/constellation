@@ -1,0 +1,16 @@
+{
+  "pmid": "32427350",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More rare genetic findings included SLC2A1, ATP6A1V, HNRNPU, MEF2C, and IRF2BPL.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

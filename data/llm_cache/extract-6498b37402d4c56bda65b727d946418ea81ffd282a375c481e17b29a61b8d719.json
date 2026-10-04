@@ -1,0 +1,36 @@
+{
+  "pmid": "29661558",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WES revealed an autosomal recessive polynucleotide kinase 3´phosphatase (PNKP) gene abnormality in the siblings with polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "infantile CFD syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WES in one consanguineous family identified a PNKP gene abnormality that explained the polyneuropathy and also its contribution to the infantile CFD syndrome",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "neurodevelopment and immune-regulatory function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the PNKP gene plays a dual role in both neurodevelopment and immune-regulatory function.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

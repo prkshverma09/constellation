@@ -1,0 +1,76 @@
+{
+  "pmid": "31147226",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathologic mutations in cyclin-dependent kinase-like 5 cause CDKL5 deficiency disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "cognitive disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive, motor, visual, and autonomic disturbances",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "motor disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive, motor, visual, and autonomic disturbances",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "visual disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive, motor, visual, and autonomic disturbances",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "autonomic disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive, motor, visual, and autonomic disturbances",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-life epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is a relatively common genetic cause of early-life epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

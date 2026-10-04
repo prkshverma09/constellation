@@ -1,0 +1,126 @@
+{
+  "pmid": "41527503",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were frequently reported (69 of 70 publications for 338 patients).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset within the first week of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure onset was primarily within the first week of life (n = 334 of 356 seizure events; 93.8%), with frequency commonly reported as 'multiple daily'.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "multiple daily seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure onset was primarily within the first week of life (n = 334 of 356 seizure events; 93.8%), with frequency commonly reported as 'multiple daily'.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure resolution in 56.2% of patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure resolution was reported for 56.2% of patients;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure resolution by age 5 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most (87.0%) achieved resolution by age 5 years.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "neurological manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological (73.3%) and developmental (52.9%) manifestations were frequently reported, with muscle tone (71.7%), gross motor (67.3%), and communication (66.6%) impairments being most common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological (73.3%) and developmental (52.9%) manifestations were frequently reported, with muscle tone (71.7%), gross motor (67.3%), and communication (66.6%) impairments being most common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "muscle tone impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological (73.3%) and developmental (52.9%) manifestations were frequently reported, with muscle tone (71.7%), gross motor (67.3%), and communication (66.6%) impairments being most common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "gross motor impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological (73.3%) and developmental (52.9%) manifestations were frequently reported, with muscle tone (71.7%), gross motor (67.3%), and communication (66.6%) impairments being most common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "communication impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological (73.3%) and developmental (52.9%) manifestations were frequently reported, with muscle tone (71.7%), gross motor (67.3%), and communication (66.6%) impairments being most common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "most common age younger than 5 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most common age was younger than 5 years old.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "non-seizure-related outcomes increase with age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-seizure-related outcomes gained more prominence as children aged",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

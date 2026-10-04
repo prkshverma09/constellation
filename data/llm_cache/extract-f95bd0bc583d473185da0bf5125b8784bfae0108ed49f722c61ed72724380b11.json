@@ -1,0 +1,66 @@
+{
+  "pmid": "35714598",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "FOXG1 syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Congenital alterations in the levels of the transcription factor Forkhead box g1 (FOXG1) coding gene trigger \"FOXG1 syndrome,\"",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Congenital alterations in the levels of the transcription factor Forkhead box g1 (FOXG1) coding gene trigger \"FOXG1 syndrome,\" a spectrum that recapitulates birth defects found in the \"congenital Zika syndrome,\" such as microcephaly and other neurodevelopmental conditions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "altered nuclear localization and downregulation; impaired expression of genes involved in cell replication and apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zika virus (ZIKV) infection alters FOXG1 nuclear localization and causes its downregulation, thus impairing expression of genes involved in cell replication and apoptosis in several cell models, including human neural progenitor cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Thr271 residue in AKT domain contributes to apoptosis protection; EGF and FGF2 contribute to nuclear displacement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Growth factors, such as EGF and FGF2, and Thr271 residue located in FOXG1 AKT domain, take part in the nuclear displacement and apoptosis protection, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "C-terminus and residues 428-481 are critical domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, by progressive deletion of FOXG1 sequence, we identify the C-terminus and the residues 428-481 as critical domains.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Collectively, our data suggest a causal mechanism by which ZIKV affects FOXG1, its target genes, cell cycle progression, and survival of human neural progenitors, thus contributing to microcephaly.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

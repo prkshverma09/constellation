@@ -1,0 +1,96 @@
+{
+  "pmid": "35665761",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "encoding a kinase essential for normal brain development and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in cyclin-dependent kinase-like 5 (CDKL5) gene, encoding a kinase essential for normal brain development and function, are responsible for CDD.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "a cdkl5 mutant zebrafish line (sa21938)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a cdkl5 mutant zebrafish line (sa21938)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cdkl5sa21938 mutants displayed a reduced head size, suggesting microcephaly, a feature frequently observed in CDD individuals.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "abnormal craniofacial cartilage development and impaired skeletal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Double staining revealed shorter craniofacial cartilage structures and decrease bone mineralization in cdkl5 homozygous zebrafish indicating an abnormal craniofacial cartilage development and impaired skeletal development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "impaired glutamatergic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor behavior analysis showed that cdkl5sa21938 embryos had less frequency of double coiling suggesting impaired glutamatergic neurotransmission.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "impaired motor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Locomotor behavior analysis revealed that homozygous embryos swim shorter distances, indicative of impaired motor activity which is one of the main traits of CCD.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizure behavior upon pentylenetetrazole treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "upon treatment with pentylenetetrazole, seizure behavior and an increase in the distance travelled were observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "dysregulation of glutamatergic genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quantitative PCR showed that neuronal markers, including glutamatergic genes were dysregulated in cdkl5sa21938 mutant embryos.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "homozygous cdkl5sa21938 zebrafish mimic several characteristics of CDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In conclusion, homozygous cdkl5sa21938 zebrafish mimic several characteristics of CDD, thus validating them as a suitable animal model to better understand the physiopathology of this disorder.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

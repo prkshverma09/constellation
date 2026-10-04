@@ -1,0 +1,26 @@
+{
+  "pmid": "36368227",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 80 % of DS patients carry pathogenic SCN1A mutations, and this percentage is actually higher due to false-negative results in gene testing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "dysfunction of NaV1.1 affects GABAergic inhibitory interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "\"SCN1A mutation-mediated dysfunction of NaV1.1 affects GABAergic inhibitory interneurons\"",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

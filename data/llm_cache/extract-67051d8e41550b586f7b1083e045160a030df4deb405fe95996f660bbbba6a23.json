@@ -1,0 +1,126 @@
+{
+  "pmid": "32987832",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "recessive nonsyndromic deafness DFNB86",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human pathogenic variants of TBC1D24 are associated with clinically heterogeneous phenotypes, including recessive nonsyndromic deafness DFNB86",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "dominant nonsyndromic deafness DFNA65",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human pathogenic variants of TBC1D24 are associated with clinically heterogeneous phenotypes, including recessive nonsyndromic deafness DFNB86, dominant nonsyndromic deafness DFNA65",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizure accompanied by deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human pathogenic variants of TBC1D24 are associated with clinically heterogeneous phenotypes, including recessive nonsyndromic deafness DFNB86, dominant nonsyndromic deafness DFNA65, seizure accompanied by deafness",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "a variety of isolated seizure phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human pathogenic variants of TBC1D24 are associated with clinically heterogeneous phenotypes, including recessive nonsyndromic deafness DFNB86, dominant nonsyndromic deafness DFNA65, seizure accompanied by deafness, a variety of isolated seizure phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human pathogenic variants of TBC1D24 are associated with clinically heterogeneous phenotypes, including recessive nonsyndromic deafness DFNB86, dominant nonsyndromic deafness DFNA65, seizure accompanied by deafness, a variety of isolated seizure phenotypes and DOORS syndrome, characterized by deafness, onychodystrophy, osteodystrophy, intellectual disability and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deafness-seizure syndrome or nonsyndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Affected individuals exhibited, either a deafness-seizure syndrome or nonsyndromic deafness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "immunolocalized in hair cells and spiral ganglion neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In human temporal bones, TBC1D24 immunolocalized in hair cells and spiral ganglion neurons",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "expression detected only in spiral ganglion neurons in mouse cochlea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas in mouse cochlea, Tbc1d24 expression was detected only in spiral ganglion neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "mouse models of DFNB86 p.(Asp70Tyr), DFNA65 p.(Ser178Leu) and p.(His336Glnfs*12)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We engineered mouse models of DFNB86 p.(Asp70Tyr) and DFNA65 p.(Ser178Leu) nonsyndromic deafness and syndromic forms of deafness p.(His336Glnfs*12) that have the same pathogenic variants that were reported for human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "no auditory dysfunction in Tbc1d24 mutant mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Unexpectedly, no auditory dysfunction was detected in Tbc1d24 mutant mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygosity for some of the variants caused seizures or lethality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "lethality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygosity for some of the variants caused seizures or lethality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

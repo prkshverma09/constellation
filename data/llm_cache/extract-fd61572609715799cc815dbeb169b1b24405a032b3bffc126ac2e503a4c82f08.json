@@ -1,0 +1,16 @@
+{
+  "pmid": "36989925",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "expression down-regulated (associated with neuronal development)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression of genes associated with neuronal development (LGALS1, CACNA2D2, and NLGN4X) and neurotransmitter transmission (SLC6A13 and AChE) was significantly down-regulated",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

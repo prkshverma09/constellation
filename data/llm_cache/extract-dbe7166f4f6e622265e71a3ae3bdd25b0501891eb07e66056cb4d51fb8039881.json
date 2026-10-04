@@ -1,0 +1,16 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "SUDEP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes were associated with SUDEP: SCN1A, SCN2A, SCN8A, and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

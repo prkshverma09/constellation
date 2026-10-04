@@ -1,0 +1,66 @@
+{
+  "pmid": "40271828",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "protective mechanism against stroke-induced neuronal death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lactylation of MeCP2, a transcriptional regulator, is identified as a protective mechanism against stroke-induced neuronal death.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "increases infarct volume and aggravates neurological deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inhibition of MeCP2 lactylation through chemical or genetic manipulation increases infarct volume and aggravates neurological deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "represses the transcription of apoptosis-associated genes, including Pdcd4 and Pla2g6, thereby attenuating neuronal apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 lactylation at K210/K249 represses the transcription of apoptosis-associated genes, including Pdcd4 and Pla2g6, thereby attenuating neuronal apoptosis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "HDAC3 and p300 regulate MeCP2 lactylation post-stroke",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, HDAC3 and p300 are identified as key enzymes that regulate MeCP2 lactylation post-stroke.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional regulator",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2, a transcriptional regulator",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "MeCP2 lactylation as a potential therapeutic target to alleviate neuronal damage and improve stroke outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The findings suggest that MeCP2 lactylation offers a potential therapeutic target for alleviating neuronal damage and improving stroke outcomes.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

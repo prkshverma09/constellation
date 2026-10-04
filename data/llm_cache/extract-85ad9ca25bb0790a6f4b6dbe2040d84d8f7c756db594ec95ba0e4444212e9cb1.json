@@ -1,0 +1,86 @@
+{
+  "pmid": "39589822",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter GAT-1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The solute carrier family 6 member 1 (SLC6A1) gene encodes the γ-aminobutyric acid (GABA) transporter GAT-1",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "infantile encephalopathy with intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the deficiency of which is associated with infantile encephalopathy with intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "heterozygous and homozygous Slc6a1-KO mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "conducted preclinical gene therapy studies using heterozygous and homozygous Slc6a1-KO mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "AAV9 vectors with JeT or MeP promoter (neonatal intracerebroventricular administration)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neonatal intracerebroventricular administration of either vector resulted in significantly normalized EEG patterns in Slc6a1-/- or Slc6a1+/- mice as well as improvement in several behavioral phenotypes of Slc6a1-/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "Intrathecal administration of AAV9 vectors at P5",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intrathecal administration of either vector at P5 normalized EEG patterns in Slc6a1+/- mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "Intrathecal administration of AAV9 vectors at P5",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but in Slc6a1-/- mice, the treatment only rescued nest building without impact on EEG.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "AAV9 vectors (JeT and MeP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both vectors were well tolerated in all mice treated at P5 or later (including WT mice), up to 1 year after injection.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "AAV9/SLC6A1 treatments outside the neonatal window",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "outside of the neonatal treatment window, the severe homozygous KO model is more refractory to treatment, whereas our treatments in the heterozygous mice, which genotypically match human patients, have resulted in stronger benefits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

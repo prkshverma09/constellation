@@ -1,0 +1,106 @@
+{
+  "pmid": "41380541",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "early-onset childhood epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Typically, SCN8A gene variants cause early-onset childhood epilepsy, often within the first year of life, even in the neonatal period,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "age of onset 10 min after birth to 2 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The earliest age of onset was 10 min after birth, and the maximum age of onset was 2 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers show some efficacy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers show some efficacy, but often require higher doses, and single-drug therapy is usually insufficient.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "response to sodium channel blockers in eight patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight patients responded to sodium channel blockers, with doses ranging from higher than the standard paediatric dosage.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "higher than the standard paediatric dosage often required",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight patients responded to sodium channel blockers, with doses ranging from higher than the standard paediatric dosage.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet efficacy not satisfactory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two were treated with a ketogenic diet, but the efficacy was not satisfactory.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "multifocal and widespread discharges on electroencephalogram",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Except for one case with a normal electroencephalogram, all others showed abnormalities, mainly characterised by multifocal and widespread discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "clinical phenotype of de novo variants is severe, with frequent seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype of de novo variants is severe, with frequent seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "focal or focal secondary generalised seizures are common",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal or focal secondary generalised seizures are common.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "spasms and myoclonus are rare seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types such as spasms and myoclonus are rare.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

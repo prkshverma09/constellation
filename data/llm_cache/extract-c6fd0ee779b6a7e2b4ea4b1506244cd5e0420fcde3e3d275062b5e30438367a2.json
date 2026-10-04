@@ -1,0 +1,26 @@
+{
+  "pmid": "40517887",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "Angelman-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A newly defined short smallest region of overlap (sSRO) within 3p25.3, encompassing approximately 52 kb and partially including SLC6A1 and SLC6A11, was associated with Angelman-like features, particularly epilepsy and EEG patterns.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "impaired GABA transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest that SLC6A1 dysfunction contributes to epilepsy and EEG abnormalities, possibly via impaired GABA transport,",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

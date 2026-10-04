@@ -1,0 +1,116 @@
+{
+  "pmid": "37062836",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KCNT2 are rare causes of developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability/developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability/developmental delay (21/22 individuals with available information)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy (15/25)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "neurological impairment with altered muscle tone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurological impairment, with altered muscle tone (14/22)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphisms (13/20)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nineteen pathogenic KCNT2 variants were found (9 new, 10 reported previously): 16 missense, 1 in-frame deletion of a single amino acid, 1 nonsense, and 1 frameshift.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "8 showed gain-of-function (GoF)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "6 loss-of-function (LoF) features when expressed heterologously in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "model",
+      "object_text": "HEK-293 and SH-SY5Y cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional and pharmacological studies were performed by whole-cell electrophysiology in HEK-293 and SH-SY5Y cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "quinidine and fluoxetine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quinidine and fluoxetine blocked all GoF variants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "loxapine and riluzole",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loxapine and riluzole activated some LoF variants while blocking others.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "39530840",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "Gabrb3+/D120N mouse model of Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/D120N mouse model of Lennox-Gastaut syndrome",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "atypical absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "magnolol reduced the number and duration of atypical absence seizures in Gabrb3+/D120N mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "20579352",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine with aura",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two variants in the regulative regions of GRIA1 (rs2195450) and GRIA3 (rs3761555) genes resulted strongly associated with MA (P = 0.00002 and P = 0.0001, respectively),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA1-GRIA4 genes which encode for the four subunits (GluR1-GluR4) of the alpha-amino-3- hydroxy-5-methyl-4-isoxazole-propionic acid (AMPA) receptor for glutamate",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "altered expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants modify binding sites for transcription factors altering the expression of GRIA1 and GRIA3 genes in different conditions.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "cortical spreading depression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two variants in the regulative regions of GRIA1 (rs2195450) and GRIA3 (rs3761555) genes resulted strongly associated with MA (P = 0.00002 and P = 0.0001, respectively), but not associated with MO, suggesting their role in cortical spreading depression.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

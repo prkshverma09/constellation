@@ -1,0 +1,36 @@
+{
+  "pmid": "37063368",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "key protein in CTD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Integrative bioinformatics and statistical modeling identified key proteins in CTD, including KIF1A and PLCB1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "object recognition and Y-maze test performance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The abundance of these proteins in the four brain regions was significantly correlated with both the object recognition and the Y-maze tests.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "role in pathogenesis of CTD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings suggest a major role for PLCB1, KIF1A, and associated molecules in the pathogenesis of CTD.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

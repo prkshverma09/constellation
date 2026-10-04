@@ -1,0 +1,16 @@
+{
+  "pmid": "27781027",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "such as in Dravet syndrome. While most patients carry mutations in SCN1A, similar phenotypes can be seen in patients with mutations in PCDH19",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

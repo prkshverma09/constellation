@@ -1,0 +1,76 @@
+{
+  "pmid": "33794528",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transient (i.e., benign familial neonatal seizures)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "long-lasting (i.e., developmental and epileptic encephalopathy)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "KCNQ2 as a target for novel antiepileptic drugs (activation could reduce epileptic activity)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 and KCNQ3 channels have also emerged as a target for novel antiepileptic drugs as their activation could reduce epileptic activity.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "mechanisms that control the assembly, gating, and modulation of KCNQ2 channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mechanisms that control the assembly, gating, and modulation of KCNQ2 and KCNQ3 channels.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "KCNQ2 and KCNQ3 assemble as heteromeric channels (KCNQ2/3)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 and KCNQ3 channels assemble as heteromeric channels (KCNQ2/3)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "some neurons express KCNQ2 homomers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "allowing some neurons to express KCNQ2 and KCNQ3 homomers.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "channel stoichiometry might differ across development, brain regions, cell types, and disease states",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "channel stoichiometry, which might differ across development, brain regions, cell types, and disease states.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

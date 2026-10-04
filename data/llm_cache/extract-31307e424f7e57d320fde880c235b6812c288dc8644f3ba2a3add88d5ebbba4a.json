@@ -1,0 +1,46 @@
+{
+  "pmid": "36498839",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "aggregation of TRAPPC6AΔ, TIAF1, and SH3GLB2 leads to APP degradation, Aβ generation, and neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When WWOX is downregulated in middle age, aggregation of a protein cascade, including TRAPPC6AΔ (TPC6AΔ), TIAF1, and SH3GLB2, may start to occur, and the event lasts more than 30 years, which results in amyloid precursor protein (APP) degradation, amyloid beta (Aβ) generation, and neurodegeneration, as shown in Alzheimer's disease (AD).",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "WWOX-binding protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zfra, a 31-amino-acid zinc finger-like WWOX-binding protein, is known to restore memory deficits in 9-month-old triple-transgenic (3xTg) mice by blocking the aggregation of TPC6AΔ, SH3GLB2, tau, and amyloid β, as well as inflammatory NF-κB activation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "Wwox heterozygous mice exhibit memory loss correlated with cortical pT12-WWOX aggregation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to age-matched wild type mice, 11-month-old Wwox heterozygous mice exhibited memory loss, and this correlates with pT12-WWOX aggregation in the cortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "aggregation of pT12-WWOX may link to TPC6AΔ aggregation for AD progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, aggregation of pT12-WWOX may link to TPC6AΔ aggregation for AD progression, with TPC6AΔ aggregation being a common initiator for AD and PD progression.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

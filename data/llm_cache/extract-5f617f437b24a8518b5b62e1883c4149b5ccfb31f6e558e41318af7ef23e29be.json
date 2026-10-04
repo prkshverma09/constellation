@@ -1,0 +1,16 @@
+{
+  "pmid": "32217768",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "not activated by KCNA1-selective channel openers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inactive against KCNQ2/3 channels, or even KCNA2, the closest relative of KCNA1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

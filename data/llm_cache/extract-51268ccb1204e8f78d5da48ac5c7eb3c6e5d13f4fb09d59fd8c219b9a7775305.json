@@ -1,0 +1,16 @@
+{
+  "pmid": "35219921",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "EA2 (episodic ataxia type 2) with associated epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the various forms of EAs, only EA1 (KCNA1), EA2 (CACNA1A), EA5 (CACNB4), EA6 (SLC1A3), and EA9 (SCN2A) phenotypes with associated epilepsy have been described.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

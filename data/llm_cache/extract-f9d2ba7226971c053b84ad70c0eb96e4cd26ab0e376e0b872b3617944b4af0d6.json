@@ -1,0 +1,86 @@
+{
+  "pmid": "38538865",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix. These de novo variants were identified in children with neurological and neuropsychiatric disorders including epilepsy, developmental delay, intellectual disability, hypotonia and attention deficit hyperactivity disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix. These de novo variants were identified in children with neurological and neuropsychiatric disorders including epilepsy, developmental delay, intellectual disability, hypotonia and attention deficit hyperactivity disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix. These de novo variants were identified in children with neurological and neuropsychiatric disorders including epilepsy, developmental delay, intellectual disability, hypotonia and attention deficit hyperactivity disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix. These de novo variants were identified in children with neurological and neuropsychiatric disorders including epilepsy, developmental delay, intellectual disability, hypotonia and attention deficit hyperactivity disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "48 de novo missense variants in GRIN1, GRIN2A, and GRIN2B that alter residues in the M3 transmembrane helix. These de novo variants were identified in children with neurological and neuropsychiatric disorders including epilepsy, developmental delay, intellectual disability, hypotonia and attention deficit hyperactivity disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 48 variants in M3 for which comprehensive testing was completed produce a gain-of-function (28/48) compared to loss-of-function (9/48); 11 variants had an indeterminant phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "FDA-approved NMDAR channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Given that most M3 variants enhance channel gating, we assessed the potency of FDA-approved NMDAR channel blockers on these variant receptors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

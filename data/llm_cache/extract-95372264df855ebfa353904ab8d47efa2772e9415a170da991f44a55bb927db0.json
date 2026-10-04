@@ -1,0 +1,146 @@
+{
+  "pmid": "35071126",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "\"Complete or partial loss of function (LoF),\"",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "\"dominant-negative (DN) effect\"",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "in vitro",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional experiments on newly reported variants, including electrophysiology and protein expression, were performed in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analyses of 8 novel variants indicated three partial and five complete LoF variants, five DN and three non-DN effect variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analyses of 8 novel variants indicated three partial and five complete LoF variants, five DN and three non-DN effect variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whose functional results supported haploinsufficiency",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy (9/10), global developmental delay (10/10), and behavior issues (7/10) were common clinical features in our patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy (9/10), global developmental delay (10/10), and behavior issues (7/10) were common clinical features in our patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "behavior issues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy (9/10), global developmental delay (10/10), and behavior issues (7/10) were common clinical features in our patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cases in complete LoF group had earlier seizure onset age (64.3 vs. 16.7%, p = 0.01) and worse seizure outcomes (18.8 vs. 66.7%, p = 0.03)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "worse seizure outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cases in complete LoF group had earlier seizure onset age (64.3 vs. 16.7%, p = 0.01) and worse seizure outcomes (18.8 vs. 66.7%, p = 0.03)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients in DN effect subgroup had multiple seizure types compared to those in non-DN effect subgroup (65.5 vs. 30.8%, p = 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "milder phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Truncated KCNB1 variants exhibiting with haploinsufficiency molecular phenotype are linked to milder phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "more severe seizure attacks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with complete LoF and DN effect KCNB1 variants have more severe seizure attacks than the other two subgroups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

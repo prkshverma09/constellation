@@ -1,0 +1,116 @@
+{
+  "pmid": "16225828",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "methyl-CpG binding protein 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2, the gene encoding methyl-CpG binding protein 2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome is caused by mutations in MECP2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome (classic cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In up to 96% of all classic cases, Rett syndrome cases are caused by mutations or deletions in MECP2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation with or without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mental retardation with or without seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Angelman syndrome-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Angelman syndrome-like phenotype",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "Mecp308/Y mice carry a truncating mutation and display many of the features seen in Rett syndrome.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mecp308/Y mice carry a truncating mutation and display many of the features seen in Rett syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MeCP2 plays a role in modulating the activity of genes and neurons important for social interactions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 plays a role in modulating the activity of genes and neurons important for social interactions.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "Mice that overexpress MeCP2 at twice the endogenous levels develop a progressive neurologic disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice that overexpress MeCP2 at twice the endogenous levels develop a progressive neurologic disorder",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MeCP2 levels are tightly regulated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 levels are tightly regulated",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "duplications or gain-of-function mutations of MECP2 might underlie some cases of neurodevelopmental X-linked disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

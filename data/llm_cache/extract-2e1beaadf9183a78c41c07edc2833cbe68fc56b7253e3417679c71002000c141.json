@@ -1,0 +1,16 @@
+{
+  "pmid": "36646291",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy of Infancy with Migrating Focal Seizures (EIMSF), or Migrating Partial Seizures of Infancy (MMPSI), is a rare severe form of epilepsy linked primarily to gain of function mutations in a member of the sodium-dependent K channel family, KCNT1 or SLACK.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

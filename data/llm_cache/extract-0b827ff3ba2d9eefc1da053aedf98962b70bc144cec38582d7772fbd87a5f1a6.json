@@ -1,0 +1,16 @@
+{
+  "pmid": "35363364",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several genes' mutations were incorporated in this review including AFG3L2, ASPM, ATN1, ATP1A2, BMP5, CCDC88A, C12orf57, DNAJA1, EML1, ERLIN2, FRRS1L, GABRG3, NRXN3, MDH1, KCNJ10, KCNMA1, KCNT1, KIAA0226, OPHN1, PCCA, PCCB, PEX, PGAP2, PI4K2A, PODXL, PRICKLE1, PNKP,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

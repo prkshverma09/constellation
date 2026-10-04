@@ -1,0 +1,76 @@
+{
+  "pmid": "23343562",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "familial infantile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an Italian family afflicted with familial infantile myoclonic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy and intellectual disability syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an Arab family with focal epilepsy and intellectual disability syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe, lethal epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a severe, lethal epileptic encephalopathy mapping at 16pter-p13.3",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All three mutations were missense and were determined to be loss of function",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All three mutations were missense and were determined to be loss of function",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "Isoform 1 is predominant in the brain whereas isoform 2 is predominant in non-neural tissues, except for muscle.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Isoform 1 is predominant in the brain whereas isoform 2 is predominant in non-neural tissues, except for muscle",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "mutation does not affect isoform 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mutation does not affect isoform 2, whereas the three previously reported mutations do",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41504861",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(GAD2, GRIK3, GLUD1, GRIN2C, SLC1A3, SLC38A1, GABRP, GABRB3, GRM4) were significantly altered in children with ASD",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

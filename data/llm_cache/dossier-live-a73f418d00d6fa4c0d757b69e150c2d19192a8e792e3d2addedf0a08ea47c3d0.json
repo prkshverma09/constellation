@@ -1,0 +1,239 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "Verify STXBP1 (MONDO:0012812) membership in the Neurotransmitter release cycle cluster (analytics; stability signal present).",
+          "edge_ids": [
+            "8b8a74101835d1d2"
+          ]
+        },
+        {
+          "text": "Verify STX1B (MONDO:0014517) as a sharer by analytics mechanism link and STRING-supported interaction with STXBP1 (curated STRING group: STX1B/STXBP1).",
+          "edge_ids": [
+            "ab5fe5ff268d13ba",
+            "8a5b259c2af7cfea"
+          ]
+        },
+        {
+          "text": "Verify VAMP2 (MONDO:0032900) as a sharer via Reactome pathway overlap in multiple neurotransmitter release cycles (curated).",
+          "edge_ids": [
+            "ca33d6f8f475990e",
+            "d8497858c88a7d26",
+            "ca345352553c57cf",
+            "a5d61021ea201f00",
+            "4fbe8471aca23bc4",
+            "e6d5b0914532b438"
+          ]
+        },
+        {
+          "text": "Verify SNAP25 (MONDO:0014590) as a sharer via Reactome pathway overlap in multiple neurotransmitter release cycles (curated).",
+          "edge_ids": [
+            "fcb938d1b0386f7c",
+            "9c42c5bf01870c1c",
+            "117f02de48cc3227",
+            "6441ab34117d11ec",
+            "7986fb4eb1806539",
+            "c8fcfc6ef79c0a33",
+            "27de234d6ca90e53"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Verify the asset Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and its linkage to DEE4 (CT.gov observed; NCT05462054).",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "Verify the asset STXBP1 and SYNGAP1 Related Disorders Natural History Study and its mapped disease links (CT.gov observed; NCT06555965).",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "4c2106f026e81f1e"
+          ]
+        },
+        {
+          "text": "Verify that NCT05462054 maps to STX1B-related disease (MONDO:0014517) and that coverage of the target phenotype terms is 55% (5/8; IC 16.98/30.76) using the listed phenotype and measurement edges (curated/inferred).",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "Verify foundation linkage: Asociación Síndrome STXBP1 (web-discovered).",
+          "edge_ids": [
+            "453d4be996145f4e"
+          ]
+        },
+        {
+          "text": "Verify foundation linkage: European STXBP1 Consortium (ESCO) (web-discovered).",
+          "edge_ids": [
+            "ba44da54694ec39f"
+          ]
+        },
+        {
+          "text": "Verify foundation linkage: Raging Raymond Foundation (web-discovered; VAMP2-related).",
+          "edge_ids": [
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "Verify counterexample GNAO1-related disease similarity to DEE4 and exclusion by the mechanism layer (analytics inferred).",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        },
+        {
+          "text": "Verify CACNA1A-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-422356).",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "187be2699f417de6",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "Verify SLC2A1-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-422356).",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "5490966f0991bdf8",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "Verify GRIN1-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-6794361).",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "Verify variant-effect discordance (V=0): STXBP1 loss_of_function vs CACNA1A gain_of_function (ClinVar observed; literature claims).",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040",
+            "34c9bc447921f8cb"
+          ]
+        },
+        {
+          "text": "Verify variant-effect discordance (V=0): STXBP1 loss_of_function vs GRIN1 gain_of_function (ClinVar observed; literature claims).",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730",
+            "9b5a310872598764"
+          ]
+        },
+        {
+          "text": "Account for indexed contradictions limiting phenotype–genotype correlations: no correlation between seizure severity and ID severity (literature claims).",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2"
+          ]
+        },
+        {
+          "text": "Account for indexed contradictions: no correlation between mutation type and seizure characteristics or cognitive outcome (literature claims).",
+          "edge_ids": [
+            "e362983ef11a54b1"
+          ]
+        },
+        {
+          "text": "Account for indexed contradictions: recurrent variants not associated with distinct electroclinical syndromes or overall clinical similarity (literature claims).",
+          "edge_ids": [
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Verify Rikke S Møller linkage for STX1B-related disease via authored works (identity signals to verify: ORCID 0000000296641448; affiliation tokens ‘Danish/Epilepsy/Filadelfia’); evidence class observed (PubMed).",
+          "edge_ids": [
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Verify NCT05462054 coverage (5/8 target phenotypes) and confirm contact linkage for Rikke S Møller by checking ORCID 0000000296641448, ‘Danish/Epilepsy/Filadelfia’ affiliations, and shared co-author ‘Almuth Caliebe’ across PMID:26865513 and PMID:25362483; use the listed phenotype, mapping and authorship edges (curated/inferred/observed).",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416",
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba",
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Verify that STX1B-related disease (MONDO:0014517) phenotype coverage is 55% (5/8; IC 16.98/30.76) using the Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and the listed phenotype/measurement edges (CT.gov observed; curated/inferred).",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 2,
+  "markdown": "## Who shares our characteristics\nVerify STXBP1 (MONDO:0012812) membership in the Neurotransmitter release cycle cluster (analytics; stability signal present). [8b8a74101835d1d2]\nVerify STX1B (MONDO:0014517) as a sharer by analytics mechanism link and STRING-supported interaction with STXBP1 (curated STRING group: STX1B/STXBP1). [ab5fe5ff268d13ba, 8a5b259c2af7cfea]\nVerify VAMP2 (MONDO:0032900) as a sharer via Reactome pathway overlap in multiple neurotransmitter release cycles (curated). [ca33d6f8f475990e, d8497858c88a7d26, ca345352553c57cf, a5d61021ea201f00, 4fbe8471aca23bc4, e6d5b0914532b438]\nVerify SNAP25 (MONDO:0014590) as a sharer via Reactome pathway overlap in multiple neurotransmitter release cycles (curated). [fcb938d1b0386f7c, 9c42c5bf01870c1c, 117f02de48cc3227, 6441ab34117d11ec, 7986fb4eb1806539, c8fcfc6ef79c0a33, 27de234d6ca90e53]\n\n## What already exists\nVerify the asset Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and its linkage to DEE4 (CT.gov observed; NCT05462054). [bc71e274e1c691ec]\nVerify the asset STXBP1 and SYNGAP1 Related Disorders Natural History Study and its mapped disease links (CT.gov observed; NCT06555965). [dcec503694916ae3, 4c2106f026e81f1e]\nVerify that NCT05462054 maps to STX1B-related disease (MONDO:0014517) and that coverage of the target phenotype terms is 55% (5/8; IC 16.98/30.76) using the listed phenotype and measurement edges (curated/inferred). [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]\nVerify foundation linkage: Asociación Síndrome STXBP1 (web-discovered). [453d4be996145f4e]\nVerify foundation linkage: European STXBP1 Consortium (ESCO) (web-discovered). [ba44da54694ec39f]\nVerify foundation linkage: Raging Raymond Foundation (web-discovered; VAMP2-related). [202ca5201eca2102]\n\n## What differs and must be verified\nVerify counterexample GNAO1-related disease similarity to DEE4 and exclusion by the mechanism layer (analytics inferred). [f94ad5494a3e9ab8]\nVerify CACNA1A-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-422356). [34c9bc447921f8cb, 187be2699f417de6, 3a40a3f53a18b664]\nVerify SLC2A1-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-422356). [20c30f77dc2491fb, 5490966f0991bdf8, 3a40a3f53a18b664]\nVerify GRIN1-related disease shares a Reactome process with STXBP1 yet is excluded by the mechanism layer (analytics inferred; curated Reactome R-HSA-6794361). [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nVerify variant-effect discordance (V=0): STXBP1 loss_of_function vs CACNA1A gain_of_function (ClinVar observed; literature claims). [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040, 34c9bc447921f8cb]\nVerify variant-effect discordance (V=0): STXBP1 loss_of_function vs GRIN1 gain_of_function (ClinVar observed; literature claims). [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730, 9b5a310872598764]\nAccount for indexed contradictions limiting phenotype–genotype correlations: no correlation between seizure severity and ID severity (literature claims). [b1f9e5eeafbc81d2]\nAccount for indexed contradictions: no correlation between mutation type and seizure characteristics or cognitive outcome (literature claims). [e362983ef11a54b1]\nAccount for indexed contradictions: recurrent variants not associated with distinct electroclinical syndromes or overall clinical similarity (literature claims). [ddc8cd6784a496fb]\n\n## Who to contact\nVerify Rikke S Møller linkage for STX1B-related disease via authored works (identity signals to verify: ORCID 0000000296641448; affiliation tokens ‘Danish/Epilepsy/Filadelfia’); evidence class observed (PubMed). [00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\n\n## Proposed first joint step\nVerify NCT05462054 coverage (5/8 target phenotypes) and confirm contact linkage for Rikke S Møller by checking ORCID 0000000296641448, ‘Danish/Epilepsy/Filadelfia’ affiliations, and shared co-author ‘Almuth Caliebe’ across PMID:26865513 and PMID:25362483; use the listed phenotype, mapping and authorship edges (curated/inferred/observed). [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416, bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba, 00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\n\n## Search coverage\nVerify that STX1B-related disease (MONDO:0014517) phenotype coverage is 55% (5/8; IC 16.98/30.76) using the Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and the listed phenotype/measurement edges (CT.gov observed; curated/inferred). [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]",
+  "usage": {
+    "input_tokens": 194255,
+    "output_tokens": 9520
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "osei",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "43bd369a-3a18-4bd8-967e-589c4c4e28d8",
+  "generated_at": "2026-10-04T11:10:54.518272+00:00",
+  "gap_plan": null,
+  "fallback_sections": [],
+  "model": "gpt-5",
+  "elapsed_ms": 123720,
+  "comparator_id": null
+}

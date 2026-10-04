@@ -1,0 +1,16 @@
+{
+  "pmid": "33564903",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "prominent dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are now recognized to cause prominent dystonia, occasionally in an isolated fashion (e.g., GNAO1, GNB1, SCN8A, RHOBTB2, and COQ8A).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

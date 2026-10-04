@@ -1,0 +1,126 @@
+{
+  "pmid": "35429726",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "enhanced mTORC1 pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a newly discovered predominantly focal epilepsy linked to enhanced mTORC1 pathway.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "predominantly focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "predominantly focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial focal epilepsy with variable foci (FFEVF)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "rare sporadic nonlesional focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rare sporadic nonlesional focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile spasms",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sudden unexpected death (SUDEP)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "intelligence usually is unaffected in DEPDC5-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although intelligence usually is unaffected in DEPDC5-related epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disabilities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "various brain abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "found in 20% of individuals with various brain abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "precision therapeutics using mTOR inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "precision therapeutics using mTOR inhibitors",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "many animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "phenotypic rescue in many animal models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

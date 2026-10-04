@@ -1,0 +1,116 @@
+{
+  "pmid": "30534049",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "expression present mainly in the brain; negatively correlated with seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression of stx1b was present mainly in the brain and was negatively correlated with seizures in a pentylenetetrazole (PTZ)-induced seizure zebrafish model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "transcription inhibited by PTZ",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcription of stx1b was inhibited by PTZ",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "valproate rescues STX1B transcription",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcription of stx1b was inhibited by PTZ but rescued by valproate, a broad-spectrum epilepsy treatment drug.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "stx1b knockdown aggravates hyperexcitatory swimming and abnormal trajectory movements, particularly under lighting stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the PTZ-seizure zebrafish model, stx1b knockdown aggravated larvae hyperexcitatory swimming and prompted abnormal trajectory movements, particularly under lighting stimulation;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "stx1b knockdown increases c-fos expression in brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the PTZ-seizure zebrafish model, stx1b knockdown aggravated larvae hyperexcitatory swimming and prompted abnormal trajectory movements, particularly under lighting stimulation; at the same time, the expression levels of the neuronal activity marker gene c-fos increased significantly in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "stx1b overexpression attenuates PTZ-induced seizures in larvae",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stx1b overexpression attenuated seizures and decreased c-fos expression levels following PTZ-induced seizures in larvae.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "stx1b overexpression decreases c-fos expression following PTZ-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stx1b overexpression attenuated seizures and decreased c-fos expression levels following PTZ-induced seizures in larvae.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "deficiency of stx1b may be related to onset of clinical seizures, particularly photosensitive seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, we speculated that a deficiency of stx1b gene expression may be related with the onset occurrence of clinical seizures, particularly photosensitive seizures.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "berberine (BBR) reduces seizure-like behavior and assists recovery of STX1B expression in larvae",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we found that berberine (BBR) reduced larvae hyperexcitatory locomotion and abnormal movement trajectory in a concentration-dependent manner, slowed down excessive photosensitive seizure-like swimming, and assisted in the recovery of the expression levels of STX1B.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "BBR effects are reduced under STX1B downregulation; no effect on photosensitive overexcited swimming",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Under the downregulation of STX1B, BBR's roles were limited: specifically, it only slightly regulated the levels of the two genes stx1b and c-fos and the hyperexcitatory motion of zebrafish in dark conditions and had no effect on the overexcited swimming behavior seen in conjunction with lighting stimulation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "STX1B may partially mediate the anticonvulsant effect of berberine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B may partially mediate the anticonvulsant effect of BBR.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

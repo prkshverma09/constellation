@@ -1,0 +1,26 @@
+{
+  "pmid": "41470225",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms (ISs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in STXBP1, KCNQ2, GRIN2A, GRIN2B, and TSC-related genes are more common than previously recognized",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "partially actionable pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in STXBP1, KCNQ2, GRIN2A, GRIN2B, and TSC-related genes are more common than previously recognized and can be linked to partially actionable pathways.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

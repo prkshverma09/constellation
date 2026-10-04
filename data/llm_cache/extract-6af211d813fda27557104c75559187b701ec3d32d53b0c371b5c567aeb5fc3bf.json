@@ -1,0 +1,66 @@
+{
+  "pmid": "38763950",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy patients with loss of function mutation of DEPDC5 had reduced peripheral CD8+ T cells",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "expression positively correlated with tumor-infiltrating CD8+ T cells and overall cancer patient survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 expression positively correlated with tumor-infiltrating CD8+ T cells as well as overall cancer patient survival",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "mice with T cell-specific Depdc5 deletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice with T cell-specific Depdc5 deletion",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "reduced peripheral CD8+ T cells (in mice)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice with T cell-specific Depdc5 deletion also had reduced peripheral CD8+ T cells",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "impaired anti-tumor immunity (in mice)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired anti-tumor immunity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "Depdc5-deficient CD8+ T cells produced high levels of xanthine oxidase and lipid ROS due to hyper-mTORC1-induced expression of ATF4, leading to spontaneous ferroptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5-deficient CD8+ T cells produced high levels of xanthine oxidase and lipid ROS due to hyper-mTORC1-induced expression of ATF4, leading to spontaneous ferroptosis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

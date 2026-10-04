@@ -1,0 +1,56 @@
+{
+  "pmid": "37071290",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three novel mutations in NPRL3 (nitrogen permease regulator-like 3), c.937_945del, c.1514dupC and 6,706-bp genomic DNA (gDNA) deletion, were identified in three families with focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 protein is a component of the GATOR1 complex, a major inhibitor of mTOR signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations led to truncation of the NPRL3 protein and hampered the binding between NPRL3 and DEPDC5",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "enhanced mTOR signaling in cultured cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, the mutant proteins enhanced mTOR signaling in cultured cells, possibly due to impaired inhibition of mTORC1 by GATOR1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "nprl3 knockdown in Drosophila",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Knockdown of nprl3 in Drosophila resulted in epilepsy-like behavior and abnormal synaptic development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

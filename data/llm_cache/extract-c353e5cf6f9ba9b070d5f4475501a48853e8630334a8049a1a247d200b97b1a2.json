@@ -1,0 +1,56 @@
+{
+  "pmid": "26005849",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Gabrg2(+/Q390X) knock-in mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the Gabrg2(+/Q390X) knock-in mouse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "intracellular accumulation and aggregation of γ2(Q390X) subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutant GABAA receptor γ2(Q390X) subunits accumulated and aggregated intracellularly",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "caspase 3 activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "activated caspase 3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairing inhibitory neurotransmission",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused widespread, age-dependent neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

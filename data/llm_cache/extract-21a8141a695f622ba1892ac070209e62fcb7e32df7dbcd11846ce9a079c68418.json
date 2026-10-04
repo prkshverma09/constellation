@@ -1,0 +1,96 @@
+{
+  "pmid": "31221716",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy type 4 (EIEE4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most commonly early infantile epileptic encephalopathy type 4 (EIEE4, also called STXBP1 encephalopathy)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a severe form of epilepsy associated with developmental delay/intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other neurologic features include autism spectrum disorder and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other neurologic features include autism spectrum disorder and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "extrapyramidal features / early onset parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with the appearance of extrapyramidal features, reminiscent of early onset parkinsonism.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "genetic knockout",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic knockout of STXBP1 or other presynaptic proteins of the exocytic machinery leads to widespread perinatal neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "self-replicating aggregation of α-synuclein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 controls the self-replicating aggregation of α-synuclein",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "syntaxin1-binding protein (Munc18-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 encoding syntaxin1-binding protein (STXBP1, also known as Munc18-1)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "currently available antiepileptic drugs have limited success in controlling seizures in EIEE4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "currently available antiepileptic drugs have shown limited success in controlling seizures in EIEE4",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

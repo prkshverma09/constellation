@@ -1,0 +1,16 @@
+{
+  "pmid": "36036558",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "clinical phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also found an association between the identified properties and both clinical phenotypes and functional in vitro assays for voltage-gated sodium channels (SCN1A, SCN2A, SCN8A) and N-methyl-D-aspartate receptor (GRIN1, GRIN2A, GRIN2B) encoding genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

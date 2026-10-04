@@ -1,0 +1,16 @@
+{
+  "pmid": "40190794",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 (vesicle docking, priming, and fusion)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

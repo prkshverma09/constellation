@@ -1,0 +1,146 @@
+{
+  "pmid": "40939882",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Herein, we identified a novel KCNA2 mutation (c.1175C > T, p.S392F) in two unrelated patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mixed GOF and LOF variant",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mixed GOF and LOF variant",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "hyperpolarizing shift in inactivation and inactivation curves relative to wild-type channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.S392F induced a hyperpolarizing shift both in inactivation and inactivation curves relative to wild-type (WT) channels",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "cell death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It also induced cell death",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "reduction in neuronal firing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary neurons expressing the p.S392F mutation showed a reduction in neuronal firing.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-AP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and was partly rescued by 4- AP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-AP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell death of which was rescued by 4-AP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-AP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The application of 4-AP decreased neuronal firing in S392F transfected neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy in 100.00 % of the cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay/intellectual disability in 100.00 %",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "speech delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "speech delay in 100.00 %",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia in 36.36 %",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-AP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three patients could be partly improved by 4-AP.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

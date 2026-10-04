@@ -1,0 +1,36 @@
+{
+  "pmid": "12849426",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In half the families with FHM who have been studied, there are mutations in the calcium-channel gene CACNA1A, located on chromosome 19.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "calcium-channel gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the calcium-channel gene CACNA1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine with aura",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "A susceptibility locus for migraine with aura has been located on chromosome 19 (but is distinct from CACNA1A)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

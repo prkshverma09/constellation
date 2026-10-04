@@ -1,0 +1,36 @@
+{
+  "pmid": "29086067",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The delineation of the phenotypic spectrum associated with mutations in ATP1A3, FOXG1, GNAO1, GRIN1, FRRS1L, and TBC1D24 is revealing an expanding genetic overlap between epileptic encephalopathies, developmental delay/intellectual disability, and hyperkinetic movement disorders,.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The delineation of the phenotypic spectrum associated with mutations in ATP1A3, FOXG1, GNAO1, GRIN1, FRRS1L, and TBC1D24 is revealing an expanding genetic overlap between epileptic encephalopathies, developmental delay/intellectual disability, and hyperkinetic movement disorders,.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The delineation of the phenotypic spectrum associated with mutations in ATP1A3, FOXG1, GNAO1, GRIN1, FRRS1L, and TBC1D24 is revealing an expanding genetic overlap between epileptic encephalopathies, developmental delay/intellectual disability, and hyperkinetic movement disorders,.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

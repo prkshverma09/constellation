@@ -1,0 +1,106 @@
+{
+  "pmid": "26740507",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-gated potassium channel subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium-gated potassium channel subunit gene KCNT1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "several different epileptic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the sodium-gated potassium channel subunit gene KCNT1 have recently emerged as a cause of several different epileptic disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "comorbidities found in patients, which include intellectual disability and psychiatric features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "comorbidities found in patients, which include intellectual disability and psychiatric features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "cardiac disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gene may also be linked with cardiac disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "malignant migrating focal seizures of infancy (MMFSI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 missense mutations have been found in 39% of patients with the epileptic encephalopathy malignant migrating focal seizures of infancy (MMFSI), making it the most significant MMFSI disease-causing gene identified to date.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal-dominant nocturnal frontal lobe epilepsy (ADNFLE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in KCNT1 have also been described in eight unrelated cases of sporadic and familial autosomal-dominant nocturnal frontal lobe epilepsy (ADNFLE).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, all mutations in KCNT1 described to date are missense mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electrophysiological studies have shown that they result in increased potassium current.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "drugs that alter the action of potassium channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, these genetic and electrophysiological studies raise the possibility of delivering precision medicine by treating patients with KCNT1 mutations using drugs that alter the action of potassium channels to specifically target the biological effects of their disease-causing mutation. Such trials are now in progress.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

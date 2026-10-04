@@ -1,0 +1,16 @@
+{
+  "pmid": "35636691",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "likely proxy for neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, several proteins have been identified as likely proxies for neurodegeneration, including neurofilament light (NfL), synaptosomal-associated protein 25 (SNAP-25) and neurogranin (NRGN).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

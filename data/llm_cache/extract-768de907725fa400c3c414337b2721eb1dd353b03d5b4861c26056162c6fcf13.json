@@ -1,0 +1,106 @@
+{
+  "pmid": "42193054",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "transcription factor in the developing brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "also has a crucial role as a transcription factor in the developing brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The bi-allelic loss of the WWOX gene causes a condition characterized by drug-resistant epilepsy, developmental delay, and neurological impairments, often resulting in mortality within the first year of life, known as WWOX-related epileptic encephalopathy (WOREE) syndrome (MIM: 616211).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neurological impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurological impairments",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "mortality within the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often resulting in mortality within the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WES revealed a 38 kb CNV deletion spanning WWOX exons 6-7, and a known frameshift variant in exon 8, impairing a highly clinically significant region of the encoded protein.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe early-onset refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe early-onset refractory seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

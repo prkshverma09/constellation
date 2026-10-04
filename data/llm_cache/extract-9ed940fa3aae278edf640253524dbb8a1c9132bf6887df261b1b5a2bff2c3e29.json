@@ -1,0 +1,16 @@
+{
+  "pmid": "41969610",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "U87 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the proliferation and migration ability of U87 cells were significantly elevated after the knockdown of XAB2, PNKP, and OGG1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

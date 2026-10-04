@@ -1,0 +1,26 @@
+{
+  "pmid": "26060908",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes for epileptic encephalopathies such as SLC2A1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "GGE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes for epileptic encephalopathies such as SLC2A1 were rediscovered in GGE",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

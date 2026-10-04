@@ -1,0 +1,76 @@
+{
+  "pmid": "37986872",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "controls calcium-dependent signaling in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The voltage-gated calcium channel subunit α2δ-2 controls calcium-dependent signaling in neurons, and loss of this subunit causes epilepsy in both mice and humans.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "CACNA2D2 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "wildtype (WT) and α2δ-2 knockout (CACNA2D2 KO) mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "no difference in basal activity of granule cells between genotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both genotypes demonstrated similarly sparse c-fos expression within the hippocampal dentate granule cell layer (GCL) at baseline, consistent with no difference in basal activity of granule cells between genotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "decreased activity in the dentate gyrus after handling-associated convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "when mice were assayed 1 hour after handling-associated convulsions, KO mice had fewer c-fos-positive cells in the dentate gyrus, indicating that activity in the dentate gyrus actually decreased.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increased susceptibility to proconvulsant stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, the dentate was significantly more active in KO mice compared to WT after administration of a subthreshold pentylenetetrazole dose, consistent with increased susceptibility to proconvulsant stimuli.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increase in hilar mossy cell density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other histopathological markers of temporal lobe epilepsy in these mice, including markers of neurogenesis, glial activation, and mossy fiber sprouting, were similar in WT and KO mice, apart from a small but significant increase in hilar mossy cell density, opposite to what is typically found in mice with temporal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "altered functional properties of the network without associated structural changes in the hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This suggests that the differences in seizure-associated hippocampal function in the absence of α2δ-2 protein are likely due to altered functional properties of the network without associated structural changes in the hippocampus at the typical age of seizure onset.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

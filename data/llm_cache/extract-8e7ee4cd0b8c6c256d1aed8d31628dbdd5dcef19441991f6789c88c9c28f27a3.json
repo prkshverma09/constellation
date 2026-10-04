@@ -1,0 +1,56 @@
+{
+  "pmid": "42190144",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "recognized major cause of EIDEE-BS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the KCNQ2, STXBP1, and SCN2A genes are recognized as major causes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "accounted for one-third of diagnoses (n = 16)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 (n = 24) and STXBP1 (n = 16) accounted for one-third of diagnoses",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset at mean 6 weeks; BS onset at ~2 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In KCNQ2 cases, seizures and BS onset occurred earlier than in STXBP1 cases: mean 2 days vs 6 weeks for seizures and 3 days vs 2 months for BS, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "typical burst-suppression pattern (bursts longer than suppressions) correlated with variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A typical BS pattern (bursts longer than suppressions) strongly correlated with KCNQ2 and STXBP1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "one of the most commonly affected genes in the cohort",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2, STXBP1, and SCN2A were the most commonly affected genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

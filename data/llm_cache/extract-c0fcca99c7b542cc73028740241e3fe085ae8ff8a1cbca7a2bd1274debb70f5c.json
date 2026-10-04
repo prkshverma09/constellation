@@ -1,0 +1,126 @@
+{
+  "pmid": "28102598",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "milder physical phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with SMC1A-associated CdLS have a milder physical phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "prominent intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prominent intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "cleft palate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high rate of cleft palate",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "absence of limb reductions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "absence of limb reductions",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "feeding difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "feeding difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "hirsutism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hirsutism",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "left ventricular non-compaction cardiomyopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "left ventricular non-compaction (LVNC) cardiomyopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "microform cleft lip",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microform cleft lip",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe hyperopia and astigmatism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe hyperopia and astigmatism",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "hypertrophic cardiomyopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hypertrophic cardiomyopathy has previously been reported in SMC1A-associated CdLS",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

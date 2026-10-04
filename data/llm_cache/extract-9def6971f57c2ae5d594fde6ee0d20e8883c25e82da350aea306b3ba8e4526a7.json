@@ -1,0 +1,126 @@
+{
+  "pmid": "42430850",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "biallelic loss-of-function mutations in the Ferric Chelate Reductase 1 Like (FRRS1L) gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with seizures, developmental delay, dyskinesia, ataxia and progressive, eventually debilitating cognitive and motor impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with seizures, developmental delay, dyskinesia, ataxia and progressive, eventually debilitating cognitive and motor impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with seizures, developmental delay, dyskinesia, ataxia and progressive, eventually debilitating cognitive and motor impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with seizures, developmental delay, dyskinesia, ataxia and progressive, eventually debilitating cognitive and motor impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "progressive, eventually debilitating cognitive and motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with seizures, developmental delay, dyskinesia, ataxia and progressive, eventually debilitating cognitive and motor impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "encodes an auxiliary subunit essential for the tetrameric assembly of AMPARs and their recruitment to synaptic membranes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FRRS1L encodes an auxiliary subunit essential for the tetrameric assembly of α-amino-3 hydroxy-5-methyl-4 isoxazolepropionic acid receptors (AMPARs) and their recruitment to synaptic membranes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "expressed brain-wide, with high levels in the cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FRRS1L is expressed brain-wide, with high levels in the cerebellum.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "model",
+      "object_text": "Frrs1l-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Administering the virus intrathecally in two doses (5 × 1010 and 3 × 1011 vg) to Frrs1l-knockout mice, we evaluated safety and efficacy in multiple phenotypic traits shared with affected patients.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "therapy",
+      "object_text": "AAV9 gene replacement expressing human FRRS1L (JeT promoter) administered intrathecally",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we developed an adeno-associated virus 9 (AAV9) gene replacement vector expressing human FRRS1L driven by the JeT promoter.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "gene replacement partially restores synaptic AMPAR and ameliorates disease-relevant phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebrospinal fluid-directed virally mediated FRRS1L gene replacement partially restores synaptic AMPAR and ameliorates disease-relevant phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "robust, near-normal FRRS1L expression in cerebellum associated with increased synaptic AMPAR abundance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We obtained robust, near-normal, FRRS1L expression in the cerebellum and low levels of expression elsewhere in the brain, which were associated with corresponding levels of increased synaptic AMPAR abundance.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

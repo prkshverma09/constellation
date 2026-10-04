@@ -1,0 +1,126 @@
+{
+  "pmid": "34954508",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "global psychomotor delay mainly involving language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global psychomotor delay mainly involving language",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "moderate-to-severe cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderate-to-severe cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with spontaneous and reflex seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a generalized epilepsy with spontaneous and reflex seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "fine and gross-motor impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a fine and gross-motor impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a drug-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pluridaily absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pluridaily absence seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "periods of psychomotor regressions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may lead to periods of psychomotor regressions",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "eating and sleep problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eating and sleep problems are reported in the majority.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "language impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral issues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral issues",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "lack of autonomy in daily-living activities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lack of autonomy in daily-living activities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

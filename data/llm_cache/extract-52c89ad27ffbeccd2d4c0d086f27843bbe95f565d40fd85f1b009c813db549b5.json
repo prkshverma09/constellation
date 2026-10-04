@@ -1,0 +1,16 @@
+{
+  "pmid": "36330645",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "proteins related to excitatory amino acids and calcium overload",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The targets covered were proteins related to excitatory amino acids and calcium overload, including Excitatory amino acid transporter 2 (SLC1A2), Glutamate receptor ionotropic, kainate 1 (GRIK1), Glutamate receptor ionotropic, NMDA 1 (GRIN1), Glutamate receptor 2(GRIA2), Calcium/calmodulin-dependent protein kinase II (CaMKII), Neuronal nitric oxide synthase(nNOS).",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

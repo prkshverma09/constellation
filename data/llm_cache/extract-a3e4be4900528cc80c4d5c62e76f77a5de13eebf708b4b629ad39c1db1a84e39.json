@@ -1,0 +1,16 @@
+{
+  "pmid": "34679360",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "neonatal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent advances showed the role of several genes in the pathogenesis of these conditions, such as KCNQ2, KCNQ3, ARX, STXBP1, SLC25A22, CDKL5, KCNT1, SCN2A and SCN8A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

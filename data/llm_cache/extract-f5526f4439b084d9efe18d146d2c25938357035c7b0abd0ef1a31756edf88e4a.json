@@ -1,0 +1,146 @@
+{
+  "pmid": "32891704",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 loss-of-function mutations have been associated with familial paroxysmal kinesigenic dyskinesia (PKD), infantile convulsions and choreoathetosis, and benign familial infantile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "familial paroxysmal kinesigenic dyskinesia (PKD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial paroxysmal kinesigenic dyskinesia (PKD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions and choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile convulsions and choreoathetosis",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign familial infantile seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "Dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dystonia is the foremost involuntary movement disorder manifest by patients with PKD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "highest levels of expression in cerebellar cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed the highest levels of expression in cerebellar cortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "transcripts reside in granule cells but not Purkinje cells or interneurons within cerebellar cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prrt2 transcripts reside in granule cells but not Purkinje cells or interneurons within cerebellar cortex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptically localized in the molecular layer",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 is presynaptically localized in the molecular layer.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "Prrt2-/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prrt2-/- mice have increased numbers of docked vesicles but decreased vesicle numbers overall.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "reduced parallel fiber facilitation at parallel fiber-Purkinje cell synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced parallel fiber facilitation at parallel fiber-Purkinje cell synapses",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "reduced Purkinje cell excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced Purkinje cell excitability",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "normal cerebellar nuclear excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal cerebellar nuclear excitability",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "dystonia in Prrt2-/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "approximately 5% of Prrt2-/- mice exhibited overt PKD with clear face validity manifest as dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "altered cerebellar activity promotes disinhibition of the cerebellar nuclei, driving motor abnormalities in PKD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "establishing a potential mechanism by which altered cerebellar activity promotes disinhibition of the cerebellar nuclei, driving motor abnormalities in PKD.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "28283832",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU alteration mostly drives epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU alteration mostly drives epilepsy and determines the degree of intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "thin corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ZBTB18 may also contribute to microcephaly and HNRNPU to thin corpus callosum, but with a lower penetrance.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

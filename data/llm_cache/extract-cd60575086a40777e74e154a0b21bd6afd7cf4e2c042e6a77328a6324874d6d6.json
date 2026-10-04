@@ -1,0 +1,16 @@
+{
+  "pmid": "33519703",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "loss of effects of anticonvulsants after 12 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the important aspect of avoiding overtreatment in CDKL5 patients, due to loss of effects of anticonvulsants after 12 months,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

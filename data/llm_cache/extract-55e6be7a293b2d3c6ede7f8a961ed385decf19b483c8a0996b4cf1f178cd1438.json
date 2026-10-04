@@ -1,0 +1,26 @@
+{
+  "pmid": "31498117",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "target_of_miR-330-3p",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that GRIA3 is a target of miR-330-3p",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "GRIA3-TGF-β1 interaction mediates EMT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "miR-330-3p stimulates EMT progress by mediating GRIA3-TGF-β1 interaction.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

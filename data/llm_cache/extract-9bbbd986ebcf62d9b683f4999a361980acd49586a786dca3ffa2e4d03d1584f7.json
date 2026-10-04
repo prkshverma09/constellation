@@ -1,0 +1,16 @@
+{
+  "pmid": "39677454",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Presumably pathogenic variants in less well-established dystonia genes were also found, including KCNMA1, KIF1A, and ZMYND11.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

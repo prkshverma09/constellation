@@ -1,0 +1,16 @@
+{
+  "pmid": "40504793",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identifying loss-of-function variants in CCDC115, SLC4A5, DEPDC5, ETFDH, SNRNP200, and DOCK1 that co-segregated with milder neurological involvement.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

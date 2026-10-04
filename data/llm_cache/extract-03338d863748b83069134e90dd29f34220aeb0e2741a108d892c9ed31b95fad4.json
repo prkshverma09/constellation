@@ -1,0 +1,16 @@
+{
+  "pmid": "35635716",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "oral edaravone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, oral edaravone significantly reduced cerebral infarction area and downregulated the levels of caspase-3, GFAP, Iba1, 3-NT, and 4-HNE, whereas upregulated those of Vamp-2 and Map-2 in a dose-dependent manner.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

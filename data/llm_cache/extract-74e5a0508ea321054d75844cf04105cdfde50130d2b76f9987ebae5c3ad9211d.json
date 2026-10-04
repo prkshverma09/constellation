@@ -1,0 +1,36 @@
+{
+  "pmid": "34160719",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo mutation, p.Asp668Asn, in GRIN2B was identified in a sporadic case of ARE",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "RE/ARE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The results from the present study suggest that the genes ADGRV1, GRIN2B, and RyR2 are associated with RE/ARE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "calcium homeostasis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genes are all calcium homeostasis associated genes",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

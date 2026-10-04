@@ -1,0 +1,16 @@
+{
+  "pmid": "17337006",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vesicular docking and release proteins (VAMP-2, synaptotagmin, SNAP-25, syntaxin, synaptophysin).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

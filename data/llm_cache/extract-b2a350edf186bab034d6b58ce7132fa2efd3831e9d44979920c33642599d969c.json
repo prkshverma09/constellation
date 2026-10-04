@@ -1,0 +1,106 @@
+{
+  "pmid": "30642806",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies and heterogeneous syndromes presenting with movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 variants were recently discovered as causes of epileptic encephalopathies and heterogeneous syndromes presenting with movement disorders (MDs)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe early-onset hyperkinetic syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-related MD consisted of a severe early-onset hyperkinetic syndrome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with prominent chorea, dystonia and orofacial dyskinesia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with prominent chorea, dystonia and orofacial dyskinesia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "orofacial dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with prominent chorea, dystonia and orofacial dyskinesia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "poor response to medical therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Symptoms are poorly responsive to medical therapy and fluctuate, with critical and life-threatening exacerbations, such as status dystonicus.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "status dystonicus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "status dystonicus",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "higher risk of movement disorder emergency associated with choreiform MD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The presence of a choreiform MD appears to be predictive of a higher risk of movement disorder emergency.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "surgical treatments sometimes effective",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surgical treatments are sometimes effective, although severe disabilities persist.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(associated with loss of function variants)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

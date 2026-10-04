@@ -1,0 +1,96 @@
+{
+  "pmid": "38076278",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Rett-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present a case of a girl with a DEE characterized by a Rett-like phenotype in association with febrile and afebrile clusters of focal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile and afebrile clusters of focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present a case of a girl with a DEE characterized by a Rett-like phenotype in association with febrile and afebrile clusters of focal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The girl presented typical development until the age of 18 months, followed by regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile bilateral tonic-clonic seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first febrile bilateral tonic-clonic seizure was observed at 30 months of age,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure clusters (several episodes per day every 10 days)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the following month seizures recurred in clusters of several episodes per day every 10 days.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioural arrest, emotional symptoms, head turning, followed by bilateral tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These seizures were characterized by behavioural arrest, emotional symptoms, head turning, and followed by bilateral tonic-clonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "valproic acid and levetiracetam (led to prolonged seizure control)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The administration of valproic acid and levetiracetam led to prolonged seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "monthly recurrent clusters of focal seizures and non-convulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, from the age of 7 years, she had monthly recurrent clusters of focal seizures and non-convulsive status epilepticus which occurred at different ages.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "mild non-progressive hemispheric cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain and spinal cord MRI showed mild non-progressive hemispheric cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "38727899",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders and epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the Glutamate receptor Ionotropic N-methyl-D-aspartate (GRIN) genes (GRIN1, GRIN2A-D) encoding NMDAR subunits have been associated with a wide spectrum of neurodevelopmental disorders and epilepsies ranging from treatable focal epilepsies to devastating early-onset developmental and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B loss-of-function missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B loss-of-function missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "L-serine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supplementary treatment with L-serine has been associated with improved motor and cognitive performance as well as reduced seizure frequency in patients with GRIN2B loss-of-function missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

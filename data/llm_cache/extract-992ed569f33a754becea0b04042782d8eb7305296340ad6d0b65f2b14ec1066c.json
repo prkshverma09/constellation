@@ -1,0 +1,106 @@
+{
+  "pmid": "36882827",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental epileptic encephalopathy (DEE) was observed in 18 (94.7%) patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "7 patients became seizure-free",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "profound intellectual disability/global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirteen patients (68.4%) had profound ID/GDD",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability/global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirteen patients (68.4%) had profound ID/GDD, 4 (23.53%) severe, 1 (5.9%) moderate and 1 (5.9%) mild",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "moderate intellectual disability/global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirteen patients (68.4%) had profound ID/GDD, 4 (23.53%) severe, 1 (5.9%) moderate and 1 (5.9%) mild",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual disability/global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirteen patients (68.4%) had profound ID/GDD, 4 (23.53%) severe, 1 (5.9%) moderate and 1 (5.9%) mild",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three patients (15.8%) with profound ID died",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with missense variants and nonsense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "combinations of levetiracetam and/or sodium valproate and/or ACTH and/or phenobarbital and/or vigabatrin and/or topiramate and/or nitrazepam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Combinations of levetiracetam and/or sodium valproate and/or ACTH and/or phenobarbital and/or vigabatrin and/or topiramate and/or nitrazepam were more often associated with seizure freedom in our cohort within 2 years of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "no genotype-phenotype correlation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no correlation between the types of pathogenic variants and the phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

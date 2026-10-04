@@ -1,0 +1,66 @@
+{
+  "pmid": "28072960",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal continuous myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He had an acute episode of focal continuous myoclonus lasting a few hours with consciousness preserved at the age of 3 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic jerks affecting eyelids and limbs, sometimes triggered by fever or fatigue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Myoclonic jerks alternatively affected the eyelids, either the right or left limbs, sometimes triggered by fever or fatigue.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "ataxia and mild mental retarding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He had ataxia and mild mental retarding.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "no paroxysmal anomalies on ictal traces",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Paroxysmal anomalies were not found on ictal traces.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset focal continuous myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 gene mutational analysis should be performed on patients with early-onset focal continuous myoclonus, if the etiology was unclear.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten mutations were identified, including 1 termination mutation, 1 frameshift mutation and 8 missense mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

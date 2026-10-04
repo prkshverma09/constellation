@@ -1,0 +1,36 @@
+{
+  "pmid": "36870948",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "VEP amplitude",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VEP amplitude correlated with clinical severity for Rett syndrome and FOXG1 syndrome (n = 5).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "AEP latency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Auditory evoked potential (AEP) amplitude did not differ between groups, but AEP latency was prolonged in individuals with MECP2 duplication syndrome (n = 14) and FOXG1 syndrome (n = 6) compared to individuals with Rett syndrome (n = 51) and CDKL5 deficiency disorder (n = 14).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "AEP latency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AEP latency correlated with severity in CDKL5 deficiency disorder, MECP2 duplication syndrome, and FOXG1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

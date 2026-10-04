@@ -1,0 +1,46 @@
+{
+  "pmid": "40480833",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Q/R editing at nearly 100% efficiency in nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "edits the GRIA2 transcript Q/R editing site with almost 100% efficiency in the nervous system.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Edited GRIA2 R encodes GLUA2 R subunit essential to prevent seizures by limiting AMPA receptor cation permeability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The edited GRIA2 R transcript encodes the GLUA2 R subunit isoform of tetrameric α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptors, which is essential to prevent seizures associated with aberrantly elevated AMPA receptor cation permeability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Reduced Q/R editing increases AMPA receptor permeability via upregulation of GLUA2 Q and reduced GLUA2 levels, yielding GLUA2-lacking, calcium-permeable AMPA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced GRIA2 Q/R site editing increases AMPA receptor permeability by upregulating the expression of the GLUA2 Q isoform and reducing overall GLUA2 subunit levels, resulting in AMPA receptors that lack GLUA2 and are calcium-permeable.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Failure to edit Q/R site leads to failure of intron 11 splicing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "failure to edit the GRIA2 Q/R site leads to failure of intron 11 splicing",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

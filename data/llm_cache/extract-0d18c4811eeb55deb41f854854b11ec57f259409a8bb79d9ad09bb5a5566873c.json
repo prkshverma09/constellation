@@ -1,0 +1,26 @@
+{
+  "pmid": "38850769",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "clinical overlap with MECP2 Duplication Syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which has some clinical overlap with Methyl-CpG-binding protein 2 (MECP2) Duplication Syndrome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "biotoxins have MECP2-dysregulating properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with neuroinflammatory, excitotoxic, tauopathic, and MECP2-dysregulating properties",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

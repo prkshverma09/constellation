@@ -1,0 +1,16 @@
+{
+  "pmid": "19203856",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GEFS+ has also been associated with mutations of genes encoding the sodium channel beta 1 subunit, SCN1B, and the GABA(A) receptor gamma 2 subunit, GABRG2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

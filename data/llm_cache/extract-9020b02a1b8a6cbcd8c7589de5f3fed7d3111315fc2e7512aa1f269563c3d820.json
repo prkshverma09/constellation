@@ -1,0 +1,16 @@
+{
+  "pmid": "40969890",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "inhibition of the 5-phosphatase activity of Synaptojanin1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inhibition of the 5-phosphatase activity of Synaptojanin1 was identified as a potential therapeutic approach for Alzheimer's disease, Down syndrome, and TBC1D24-associated epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

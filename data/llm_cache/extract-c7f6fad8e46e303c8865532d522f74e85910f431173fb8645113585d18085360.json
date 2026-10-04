@@ -1,0 +1,136 @@
+{
+  "pmid": "40810392",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 haploinsufficiency-related intellectual disability (SYNGAP1-ID) is characterized by moderate to severe ID, generalized epilepsy, autism spectrum disorder, sensory processing dysfunction, and other behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 haploinsufficiency-related intellectual disability (SYNGAP1-ID) is characterized by moderate to severe ID, generalized epilepsy, autism spectrum disorder, sensory processing dysfunction, and other behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 haploinsufficiency-related intellectual disability (SYNGAP1-ID) is characterized by moderate to severe ID, generalized epilepsy, autism spectrum disorder, sensory processing dysfunction, and other behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sensory processing dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 haploinsufficiency-related intellectual disability (SYNGAP1-ID) is characterized by moderate to severe ID, generalized epilepsy, autism spectrum disorder, sensory processing dysfunction, and other behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "other behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 haploinsufficiency-related intellectual disability (SYNGAP1-ID) is characterized by moderate to severe ID, generalized epilepsy, autism spectrum disorder, sensory processing dysfunction, and other behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "embryonic-onset Syngap1 haploinsufficiency restricted to GABAergic interneurons derived from the medial ganglionic eminence (MGE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "embryonic-onset Syngap1 haploinsufficiency restricted to GABAergic interneurons derived from the medial ganglionic eminence (MGE)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "increased firing threshold in Parvalbumin (PV)+ neurons in adult layer IV A1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 haploinsufficiency significantly affected the intrinsic properties, overall leading to increased firing threshold and decreased excitatory synaptic drive in Parvalbumin (PV)+ neurons in adult layer IV A1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "decreased excitatory synaptic drive in Parvalbumin (PV)+ neurons in adult layer IV A1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 haploinsufficiency significantly affected the intrinsic properties, overall leading to increased firing threshold and decreased excitatory synaptic drive in Parvalbumin (PV)+ neurons in adult layer IV A1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "decreased AMPA component of thalamocortical evoked EPSC in PV+ cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further, the AMPA component of thalamocortical evoked EPSC was decreased in PV+ cells from mutant mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "decreased spontaneous excitatory input and impaired evoked firing in somatostatin (SST)+ interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutant somatostatin (SST)+ interneurons exhibited decreased spontaneous excitatory input and impaired evoked firing without alterations in firing threshold.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "selective blocking of voltage-gated D-type K+ currents rescues PV+ mutant cell-intrinsic properties to wild-type levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the selective blocking of voltage-gated D-type K+ currents was sufficient to rescue PV+ mutant cell-intrinsic properties to wild-type levels.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "haploinsufficiency may lead to reduced PV cell recruitment in the adult A1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its haploinsufficiency may lead to reduced PV cell recruitment in the adult A1",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "plays a specific role in the maturation of PV+ cell-intrinsic properties and synaptic drive",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 plays a specific role in the maturation of PV+ cell-intrinsic properties and synaptic drive",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

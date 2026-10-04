@@ -1,0 +1,16 @@
+{
+  "pmid": "38612920",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "X-linked epileptic syndromes thoroughly characterized to date",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(PCDH19-related DEE, CDKL5-related DEE, MECP2-related disorders)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "37445950",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GRIN1 levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreasing brain glutamate, SLC6A1, GRIN1 levels, GABA transaminase activity, and SLC6A1 and GRIN1 mRNA expression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GRIN1 mRNA expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreasing brain glutamate, SLC6A1, GRIN1 levels, GABA transaminase activity, and SLC6A1 and GRIN1 mRNA expression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

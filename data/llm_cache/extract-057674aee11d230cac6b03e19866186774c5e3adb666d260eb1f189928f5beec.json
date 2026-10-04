@@ -1,0 +1,66 @@
+{
+  "pmid": "29264390",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 variant c.595A>T (p.Ile199Phe).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with centrotemporal spikes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a proband with a neurodevelopmental disorder that included epilepsy and centrotemporal spikes on EEG.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "normal protein expression and trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biochemical characterization of the variant suggested normal protein expression and trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "biophysical channel defects in assembled homotetrameric and heterotetrameric channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional characterization revealed biophysical channel defects in assembled homotetrameric and heterotetrameric channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KCNB1-I199F variant exhibited partial loss of function relative to the wild-type channel.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "the degree of KCNB1 protein dysfunction may influence disease severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the degree of KCNB1 protein dysfunction may influence disease severity.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

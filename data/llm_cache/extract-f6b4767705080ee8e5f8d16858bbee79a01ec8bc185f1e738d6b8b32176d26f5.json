@@ -1,0 +1,16 @@
+{
+  "pmid": "26795593",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "novel disease gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three genes (COQ4, DNM1, and PURA) were initially reported as likely positive novel disease genes and were subsequently corroborated in independent peer-reviewed publications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

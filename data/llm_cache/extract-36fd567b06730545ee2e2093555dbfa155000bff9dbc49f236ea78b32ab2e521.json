@@ -1,0 +1,46 @@
+{
+  "pmid": "20797691",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a pathogenic mutation was identified in TBC1D24 (p.F251L)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "predicted function as Rab GTPase activators",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a member of a large gene family encoding TBC domain proteins with predicted function as Rab GTPase activators",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "modulator of primary axonal arborization and specification",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 protein is a potent modulator of primary axonal arborization and specification in neuronal cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "mouse brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 is expressed early in mouse brain",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

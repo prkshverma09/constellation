@@ -1,0 +1,146 @@
+{
+  "pmid": "36937533",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "assembly factor of the GATOR1 protein complex in the mechanism of rapamycin pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As one of the assembly factors of the GATOR1 protein complex in the mechanism of rapamycin pathway, NPRL3 plays an important role in the pathogenesis of epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the NPRL3 gene mutations, loss of function (nonsense mutations, frameshift mutations, and exons deletion) was the most common genetic variation (75%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Based on bioinformatics analysis, it was found that two missense mutation sites were highly conserved, and the c.400G>A mutation site of the NPRL3 gene caused the alteration of the protein structure.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two of them presented infantile spasms (ISs) as a new phenotype of NPRL3-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "sleep-related hypermotor epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common presentations were sleep-related hypermotor epilepsy (SHE), frontal lobe epilepsy (FLE), and temporal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "frontal lobe epilepsy (FLE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common presentations were sleep-related hypermotor epilepsy (SHE), frontal lobe epilepsy (FLE), and temporal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "temporal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common presentations were sleep-related hypermotor epilepsy (SHE), frontal lobe epilepsy (FLE), and temporal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "normal neuroimaging results",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A majority of patients (70%) presented normal neuroimaging results, and focal cortical dysplasia was the most common neuroimaging abnormality (62.5%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A majority of patients (70%) presented normal neuroimaging results, and focal cortical dysplasia was the most common neuroimaging abnormality (62.5%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For 73% of patients with NPRL3-related epilepsy, monotherapy of sodium channel blockers was effective.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surgery was effective for 75% of children with neuroimaging abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diets (KD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two cases unresponsive to surgery or anti-seizure medications were treated with ketogenic diets (KD), which were effective.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One case was treated with rapamycin at an early stage of epilepsy, which was effective as well.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "high clinical and genetic heterogeneity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3-related epilepsy has high clinical and genetic heterogeneity.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

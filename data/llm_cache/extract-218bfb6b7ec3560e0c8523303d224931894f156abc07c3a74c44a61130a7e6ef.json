@@ -1,0 +1,156 @@
+{
+  "pmid": "28377535",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurodevelopmental disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "cerebral volume loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebral volume loss",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "malformation of cortical development (MCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "malformation of cortical development (MCD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants cluster in transmembrane segments and ligand-binding sites.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealing various potential gain-of-function and loss-of-function mechanisms",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealing various potential gain-of-function and loss-of-function mechanisms",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "response to memantine treatment were investigated in vitro",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a retained sensitivity to the use-dependent blocker memantine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "in vitro",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "investigated in vitro",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

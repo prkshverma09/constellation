@@ -1,0 +1,26 @@
+{
+  "pmid": "39985505",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "early onset DEEs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants in potassium channel genes like KCNQ2 and KCNT1 are frequent causes of early onset DEEs.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KCNT1 blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Efforts are ongoing to develop more effective KCNQ activators and KCNT1 blockers.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

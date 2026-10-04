@@ -1,0 +1,76 @@
+{
+  "pmid": "41982948",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly, seizures and developmental delay, known as MCSZ, is an uncommon autosomal recessive neurodevelopmental disorder linked to a bifunctional enzyme named polynucleotide-kinase-3'-phosphatase (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly, seizures and developmental delay, known as MCSZ, is an uncommon autosomal recessive neurodevelopmental disorder linked to a bifunctional enzyme named polynucleotide-kinase-3'-phosphatase (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly, seizures and developmental delay, known as MCSZ, is an uncommon autosomal recessive neurodevelopmental disorder linked to a bifunctional enzyme named polynucleotide-kinase-3'-phosphatase (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "bifunctional enzyme polynucleotide-kinase-3'-phosphatase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a bifunctional enzyme named polynucleotide-kinase-3'-phosphatase (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "exon 15 skipping and intron 14 retention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirmed, through RNA-seq, that c. 1299-1G>A results in exon 15 skipping and intron 14 retention.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "truncated protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both variants led to a truncated protein and may affect protein stability and enzyme activity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both variants led to a truncated protein and may affect protein stability and enzyme activity.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

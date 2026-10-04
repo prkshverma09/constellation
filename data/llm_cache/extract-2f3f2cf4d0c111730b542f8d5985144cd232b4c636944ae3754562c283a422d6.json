@@ -1,0 +1,16 @@
+{
+  "pmid": "40608138",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome (RTT) is a neurological disorder caused by mutations in the MECP2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

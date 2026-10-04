@@ -1,0 +1,66 @@
+{
+  "pmid": "39833032",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly, epilepsy, and developmental delay (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly, epilepsy, and developmental delay (MCSZ) is a rare neurodevelopmental disorder associated with autosomal recessive inheritance of mutations in the polynucleotide kinase 3'-phosphatase (PNKP) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "fetal microcephaly with a gradual decline in head circumference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this case, prenatal screening in the second trimester detected fetal microcephaly with a gradual decline in head circumference, prompting the decision to terminate the pregnancy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "compound heterozygous mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subsequent genetic analysis of the fetal tissue confirmed the presence of compound heterozygous mutations in the PNKP gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "heterozygous c.1188 + 1G > A PNKP mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient carried the heterozygous c.1188 + 1G > A PNKP mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "heterozygous c.976G > A PNKP mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "her husband carried the heterozygous c.976G > A PNKP mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "compound heterozygous mutations c.976G > A and c.1188 + 1G > A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The fetus was found to have compound heterozygous mutations c.976G > A and c.1188 + 1G > A.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

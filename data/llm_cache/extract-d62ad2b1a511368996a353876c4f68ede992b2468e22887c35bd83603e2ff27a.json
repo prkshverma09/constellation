@@ -1,0 +1,16 @@
+{
+  "pmid": "23429546",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 was identified as the long-sought gene for benign familial infantile seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41147997",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "ion-channel dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ion-channel dysfunction (CACNA1A, SCN1A, ATP1A2), vascular impairment (NOTCH3, TREX1), mitochondrial dysfunction (MT-TL1), and circadian dysregulation (CSNK1D) emerged as critical contributors to migraine pathophysiology.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

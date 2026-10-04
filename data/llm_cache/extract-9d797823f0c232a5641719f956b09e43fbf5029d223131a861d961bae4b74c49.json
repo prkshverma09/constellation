@@ -1,0 +1,16 @@
+{
+  "pmid": "41510857",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant pathogenic changes were found in MECP2, ADGRV1, CACNA1H, KCNQ2, RELN, TREX1, WWOX, CACNA1, PRUNE1, CLP1, CPA7, PNKP, IFIH1, SCN8A",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

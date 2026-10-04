@@ -1,0 +1,46 @@
+{
+  "pmid": "25297589",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesias (PKD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proline-rich transmembrane protein 2 (PRRT2), the causative gene of paroxysmal kinesigenic dyskinesias (PKD),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures (BFIS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proline-rich transmembrane protein 2 (PRRT2), the causative gene of paroxysmal kinesigenic dyskinesias (PKD), benign familial infantile seizures (BFIS) and infantile convulsions with paroxysmal choreoathetosis (ICCA),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions with paroxysmal choreoathetosis (ICCA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proline-rich transmembrane protein 2 (PRRT2), the causative gene of paroxysmal kinesigenic dyskinesias (PKD), benign familial infantile seizures (BFIS) and infantile convulsions with paroxysmal choreoathetosis (ICCA),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "a variety of neurological paroxysmal disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proline-rich transmembrane protein 2 (PRRT2), the causative gene of paroxysmal kinesigenic dyskinesias (PKD), benign familial infantile seizures (BFIS) and infantile convulsions with paroxysmal choreoathetosis (ICCA), also causes a variety of neurological paroxysmal disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

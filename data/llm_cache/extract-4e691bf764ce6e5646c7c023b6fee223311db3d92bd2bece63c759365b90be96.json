@@ -1,0 +1,36 @@
+{
+  "pmid": "9542590",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "syntaxin-1 (stx1A and stx1B) implicated in neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syntaxin-1 (stx1A and stx1B), another protein implicated in neurotransmitter release,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "no change in syntaxin-1 immunoreactivity in the mossy fiber layer after 5 min ischemia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, no changes in GAP-43 and syntaxin-1 immunoreactivity were observed in the mossy fiber layer following 5 min of ischemia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "no modification of syntaxin-1 immunoreactivity following 2.5 min ischemia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No modifications in SNAP-25, syntaxin-1 or GAP-43 immunoreactivity were observed following 2.5 min of ischemia, the longest period for which no neuronal damage is observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

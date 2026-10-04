@@ -1,0 +1,46 @@
+{
+  "pmid": "35184021",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and epileptic encephalopathy Type 31 (DEE31)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental and epileptic encephalopathy Type 31 (DEE31) is a severe early infantile epileptic encephalopathy with intellectual and movement disability caused by heterozygous mutations in the Dynamin 1 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual and movement disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with intellectual and movement disability caused by heterozygous mutations in the Dynamin 1 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "a GTPase involved in synaptic vesicle fission for receptor-mediated endocytosis on the presynaptic plasma membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes DNM1, a GTPase involved in synaptic vesicle fission for receptor-mediated endocytosis on the presynaptic plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "FDCHI007-A induced pluripotent stem cell (iPSC) line derived from a DEE31 patient carrying heterozygous c.545C>A (p.Ala182Asp)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A human induced pluripotent stem cell (iPSC) line, termed as FDCHI007-A, was generated using non-integrating episomal vector technique from peripheral blood mononuclear cells (PBMCs) of a 3-year-old female DDE31 patient, who had a heterozygous (c.545C > A P. Ala 182Asp) mutation in the DNM1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

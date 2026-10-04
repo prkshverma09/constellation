@@ -1,0 +1,46 @@
+{
+  "pmid": "37149717",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1, a synaptic gene whose loss-of-function leads to a complex neurodevelopmental disorder.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "PTBP2 binding to SYNGAP1 mRNA promotes alternative splicing and nonsense-mediated decay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PTBP2 binding to SYNGAP1 mRNA promotes alternative splicing and nonsense-mediated decay,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotides (ASOs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "antisense oligonucleotides (ASOs) that disrupt PTBP binding redirect splicing and increase SYNGAP1 mRNA and protein expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "SYNGAP1 haploinsufficient iPSC-neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In SYNGAP1 haploinsufficient iPSC-neurons generated from two patients, we show that PTBP2-targeting ASOs partially restore SYNGAP1 expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

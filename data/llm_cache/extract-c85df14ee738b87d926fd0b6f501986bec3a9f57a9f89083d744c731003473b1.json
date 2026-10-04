@@ -1,0 +1,16 @@
+{
+  "pmid": "38193537",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decreased hippocampal GABRA1 protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased hippocampal protein kinase B (Akt) phosphorylation, gamma-aminobutyric acid type A receptor subunit alpha1 (GABRA1) and glutamate ionotropic receptor NMDA type subunit 1 (NMDAR1) protein levels.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

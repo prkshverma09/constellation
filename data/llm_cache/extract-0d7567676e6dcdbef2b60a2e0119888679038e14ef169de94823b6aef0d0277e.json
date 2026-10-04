@@ -1,0 +1,36 @@
+{
+  "pmid": "30880162",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "BCKDK /STX1B rs14235 to be the risk loci for Parkinson's disease (PD) in a Caucasian population.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "sporadic Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ACMSD/TMEM163 rs6430538, GPNMB rs199347 and BCKDK /STX1B rs14235 do not confer a significant risk for sporadic PD in mainland China.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "clinical features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "minor allele carriers cannot be distinguished from non-carriers based on their clinical features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

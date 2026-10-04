@@ -1,0 +1,116 @@
+{
+  "pmid": "40912075",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures and neurodevelopmental impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 developmental and epileptic encephalopathy (KCNQ2-DEE) is a rare pediatric disorder characterized by seizures and neurodevelopmental impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "difficulties with communication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "difficulties with communication (88.9 %)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "gross and fine motor problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gross (81.5 %) and fine (63.0 %) motor problems",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "Difficulty with communication (impactful/bothersome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Difficulty with communication (74.1 %), behavioral disorders (37.0 %), and gross motor problems (24.1 %) were the most impactful and bothersome issues for parents.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disorders (impactful/bothersome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Difficulty with communication (74.1 %), behavioral disorders (37.0 %), and gross motor problems (24.1 %) were the most impactful and bothersome issues for parents.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "gross motor problems (impactful/bothersome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Difficulty with communication (74.1 %), behavioral disorders (37.0 %), and gross motor problems (24.1 %) were the most impactful and bothersome issues for parents.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "difficulty with communication (most bothersome; mean score 8.6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most bothersome symptoms were difficulty with communication (mean score [SD] = 8.6 [1.7]; 87.0 % of parents), cognitive delays (8.1 [2.0]; 37.0 % parents), and personal care and hygiene issues (7.4 [2.2]; 29.6 % parents).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "cognitive delays (most bothersome; mean score 8.1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most bothersome symptoms were difficulty with communication (mean score [SD] = 8.6 [1.7]; 87.0 % of parents), cognitive delays (8.1 [2.0]; 37.0 % parents), and personal care and hygiene issues (7.4 [2.2]; 29.6 % parents).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "personal care and hygiene issues (most bothersome; mean score 7.4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most bothersome symptoms were difficulty with communication (mean score [SD] = 8.6 [1.7]; 87.0 % of parents), cognitive delays (8.1 [2.0]; 37.0 % parents), and personal care and hygiene issues (7.4 [2.2]; 29.6 % parents).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures (least bothersome symptom post-infancy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were the least bothersome symptom post-infancy (mean score [SD] = 5.3 [3.6]; 87.0 % parents).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "children's developmental abilities varied substantially",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children's developmental abilities varied substantially within and between KCNQ2-DEE phenotypes and across age groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "31111464",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hemimegalencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results implicate the association of NPRL3 with hemimegalencephaly, expanding the phenotypic spectrum of NPRL3 in FFEVF and underlining that partial deletions are part of the genotypic spectrum of NPRL3 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results implicate the association of NPRL3 with hemimegalencephaly, expanding the phenotypic spectrum of NPRL3 in FFEVF and underlining that partial deletions are part of the genotypic spectrum of NPRL3 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

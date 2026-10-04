@@ -1,0 +1,96 @@
+{
+  "pmid": "35822151",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "monogenic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 syndrome is a monogenic epilepsy related to the protein protocadherin-19 (PCDH19) gene,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes for a protein important for brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "GABA(A)(R) regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The protein also seems to regulate gamma-aminobutyric acid type A receptors (GABA(A)(R)).",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy with seizures occurring in clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disease presents with refractory epilepsy that is characterized by seizures occurring in clusters.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "GABA(A)(R) dysregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA(A)(R) dysfunction and expression cause decreased effective inhibitory currents predisposing patients to epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "blood-brain barrier dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "BBB dysfunction allows the passage of methyl-D-aspartate (NMDA)-type glutamate receptor antibodies (abs-NR) through the BBB susceptible membrane.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The cellular interference hypothesis establishes that the mutant and non-mutant cells interfere with each other's communication within the same tissue.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "female susceptibility to PCDH19-related cellular interference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Women are more susceptible to being affected by this hypothesis as men only have one copy of the x gene and interference is mediated by this gene, meaning that it cannot occur in them.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "AKR1C3/AKR1C2 product deficiency leading to decreased allopregnanolone and diminished GABA(A)(R) regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, downregulation and deficiency of the AKR1C3/AKR1C2 products lead to decreasing levels of allopregnanolone, which diminish the regulation of GABA(A)(R).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

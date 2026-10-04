@@ -1,0 +1,106 @@
+{
+  "pmid": "23398397",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the past year, mutations in the PRRT2 gene have been identified in patients with paroxysmal kinesigenic dyskinesia and other paroxysmal disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal dyskinesias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal torticollis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability in the homozygous state",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are associated with a wide range of clinical syndromes: the various paroxysmal dyskinesias, infantile seizures, paroxysmal torticollis, migraine, hemiplegic migraine, episodic ataxia and even intellectual disability in the homozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "interaction with SNAP-25; synaptic regulation in cortex and basal ganglia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The PRRT2 protein, through its interaction with SNAP-25, could play a role in synaptic regulation in the cortex and the basal ganglia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The pathogenesis may be caused by PRRT2 loss of function, which may induce synaptic deregulation and neuronal hyperexcitability.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

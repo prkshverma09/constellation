@@ -1,0 +1,106 @@
+{
+  "pmid": "35190816",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurodevelopmental abnormalities in 95%",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures in 89% of individuals",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "focal-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal-onset seizures as the most common seizure type (47%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset in the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 88% of individuals with STXBP1-related disorders have seizure onset in the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "neonatal seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including neonatal seizure onset in 47%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with protein-truncating variants and deletions in STXBP1 (n = 261) were almost twice as likely to present with West syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "distinct electroclinical syndromes",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "None of the recurrent variants were significantly associated with distinct electroclinical syndromes, single phenotypic features, or showed overall clinical similarity",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "Adrenocorticotropic hormone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adrenocorticotropic hormone and phenobarbital were more likely to initially reduce seizure frequency in infantile spasms and focal seizures compared to other treatment options",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adrenocorticotropic hormone and phenobarbital were more likely to initially reduce seizure frequency in infantile spasms and focal seizures compared to other treatment options",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the ketogenic diet was most effective in maintaining seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

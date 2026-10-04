@@ -1,0 +1,66 @@
+{
+  "pmid": "36315575",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "onset during the first years of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Usually appears during the first years of life",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "drugresistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drugresistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "low glucose level in cerebrospinal fluid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a low glucose level in cerebrospinal fluid",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early implementation of ketogenic therapy will lead to control of the clinical manifestations and a better long-term prognosis",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

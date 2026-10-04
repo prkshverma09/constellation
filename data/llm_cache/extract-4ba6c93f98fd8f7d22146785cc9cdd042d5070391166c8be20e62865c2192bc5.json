@@ -1,0 +1,16 @@
+{
+  "pmid": "35478072",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "confirmed genetic diagnosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genetic conditions involved the following genes: SCARB2, DEPDC5, PCDH19, LGI1, SCN1A, MT-TL1, and CHRNA7.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "26645412",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "β3-subunit of the GABAA receptor, mediating inhibitory signalling within the central nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gamma-aminobutyric acid type A receptor β3 gene (GABRB3) encodes the β3-subunit of the gamma-aminobutyric acid type A (GABAA ) receptor, which mediates inhibitory signalling within the central nervous system.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 mutations have been identified in a few patients with infantile spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, GABRB3 mutations have been identified in a few patients with infantile spasms and Lennox-Gastaut syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "neonatal hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neonatal hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "feeding difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "feeding difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "pharmacoresistant epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pharmacoresistant epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure types from 3 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multiple seizure types from 3 months of age",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "ictal generalized and interictal multifocal epileptiform abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ictal generalized and interictal multifocal epileptiform abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo GABRB3 heterozygous missense mutation, c.860C>T (p.Thr287Ile),",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 is an emerging cause of early-onset epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

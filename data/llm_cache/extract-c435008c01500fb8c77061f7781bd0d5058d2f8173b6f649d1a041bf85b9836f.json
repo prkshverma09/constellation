@@ -1,0 +1,26 @@
+{
+  "pmid": "33907032",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "upregulated expression by dexamethasone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gria3 expression and positive cell count in the dexamethasone-treated group were significantly greater than those in the model group.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "synaptic-transmission-related protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "upregulate synaptic-transmission-related protein Gria3.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

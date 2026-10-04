@@ -1,0 +1,16 @@
+{
+  "pmid": "33897753",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "DEE/EE with ESES",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic or likely pathogenic variants were identified in 17/74 cases, including KCNQ2 (n = 6), KCNA2 (n = 5), GRIN2A (n = 3), SLC9A6 (n = 1), HIVEP2 (n = 1), and RARS2 (n = 1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

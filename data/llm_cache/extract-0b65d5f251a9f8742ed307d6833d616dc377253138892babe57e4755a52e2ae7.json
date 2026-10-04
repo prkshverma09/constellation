@@ -1,0 +1,16 @@
+{
+  "pmid": "32925027",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "AD immune-related hub gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty hub genes, including PIK3R1, B2M, HLA-DPB1, HLA-DQB1, PIK3CA, APP, CDC42, PPBP, C3AR1, HRAS, PTAFR, RAB37, FYN, PSMD1, ACTR10, HLA-E, ARRB2, GGH, ALDOA, and VAMP2 were identified on PPI network analysis.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

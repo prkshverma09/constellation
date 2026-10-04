@@ -1,0 +1,86 @@
+{
+  "pmid": "28667181",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "severe to profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe to profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "muscular hypotonia in all patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "muscular hypotonia in all patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "an epilepsy characterized by infantile spasms in 16 of 21 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an epilepsy characterized by infantile spasms in 16 of 21 patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "frequently evolving into Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "frequently evolving into Lennox-Gastaut syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "profound global developmental delay without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients had profound global developmental delay without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "febrile infection-related epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a single patient with normal development before the onset of a catastrophic epilepsy, consistent with febrile infection-related epilepsy syndrome at 4 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "structural modeling and existing functional data suggest a dominant-negative effect on DMN1 function.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "therapeutic intervention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this variant presents a prime target for therapeutic intervention.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

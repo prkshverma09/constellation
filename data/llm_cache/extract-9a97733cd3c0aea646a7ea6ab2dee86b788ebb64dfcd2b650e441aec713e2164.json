@@ -1,0 +1,26 @@
+{
+  "pmid": "33299146",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We provide a comprehensive description of SNAP25-DEE with intellectual disability and early-onset epilepsy mostly occurring before the age of two years. These core symptoms and additional recurrent phenotypes show an overlap to genes encoding other components or associated proteins of the SNARE complex such as STX1B, STXBP1, or VAMP2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We provide a comprehensive description of SNAP25-DEE with intellectual disability and early-onset epilepsy mostly occurring before the age of two years. These core symptoms and additional recurrent phenotypes show an overlap to genes encoding other components or associated proteins of the SNARE complex such as STX1B, STXBP1, STXBP1, or VAMP2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

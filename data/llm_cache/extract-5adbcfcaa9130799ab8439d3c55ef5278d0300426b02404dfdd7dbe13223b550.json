@@ -1,0 +1,136 @@
+{
+  "pmid": "40963013",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A haploinsufficiency is one of the most frequent causes of neurodevelopmental disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "refractory epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "adolescent heterozygous Scn2a conditional knock-in mice (Scn2a+/-)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adolescent heterozygous Scn2a conditional knock-in mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "Scn2a haploinsufficient mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn2a haploinsufficient mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "SCN2A haploinsufficient human stem-cell-derived neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A haploinsufficient human stem-cell-derived neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "electrophysiological deficits associated with Scn2a haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electrophysiological deficits associated with Scn2a haploinsufficiency",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "intrinsic and synaptic deficits in neocortical pyramidal cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intrinsic and synaptic deficits in neocortical pyramidal cells",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "CRISPR activation (CRISPRa) upregulation of existing functional gene copy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "upregulation of the existing functional gene copy through CRISPR activation (CRISPRa) can rescue neurological-associated phenotypes in Scn2a haploinsufficient mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "adeno-associated virus CRISPRa-based treatment corrects deficits in neocortical pyramidal cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using an adeno-associated virus CRISPRa-based treatment in adolescent mice, we show that we can correct intrinsic and synaptic deficits in neocortical pyramidal cells",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "systemic delivery of CRISPRa protects against chemoconvulsant-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "systemic delivery of CRISPRa protects Scn2a+/- mice against chemoconvulsant-induced seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "adeno-associated virus CRISPRa treatment rescues excitability in human neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adeno-associated virus CRISPRa treatment rescues excitability in SCN2A haploinsufficient human stem-cell-derived neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

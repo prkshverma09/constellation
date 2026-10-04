@@ -1,0 +1,16 @@
+{
+  "pmid": "41255692",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "Autism spectrum disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, 27 patients (26%) had 37 rare variants of unknown clinical significance in DSCAM, SHANK2, AUTS2, ADNP, ANKRD11, APBA2, ARID1B, ASTN2, ATRX, SCN1A, CHD2, DEAF1, EHMT1, GRIN2B, NBEA, NR4A2, TRIO, TRIP12, POGZ, EP300, FOXP1, PCDH19, GRIN2A, NCKAP1, and CHD8 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

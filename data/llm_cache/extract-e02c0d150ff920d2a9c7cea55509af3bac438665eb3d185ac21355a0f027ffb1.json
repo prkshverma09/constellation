@@ -1,0 +1,86 @@
+{
+  "pmid": "28166369",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "structural component of the cohesin complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The SMC1A gene, which encodes a structural component of the cohesin complex is also located on the X chromosome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants and small in-frame deletions of SMC1A cause approximately 5% of Cornelia de Lange Syndrome (CdLS).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 10 mutations identified are predicted to result in premature truncation of the SMC1A protein.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe epilepsy phenotype with cluster seizures in females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Truncation mutations in SMC1A cause a severe epilepsy phenotype with cluster seizures in females.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "onset of epileptic seizures between <4 weeks and 28 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They presented with onset of epileptic seizures between <4 weeks and 28 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure clusters associated with developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure clusters were associated with developmental regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "moderate or severe developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moderate or severe developmental impairment was apparent in all cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "nonviable in males",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations are likely to be nonviable in males.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

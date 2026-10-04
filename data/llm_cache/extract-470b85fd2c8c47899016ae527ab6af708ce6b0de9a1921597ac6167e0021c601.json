@@ -1,0 +1,56 @@
+{
+  "pmid": "41279080",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "CRISPR/Cas9 KO in N2a cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tsc2, Nprl3, Stradα , or Kptn were knocked out (KO) using CRISPR/Cas9 in N2a cells in vitro .",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "multi-cell aggregates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All knockout lines formed multi-cell aggregates compared to control lines within 24-48 hours of plating in vitro .",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR-dependent cellular aggregation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Aggregation was abolished with mTOR inhibitor treatment, establishing the mTOR-dependency of aggregate formation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "aggregation not driven by proliferation, apoptosis/necrosis, or extracellular DNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Aggregation was not driven by cell proliferation, apoptosis/necrosis, or the presence of extracellular DNA in culture media.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "altered expression of adhesion, cytoskeletal, and protein processing/transport molecules",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "LC-MS/MS analysis revealed altered expression of protein across KO lines including adhesion molecules (e.g., contactin-3), cytoskeletal proteins (e.g., stathmin-2), and protein processing/transport (e.g., Uevld).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

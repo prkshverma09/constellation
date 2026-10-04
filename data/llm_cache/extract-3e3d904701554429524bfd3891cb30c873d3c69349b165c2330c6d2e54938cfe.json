@@ -1,0 +1,16 @@
+{
+  "pmid": "33109474",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "tardive parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More tardive parkinsonisms occur in genetic conditions that cause a generalized derangement of neurodevelopmental processes, such as those due to MECP2, NR4A2, SCN1A, and RAB39B.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

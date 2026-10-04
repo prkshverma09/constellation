@@ -1,0 +1,106 @@
+{
+  "pmid": "38869222",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-syndromic hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant lethal epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant lethal epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DOORS syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "vesicle-associated protein involved in neural crest cell and neuronal migration, maturation, and neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 is a vesicle-associated protein involved in neural crest cell and neuronal migration, maturation, and neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "detected in auditory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 has been detected in auditory neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "detected in glia-like non-sensory epithelial cells during early developmental stages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 was detected in glia-like non-sensory epithelial cells during early developmental stages.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "virtually absent in adjacent sensory hair cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 was virtually absent in adjacent sensory hair cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "expression distinguishing non-sensory from sensory epithelial cells almost disappears around the onset of hearing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This expression distinguishing non-sensory from sensory epithelial cells almost disappears around the onset of hearing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "could regulate vesicle trafficking in cochlear glia-like non-sensory epithelial cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The present observations suggest that TBC1D24 could also regulate vesicle trafficking in cochlear glia-like non-sensory epithelial cells.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "mainly described as a neuronal protein either in the brain or in the cochlea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Until now, TBC1D24 was mainly described as a neuronal protein either in the brain or in the cochlea.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

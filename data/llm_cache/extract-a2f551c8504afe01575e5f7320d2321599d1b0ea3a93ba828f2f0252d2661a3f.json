@@ -1,0 +1,46 @@
+{
+  "pmid": "34172529",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEE31 caused by heterozygous missense variants in DNM1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "biallelic, loss-of-function pathogenic variants in DNM1 cause DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "healthy; no clinical symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All parents who were heterozygous carriers of the identified loss-of-function variants were healthy and did not show any clinical symptoms,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "type of mutation determines pattern of inheritance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the type of mutation in DNM1 determines the pattern of inheritance.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

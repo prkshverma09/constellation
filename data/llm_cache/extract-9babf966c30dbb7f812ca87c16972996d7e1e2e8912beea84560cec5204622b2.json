@@ -1,0 +1,16 @@
+{
+  "pmid": "31433208",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "prognostic marker in glioma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "THBS1, CASP8, GRIA2, GRIA4, and ADCYAP1R1 may serve as prognostic markers in glioma.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

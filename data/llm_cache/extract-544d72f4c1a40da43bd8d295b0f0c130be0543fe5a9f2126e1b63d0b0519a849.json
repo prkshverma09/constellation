@@ -1,0 +1,106 @@
+{
+  "pmid": "41648190",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "trafficking of synaptic vesicle precursors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The microtubule motor KIF1A has a highly conserved role in the trafficking of synaptic vesicle precursors",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "isogenic human induced pluripotent stem cells (iPSCs) gene-edited to express pathogenic KIF1A variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "isogenic human induced pluripotent stem cells (iPSCs) gene-edited to express pathogenic KIF1A variants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both null (p.C92*) and hypoactive (p.P305L) mutations induce delayed neurite outgrowth, mislocalization of synaptic cargos, and decreased synapse density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both null (p.C92*) and hypoactive (p.P305L) mutations induce delayed neurite outgrowth, mislocalization of synaptic cargos, and decreased synapse density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the hyperactive KIF1A mutation (p.R350G) supports neurite outgrowth but leads to aberrant motility of synaptic vesicle precursors along the axon.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "delayed neurite outgrowth, mislocalization of synaptic cargos, and decreased synapse density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both null (p.C92*) and hypoactive (p.P305L) mutations induce delayed neurite outgrowth, mislocalization of synaptic cargos, and decreased synapse density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "hyperactive KIF1A induces deficits in the microtubule-dependent patterning of presynaptic components along the developing axon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperactive KIF1A induces deficits in the microtubule-dependent patterning of presynaptic components along the developing axon, suggesting a failure to respond to cytoskeletal cues directing cargo delivery.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "delayed synaptic maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analysis of neuronal activity via multi-electrode arrays reveals delayed synaptic maturation in loss-of-function mutations (p.P305L, p.C92*).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "accelerated activity maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the hyperactive p.R350G mutation exhibits accelerated activity maturation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "possible excitotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "possible excitotoxicity.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

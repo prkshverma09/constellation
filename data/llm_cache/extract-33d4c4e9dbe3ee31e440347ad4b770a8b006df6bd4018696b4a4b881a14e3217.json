@@ -1,0 +1,46 @@
+{
+  "pmid": "25194487",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTORC1-repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mTORC1-repressor DEPDC5 (DEP domain-containing protein 5) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial temporal lobe epilepsy (FTLE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial temporal lobe epilepsy (FTLE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial focal epilepsy with variable foci (FFEVF)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

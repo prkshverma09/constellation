@@ -1,0 +1,16 @@
+{
+  "pmid": "34020146",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the patients had the associated variants, including KCNT1, SCN1A, SCN2A, TBC1D24 and ALG1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

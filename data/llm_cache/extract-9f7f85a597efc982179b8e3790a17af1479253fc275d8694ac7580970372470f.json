@@ -1,0 +1,66 @@
+{
+  "pmid": "27131289",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS) and genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRG2(Q390X) is a mutation associated with the epileptic encephalopathy Dravet syndrome (DS) and with genetic epilepsy with febrile seizures plus (GEFS+) in patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Gabrg2(+/Q390X) knockin (KI) mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Gabrg2(+/Q390X) knockin (KI) mouse phenocopies the major features of DS and GEFS+ and has SUDEP throughout life.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Gabrg2(+/-) knockout (KO) mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Gabrg2(+/-) knockout (KO) mouse is associated with infrequent absence seizures and represents a model of mild absence epilepsy syndrome without increased mortality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic GABAA receptors were reduced",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that synaptic GABAA receptors were reduced while intracellular nonfunctional γ2(Q390X) subunits were increased in the heterozygous DS and GEFS+ KI mice, but not in the heterozygous absence epilepsy KO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intracellular nonfunctional γ2(Q390X) subunits were increased",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "impaired GABAergic transmission and neuronal dysfunction in brainstem nuclei involved in cardiorespiratory collapse in SUDEP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it is likely the impaired GABAergic transmission and neuronal dysfunction in these brainstem nuclei are involved in the cardiorespiratory collapse in SUDEP.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

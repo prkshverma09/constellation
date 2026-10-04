@@ -1,0 +1,26 @@
+{
+  "pmid": "38573413",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "glutamate ionotropic NMDA receptor 1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "glutamate ionotropic NMDA receptor 1 (GRIN1)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "decreased expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Upregulation of miR149-5p decreased Faslg and GRIN1 expression in ischemic brain regions.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

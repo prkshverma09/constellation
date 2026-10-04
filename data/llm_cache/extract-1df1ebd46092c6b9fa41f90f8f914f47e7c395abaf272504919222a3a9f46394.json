@@ -1,0 +1,26 @@
+{
+  "pmid": "38396745",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GATOR1 subunits, NPRL2 (nitrogen permease regulator-like 2), NPRL3 (nitrogen permease regulator-like 3), and DEPDC5 (DEP domain containing 5),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic mutations in the GATOR1 subunits, NPRL2 (nitrogen permease regulator-like 2), NPRL3 (nitrogen permease regulator-like 3), and DEPDC5 (DEP domain containing 5), have been associated with epilepsy in humans;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

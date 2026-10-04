@@ -1,0 +1,26 @@
+{
+  "pmid": "31399343",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "M-current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2/3 potassium channels, which mediate the M-current.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "inhibited by muscarinic receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Muscarinic receptors exert this action by inhibiting specific KCNQ2/3 potassium channels",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

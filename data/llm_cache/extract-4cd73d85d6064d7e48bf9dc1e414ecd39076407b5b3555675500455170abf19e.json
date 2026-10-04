@@ -1,0 +1,16 @@
+{
+  "pmid": "34358384",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

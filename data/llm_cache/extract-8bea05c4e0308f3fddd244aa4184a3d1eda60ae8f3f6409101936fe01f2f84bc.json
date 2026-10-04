@@ -1,0 +1,36 @@
+{
+  "pmid": "31618474",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequently implicated genes were KCNT1 (36/135, 27%) and SCN2A (10/135, 7%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median age at seizure onset was 4 weeks, with earlier onset in the SCN2A, KCNQ2, and BRAT1 groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "mosaicism in probands",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mosaicism occurred in 2 probands (SCN2A, GABRB3) and 3 unaffected mothers (KCNT1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

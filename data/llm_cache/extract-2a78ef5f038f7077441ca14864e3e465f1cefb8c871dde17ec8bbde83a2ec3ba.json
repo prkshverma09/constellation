@@ -1,0 +1,136 @@
+{
+  "pmid": "32102661",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Ca2+ permeability of AMPA receptors depends on presence and Q/R editing state of GluA2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AMPA receptors are Ca2+-permeable if they lack the GluA2 subunit or if GluA2 is unedited at a single nucleic acid, known as the Q/R site.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "mouse engineered with a point mutation in the intronic ECS of Gria2 (GluA2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, we examined mice engineered with a point mutation in the intronic editing complementary sequence (ECS) of the GluA2 gene, Gria2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "reduction in GluA2 RNA editing at the Q/R site (~20%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice heterozygous for the ECS mutation (named GluA2+/ECS(G)) had a ~ 20% reduction in GluA2 RNA editing at the Q/R site.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "expression of Ca2+-permeable AMPA receptors at the synapse (altered current-voltage relations)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "finding altered current-voltage relations (confirming expression of Ca2+-permeable AMPA receptors at the synapse).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "loss of hippocampal CA1 neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed a loss of hippocampal CA1 neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "altered dendritic morphology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered dendritic morphology",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "reductions in CA1 pyramidal cell spine density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reductions in CA1 pyramidal cell spine density",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "reduced motor coordination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced motor coordination",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "learning and memory impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "learning and memory impairments",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "NMDA receptor-independent long-term potentiation (LTP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NMDA receptor-independent long-term potentiation (LTP)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "vulnerability to NMDA receptor-independent seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vulnerability to NMDA receptor-independent seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "Ca2+-permeable AMPA receptor antagonist IEM-1460",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These NMDA receptor-independent seizures were rescued by the Ca2+-permeable AMPA receptor antagonist IEM-1460.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "unedited GluA2(Q) may drive NMDA receptor-independent processes in brain function and disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "unedited GluA2(Q) may have the potential to drive NMDA receptor-independent processes in brain function and disease.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "29740868",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome followed by Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report on 2 females with de novo variants in KCNT2 with West syndrome followed by Lennox-Gastaut syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "DEE with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report on 2 females with de novo variants in KCNT2 with West syndrome followed by Lennox-Gastaut syndrome or with DEE with migrating focal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vitro analysis suggested quinidine-responsive gain-of-function effects",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "quinidine add-on therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we treated 1 of the girls with quinidine add-on therapy and achieved marked clinical improvements.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

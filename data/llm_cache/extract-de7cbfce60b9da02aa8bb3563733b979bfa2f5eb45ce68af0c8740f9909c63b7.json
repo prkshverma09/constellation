@@ -1,0 +1,116 @@
+{
+  "pmid": "36704660",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "GluN2B subunit of NMDA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the GluN2B subunit of NMDA receptors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most individuals with GRIN2B-related neurodevelopmental disorder present with intellectual disability and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most individuals with GRIN2B-related neurodevelopmental disorder present with intellectual disability and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor impairments, autism spectrum disorder, and epilepsy are also common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor impairments, autism spectrum disorder, and epilepsy are also common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor impairments, autism spectrum disorder, and epilepsy are also common.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "NMDA receptor properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We discuss the impact of several distinct pathogenic GRIN2B variants on NMDA receptor properties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "neuronal differentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data provide compelling evidence that various GluN2B mutants interfere with neuronal differentiation, dendrite morphogenesis, synaptogenesis, and synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "dendrite morphogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data provide compelling evidence that various GluN2B mutants interfere with neuronal differentiation, dendrite morphogenesis, synaptogenesis, and synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "synaptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data provide compelling evidence that various GluN2B mutants interfere with neuronal differentiation, dendrite morphogenesis, synaptogenesis, and synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "synaptic plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data provide compelling evidence that various GluN2B mutants interfere with neuronal differentiation, dendrite morphogenesis, synaptogenesis, and synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

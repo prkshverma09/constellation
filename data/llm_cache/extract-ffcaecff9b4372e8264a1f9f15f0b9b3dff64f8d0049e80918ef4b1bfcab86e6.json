@@ -1,0 +1,26 @@
+{
+  "pmid": "40702290",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "peroxisome fission protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peroxisome fission proteins Vps1 and Dnm1",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "peroxisome number increase occurs independent of Dnm1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This increase was also observed in cells lacking peroxisome fission proteins Vps1 and Dnm1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

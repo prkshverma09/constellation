@@ -1,0 +1,86 @@
+{
+  "pmid": "35864088",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "participates in RNA splicing and chromatin organization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "participates in RNA splicing and chromatin organization.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU loss of function leads to rapid cell death of both postmitotic neurons and neural progenitors, with an apparent higher sensitivity of the latter.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "expression and alternative splicing of multiple genes involved in cell survival, cell motility, and synapse formation are affected following Hnrnpu's conditional truncation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression and alternative splicing of multiple genes involved in cell survival, cell motility, and synapse formation are affected following Hnrnpu's conditional truncation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "model",
+      "object_text": "Hnrnpu's conditional truncation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hnrnpu's conditional truncation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "therapy",
+      "object_text": "pharmaceutical and genetic agents that can partially reverse the loss of cortical structures in Hnrnpu mutated embryonic brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified pharmaceutical and genetic agents that can partially reverse the loss of cortical structures in Hnrnpu mutated embryonic brains",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "therapy",
+      "object_text": "rescue cultured neural progenitors' cell death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rescue cultured neural progenitors' cell death",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

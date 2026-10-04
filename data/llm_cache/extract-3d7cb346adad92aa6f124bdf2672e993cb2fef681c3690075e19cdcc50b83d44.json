@@ -1,0 +1,16 @@
+{
+  "pmid": "40884527",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "genetic etiology of neonatal-onset pharmacoresistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among 56 patients, 60% had a genetic etiology (KCNQ2, STXBP1, KCNT1, others).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

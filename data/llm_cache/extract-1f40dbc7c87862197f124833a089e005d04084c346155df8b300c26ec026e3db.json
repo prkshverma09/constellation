@@ -1,0 +1,16 @@
+{
+  "pmid": "28346953",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic mutations involving genes, such as GABRB3, ALG13, SCN8A, STXBP1, DNM1, FOXG1, or CHD2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

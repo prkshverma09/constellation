@@ -1,0 +1,106 @@
+{
+  "pmid": "38781976",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures, developmental delay, and autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in SLC6A1, encoding the GAT-1 GABA transporter, are associated with seizures, developmental delay, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The majority of affected individuals carry missense variants, many of which are recurrent germline de novo mutations, raising the possibility of gain-of-function or dominant-negative effects.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "in vitro GABA uptake assay for 213 unique variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we performed an in vitro GABA uptake assay for 213 unique variants, including 24 control variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo variants consistently resulted in a decrease in GABA uptake, in keeping with haploinsufficiency underlying all neurodevelopmental phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo variants consistently resulted in a decrease in GABA uptake",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "prevented GAT-1 from being present on the membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two-thirds of loss-of-function missense variants prevented GAT-1 from being present on the membrane",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recurrent de novo missense variants showed moderate loss-of-function effects that reduced GABA uptake",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no evidence for dominant-negative or gain-of-function effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no evidence for dominant-negative or gain-of-function effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "increase the expression of the wild-type SLC6A1 allele",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Strategies to increase the expression of the wild-type SLC6A1 allele are likely to be beneficial across neurodevelopmental disorders",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

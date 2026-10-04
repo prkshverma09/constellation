@@ -1,0 +1,26 @@
+{
+  "pmid": "36848747",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "nonlesional frontal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one frameshift variant in DEPDC5 in a patient with nonlesional frontal lobe epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "nonlesional posterior quadrant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one splicogenic DEPDC5 variant in a patient with nonlesional posterior quadrant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

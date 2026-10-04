@@ -1,0 +1,16 @@
+{
+  "pmid": "30870728",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blocking drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "avoid antiepileptic drugs (AEDs) that can aggravate the pathogenic defect (e.g., sodium channel blocking drugs in SCN1A-related Dravet syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "18316356",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "predominant AMPA receptor subunits in the reticular thalamus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gria3 and Gria4 encode the predominant AMPA receptor subunits in the reticular thalamus",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "Gria3 null mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "null mutants for the related gene Gria3 do not have SWD",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "lowers SWD of spkw1 homozygotes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gria3 loss actually lowers SWD of spkw1 homozygotes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

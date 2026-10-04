@@ -1,0 +1,106 @@
+{
+  "pmid": "41310149",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "a kinesin-3 motor protein essential for anterograde axonal transport of synaptic vesicles, dense core vesicles, and organelles in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes a kinesin-3 motor protein essential for anterograde axonal transport of synaptic vesicles, dense core vesicles, and organelles in neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "disrupt the balance of intracellular transport and neuronal signalling through diverse mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KIF1A disrupt the balance of intracellular transport and neuronal signalling through diverse mechanisms",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hereditary spastic paraplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hereditary spastic paraplegia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic nerve atrophy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "progressive motor decline",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "progressive motor decline",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "robust cellular and animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "development of robust cellular and animal models",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "symptom management",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At present, no cure exists for KAND; treatment is limited to symptom management.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

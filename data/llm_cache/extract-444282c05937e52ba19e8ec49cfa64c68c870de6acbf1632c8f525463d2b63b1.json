@@ -1,0 +1,36 @@
+{
+  "pmid": "23776493",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "increased expression and immunoreactivity in hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diabetes increased the expression and immunoreactivity of KIF1A and KIF5B in the hippocampus, but no alterations in dynein were detected.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "increased number of fluorescent accumulations of KIF1A in axons of hippocampal neurons after high glucose",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nevertheless, high glucose increased the number of fluorescent accumulations of KIF1A and synaptotagmin-1 and decreased KIF5B, SNAP-25 and synaptophysin immunoreactivity specifically in axons of hippocampal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "anterograde axonal transport mediated by these kinesins may be impaired in hippocampal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These changes suggest that anterograde axonal transport mediated by these kinesins may be impaired in hippocampal neurons",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

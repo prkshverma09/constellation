@@ -1,0 +1,116 @@
+{
+  "pmid": "35031858",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "postsynaptic glutamate-gated ion channels mediating neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 at Xq25 encodes glutamate ionotropic receptor AMPA type 3 (GluA3), a subunit of postsynaptic glutamate-gated ion channels mediating neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous loss-of-function (LOF) variants in GRIA3 cause a neurodevelopmental disorder (NDD) in male individuals.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a gain-of-function (GOF) variant at GRIA3 in a male patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified a hemizygous de novo missense variant in GRIA3 in a boy with an NDD: c.1844C > T (p.Ala615Val) using whole-exome sequencing.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "hypertonia and hyperreflexia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His neurological signs, such as hypertonia and hyperreflexia, were opposite to those in previous cases having LOF GRIA3 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "carbamazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His seizures and hypertonia were ameliorated by carbamazepine, inhibiting glutamate release from presynapses.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "slower desensitization and deactivation kinetics",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patch-clamp recordings showed that the human GluA3 mutant (p.Ala615Val) had slower desensitization and deactivation kinetics.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "fly line expressing a human GluA3 mutant possessing our variant and the Lurcher variant showed developmental defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A fly line expressing a human GluA3 mutant possessing our variant and the Lurcher variant, which makes ion channels leaky, showed developmental defects, while one expressing a mutant possessing either of them did not.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Collectively, these results suggest that p.Ala615Val has GOF effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "NDD phenotype distinctive from that of LOF variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 GOF variants may cause an NDD phenotype distinctive from that of LOF variants, and drugs suppressing glutamatergic neurotransmission may ameliorate this phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "drugs suppressing glutamatergic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 GOF variants may cause an NDD phenotype distinctive from that of LOF variants, and drugs suppressing glutamatergic neurotransmission may ameliorate this phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

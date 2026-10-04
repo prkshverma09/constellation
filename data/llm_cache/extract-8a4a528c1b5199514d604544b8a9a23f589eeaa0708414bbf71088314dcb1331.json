@@ -1,0 +1,96 @@
+{
+  "pmid": "31436889",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive microcephaly, seizures, and developmental delay (MCSZ; MIM 613402)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal recessive microcephaly, seizures, and developmental delay (MCSZ; MIM 613402)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia type 4 (AOA4; MIM 616267)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia with oculomotor apraxia type 4 (AOA4; MIM 616267)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "congenital microcephaly; early-onset intractable seizures; adult onset slowly progressive sensory-motor neuropathy; cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "their clinical presentations revealed a continuum phenotypic spectrum ranging from congenital microcephaly and early-onset intractable seizures, to adult onset slowly progressive sensory-motor neuropathy and cerebellar ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset MCSZ phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 1, homozygous for the recurrent frameshift variant (p.Thr424Glyfs*49), had an early-onset MCSZ phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar ataxia and peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Late in the disease progression, cerebellar ataxia and peripheral neuropathy were recognized.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 2, homozygous for a frameshift variant (p.Ala429Thrfs*42), presented a phenotype partially consistent with MCSZ including microcephaly and developmental delay, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "no seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 2, homozygous for a frameshift variant (p.Ala429Thrfs*42), presented a phenotype partially consistent with MCSZ including microcephaly and developmental delay, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "polyneuropathy and cerebellar signs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 3 is one of the oldest patients described to date and presented polyneuropathy, and cerebellar signs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "abnormalities of cholesterol, albumin, or alpha-fetoprotein plasma levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biochemical tests showed abnormalities of cholesterol, albumin, or alpha-fetoprotein plasma levels.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

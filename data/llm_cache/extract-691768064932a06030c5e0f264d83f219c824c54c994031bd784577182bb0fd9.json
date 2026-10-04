@@ -1,0 +1,66 @@
+{
+  "pmid": "32057594",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "brief clusters of febrile and afebrile seizures with onset primarily before the age of three years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "brief clusters of febrile and afebrile seizures with onset primarily before the age of three years",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autistic traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic traits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "development of animal models",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "adjunctive ganaxolone (an allopregnanolone analog) therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adjunctive ganaxolone (an allopregnanolone analog) therapy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

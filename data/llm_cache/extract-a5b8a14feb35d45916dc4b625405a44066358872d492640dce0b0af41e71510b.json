@@ -1,0 +1,56 @@
+{
+  "pmid": "41810849",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "acute encephalopathy with biphasic seizures and late reduced diffusion (AESD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with acute encephalopathy with biphasic seizures and late reduced diffusion (AESD)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "generalized hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized hypotonia accompanied by chorea-like involuntary movements",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "chorea-like involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chorea-like involuntary movements",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "unable to perform antigravity movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "was unable to perform antigravity movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "congenital hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU-related neurodevelopmental disorders often present with congenital hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

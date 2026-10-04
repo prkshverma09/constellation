@@ -1,0 +1,106 @@
+{
+  "pmid": "41131961",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 cause a neurodevelopmental disorder characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 cause a neurodevelopmental disorder characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 cause a neurodevelopmental disorder characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "pharmacoresistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 cause a neurodevelopmental disorder characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 cause a neurodevelopmental disorder characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three (50%) patients achieved full seizure remission, and the remaining three patients had a reduction in seizure frequency ranging from 50 to 90%.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three out of four patients with baseline ataxia showed improvement.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Caregivers noted improvement in social interaction and school engagement in five out of six patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Except for weight loss in one patient, no serious adverse effects were reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ACZ may offer a promising therapeutic option for drug-resistant SLC6A1-related seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

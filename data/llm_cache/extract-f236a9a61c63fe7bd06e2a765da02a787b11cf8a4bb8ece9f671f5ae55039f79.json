@@ -1,0 +1,16 @@
+{
+  "pmid": "35501379",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "Scn8a+/mut mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found increased oligodendrogenesis and myelination specifically within the seizure network in two models of generalized epilepsy with absence seizures (Wag/Rij rats and Scn8a+/mut mice), evident only after epilepsy onset.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "32301730",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "temporal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GAT-1 SNP was different between patients and controls (p<0.05); the AA genotype was observed in 40% of the cases vs 23% of the controls (p<0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

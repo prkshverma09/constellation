@@ -1,0 +1,36 @@
+{
+  "pmid": "23622206",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "2α subunit of the voltage-gated sodium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gene coding for the 2α subunit of the voltage-gated sodium channel",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the group with an autosomal dominant mode of inheritance we include benign familial infantile seizures and benign familial neonatal-infantile seizures. These entities are characterized by partial seizures in cluster, self-limited in a brief period during the first months of life. There are no typical interictal EEG abnormalities. In some families a mutation in SCN2A, the gene coding for the 2α subunit of the voltage-gated sodium channel, has been described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal-infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the group with an autosomal dominant mode of inheritance we include benign familial infantile seizures and benign familial neonatal-infantile seizures. These entities are characterized by partial seizures in cluster, self-limited in a brief period during the first months of life. There are no typical interictal EEG abnormalities. In some families a mutation in SCN2A, the gene coding for the 2α subunit of the voltage-gated sodium channel, has been described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

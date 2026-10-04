@@ -1,0 +1,116 @@
+{
+  "pmid": "37501613",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GAT-1, a γ-aminobutyric acid transporter expressed on astrocytes and inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes GAT-1, a γ-aminobutyric acid transporter expressed on astrocytes and inhibitory neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SLC6A1 are associated with epilepsy and developmental disorders, including motor and social impairments,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SLC6A1 are associated with epilepsy and developmental disorders, including motor and social impairments,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "motor and social impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SLC6A1 are associated with epilepsy and developmental disorders, including motor and social impairments,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient with a variant in SLC6A1 that encodes GAT-1 with a serine-to-leucine substitution at amino acid 295 (S295L), who was diagnosed with childhood absence epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "GAT-1S295L/+ mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice bearing the S295L mutation (GAT-1S295L/+ ) have spike-and-wave discharges with motor arrest consistent with absence-type seizures, similar to GAT-1+/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ECoG findings in GAT-1S295L/+ mice phenocopy GAT-1 haploinsufficiency",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "ethosuximide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "being bidirectionally modulated by ethosuximide (200 mg/kg ip) and the GAT-1 antagonist NO-711 (10 mg/kg ip).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "NO-711",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "being bidirectionally modulated by ethosuximide (200 mg/kg ip) and the GAT-1 antagonist NO-711 (10 mg/kg ip).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "ethosuximide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By contrast, GAT-1-/- mice were insensitive to both ethosuximide and NO-711 at the doses tested.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "NO-711",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By contrast, GAT-1-/- mice were insensitive to both ethosuximide and NO-711 at the doses tested.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "38895634",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "feeding dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "motor impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with mutations that alter the function of the sodium channel SCN8A present with a range of clinical features, including mild to severe seizures, developmental delay, intellectual disability, autism, feeding dysfunction, motor impairment, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "sodium influx",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "90 compounds that effectively reduced sodium influx into the cells expressing the human SCN8A R1872Q mutation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "mouse line expressing the human SCN8A R1620L mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mouse line expressing the human SCN8A R1620L mutation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "carvedilol increases seizure resistance in RL/+ mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "only carvedilol was able to significantly increase resistance to 6 Hz- and PTZ-induced seizures in RL/+ mutants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine decreased seizure frequency in three patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "fenfluramine administration, which was recently associated with a 60%-90% decrease in seizure frequency in three patients with SCN8A-associated epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "41178115",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in impaired surface expression and loss of function.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three trafficking-deficient variants of the GABAAR α1 subunit (GABRA1), including D219N (ClinVar Variation ID: 127232), G251D (Variation ID: 419523), and P260L.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "IXA62, IXA554, and IXA105 increase total and surface protein levels of α1 variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "selective pharmacological activation of the IRE1/XBP1s signaling arm of the unfolded protein response using IXA62, IXA554, and IXA105 increases total and surface protein levels of all three α1 variants without affecting wild-type receptor protein levels in HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "increases peak GABA-evoked current amplitudes in α1(D219N) and α1(G251D)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patch-clamping recordings further showed that treatment with IXA62, IXA554, and IXA105 increases the peak GABA-evoked current amplitudes in HEK293T cells expressing α1(D219N) and α1(G251D).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "promoting folding and anterograde trafficking while inhibiting degradation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "IXA62 and IXA554 remodel the GABAAR-associated proteostasis network by promoting folding and anterograde trafficking while inhibiting degradation in HEK293T cells expressing α1(D219N) variant and human iPSC-derived neurons carrying α1(G251D) variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "HEK293T cells expressing α1(D219N)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in HEK293T cells expressing α1(D219N) variant",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "HEK293T cells expressing α1(D219N) and α1(G251D) variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HEK293T cells expressing α1(D219N) and α1(G251D)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "human iPSC-derived neurons carrying α1(G251D) variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human iPSC-derived neurons carrying α1(G251D) variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "selective IRE1/XBP1s activation as a potential therapeutic avenue for GABAAR trafficking-defect epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that selective IRE1/XBP1s activation pharmacologically can be further developed to provide a potential therapeutic avenue for genetic epilepsies caused by GABAAR trafficking defects.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

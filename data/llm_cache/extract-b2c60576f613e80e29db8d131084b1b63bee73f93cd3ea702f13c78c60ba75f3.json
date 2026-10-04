@@ -1,0 +1,26 @@
+{
+  "pmid": "31813518",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures may be controlled early after onset or cease spontaneously after a few years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in infants with KCNQ2 or STXBP1 encephalopathy, seizures may be controlled early after onset or cease spontaneously after a few years",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "the developmental consequences tend to remain profound",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the developmental consequences tend to remain profound.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

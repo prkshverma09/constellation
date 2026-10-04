@@ -1,0 +1,76 @@
+{
+  "pmid": "30392206",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the mutations were missense mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "age of onset 2 days to 32 days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of onset was from 2 days to 32 days.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main seizure type was epilepsy of infancy with migrating focal seizure.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the 6 patients had severe developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Antiepileptic drugs are ineffective.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The efficacy of quinidine was not significant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet treatment was applied to 5 cases, no significant effect was achieved.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36261270",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "excitatory and inhibitory synaptic plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteins mediating excitatory and inhibitory synaptic plasticity, including SynGAP1, Pak3, GEPH1, Copine-6, and collybistin, and DNA and chromatin remodeling proteins, including Rad21, Smarca2, and Ddb1, are differentially synthesized in response to activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

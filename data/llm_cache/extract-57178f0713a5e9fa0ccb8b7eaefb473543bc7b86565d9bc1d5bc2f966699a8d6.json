@@ -1,0 +1,16 @@
+{
+  "pmid": "28573975",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benign infantile seizures (BIS) are usually a self-limiting condition, which may be associated with heterozygous mutations in the PRRT2 gene at chromosome 16p11.2.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "36054588",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chorea predominated in ADCY5-, ATP1A3-, FOXG1-, NKX2.1-, SLC2A1-, GNAO1-, and PDE10A-related disorders;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stereotypies were a prominent feature in FOXG1- and GNAO1-related disease.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deep brain stimulation for SGCE-, KMT2B-, and GNAO1-related hyperkinesia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "18691641",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "lacked the classical C-terminal transmembrane domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this isoform (STX1B-DeltaTMD) lacked the classical C-terminal transmembrane domain",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "nuclear localization in various tumoral and non-tumoral cell types including human brain cortical neurons in vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "localized to the nucleus of various tumoral and non-tumoral cell types including human brain cortical neurons in vivo",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "Ran-dependent nuclear import",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nuclear import occurred via a Ran-dependent pathway",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "glycine-rich C-terminus of 15 amino acids served as an unconventional nuclear localization signal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A specific and glycine-rich C-terminus of 15 amino acids served as an unconventional nuclear localization signal",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "colocalization with Lamin A/C, NuMA and gamma-tubulin in nuclei and mitotic spindle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B-DeltaTMD colocalized with Lamin A/C and NuMA (NUclear Mitotic Apparatus protein) in interphasic nuclei, and with NuMA and gamma-tubulin in the pericentrosomal region of the mitotic spindle in dividing cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "prognostic marker of survival in human primary brain tumors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the ratio of STX1B-DeltaTMD to Lamin A/C transcripts was a significant prognostic marker of survival, independent of tumor staging",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "first nucleoplasmic syntaxin with no transmembrane domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the first nucleoplasmic syntaxin with no transmembrane domain",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

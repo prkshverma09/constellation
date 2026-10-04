@@ -1,0 +1,56 @@
+{
+  "pmid": "35792847",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human gene for WW domain-containing oxidoreductase (WWOX) has been associated with epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which presents in infancy with seizures, psychomotor delay, microcephaly, and optic atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which presents in infancy with seizures, psychomotor delay, microcephaly, and optic atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which presents in infancy with seizures, psychomotor delay, microcephaly, and optic atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "optic atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which presents in infancy with seizures, psychomotor delay, microcephaly, and optic atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

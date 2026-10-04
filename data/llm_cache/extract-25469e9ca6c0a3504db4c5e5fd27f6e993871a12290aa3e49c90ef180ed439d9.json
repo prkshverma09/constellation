@@ -1,0 +1,46 @@
+{
+  "pmid": "41925386",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy risk gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including key epilepsy risk genes such as DNM1 and PPFIA3.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "enriched expression in excitatory neurons, astrocytes, and oligodendrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genes showed enriched expression in excitatory neurons, astrocytes, and oligodendrocytes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "RNA processing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression of genes enriched in RNA processing and mitochondrial energy metabolism, including key epilepsy risk genes such as DNM1 and PPFIA3.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "peaking during neurodevelopment in early-fetal striatum and neonatal-to-childhood cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genes showed enriched expression in excitatory neurons, astrocytes, and oligodendrocytes, peaking during neurodevelopment in early-fetal striatum and neonatal-to-childhood cortex.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

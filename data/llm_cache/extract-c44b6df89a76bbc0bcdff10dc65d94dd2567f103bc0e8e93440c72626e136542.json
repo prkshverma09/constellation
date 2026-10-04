@@ -1,0 +1,96 @@
+{
+  "pmid": "38908344",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental defects and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutation of the GABRA1 gene is associated with neurodevelopmental defects and epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "encodes for the α1 subunit of the GABAAR which regulates fast inhibitory impulses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 encodes for the α1 subunit of the γ-aminobutyric acid type A receptor (GABAAR), which regulates the fast inhibitory impulses of the nervous system.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "zebrafish gabra1 (sa43718 allele)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nonsense mutation of the zebrafish gabra1 (sa43718 allele) gene.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decrease in gabra1 mRNA expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The sa43718 allele causes a decrease in gabra1 mRNA expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decreased expression of other GABAAR α subunits (gabra2, gabra3, gabra5)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutation of gabra1 was accompanied by decreased mRNA expression of gabra2, gabra3, and gabra5",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "residual GABAAR exists in the sa43718 allele",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating that a residual GABAAR exists in the sa43718 allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "abnormal expression of proteins that regulate synaptic vesicle fusion, vesicle transport, synapse development, and mitochondrial protein complexes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteomics analysis demonstrated that mutation of gabra1 is associated with abnormal expression of proteins that regulate synaptic vesicle fusion, vesicle transport, synapse development, and mitochondrial protein complexes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "validate that loss of function mutations in the gabra1 gene result in seizure-like phenotypes with abnormal development of the GABA synapse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "seizure-like phenotypes with abnormal development of the GABA synapse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "result in seizure-like phenotypes with abnormal development of the GABA synapse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

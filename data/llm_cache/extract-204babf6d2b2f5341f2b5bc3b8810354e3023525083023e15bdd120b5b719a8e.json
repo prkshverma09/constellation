@@ -1,0 +1,26 @@
+{
+  "pmid": "36233161",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "NBIA-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three patients presented brain iron deposits with Fe-sensitive MRI sequences and mutations in FBXO7, GLB1, and KIF1A, suggesting an NBIA-like phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "very early-onset ataxia and CA with cortical hyperintensities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients showed very early-onset ataxia and CA with cortical hyperintensities caused by mutations in ITPR1, KIF1A, SPTBN2, PLA2G6, PMPCA, and PRDX3.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

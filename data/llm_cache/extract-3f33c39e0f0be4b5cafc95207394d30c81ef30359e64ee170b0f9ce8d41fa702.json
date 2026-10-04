@@ -1,0 +1,96 @@
+{
+  "pmid": "40253375",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "vesicular trafficking and protein docking at presynaptic membranes in the nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptosomal-associated protein 25 kDa (SNAP25) is essential for vesicular trafficking and protein docking at presynaptic membranes in the nervous system,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "selectively expressed in the atria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is selectively expressed in the atria",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "downregulated in the atria of AF patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP25 protein is downregulated in the atria of AF patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "Cardiomyocyte-specific knockout of SNAP25 in male mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cardiomyocyte-specific knockout of SNAP25 in male mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "significantly shortens the atrial effective refractory period and action potential duration (APD), increasing susceptibility to AF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significantly shortens the atrial effective refractory period and action potential duration (APD), increasing susceptibility to AF",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "attributed to elevated Kv1.5 current and membrane expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is attributed to elevated Kv1.5 current and membrane expression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "reduces the internalization of Kv1.5 from the cell surface membrane to early endosomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mechanistically, SNAP25 deficiency reduces the internalization of Kv1.5 from the cell surface membrane to early endosomes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "elevates arrhythmic activity and accelerates repolarization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In human iPSC-derived atrial cardiomyocytes, SNAP25 deficiency similarly elevates arrhythmic activity and accelerates repolarization.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "controlling the trafficking of the atrial-specific Kv1.5 channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP25 regulates AF susceptibility by controlling the trafficking of the atrial-specific Kv1.5 channel",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

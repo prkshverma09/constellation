@@ -1,0 +1,56 @@
+{
+  "pmid": "31527487",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "nuclear protein with a transcriptional repressor role that recognizes DNA methylation marks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Methyl CpG binding protein 2 (MeCP2) was first identified as a nuclear protein with a transcriptional repressor role that recognizes DNA methylation marks.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "function in neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 has a well-established function in neurodevelopment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 has a well-established function in neurodevelopment, as evidenced by the severe neurological impairments characteristic of the Rett syndrome (RTT) pathology and the MeCP2 duplication syndrome (MDS), caused by loss or gain of MeCP2 function, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 has a well-established function in neurodevelopment, as evidenced by the severe neurological impairments characteristic of the Rett syndrome (RTT) pathology and the MeCP2 duplication syndrome (MDS), caused by loss or gain of MeCP2 function, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "global chromatin organizer",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is a global chromatin organizer.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

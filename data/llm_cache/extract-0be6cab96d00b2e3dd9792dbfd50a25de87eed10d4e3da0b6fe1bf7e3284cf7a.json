@@ -1,0 +1,146 @@
+{
+  "pmid": "26865513",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients have intellectual disability (ID), which is mostly severe to profound (88%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ninety-five percent of patients have epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with Ohtahara syndrome (21%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "West syndrome (9.5%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "nonsyndromic early-onset epilepsy and encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nonsyndromic early-onset epilepsy and encephalopathy (53%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms or tonic seizures as main seizure type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic spasms or tonic seizures as main seizure type",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurologic comorbidities including autistic features and movement disorders are frequent.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurologic comorbidities including autistic features and movement disorders are frequent.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "extrapyramidal features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also report 2 previously unreported adult patients with prominent extrapyramidal features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy and encephalopathy as a consequence of de novo STXBP1 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo STXBP1 mutations are among the most frequent causes of epilepsy and encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "correlation between seizure severity and ID severity",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "We found no correlation between severity of seizures and severity of ID",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "correlation between mutation type and seizure characteristics or cognitive outcome",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "or between mutation type and seizure characteristics or cognitive outcome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizure severity and ID are independent dimensions of the STXBP1-E phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Accordingly, we hypothesize that seizure severity and ID present 2 independent dimensions of the STXBP1-E phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "STXBP1-E is a complex neurodevelopmental disorder rather than a primary epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1-E may be conceptualized as a complex neurodevelopmental disorder rather than a primary epileptic encephalopathy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

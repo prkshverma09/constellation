@@ -1,0 +1,16 @@
+{
+  "pmid": "26344637",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular profiling revealed additional mutations in RHPN2(L385I), MDM4(D396G), FLT3(V194M), and NPRL3(D53N).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "26358754",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together, our data suggest that the phenotype may be due to a loss-of-function of SMC1A in this patient.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "early-onset encephalopathy with epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings suggest that loss-of-function mutations of SMC1A may be associated with early-onset encephalopathy with epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

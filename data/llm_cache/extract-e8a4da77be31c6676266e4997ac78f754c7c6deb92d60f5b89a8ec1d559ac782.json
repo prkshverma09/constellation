@@ -1,0 +1,56 @@
+{
+  "pmid": "34392114",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum of STXBP1-related encephalopathy ranges from infantile epileptic encephalopathy to intellectual disability with nonsyndromic or absent epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability with nonsyndromic or absent epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum of STXBP1-related encephalopathy ranges from infantile epileptic encephalopathy to intellectual disability with nonsyndromic or absent epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We recruited patients with intellectual disability due to STXBP1 variants, regardless of their epileptic phenotype, who had tremor at examination and who underwent neurophysiological testing including polymyographic registration of upper limbs muscles activity at rest, during posture maintenance and action.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "postural and action distal tremor increased by emotions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinically, all had a postural and action distal tremor increased by emotions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "subcortical pseudo-rhythmic myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The tremor-like observed in STXBP1 encephalopathy is due to a subcortical pseudo-rhythmic myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

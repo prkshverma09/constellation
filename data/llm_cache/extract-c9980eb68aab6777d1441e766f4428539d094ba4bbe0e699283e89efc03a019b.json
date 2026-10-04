@@ -1,0 +1,106 @@
+{
+  "pmid": "38105687",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4 missense mutations c.296C>T (p.T99M), c.761G>A (p.R254Q), c.326G>T (p.G109V), c.745C>G (p.L249V)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "G109V and L249V impair interaction with neighboring residues, impacting protein function and reducing protein stability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "G109V and L249V may impair their interaction with the neighboring amino acid residues, thereby impacting protein function and reducing protein stability",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "c.798+1G>A damages an alpha helix in the motor domain, impacting protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.798+1G>A may damage an alpha helix in the motor domain of the KIF1A protein",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "motor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All cases had varying degrees of motor developmental delay since childhood",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "gait abnormalities (fell easily)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4 of them had gait abnormalities or fell easily.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "delayed mental development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed mental development",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "abnormal eye development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal eye development",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "more severe clinical symptoms in T99M carriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical symptoms in T99M carriers are more severe",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "relatively mild clinical symptoms in R254Q carriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those in R254Q carriers are relatively mild.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

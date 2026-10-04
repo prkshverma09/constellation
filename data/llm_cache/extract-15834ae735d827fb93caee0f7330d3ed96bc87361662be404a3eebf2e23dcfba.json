@@ -1,0 +1,16 @@
+{
+  "pmid": "39853501",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "investigated in children with KCNQ2-related developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

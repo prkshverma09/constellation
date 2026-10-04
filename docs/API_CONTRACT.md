@@ -11,7 +11,8 @@ LedgerRow = {edge_id, subject, subject_label, predicate, object, object_label, e
 DiseaseRef = {id, name, gene_id, gene_symbol}
 
 ## Endpoints
-GET  /api/health -> {status:"ok", snapshot_hash, llm_mode: "live"|"cached"|"offline", counts:{nodes, edges}}
+GET  /api/health -> {status:"ok", snapshot_hash, llm_mode: "live"|"cached"|"offline",
+     llm_available: bool (key present and mode is not offline), agent_model, counts:{nodes, edges}}
 GET  /api/search?q= -> {query, best: SearchHit|null, results:[SearchHit]}
      SearchHit = {id, type:"disease"|"gene"|"phenotype"|"patient_group"|"mechanism", label, matched_text, match_kind:"id"|"label"|"synonym"|"symbol"|"alias"|"org", disease: DiseaseRef|null}
      ("STXBP1", "Munc18-1", "DEE4", "STXBP1 Foundation" all -> best.disease.id == "MONDO:0012812")
@@ -47,11 +48,17 @@ GET  /api/bridges?a={mondo}&b={mondo} -> {a:DiseaseRef, b:DiseaseRef, people:[Br
      Affiliation properties are normalized and stripped of emails, URLs, phone numbers, and labeled contact details at build time.
 GET  /api/disease/{mondo}/coverage -> {disease_id, is_gap, reasons:[str], sources:[{source, query, count, retrieved_at}],
      nearest_leads:[{disease: DiseaseRef, S, missing_layer:"P"|"M"|"V"|"S"|"asset"|"people"}], what_would_change:[{layer, text, edge_ids}]}
-POST /api/dossier {disease, persona:"maria"|"devon"|"priya"|"osei", vs?:disease_id} -> Dossier
-     Dossier = {disease_id, persona, mode:"live"|"cached"|"offline", snapshot_hash, trace_id, generated_at,
+     `sources` contains an independent "OpenAI web search (validated)" row for accepted patient-organization pages.
+POST /api/dossier {disease, persona:"maria"|"devon"|"priya"|"osei", vs?:disease_id, regenerate?:bool=false} -> Dossier
+     In cached mode, a matching validated live dossier cache is returned as `cached-llm`; otherwise the offline cache is served.
+     `regenerate:true` runs the live chain only when `llm_available` is true.
+     Dossier = {disease_id, persona, mode:"live"|"cached-llm"|"cached"|"offline"|"offline-fallback", snapshot_hash, trace_id, generated_at,
                 sections:[{key:"who_shares"|"what_exists"|"what_differs"|"who_to_contact"|"next_step"|"coverage", title, sentences:[Sentence]}],
-                dropped_sentences:int, gap_plan: {reasons, what_would_change:[{layer,text,edge_ids}]}|null, markdown: str}
-     Every sentence must have >=1 edge_id that exists in the snapshot (cite-or-drop validator in code).
+                dropped_sentences:int, fallback_sections:[section_key], model, elapsed_ms, usage:{input_tokens,output_tokens},
+                gap_plan: {reasons, what_would_change:[{layer,text,edge_ids}]}|null, markdown: str}
+     Live output is restricted to a <=400-row evidence pack; out-of-pack citations and unsupported numbers are dropped.
+     Empty sections fall back to the offline draft; exceptions/timeouts return `offline-fallback`.
+     Every sentence must have >=1 edge_id that exists in the snapshot and evidence pack (cite-or-drop validator in code).
 GET  /api/mechanism/search?q= -> {query, clusters:[{id, label, score, member_ids, matched_pathways:[{id,name}]}]}
 POST /api/contribute {url, sentence, edge_id, polarity} -> LedgerRow (evidence_class "proposed"; stored in data/proposed.jsonl; never enters analytics)
 GET  /api/export/kgx -> application/zip with nodes.tsv, edges.tsv (KGX)

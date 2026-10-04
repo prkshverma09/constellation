@@ -1,0 +1,16 @@
+{
+  "pmid": "39926610",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasms syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline pathogenic variants were identified in 27/59 (46%) children, in TSC2 (x19), DEPDC5 (x2), CDKL5 (x2), NPRL3 (x1), FGFR1 (x1), TSC1 (x1), and one child with both a TUBB2A/TUBB2B deletion and a pathogenic variant in COL4A1 (x1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

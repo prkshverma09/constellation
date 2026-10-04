@@ -1,0 +1,16 @@
+{
+  "pmid": "40841711",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "delivery of autophagy-related Atg9-positive vesicles to synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We demonstrate that active Rab39 selectively controls Shot- and Unc104/KIF1A-mediated delivery of autophagy-related Atg9-positive vesicles to synapses.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

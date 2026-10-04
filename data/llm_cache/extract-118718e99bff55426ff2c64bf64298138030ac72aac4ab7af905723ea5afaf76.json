@@ -1,0 +1,16 @@
+{
+  "pmid": "28346953",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The list of etiologies was expanded to pathogenic copy number variants at whole-genome array comparative genomic hybridization associated with late-onset cases or pathogenic mutations involving genes, such as GABRB3, ALG13, SCN8A, STXBP1, DNM1, FOXG1, or CHD2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

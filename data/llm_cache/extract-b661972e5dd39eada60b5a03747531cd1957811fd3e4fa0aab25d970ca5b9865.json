@@ -1,0 +1,136 @@
+{
+  "pmid": "30076047",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "energy carrier of the brain across the blood-brain barrier",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The glucose transporter type 1 (Glut1) is the most important energy carrier of the brain across the blood-brain barrier.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "Glut1 deficiency syndrome (Glut1-DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the early nineties, the first genetic defect of Glut1 was described and known as the Glut1 deficiency syndrome (Glut1-DS).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "early infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early infantile seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exertion-induced dyskinesia (PED)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal exertion-induced dyskinesia (PED)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "early onset absence epilepsy (EOAE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early onset absence epilepsy (EOAE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy (CAE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "childhood absence epilepsy (CAE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic epilepsy (MAE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic astatic epilepsy (MAE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "episodic choreoathetosis and spasticity (CSE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic choreoathetosis and spasticity (CSE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a very effective therapy, the ketogenic diet, can improve or reverse symptoms especially if it is started as early as possible.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

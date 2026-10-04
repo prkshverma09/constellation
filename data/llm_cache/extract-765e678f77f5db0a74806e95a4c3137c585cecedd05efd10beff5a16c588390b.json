@@ -1,0 +1,26 @@
+{
+  "pmid": "11579434",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defects in the voltage-gated potassium channels KCNQ2 and KCNQ3 have recently been identified in benign familial neonatal convulsions.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "voltage-gated potassium channels KCNQ2 and KCNQ3",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

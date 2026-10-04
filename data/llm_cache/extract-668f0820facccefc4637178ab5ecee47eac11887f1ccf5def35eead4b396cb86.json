@@ -1,0 +1,26 @@
+{
+  "pmid": "32937172",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "dyslexia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed the associations of urinary zinc with dyslexia risk were modified by rs1805502 (Pinteraction = 0.048) in gene GRIN2B.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "dyslexia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "About 2-fold increase in creatinine-corrected zinc levels was significantly related to a reduced risk of dyslexia [odds ratio (OR) = 0.53, 95% confidence interval (CI): 0.29, 0.95 in rs1805502 mutation carriers].",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

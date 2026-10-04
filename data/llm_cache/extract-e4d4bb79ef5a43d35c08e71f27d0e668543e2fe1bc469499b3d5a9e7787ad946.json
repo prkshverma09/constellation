@@ -1,0 +1,26 @@
+{
+  "pmid": "28058944",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The penetrance of epilepsy within the families was highest for patients carrying mutation in the CACNA1A gene (60%), and lower in those having SCN1A (33.3%) and ATP1A2 (30.9%) mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "transmembrane domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutational hot spots in the transmembrane domains of CACNA1A and ATP1A2 proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

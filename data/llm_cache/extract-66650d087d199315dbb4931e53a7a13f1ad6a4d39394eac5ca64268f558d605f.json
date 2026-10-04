@@ -1,0 +1,46 @@
+{
+  "pmid": "22670134",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a monogenic X-linked dominant neurodevelopmental disorder related to mutation in MECP2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "methyl-CpG-binding protein MeCP2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutation in MECP2, which encodes the methyl-CpG-binding protein MeCP2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are several mouse models either based on conditional knocking out of the Mecp2 gene or on a truncating mutation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "altering gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "perspectives in altering gene expression",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "22678713",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "expressed in human brain; highest expression in the cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All three genes were expressed in different normal human tissues, including in human brain, with highest expression levels in the cerebellum.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that HNRNPU, FAM36A, and NCRNA00201 are not major genes for microcephaly and corpus callosum abnormalities but are good candidates for ID and seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that HNRNPU, FAM36A, and NCRNA00201 are not major genes for microcephaly and corpus callosum abnormalities but are good candidates for ID and seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

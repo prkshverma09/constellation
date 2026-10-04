@@ -1,0 +1,136 @@
+{
+  "pmid": "36537114",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX biallelic loss-of-function pathogenic single nucleotide variants (SNVs) and copy number variants (CNVs) including exonic deletions and duplications cause WWOX-related epileptic encephalopathy (WOREE) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is characterized by refractory epilepsy, axial hypotonia, peripheral hypertonia, progressive microcephaly, and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "axial hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is characterized by refractory epilepsy, axial hypotonia, peripheral hypertonia, progressive microcephaly, and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "peripheral hypertonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is characterized by refractory epilepsy, axial hypotonia, peripheral hypertonia, progressive microcephaly, and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "progressive microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is characterized by refractory epilepsy, axial hypotonia, peripheral hypertonia, progressive microcephaly, and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "premature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disorder is characterized by refractory epilepsy, axial hypotonia, peripheral hypertonia, progressive microcephaly, and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe, developmental and epileptic encephalopathy (DEE)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "failure to thrive",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "failure to thrive in most patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy that responded to a ketogenic diet in three patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Dysmorphic features and abnormal prenatal findings were not commonly observed.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "abnormal prenatal findings",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Dysmorphic features and abnormal prenatal findings were not commonly observed.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "recurrent pancreatitis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, recurrent pancreatitis and sensorineural hearing loss each were observed in single patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "sensorineural hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, recurrent pancreatitis and sensorineural hearing loss each were observed in single patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

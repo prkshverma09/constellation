@@ -1,0 +1,36 @@
+{
+  "pmid": "38280856",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Clustering Epilepsy (CE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clustering Epilepsy (CE) is an epileptic disorder with neurological comorbidities caused by heterozygous variants of the X chromosome gene Protocadherin 19 (PCDH19).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "repression of PCDH19 expression mediated through ERα and the co-regulator FOXA1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the repression of PCDH19 expression mediated through ERα and the co-regulator FOXA1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "Androgen Receptor (AR) protein-protein interaction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a protein-protein interaction between PCDH19 and AR",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

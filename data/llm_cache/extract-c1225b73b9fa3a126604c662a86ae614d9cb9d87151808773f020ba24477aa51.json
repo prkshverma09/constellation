@@ -1,0 +1,86 @@
+{
+  "pmid": "42026056",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "severe neurological deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The overexpression of MECP2 leads to severe neurological deficits in MECP2 duplication syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "dosage is considered a risk factor in gene therapy for Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its dosage is considered a risk factor in gene therapy for Rett syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "induces transcriptional alterations in neural progenitor cells; minimal effects in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we show that MeCP2 overexpression induces transcriptional alterations in neural progenitor cells, but has minimal effects in neurons in both mouse and human contexts.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "functional changes in neural progenitor cells but not mature neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, MeCP2 overexpression in neural progenitor cells, but not mature neurons, leads to functional changes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "bind to the same CpG island repertoire",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both endogenous and overexpressed Mecp2 bind to the same CpG island repertoire.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "reduced CpG island binding and accelerated protein degradation in neurons upon ectopic expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In neurons, where endogenous Mecp2 is highly expressed, ectopic protein expression leads to reduced CpG island binding and accelerated protein degradation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "stronger deposition of the ectopic protein onto CpG islands driving transcriptional activation of many developmental bivalent genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, in neural progenitor cells, lower endogenous Mecp2 levels facilitate stronger deposition of the ectopic protein onto CpG islands, driving the transcriptional activation of many developmental bivalent genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "activation is mediated by the interaction with the SWI/SNF chromatin remodeling complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We show that this activation is mediated by the interaction with the SWI/SNF chromatin remodeling complex.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

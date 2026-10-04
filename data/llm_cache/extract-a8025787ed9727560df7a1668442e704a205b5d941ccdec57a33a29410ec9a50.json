@@ -1,0 +1,106 @@
+{
+  "pmid": "28389307",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo GRIN1 mutations have recently been shown to cause severe intellectual disability, hypotonia, hyperkinetic and stereotyped movements, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo GRIN1 mutations have recently been shown to cause severe intellectual disability, hypotonia, hyperkinetic and stereotyped movements, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic and stereotyped movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo GRIN1 mutations have recently been shown to cause severe intellectual disability, hypotonia, hyperkinetic and stereotyped movements, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo GRIN1 mutations have recently been shown to cause severe intellectual disability, hypotonia, hyperkinetic and stereotyped movements, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe early onset encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two new cases of severe early onset encephalopathy associated with hyperkinetic and oculogyric-like movements, caused by mutations in the GRIN1 gene; both were identified by whole exome sequencing.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "oculogyric-like movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two new cases of severe early onset encephalopathy associated with hyperkinetic and oculogyric-like movements, caused by mutations in the GRIN1 gene; both were identified by whole exome sequencing.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.Ser688Tyr",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.Gly827Arg",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "disruption of NMDA ligand binding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In silico studies suggested that the p.Se688Tyr mutation results in disruption of NMDA ligand binding",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "disrupted gating of the ion channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the p.Gly827Arg mutation results in disrupted gating of the ion channel.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "27396362",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "regulates transport of ATG-9 to coordinate autophagosome formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A/UNC-104 coordinates localized autophagosome formation by regulating the transport of the integral membrane autophagy protein, ATG-9.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicle kinesin required for localization of autophagosome biogenesis near synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this localization depends on the synaptic vesicle kinesin, KIF1A/UNC-104.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "regulates neurodevelopment via ATG-9 transport and spatial regulation of autophagy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autophagy is spatially regulated in neurons through the transport of ATG-9 by KIF1A/UNC-104 to regulate neurodevelopment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

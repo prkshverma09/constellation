@@ -1,0 +1,86 @@
+{
+  "pmid": "37606373",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "a broad epilepsy spectrum, ranging from genetic generalized epilepsies to developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in GABRA1 have been associated with a broad epilepsy spectrum, ranging from genetic generalized epilepsies to developmental and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "mild cognitive impairment and infantile onset epilepsy (focal seizures, fever sensitivity, and electroencephalographic posterior epileptiform discharges)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A homogenous phenotype with mild cognitive impairment and infantile onset epilepsy (focal seizures, fever sensitivity, and electroencephalographic posterior epileptiform discharges)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants displayed loss-of-function (LoF) effects",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "a more severe phenotype associated with variants in the pore-forming transmembrane helices",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A more severe phenotype was associated with variants in the pore-forming transmembrane helices.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants displayed either gain-of-function (GoF) or LoF effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants displayed either gain-of-function (GoF) or LoF effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "severe early onset neurodevelopmental disorders, including early infantile developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GoF variants were associated with severe early onset neurodevelopmental disorders, including early infantile developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "variants in the transmembrane helices cause more severe phenotypes, in particular GoF variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Generally, variants in the transmembrane helices cause more severe phenotypes, in particular GoF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

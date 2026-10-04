@@ -1,0 +1,16 @@
+{
+  "pmid": "32913390",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "CSF biomarker for synapse dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "established (eg, neurogranin, SNAP-25, synaptotagmin-1, GAP-43, and α-syn) and emerging (eg, synaptic vesicle glycoprotein 2A and neuronal pentraxins) CSF biomarkers for synapse dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

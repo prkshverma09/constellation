@@ -1,0 +1,146 @@
+{
+  "pmid": "39146709",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19 clustering epilepsy (distinct etiology of epilepsy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 gene variants, termed PCDH19 clustering epilepsy, represent a distinct etiology of epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure onset 5 to 61 months (median 14 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age at seizure onset ranged from 5 to 61 months among all 30 patients (median 14 months; IQR 9.25-22.5 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "female predominance (29 female, 1 male)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the 30 patients, 29 were female and 1 was male.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "clusters of seizures and fever-triggered seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clusters of seizures and fever-triggered seizures were observed, with the most prevalent seizure types being focal to bilateral tonic-clonic seizures (FBTCS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal to bilateral tonic-clonic seizures (FBTCS) as most prevalent seizure type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with the most prevalent seizure types being focal to bilateral tonic-clonic seizures (FBTCS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures successfully controlled in 15 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were successfully controlled in 15 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy (SUDEP) in one patient",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Unfortunately, one patient experienced a sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay in 17 patients (56.7%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental delays were identified in 17 patients (56.7 %), and 6 patients (20 %) were diagnosed with autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder in 6 patients (20%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental delays were identified in 17 patients (56.7 %), and 6 patients (20 %) were diagnosed with autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "timing of developmental delay relative to epilepsy onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the 17 patients, 9 experienced developmental delays before the onset of epilepsy, while 8 were initially normal but later developed developmental delays during disease progression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "genetic mutation types: hereditary, de novo, both, mosaic (0.64 somatic in one male)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, 14 patients had hereditary mutations, 14 had de novo mutations, 1 had both hereditary and de novo mutations, and 1 male patient had a mosaic component mutation of 0.64 due to a somatic mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy is an independent risk factor for developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Statistical analysis revealed that the presence of drug-resistant epilepsy was an independent risk factor for the occurrence of developmental delays (P = 0.020, OR = 9.758, 95 % CI (1.440-66.111)).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "identification of 13 new potential rare pathogenic variations in PCDH19",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, 13 new potential rare pathogenic variations in PCDH19 clustering epilepsy were identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "phenotypic severity ranged from drug-responsive seizures to refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The severity of the phenotype in patients with PCDH19 variants ranged from drug-responsive seizures to refractory epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

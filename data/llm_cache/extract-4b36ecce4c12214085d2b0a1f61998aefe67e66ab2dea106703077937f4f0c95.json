@@ -1,0 +1,96 @@
+{
+  "pmid": "39439207",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 and GluK1, a glutamate-gated kainate receptor subtype, are coexpressed in cerebellar Purkinje cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1 currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 coexpression augmented GluK1, but not GluK2, currents in HEK293 cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pregabalin lost its inhibitory effect on GluK1 currents in HEK293 cells expressing both GluK1 and the α2δ-2(R282A) mutant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2, but not α2δ-1, formed a protein complex with GluK1 in cerebellar tissues and HEK293 cells through its C-terminus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "surface expression of GluK1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 coexpression potentiated surface expression of GluK1 proteins in HEK293 cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1-mediated excitatory post-synaptic currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disrupting α2δ-2-GluK1 interactions using α2δ-2 C-terminus peptide abrogated the potentiating effect of α2δ-2 on GluK1 currents and attenuated the amplitude of GluK1-mediated excitatory post-synaptic currents in Purkinje cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "impaired beam-walking and rotarod performance in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPR/Cas9-induced conditional knockdown of Cacna2d2 or Grik1 in Purkinje cells, in addition to microinjection of α2δ-2 C-terminus peptide or UBP310 into the cerebellum, substantially impaired beam-walking and rotarod performance in mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 directly interacts with GluK1 independently of its conventional role as a voltage-activated Ca2+ channel subunit.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "GluK1-containing kainate receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 regulates motor coordination by promoting synaptic expression and activity in GluK1-containing kainate receptors in Purkinje cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

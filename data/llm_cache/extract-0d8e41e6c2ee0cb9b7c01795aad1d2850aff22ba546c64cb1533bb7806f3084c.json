@@ -1,0 +1,16 @@
+{
+  "pmid": "42774871",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "metabolic findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This case describes a range of metabolic findings in a patient carrying a GRIA3 duplication.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

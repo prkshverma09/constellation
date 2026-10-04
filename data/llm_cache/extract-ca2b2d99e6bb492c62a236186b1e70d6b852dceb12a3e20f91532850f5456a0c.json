@@ -1,0 +1,86 @@
+{
+  "pmid": "26620267",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "interneuron development defects after conditional disruption",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "conditional disruption of Foxg1 in the subpallium results in defects in interneuron development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "roundabout-1, Eph receptor A4, and C-X-C motif receptor 4/7 downregulated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In developing interneurons, the expression levels of several receptors, including roundabout-1, Eph receptor A4, and C-X-C motif receptor 4/7, were strongly downregulated",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "migration defects after Foxg1 ablation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which led to migration defects after Foxg1 ablation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Dlx1/2 and Mash1 upregulated at the mRNA level",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcription factors Dlx1/2 and Mash1, which have been reported to be involved in interneuron development, were significantly upregulated at the mRNA levels.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "shorter neurites and fewer branches in Foxg1 mutant cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 mutant cells developed shorter neurites and fewer branches",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "severe migration defects in vitro",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 mutant cells developed shorter neurites and fewer branches and displayed severe migration defects in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Prox1 dramatically upregulated at mRNA and protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, Prox1, which is a transcription factor that functions as a key regulator in the development of excitatory neurons, was also dramatically upregulated at both the mRNA and protein levels,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "upstream regulator of Dlx1/2, Mash1, and Prox1 to control interneuron development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our work demonstrates that Foxg1 may act as a critical upstream regulator of Dlx1/2, Mash1, and Prox1 to control interneuron development.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

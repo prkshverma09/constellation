@@ -1,0 +1,16 @@
+{
+  "pmid": "34167046",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with eyelid myoclonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variations of certain genes including CHD2 (chromodomain helicase DNA-binding protein 2), KCNB1, KIAA2022, and NAA10 may occur in these patients.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

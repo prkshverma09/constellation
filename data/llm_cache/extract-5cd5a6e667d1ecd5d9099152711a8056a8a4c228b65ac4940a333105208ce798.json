@@ -1,0 +1,26 @@
+{
+  "pmid": "25312505",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified a Cacna1a missense mutation in a N-Methyl-N-nitrosourea (MNU)-induced mutant rat strain GRY",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "episodic ataxia type 2 (EA2) model rats",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in the discovery of episodic ataxia type 2 (EA2) model rats.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "CDKL5",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:24:30.288620+00:00",
+  "usage": {
+    "input_tokens": 48396,
+    "output_tokens": 6845
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "International Foundation for CDKL5 Research",
+        "url": "https://cdkl5.com/guide/living-with-cdkl5",
+        "kind": "foundation",
+        "snippet": "CDKL5 Deficiency Disorder (CDD) is a rare genetic condition caused by mutations in the CDKL5 (Cyclin-Dependent Kinase-Like 5) gene."
+      },
+      {
+        "name": "Loulou Foundation",
+        "url": "https://www.louloufoundation.org/",
+        "kind": "foundation",
+        "snippet": "Every year since 2015, the Foundation has hosted the CDKL5 Forum, an annual international symposium dedicated to CDKL5 and CDD."
+      },
+      {
+        "name": "CDKL5 Registry",
+        "url": "https://www.cdkl5registry.org/cdkl5-registry.html",
+        "kind": "registry",
+        "snippet": "The CDKL5 Registry collects data for research and pharmaceutical development, as well as helps caregivers track their loved one’s symptoms."
+      },
+      {
+        "name": "International CDKL5 Disorder Database (ICDD)",
+        "url": "https://rett.thekids.org.au/about/cdkl5-disorder/",
+        "kind": "registry",
+        "snippet": "The International CDKL5 Database was first established in 2012 by a team at The Kids Research Institute Australia in Western Australia."
+      },
+      {
+        "name": "International CDKL5 Clinical Research Network (ICCRN)",
+        "url": "https://cdkl5researchnetwork.org/",
+        "kind": "research_network",
+        "snippet": "We seek to improve the health and quality of life for individuals and families living with CDKL5 Deficiency Disorder (CDD) through collaborative clinical research."
+      }
+    ]
+  }
+}

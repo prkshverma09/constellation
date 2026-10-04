@@ -1,0 +1,96 @@
+{
+  "pmid": "32574724",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the DEPDC5 gene can cause epilepsy, including forms with and without brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "brain malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the DEPDC5 gene can cause epilepsy, including forms with and without brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated induced pluripotent stem cells (iPSCs) from epilepsy patients harboring heterozygous loss of function mutations in DEPDC5.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "patient iPSCs from DEPDC5 mutation carriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated induced pluripotent stem cells (iPSCs) from epilepsy patients harboring heterozygous loss of function mutations in DEPDC5.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTORC1 signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient iPSCs displayed increases in both phosphorylation of ribosomal protein S6 and proliferation rate, consistent with elevated mTORC1 activation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data indicate that human cells heterozygous for DEPDC5 loss-of-function mutations are haploinsufficient for control of mTORC1 signaling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "increased soma size",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In line with these findings, we observed increased soma size in patient iPSC-derived cortical neurons that was rescued with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "rapamycin treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In line with these findings, we observed increased soma size in patient iPSC-derived cortical neurons that was rescued with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "mouse models of DEPDC5-related epilepsies lack consistent heterozygous neuronal phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings suggest that human pathology differs from mouse models of DEPDC5-related epilepsies, which do not show consistent phenotypic differences in heterozygous neurons,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

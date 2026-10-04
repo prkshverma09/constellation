@@ -1,0 +1,166 @@
+{
+  "pmid": "34431999",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "encoding the voltage-gated Na+ channel Nav1.6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A, encoding the voltage-gated Na+ channel Nav1.6,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expressing missense variants in ND7/23 neuroblastoma cells and primary neuronal cultures",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "ND7/23 neuroblastoma cells and primary neuronal cultures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expressing missense variants in ND7/23 neuroblastoma cells and primary neuronal cultures",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two variants causing developmental and epileptic encephalopathy showed a strong gain-of-function (hyperpolarizing shift of steady-state activation, strongly increased neuronal firing rate)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one variant causing benign familial infantile epilepsy or intermediate epilepsy showed a mild gain-of-function (defective fast inactivation, less increased firing)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all three variants causing generalized epilepsy induced a loss-of-function (reduced current amplitudes, depolarizing shift of steady-state activation, reduced neuronal firing).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 136 individuals carrying a functionally tested gain-of-function variant had either focal (n = 97, Groups 1-3) or unclassifiable (n = 39) epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "unclassifiable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 136 individuals carrying a functionally tested gain-of-function variant had either focal (n = 97, Groups 1-3) or unclassifiable (n = 39) epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "34 individuals with a loss-of-function variant had either generalized (n = 14), no (n = 11) or unclassifiable (n = 6) epilepsy; only three had developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "no epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "34 individuals with a loss-of-function variant had either generalized (n = 14), no (n = 11) or unclassifiable (n = 6) epilepsy; only three had developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "unclassifiable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "34 individuals with a loss-of-function variant had either generalized (n = 14), no (n = 11) or unclassifiable (n = 6) epilepsy; only three had developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "electrophysiological severity correlates with clinical severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Computational modelling in the gain-of-function group revealed a significant correlation between the severity of the electrophysiological and clinical phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "extent of electrophysiological dysfunction of GOF variants determines clinical severity in focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the extent of the electrophysiological dysfunction of the gain-of-function variants is a main determinant of the severity of the clinical phenotype in focal epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "clear genotype-phenotype correlations between age at seizure onset, type of epilepsy and variant functional effect",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "our data reveal clear genotype-phenotype correlations between age at seizure onset, type of epilepsy and gain- or loss-of-function effects of SCN8A variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function variant carriers responded significantly better to sodium channel blockers than to other anti-seizure medications,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers present a treatment option in SCN8A-related focal epilepsy with onset in the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our pharmacological data indicate that sodium channel blockers present a treatment option in SCN8A-related focal epilepsy with onset in the first year of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

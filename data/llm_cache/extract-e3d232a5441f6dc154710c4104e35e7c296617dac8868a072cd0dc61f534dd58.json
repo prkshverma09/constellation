@@ -1,0 +1,16 @@
+{
+  "pmid": "23708187",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo CHD2 and SYNGAP1 mutations are new causes of epileptic encephalopathies, accounting for 1.2% and 1% of cases, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

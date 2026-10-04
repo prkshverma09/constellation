@@ -1,0 +1,16 @@
+{
+  "pmid": "40769196",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disrupting the α-syn-VAMP2 interaction abolishes tubulation, directly linking this interface to vesicle remodeling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

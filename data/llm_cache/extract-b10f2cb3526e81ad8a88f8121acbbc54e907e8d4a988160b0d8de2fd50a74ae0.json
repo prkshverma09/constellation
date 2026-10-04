@@ -1,0 +1,66 @@
+{
+  "pmid": "33650258",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "genetic generalized epilepsy risk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GABRG2 C588T polymorphism was associated with genetic generalized epilepsy risk under dominant and allelic models (odds ratio [OR] = 1.25, 95% confidence interval [CI] = 1.02-1.54, p = 0.03, I2 = 0% and OR = 1.21, 95% CI = 1.03-1.42, p = 0.02, I2 = 20%, respectively).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "regulates GABRG2 expression in human brain tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We first found that the GABRG2 C588T polymorphism regulates GABRG2 expression in human brain tissues",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "interacts with targets of approved antiepileptic drugs (AEDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the protein encoded by GABRG2 interacts with targets of approved antiepileptic drugs (AEDs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "interacts with approved AEDs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRG2 itself interacts with approved AEDs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "alter the GABAA receptor by modulating GABRG2 gene expression, resulting in increased risk for epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the C588T polymorphism might alter the GABAA receptor by modulating GABRG2 gene expression, resulting in increased risk for epilepsy",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "potential therapeutic target for epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRG2 may be a potential therapeutic target for epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

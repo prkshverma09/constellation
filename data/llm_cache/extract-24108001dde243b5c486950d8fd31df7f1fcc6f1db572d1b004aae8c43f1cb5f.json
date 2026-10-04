@@ -1,0 +1,126 @@
+{
+  "pmid": "27928161",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "Kv2.1 potassium channel; hippocampal neuron excitation homeostasis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Potassium voltage-gated channel subfamily B member 1 (KCNB1) encodes Kv2.1 potassium channel of crucial role in hippocampal neuron excitation homeostasis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 mutations are known to cause early-onset infantile epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo missense (c.1132G>C, p.V378L) KCNB1 mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe speech impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe speech impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "no episode of epilepsy until the lastly examined age of 6 years old",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but no episode of epilepsy until the lastly examined age of 6 years old.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperactivity",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "irritability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "irritability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "heteroaggressiveness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heteroaggressiveness",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "psychomotor instability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "agitation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "agitation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

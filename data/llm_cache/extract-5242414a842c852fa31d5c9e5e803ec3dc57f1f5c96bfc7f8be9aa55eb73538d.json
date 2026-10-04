@@ -1,0 +1,116 @@
+{
+  "pmid": "31600826",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KCNB1, encoding the voltage-gated potassium channel KV 2.1, are associated with developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "encoding the voltage-gated potassium channel KV 2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the voltage-gated potassium channel KV 2.1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "loss of voltage sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of voltage sensitivity",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "loss of ion selectivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of ion selectivity",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "reduced cell-surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced cell-surface expression",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "variant KV 2.1 channels expressed in heterologous cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variant KV 2.1 channels expressed in heterologous cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "altered current density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered current density",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "shifts in the voltage dependence of activation and/or inactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "shifts in the voltage dependence of activation and/or inactivation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "reduced total KV 2.1 expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced total KV 2.1 expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "deficient cell-surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deficient cell-surface expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "targeted strategies for therapeutic intervention based on molecular phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which will enable targeted strategies for therapeutic intervention based on molecular phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

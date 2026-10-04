@@ -1,0 +1,16 @@
+{
+  "pmid": "22206818",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic absence epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This review examines the current research on mutations and susceptibility alleles determined in the genes that code for the subunits of GABA receptors (GABRG2, GABRA1, GABRB3, GABRA5, GABA(B1) and GABA(B2))",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

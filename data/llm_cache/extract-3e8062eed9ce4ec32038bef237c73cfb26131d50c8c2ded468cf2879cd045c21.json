@@ -1,0 +1,46 @@
+{
+  "pmid": "40925365",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function mutations in the SCN8A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "sodium channel Nav1.6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A gene encoding the sodium channel Nav1.6",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "cortical assembloids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical assembloids showed network hyperexcitability akin to epileptogenic tissue",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "hippocampal assembloids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hippocampal assembloids did not, and instead displayed network dysregulation patterns similar to in vivo hippocampal recordings from epilepsy patients",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "28615892",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "usefulness of ketogenic diet therapy in SLC2A1+ generalized epilepsy patients.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

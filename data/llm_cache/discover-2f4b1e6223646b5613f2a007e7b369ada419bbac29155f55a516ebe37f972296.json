@@ -1,0 +1,44 @@
+{
+  "symbol": "SCN1A",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:15:14.705143+00:00",
+  "usage": {
+    "input_tokens": 109870,
+    "output_tokens": 12473
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "Dravet Syndrome Foundation (US)",
+        "url": "https://dravetfoundation.org/wp-content/uploads/2023/04/DSF-2023-Genetic-RFA.pdf",
+        "kind": "foundation",
+        "snippet": "Heterozygous loss-of-function variants in SCN1A are found in the majority (>80%) of patients diagnosed with Dravet syndrome."
+      },
+      {
+        "name": "Dravet Registry (RE.SI.DRA.S)",
+        "url": "https://www.dravet-registry.com/registry",
+        "kind": "registry",
+        "snippet": "The Registry of Dravet Syndrome and other Syndromes Correlated with Gene SCN1A and PCDH19 Mutation collects personal, clinical, pharmacological and genetic data from the patients."
+      },
+      {
+        "name": "SCN1A Gain of Function Foundation",
+        "url": "https://www.scn1agoffoundation.org/about",
+        "kind": "foundation",
+        "snippet": "We advocate for and fund research to better understand SCN1A Gain-of-Function mutations, supporting institutions investigating the Philadelphia Variant and advancing effective treatments."
+      },
+      {
+        "name": "Dravet Syndrome UK",
+        "url": "https://www.dravet.org.uk/about-dravet-syndrome/which-genes-cause-dravet-syndrome/",
+        "kind": "foundation",
+        "snippet": "The SCN1A gene contains instructions, or genetic code, to create an important protein in the brain, known as a ‘sodium ion channel’."
+      },
+      {
+        "name": "Dravet Syndrome European Federation (DSEF)",
+        "url": "https://dravet.eu/",
+        "kind": "foundation",
+        "snippet": "International Register of Dravet Syndrome and other syndromes correlated with genes on SCN1A and PCDH19."
+      }
+    ]
+  }
+}

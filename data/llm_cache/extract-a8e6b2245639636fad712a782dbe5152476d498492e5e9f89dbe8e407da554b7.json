@@ -1,0 +1,96 @@
+{
+  "pmid": "34516822",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function defects caused by variants in the KV1.2 subunit in vitro",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "reducing current amplitudes and negative shifts of steady-state activation and increasing the firing rate of transfected neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reducing current amplitudes and negative shifts of steady-state activation and increasing the firing rate of transfected neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "the K+ channel blocker 4-aminopyridine can antagonize gain-of-function defects caused by variants in the KV1.2 subunit in vitro",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the K+ channel blocker 4-aminopyridine can antagonize gain-of-function defects caused by variants in the KV1.2 subunit in vitro",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "clinical benefit of 4-aminopyridine in patients with KCNA2 gain-of-function variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "9 of 11 patients carrying such variants benefitted from treatment with 4-aminopyridine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "seizure freedom for absence, myoclonic, or atonic seizures with 4-aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All six patients experiencing daily absence, myoclonic, or atonic seizures became seizure-free (except some remaining provoked seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "variable response of generalized tonic-clonic seizures to 4-aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two of six patients experiencing generalized tonic-clonic seizures showed marked improvement, three showed no effect, and one worsening.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "improvement in gait, ataxia, alertness, cognition, or speech with 4-aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nine patients showed improved gait, ataxia, alertness, cognition, or speech.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "tolerability of 4-aminopyridine up to 2.6 mg/kg per day",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-Aminopyridine was well tolerated up to 2.6 mg/kg per day.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-aminopyridine as a promising tailored treatment for KCNA2-(gain-of-function)–encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We suggest 4-aminopyridine as a promising tailored treatment in KCNA2-(gain-of-function)–encephalopathy",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,166 @@
+{
+  "pmid": "32096284",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "central and peripheral nervous system involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a range of central and peripheral nervous system involvement.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "congenital contractures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "congenital contractures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe spasticity",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe spasticity and/or dystonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "dysautonomia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysautonomia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe sensorimotor polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe sensorimotor polyneuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "significant white matter changes on brain MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant white matter changes on brain MRI",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "respiratory insufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "respiratory insufficiency",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "complete lack of neurodevelopmental progress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "complete lack of neurodevelopmental progress",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder with spasticity and/or dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a movement disorder with spasticity and/or dystonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "sensory axonal neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sensory axonal neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "learning and/or behavioural difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "learning and/or behavioural difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "subtle or progressive white matter changes on MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "subtle or absent-but sometimes progressive-changes in white matter on MRI",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was common among the more severely affected children.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "central and peripheral (including autonomic) nervous system deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KRD comprise a range of neurological disorders, with both the milder and the more severe forms combining central and peripheral (including autonomic) nervous system deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

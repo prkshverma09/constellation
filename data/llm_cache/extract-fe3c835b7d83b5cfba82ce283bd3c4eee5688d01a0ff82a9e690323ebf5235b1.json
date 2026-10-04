@@ -1,0 +1,16 @@
+{
+  "pmid": "40654911",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulator of excitatory neuron specification",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "implicating FOXG1, BHLHE22, EOMES, and NEUROD2 as key regulators of excitatory neuron specification in macrocephalic ASD.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

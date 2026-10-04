@@ -1,0 +1,26 @@
+{
+  "pmid": "42008415",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "synergistic downregulation of protective genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight machine learning-identified core genes (EFNA1, GABRB2, GABARAPL1, EGR1, CDK5, KCNC2, MET, GRIA2) exhibited a distinct AD expression pattern: synergistic downregulation of protective genes and unique upregulation of pathological EFNA1.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "neurotransmission; synaptic plasticity; tau clearance; immune-neural crosstalk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genes are implicated in neurotransmission, synaptic plasticity, tau clearance, and immune-neural crosstalk.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "28917824",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "LB counts in middle frontal, superior temporal, and inferior parietal gyri",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nominally significant (P < 0.05) associations with LB counts where the direction of association was in agreement with that observed in the PD GWAS meta-analysis were observed for variants in BCKDK/STX1B (MF, ST, IP) and SNCA (ST).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "LBD subtype (brainstem, transitional, or diffuse)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, MIR4697 and BCKDK/STX1B variants were nominally associated with LBD subtype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "LB counts in any brain region or LBD subtype",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "None of the variants examined were significantly associated with LB counts in any brain region or with LBD subtype after correcting for multiple testing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "40811633",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "carbamazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 variants responding to carbamazepine",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

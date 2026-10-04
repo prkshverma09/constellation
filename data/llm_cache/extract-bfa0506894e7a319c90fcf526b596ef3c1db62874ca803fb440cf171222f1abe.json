@@ -1,0 +1,146 @@
+{
+  "pmid": "32369665",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous mutations in GRIA3 encoding the GluA3 subunit of the amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor are known to be associated with neurodevelopmental disorders, including intellectual disability, hypotonia, an autism spectrum disorder, sleep disturbances, and epilepsy in males.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous mutations in GRIA3 encoding the GluA3 subunit of the amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor are known to be associated with neurodevelopmental disorders, including intellectual disability, hypotonia, an autism spectrum disorder, sleep disturbances, and epilepsy in males.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous mutations in GRIA3 encoding the GluA3 subunit of the amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor are known to be associated with neurodevelopmental disorders, including intellectual disability, hypotonia, an autism spectrum disorder, sleep disturbances, and epilepsy in males.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous mutations in GRIA3 encoding the GluA3 subunit of the amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor are known to be associated with neurodevelopmental disorders, including intellectual disability, hypotonia, an autism spectrum disorder, sleep disturbances, and epilepsy in males.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy in males",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous mutations in GRIA3 encoding the GluA3 subunit of the amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor are known to be associated with neurodevelopmental disorders, including intellectual disability, hypotonia, an autism spectrum disorder, sleep disturbances, and epilepsy in males.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to mild intellectual disability and dysarthria, affected patients presented a tightly consistent early-onset movement disorder combining an exaggerated startle reflex with generalized chorea and multifocal myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "dysarthria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to mild intellectual disability and dysarthria, affected patients presented a tightly consistent early-onset movement disorder combining an exaggerated startle reflex with generalized chorea and multifocal myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "exaggerated startle reflex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to mild intellectual disability and dysarthria, affected patients presented a tightly consistent early-onset movement disorder combining an exaggerated startle reflex with generalized chorea and multifocal myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "generalized chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to mild intellectual disability and dysarthria, affected patients presented a tightly consistent early-onset movement disorder combining an exaggerated startle reflex with generalized chorea and multifocal myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "multifocal myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to mild intellectual disability and dysarthria, affected patients presented a tightly consistent early-onset movement disorder combining an exaggerated startle reflex with generalized chorea and multifocal myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The unreported GRIA3 missense variant c.2477G > A; p.(Gly826Asp) affecting the fourth transmembrane domain of the protein was identified in index patients and their unaffected mothers.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies revealed that variant receptors show decreased current response evoked by agonist (ie, kainic acid and glutamate) and reduced expression on the cell surface in favor of pathogenicity by a loss-of-function mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "Xenopus laevis oocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular analyses using next generation sequencing and in vitro functional studies using 2-electrode voltage clamp recordings on Xenopus laevis oocytes and a β-lactamase reporter assay in transfected human embryonic kidney (HEK293) cells were performed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "human embryonic kidney (HEK293) cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular analyses using next generation sequencing and in vitro functional studies using 2-electrode voltage clamp recordings on Xenopus laevis oocytes and a β-lactamase reporter assay in transfected human embryonic kidney (HEK293) cells were performed.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

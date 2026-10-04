@@ -1,0 +1,26 @@
+{
+  "pmid": "23429546",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "malignant migrating partial seizures of infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in KCNT1 were found in two seemingly unrelated monogenic epilepsies including malignant migrating partial seizures of infancy and severe autosomal dominant nocturnal frontal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe autosomal dominant nocturnal frontal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in KCNT1 were found in two seemingly unrelated monogenic epilepsies including malignant migrating partial seizures of infancy and severe autosomal dominant nocturnal frontal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

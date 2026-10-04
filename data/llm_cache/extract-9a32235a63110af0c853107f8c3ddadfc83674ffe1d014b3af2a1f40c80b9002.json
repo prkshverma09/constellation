@@ -1,0 +1,36 @@
+{
+  "pmid": "40836583",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome is a severe developmental and epileptic encephalopathy caused by heterozygous, loss-of-function, pathogenic variants in the SCN1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome is a severe developmental and epileptic encephalopathy caused by heterozygous, loss-of-function, pathogenic variants in the SCN1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "precision therapies that target the SCN1A variant.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "precision therapies that target the SCN1A variant.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41469740",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "marker regulating neuron-like lineage transition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Differentially expressed genes such as GRIK1, GRIN1, NRXN3, NRXN1, CALB2, SCGN, SLC32A1, SLC1A2, KCNC3, and neurodevelopmental regulators including WNT7A, DLX6, ERBB4, ARX, BCL11B, SEMA3C, and FGFBP3 were identified as key markers regulating the neuron-like lineage transition.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

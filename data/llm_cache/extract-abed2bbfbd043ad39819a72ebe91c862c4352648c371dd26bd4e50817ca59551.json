@@ -1,0 +1,26 @@
+{
+  "pmid": "35668344",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A, a neuron-specific kinesin required for transport of synaptic vesicle precursors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "isolated hypomyelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Impairment of TUBB4A binding to KIF1A is more likely to be involved in the isolated hypomyelination phenotype",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

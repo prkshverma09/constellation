@@ -1,0 +1,86 @@
+{
+  "pmid": "34727962",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated P/Q-type Cav2.1 channel that is broadly expressed in the central nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A gene is a voltage-gated P/Q-type Cav2.1 channel that is broadly expressed in the central nervous system",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the pathogenic variants within this gene may be associated with the epileptic phenotype",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "early onset (childhood and teenage years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "about 90 percent of patients have shown the first symptoms in childhood and teenage years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders (intellectual disability, developmental arrest, behavioral disorders)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different types of neurodevelopmental disorders, such as intellectual disability, developmental arrest, and behavioral disorders, have been common findings for these patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "brain imaging abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a wide range of abnormalities have been observed in their brain imaging",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized seizures have been the most type of seizures in these patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "no specific genotype-phenotype correlation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "no specific genotype-phenotype correlation in epileptic patients with CACNA1A pathogenic alterations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "incomplete penetrance, de-novo variants, and modifier genes are obstacles in predicting the clinical outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It seems that incomplete penetrance, de-novo variants, and modifier genes are obstacles in predicting the clinical outcome",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "33892287",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "KCNB1-associated disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1-associated disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

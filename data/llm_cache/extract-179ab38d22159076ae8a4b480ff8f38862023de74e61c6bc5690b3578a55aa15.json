@@ -1,0 +1,56 @@
+{
+  "pmid": "35238682",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants are the cause of 5% of the cases of Cornelia de Lange syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "SMC1A is located on the X-chromosome and is thought to escape X-inactivation in some females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A is located on the X-chromosome and is thought to escape X-inactivation in some females.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy is not considered a prominent feature of Cornelia de Lange syndrome, yet this is found in these patients with SMC1A variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "female sex of identified patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all of the identified patients were female",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "highly skewed X-inactivation with truncating variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "when available, X-inactivation studies were highly skewed with truncating variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

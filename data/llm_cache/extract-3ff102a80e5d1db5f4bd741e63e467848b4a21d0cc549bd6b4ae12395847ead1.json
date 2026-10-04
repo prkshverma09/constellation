@@ -1,0 +1,96 @@
+{
+  "pmid": "25595153",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous dominant mutations of PRRT2 have been associated with various types of paroxysmal neurological manifestations, including benign familial infantile convulsions and paroxysmal kinesigenic dyskinesia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous dominant mutations of PRRT2 have been associated with various types of paroxysmal neurological manifestations, including benign familial infantile convulsions and paroxysmal kinesigenic dyskinesia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "combination of at least three different forms of paroxysmal neurological disorders within the same patient",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(1) the combination of at least three different forms of paroxysmal neurological disorders within the same patient and persistence of paroxysmal attacks;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "persistence of paroxysmal attacks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(1) the combination of at least three different forms of paroxysmal neurological disorders within the same patient and persistence of paroxysmal attacks;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "prolonged episodes of ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(2) the occurrence of uncommon prolonged episodes of ataxia;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "learning difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the association of permanent neurological disorders including learning difficulties in four patients and cerebellar atrophy in 2.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the association of permanent neurological disorders including learning difficulties in four patients and cerebellar atrophy in 2.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "severe neurological disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which represents a severe neurological disease with various paroxysmal disorders and frequent developmental disabilities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "developmental disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which represents a severe neurological disease with various paroxysmal disorders and frequent developmental disabilities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

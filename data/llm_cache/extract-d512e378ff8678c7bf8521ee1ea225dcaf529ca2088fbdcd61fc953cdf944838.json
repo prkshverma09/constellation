@@ -1,0 +1,16 @@
+{
+  "pmid": "20479757",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "differential expression between APOE3 and APOE4 genotype groups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified 70 transcripts that differed significantly between the groups. These included EGFR, CNTFR, CASP6, GRIA2, CTNNB1, FKBPL, LGALS1 and PSMC5.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "34263451",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure onset 1 day to 8 years (median 8 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age at seizure onset ranged from 1 day to 8 years; median age was 8 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "focal seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizure was the most common seizure type.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients experienced status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "focal motor status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal motor status epilepticus occurred in 10 individuals and generalized motor status epilepticus occurred in two individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized motor status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal motor status epilepticus occurred in 10 individuals and generalized motor status epilepticus occurred in two individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 18 children showed developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebral atrophy (mainly contralateral) after focal motor status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal motor status epilepticus resulted in cerebral atrophy in five individuals, mainly on the contralateral side.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "interictal focal discharges on EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interictal electroencephalogram showed focal discharges in 12 individuals, whereas five individuals had generalized discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "interictal generalized discharges on EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interictal electroencephalogram showed focal discharges in 12 individuals, whereas five individuals had generalized discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure outcome at last follow-up: 3 seizure-free; 15 with seizures; 5 recurrent status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three individuals were seizure-free, whereas 15 still had seizures and five had recurrent status epilepticus at last follow-up.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "variants in the transmembrane region may be associated with high risk of status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with CACNA1A variants located in the transmembrane region may be at high risk of status epilepticus.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

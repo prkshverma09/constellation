@@ -1,0 +1,16 @@
+{
+  "pmid": "22704920",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet-like picture",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutational analysis is a second-tier test for girls with a Dravet-like picture who do not have SCN1A mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

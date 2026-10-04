@@ -1,0 +1,116 @@
+{
+  "pmid": "40332419",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "Cdkl5 knockout (KO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "young adult and middle-aged Cdkl5 knockout (KO) mice recapitulated sleep phenotypes in patients with CDD",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "difficulties in initiating and maintaining sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "difficulties in initiating and maintaining sleep",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "reduction in total sleep time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduction in total sleep time",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "frequent night awakenings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "frequent night awakenings",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "pre-sleep arousal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cdkl5 KO mice exhibited pre-sleep arousal",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "normal circadian rhythm",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal circadian rhythm",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "normal homeostatic sleep response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homeostatic sleep response",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "Conditional knockout (cKO) of Cdkl5 in glutamatergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Conditional knockout (cKO) of Cdkl5 in glutamatergic neurons resulted in reduced sleep time and difficulty in sleep maintenance",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "reduced sleep time and difficulty in sleep maintenance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulted in reduced sleep time and difficulty in sleep maintenance",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "rate of age-associated decline in sleep and EEG activity comparable to wild-type littermates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the rate of age-associated decline in sleep and EEG activity in Cdkl5 KO mice was comparable to that of wild-type littermates",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "causative role for CDKL5 deficiency in sleep disturbances observed in CDD patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirm a causative role for CDKL5 deficiency in sleep disturbances observed in CDD patients",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

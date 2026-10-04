@@ -1,0 +1,16 @@
+{
+  "pmid": "38949671",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "glutamate ionotropic receptor NMDA type subunit 2B",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B/NMDAR2b: glutamate ionotropic receptor NMDA type subunit 2B;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "34083748",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "single-gene mutant zebrafish line",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypes with unprovoked electrographic seizure activity (i.e., epilepsy) were identified in zebrafish lines for 8 genes; ARX, EEF1A, GABRB3, GRIN1, PNPO, SCN1A, STRADA and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypes with unprovoked electrographic seizure activity (i.e., epilepsy) were identified in zebrafish lines for 8 genes; ARX, EEF1A, GABRB3, GRIN1, PNPO, SCN1A, STRADA and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

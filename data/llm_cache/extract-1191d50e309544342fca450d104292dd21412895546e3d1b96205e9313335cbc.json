@@ -1,0 +1,86 @@
+{
+  "pmid": "39906729",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic-atonic seizures (EMAS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a child experiencing epilepsy with myoclonic-atonic seizures (EMAS) attributed to a variant in the SLC6A1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "delays in intellectual and language development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The male child showed delays in intellectual and language development before the disease began.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic, myoclonic, and myoclonic-atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these seizures presented as generalized tonic-clonic, myoclonic, and myoclonic-atonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 1 year and 2 months, he had a febrile seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "inattention and hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "along with symptoms showing inattention and hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic analysis indicated a heterozygous missense variant of c.263T > C (p.L88P) in the SLC6A1 gene in the child",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam (50 mg·kg·d-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After receiving treatment with levetiracetam (50 mg·kg·d-1), the child has been free of seizures for the last 8 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "EMAS coupled with neurodevelopmental abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The variant in the SLC6A1 gene is implicated as one of the etiological factors contributing to EMAS coupled with neurodevelopmental abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

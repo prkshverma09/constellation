@@ -1,0 +1,26 @@
+{
+  "pmid": "26239053",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reported 3 genes causing the syndrome: MECP2, CDKL5 and FOXG.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "congenital variant of Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RS with early epilepsy and the congenital variant are mainly due to variations in the CDKL5 and FOXG1 genes, respectively.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

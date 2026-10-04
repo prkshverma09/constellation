@@ -1,0 +1,66 @@
+{
+  "pmid": "39578729",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP gene expression in certain brain regions was protective against migraine",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its plasma protein levels were positively associated with migraine risk.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "glutamate to pyruvate ratio and 3-CMPFP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mediation analysis revealed that the glutamate to pyruvate ratio and 3-CMPFP mediated PNKP's effects on migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "body composition traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PheWAS indicated associations between PNKP and body composition traits, suggesting drug safety considerations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "dual mechanisms of action at the gene and protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP and MRVI1 exhibit dual mechanisms of action at the gene and protein levels, potentially involving distinct mechanistic pathways.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "drug target for migraine treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP emerges as a promising drug target for migraine treatment, supported by multi-layered validation.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

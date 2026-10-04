@@ -1,0 +1,16 @@
+{
+  "pmid": "38540325",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasms syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants in genes such as TSC1, TSC2, CDKL5, ARX, KCNQ2, STXBP1 and SCN2A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41873845",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a private homozygous missense variant in the bovine CACNA2D2 gene (XP_024839037.1:p.(Cys395Arg))",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

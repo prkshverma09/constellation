@@ -1,0 +1,26 @@
+{
+  "pmid": "42260332",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "TWAS, gene expression, DNA methylation, and alternative splicing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, PNKP and B9D2 demonstrated consistent cross‑tissue evidence across multiple molecular layers, including TWAS, gene expression, DNA methylation, and alternative splicing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "enrichment of pathways related to hypothalamic-pituitary axis dysfunction, blood circulation, and pain signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP, prioritized through integrative analyses of EDC-related genes and migraine-associated omics datasets, exhibited limited individual differential gene expression but significant enrichment of pathways related to hypothalamic-pituitary axis dysfunction, blood circulation, and pain signaling.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

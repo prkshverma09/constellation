@@ -1,0 +1,16 @@
+{
+  "pmid": "20561025",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "orthologs of genes responsible for autosomal recessive (AR) absence seizures in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2, orthologs of genes responsible for autosomal recessive (AR) absence seizures in mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

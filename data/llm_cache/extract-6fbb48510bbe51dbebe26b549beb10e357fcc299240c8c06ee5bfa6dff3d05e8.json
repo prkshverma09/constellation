@@ -1,0 +1,16 @@
+{
+  "pmid": "38073390",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "loss of SNAP25 in Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Strongest and most consistently affected was the family of synaptosome associated proteins, especially SNAP25.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

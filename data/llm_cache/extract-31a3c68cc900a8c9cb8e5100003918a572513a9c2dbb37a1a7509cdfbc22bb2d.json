@@ -1,0 +1,16 @@
+{
+  "pmid": "12720601",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "Familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Familial hemiplegic migraine, a rare subtype of migraine with a Mendelian pattern of inheritance, is caused by mutations in the chromosome 19 CACNA1A gene in approximately 75% of the families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "35841015",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic structure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presynaptic structure [vesicle-associated membrane protein 2 (VAMP2)]",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "reduced CSF levels of VAMP2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Relative to controls, subgroup 1 showed reduced CSF levels of BACE1, Aβ40, and VAMP2 and higher levels of NfL.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "gradually increased CSF levels of VAMP2 across subgroups 2 to 4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subgroups 2 to 4 showed gradually increased CSF levels of all measured proteins, either across the first three (NfL and Aβ40) or across all subgroups (VAMP2, NRGN, BACE1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

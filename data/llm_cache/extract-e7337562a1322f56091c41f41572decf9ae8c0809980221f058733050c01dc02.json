@@ -1,0 +1,16 @@
+{
+  "pmid": "38612920",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEEs associated with recently recognized genes (e.g., SLC9A6, SLC35A2, SYN1, ARHGEF9, ATP6AP2, IQSEC2, NEXMIF, PIGA, ALG13, FGF13, GRIA3, SMC1A)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

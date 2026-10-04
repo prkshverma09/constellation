@@ -1,0 +1,106 @@
+{
+  "pmid": "28815871",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo heterozygous HNRNPU loss-of-function mutations detected by clinical whole exome sequencing: c.651_660del (p.Gly218Alafs*118), c.1089G>A (p.Trp363*), c.1714C>T (p.Arg572*), and c.2270_2271del (p.Pro757Argfs*7).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU is located within the 1q43-q44 region and mutations in the gene have been reported in patients with early infantile epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "variable neurologic regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "behavior issues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients shared similar clinical features as previously reported including seizures, global developmental delay, intellectual disability, variable neurologic regression, behavior issues, and dysmorphic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "heart defects",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Features including heart defects and kidney abnormalities were not reported in our patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "kidney abnormalities",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Features including heart defects and kidney abnormalities were not reported in our patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

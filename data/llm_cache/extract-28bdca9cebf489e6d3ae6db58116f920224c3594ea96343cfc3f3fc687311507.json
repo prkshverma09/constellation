@@ -1,0 +1,66 @@
+{
+  "pmid": "28202706",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ninety-seven individuals (48.5%) had Dravet syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The association study indicated that age at first seizure and frameshift mutations were associated with Dravet syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The risk of Dravet syndrome was 85% in the 0- to 6-month group, 51% in the 6- to 12-month range, and 0% after the 12th month.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ROC analysis identified onset within the sixth month as the diagnostic cutoff for progression to Dravet syndrome (sensitivity = 83.3%, specificity = 76.6%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In individuals with SCN1A mutations, age at seizure onset appears to predict outcome better than mutation type.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "early recognition and treatment that mitigates prolonged/repeated seizures in the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Because outcome is not predetermined by genetic factors only, early recognition and treatment that mitigates prolonged/repeated seizures in the first year of life might also limit the progression to epileptic encephalopathy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

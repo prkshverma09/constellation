@@ -1,0 +1,16 @@
+{
+  "pmid": "41510857",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant pathogenic changes were found in MECP2, ADGRV1, CACNA1H, KCNQ2, RELN, TREX1, WWOX",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

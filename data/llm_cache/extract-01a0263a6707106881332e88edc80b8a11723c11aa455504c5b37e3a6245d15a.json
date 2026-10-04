@@ -1,0 +1,86 @@
+{
+  "pmid": "20831750",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the mutations that cause DS result in loss of function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all of the known mutations that cause GEFS+ are missense",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Many different biophysical effects of SCN1A-GEFS+ mutations have been observed in heterologous expression systems, consistent with both gain and loss of channel activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Many different biophysical effects of SCN1A-GEFS+ mutations have been observed in heterologous expression systems, consistent with both gain and loss of channel activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "heterologous expression systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterologous expression systems",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "decreased activity of GABAergic inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decrease the activity of GABAergic inhibitory neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure generation in patients with GEFS+ and DS",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

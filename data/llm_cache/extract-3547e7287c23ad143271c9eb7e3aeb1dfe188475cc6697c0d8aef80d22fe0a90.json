@@ -1,0 +1,16 @@
+{
+  "pmid": "40753872",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal excitability, ion channel dynamics, and synaptic interactions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main genes, such as SCN1A, KCNQ2, GRIN2A, LGI1, GABRA1, and CHRNA4, impact neuronal excitability, ion channel dynamics, and synaptic interactions.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

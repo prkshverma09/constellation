@@ -1,0 +1,86 @@
+{
+  "pmid": "37120726",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU haploinsufficiency is associated with developmental and epileptic encephalopathy 54.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "speech impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "speech impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "DNAm episignature and global DNAm profile",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A robust and reproducible DNAm episignature and global DNAm profile were identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "specific and sensitive DNAm episignature as a clinical biomarker for the EpiSign diagnostic test",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a specific and sensitive DNAm episignature associated with pathogenic heterozygous HNRNPU variants, establishing its utility as a clinical biomarker for the expansion of the EpiSign diagnostic test.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "partial overlap and similarity of the global HNRNPU DNAm profile to several other rare disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Correlation analysis identified partial overlap and similarity of the global HNRNPU DNAm profile to several other rare disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,136 @@
+{
+  "pmid": "41278710",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "encodes a voltage-gated sodium channel critical for action potential generation in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes a voltage-gated sodium channel critical for action potential generation in the brain",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "The voltage sensor in SCN8A domain 1 is encoded by one of two developmentally-regulated mutually exclusive alternative exons, 5N and 5A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The voltage sensor in SCN8A domain 1 is encoded by one of two developmentally-regulated mutually exclusive alternative exons, 5N and 5A.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We observe that variants in these exons are more likely to cause infantile spasms, a severe seizure type, than variants elsewhere in SCN8A",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "some pathogenic variants affect exon 5 splicing, impacting patient phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some pathogenic variants affect exon 5 splicing, impacting patient phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "identified antisense oligonucleotides (ASOs) that shift splicing of SCN8A exon 5N to 5A or vice versa",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified antisense oligonucleotides (ASOs) that shift splicing of SCN8A exon 5N to 5A or vice versa.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "normalize neuronal activity in patient-derived iPSC neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These ASOs normalize neuronal activity in patient-derived iPSC neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "patient-derived iPSC neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patient-derived iPSC neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "a new exon 5N mutant mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a new exon 5N mutant mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "reduce seizures and motor impairment and extend lifespan",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduce seizures and motor impairment and extend lifespan in a new exon 5N mutant mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "reduce the expression of pathogenic isoforms and rescue both seizure and non-seizure phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "splice-switching ASOs can effectively reduce the expression of pathogenic isoforms and rescue both seizure and non-seizure phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "exon sequences of these and other voltage-gated ion channel alternative exons in splicing regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular and evolutionary analyses implicate the exon sequences of these and other voltage-gated ion channel alternative exons in splicing regulation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "account for ~1% of genetic epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "account for ~1% of genetic epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "Similar approaches should be applicable to pediatric genetic epilepsies caused by mutations in other ion channel alternative exons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Similar approaches should be applicable to pediatric genetic epilepsies caused by mutations in other ion channel alternative exons.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

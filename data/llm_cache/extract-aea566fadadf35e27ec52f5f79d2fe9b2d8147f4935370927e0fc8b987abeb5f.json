@@ -1,0 +1,146 @@
+{
+  "pmid": "39269903",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 are a common genetic cause of intellectual disability (ID) and a risk factor for autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 are a common genetic cause of intellectual disability (ID) and a risk factor for autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic GTPase-activating protein (GAP) that has both signaling and scaffolding roles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 encodes a synaptic GTPase-activating protein (GAP) that has both signaling and scaffolding roles.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most pathogenic variants of SYNGAP1 are predicted to result in haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some affected individuals carry missense mutations in its calcium/lipid binding (C2) and GAP domains,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that many clinical features result from loss of functions carried out by these domains.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "rat heterozygous for deletion of exons encoding the C2 and GAP domains of SYNGAP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rats heterozygous for this deletion",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "reduced exploration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rats heterozygous for this deletion exhibit reduced exploration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "reduced fear extinction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced exploration and fear extinction",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "altered social investigation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered social investigation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spontaneous seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap heterozygous null rats",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap heterozygous null rats.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the reduction of SYNGAP C2/GAP domain function is a main feature of SYNGAP haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "rat model for study of intellectual disability, autism, and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This rat model provides an important system for the study of ID, autism, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

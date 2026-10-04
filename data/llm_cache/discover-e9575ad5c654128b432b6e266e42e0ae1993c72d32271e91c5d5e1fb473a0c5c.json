@@ -1,0 +1,26 @@
+{
+  "symbol": "FRRS1L",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:27:38.427354+00:00",
+  "usage": {
+    "input_tokens": 59234,
+    "output_tokens": 7435
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "Finding Hope for FRRS1L",
+        "url": "https://www.frrs1l.org/mission",
+        "kind": "foundation",
+        "snippet": "We are a parent-led organization dedicated to reducing the suffering and struggle of individuals affected by Frizzle (FRRS1L) genetic disease, by developing Frizzle gene replacement therapy."
+      },
+      {
+        "name": "Finding Hope for FRRS1L – Patient Registration",
+        "url": "https://www.frrs1l.org/register-1",
+        "kind": "registry",
+        "snippet": "By registering your child/children with Finding Hope for FRRS1L, it provides valuable information that will help us better understand and track the global map of the FRRS1L community; it will inform researchers conducting a natural history study of FRRS1L; and it also allows us to keep you informed through email updates and news on the progress towards developing gene replacement therapy treatment."
+      }
+    ]
+  }
+}

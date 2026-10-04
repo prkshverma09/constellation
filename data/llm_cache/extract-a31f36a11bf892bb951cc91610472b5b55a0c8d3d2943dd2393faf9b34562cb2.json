@@ -1,0 +1,96 @@
+{
+  "pmid": "18514161",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One heterozygous missense mutation (P11S) in exon 1a segregated with four CAE-affected persons in one multiplex, two-generation Mexican family.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An exon 2 heterozygous missense mutation (G32R) was present in two CAE-affected persons and two persons affected with EEG-recorded spike and/or sharp wave in a two-generation Honduran family.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed that each amino acid transversion in the beta 3-v2 subunit (P11S, S15F, and G32R) reduced GABA-evoked current density from whole cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "hyperglycosylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all mutations showed hyperglycosylation in the in vitro translation and translocation system with canine microsomes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "Expression levels did not differ from those of controls",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expression levels did not differ from those of controls",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "affecting maturation and trafficking of GABAR from endoplasmic reticulum to cell surface",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutated beta 3 subunit protein could thus cause absence seizures through a gain in glycosylation of mutated exon 1a and exon 2, affecting maturation and trafficking of GABAR from endoplasmic reticulum to cell surface and resulting in reduced GABA-evoked currents.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "HeLa cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expressing mutations in HeLa cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "HEK293T cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transiently expressed in HEK293T cells with the use of rapid agonist application",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "in vitro translation and translocation system with canine microsomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in the in vitro translation and translocation system with canine microsomes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

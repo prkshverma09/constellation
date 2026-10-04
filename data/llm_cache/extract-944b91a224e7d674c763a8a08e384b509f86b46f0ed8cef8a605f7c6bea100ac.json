@@ -1,0 +1,86 @@
+{
+  "pmid": "34276763",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2 gene mutations had been described to cause developmental and epileptic encephalopathies (DEEs).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were diagnosed with Ohtahara syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms (IS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile spasms (IS)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "possibly the epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They both manifested dysmorphic features with hirsute arms, thick hair, prominent eyebrows, long and thick eyelashes, a broad nasal tip, and short and smooth philtrum.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two patients with gain-of-function mutations both exhibited dysmorphic features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

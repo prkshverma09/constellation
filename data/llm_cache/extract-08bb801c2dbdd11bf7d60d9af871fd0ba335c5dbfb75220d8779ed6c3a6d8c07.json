@@ -1,0 +1,16 @@
+{
+  "pmid": "37884190",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "hyperexcitability of neural circuits and seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients carry a mutation in the gene SCN1A encoding the α subunit of the voltage-gated sodium channel Nav1.1, resulting in hyperexcitability of neural circuits and seizure onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

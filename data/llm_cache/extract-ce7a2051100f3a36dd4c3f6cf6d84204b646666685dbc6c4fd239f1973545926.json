@@ -1,0 +1,156 @@
+{
+  "pmid": "41387899",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "childhood apraxia of speech (CAS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among them, the p.Thr327Arg variant in GNAO1, encoding the major neuronal G protein Gαo, was identified in one patient diagnosed with CAS and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among them, the p.Thr327Arg variant in GNAO1, encoding the major neuronal G protein Gαo, was identified in one patient diagnosed with CAS and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe speech disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we describe the clinical course of two patients with de novo heterozygous GNAO1 variants-p.Leu39_Gly40insVal and p.Thr327Lys-who exhibit severe speech disorder and ID as prominent symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we describe the clinical course of two patients with de novo heterozygous GNAO1 variants-p.Leu39_Gly40insVal and p.Thr327Lys-who exhibit severe speech disorder and ID as prominent symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "encoding the major neuronal G protein Gαo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.Thr327Arg variant in GNAO1, encoding the major neuronal G protein Gαo, was identified in one patient diagnosed with CAS and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "aberrant GTP binding and hydrolysis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular investigation of these three atypical Gαo mutants revealed aberrant GTP binding and hydrolysis",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "impaired association with RGS19",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular investigation of these three atypical Gαo mutants revealed aberrant GTP binding and hydrolysis, impaired association with RGS19, and a strong neomorphic gain of Ric8A interaction.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a strong neomorphic gain of Ric8A interaction",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "normal plasma membrane localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all variants show normal plasma membrane localization despite poor Gβγ association",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "poor Gβγ association",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all variants show normal plasma membrane localization despite poor Gβγ association",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "weak coupling to G protein-coupled receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with p.Leu39_Gly40insVal exhibiting weak coupling to G protein-coupled receptors and p.Thr327Arg/Lys displaying near-normal coupling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "near-normal coupling to G protein-coupled receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with p.Leu39_Gly40insVal exhibiting weak coupling to G protein-coupled receptors and p.Thr327Arg/Lys displaying near-normal coupling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "zinc supplementation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Importantly, all three Gαo variants respond to Zn2+, supporting the potential therapeutic use of zinc supplementation for the patients.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, hyperkinetic movement disorders, and global developmental delay, often accompanied by intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 mutations are commonly associated with epilepsy, hyperkinetic movement disorders, and global developmental delay, often accompanied by ID.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe speech disorders and intellectual disability can occur without seizures or movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showing that severe speech disorders and ID can occur as defining features even in the absence of seizures or movement disorders.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "11487633",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "alpha2delta2 voltage-dependent calcium channel subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "High-resolution genetic and physical mapping has resulted in the identification of the Cacna2d2 gene encoding the alpha2delta2 voltage-dependent calcium channel subunit.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "ducky mouse model (absence epilepsy; spike-wave seizures and ataxia)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mouse mutant ducky, a model for absence epilepsy, is characterized by spike-wave seizures and ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both mutations are predicted to result in loss of the full-length alpha2delta2 protein.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increases the maximum conductance of the alpha1A/beta4 channel combination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analysis shows that the alpha2delta2 subunit increases the maximum conductance of the alpha1A/beta4 channel combination when coexpressed in vitro in Xenopus oocytes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced Ca(2+) channel current in du/du cerebellar Purkinje cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Ca(2+) channel current in acutely dissociated du/du cerebellar Purkinje cells was reduced, with no change in single-channel conductance.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "high expression in Purkinje but not granule neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high level of expression of the Cacna2d2 gene in Purkinje, but not granule, neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

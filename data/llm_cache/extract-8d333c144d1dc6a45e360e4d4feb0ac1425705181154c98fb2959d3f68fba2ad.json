@@ -1,0 +1,66 @@
+{
+  "pmid": "17347258",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "severe myoclonic epilepsy of infancy (SMEI or Dravet syndrome) and SMEI-borderland (SMEB)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The relationship between severe myoclonic epilepsy of infancy (SMEI or Dravet syndrome) and the related syndrome SMEI-borderland (SMEB) with mutations in the sodium channel alpha 1 subunit gene SCN1A is well established.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "SMEI (severe myoclonic epilepsy of infancy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A higher proportion of mutations were identified in patients with SMEI (52/66; 79%) compared to patients with SMEB (25/36; 69%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "SMEB (SMEI-borderland)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A higher proportion of mutations were identified in patients with SMEI (52/66; 79%) compared to patients with SMEB (25/36; 69%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "cryptogenic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By studying a broader spectrum of infantile epileptic encephalopathies, we identified mutations in other syndromes including cryptogenic generalized epilepsy (24%) and cryptogenic focal epilepsy (22%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "cryptogenic focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By studying a broader spectrum of infantile epileptic encephalopathies, we identified mutations in other syndromes including cryptogenic generalized epilepsy (24%) and cryptogenic focal epilepsy (22%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "severe infantile multifocal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Within the latter group, a distinctive subgroup designated as severe infantile multifocal epilepsy had SCN1A mutations in three of five cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

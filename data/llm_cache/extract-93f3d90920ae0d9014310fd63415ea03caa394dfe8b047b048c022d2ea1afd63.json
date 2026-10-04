@@ -1,0 +1,26 @@
+{
+  "pmid": "34247411",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Conversely, two genes, GRIN2B and SCN2A, can be implicated in intellectual disability without epilepsy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability is a primary cause rather than a secondary consequence of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in these instances intellectual disability is not a secondary consequence of ongoing seizures but rather a primary cause.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

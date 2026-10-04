@@ -1,0 +1,46 @@
+{
+  "pmid": "40377022",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function mutations in KCNT1 channels has been associated with severe childhood epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium activated potassium channels in the CNS involved in neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 channels are sodium activated potassium channels in the CNS involved in neuronal excitability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "small molecule KCNT1 inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Substantial efforts have been made by several groups to discover novel small molecule KCNT1 inhibitors to validate this approach as a therapeutic strategy for the treatment of KCNT1-related epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "small molecule inhibitors of KCNT1 channels require further work to reach a viable therapeutic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tremendous progress has been made toward the discovery of small molecule inhibitors of KCNT1 channels; however, much work remains to reach a viable therapeutic.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

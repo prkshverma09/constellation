@@ -1,0 +1,116 @@
+{
+  "pmid": "38958060",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic analysis showed heterozygous mutations in SYNGAP1, often leading to loss of function.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was present in 82% of participants, with 77.8% having drug-resistant seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with 77.8% having drug-resistant seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "poor sleep habits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using the Children's Sleep Habits Questionnaire, 81.8% of patients exhibited poor sleep habits, including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "bedtime resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "night awakenings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "parasomnias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "daytime sleepiness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including bedtime resistance, anxiety, night awakenings, parasomnias, and daytime sleepiness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-associated syndrome, a rare neurodevelopmental disorder, is marked by intellectual disability, developmental delay, epilepsy, and sleep issues.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-associated syndrome, a rare neurodevelopmental disorder, is marked by intellectual disability, developmental delay, epilepsy, and sleep issues.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

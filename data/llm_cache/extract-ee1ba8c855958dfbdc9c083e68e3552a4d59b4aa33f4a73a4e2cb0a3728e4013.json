@@ -1,0 +1,16 @@
+{
+  "pmid": "30263904",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Moreover, it supports the theory that the loss of HNRNPU gene function cannot explain the occurrence of microcephaly and abnormalities of the corpus callosum in 1q43q44 microdeletion syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

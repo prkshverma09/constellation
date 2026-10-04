@@ -1,0 +1,16 @@
+{
+  "pmid": "24269917",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the putative EGR1 targets identified and validated in this study are genes related to synaptic plasticity and transport of proteins, such as Arc, Grin1, Syn2, Vamp2 and Stx6, and genes implicated in AD such as Picalm, Psen2 and App.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

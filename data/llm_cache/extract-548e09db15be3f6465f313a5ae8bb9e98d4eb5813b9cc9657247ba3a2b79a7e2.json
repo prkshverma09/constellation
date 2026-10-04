@@ -1,0 +1,16 @@
+{
+  "pmid": "32738165",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "re-uptake (e.g. DNM1, AP1S2 and TBC1D24)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "25422373",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "Drosophila melanogaster lacking active TBC1D24/Skywalker (Sky)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we study Drosophila melanogaster lacking active TBC1D24/Skywalker (Sky)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodegeneration, epilepsy, and DOOR (deafness, onychdystrophy, osteodystrophy, and mental retardation) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a protein that in humans causes severe neurodegeneration, epilepsy, and DOOR (deafness, onychdystrophy, osteodystrophy, and mental retardation) syndrome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "endosome-to-lysosome trafficking as a mechanism for degradation of synaptic vesicle-associated proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identify endosome-to-lysosome trafficking as a mechanism for degradation of synaptic vesicle-associated proteins",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicles traveled excessively to endosomes in sky mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In fly sky mutants, synaptic vesicles traveled excessively to endosomes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicle-associated proteins were younger on average, suggesting older proteins are more efficiently degraded",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using chimeric fluorescent timers, we show that synaptic vesicle-associated proteins were younger on average, suggesting that older proteins are more efficiently degraded.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "reducing endosomal-to-lysosomal trafficking controlled by the HOPS complex rescued the neurotransmission and neurodegeneration defects in sky mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reducing endosomal-to-lysosomal trafficking, controlled by the homotypic fusion and vacuole protein sorting (HOPS) complex, rescued the neurotransmission and neurodegeneration defects in sky mutants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "a potential strategy to suppress defects arising from TBC1D24 mutations in humans",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identify a potential strategy to suppress defects arising from TBC1D24 mutations in humans.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

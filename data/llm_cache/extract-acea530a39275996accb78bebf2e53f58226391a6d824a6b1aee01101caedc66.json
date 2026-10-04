@@ -1,0 +1,166 @@
+{
+  "pmid": "40379967",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants were missense (41/44 individuals, 93%), intragenic deletion (2/44, 5%) and splice site (1/44, 2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "delayed first words",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age at first words was delayed (>12 months) in 38/44 (86%) individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "dysarthria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all of the 20 individuals assessed had dysarthria.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "apraxic speech features and phonological impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Apraxic speech features and phonological impairments occurred in children aged under 8 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "36/37 (97%) participants had language impairment, with expressive language skills stronger than receptive (p = 0.02) and written (p = 0.03) language on the Vineland Adaptive Behaviour Scales.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "expressive language stronger than receptive and written language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expressive language skills stronger than receptive (p = 0.02) and written (p = 0.03) language on the Vineland Adaptive Behaviour Scales.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "speech and language regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "7/32 (22%) caregivers reported speech and language regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mild to severe intellectual disability occurred in 31/33 (94%) individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "use of augmentative and alternative communication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "22/44 (50%) participants had used augmentative and alternative communication, such as key word sign or speech generating devices.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16/44 (36%) had epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "40/44 (91%) had visual impairment, namely nystagmus (16/44, 36%), optic nerve atrophy and strabismus (both 12/44, 27%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "nystagmus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nystagmus (16/44, 36%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic nerve atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "strabismus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "strabismus (both 12/44, 27%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "moderately impaired social cognition, communication and awareness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderately impaired social cognition, communication and awareness on the Social Responsiveness Scale (p < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "early and targeted speech and language interventions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with KAND frequently have speech and language disorders necessitating early and targeted speech and language interventions.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "38410936",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A variants are associated with epilepsy syndromes ranging from mild genetic epilepsy with febrile seizures plus (GEFS+) to severe Dravet syndrome (DS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A variants are associated with epilepsy syndromes ranging from mild genetic epilepsy with febrile seizures plus (GEFS+) to severe Dravet syndrome (DS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DS had earlier seizure onset than other GEFS+ phenotypes (5.3 vs. 12.0 months, p < .001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with missense variants in functionally important regions (conserved N-terminus, S4-S6) exhibited earlier seizure onset (6.0 vs. 7.0 months, p = .003) and were more likely to have DS (280/340);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with missense variants in functionally important regions (conserved N-terminus, S4-S6) exhibited earlier seizure onset (6.0 vs. 7.0 months, p = .003) and were more likely to have DS (280/340);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with missense variants in functionally important regions (conserved N-terminus, S4-S6) exhibited earlier seizure onset (6.0 vs. 7.0 months, p = .003) and were more likely to have DS (280/340);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with missense variants in nonconserved regions had later onset (10.0 vs. 7.0 months, p = .036) and were more likely to have GEFS+ (15/29, χ2 = 19.16, p < .001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "later onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with missense variants in nonconserved regions had later onset (10.0 vs. 7.0 months, p = .036) and were more likely to have GEFS+ (15/29, χ2 = 19.16, p < .001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "GEFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A minority of protein-truncating variants were associated with GEFS+ (10/393) and more likely to be located in the proximal first and last exon coding regions than elsewhere in the gene (9.7% vs. 1.0%, p < .001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "less variability in age at seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Carriers of the same missense variant exhibited less variability in age at seizure onset compared with carriers of different missense variants for both DS (1.9 vs. 2.9 months, p = .001) and GEFS+ (8.0 vs. 11.0 months, p = .043).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus as presenting seizure type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Status epilepticus as presenting seizure type is a highly specific (95.2%) but nonsensitive (32.7%) feature of DS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

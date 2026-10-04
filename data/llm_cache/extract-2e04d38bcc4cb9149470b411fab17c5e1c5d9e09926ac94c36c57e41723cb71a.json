@@ -1,0 +1,36 @@
+{
+  "pmid": "37880614",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with SeLIE caused by the PRRT2 mutations did not benefit from the use of levetiracetam",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "other ASMs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but could benefit from other ASMs",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "topiramate, oxcarbazepine, lamotrigine, and valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "13 were seizure-controlled after replacing levetiracetam with other ASMs including topiramate, oxcarbazepine, lamotrigine, and valproate",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "35359639",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "DS or DS-like phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2, CHD2, CPLX1, HCN1A, STXBP1 can also be involved in DS or DS-like phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

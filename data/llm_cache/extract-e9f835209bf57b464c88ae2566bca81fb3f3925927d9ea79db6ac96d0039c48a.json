@@ -1,0 +1,156 @@
+{
+  "pmid": "27164704",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "profound developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound developmental delay,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability with absent speech",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe intellectual disability with absent speech,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "muscular hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "muscular hypotonia,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperkinetic movement disorder,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "oculogyric crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oculogyric crises,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "cortical blindness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical blindness,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "generalized cerebral atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized cerebral atrophy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "Xenopus laevis oocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional consequences of GRIN1 mutations were investigated in Xenopus laevis oocytes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "result in loss of channel function of varying severity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a dominant-negative effect.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "Loss of NMDA receptor function appears to be the underlying disease mechanism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of NMDA receptor function appears to be the underlying disease mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo GRIN1 mutations are associated with severe intellectual disability with cortical visual impairment as well as oculomotor and movement disorders being discriminating phenotypic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 homozygous GRIN1 mutations (1 missense, 1 truncation)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "mutations cluster within transmembrane segments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations cluster within transmembrane segments",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

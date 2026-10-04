@@ -1,0 +1,136 @@
+{
+  "pmid": "35906921",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "early neonatal-onset intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "present early neonatal-onset intractable seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "burst suppression EEG pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a burst suppression EEG pattern",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay or regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay or regression",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those patients always fail first-line treatment with sodium channel blockers",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.2312C &gt; T (p.Thr771Ile)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.873G &gt; C (p.Arg291Ser)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.652 T &gt; A (p.Trp218Arg)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures during the neonatal period or infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All four cases showed refractory seizures during the neonatal period or infancy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "global development delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "accompanied by global development delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers and other anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers and other anti-seizure medications failed to control their seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "pyridoxine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The frequency of seizures gradually decreased after treatment with high-dose pyridoxine",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "pyridoxine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clinical seizures relapsed when pyridoxine was withdrawn, and seizures were controlled again when pyridoxine treatment was resumed",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "pyridoxine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study suggests that pyridoxine may be a promising adjunctive treatment option for patients with KCNQ2 epileptic encephalopathy",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

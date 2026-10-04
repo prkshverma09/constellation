@@ -1,0 +1,56 @@
+{
+  "pmid": "37809401",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "α1 subunit of heteropentameric GABAARs mediating primary inhibition in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GABRA1 gene encodes for the α1 subunit, an abundantly and developmentally expressed subunit of heteropentameric gamma-aminobutyric acid A receptors (GABAARs) mediating primary inhibition in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of the GABAAR subunit genes including GABRA1 gene are associated with epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight variants (L49H, P59L, W97R, D99G, G152S, V270G, T294R, P305L) are predicted as pathogenic and mapped to the α1 subunit's extracellular domain (ECD), transmembrane domains (TMDs) and extracellular linker.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest that the pathogenic variants in the ECD of GABRA1 (L49H, P59L, W97R, D99G, G152S) will probably manifest decreased surface expression and reduced current with mild epilepsy phenotypes",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while V270G, T294R in the TMDs and P305L in the linker between the second and the third TMDs will likely cause reduced cell current with severe epilepsy phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "33426515",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suffering from myoclonic astatic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "synaptic transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B encodes Syntaxin-1B which plays a role for synaptic transmission.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B variants are associated with a broad phenotypic spectrum of epilepsies including febrile or afebrile seizures as well as epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "afebrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B variants are associated with a broad phenotypic spectrum of epilepsies including febrile or afebrile seizures as well as epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B variants are associated with a broad phenotypic spectrum of epilepsies including febrile or afebrile seizures as well as epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "27270488",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A encephalopathy is a rare disorder caused by de novo missense mutations of the sodium channel gene SCN8A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "encodes the neuronal sodium channel Nav 1.6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the neuronal sodium channel Nav 1.6.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "cell and animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell and animal models of SCN8A encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

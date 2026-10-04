@@ -1,0 +1,26 @@
+{
+  "pmid": "34412058",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "ASO that reduces the abundance of the SCN8A mRNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An ASO that reduces the abundance of the SCN8A mRNA is therapeutic in mouse models of developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "mouse models of developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mouse models of developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

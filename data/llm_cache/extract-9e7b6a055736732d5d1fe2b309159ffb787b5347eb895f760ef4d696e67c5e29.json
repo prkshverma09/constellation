@@ -1,0 +1,26 @@
+{
+  "pmid": "36225112",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy related potassium channel genes: KCNA1, KCNA2, KCNB1, KCNC1, KCND2, KCNQ2, KCNQ3, KCNMA1, and KCNT1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "precision therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We focus on the progress of precison therapy on some hot epilepsy related potassium channel genes: KCNA1, KCNA2, KCNB1, KCNC1, KCND2, KCNQ2, KCNQ3, KCNMA1, and KCNT1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

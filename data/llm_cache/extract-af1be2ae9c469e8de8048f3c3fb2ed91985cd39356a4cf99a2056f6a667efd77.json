@@ -1,0 +1,56 @@
+{
+  "pmid": "35492509",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "right anterior temporal lobectomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He was seizure-free for 1.5 years after right anterior temporal lobectomy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This case demonstrates that epilepsy surgery reduced seizure burden in a patient with SCN8A-related epilepsy granting him short-term seizure freedom after resection, and then decreased seizure frequency after relapse compared to the preoperative baseline.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "focal to bilateral tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three focal to bilateral tonic-clonic (FBTC) seizures in the subsequent 12 months",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "focal impaired awareness seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(preoperatively, 6 focal impaired awareness seizures and 4-6 FBTC per year)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "right temporal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of his pre-surgical evaluation results suggested right temporal lobe epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

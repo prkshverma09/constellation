@@ -1,0 +1,26 @@
+{
+  "pmid": "26060908",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE through studies of large families, discovering causative mutations in SCN1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "various types of epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified common variants in SCN1A, indicating a convergence of shared pathophysiological pathways in various types of epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "32389029",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "transcription regulator",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a transcription regulator",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tumor suppression",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "cell proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell proliferation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "apoptosis induction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "apoptosis induction",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "steroid metabolism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "steroid metabolism",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "central nervous system development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "central nervous system development",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

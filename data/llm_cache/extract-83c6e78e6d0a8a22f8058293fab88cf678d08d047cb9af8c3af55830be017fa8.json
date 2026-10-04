@@ -1,0 +1,106 @@
+{
+  "pmid": "24932569",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "modulator of TGFβ/SMAD signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX behaves as a modulator of TGFβ/SMAD signaling by binding and sequestering SMAD3 in the cytoplasmic compartment.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "TGFβ/SMAD and WNT signaling pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "linking WWOX function with the TGFβ/SMAD and WNT signaling pathways and with specific metabolic processes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous germline loss of function WWOX mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy; ataxia; mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe CNS related pathology that includes epilepsy, ataxia and mental retardation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "familial dyslipidemias and metabolic syndrome related traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "linked the WWOX locus with familial dyslipidemias and metabolic syndrome related traits.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "mouse gene ablation models (deletion not tumorigenic in most models)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its deletion is not tumorigenic in most models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "liver conditional KO mice (association with lipid metabolism)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene expression studies in liver conditional KO mice confirmed an association between WWOX expression and lipid metabolism.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "shorter relapse-free survival in ovarian and breast cancer patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "low WWOX expression is significantly associated with shorter relapse-free survival in ovarian and breast cancer patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "worse prognosis in multiple myeloma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Translocations and deletions affecting WWOX are also common in multiple myeloma and are associated with worse prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "frequent deletions with loss of expression in epithelial cancers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deletions affecting WWOX accompanied by loss of expression are frequent in various epithelial cancers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

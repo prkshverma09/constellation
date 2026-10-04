@@ -1,0 +1,146 @@
+{
+  "pmid": "31887642",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "medications targeting the voltage-gated sodium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Medications targeting the voltage-gated sodium channel were most often effective",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam resulted in worsening seizures and/or developmental regression in 7/16 (p < 0.05)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "levetiracetam resulted in worsening seizures and/or developmental regression in 7/16 (p < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure onset was 1 day to 4 years old (median age 4 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age at seizure onset was 1 day to 4 years old (median age 4 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "range from mild epilepsy to severe developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy phenotype ranged from mild epilepsy to severe developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "VABS-3 scores were below age expectations for most children",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VABS-3 scores were below age expectations for most children; older children had lower scores.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia (13)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "spastic quadriparesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spastic quadriparesis (1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia (9)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dyskinesia (2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dystonia (7)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "non-ambulatory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "four non-ambulatory",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "anomic aphasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "anomic aphasia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "flaccid dysarthria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "flaccid dysarthria",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "distinct epilepsy phenotype in a patient with a nonsense variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "describe a distinct epilepsy phenotype in a patient with a nonsense variant",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

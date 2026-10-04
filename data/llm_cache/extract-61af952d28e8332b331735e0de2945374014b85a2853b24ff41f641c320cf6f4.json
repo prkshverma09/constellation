@@ -1,0 +1,16 @@
+{
+  "pmid": "30826071",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "abnormal theta and beta EEG oscillations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygosity of the GABRB3-GABRA5-GABRG3 gene cluster causes abnormal theta and beta EEG oscillations that may underlie the more severe clinical phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

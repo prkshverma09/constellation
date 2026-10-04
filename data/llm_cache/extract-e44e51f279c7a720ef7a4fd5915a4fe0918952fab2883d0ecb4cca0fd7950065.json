@@ -1,0 +1,126 @@
+{
+  "pmid": "25802472",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Since its discovery in 2000, WW domain-containing oxidoreductase (WWOX, FOR or WOX1) has been considered as a tumor suppressor protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "participation in metabolism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "participation in metabolism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurodegeneration",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neural disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neural disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neuronal damages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuronal damages",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "interactions with oncogenic viruses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "interactions with oncogenic viruses",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "not a driver of cancer initiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is not a driver of cancer initiation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "chromosomal alterations enhance cancer progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chromosomal alterations in the WWOX gene enhance cancer progression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neural pathologies and early death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Importantly, a homozygous nonsense mutation of WWOX gene in humans leads to neural pathologies and early death, rather than spontaneous cancer development.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "new physiological functions in metabolism and neural diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest new physiological functions of WWOX in metabolism and neural diseases",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "35351869",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "dysregulated in brains or organoids derived from ASD patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes (e.g., CAMK4, CLCN4, DPP10, GABRB3, KCNB1, PRKCB, SCN1A, and SLC24A2) that affected by VPA were significantly overlapped with those dysregulated in brains or organoids derived from ASD patients",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "35326432",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia and neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequent causal genes were associated with spastic ataxia (SACS and KIF1C) and with ataxia and neuropathy or AOA (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia and oculomotor apraxia (AOA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequent causal genes were associated with spastic ataxia (SACS and KIF1C) and with ataxia and neuropathy or AOA (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

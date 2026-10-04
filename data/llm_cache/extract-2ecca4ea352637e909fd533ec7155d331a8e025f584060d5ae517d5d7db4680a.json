@@ -1,0 +1,116 @@
+{
+  "pmid": "36654732",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "six had onset in the first week of life, three in the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "no ongoing seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but two reported no ongoing seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "varied seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types varied.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy is reported in 53 % cases",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a developmental and epileptic encephalopathy in 36 %.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset and severe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most often early-onset and severe",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "may not always be drug resistant or lifelong",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures may not always be drug resistant or lifelong.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

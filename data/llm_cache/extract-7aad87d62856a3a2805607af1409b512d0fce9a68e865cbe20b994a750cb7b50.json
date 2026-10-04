@@ -1,0 +1,206 @@
+{
+  "pmid": "32977175",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "X-linked intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3, encoding subunit 3 of glutamate ionotropic AMPA receptor, is associated with X-linked intellectual disability (ID), dysmorphic features, and non-syndromic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3, encoding subunit 3 of glutamate ionotropic AMPA receptor, is associated with X-linked intellectual disability (ID), dysmorphic features, and non-syndromic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3, encoding subunit 3 of glutamate ionotropic AMPA receptor, is associated with X-linked intellectual disability (ID), dysmorphic features, and non-syndromic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygous missense variant c.2359 G > A (p.Glu787Lys) inGRIA3 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This 26-month-old boy had developmental delay, early onset refractory myoclonic epilepsy, and non-convulsive refractory status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "early onset refractory myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This 26-month-old boy had developmental delay, early onset refractory myoclonic epilepsy, and non-convulsive refractory status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "non-convulsive refractory status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This 26-month-old boy had developmental delay, early onset refractory myoclonic epilepsy, and non-convulsive refractory status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy in 6 of 19 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy was in 6 of 19 patients carrying different genotypes,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one presented with generalized tonic-clonic seizures, two with myoclonic and clonic events (one also presented with epileptic spasms), and one with atypical absences and myoclonic jerks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic and clonic events",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one presented with generalized tonic-clonic seizures, two with myoclonic and clonic events (one also presented with epileptic spasms), and one with atypical absences and myoclonic jerks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one presented with generalized tonic-clonic seizures, two with myoclonic and clonic events (one also presented with epileptic spasms), and one with atypical absences and myoclonic jerks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "atypical absences and myoclonic jerks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one presented with generalized tonic-clonic seizures, two with myoclonic and clonic events (one also presented with epileptic spasms), and one with atypical absences and myoclonic jerks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy onset was early in life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy onset was early in life and there was potential tendency for myoclonic/clonic events.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "potential tendency for myoclonic/clonic events",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy onset was early in life and there was potential tendency for myoclonic/clonic events.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "The epilepsy was difficult to treat and prognosis is poor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The epilepsy was difficult to treat and prognosis is poor.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "Severity of ID ranged from mild to severe",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severity of ID ranged from mild to severe and was variably associated with bipolar affective disorder and autistic spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "variably associated with bipolar affective disorder and autistic spectrum disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severity of ID ranged from mild to severe and was variably associated with bipolar affective disorder and autistic spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other neurological features included hypotonia, asthenic body habitus with poor muscle bulk, and hyporeflexia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "asthenic body habitus with poor muscle bulk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other neurological features included hypotonia, asthenic body habitus with poor muscle bulk, and hyporeflexia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "hyporeflexia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other neurological features included hypotonia, asthenic body habitus with poor muscle bulk, and hyporeflexia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

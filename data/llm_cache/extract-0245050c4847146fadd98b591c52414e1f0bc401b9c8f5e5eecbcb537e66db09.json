@@ -1,0 +1,36 @@
+{
+  "pmid": "40457026",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "tissue-specific expression patterns driving risk or protection for PD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten genes (ELOVL7, HSD3B7, PLEKHM1, PRSS53, SNCA, STX1B, STX4, ZSWIM7, LINC02210, and RP11-1072 A3.3) showed causal associations with tissue-specific expression patterns driving risk or protection for PD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "isoform-specific contributions to PD risk or protection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further investigation into their tissue-specific isoform expression profile revealed isoform-specific contributions to disease risk (or protection).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "autophagosome-lysosome fusion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings highlight the critical role of isoform-specific expression of causal genes in modulating PD risk, particularly relating to autophagosome-lysosome fusion.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

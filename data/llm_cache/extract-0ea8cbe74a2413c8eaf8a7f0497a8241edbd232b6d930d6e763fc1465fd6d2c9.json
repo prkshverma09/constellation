@@ -1,0 +1,126 @@
+{
+  "pmid": "17135419",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "alpha2delta-2 calcium channel subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the alpha2delta-2 calcium channel subunit.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "model for absence epilepsy characterized by spike-wave seizures and cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "represent a model for absence epilepsy characterized by spike-wave seizures and cerebellar ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Cacna2d2(du2J) mutation results in a 2 bp deletion in the coding region and a complete loss of alpha2delta-2 protein.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "30% reduction in somatic calcium current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "du(2J)/du(2J) mice have a 30% reduction in somatic calcium current",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "marked fall in spontaneous Purkinje cell firing rate and decreased firing regularity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a marked fall in the spontaneous PC firing rate at 22 degrees C, accompanied by a decrease in firing regularity,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "no spontaneous intrinsic activity at 34°C",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 34 degrees C, du(2J)/du(2J) PCs show no spontaneous intrinsic activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "altered cerebellar gene expression related to Purkinje cell function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Du(2J)/du(2J) mice also have alterations in the cerebellar expression of several genes related to PC function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "elevation of tyrosine hydroxylase mRNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At postnatal day 21, there is an elevation of tyrosine hydroxylase mRNA",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduction in tenascin-C gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and a reduction in tenascin-C gene expression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "du(2J)/+ mice have a marked reduction in alpha2delta-2 protein,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "no fall in PC somatic calcium currents in heterozygotes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they show no fall in PC somatic calcium currents or increase in cerebellar tyrosine hydroxylase gene expression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "significant reduction in Purkinje cell firing rate in heterozygotes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "du(2J)/+ PCs do exhibit a significant reduction in firing rate, correlating with the reduction in alpha2delta-2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

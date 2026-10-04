@@ -1,0 +1,56 @@
+{
+  "pmid": "17351020",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RS is caused by mutations in the X-linked methyl CpG-binding protein 2 (MECP2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 mutations are now frequently identified in mentally retarded male patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "frequency of disease-causing MECP2 mutations in this population is between 1.3% and 1.7%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The frequency of disease-causing MECP2 mutations in this population is between 1.3% and 1.7%.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "mild mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surprisingly, MECP2 mutations in males are responsible for a wide spectrum of neurological disorders, ranging from mild mental retardation to severe neonatal encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "severe neonatal encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surprisingly, MECP2 mutations in males are responsible for a wide spectrum of neurological disorders, ranging from mild mental retardation to severe neonatal encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

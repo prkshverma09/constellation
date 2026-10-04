@@ -1,0 +1,46 @@
+{
+  "pmid": "30301590",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual deficit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one autosomal dominant KIF1A-related disorder with intellectual deficit, cerebellar atrophy, spastic paraparesis, and optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one autosomal dominant KIF1A-related disorder with intellectual deficit, cerebellar atrophy, spastic paraparesis, and optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spastic paraparesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one autosomal dominant KIF1A-related disorder with intellectual deficit, cerebellar atrophy, spastic paraparesis, and optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one autosomal dominant KIF1A-related disorder with intellectual deficit, cerebellar atrophy, spastic paraparesis, and optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

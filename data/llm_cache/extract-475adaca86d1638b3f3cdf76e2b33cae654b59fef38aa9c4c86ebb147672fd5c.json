@@ -1,0 +1,76 @@
+{
+  "pmid": "36948217",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal seizures (BFNS) and developmental epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Autosomal dominant mutations of the KCNQ2 gene can cause two epileptic disorders: benign familial neonatal seizures (BFNS) and developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "95% of BFNS patients became seizure free, whereas the seizures stopped only in 73% of those with DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After treatment began, 95% of BFNS patients became seizure free, whereas the seizures stopped only in 73% of those with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "Phenobarbital and sodium channel blockers were the most used treatment in BFNS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital and sodium channel blockers were the most used treatment in BFNS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "Most of the DEE patients (95%) needed polytherapy for seizure control and even that did not prevent subsequent developmental impairment (77%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the DEE patients (95%) needed polytherapy for seizure control and even that did not prevent subsequent developmental impairment (77%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense mutations were discovered in 96% of DEE patients;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "Phenobarbital or carbamazepine appears to be the most effective antiseizure medication for children with a \"benign\" variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital or carbamazepine appears to be the most effective antiseizure medication for children with a \"benign\" variant.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "mutations were located in S4 and S6 helix, which could serve as a potential target for the development of more specific treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In DEE patients, most mutations were located in S4 and S6 helix, which could serve as a potential target for the development of more specific treatment in the future.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

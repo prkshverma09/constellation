@@ -1,0 +1,16 @@
+{
+  "pmid": "39003674",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "gene-directed therapy decisions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified variants in ALDH7A1, KCNQ2, PNPO, SCN1A, and SCN2A resulting in gene-directed therapy decisions for 11 children from our study",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "37268865",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "Glutamatergic Synapse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The DEGs in pGRS were highly enriched in the \"Glutamatergic Synapse\" and \"Spliceosome\" pathways, with increased expression of GRIN2A (NR2A), GRIN2B (NR2B), GRIA1 (GLUR1), GRIA3 (GLUR3), GRM5, CACNA1C, CACNA1A, and ITPR2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

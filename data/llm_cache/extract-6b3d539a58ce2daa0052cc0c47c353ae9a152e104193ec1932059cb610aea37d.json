@@ -1,0 +1,16 @@
+{
+  "pmid": "29186589",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "detergent-insoluble protein (high-molecular weight portion of SDS gels)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additional detergent-insoluble proteins from demented subjects in the high-molecular weight portion of SDS gels included NNT, TNIK, PRKDC (DNA-PK, or DNA-PKcs), ferritin light chain (FTL), AIFM1, SYT11, STX1B, EAA1, COL25A1, M4K4, CLH1, SQSTM, SYNJ1, C3, and C4.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

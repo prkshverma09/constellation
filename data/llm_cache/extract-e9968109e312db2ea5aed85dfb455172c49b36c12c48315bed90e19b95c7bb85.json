@@ -1,0 +1,16 @@
+{
+  "pmid": "29429049",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "addiction-related phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have demonstrated the significant association of NMDA receptor subunit genes such as GluN3A, GluN2B, and GluN2A with various addiction-related phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

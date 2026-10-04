@@ -1,0 +1,116 @@
+{
+  "pmid": "37917202",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function mutations in CDKL5 are associated with a severe neurodevelopmental encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodevelopmental encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function mutations in CDKL5 are associated with a severe neurodevelopmental encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "virophagy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we identified cyclin-dependent kinase-like 5 (CDKL5), known to function in neurodevelopment, as an essential regulator of virophagy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "reduced virophagy of Sindbis virus (SINV)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deletion of CDKL5 or expression of a clinically relevant pathogenic mutant of CDKL5 reduced virophagy of Sindbis virus (SINV)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "intracellular SINV capsid protein aggregates and cellular cytotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased intracellular accumulation of SINV capsid protein aggregates and cellular cytotoxicity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "Cdkl5-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cdkl5-knockout mice displayed increased viral antigen accumulation and neuronal cell death after SINV infection and enhanced lethality after infection with several neurotropic viruses.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "increased viral antigen accumulation and neuronal cell death after SINV infection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cdkl5-knockout mice displayed increased viral antigen accumulation and neuronal cell death after SINV infection",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "enhanced lethality after infection with several neurotropic viruses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and enhanced lethality after infection with several neurotropic viruses.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "direct binding to p62",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 directly binds the canonical selective autophagy receptor p62",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "phosphorylates p62 at T269/S272",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 directly binds the canonical selective autophagy receptor p62 and phosphorylates p62 at T269/S272 to promote its interaction with viral capsid aggregates.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "formation of large p62 inclusion bodies that capture viral capsids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-mediated phosphorylation of p62 facilitated the formation of large p62 inclusion bodies that captured viral capsids to initiate capsid targeting to autophagic machinery.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

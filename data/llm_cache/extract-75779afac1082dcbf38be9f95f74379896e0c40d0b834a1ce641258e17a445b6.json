@@ -1,0 +1,16 @@
+{
+  "pmid": "26674869",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "derepression of REST-downstream gene (derepressed by FosDT knockdown)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FosDT knockdown derepressed REST-downstream genes GRIA2, NFκB2, and GRIN1 in the postischemic brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

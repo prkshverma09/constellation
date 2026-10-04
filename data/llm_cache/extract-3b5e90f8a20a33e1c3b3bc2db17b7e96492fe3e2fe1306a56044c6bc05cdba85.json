@@ -1,0 +1,26 @@
+{
+  "pmid": "41650955",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "activated by HIF1A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HIF1A directly activates glutamate ionotropic receptor NMDA type subunit 2B (GRIN2B)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "HIF1 conditional knockout (cKO) cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "fewer GABAergic synapses and GRIN2B/Bassoon puncta on layer 2/3 excitatory neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

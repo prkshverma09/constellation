@@ -1,0 +1,106 @@
+{
+  "pmid": "39229143",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN1 subunit of NMDARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the obligatory GluN1 subunit of N-methyl-D-aspartate receptors (NMDARs).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The identified p.Tyr647Ser (Y647S) variant - carried by a 33-year-old female with seizures and intellectual disability - is located in the M3 helix in the GluN1 transmembrane domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "altered agonist/modulator sensitivity; reduced cell surface trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In vitro , NMDARs containing GluN1-Y647S show altered sensitivity to endogenous agonists and negative allosteric modulators, and reduced cell surface trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "Grin1 Y647S/+ mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grin1 Y647S/+ mice were created by CRISPR-Cas9 endonuclease-mediated transgenesis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "reduced GluN1 protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grin1 Y647S/+ mice displayed a reduction in whole brain GluN1 levels",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "deficient NMDAR-mediated synaptic transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deficiency in NMDAR-mediated synaptic transmission in the hippocampus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "spontaneous seizures and behavioral abnormalities in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Behaviourally, Grin1 Y647S/+ mice exhibited spontaneous seizures, altered vocalizations, muscle strength, sociability, and problem-solving.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "diminished NMDAR function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which reflects largely diminished properties of NMDAR function.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

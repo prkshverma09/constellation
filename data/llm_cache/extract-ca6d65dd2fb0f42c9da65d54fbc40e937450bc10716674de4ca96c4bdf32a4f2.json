@@ -1,0 +1,66 @@
+{
+  "pmid": "40979832",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1-related DEE, arising from pathogenic variants in the KCNB1 gene,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "profound cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presents with profound cognitive impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "persistent seizures despite multiple antiseizure medications (ASMs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "persistent seizures despite multiple antiseizure medications (ASMs).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation (VNS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "achieving about 90% seizure reduction after one year.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine (adjunct to VNS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optimized stimulation parameters combined with fenfluramine markedly improved seizure control.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "possible synergy between VNS and fenfluramine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This case illustrates VNS's potential benefit and possible synergy with fenfluramine in KCNB1-related DEE.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

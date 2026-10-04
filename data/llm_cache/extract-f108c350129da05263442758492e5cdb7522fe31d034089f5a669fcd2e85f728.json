@@ -1,0 +1,116 @@
+{
+  "pmid": "40467011",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "part of the GATOR1 complex that inhibits mTORC1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEP-domain containing-5 (DEPDC5) is part of the GATOR1 complex that inhibits the mechanistic target of rapamycin complex-1 (mTORC1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function mutations in human DEPDC5 are the most common cause of lesional or non-lesional focal epilepsies associated with mTOR hyperactivation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "Depdc5 silencing leads to excitation/inhibition imbalance and increased excitatory synapse strength",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5 silencing in mature neurons leads to excitation/inhibition imbalance and increased excitatory synapse strength.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "conditional knockout (cKO) mouse recapitulates excitatory/inhibitory imbalance with increased excitatory transmission and unaffected inhibitory transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic deletion of Depdc5 in a conditional knockout (cKO) mouse recapitulates the excitatory/inhibitory imbalance observed after transient Depdc5 silencing, with increased strength of excitatory transmission and unaffected inhibitory transmission.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "higher density of GluA1-containing AMPA receptors due to shift of GluA1 from intracellular pool to plasma membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the increased glutamate quantal size and response to exogenous glutamate are attributable to a higher density of GluA1-containing AMPA glutamate receptors due to a shift of the GluA1 subunit from the intracellular pool to the plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "interacts with WDR48, WDR20, and USP46",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The DEPDC5 protein interaction network included WDR48, WDR20, and USP46, a ubiquitin-specific protease that regulates GluA1, as key binding partners",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "absence of DEPDC5 increases USP46 levels and decreases ubiquitination of GluA1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the absence of DEPDC5, USP46 levels increase, and ubiquitination of GluA1 decreases accordingly.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "knockdown of USP46 or rapamycin treatment rescues increased glutamate quantal size and USP46 increase caused by Depdc5 deletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Either knockdown of USP46 or rapamycin treatment rescues both the increased glutamate quantal size and USP46 increase caused by Depdc5 deletion",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "USP46 overexpression depends on mTORC1 hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating that USP46 overexpression depends on mTORC1 hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "DEPDC5/mTORC1 system controls excitatory strength by negatively modulating USP46 activity and AMPA receptor deubiquitination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the DEPDC5/mTORC1 system physiologically controls the excitatory strength by negatively modulating USP46 activity and AMPA receptor deubiquitination",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "Depdc5-linked epileptic phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "failure of this effect can contribute to the development of the Depdc5-linked epileptic phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "40671224",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "hub target identified by LASSO, RF, and SVM",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ultimately identified six hub targets using three proven machine learning methods (LASSO, RF, and SVM): CREBBP, BCL6, CXCR4, GRIN1, GOT2, and ITGA5.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "good binding ability between MEP and GRIN1 (molecular docking)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular docking analysis showed a good binding ability between MEP and CREBBP, BCL6, CXCR4, GRIN1, GOT2 and ITGA5.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, CREBBP, BCL6, CXCR4, GRIN1, GOT2, and ITGA5 have been identified as the crucial targets correlating with AD.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

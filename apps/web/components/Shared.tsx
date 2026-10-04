@@ -37,7 +37,8 @@ export function Footer() {
 export function HealthBadge() {
   const { data } = useQuery({ queryKey: ["health"], queryFn: api.health });
   const mode = data?.llm_mode ?? "offline";
-  return <span className="health-badge"><span className={`health-dot ${mode}`} />{mode} · {data?.snapshot_hash?.slice(0, 12) ?? "checking"}</span>;
+  const label = mode === "offline" ? "offline writer" : `${mode} · ${data?.agent_model ?? "gpt-5"}`;
+  return <span className="health-badge"><span className={`health-dot ${mode}`} />{label}</span>;
 }
 
 export function PersonaToggle() {

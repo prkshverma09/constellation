@@ -1,0 +1,36 @@
+{
+  "pmid": "33217562",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the presinaptic SNARE complex proteins: STX-1A, VAMP-2 and SNAP-25.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "reduced_in_NDEs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX-1A and VAMP-2 were significantly reduced in NDEs of PD patients compared to HC (p < 0.001 in all cases).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "discriminatory_biomarker_between_PD_and_HC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ROC curve analyses confirmed the discriminatory ability of NDEs oligomeric α-Syn, STX-1A and VAMP-2 levels to distinguish between PD patients and HC.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

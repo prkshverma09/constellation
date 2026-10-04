@@ -1,0 +1,146 @@
+{
+  "pmid": "38903324",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous remission of epileptic seizures following norovirus-induced viral gastroenteritis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report the spontaneous remission of epileptic seizures following norovirus-induced viral gastroenteritis in a boy with DNM1 encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "clonic seizures daily from the age of two months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He had clonic seizures daily from the age of two months",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms at 14 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and developed epileptic spasms at 14 months of age",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A physical examination revealed hypotonia, strabismus, tongue protrusion with drooping, and widely spaced teeth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "strabismus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A physical examination revealed hypotonia, strabismus, tongue protrusion with drooping, and widely spaced teeth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "tongue protrusion with drooping",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A physical examination revealed hypotonia, strabismus, tongue protrusion with drooping, and widely spaced teeth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "widely spaced teeth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A physical examination revealed hypotonia, strabismus, tongue protrusion with drooping, and widely spaced teeth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "frequent occipital spikes on electroencephalography",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electroencephalography revealed frequent occipital spikes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "brain magnetic resonance imaging unremarkable",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although brain magnetic resonance imaging was unremarkable, electroencephalography revealed frequent occipital spikes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "involuntary myoclonus since 10 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He has experienced involuntary movements of the myoclonus since 10 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "profound psychomotor developmental delay at age five years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currently, at the age of five years, the patient has a profound psychomotor developmental delay; he has no verbal expression and is unable to walk.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "no verbal expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currently, at the age of five years, the patient has a profound psychomotor developmental delay; he has no verbal expression and is unable to walk.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "unable to walk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currently, at the age of five years, the patient has a profound psychomotor developmental delay; he has no verbal expression and is unable to walk.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole-exome sequencing of the patient's DNA revealed the presence of a heterozygous de novo variant of DNM1: c.709C>T (p.Arg237Trp).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

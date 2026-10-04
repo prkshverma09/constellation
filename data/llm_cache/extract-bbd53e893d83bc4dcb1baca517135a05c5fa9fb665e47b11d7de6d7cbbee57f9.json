@@ -1,0 +1,106 @@
+{
+  "pmid": "29196579",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All evaluated KCNT1 variants resulted in marked gain of function with significantly increased channel amplitude and variable blockade by quinidine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "significantly increased channel amplitude",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significantly increased channel amplitude",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "variable blockade by quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variable blockade by quinidine",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "xenopus oocyte model system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "xenopus oocyte model system",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three patients had a trial of quinidine with good clinical response in 1 patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "abnormal pore function (F346L)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal pore function (F346L)",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "impaired tetramer formation (F502V)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired tetramer formation (F502V)",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten patients had a clinical diagnosis of EIMFS",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset severe nocturnal frontal lobe seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the other 2 presented with early-onset severe nocturnal frontal lobe seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "spectrum of severe focal epilepsies with onset in early infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function KCNT1 pathogenic variants cause a spectrum of severe focal epilepsies with onset in early infancy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

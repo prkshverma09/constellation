@@ -1,0 +1,26 @@
+{
+  "pmid": "31216055",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SybII is essential for SV fusion",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression of exogenous sybII also fully restored SV fusion events in synaptophysin knockout neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

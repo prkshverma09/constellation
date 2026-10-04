@@ -1,0 +1,106 @@
+{
+  "pmid": "27806796",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel heterozygous mutation c. 443A>G (p.Glu148Arg) in DNM1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy (infantile spasms or Lennox-Gastaut syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Up to now, 9 cases of epileptic encephalopathy (infantile spasms or Lennox-Gastaut syndrome) associated with de novo DNM1 gene mutations have been reported.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, hypotonia, and developmental delay before the onset of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, hypotonia, and developmental delay before the onset of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, hypotonia, and developmental delay before the onset of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, hypotonia, and developmental delay before the onset of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypsarhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electroencephalography showed hypsarhythmia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "adrenocorticotropic hormone (ACTH)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He received 28 days of adrenocorticotropic hormone (ACTH) therapy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "valproic acid and levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "his seizures were improved with valproic acid and levetiracetam",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "valproic acid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disappeared between 3 years and 5 months to 5 years and 5 months of age on treatment with valproic acid only.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

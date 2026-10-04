@@ -1,0 +1,76 @@
+{
+  "pmid": "39729176",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole-exome sequencing of iPSCs derived from FCD II patients revealed a novel NPRL3 C.767G > C (p.R256P) heterozygous mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "personalized cortical organoid model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The effect of the newly identified NPRL3 mutation found in one of our FCD II patients was evaluated using the personalized cortical organoid model and the NPRL3 knockout HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "NPRL3 knockout HEK293T cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The effect of the newly identified NPRL3 mutation found in one of our FCD II patients was evaluated using the personalized cortical organoid model and the NPRL3 knockout HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "larger organoids with increased p-S6+ cells and NeuN+ neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cortical organoids generated from iPSCs of FCD II patients were larger than control iPSCs, with increased number of p-S6+ cells and NeuN+ neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "overexpression with NPRL2 reduces p-S6 upon amino acid starvation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In NPRL3 knockout HEK293T cells, overexpression of NPRL3 together with NPRL2 protein is necessary to reduce p-S6 level upon amino acid starvation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "reduced binding to NPRL2 leads to downregulation of NPRL3 and NPRL2 protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The reduced binding between NPRL3 Arg256Pro and NPRL2 protein leads to downregulation of the relative total protein amount of both proteins in the cell.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mutation of NPRL3 Arg256Pro impaired the function of NPRL3 protein via affecting the binding with NPRL2 protein, which resulted in unstable protein monomer.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

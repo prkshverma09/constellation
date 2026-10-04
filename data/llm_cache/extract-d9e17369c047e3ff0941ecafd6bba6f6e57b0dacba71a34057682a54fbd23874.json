@@ -1,0 +1,36 @@
+{
+  "pmid": "28150866",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "master controller of neuronal glucose utilization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "endothelial/glial GLUT1 the master controller of neuronal glucose utilization",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "possible involvement in neurodegenerative diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the housekeeping glucose transporter GLUT1 and its possible involvement in neurodegenerative diseases",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "contribute to neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "subtle deficits in GLUT1 function or its activity-dependent control by neurons may contribute to neurodegeneration",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

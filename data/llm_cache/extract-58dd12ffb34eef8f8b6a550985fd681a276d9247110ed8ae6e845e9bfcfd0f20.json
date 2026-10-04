@@ -1,0 +1,136 @@
+{
+  "pmid": "32917465",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal epilepsy (BFNE) or developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 mutations are associated with benign familial neonatal epilepsy (BFNE) or developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset 1 to 3 days of age in 11 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset of seizures in 11 patients ranged from 1 to 3 days of age",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most common initial seizure types were tonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "suppression burst pattern on initial EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Initial EEGs were suppression burst pattern in seven patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "slow and disorganized background with multifocal epileptiform discharges on initial EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "slow and disorganized background with multifocal epileptiform discharges in six patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Initial epilepsy syndrome was Ohtahara syndrome in seven patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "neonatal focal seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neonatal focal seizure in five patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy beyond neonatal period",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy beyond neonatal period in one patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers including oxcarbazepine (OXC) (n = 3), lamotrigine (LTG) (n = 3), phenytoin (PHT) (n = 2), topiramate (TPM) (n = 2), and zonisamide (ZNS) (n = 1) were tried and found effective in eleven patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free (12 of 13 patients)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ultimately, 12 of 13 patients became seizure-free.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "poor developmental outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, developmental outcomes were poor.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers are effective in seizure control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers are effective in seizure control in these patients with KCNQ2 encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "early recognition and early use of sodium channel blockers might be helpful",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early recognition of KCNQ2 encephalopathy and early use of sodium channel blockers might be helpful in seizure control.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

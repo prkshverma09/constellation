@@ -1,0 +1,86 @@
+{
+  "pmid": "39981956",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS), other early infantile developmental and epileptic encephalopathies, and focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function (GoF) variants in KCNT1 encoding for potassium channels are associated with different epilepsy phenotypes, including epilepsy of infancy with migrating focal seizures (EIMFS), other early infantile developmental and epileptic encephalopathies, and focal epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "fluoxetine blocks currents from both wild-type and mutant KCNT1 channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fluoxetine blocks currents from both wild-type (WT) and mutant KCNT1 channels with GoF in vitro features.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 3 KCNT1 variants displayed GoF effects in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "patch-clamp electrophysiology on heterologous channel expression in mammalian Chinese hamster ovary cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patch-clamp electrophysiology on heterologous channel expression in mammalian Chinese hamster ovary cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "variable reduction of seizure frequency (25-75%) with fluoxetine treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with fluoxetine caused a variable reduction of seizure frequency (25-75%).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "improvement in visual attention, participation, and muscle tone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Improvement in visual attention, participation, and muscle tone was also reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "transient dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transient dyskinesia in 1 patient, which was probably related to an increase in fluoxetine plasma level.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "fluoxetine may be a potential targeted medication in EIMFS caused by KCNT1 GoF variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fluoxetine may be a potential targeted medication in EIMFS caused by KCNT1 GoF variants.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

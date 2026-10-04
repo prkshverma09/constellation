@@ -1,0 +1,26 @@
+{
+  "pmid": "42587136",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "mouse model of KIF1A-associated neurological disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mouse model of KIF1A-associated neurological disorder.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "OptiPrime in vivo correction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vivo correction of a pathogenic mutation in the brain of a mouse model of KIF1A-associated neurological disorder.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

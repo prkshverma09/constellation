@@ -1,0 +1,76 @@
+{
+  "pmid": "38771640",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SCN8A, which encodes the voltage-gated sodium (NaV) channel NaV1.6, associate with neurodevelopmental disorders, including developmental and epileptic encephalopathy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "encodes the voltage-gated sodium channel NaV1.6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A, which encodes the voltage-gated sodium (NaV) channel NaV1.6",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "isoform differences in voltage dependence of activation and inactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expression of NaV1.6N or NaV1.6A in ND7/LoNav cells generated NaV currents with small, but significant, differences in voltage dependence of activation and inactivation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "ND7/LoNav neuronal cell line with low endogenous NaV current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and developed a neuronal cell line (ND7/LoNav) with low levels of endogenous NaV current to obviate the need for TTX-resistance mutations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "TTX-resistant isoforms differ functionally from WT channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TTX-resistant versions of both isoforms exhibited significant functional differences compared with the corresponding WT channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "isoform-dependent functional effects of SCN8A variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We demonstrated that many of the 15 disease-associated variants studied exhibited isoform-dependent functional effects,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "functional properties not easily classified as gain_of_function or loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "many of the studied SCN8A variants exhibited functional properties that were not easily classified as either gain- or loss-of-function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

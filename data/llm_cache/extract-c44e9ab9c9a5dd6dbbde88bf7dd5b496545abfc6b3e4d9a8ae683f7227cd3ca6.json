@@ -1,0 +1,16 @@
+{
+  "pmid": "39944415",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "manifesting largely in female individuals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these epilepsy syndromes manifesting largely in female individuals. The epilepsy syndromes reviewed here include Rett syndrome, CDKL5 deficiency disorder, PCDH19-related epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "HNRNPU",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:31:58.263917+00:00",
+  "usage": {
+    "input_tokens": 56217,
+    "output_tokens": 8033
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "HNRNPU Foundation",
+        "url": "https://hnrnpu.org/what-we-know/",
+        "kind": "foundation",
+        "snippet": "HNRNPU is a gene on chromosome 1q44 that encodes a protein called heterogenous nuclear ribonucleoprotein U (hnRNPU)."
+      },
+      {
+        "name": "Better Future 4 U (BF4U)",
+        "url": "https://www.bf4u.org/hnrnpu",
+        "kind": "foundation",
+        "snippet": "Better Future 4 U is a nonprofit organization dedicated to advancing understanding, awareness, and research around HNRNPU neurodevelopmental disorder."
+      },
+      {
+        "name": "HNRNP Family Foundation – HNRNPU-RNDD",
+        "url": "https://hnrnp.org/disorders/hnrnpu",
+        "kind": "foundation",
+        "snippet": "We are running a Natural History Study for HNRNPU-RNDD at the HNRNP Family Foundation."
+      },
+      {
+        "name": "Simons Searchlight – HNRNPU",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/hnrnpu/",
+        "kind": "registry",
+        "snippet": "HNRNPU-related syndrome is also called developmental and epileptic encephalopathy 54, or HNRNPU-related neurodevelopmental disorder (HNRNPU-NDD)."
+      },
+      {
+        "name": "Human Disease Genes – HNRNPU",
+        "url": "https://humandiseasegenes.nl/hnrnpu/parents/management",
+        "kind": "research_network",
+        "snippet": "There are no gene-specific treatments to date for HNRNPU-RNDD."
+      }
+    ]
+  }
+}

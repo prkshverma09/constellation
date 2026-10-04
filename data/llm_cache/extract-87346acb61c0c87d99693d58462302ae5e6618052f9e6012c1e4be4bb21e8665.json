@@ -1,0 +1,16 @@
+{
+  "pmid": "33919646",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "hypokinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The rate of hypokinetic MD was low, and was described from the neonatal period only, with WW domain containing oxidoreductase (WWOX) pathogenic variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "34575929",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "coregulation of steroid receptor activity on gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell adhesion molecule protocadherin 19 (encoded by the PCDH19 gene) is involved in the coregulation of steroid receptor activity on gene expression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset developmental epileptic encephalopathy clustering epilepsy (CE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 variants cause early-onset developmental epileptic encephalopathy clustering epilepsy (CE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "altered steroidogenesis and NHR-related gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered steroidogenesis and NHR-related gene expression being identified in these individuals.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

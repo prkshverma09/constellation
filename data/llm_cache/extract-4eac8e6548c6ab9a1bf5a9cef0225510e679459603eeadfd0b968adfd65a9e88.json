@@ -1,0 +1,16 @@
+{
+  "pmid": "28608743",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "obsessive-compulsive disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all genes associated with OCD were found. Then, in order to integrate the results, all the interactions between these genes were explored and the achievement was represented as an interactive genetic network. It was found that GRIN2A, GRIN2B and GRIA2 are the most central nodes in the network.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

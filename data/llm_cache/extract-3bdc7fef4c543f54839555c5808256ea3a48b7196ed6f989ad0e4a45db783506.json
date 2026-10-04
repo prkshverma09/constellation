@@ -1,0 +1,26 @@
+{
+  "pmid": "26971296",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "altered among the three levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The genes IMMT, JHDMD1D, ASAH1, ZWINT, IPO7, GNAO1 and CISD3 were found to be altered among the three levels.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "major role in ependymoma development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The IPO7, GNAO1 and ASAH1 genes may play a major role in ependymoma development.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,136 @@
+{
+  "pmid": "38785164",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most individuals had de novo heterozygous missense likely pathogenic/pathogenic KIF1A variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common characteristics were hypotonia, spasticity, ataxia, seizures, optic nerve atrophy, cerebellar atrophy, and cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "low VABS-ABC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mean Vineland adaptive behavior composite score (VABS-ABC) was low (M = 62.9, SD = 19.1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "decline in adaptive function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adaptive function declined over time consistent with both the neurodevelopmental and neurodegenerative nature of the condition.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "association of VABS-ABC decline with age at first assessment and abnormal electroencephalogram/seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The decline in VABS-ABC was associated with the age at first assessment and abnormal electroencephalogram/seizure.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "positive correlation between ESM score for the variants and final VABS-ABC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was a positive correlation between evolutionary scale model (ESM) score for the variants and final VABS-ABC (P = .003).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "visual deficits identified on in-person assessment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In-person assessment confirmed caregiver report and identified additional visual deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

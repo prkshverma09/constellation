@@ -1,0 +1,16 @@
+{
+  "pmid": "24092460",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "multiple ADNI phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several other genes (e.g., APOC1, FTO, GRIN2B, MAGI2, and TOMM40) were associated with multiple ADNI phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

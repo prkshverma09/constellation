@@ -1,0 +1,26 @@
+{
+  "pmid": "22905747",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "main adult subtype found in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A is the other main adult subtype found in the brain",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "severe epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has recently emerged as an epilepsy gene, with the first human mutation discovered in a severe epilepsy syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

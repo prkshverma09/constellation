@@ -1,0 +1,36 @@
+{
+  "pmid": "16915377",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three causative genes have been identified: CACNA1A (FHM1), ATP1A2 (FHM2), and SCN1A (FHM3).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "sporadic hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in these genes are also found in some patients with sporadic hemiplegic migraine.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "cortical spreading depression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We further discuss the roles of CACNA1A, ATP1A2, and SCN1A in the pathophysiology of cortical spreading depression, which is the likely correlate of migraine aura.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

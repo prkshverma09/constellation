@@ -1,0 +1,56 @@
+{
+  "pmid": "40972954",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a key regulator of synaptic vesicle exocytosis via SNARE complex assembly",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a key regulator of synaptic vesicle exocytosis",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beyond its canonical role in neurotransmitter release, Munc18-1",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive decline",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reductions or mutations in Munc18-1 have been consistently associated with cognitive decline in various dementia models.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "stabilize Munc18-1 and restore its multifaceted functions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "emerging therapeutic approaches that stabilize Munc18-1 and restore its multifaceted functions can be a novel strategy for the treatment of dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "22442077",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "abundantly expressed in cortex and hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is abundantly expressed in cortex and hippocampus,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation-induced oligomerization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "formed oligomers upon exposure to oxidizing agents.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oligomers more abundant in aged mouse brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These oligomers were ∼10-fold more abundant in the brain of old than young mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation-induced oligomerization enhances apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxidant-induced oligomerization of wild-type KCNB1 enhanced apoptosis in neuronal cells subject to oxidative insults.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "C73A confers resistance to oxidation and is neuroprotective",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a KCNB1 variant resistant to oxidation, obtained by mutating a conserved cysteine to alanine, (C73A), was neuroprotective.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation exacerbated in 3xTg-AD mouse brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oxidation of KCNB1 channels was exacerbated in the brain of a triple transgenic mouse model of AD (3xTg-AD).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "C73A protects neuronal cells from Aβ(1-42)-induced apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The C73A variant protected neuronal cells from apoptosis induced by incubation with β-amyloid peptide (Aβ(1-42)).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "C113S-KVS-1 (C73A homolog) protects neurons in C. elegans Aβ model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a C73A-KCNB1 homolog (C113S-KVS-1) protected specific neurons from apoptotic death induced by ectopic expression of human Aβ(1-42).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "may contribute to neuropathy in conditions with high oxidative stress such as Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The fact that oxidation of KCNB1 is toxic, argues that this mechanism may contribute to neuropathy in conditions characterized by high levels of oxidative stress, such as Alzheimer's disease (AD).",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

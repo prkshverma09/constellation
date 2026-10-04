@@ -1,0 +1,126 @@
+{
+  "pmid": "41381486",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates synaptic plasticity through interactions with scaffold proteins and modulation of Ras and Rap GTPase signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 regulates synaptic plasticity through interactions with scaffold proteins and modulation of Ras and Rap GTPase signaling.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human SYNGAP1 mutations are linked to intellectual disability, epilepsy, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human SYNGAP1 mutations are linked to intellectual disability, epilepsy, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human SYNGAP1 mutations are linked to intellectual disability, epilepsy, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice, Syngap1 haploinsufficiency causes impaired LTP, premature maturation of dendritic spines, learning disabilities, and seizures, reflecting the human phenotypes of SYNGAP1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "impaired LTP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice, Syngap1 haploinsufficiency causes impaired LTP, premature maturation of dendritic spines, learning disabilities, and seizures, reflecting the human phenotypes of SYNGAP1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "premature maturation of dendritic spines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice, Syngap1 haploinsufficiency causes impaired LTP, premature maturation of dendritic spines, learning disabilities, and seizures, reflecting the human phenotypes of SYNGAP1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "learning disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice, Syngap1 haploinsufficiency causes impaired LTP, premature maturation of dendritic spines, learning disabilities, and seizures, reflecting the human phenotypes of SYNGAP1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice, Syngap1 haploinsufficiency causes impaired LTP, premature maturation of dendritic spines, learning disabilities, and seizures, reflecting the human phenotypes of SYNGAP1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "influence cortical neurogenesis and progenitor proliferation in human organoids",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Recently, SYNGAP1 was shown to influence cortical neurogenesis and progenitor proliferation in human organoids.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "does not alter neocortical progenitors and their cellular output in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we show that Syngap1 absence or haploinsufficiency does not alter neocortical progenitors and their cellular output in mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulation of synapse function rather than its role on neurogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicates these arise from SYNGAP1's regulation of synapse function rather than its role on neurogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

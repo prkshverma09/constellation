@@ -1,0 +1,26 @@
+{
+  "pmid": "24885232",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The CNV loss in the 1q44 region contains HNRNPU, a strong candidate gene recently suggested in IS by the whole exome sequencing of children with IS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In particular, our study implicates the HNRNPU and MBD5 genes in Chinese children with IS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

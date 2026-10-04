@@ -1,0 +1,56 @@
+{
+  "pmid": "40461535",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "forebrain_progenitors_from_hiPSC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we generated forkhead box G1 (FOXG1)-positive forebrain progenitors from human inducible pluripotent stem cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "diverse_and_balanced_cortical_neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which can differentiate into diverse and balanced cortical neurons including upper- and deep-layer excitatory and inhibitory neurons, achieving early functional maturation simultaneously in vitro",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_integration_after_transplantation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these FOXG1 forebrain progenitor cells demonstrate robust cortical neuronal differentiation, rapid functional maturation and efficient synaptic integration after transplantation into the sensory cortex of stroke-injured adult rats",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "synapse_count_assessed_by_PET_in_vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we have successfully utilized the non-invasive 18F-SynVesT-1 PET imaging technique to assess alterations in synapse count before and after transplantation therapy of FOXG1 progenitors in vivo",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "improve_sensory_and_motor_function_recovery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the transplanted FOXG1 progenitors improve sensory and motor function recovery following stroke",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

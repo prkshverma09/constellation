@@ -1,0 +1,86 @@
+{
+  "pmid": "40294267",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "Ras-GAP protein enriched at excitatory synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a key Ras-GAP protein enriched at excitatory synapses",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy in humans.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "negative regulator of G-protein signaling through its GAP enzymatic activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "negative regulator of G-protein signaling through its GAP enzymatic activity",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "structural role through interaction with postsynaptic density proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 plays an important structural role through its interaction with postsynaptic density proteins",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "intrinsic excitability (lower input resistance, increased rheobase)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cortical excitatory neurons in heterozygous KO mice displayed reduced intrinsic excitability, including lower input resistance, and increased rheobase, a phenotype recapitulated in GAP-deficient Syngap1 mutants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "seizure severity and susceptibility to PTZ-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure severity and susceptibility to pentylenetetrazol (PTZ)-induced seizures were significantly elevated in heterozygous KO mice but unaffected in GAP-deficient mutants, implicating the structural rather than enzymatic role of Syngap1 in seizure regulation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "structural role in seizure regulation (vs enzymatic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "implicating the structural rather than enzymatic role of Syngap1 in seizure regulation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

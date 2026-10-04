@@ -1,0 +1,56 @@
+{
+  "pmid": "37916443",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly with early-onset seizures (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly with early-onset seizures (MCSZ) is a neurodevelopmental disorder caused by pathogenic variants in the DNA strand break repair protein, polynucleotide kinase 3'-phosphatase (PNKP).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including a missense variant in the DNA phosphatase domain (T323M)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "exon skipping",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel splice acceptor site variant within the DNA kinase domain that we show leads to exon skipping",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary fibroblasts derived from the patient exhibit greatly reduced levels of PNKP protein and reduced rates of DNA single-strand break repair, confirming that the mutated PNKP alleles are dysfunctional",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "oxidative and TOP1-induced single-strand break repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "result in reduced levels of PNKP protein, which affect the repair of both oxidative and TOP1-induced single-strand breaks",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

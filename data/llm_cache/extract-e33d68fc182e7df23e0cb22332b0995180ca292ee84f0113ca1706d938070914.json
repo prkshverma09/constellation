@@ -1,0 +1,36 @@
+{
+  "pmid": "33299146",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders, cerebral visual impairment, and brain atrophy. These core symptoms and additional recurrent phenotypes show an overlap to genes encoding other components or associated proteins of the SNARE complex such as STX1B",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "cerebral visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebral visual impairment, and brain atrophy. These core symptoms and additional recurrent phenotypes show an overlap to genes encoding other components or associated proteins of the SNARE complex such as STX1B",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "brain atrophy. These core symptoms and additional recurrent phenotypes show an overlap to genes encoding other components or associated proteins of the SNARE complex such as STX1B",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

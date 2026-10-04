@@ -1,0 +1,16 @@
+{
+  "pmid": "26795593",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2, MECP2, FOXG1, IQSEC2, KMT2A, and STXBP1 were most commonly affected by de novo alterations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

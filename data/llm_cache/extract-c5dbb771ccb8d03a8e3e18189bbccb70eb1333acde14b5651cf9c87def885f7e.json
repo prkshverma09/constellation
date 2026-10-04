@@ -1,0 +1,86 @@
+{
+  "pmid": "35613587",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "synaptic cell-adhesion molecule",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protocadherin-19 (PCDH19) is a synaptic cell-adhesion molecule",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoded by X-linked PCDH19, a gene linked with epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "synapse-to-nucleus signaling; bridges neuronal activity with gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a synapse-to-nucleus signaling pathway through which PCDH19 bridges neuronal activity with gene expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR-dependent proteolytic cleavage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the NMDA receptor (NMDAR)-dependent proteolytic cleavage of PCDH19",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "generation of a PCDH19 C-terminal fragment that enters the nucleus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leads to the generation of a PCDH19 C-terminal fragment (CTF) able to enter the nucleus.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "associates with chromatin and with LSD1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We demonstrate that PCDH19 CTF associates with chromatin and with the chromatin remodeler lysine-specific demethylase 1 (LSD1) and regulates expression of immediate-early genes (IEGs).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "regulates expression of immediate-early genes (IEGs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We demonstrate that PCDH19 CTF associates with chromatin and with the chromatin remodeler lysine-specific demethylase 1 (LSD1) and regulates expression of immediate-early genes (IEGs).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "favors maintenance of neuronal homeostasis via negative feedback regulation of IEG expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 favors maintenance of neuronal homeostasis via negative feedback regulation of IEG expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

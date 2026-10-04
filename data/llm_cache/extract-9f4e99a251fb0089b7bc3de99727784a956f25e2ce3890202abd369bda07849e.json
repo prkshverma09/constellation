@@ -1,0 +1,36 @@
+{
+  "pmid": "15907261",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "ion transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a dysfunction in ion transport as the key factor in the pathophysiology of (familial hemiplegic) migraine",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additional cerebellar ataxia and (childhood) epilepsy can occur in FHM1 and FHM2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "childhood epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additional cerebellar ataxia and (childhood) epilepsy can occur in FHM1 and FHM2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

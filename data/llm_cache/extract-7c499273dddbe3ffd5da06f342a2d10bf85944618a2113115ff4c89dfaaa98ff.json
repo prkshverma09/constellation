@@ -1,0 +1,106 @@
+{
+  "pmid": "23638217",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "associates with chromatin after mitosis and holds sister chromatids together following DNA replication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cohesin, a multiunit complex of SMC1A, SMC3 and Rad21, associates with chromatin after mitosis and holds sister chromatids together following DNA replication.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "SMC1A is mutated in some cancer types, leading to genomic instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It has been reported that SMC1A is mutated in some cancer types, leading to genomic instability and abnormal cell growth.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "SMC1A is mutated in some cancer types, leading to abnormal cell growth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It has been reported that SMC1A is mutated in some cancer types, leading to genomic instability and abnormal cell growth.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "expressed at abnormally high levels in human glioma tissue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that SMC1A was expressed at abnormally high levels in human glioma tissue and in cultured U251 glioma cells.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "expressed at abnormally high levels in cultured U251 glioma cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that SMC1A was expressed at abnormally high levels in human glioma tissue and in cultured U251 glioma cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "knockdown inhibits cell growth in U251 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Knocking down SMC1A expression in U251 cells with SMC1A-targeted interfering RNAs inhibited cell growth and induced G2/M cell cycle arrest.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "knockdown induces G2/M cell cycle arrest in U251 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Knocking down SMC1A expression in U251 cells with SMC1A-targeted interfering RNAs inhibited cell growth and induced G2/M cell cycle arrest.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "expression of CCNB1IP1 was dramatically increased in SMC1A-deficienct U251 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, expression of the cell cycle associated gene CCNB1IP1 was dramatically increased, whereas expression of Cyclin B1 was decreased in SMC1A-deficienct U251 cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "expression of Cyclin B1 was decreased in SMC1A-deficienct U251 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, expression of the cell cycle associated gene CCNB1IP1 was dramatically increased, whereas expression of Cyclin B1 was decreased in SMC1A-deficienct U251 cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "SMC1A upregulation is involved in the pathogenesis of glioma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that SMC1A upregulation is involved in the pathogenesis of glioma.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

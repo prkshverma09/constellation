@@ -1,0 +1,86 @@
+{
+  "pmid": "39298485",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA repair activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the activity, but not the protein level, of an essential DNA repair enzyme, polynucleotide kinase 3'-phosphatase (PNKP), is severely abrogated in both HD and SCA3 resulting in accumulation of double-strand breaks in patients' brain genome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "protein level",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the activity, but not the protein level, of an essential DNA repair enzyme, polynucleotide kinase 3'-phosphatase (PNKP), is severely abrogated in both HD and SCA3 resulting in accumulation of double-strand breaks in patients' brain genome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "accumulation of double-strand breaks in patients' brain genome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the activity, but not the protein level, of an essential DNA repair enzyme, polynucleotide kinase 3'-phosphatase (PNKP), is severely abrogated in both HD and SCA3 resulting in accumulation of double-strand breaks in patients' brain genome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "nuclear isoform of PFKFB3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed that PNKP interacts with the nuclear isoform of 6-phosphofructo-2-kinase fructose-2,6-bisphosphatase 3 (PFKFB3).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "PFKFB3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depletion of PFKFB3 markedly abrogates PNKP activity without changing its protein level.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "fructose-2,6 bisphosphate (F2,6BP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Supplementation of F2,6BP restored PNKP activity in the nuclear extracts of patients' brain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "F2,6BP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, intracellular delivery of F2,6BP restored both the activity of PNKP and the integrity of transcribed genome in neuronal cells derived from the striatum of the HD mouse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "F2,6BP as in vivo cofactor for PNKP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Importantly, supplementing F2,6BP rescued the HD phenotype in Drosophila, suggesting F2,6BP to serve in vivo as a cofactor for the proper functionality of PNKP and thereby, of brain health.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

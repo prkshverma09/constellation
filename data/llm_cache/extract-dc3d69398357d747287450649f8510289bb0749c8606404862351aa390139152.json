@@ -1,0 +1,116 @@
+{
+  "pmid": "29315614",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "impaired cognitive development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cognitive development was impaired in 33/34 (97%) subjects",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "mild to moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "28/34 had mild to moderate ID, with language impairment being the most common feature.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "language impairment being the most common feature.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (mean onset 3.7 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was diagnosed in 31/34 cases with mean onset at 3.7 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "absence, myoclonic, and atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common seizure types were absence, myoclonic, and atonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic atonic epilepsy (MAE) phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients carrying pathogenic SLC6A1 variants have an MAE phenotype with language delay and mild/moderate ID before epilepsy onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "EEG: irregular 2.5-3.5 Hz spikes/polyspikes-and-slow waves",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "irregular bursts of diffuse 2.5-3.5 Hz spikes/polyspikes-and-slow waves in 25/31.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ataxia was observed in 7/34 cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "post‑epilepsy cognitive deterioration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After epilepsy onset, cognition deteriorated in 46% (11/24) of cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "valproic acid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty of 31 patients became seizure-free, with valproic acid being the most effective drug.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We describe 7 truncating and 18 missense variants, including 4 recurrent variants (Gly232Val, Ala288Val, Val342Met, and Gly362Arg).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

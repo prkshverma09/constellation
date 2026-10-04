@@ -1,0 +1,16 @@
+{
+  "pmid": "34877788",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypes in individuals with variants in the SMC1A gene are distinct, and that with intractable seizures has been further evaluated.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

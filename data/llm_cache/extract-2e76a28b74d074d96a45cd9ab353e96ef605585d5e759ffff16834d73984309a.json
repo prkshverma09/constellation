@@ -1,0 +1,126 @@
+{
+  "pmid": "26918889",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "familial juvenile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 mutations have been identified in patients with familial juvenile myoclonic epilepsy, sporadic childhood absence epilepsy, and idiopathic familial generalized epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "sporadic childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 mutations have been identified in patients with familial juvenile myoclonic epilepsy, sporadic childhood absence epilepsy, and idiopathic familial generalized epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic familial generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 mutations have been identified in patients with familial juvenile myoclonic epilepsy, sporadic childhood absence epilepsy, and idiopathic familial generalized epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo GABRA1 mutations were recently reported in a patient with infantile spasms and four patients with Dravet syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo GABRA1 mutations were recently reported in a patient with infantile spasms and four patients with Dravet syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Those reports suggest that GABRA1 mutations are associated with infantile epilepsy including early onset epileptic encephalopathies.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified five de novo missense GABRA1 mutations in six unrelated patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A p.R112Q mutation in the long extracellular N-terminus was identified in a patient with infantile epilepsy; p.P260L, p.M263T, and p.M263I in transmembrane spanning domain 1 (TM1) were identified in three unrelated patients with West syndrome and a patient with Ohtahara syndrome, respectively; and p.V287L in TM2 was identified in a patient with unclassified early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A p.R112Q mutation in the long extracellular N-terminus was identified in a patient with infantile epilepsy; p.P260L, p.M263T, and p.M263I in transmembrane spanning domain 1 (TM1) were identified in three unrelated patients with West syndrome and a patient with Ohtahara syndrome, respectively; and p.V287L in TM2 was identified in a patient with unclassified early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A p.R112Q mutation in the long extracellular N-terminus was identified in a patient with infantile epilepsy; p.P260L, p.M263T, and p.M263I in transmembrane spanning domain 1 (TM1) were identified in three unrelated patients with West syndrome and a patient with Ohtahara syndrome, respectively; and p.V287L in TM2 was identified in a patient with unclassified early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "unclassified early onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A p.R112Q mutation in the long extracellular N-terminus was identified in a patient with infantile epilepsy; p.P260L, p.M263T, and p.M263I in transmembrane spanning domain 1 (TM1) were identified in three unrelated patients with West syndrome and a patient with Ohtahara syndrome, respectively; and p.V287L in TM2 was identified in a patient with unclassified early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study suggests that de novo GABRA1 mutations can cause early onset epileptic encephalopathies, including Ohtahara syndrome and West syndrome.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "23526554",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations severely impaired TBC1D24 expression and function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "maturation of neuronal circuits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is critical for maturation of neuronal circuits",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "malignant migrating partial seizures of infancy (MMPSI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we describe a familial form of MMPSI due to mutation in TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic infantile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 loss of function has been associated to idiopathic infantile myoclonic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant early-onset epilepsy with intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant early-onset epilepsy with intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "malignant migrating partial seizures of infancy (MMPSI)",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The screening of TBC1D24 in an additional set of eight MMPSI patients was negative",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

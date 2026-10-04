@@ -1,0 +1,136 @@
+{
+  "pmid": "20194124",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Complete loss-of-function mutations in NaV1.1 cause severe myoclonic epilepsy of infancy (SMEI or Dravet's Syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "severe, intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe, intractable epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "severely impaired sodium currents and action potential firing in hippocampal GABAergic inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with loss-of-function mutations in NaV1.1 channels have severely impaired sodium currents and action potential firing in hippocampal GABAergic inhibitory neurons without detectable effect on the excitatory pyramidal neurons, which would cause hyperexcitability and contribute to seizures in SMEI",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "sodium currents and action potential firing are also impaired in the GABAergic Purkinje neurons of the cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium currents and action potential firing are also impaired in the GABAergic Purkinje neurons of the cerebellum",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "drug combinations that enhance GABAergic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "thermally induced seizures in these mice can be prevented by drug combinations that enhance GABAergic neurotransmission",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Generalized epilepsy with febrile seizures plus (GEFS+) is caused by missense mutations in NaV1.1 channels",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Familial febrile seizures is caused by mild loss-of-function mutations in NaV1.1 channels",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures associated with vaccination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in these channels are implicated in febrile seizures associated with vaccination",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "impaired alternative splicing of the mRNA encoding these channels may predispose to febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired alternative splicing of the mRNA encoding these channels may also predispose some children to febrile seizures",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose a unified loss-of-function hypothesis for the spectrum of epilepsy syndromes caused by genetic changes in NaV1.1 channels",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers are used in therapy of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

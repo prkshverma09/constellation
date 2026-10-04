@@ -1,0 +1,36 @@
+{
+  "pmid": "38307656",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "increased neurotransmitter and potassium ion levels at the synaptic cleft, which facilitates cortical spreading depolarization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together, mutations in these three genes predict increased neurotransmitter and potassium ion levels at the synaptic cleft, which facilitates cortical spreading depolarization, the phenomenon underlying the migraine aura.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three genes, CACNA1A, ATP1A2, and SCN1A have been identified.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "mild phenotype that is more akin to that of common (nonhemiplegic) migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients with hemiplegic migraine without a mutation in CACNA1A, ATP1A2, or SCN1A display a mild phenotype that is more akin to that of common (nonhemiplegic) migraine.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

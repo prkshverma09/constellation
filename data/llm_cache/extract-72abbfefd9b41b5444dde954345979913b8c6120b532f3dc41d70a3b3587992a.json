@@ -1,0 +1,26 @@
+{
+  "pmid": "30447054",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cohesin core complex subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The core complex is composed of four subunits: RAD21, SMC1A, SMC3, and STAG1/2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "cohesinopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in these proteins have been implicated in human developmental disorders collectively termed \"cohesinopathies.\"",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

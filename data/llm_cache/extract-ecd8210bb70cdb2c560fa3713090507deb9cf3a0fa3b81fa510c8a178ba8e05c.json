@@ -1,0 +1,16 @@
+{
+  "pmid": "31302675",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "childhood-onset single-gene epilepsy (incidence)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and SLC2A1: 1 per 24 300 (4.13/100 000; 95% confidence interval 1.07-7.19).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

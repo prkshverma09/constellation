@@ -1,0 +1,16 @@
+{
+  "pmid": "25401692",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "social impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Knockdown of the AMPAR subunit Gria2 also alleviated social impairments.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,226 @@
+{
+  "pmid": "39831465",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "non-classic CdLS with epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient with non-classic CdLS and epilepsy caused by an SMC1A variant",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with facial features, double outlet right ventricle (DORV), and recurrent epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "double outlet right ventricle (DORV)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with facial features, double outlet right ventricle (DORV), and recurrent epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "recurrent epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with facial features, double outlet right ventricle (DORV), and recurrent epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "c.2890_2893del (p.Ser964Valfs*26) de novo heterozygous frameshift",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo heterozygous frameshift mutation, c.2890_2893del (p.Ser964Valfs*26), in the SMC1A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they exhibit a high incidence of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "non-classic CdLS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the majority of cases were non-classic (81.5%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "female predominance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "predominantly female (68.2%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "median onset age 11.5 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a median onset age of 11.5 months",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe/profound developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe/profound developmental delay (52.6%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia (18.2%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "cardiovascular anomalies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cardiovascular anomalies (36.4%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intrauterine growth retardation (IUGR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intrauterine growth retardation (IUGR) (22.7%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure clusters occurred in 22.7%",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "status epilepticus in 18.2%",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant epilepsy in 33.3%",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The predominant genotypes in non-classic cases were missense and frameshift mutations",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "appeared more frequently in females (non-classic vs classic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "appeared more frequently in females and were associated with a higher prevalence of severe/profound developmental delay and cardiovascular anomalies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "higher prevalence of severe/profound developmental delay (non-classic vs classic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "appeared more frequently in females and were associated with a higher prevalence of severe/profound developmental delay and cardiovascular anomalies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "higher prevalence of cardiovascular anomalies (non-classic vs classic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "appeared more frequently in females and were associated with a higher prevalence of severe/profound developmental delay and cardiovascular anomalies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intrauterine growth retardation (IUGR) less common in non-classic cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "IUGR was significantly less common in non-classic individuals",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy characteristics show no significant difference between classic and non-classic cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "no significant differences were observed between classic and non-classic cases",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

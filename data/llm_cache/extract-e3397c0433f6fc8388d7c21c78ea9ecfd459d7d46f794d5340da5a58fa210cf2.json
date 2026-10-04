@@ -1,0 +1,46 @@
+{
+  "pmid": "34965576",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequent genetic cause of focal epilepsies is variations in the GAP activity toward RAGs 1 complex genes DEP domain containing 5 (DEPDC5), nitrogen permease regulator 2-like protein (NPRL2) and nitrogen permease regulator 3-like protein (NPRL3).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "genetically modified animal models recapitulating DEPDC5-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several genetically modified animal models recapitulate DEPDC5-related epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Emx1cre/+; Depdc5f/f (Depdc5-cKO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Emx1cre/+; Depdc5f/f (Depdc5-cKO) mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the benefit of rapamycin after withdrawal was less durable in Nprl2- and Nprl3-cKO mice compared with Depdc5-cKO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

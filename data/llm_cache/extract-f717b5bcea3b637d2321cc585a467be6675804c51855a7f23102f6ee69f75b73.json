@@ -1,0 +1,106 @@
+{
+  "pmid": "40944494",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hyperactive KCNT1 potassium channels, caused by gain-of-function mutations, are associated with a range of epilepsy disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients typically experience drug-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental regression can follow.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of infancy with migrating focal seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "sleep-related hypermotor epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sleep-related hypermotor epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "reduction of K+ current amplitudes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4 drugs showing significant reduction of K+ current amplitudes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "humanized Drosophila KCNT1 epilepsy models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "humanized Drosophila KCNT1 epilepsy models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "reduce the seizure phenotype in humanized Drosophila KCNT1 epilepsy models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 were found to reduce the seizure phenotype in humanized Drosophila KCNT1 epilepsy models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "antrafenine crosses the blood-brain barrier in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One drug, antrafenine, was shown to cross the blood-brain barrier in mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "reduces KCNT1 channel activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This study identified a known drug, antrafenine, that reduces KCNT1 channel activity, reduces seizure activity in Drosophila, and crosses the blood-brain barrier in the mouse, suggesting its potential applicability as a new treatment for KCNT1 epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

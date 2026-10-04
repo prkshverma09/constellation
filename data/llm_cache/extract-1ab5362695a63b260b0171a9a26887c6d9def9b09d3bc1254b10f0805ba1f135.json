@@ -1,0 +1,106 @@
+{
+  "pmid": "36895422",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1-related disorder is a genetic neurodevelopmental disorder that is caused by loss of function variants in the SLC6A1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter type 1 (GAT1); reuptake of GABA from the synaptic cleft",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Solute Carrier Family 6 Member 1 (SLC6A1) gene encodes for gamma-aminobutyric acid (GABA) transporter type 1 (GAT1), which is responsible for reuptake of GABA from the synaptic cleft.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, individuals with SLC6A1-related disorder can have manifestations such as developmental delay, epilepsy, autism spectrum disorder, and a subset have developmental regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, individuals with SLC6A1-related disorder can have manifestations such as developmental delay, epilepsy, autism spectrum disorder, and a subset have developmental regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, individuals with SLC6A1-related disorder can have manifestations such as developmental delay, epilepsy, autism spectrum disorder, and a subset have developmental regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consequently, individuals with SLC6A1-related disorder can have manifestations such as developmental delay, epilepsy, autism spectrum disorder, and a subset have developmental regression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "loss of previously mastered skills in speech and language, motor, social, and adaptive domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with developmental regression had a loss of skills that were previously mastered in developmental domains including speech and language, motor, social, and adaptive skills.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "mean age at regression 2.7 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mean age at regression was 2.7 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "regression of language or motor skills triggered by seizures, infection, or spontaneously",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most subjects had regression of language or motor skills triggered by seizures, infection, or spontaneously.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "higher prevalence of autism and severe language impairment in the regression group",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "there was a higher prevalence of autism and severe language impairment in the regression group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

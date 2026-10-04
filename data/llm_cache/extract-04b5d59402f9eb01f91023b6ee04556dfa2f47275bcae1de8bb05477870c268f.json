@@ -1,0 +1,66 @@
+{
+  "pmid": "40894722",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "3D cortical organoids generated from a human male KOLF iPSC line carrying the Nav1.2-L1342P mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using a human male iPSC reference line (KOLF) carrying the Nav1.2-L1342P mutation, we generated 3D cortical organoids for functional studies.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "increased intrinsic excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nav1.2-L1342P organoid neurons displayed increased intrinsic excitability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "amplified excitatory post-synaptic currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "amplified excitatory post-synaptic currents",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "increase in excitatory synapse formation revealed by PSD95/SYN1 immunostaining",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an increase in excitatory synapse formation revealed by PSD95/SYN1 immunostaining.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "network hyperexcitability (elevated network firing activity)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "elevated network firing activity, as demonstrated by MEA, indicates a pronounced network hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "significant alterations in synaptic, glutamatergic, and developmental pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptomic profiling of organoids carrying the Nav1.2-L1342P mutation further revealed significant alterations in synaptic, glutamatergic, and developmental pathways.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

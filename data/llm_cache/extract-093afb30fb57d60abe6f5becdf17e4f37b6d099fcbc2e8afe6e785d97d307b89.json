@@ -1,0 +1,16 @@
+{
+  "pmid": "16082431",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "bipolar disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 may have some importance.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

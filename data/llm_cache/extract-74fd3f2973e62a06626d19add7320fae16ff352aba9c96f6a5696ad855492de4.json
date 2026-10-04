@@ -1,0 +1,86 @@
+{
+  "pmid": "31300657",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "renders heteromultimeric AMPARs Ca2+-impermeable",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluA2 has an especially important role because, following post-transcriptional editing at the Q607 site, it renders heteromultimeric AMPARs Ca2+-impermeable, with a linear relationship between current and trans-membrane voltage.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In functional expression studies, mutations lead to a decrease in agonist-evoked current mediated by mutant subunits compared to wild-type channels. When GluA2 subunits are co-expressed with GluA1, most GRIA2 mutations cause a decreased current amplitude and some also affect voltage rectification.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results show that de-novo variants in GRIA2 can cause neurodevelopmental disorders, complementing evidence that other genetic causes of ID, ASD and DEE also disrupt glutamatergic synaptic transmission.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

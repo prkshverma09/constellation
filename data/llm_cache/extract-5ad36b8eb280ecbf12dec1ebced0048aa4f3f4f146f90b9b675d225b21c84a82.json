@@ -1,0 +1,26 @@
+{
+  "pmid": "42799957",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "downstream target of miR-770-5p",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "bioinformatic analysis and validation experiments identified GRIA2 as a downstream target of miR-770-5p.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "miR-770-5p/GRIA2 axis involved in PART1-mediated neuroprotection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PART1 exerts neuroprotective effects against Aβ-induced damage by downregulating the miR-770-5p/GRIA2 axis",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

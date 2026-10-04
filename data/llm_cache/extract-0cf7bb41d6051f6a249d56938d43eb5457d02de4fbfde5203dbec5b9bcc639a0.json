@@ -1,0 +1,126 @@
+{
+  "pmid": "22267240",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "protocadherin 19 on chromosome Xq22.3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 encodes protocadherin 19 on chromosome Xq22.3.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "highly expressed during brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highly expressed during brain development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "neuronal migration or establishment of synaptic connections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "could play significant roles in neuronal migration or establishment of synaptic connections.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "composed of six exons; large first exon encodes entire extracellular domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is composed of six exons, with a large first exon encoding the entire extracellular domain of the protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy and mental retardation limited to females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous PCDH19 mutations were initially identified in epilepsy and mental retardation limited to females",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "only heterozygous females are affected, whereas hemizygous males are asymptomatic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "only heterozygous females are affected, whereas hemizygous males are asymptomatic.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "mosaic males can also be affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mosaic males can also be affected",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference as the pathogenic mechanism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supporting cellular interference as the pathogenic mechanism.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "sporadic infantile-onset epileptic encephalopathy in females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in PCDH19, mostly occurring de novo, were shown to be a frequent cause of sporadic infantile-onset epileptic encephalopathy in females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epileptic females without cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutations were also identified in epileptic females without cognitive impairment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "generalized or focal seizures highly sensitive to fever",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized or focal seizures highly sensitive to fever",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "brief seizures occurring in clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "brief seizures occurring in clusters",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

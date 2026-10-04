@@ -1,0 +1,96 @@
+{
+  "pmid": "35393335",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development (MCDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Malformations of cortical development (MCDs) have been reported in a subset of patients with pathogenic heterozygous variants in GRIN1 or GRIN2B,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "diffuse dysgyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic basal ganglia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic hippocampi",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "proliferation as well as radial and tangential neuronal migration are impaired",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuropathological examination in two fetuses with heterozygous GRIN1 variants suggests that proliferation as well as radial and tangential neuronal migration are impaired.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal migration is impaired by homozygous GRIN1 variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we show that neuronal migration is also impaired by homozygous GRIN1 variants in an individual with microcephaly with simplified gyral pattern.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly with simplified gyral pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we show that neuronal migration is also impaired by homozygous GRIN1 variants in an individual with microcephaly with simplified gyral pattern.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

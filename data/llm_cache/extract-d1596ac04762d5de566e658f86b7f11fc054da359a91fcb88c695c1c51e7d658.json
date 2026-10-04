@@ -1,0 +1,26 @@
+{
+  "pmid": "42003125",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-Aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-Aminopyridine is useful for KCNA1 and KCNA2 variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "Gapmer antisense oligonucleotides",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gapmer antisense oligonucleotides are a potential treatment for KCNA2 variants.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "32062370",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "\"flop\" isoform of Gria3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KA-ELS result in a small, but significant decrease in the \"flop\" isoform of Gria3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "37192002",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function mutations in one allele of SCN1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes NaV1.1, a 250-kDa voltage-gated sodium channel.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "viral vector-mediated delivery of a codon-modified SCN1A open reading frame into the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we demonstrate that viral vector-mediated delivery of a codon-modified SCN1A open reading frame into the brain improves DS comorbidities in juvenile and adolescent DS mice (Scn1aA1783V/WT).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1aA1783V/WT mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "juvenile and adolescent DS mice (Scn1aA1783V/WT)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased survival",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spikes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced the occurrence of epileptic spikes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "thermally induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "provided protection from thermally induced seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "background electrocorticographic activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corrected background electrocorticographic activity and behavioral deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corrected background electrocorticographic activity and behavioral deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "hippocampal inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "restored hippocampal inhibition",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "SCN1A delivery as a therapeutic approach for infants and adolescents with DS-associated comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, our results provide a proof of concept for the potential of SCN1A delivery as a therapeutic approach for infants and adolescents with DS-associated comorbidities.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

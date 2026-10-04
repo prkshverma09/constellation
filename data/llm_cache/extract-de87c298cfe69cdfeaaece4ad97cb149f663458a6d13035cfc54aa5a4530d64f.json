@@ -1,0 +1,26 @@
+{
+  "pmid": "23093055",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of PCDH19 have also been reported in female patients with clinical findings compatible with DS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutations might account for 5ｵ of overall DS cases.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

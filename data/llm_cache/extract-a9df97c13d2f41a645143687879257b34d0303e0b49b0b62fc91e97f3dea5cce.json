@@ -1,0 +1,16 @@
+{
+  "pmid": "39030735",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified 421 unique patients with DS (in nine studies), CDKL5 deficiency disorder, SCN8A-related disorder, LGS, SCN1B-related disorder, and other DEEs.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

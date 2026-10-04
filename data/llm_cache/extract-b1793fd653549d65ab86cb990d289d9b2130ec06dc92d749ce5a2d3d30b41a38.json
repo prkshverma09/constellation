@@ -1,0 +1,16 @@
+{
+  "pmid": "31618474",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median age at seizure onset was 4 weeks, with earlier onset in the SCN2A, KCNQ2, and BRAT1 groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "40869402",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "Familial Hemiplegic Migraine (FHM)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The CACNA1A gene has been implicated in rare forms of Familial Hemiplegic Migraine (FHM).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The rs10405121 variant was associated with both migraine types, with the homozygous AA genotype exclusively found in familial cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine without aura",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormal genotype of rs894252513 and rs1012663275 were detected only in familial cases with MO.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "altering calcium channel function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Novel variants may contribute to migraine pathogenesis by altering calcium channel function",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "lowering the threshold for cortical spreading depression (CSD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lowering the threshold for cortical spreading depression (CSD).",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

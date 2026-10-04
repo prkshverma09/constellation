@@ -1,0 +1,116 @@
+{
+  "pmid": "35149262",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous c.1499C>T (p.A500V) pathogenic variant",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "The age of seizure onset ranged from 1 to 7 months.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of seizure onset ranged from 1 to 7 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "very prolonged multifocal myoclonus or focal clonic fits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All four individuals exhibited very prolonged multifocal myoclonus or focal clonic fits",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "interictal EEGs were prone to dissociation with clinical seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the interictal EEGs were prone to dissociation with clinical seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "viral infection and fever as precipitating factors for seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The common precipitating factors for seizures were viral infection and fever.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "progressive cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two individuals from family II had progressive cerebellar atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one had ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "no cerebellar signs clinically",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the other one had no cerebellar signs clinically",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "pharmaco-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All individuals had pharmaco-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "the younger siblings of the two sibling pairs had normal neurodevelopmental outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the younger siblings of the two sibling pairs had normal neurodevelopmental outcomes",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Intrafamilial phenotypic variability of cerebellar neurodegeneration on neuroimages and neurodevelopmental outcomes might be noted in individuals with TBC1D24-TLDc homozygous c.1499C>T (p.A500V) pathogenic variant-related DEE.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intrafamilial phenotypic variability of cerebellar neurodegeneration on neuroimages and neurodevelopmental outcomes might be noted in individuals with TBC1D24-TLDc homozygous c.1499C>T (p.A500V) pathogenic variant-related DEE.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

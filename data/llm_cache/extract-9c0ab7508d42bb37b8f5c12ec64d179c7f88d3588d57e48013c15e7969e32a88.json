@@ -1,0 +1,16 @@
+{
+  "pmid": "25362483",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures with or without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recurrent mutations in three main genes (SCN1A, SCN1B and GABRG2) have been identified that cause febrile seizures with or without epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

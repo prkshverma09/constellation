@@ -1,0 +1,66 @@
+{
+  "pmid": "41770211",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "ataluren",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with ataluren led to successful restoration of SMC1A protein levels, partial correction of gene expression abnormalities, and a reduction in genomic instability in cells harboring nonsense variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptomic alterations were strongly dependent on variant type, with nonsense variants causing the most profound gene expression changes.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "model",
+      "object_text": "cell lines derived from individuals with DEE85 and Cornelia de Lange syndrome (CdLS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell lines derived from individuals with DEE85 and Cornelia de Lange syndrome (CdLS)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "transcriptomic alterations dependent on variant type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptomic alterations were strongly dependent on variant type",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "DEE85 and CdLS have distinct transcriptional signatures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEE85 and CdLS cell lines exhibited distinct transcriptional signatures.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "variant-specific molecular mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A-related epileptic encephalopathies are driven by variant-specific molecular mechanisms",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

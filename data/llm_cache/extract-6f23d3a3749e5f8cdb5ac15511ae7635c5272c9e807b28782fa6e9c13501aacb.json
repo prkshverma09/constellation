@@ -1,0 +1,16 @@
+{
+  "pmid": "40884527",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "genetic etiology in neonatal-onset pharmacoresistant epilepsy with normal brain MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "60% had a genetic etiology (KCNQ2, STXBP1, KCNT1, others).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

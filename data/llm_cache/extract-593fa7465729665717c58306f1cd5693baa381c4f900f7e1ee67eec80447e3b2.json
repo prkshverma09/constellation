@@ -1,0 +1,146 @@
+{
+  "pmid": "30692144",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function mutations in a human AMPA receptor-associated protein, ferric chelate reductase 1-like (FRRS1L), are associated with a devastating neurological condition incorporating choreoathetosis, cognitive deficits and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with a devastating neurological condition incorporating choreoathetosis, cognitive deficits and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "cognitive deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with a devastating neurological condition incorporating choreoathetosis, cognitive deficits and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with a devastating neurological condition incorporating choreoathetosis, cognitive deficits and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "model",
+      "object_text": "mouse Frrs1l null mutant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using a mouse Frrs1l null mutant.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "early-onset motor deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice lacking Frrs1l suffered from a broad spectrum of early-onset motor deficits with no progressive, age-related deterioration.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Frrs1l-/- mice were hyperactive, irrespective of test environment, exhibited working memory deficits and displayed significant sleep fragmentation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "working memory deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Frrs1l-/- mice were hyperactive, irrespective of test environment, exhibited working memory deficits and displayed significant sleep fragmentation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "sleep fragmentation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Frrs1l-/- mice were hyperactive, irrespective of test environment, exhibited working memory deficits and displayed significant sleep fragmentation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "abnormal EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Longitudinal electroencephalographic (EEG) recordings also revealed abnormal EEG results in Frrs1l-/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor biogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "evidence from overexpression and ex vivo studies has implicated FRRS1L in AMPA receptor biogenesis",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "deficiency in AMPA receptor levels in brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified a specific deficiency in AMPA receptor levels in the brain of Frrs1l-/- mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "increased proportion of immature AMPA receptors (incomplete glycosylation of GLUA2 and GLUA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Frrsl1 deletion results in an increased proportion of immature AMPA receptors, indicated by incomplete glycosylation of GLUA2 (also known as GRIA2) and GLUA4 (also known as GRIA4) AMPA receptor proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "cytoplasmic retention and reduction of postsynaptic AMPA receptor levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This incomplete maturation leads to cytoplasmic retention and a reduction of those specific AMPA receptor levels in the postsynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

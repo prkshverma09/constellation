@@ -1,0 +1,36 @@
+{
+  "pmid": "39985505",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "low-dose clonazepam, fenfluramine, and cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A genetic variants, particularly in Dravet syndrome, show potential for treatment of autistic symptoms with low-dose clonazepam, fenfluramine, and cannabidiol, although human trials have yet to consistently replicate animal model successes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "low-dose clonazepam, fenfluramine, and cannabidiol",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "SCN1A genetic variants, particularly in Dravet syndrome, show potential for treatment of autistic symptoms with low-dose clonazepam, fenfluramine, and cannabidiol, although human trials have yet to consistently replicate animal model successes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Early intervention before the age of 3 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early intervention before the age of 3 years, particularly in SCN1A- and tuberous sclerosis complex-related DEEs, is crucial.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

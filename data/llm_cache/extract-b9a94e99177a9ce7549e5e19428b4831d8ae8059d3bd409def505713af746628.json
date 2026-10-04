@@ -1,0 +1,96 @@
+{
+  "pmid": "26873552",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "repressor of the mTORC1 signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEP-domain containing 5 (DEPDC5), encoding a repressor of the mechanistic target of rapamycin complex 1 (mTORC1) signaling pathway,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "mutated in familial focal epilepsies and focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has recently emerged as a major gene mutated in familial focal epilepsies and focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "global knockout rat (TALEN)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we established a global knockout rat using TALEN technology to investigate in vivo the impact of Depdc5-deficiency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "homozygous Depdc5(-/-) embryos die at embryonic day 14.5 with global growth delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous Depdc5(-/-) embryos died from embryonic day 14.5 due to a global growth delay.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "Constitutive mTORC1 hyperactivation with enhanced phosphorylation of S6K1 and rpS6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Constitutive mTORC1 hyperactivation was evidenced in the brains and in cultured fibroblasts of Depdc5(-/-) embryos, as reflected by enhanced phosphorylation of its downstream effectors S6K1 and rpS6.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "prenatal mTORC1 inhibitor rapamycin rescues Depdc5(-/-) embryo phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consistently, prenatal treatment with mTORC1 inhibitor rapamycin rescued the phenotype of Depdc5(-/-) embryos.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "heterozygous Depdc5(+/-) rats develop normally and exhibit no spontaneous electroclinical seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous Depdc5(+/-) rats developed normally and exhibited no spontaneous electroclinical seizures,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "altered cortical neuron excitability and firing patterns",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but had altered cortical neuron excitability and firing patterns.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Depdc5(+/-) rats display cortical cytomegalic dysmorphic neurons and balloon-like cells strongly expressing phosphorylated rpS6 (indicative of mTORC1 upregulation)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5(+/-) rats displayed cortical cytomegalic dysmorphic neurons and balloon-like cells strongly expressing phosphorylated rpS6, indicative of mTORC1 upregulation, and not observed after prenatal rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "38539105",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies associated with severe epilepsy and GDD/ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequently diagnosed conditions were developmental and epileptic encephalopathies associated with severe epilepsy and GDD/ID (associated genes ARX, CDKL5, STXBP1, KCNQ2, SCN2A, KCNT1, KCNA2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

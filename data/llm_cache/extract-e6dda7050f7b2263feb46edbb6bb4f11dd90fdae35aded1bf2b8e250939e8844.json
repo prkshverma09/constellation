@@ -1,0 +1,86 @@
+{
+  "pmid": "38731820",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "intracellular accumulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which we have previously shown to result in intracellular accumulation of mutant GABAA receptor γ2(Q390X) subunit protein.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "HRD1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we have here identified an ERAD-associated E3 ubiquitin ligase, HRD1, among other ubiquitin ligases, as a strong modulator of wildtype and mutant γ2 subunit expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "HRD1 reduces γ2(Q390X) subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpressing HRD1 or knockdown of HRD1 dose-dependently reduced the γ2(Q390X) subunit.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "zonisamide (ZNS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "zonisamide (ZNS)-an antiseizure drug reported to upregulate HRD1-reduces seizures in the Gabrg2+/Q390X mouse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "partial rescue of surface trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a possible mechanism for this effect is a partial rescue of surface trafficking of GABAA receptors",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which are otherwise sequestered in the ER due to the dominant-negative effect of the γ2(Q390X) subunit.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "BiP and calnexin expression unchanged",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this partial rescue was not due to changes in ER chaperones BiP and calnexin, as total expression of these chaperones was unchanged in γ2(Q390X) models.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "ZNS alters protein trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ZNS alters protein trafficking, providing further support for the use of proteostasis regulators for the treatment of genetic epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

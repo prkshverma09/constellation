@@ -1,0 +1,66 @@
+{
+  "pmid": "42563894",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hemimegalencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable focal epilepsy due to hemimegalencephaly caused by an inherited mutation in nitrogen permease regulator-like 3 (NPRL3).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "intractable focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present a newborn with intractable focal epilepsy due to hemimegalencephaly caused by an inherited mutation in nitrogen permease regulator-like 3 (NPRL3).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is consistent with recent studies suggesting that NPRL3 and other genes implicated in familial focal epilepsy with variable foci (FFEVF) produce a phenotypic range.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hemimegalencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemimegalencephaly can produce intractable focal epilepsy and has been associated with various genetic causes, including NPRL3 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "anatomic hemispherectomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He underwent anatomic hemispherectomy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "sirolimus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Given the small number of documented patients, more research is needed to elucidate the role of interventions such as sirolimus and palliative surgical procedures such as hemispherectomy.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

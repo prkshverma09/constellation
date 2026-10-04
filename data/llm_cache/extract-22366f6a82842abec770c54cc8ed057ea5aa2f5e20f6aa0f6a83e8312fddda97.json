@@ -1,0 +1,16 @@
+{
+  "pmid": "31820345",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "hub_gene_in_PPI_network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protein-protein interaction (PPI) network analysis showed that RAB5C, VAMP2, AP2M1, FNBP1, AP2A1, SYT1, SYNJ2, SYT2, HIP1R, UBB, WNT5A, SH3GL2, SYNJ1, EPN1, and DNM1 were hub genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

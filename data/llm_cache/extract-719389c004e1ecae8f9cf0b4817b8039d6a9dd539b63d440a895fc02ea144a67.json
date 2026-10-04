@@ -1,0 +1,16 @@
+{
+  "pmid": "39460693",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "without a histopathological lesion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six of 69 (9%) patients without a histopathological lesion had a pathogenic variant in SLC35A2 (n = 5) or DEPDC5 (n = 1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

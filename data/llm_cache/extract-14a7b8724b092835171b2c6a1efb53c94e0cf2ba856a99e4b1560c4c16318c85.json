@@ -1,0 +1,56 @@
+{
+  "pmid": "40405270",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the presynaptic proteins synaptosomal-associated protein 25 kDa (SNAP25) and vesicle-associated membrane protein 2 (VAMP2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "no CSF–plasma correlation for VAMP2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF and plasma SNAP25 were positively correlated, but no correlation was observed for VAMP2 in these matrices.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "increased CSF VAMP2 in AD compared to PD and OND",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF and plasma SNAP25 and CSF VAMP2 were higher in AD compared to PD and OND.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "reliability only in CSF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas VAMP2 demonstrates reliability exclusively in CSF.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "unaffected by α-synucleinopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both markers are primarily influenced by AD pathology and remain unaffected by α-synucleinopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

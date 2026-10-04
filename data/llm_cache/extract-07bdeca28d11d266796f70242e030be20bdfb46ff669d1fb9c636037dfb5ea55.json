@@ -1,0 +1,16 @@
+{
+  "pmid": "35383826",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Aβ42/Aβ40 ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we found two independent genome-wide significant associations between the Aβ42/Aβ40 ratio and WWOX and COPG2 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

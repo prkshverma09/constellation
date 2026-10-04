@@ -1,0 +1,156 @@
+{
+  "pmid": "42564024",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "early infantile developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1-related early infantile developmental and epileptic encephalopathy (DEE)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "electrographic and electroclinical seizures from the first day of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "manifested electrographic and electroclinical seizures from the first day of life",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "focal tonic seizures with apnea, bradycardia, and desaturations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal tonic seizures with apnea, bradycardia, and desaturations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later developed epileptic spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a hyperkinetic movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "striking pharmacoresistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with striking pharmacoresistance",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "multiple antiseizure medication trials were unsuccessful",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multiple antiseizure medication trials were unsuccessful.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "extensive malformations of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain magnetic resonance imaging displayed extensive malformations of cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(1916T > G,p.Phe639Cys)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDA receptor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which can be associated with NMDA receptor dysfunction.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function mutation was suspected based on phenotype correlation.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures markedly improved after initiation of memantine, an NMDA-receptor antagonist.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "vigabatrin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Memantine was complemented by the concurrent use of vigabatrin, initiated 4 days earlier due to emergence of epileptic spasms.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "NMDA-receptor antagonist therapy and vigabatrin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with gain-of-function GRIN1 mutations who present with the phenotype of DEE with extensive bilateral polymicrogyria may benefit from a trial of NMDA-receptor antagonist therapy and vigabatrin.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDA receptor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1-related disorders occur due to NMDA receptor dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

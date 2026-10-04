@@ -1,0 +1,116 @@
+{
+  "pmid": "41053028",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo mutation (c.C316G > A, p.A106T) in the human GABA type-A receptor γ2 subunit gene (GABRG2) has been recurrently identified in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Gabrg2+/A105T knock-in mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, we generated a knock-in mouse model replicating the human GABRG2(A106T) variation (Gabrg2+/A105T in mouse).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Gabrg2+/A105T mouse displays seizures and early mortality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrg2+/A105T mice displayed early mortality, spontaneous seizures, and heightened seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "impaired spatial learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including impaired spatial learning and memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "increased anxiety-like behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "as well as increased anxiety-like behavior",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "reduced γ2 subunit protein expression in hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced γ2 subunit protein expression was detected in the hippocampus of mutant mice, but not other brain regions.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "impaired synaptic GABAergic inhibition (decreased mIPSC amplitude)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electrophysiological recordings revealed a significant decrease in the amplitude of miniature inhibitory postsynaptic currents (mIPSCs), indicating impaired synaptic GABAergic inhibition.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "hippocampal neuroinflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hippocampal transcriptome profiling provided evidence of neuroinflammation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "neuronal loss and microglia activation prior to seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "histological analysis demonstrated neuronal loss and microglia activation prior to seizure onset.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "neuroinflammatory processes may exacerbate epileptogenesis in Gabrg2+/A105T mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings indicate that neuroinflammatory processes, a major theme in acquired epilepsies, may potentially exacerbate epileptogenesis in Gabrg2+/A105T mice.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "anti-inflammatory therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The knock-in mouse model serves as a potential model for evaluating anti-inflammatory therapies as adjunct treatments for drug-resistant DEEs.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

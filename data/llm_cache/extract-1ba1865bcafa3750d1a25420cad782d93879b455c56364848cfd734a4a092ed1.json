@@ -1,0 +1,26 @@
+{
+  "pmid": "30870728",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function SCN8A mutations",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers for epilepsies due to gain-of-function SCN8A mutations",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

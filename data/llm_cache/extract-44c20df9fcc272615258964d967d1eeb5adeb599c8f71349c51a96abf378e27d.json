@@ -1,0 +1,66 @@
+{
+  "pmid": "30824538",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "novel physical and functional interaction between DAT and Kv2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we describe a novel physical and functional interaction between DAT and the voltage-gated K+ channel Kv2.1 (potassium voltage-gated channel subfamily B member 1 or KCNB1).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "trafficked to membrane-bound clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv2.1 is trafficked to membrane-bound clusters observed both in vivo and in vitro in rodent dopamine neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "decrease DAT's lateral mobility and inhibit its internalization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clustered Kv2.1 channels decrease DAT's lateral mobility and inhibit its internalization,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "decreasing canonical transporter activity by altering DAT's conformational equilibrium",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while also decreasing canonical transporter activity by altering DAT's conformational equilibrium.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "Kv2.1 clusters exert a spatially discrete homeostatic braking mechanism on DAT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv2.1 clusters exert a spatially discrete homeostatic braking mechanism on DAT by inducing a relative increase in inward-facing transporters.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "alterations in the functional interaction between DAT and Kv2.1 affect dopamine neuron activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it is possible that alterations in the functional interaction between DAT and Kv2.1 affect dopamine neuron activity.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

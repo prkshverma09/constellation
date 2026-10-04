@@ -1,0 +1,66 @@
+{
+  "pmid": "38802989",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "14 comorbidities in Severe DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consensus was reached on the presence of 14 comorbidities in patients with Severe Developmental and Epileptic Encephalopathy (Severe DEE) spanning non-seizure neurological disorders and other organ systems;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "impacts mostly severe and unlikely to improve or resolve in Severe DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impacts were mostly severe and unlikely to improve or resolve.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive and sleep-related comorbidities as well as fine and gross motor delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Across Mild/Moderate Developmental and Epileptic Encephalopathy (Mild/Moderate DEE), Neurodevelopmental Delay with Generalized Epilepsy (NDDwGE), and NDD without Epilepsy (NDDwoE) phenotypes, cognitive and sleep-related comorbidities as well as fine and gross motor delays may be present but are less severe and more likely to improve compared to Severe DEE.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizures would largely resolve in SeL(F)IE phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no consensus on comorbidities in the SeL(F)IE phenotype but strong conesensus that seizures would largely resolve.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure freedom is rare in Severe DEE but may occur in some with Mild/Moderate DEE and NDDwGE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure freedom is rare in patients with Severe DEE but may occur in some with Mild/Moderate DEE and NDDwGE.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "significant comorbidities present in most phenotypes; most severe and pervasive in Severe DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significant comorbidities are present in most phenotypes of SCN8A-related disorders but are most severe and pervasive in the Severe DEE phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

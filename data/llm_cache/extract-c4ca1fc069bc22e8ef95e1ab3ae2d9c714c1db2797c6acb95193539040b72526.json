@@ -1,0 +1,96 @@
+{
+  "pmid": "30356099",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "disorder of sex differentiation (DSD), spinocerebellar ataxia (SCA), and WWOX-related epileptic encephalopathy (WOREE syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline WWOX pathogenic variants have been associated with disorder of sex differentiation (DSD), spinocerebellar ataxia (SCA), and WWOX-related epileptic encephalopathy (WOREE syndrome).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WOREE syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report clinical and molecular findings in 20 additional patients from 18 unrelated families with WOREE syndrome and biallelic pathogenic variants in the WWOX gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight novel missense pathogenic variants have been described.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most severe clinical presentation seems to be associated with null genotypes.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "absence of language development and acquisition of walking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "absence of language development and acquisition of walking",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early-onset drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset drug-resistant seizures",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ophthalmological involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ophthalmological involvement",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "a high likelihood of premature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a high likelihood of premature death",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "a severe early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline pathogenic variants in WWOX are clearly associated with a severe early-onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

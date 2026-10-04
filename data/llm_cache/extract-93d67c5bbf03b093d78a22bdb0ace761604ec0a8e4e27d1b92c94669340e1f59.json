@@ -1,0 +1,46 @@
+{
+  "pmid": "36584483",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel GABRA1 c.448G>A (p.E150K) variant",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "reduce the efficiency of GABAA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 variant could reduce the efficiency of GABAA receptors",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "predicted damaging by MutationTaster and CADD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both the GABRA1 and ERBB4 variants were predicted damaging by MutationTaster and CADD",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "additional hydrogen bonds in the mutant proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "protein structure analysis showed that the variants had resulted in the formation of additional hydrogen bonds in the mutant proteins",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

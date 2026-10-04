@@ -1,0 +1,146 @@
+{
+  "pmid": "40111503",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "87% were diagnosed with epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "61% had neurodevelopmental defects",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "32% experienced ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "eye movement problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "22% had eye movement problems",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16% suffered from migraines",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "recurrent encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "13% had recurrent encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirty percent of individuals exhibited cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "congenital onset hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "congenital onset hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "motor seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "structural and functional abnormalities in the Cav2.1 channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A variants can lead to structural and functional abnormalities in the Cav2.1 channels, resulting in paroxysmal and/or chronic clinical presentations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "disrupt calcium signaling, thereby impacting fundamental developmental processes such as neuronal differentiation, migration, and synapse formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in the CACNA1A gene disrupt calcium signaling, thereby impacting fundamental developmental processes such as neuronal differentiation, migration, and synapse formation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders characterized by intellectual disability, learning difficulties, memory challenges, and problems in social interaction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in the CACNA1A can lead to neurodevelopmental disorders characterized by intellectual disability, learning difficulties, memory challenges, and problems in social interaction.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "intrafamilial variability with differing clinical manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Instances of intrafamilial variability in CACNA1A variants have been identified, with differing clinical manifestations exhibited by affected family members.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "incomplete penetrance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Incomplete penetrance is a phenomenon that may occur, as neurodevelopmental or neuropsychiatric findings are not exhibited by some patients with CACNA1A variants.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

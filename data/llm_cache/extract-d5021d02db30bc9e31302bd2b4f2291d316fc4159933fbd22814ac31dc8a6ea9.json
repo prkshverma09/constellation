@@ -1,0 +1,26 @@
+{
+  "pmid": "41630268",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "GABRB3-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Confirmed genetic etiologies included SCN1A-related epilepsy (6.9%); GABRB3-, SCN2A-, KCNT1-, KIF1A-, and COL4A1-related epilepsies (3.4% each);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One patient with a GABRB3 variant achieved seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "28173649",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel heterozygous mutation c. G1136T (p.G379V) in KCNB1",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight cases have been reported so far worldwide and all of them were diagnosed with refractory epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe to profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe to profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "regression of cognition and motor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regression of cognition and motor activity",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "poor prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "poor prognosis",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

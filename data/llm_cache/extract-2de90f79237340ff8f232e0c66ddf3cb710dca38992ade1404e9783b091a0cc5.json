@@ -1,0 +1,126 @@
+{
+  "pmid": "35116000",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For all patients (ours and those in previous reports), the overall ERs for quinidine and KDT were 26.0 and 43.5%, respectively (P = 0.135).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KDT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For all patients (ours and those in previous reports), the overall ERs for quinidine and KDT were 26.0 and 43.5%, respectively (P = 0.135).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "all treatments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for the 30 patients at our hospital were 40, 26.7, 30, and 44.4% for all treatments, ASMs, quinidine, and KDT, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ASMs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for the 30 patients at our hospital were 40, 26.7, 30, and 44.4% for all treatments, ASMs, quinidine, and KDT, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for the 30 patients at our hospital were 40, 26.7, 30, and 44.4% for all treatments, ASMs, quinidine, and KDT, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KDT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for the 30 patients at our hospital were 40, 26.7, 30, and 44.4% for all treatments, ASMs, quinidine, and KDT, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for quinidine and KDT in functional domain variant-related epilepsy differed significantly (20.6 vs. 53.8%; P = 0.037).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KDT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ERs for quinidine and KDT in functional domain variant-related epilepsy differed significantly (20.6 vs. 53.8%; P = 0.037).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KDT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KDT may be better at treating KCNT1-related epilepsy than quinidine;",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ASMs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ASMs were the least effective.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "KDT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KDT is a viable treatment option for functional domain variant-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "efficacy rate (ER) definition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an ER that reduced the number of seizures by \u0006650% was considered positive.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "42167577",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "speech",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "speech",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "motor deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor deficits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures that can start as early as 6 weeks after birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that can start as early as 6 weeks after birth",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "caused by de novo mutations in the CDKL5 gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is caused by de novo mutations in the CDKL5 gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone (Ztalmy) for the treatment of seizures in CDD patients 2 years and older",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the FDA approved ganaxolone (Commercial name: Ztalmy) for the treatment of seizures in CDD patients 2 years and older.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "CDKL5-KO cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-KO cells, which have increased PTP1B expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "inhibition of PTP1B increases TRKB/BDNF signaling and restores cellular morphology in CDKL5-KO cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, inhibition of PTP1B in differentiating SH-SY5Y cells increased TRKB/BDNF signaling. This effect was prominent in CDKL5-KO cells, which have increased PTP1B expression. In these cells, inhibition of PTP1B not only brought BDNF signaling to levels similar to those of WT cells but also restored cellular morphology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

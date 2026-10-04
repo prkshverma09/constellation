@@ -1,0 +1,96 @@
+{
+  "pmid": "32970693",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "dual enzymatic functions: phosphorylation of 5'-end and dephosphorylation of 3'-end; involved in base excision repair, single-strand break repair and double-strand break repair through non-homologous end joining",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Polynucleotide kinase phosphatase (PNKP) is a DNA repair factor with dual enzymatic functions, i.e., phosphorylation of 5'-end and dephosphorylation of 3'-end, which are prerequisites for DNA ligation and, thus, is involved in multiple DNA repair pathways, i.e., base excision repair, single-strand break repair and double-strand break repair through non-homologous end joining.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "consists of the Forkhead-associated (FHA) domain, linker region, phosphatase domain and kinase domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP consists of the Forkhead-associated (FHA) domain, linker region, phosphatase domain and kinase domain.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "putative nuclear localization signal (NLS) of PNKP located in the linker region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, we identified a functional putative nuclear localization signal (NLS) of PNKP located in the linker region,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "K138, R139 and R141 residues are critically important for nuclear localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and showed that lysine 138 (K138), arginine 139 (R139) and arginine 141 (R141) residues therein are critically important for nuclear localization.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "FHA domain as well as the NLS is important for PNKP nuclear localization (double mutant K138A and R35A showed additive effect)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, double mutant of K138A and R35A, the latter of which mutates arginine 35, central amino acid of FHA domain, showed additive effect on nuclear localization, indicating that the FHA domain as well as the NLS is important for PNKP nuclear localization.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "two distinct mechanisms regulating nuclear localization and subnuclear distribution of PNKP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, this study revealed two distinct mechanisms regulating nuclear localization and subnuclear distribution of PNKP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly and seizure (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PNKP gene causes inherited diseases, such as microcephaly and seizure (MCSZ) by neural developmental failure and ataxia with oculomotor apraxia 4 (AOA4) and Charcot-Marie-Tooth disease 2B2 (CMT2B2) by neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia 4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PNKP gene causes inherited diseases, such as microcephaly and seizure (MCSZ) by neural developmental failure and ataxia with oculomotor apraxia 4 (AOA4) and Charcot-Marie-Tooth disease 2B2 (CMT2B2) by neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Charcot-Marie-Tooth disease 2B2 (CMT2B2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PNKP gene causes inherited diseases, such as microcephaly and seizure (MCSZ) by neural developmental failure and ataxia with oculomotor apraxia 4 (AOA4) and Charcot-Marie-Tooth disease 2B2 (CMT2B2) by neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

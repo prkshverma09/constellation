@@ -1,0 +1,26 @@
+{
+  "pmid": "28752682",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CdLS is caused by mutations within NIPBL, SMC1A, SMC3, RAD21, and HDAC8 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cohesin complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These genes codify for the \"cohesin complex\" playing a role in chromatid adhesion, DNA repair and gene expression regulation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

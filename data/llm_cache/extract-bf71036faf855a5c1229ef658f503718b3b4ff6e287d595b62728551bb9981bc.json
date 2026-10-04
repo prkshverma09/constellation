@@ -1,0 +1,36 @@
+{
+  "pmid": "23140995",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "GABR\u00032 protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gamma-aminobutyric acid A receptor, gamma 2 (GABRG2) gene encodes the GABR\u00032 protein, which has been implicated in susceptibility to epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "susceptibility to febrile seizure (FS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Meta-analysis showed a significant association between this polymorphism and susceptibility to FS in a codominant (TT vs. CC, OR 0.47, 95% CI 0.30-0.73, p=0.0008 and TT vs. CT, OR 0.59, 95% CI 0.42-0.83, p=0.003) and dominant (OR 0.54, 95% CI 0.39-0.75, p=0.0002) genetic models, influenced by two studies with small sample size.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy (IGE)",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Neither allele nor genotype association was observed with IGE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "31904120",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel NaV 1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the voltage-gated sodium channel NaV 1.2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "self-limiting epilepsies with early onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "self-limiting epilepsies with early onset",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy with early or late onset and intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathy with early or late onset and intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability or autism without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ID or autism without seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one group of affected patients carrying gain-of-function variants",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "effective treatment options for patients carrying gain-of-function variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggested effective treatment options for one group of affected patients carrying gain-of-function variants",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

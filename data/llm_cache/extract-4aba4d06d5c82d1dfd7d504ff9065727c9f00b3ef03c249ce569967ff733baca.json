@@ -1,0 +1,26 @@
+{
+  "pmid": "20495966",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several recent studies identified common genetic and molecular substrates for migraine and epilepsy, including phenotypic-genotypic correlations with mutations in the CACNA1A, ATP1A2, and SCN1A genes, as well as in syndromes due to mutations in the SLC1A3, POLG, and C10orF2 genes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several recent studies identified common genetic and molecular substrates for migraine and epilepsy, including phenotypic-genotypic correlations with mutations in the CACNA1A, ATP1A2, and SCN1A genes, as well as in syndromes due to mutations in the SLC1A3, POLG, and C10orF2 genes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

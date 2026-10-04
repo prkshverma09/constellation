@@ -1,0 +1,76 @@
+{
+  "pmid": "32954514",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed developmental delay in all",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe to profound intellectual disability in 67% (n = 41/61)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe to profound intellectual disability in 67% (n = 41/61)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features in 56% (n = 32/57)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features in 56% (n = 32/57)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "poor cognitive, psychiatric, and behavioral outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed poor cognitive, psychiatric, and behavioral outcome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "DEE with infantile onset seizures (seizure onset = 10 months, range = 10 days-3.5 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty patients (56%) had DEE with infantile onset seizures (seizure onset = 10 months, range = 10 days-3.5 years)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "DE with late onset epilepsy in 10 (seizure onset = 5 years, range = 18 months-25 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16 (33%) had DE with late onset epilepsy in 10 (seizure onset = 5 years, range = 18 months-25 years)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants were associated with more frequent and more severe epilepsy compared to truncating variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

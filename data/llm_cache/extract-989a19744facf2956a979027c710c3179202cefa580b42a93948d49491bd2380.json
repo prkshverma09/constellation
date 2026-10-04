@@ -1,0 +1,166 @@
+{
+  "pmid": "37668235",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "KAND encephalopathy / progressive neurodegenerative pathologies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A-associated-neurological-disorder (KAND) encephalopathy is a group of progressive neurodegenerative pathologies of varying severity caused by mutations in the KIF1A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "ATP-dependent anterograde transport of presynaptic vesicles through neuronal microtubules",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This gene encodes a protein of the kinesin-3 family that participates in the ATP-dependent anterograde transport of presynaptic vesicles through neuronal microtubules.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The de novo missense mutation was more frequent",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "axial hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "axial hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spastic paraparesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spastic paraparesis",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar symptoms / cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar symptoms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "urinary incontinence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "urinary incontinence",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "sensory-motor polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sensory-motor polyneuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral alteration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral alteration",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy with secondary generalization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy with secondary generalization",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "instantaneous pluricotidian supraversion oculogyric seizures without EEG correlates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "instantaneous pluricotidian supraversion oculogyric seizures without EEG correlates",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "gait delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "progressive spasticity of the lower limbs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "progressive spasticity of the lower limbs",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "involvement of the visual cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "involvement of the visual cortex",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

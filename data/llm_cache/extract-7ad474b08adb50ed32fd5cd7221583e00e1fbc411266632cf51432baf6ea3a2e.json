@@ -1,0 +1,66 @@
+{
+  "pmid": "37609289",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy 13",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathy 13",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures 5",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign familial infantile seizures 5",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment with or without cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment with or without cerebellar ataxia",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "normal development with well-controlled epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal development with well-controlled epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "significant developmental delay with treatment-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant developmental delay with treatment-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electrophysiological analysis in transfected cells revealed a loss-of-function variant in Patient 4.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

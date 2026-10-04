@@ -1,0 +1,106 @@
+{
+  "pmid": "36056801",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome (RTT) is an X-linked neurogenetic disorder caused by mutations of the MECP2 (methyl-CpG-binding protein 2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "regulation of the epigenome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regulation of the epigenome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "neuronal physiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuronal physiology",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic maintenance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptic maintenance",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "behaviour",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behaviour",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "proof of concept of its reversal in a mouse model",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "gene replacement therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene replacement therapies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "gene/RNA editing strategies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene/RNA editing strategies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "reactivation of the silenced X chromosome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reactivation of the silenced X chromosome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "gene replacement therapy with new vectors designed to control the levels of MeCP2 expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene replacement therapy with new vectors designed to control the levels of MeCP2 expression",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "26060908",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "discovering causative mutations in SCN1A, SCN1B, GABRG2, and GABRA1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

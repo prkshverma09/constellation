@@ -1,0 +1,186 @@
+{
+  "pmid": "31454984",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe cognitive disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe cognitive disabilities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset dyskinesia and hyperkinetic movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset dyskinesia and hyperkinetic movements",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stereotypies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "cerebral malformation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebral malformation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "normocephalic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "children with duplications of FOXG1 are typically normocephalic",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "normal brain magnetic resonance imaging",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have normal brain magnetic resonance imaging",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "different clinical characteristics in terms of epilepsy, movement disorders, and neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They also have different clinical characteristics in terms of epilepsy, movement disorders, and neurodevelopment compared with children with deletions or intragenic mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional factor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 is a transcriptional factor.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "expressed mainly in the telencephalon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is expressed mainly in the telencephalon",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "pleiotropic role in the development of the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "plays a pleiotropic role in the development of the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "key player in development and territorial specification of the anterior brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is a key player in development and territorial specification of the anterior brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "maintains the expansion of the neural proliferating pool",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it maintains the expansion of the neural proliferating pool",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulates the pace of neocortical neuronogenic progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regulates the pace of neocortical neuronogenic progression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "facilitates cortical layer and corpus callosum formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "facilitates cortical layer and corpus callosum formation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "promotes dendrite elongation and maintains neural plasticity, including dendritic arborization and spine densities in mature neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it promotes dendrite elongation and maintains neural plasticity, including dendritic arborization and spine densities in mature neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

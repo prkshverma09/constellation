@@ -1,0 +1,76 @@
+{
+  "pmid": "41189825",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "regulating neuronal excitability and protein synthesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Potassium channels, particularly the sodium-activated Slo2 (Slack/KCNT1) channels, play a critical role in regulating neuronal excitability and protein synthesis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "FMRP and CYFIP1 interactions; dysregulated protein translation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "molecular mechanisms involving FMRP and CYFIP1 interactions with Slack channels, implicating dysregulated protein translation as a contributor to ID.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "strong association between Slo2 channel dysfunction and the development of intellectual disability (ID)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including conditions like Fragile X syndrome and early-onset epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Fragile X syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including conditions like Fragile X syndrome and early-onset epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function mutations often associated with more severe phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dual impact of both gain- and loss-of-function KCNT mutations on cognitive function",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

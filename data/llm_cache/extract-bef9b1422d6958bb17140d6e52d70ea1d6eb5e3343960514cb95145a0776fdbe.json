@@ -1,0 +1,16 @@
+{
+  "pmid": "14684433",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A collection of 38 missense variants were identified by the informatics and resequencing approaches in several of these receptor genes, including GRIN2B, GRIN3B, GRIA2, GRIA3, and GRIK1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

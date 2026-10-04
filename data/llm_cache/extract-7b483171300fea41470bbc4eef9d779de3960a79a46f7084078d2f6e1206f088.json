@@ -1,0 +1,106 @@
+{
+  "pmid": "37536979",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "GABAA receptor subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding a GABAA receptor subunit",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "various epileptic syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "various epileptic syndromes",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRG2-related drug-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "early onset absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early onset absence epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized tonic-clonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "multiple myoclonic absences",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multiple myoclonic absences",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "learning difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "learning difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.254 T > A p.(Ile85Lys) (NM_198903.2)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "vinpocetine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After treatment with vinpocetine add-on, the patient showed a dramatic initial response, further reduction of seizures, and improvement of his cognitive functions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "vinpocetine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vinpocetine could be considered in drug-resistant epilepsies related to GABRG2",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "35718920",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "no specific phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "None of the genes described here was associated with a specific phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "more severe phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the location of variants on the transmembrane (TM) segment was associated with a more severe phenotype, irrespective of the GABAA -receptor subunit gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "milder phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas N-terminal variants seemed to be related to milder phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "highly variable phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAA -receptor subunit variants are associated with highly variable phenotypes despite their molecular and physiological proximity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "targeted therapeutics",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variant location may have important weight in the development of targeted therapeutics.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

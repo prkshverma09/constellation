@@ -1,0 +1,36 @@
+{
+  "pmid": "41131961",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay with behavioral disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia. A similar triad is observed in other monogenic conditions, such as SLC2A1, CHD2, and CACNA1A-related disorders, where acetazolamide (ACZ) has shown beneficial effects.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures, often pharmacoresistant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia. A similar triad is observed in other monogenic conditions, such as SLC2A1, CHD2, and CACNA1A-related disorders, where acetazolamide (ACZ) has shown beneficial effects.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders such as ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by developmental delay with behavioral disturbances, seizures, often pharmacoresistant, and a spectrum of movement disorders such as ataxia. A similar triad is observed in other monogenic conditions, such as SLC2A1, CHD2, and CACNA1A-related disorders, where acetazolamide (ACZ) has shown beneficial effects.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

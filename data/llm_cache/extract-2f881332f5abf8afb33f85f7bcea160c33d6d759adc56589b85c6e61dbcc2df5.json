@@ -1,0 +1,36 @@
+{
+  "pmid": "39406239",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "postsynaptic accumulation of SYNGAP1 protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increasing the postsynaptic accumulation of the SYNGAP1 protein,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "reciprocal antagonism with SRGAP2A sets tempo of synaptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the tempo of synaptogenesis is set by the reciprocal antagonism between SRGAP2A and SYNGAP1,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability/autism spectrum disorder (ID/ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the SYNGAP1 protein, encoded by a major intellectual disability/autism spectrum disorder (ID/ASD) gene.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

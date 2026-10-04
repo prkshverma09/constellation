@@ -1,0 +1,56 @@
+{
+  "pmid": "40587154",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "early-onset, mostly intractable epilepsy and severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) and SMC1A-related epilepsy are X-linked neurodevelopmental disorders characterized by early-onset, mostly intractable epilepsy and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "clusters of focal impaired awareness, myoclonic, and tonic-clonic seizures at 19 and 20 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The two girls with SMC1A mosaicism presented clusters of focal impaired awareness, myoclonic, and tonic-clonic seizures at 19 and 20 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "milder intellectual disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They demonstrated milder intellectual disabilities, with one achieving normal speech and the other speaking over 100 words by age four.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "independent walking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both achieved independent walking, which is uncommon in germline patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "same epilepsy phenotype as the germline females but have milder intellectual and motor disabilities compared to germline patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Girls with mosaic CDKL5 and SMC1A variants share the same epilepsy phenotype as the germline females but have milder intellectual and motor disabilities compared to germline patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

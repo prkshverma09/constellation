@@ -1,0 +1,96 @@
+{
+  "pmid": "31907305",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder with involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous de novo mutations in the GNAO1 gene cause neurodevelopmental disorder with involuntary movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "alpha subunit of Go, a member of the heterotrimeric Gi/o family of G proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gα o, the gene product of GNAO1, is the alpha subunit of Go, a member of the heterotrimeric Gi/o family of G proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "heterozygous knock-in Gnao1 +/R209H mutant mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We developed heterozygous knock-in Gnao1 +/R209H mutant mice using CRISPR/Cas9 methodology",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "increased locomotor activity and a modest gait abnormality at 8-12 weeks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice carrying the R209H mutation exhibited increased locomotor activity and a modest gait abnormality at 8-12 weeks.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "did not show enhanced seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the Gnao1 +/R209H mice did not show enhanced seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "protein expression levels unchanged in multiple brain regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Levels of protein expression in multiple brain regions were unchanged from wild-type (WT) mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the nucleotide exchange rate of mutant R209H Gα o was 6.2× faster than WT.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "risperidone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The atypical neuroleptic risperidone has shown efficacy in a patient with the R209H mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "risperidone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It also alleviated the hyperlocomotion phenotype observed in our mouse model but suppressed locomotion in WT mice as well.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

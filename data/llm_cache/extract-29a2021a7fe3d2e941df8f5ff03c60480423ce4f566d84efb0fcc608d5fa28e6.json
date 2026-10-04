@@ -1,0 +1,66 @@
+{
+  "pmid": "10515160",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "gabrb3 gene knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with the gabrb3 gene disrupted likewise exhibit electroencephalograph (EEG) abnormalities, seizures, and behavioral characteristics typically associated with Angelman syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "increased mortality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gene disruptions of either GAD67 or gabrg2 result in neonatal lethality, while others, GAD65, TNAP, and gabrb3 exhibit increased mortality and spontaneous seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gene disruptions of either GAD67 or gabrg2 result in neonatal lethality, while others, GAD65, TNAP, and gabrb3 exhibit increased mortality and spontaneous seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduction of GABA(A) receptor beta3 subunit results in epilepsy / GABAergic role in Angelman pathophysiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These gabrb3 gene knockout mice provide direct evidence that a reduction of a specific subunit of the GABA(A) receptor system can result in epilepsy and support a GABAergic role in the pathophysiology of Angelman syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "expression early in development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GABA(A) receptor beta3 subunit gene, gabrb3/GABRB3 (mouse/human), is of particular interest because of its expression early in development and its possible role in the neurodevelopmental disorder Angelman syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "possible role in Angelman syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GABA(A) receptor beta3 subunit gene, gabrb3/GABRB3 (mouse/human), is of particular interest because of its expression early in development and its possible role in the neurodevelopmental disorder Angelman syndrome.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

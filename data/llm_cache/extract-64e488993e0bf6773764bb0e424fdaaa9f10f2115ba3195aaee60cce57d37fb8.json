@@ -1,0 +1,36 @@
+{
+  "pmid": "11579435",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign familial neonatal convulsions by mutations in potassium channels constituting the M-current (KCNQ2, KCNQ3)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "potassium channels constituting the M-current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potassium channels constituting the M-current (KCNQ2, KCNQ3)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "retigabine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the antiepileptic drug retigabine activating neuronal KCNQ potassium channels",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

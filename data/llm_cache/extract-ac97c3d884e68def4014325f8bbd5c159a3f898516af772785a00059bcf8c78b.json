@@ -1,0 +1,16 @@
+{
+  "pmid": "26072248",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 causing autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

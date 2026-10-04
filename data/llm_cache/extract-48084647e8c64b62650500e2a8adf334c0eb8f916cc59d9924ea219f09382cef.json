@@ -1,0 +1,86 @@
+{
+  "pmid": "35997111",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency disorder (CDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is caused by pathogenic variants in the cyclin-dependent kinase-like 5 (CDKL5) gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "infantile onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile onset",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe neurodevelopmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "profound lifelong disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound lifelong disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "The CDKL5 protein is a kinase that regulates key phosphorylation events vital to the development of the complex neuronal network of the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The CDKL5 protein is a kinase that regulates key phosphorylation events vital to the development of the complex neuronal network of the brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "CDKL5 phosphorylation targets and consequence of disruptions on signaling pathways in the human brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These include CDKL5 phosphorylation targets and the consequence of disruptions on signaling pathways in the human brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants identified in patients may either result in loss of CDKL5 catalytic activity or are hypomorphic leading to partial loss of function.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

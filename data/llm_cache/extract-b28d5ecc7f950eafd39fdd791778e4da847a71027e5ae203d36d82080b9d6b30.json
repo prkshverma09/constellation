@@ -1,0 +1,16 @@
+{
+  "pmid": "35326432",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant forms of hereditary cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal dominant (AD) forms arising from de novo variants in KIF1A",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

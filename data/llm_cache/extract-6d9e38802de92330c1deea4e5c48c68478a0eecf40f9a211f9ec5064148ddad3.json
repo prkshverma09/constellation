@@ -1,0 +1,16 @@
+{
+  "pmid": "34773737",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased risk for sudden death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For individuals with pathogenic variants in genes including SCN1A, SCN1B, SCN8A, SCN2A, GNB5, KCNA1 and DEPDC5, there are varying degrees of evidence to suggest an increased risk for sudden death.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

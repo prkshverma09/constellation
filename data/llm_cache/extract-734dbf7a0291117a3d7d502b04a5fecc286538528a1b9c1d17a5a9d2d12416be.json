@@ -1,0 +1,16 @@
+{
+  "pmid": "34764278",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "VAMP2-dependent Orai1 trafficking to the plasma membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "insulin stimulates SOCE by VAMP2-dependent Orai1 trafficking to the plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

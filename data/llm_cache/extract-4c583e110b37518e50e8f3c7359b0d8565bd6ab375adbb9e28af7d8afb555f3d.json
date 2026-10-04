@@ -1,0 +1,16 @@
+{
+  "pmid": "41153369",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic/likely pathogenic variants detected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants were detected in SCN1A, KCNQ2, STXBP1, CDKL5, PCDH19, PLCB1, WWOX, SCN2A, FGF12, HCN1, SCN8A, and SLC35A2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

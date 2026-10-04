@@ -1,0 +1,156 @@
+{
+  "pmid": "37662110",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 is one of the most common monogenic causes of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and is a well-established cause of neurodevelopmental disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild to severe intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "language delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "language delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "9/13 patients had moderate to severe ID",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (prevalent)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was prevalent (11/15)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "absence, myoclonic, atonic, and tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure types such as absence, myoclonic, atonic, and tonic-clonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was refractory in 7/11",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "lamotrigine, valproate, or lamotrigine in combination with valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "four patients were seizure free with lamotrigine, valproate, or lamotrigine in combination with valproate",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "language development severely impaired",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Language development was severely impaired in five patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorders and aggressive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral disorders were reported in and mainly consisted of autism spectrum disorders and aggressive behavior",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Schizophrenia was not reported in any of the patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "phenotype consistent over time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating that the phenotype of SLC6A1-NDD is consistent over time",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "ID more severe in adult patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ID appeared to be more severe in the adult patients",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "37964487",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and Epileptic Encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in several potassium channel genes, including KCNA1 and KCNA2, cause Developmental and Epileptic Encephalopathies (DEEs).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

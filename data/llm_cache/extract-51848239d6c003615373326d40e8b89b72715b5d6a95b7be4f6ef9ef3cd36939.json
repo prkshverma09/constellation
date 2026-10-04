@@ -1,0 +1,76 @@
+{
+  "pmid": "36639812",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "increased mTORC1 signalling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "play a major role in the development of lesional and non-lesional focal epilepsy through increased mTORC1 signalling.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "lesional and non-lesional focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "play a major role in the development of lesional and non-lesional focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "cortical GABAergic receptor-mediated inhibition",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no effect of mutations on cortical GABAergic receptor-mediated inhibition",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GABA concentration",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no effect of mutations on cortical GABAergic receptor-mediated inhibition and GABA concentration",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "stronger EEG theta oscillations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stronger EEG theta oscillations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "stronger and more synchronous gamma oscillations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stronger and more synchronous gamma oscillations were observed in DEPDC5 and NPRL3 mutations carriers",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "cortical hyperexcitability mediated by increased mTORC1 signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may be reflective of a cortical hyperexcitability mediated by increased mTORC1 signaling.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

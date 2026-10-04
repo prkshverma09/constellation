@@ -1,0 +1,16 @@
+{
+  "pmid": "41510857",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant pathogenic changes were found in MECP2, ADGRV1, CACNA1H, KCNQ2, RELN, TREX1, WWOX, CACNA1, PRUNE1, CLP1, CPA7, PNKP, IFIH1, SCN8A, SCN9A, NDUFA6, UBE3A, BRPF1, CHD2, CILK1, CLCN2, EEF1A2, FLNA, GABRG2, GRIN2A, HCN1, TPP1, CLN6, FLNA, KCTD7, MTHFR, ITPA, FOXG1, KCNMA1, KCNT1",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

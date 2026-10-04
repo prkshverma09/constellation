@@ -1,0 +1,86 @@
+{
+  "pmid": "35712340",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic alterations in the WW domain-containing oxidoreductase (WWOX) gene cause autosomal recessive developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures in infants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by the onset of refractory seizures in infants",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe axial hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe axial hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "profoundly impaired psychomotor development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profoundly impaired psychomotor development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its function as a tumor suppressor gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "metabolism and endocrine systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It has also been expanded to include metabolism and endocrine systems",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "metabolic disorders and neural diseases related to brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic alterations in WWOX have been found in several metabolic disorders and neural diseases related to brain development",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the association between WWOX gene mutations and developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

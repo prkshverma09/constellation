@@ -1,0 +1,156 @@
+{
+  "pmid": "28393272",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "encodes the heterogeneous nuclear ribonucleoprotein U, which plays a crucial role in mammalian development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HNRNPU gene (OMIM *602869) encodes the heterogeneous nuclear ribonucleoprotein U, which plays a crucial role in mammalian development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "expressed in the fetal brain and adult heart, kidney, liver, brain, and cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU is expressed in the fetal brain and adult heart, kidney, liver, brain, and cerebellum.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing HNRNPU have been described in patients with intellectual disability (ID) and other clinical features, such as seizures, corpus callosum abnormalities (CCA), and microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing HNRNPU have been described in patients with intellectual disability (ID) and other clinical features, such as seizures, corpus callosum abnormalities (CCA), and microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "corpus callosum abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing HNRNPU have been described in patients with intellectual disability (ID) and other clinical features, such as seizures, corpus callosum abnormalities (CCA), and microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing HNRNPU have been described in patients with intellectual disability (ID) and other clinical features, such as seizures, corpus callosum abnormalities (CCA), and microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including three non-sense and two missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe speech impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "central nervous system abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "cardiac abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "renal abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype in individuals with variants in HNRNPU is characterized by early onset seizures (6/7), severe ID (6/6), severe speech impairment (6/6), hypotonia (6/7), and central nervous system (CNS) (5/6), cardiac (4/6), and renal abnormalities (3/4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, we broaden the clinical and mutational HNRNPU-associated spectrum, and demonstrate that heterozygous HNRNPU variants cause epilepsy, severe ID with striking speech impairment and variable CNS, cardiac, and renal anomalies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

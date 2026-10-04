@@ -1,0 +1,46 @@
+{
+  "pmid": "32789700",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variation in GAP activity toward RAGs 1 (GATOR1) complex genes (i.e., DEPDC5, NPRL2 and NPRL3) mainly result in focal epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They are associated with high rates of sudden unexpected death in epilepsy and malformations of cortical development (MCD), where \"two-hits\" in GATOR1-related pathways are also found in MCDs.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development (MCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They are associated with high rates of sudden unexpected death in epilepsy and malformations of cortical development (MCD), where \"two-hits\" in GATOR1-related pathways are also found in MCDs.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "two-hits in GATOR1-related pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They are associated with high rates of sudden unexpected death in epilepsy and malformations of cortical development (MCD), where \"two-hits\" in GATOR1-related pathways are also found in MCDs.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

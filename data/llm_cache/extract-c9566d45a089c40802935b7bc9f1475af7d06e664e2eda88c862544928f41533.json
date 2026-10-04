@@ -1,0 +1,76 @@
+{
+  "pmid": "31054119",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "treatment-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KCNT1 represent an important cause of treatment-resistant epilepsy, for which an effective therapy has been elusive.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quinidine treatment resulted in a > 50% seizure reduction in 20% of patients, with rare patients achieving transient seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "variants distal to the NADP domain within the RCK2 domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with the best quinidine response had variants that clustered distal to the NADP domain within the RCK2 domain of the protein.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multiple other therapies demonstrated some success in reducing seizure frequency, including the ketogenic diet and vigabatrin, the latter particularly in patients with epileptic spasms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "vigabatrin (particularly in patients with epileptic spasms)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multiple other therapies demonstrated some success in reducing seizure frequency, including the ketogenic diet and vigabatrin, the latter particularly in patients with epileptic spasms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine therapeutic blood levels not achieved in nearly half",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In those who did, nearly half did not achieve therapeutic blood levels.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "no quinidine trial in half of patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Half of patients did not receive a quinidine trial.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

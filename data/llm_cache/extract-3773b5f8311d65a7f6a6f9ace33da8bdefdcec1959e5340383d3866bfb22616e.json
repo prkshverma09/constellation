@@ -1,0 +1,66 @@
+{
+  "pmid": "38959712",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) is a rare developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ganaxolone, a neuroactive steroid, reduces the frequency of major motor seizures in children with CDD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "behavioural scores",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Along with better seizure control, children who received ganaxolone had improved behavioural scores in select domains compared to placebo.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Manic/Hyperactive",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After 17 weeks of treatment, Manic/Hyperactive scores (mean difference 1.27, 95%CI -2.38,-0.16) and Compulsive Behaviour scores (mean difference 0.58, 95%CI -1.14,-0.01) were lower (improved) in the ganaxolone group compared with the placebo group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Compulsive Behaviour",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After 17 weeks of treatment, Manic/Hyperactive scores (mean difference 1.27, 95%CI -2.38,-0.16) and Compulsive Behaviour scores (mean difference 0.58, 95%CI -1.14,-0.01) were lower (improved) in the ganaxolone group compared with the placebo group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "daytime sleepiness",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Daytime sleepiness scores were similar between groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

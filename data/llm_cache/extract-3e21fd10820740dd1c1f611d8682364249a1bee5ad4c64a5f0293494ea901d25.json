@@ -1,0 +1,26 @@
+{
+  "pmid": "41364313",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2 and SYT1 roles in vesicle recycling and neurotransmitter release",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2 and SYT1 roles in vesicle recycling and neurotransmitter release",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

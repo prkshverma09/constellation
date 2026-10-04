@@ -1,0 +1,86 @@
+{
+  "pmid": "33062288",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes GluN1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with developmental delay, epilepsy, and cortical malformation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with developmental delay, epilepsy, and cortical malformation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "cortical malformation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with developmental delay, epilepsy, and cortical malformation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "arthrogryposis multiplex congenita",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a case of arthrogryposis multiplex congenita with polymicrogyria and infantile encephalopathy caused by a heterozygous variant, c.1949A>C, p.(Asn650Thr) of GRIN1",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a case of arthrogryposis multiplex congenita with polymicrogyria and infantile encephalopathy caused by a heterozygous variant, c.1949A>C, p.(Asn650Thr) of GRIN1",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "infantile encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a case of arthrogryposis multiplex congenita with polymicrogyria and infantile encephalopathy caused by a heterozygous variant, c.1949A>C, p.(Asn650Thr) of GRIN1",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "disruption of the third transmembrane domain (M3) of GluN1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which could result in the disruption of the third transmembrane domain (M3) of GluN1.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

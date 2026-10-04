@@ -1,0 +1,26 @@
+{
+  "pmid": "25194487",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant nocturnal frontal lobe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ion channel subunit genes have been linked to ADNFLE (CHRNA4, CHRNA2, CHRNB2, and KCNT1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "potassium channel subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1, encoding, respectively, the α4, α2, and β2 subunits of the neuronal nicotinic acetylcholine receptor, and a potassium channel subunit",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

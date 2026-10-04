@@ -1,0 +1,26 @@
+{
+  "pmid": "36116796",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "released in a calcium- and synaptosome-associated protein of 25 kDa (SNAP25)-dependent manner.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the soluble N-ethylmaleimide-sensitive factor attachment receptor (SNARE) protein SNAP25, in mediating tau release from rodent and human synaptosomes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

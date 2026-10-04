@@ -1,0 +1,26 @@
+{
+  "pmid": "39412438",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "speech and language disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common genetic disorders retrievable in our analysis of electronic medical records were STXBP1 (n = 21), PTEN (n = 20) and CACNA1A (n = 18).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "aphasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed associations of STXBP1 and aphasia (P = 8.57 × 10-7, 95% confidence interval = 18.62-130.39)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

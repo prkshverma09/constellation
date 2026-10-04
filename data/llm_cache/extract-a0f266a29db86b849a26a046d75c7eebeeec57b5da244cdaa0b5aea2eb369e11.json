@@ -1,0 +1,36 @@
+{
+  "pmid": "37160367",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "Scn8a N1768D/+ (D/+) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We then studied Scn1a R1407X/+ (Dravet syndrome; DS) and Scn8a N1768D/+ (D/+) mice of both sexes, two models of SUDEP,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "postictal decrease in ventilation and severely depressed the HCVR",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "convulsive seizures caused a postictal decrease in ventilation and severely depressed the HCVR in a subset of animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "transient postictal hypothermia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Those mice with severe postictal depression of the HCVR also exhibited transient postictal hypothermia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

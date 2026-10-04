@@ -1,0 +1,16 @@
+{
+  "pmid": "39615799",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "direct ATM/ATR substrate and phosphorylation changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Profiles of global proteome and phosphoproteomics - both direct ATM/ATR substrates and overall phosphorylation changes - confirmed previous findings for NBN, MRE11, MDC1, CHEK1, EIF4EBP1, AP3B2, PPP2R5C, SYN1 and SLC2A1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

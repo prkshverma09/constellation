@@ -1,0 +1,16 @@
+{
+  "pmid": "23934111",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "de novo mutations in epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other genes with de novo mutations in this cohort include CACNA1A, CHD2, FLNA, GABRA1, GRIN1, GRIN2B, HNRNPU, IQSEC2, MTOR and NEDD4L.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

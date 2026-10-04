@@ -1,0 +1,96 @@
+{
+  "pmid": "40924494",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome (DS) is an early-onset epilepsy caused by loss-of-function mutations in the SCN1A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "Nav1.1 channels that preferentially regulate activity of inhibitory neurons early in development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes Nav1.1 channels that preferentially regulate activity of inhibitory neurons early in development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "loss of Scn1a impaired activity of neurons in the retrotrapezoid nucleus (RTN) that regulate breathing in response to CO2/H+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of Scn1a impaired activity of neurons in the retrotrapezoid nucleus (RTN) that regulate breathing in response to CO2/H+",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a+/- mice exhibited a blunted ventilatory response to CO2/H+ prior to overt seizure activity that worsened with disease progression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a+/- mice: blunted ventilatory response to hypoxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Later in development, some Scn1a+/- mice also showed a blunted ventilatory response to hypoxia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "severity of respiratory problems correlated with mortality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the severity of respiratory problems correlated with mortality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "pharmacological activation of Nav1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pharmacological activation of Nav1.1 rescued activity deficits of RTN neurons in Scn1a+/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "disinhibition of RTN neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of Scn1a disrupts RTN neurons by mechanisms involving disinhibition",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "disordered breathing as an early biomarker of SUDEP in DS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disordered breathing may be an early biomarker of SUDEP in DS",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

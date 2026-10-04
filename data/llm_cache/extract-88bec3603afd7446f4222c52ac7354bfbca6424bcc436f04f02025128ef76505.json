@@ -1,0 +1,16 @@
+{
+  "pmid": "38674283",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "drug response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No significant association was found between the remaining four SNPs and drug response.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

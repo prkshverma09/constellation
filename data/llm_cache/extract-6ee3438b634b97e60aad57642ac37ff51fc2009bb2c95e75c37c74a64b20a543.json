@@ -1,0 +1,36 @@
+{
+  "pmid": "30350478",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of WWOX function has recently been associated with DNA damage repair abnormalities, increased genomic instability, and resistance to chemoradiotherapy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "genomic instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The described observations place WWOX both as a target of and a contributor to genomic instability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "resistance to chemoradiotherapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resistance to chemoradiotherapy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

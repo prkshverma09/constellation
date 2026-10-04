@@ -1,0 +1,26 @@
+{
+  "pmid": "33882495",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "SLC6A1-related disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "as well as 2 less common NDDs (SLC13A5 deficiency disorder and SLC6A1-related disorder).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "AAV gene therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "as well as 2 less common NDDs (SLC13A5 deficiency disorder and SLC6A1-related disorder). We will review the available natural history of each disease and current state of preclinical studies including a discussion on the application of AAV gene therapies for each disease.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

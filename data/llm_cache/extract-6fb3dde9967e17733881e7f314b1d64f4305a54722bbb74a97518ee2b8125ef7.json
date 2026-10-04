@@ -1,0 +1,126 @@
+{
+  "pmid": "36917980",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Ras GTPase-activating protein SYNGAP1 plays a central role in synaptic plasticity,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo SYNGAP1 mutations are among the most frequent causes of autism and intellectual disability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo SYNGAP1 mutations are among the most frequent causes of autism and intellectual disability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "A3SS-NMD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we characterize an alternative 3' splice site (A3SS) of SYNGAP1 that induces nonsense-mediated mRNA decay (A3SS-NMD) in mouse and human neural development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "A3SS inclusion promoted by PTBP1/2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PTBP1/2 directly bind to and promote SYNGAP1 A3SS inclusion.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "upregulation of Syngap1 protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic deletion of the Syngap1 A3SS in mice upregulates Syngap1 protein",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 A3SS-deleted mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic deletion of the Syngap1 A3SS in mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 knockout mouse (allele)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a Syngap1 knockout allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "long-term potentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alleviates the long-term potentiation and membrane excitability deficits caused by a Syngap1 knockout allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "membrane excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alleviates the long-term potentiation and membrane excitability deficits caused by a Syngap1 knockout allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "splice-switching oligonucleotide (SSO)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a splice-switching oligonucleotide (SSO) that converts SYNGAP1 unproductive isoform to the functional form in human iPSC-derived neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "SSO to potentially alleviate SYNGAP1-associated haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "development of an SSO to potentially alleviate SYNGAP1-associated haploinsufficiency.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,166 @@
+{
+  "pmid": "42173049",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Solute carrier family 6 member 1 (SLC6A1) gene encodes gamma-aminobutyric acid transporter 1 (GAT-1), the principal synaptic gamma-aminobutyric acid (GABA) transporter.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic heterozygous loss-of-function variants of SLC6A1 cause a developmental and epileptic encephalopathy characterized by early-onset epilepsy, intellectual disability, and autistic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy affects approximately 90% of clinically identified individuals",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset between 14 months and 5 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure onset typically between 14 months and 5 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "predominant types include absence (60-72%), myoclonic-atonic (24-35%), and atonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability or developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intellectual disability or developmental delay is present in 82-100% of patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment antedating seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment antedating seizure onset in over 60% of cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Autistic features occur in 22-65%",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia in 60-71%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate remains the most consistently effective antiseizure medication, followed by lamotrigine, clobazam, and ethosuximide.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although levetiracetam is commonly used, behavioral adverse effects should be monitored.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet and acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ketogenic diet and acetazolamide represent evidence-supported adjunctive options.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-phenylbutyrate restores GAT-1 trafficking in endoplasmic reticulum -retained variants and has demonstrated seizure reduction in 80% and seizure freedom in 40% of treated patients in the largest clinical cohort.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "preclinical models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adeno-associated virus serotype 9-mediated gene replacement normalized electroencephalography abnormalities in preclinical models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "AAV9-mediated gene replacement (NCT07173153)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adeno-associated virus serotype 9-mediated gene replacement normalized electroencephalography abnormalities in preclinical models, with the first Phase I/II human trial (NCT07173153) dosing its initial patient in December 2025.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defined by a specific functional loss of GABA transport.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

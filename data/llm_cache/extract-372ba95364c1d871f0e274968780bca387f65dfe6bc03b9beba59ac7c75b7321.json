@@ -1,0 +1,86 @@
+{
+  "pmid": "31185419",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe neurological impairment and severe early-onset epilepsy without morphological characteristics of CdLS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants causing Cornelia de Lange syndrome (CdLS) produce another phenotype characterized by moderate to severe neurological impairment and severe early-onset epilepsy without morphological characteristics of CdLS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "patients are all female and have truncation mutations in SMC1A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patients are all female and have truncation mutations in SMC1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "pharmaco-resistant cluster seizures since infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pharmaco-resistant cluster seizures since infancy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a missense variant of the SMC1A gene affecting a daughter (proband) and her mother caused similar phenotypes of early-onset (2 years and 1 month of age) and late-onset (12 years of age) epilepsy, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "lacked the morphological characteristics of CdLS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both patients lacked the morphological characteristics of CdLS",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe and moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had severe and moderate intellectual disability, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "characteristic cluster seizures occurring approximately every 2-4 weeks (mean 20.2 ± 8.3 days)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The cluster seizures were characteristic, occurring approximately every 2-4 weeks (interval; mean ± SD: 20.2 ± 8.3 days) at the peak of the clinical course, especially in the proband.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, SMC1A-related encephalopathy is caused not only by truncation mutations but also by missense variants of the SMC1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

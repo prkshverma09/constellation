@@ -1,0 +1,126 @@
+{
+  "pmid": "41983441",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "pnkp -/- zebrafish",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generate a zebrafish pnkp knockout model ( pnkp -/- )",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in PNKP cause a severe neurodevelopmental disorder characterized by microcephaly, seizures, and developmental delay (MCSZ).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in PNKP cause a severe neurodevelopmental disorder characterized by microcephaly, seizures, and developmental delay (MCSZ).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in PNKP cause a severe neurodevelopmental disorder characterized by microcephaly, seizures, and developmental delay (MCSZ).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of PNKP function resulted in mitochondrial DNA damage, accompanied by disruption of mitochondrial ultrastructure and bioenergetic function, increased apoptosis, and reduced autophagic activity, collectively leading to pronounced cerebral neurodevelopmental abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "mitochondrial DNA damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mitochondrial DNA damage",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "disruption of mitochondrial ultrastructure and bioenergetic function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disruption of mitochondrial ultrastructure and bioenergetic function",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "increased apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased apoptosis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "reduced autophagic activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced autophagic activity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "down-regulation of GABA receptor-related genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptomic analysis based on RNA sequencing identified marked down-regulation of gamma-aminobutyric acid (GABA) receptor-related genes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "muscimol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pharmacological activation of GABA A receptors with muscimol partially rescued hyperactive behavior in pnkp -/- zebrafish,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "lamotrigine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified lamotrigine as a comparatively effective compound for seizure control associated with PNKP mutations.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

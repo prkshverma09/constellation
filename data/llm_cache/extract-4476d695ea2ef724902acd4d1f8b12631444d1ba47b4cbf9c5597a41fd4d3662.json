@@ -1,0 +1,106 @@
+{
+  "pmid": "23517570",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "onset of focal seizures at 2 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "onset of focal seizures at 2 months",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "prominent eye-blinking, facial and limb jerking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prominent eye-blinking, facial and limb jerking",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "oral sensory aura",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oral sensory aura",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These were controllable with medication",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "persisted into adult life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "persisted into adult life",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "mild to moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild to moderate intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "subtle cortical thickening",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI showed subtle cortical thickening",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "high signal confined to the ansiform lobule",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high signal confined to the ansiform lobule",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

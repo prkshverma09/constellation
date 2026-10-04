@@ -1,0 +1,76 @@
+{
+  "pmid": "36759195",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder (CDD) is a severe early-onset epileptic encephalopathy resulting mainly from de novo mutations in the X-linked CDKL5 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "primary hippocampal neurons generated from Cdkl5 knockout rat males",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary hippocampal neurons generated from Cdkl5 knockout rat males",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 is selectively required for efficient SV endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We showed that CDKL5 kinase activity is both necessary and sufficient for optimal SV endocytosis,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "kinase-inactive mutations failed to correct endocytosis in Cdkl5 knockout neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the isolated CDKL5 kinase domain fully restored SV endocytosis kinetics.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-mediated phosphorylation of amphiphysin 1, a putative presynaptic target, is not required for CDKL5-dependent control of SV endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

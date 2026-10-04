@@ -1,0 +1,56 @@
+{
+  "pmid": "32959907",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "components in the canonical synaptic vesicle fusion SNARE complex (VAMP2, STX1A/B, and SNAP25)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "produce variant phenotypes of autism, intellectual disability, movement disorders, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "produce variant phenotypes of autism, intellectual disability, movement disorders, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "produce variant phenotypes of autism, intellectual disability, movement disorders, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "produce variant phenotypes of autism, intellectual disability, movement disorders, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

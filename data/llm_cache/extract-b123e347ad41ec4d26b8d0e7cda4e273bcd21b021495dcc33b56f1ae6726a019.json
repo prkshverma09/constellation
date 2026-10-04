@@ -1,0 +1,16 @@
+{
+  "pmid": "41142167",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "potential biomarker in schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the genes that may prove to be potential biomarkers in SZ belong SEDT1A, FOXP2, GRIN2A, GRIA3, NRN1, BDNF, CACNA1C, and ZNF8A4.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

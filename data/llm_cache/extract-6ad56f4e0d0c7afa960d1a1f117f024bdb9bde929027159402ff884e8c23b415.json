@@ -1,0 +1,106 @@
+{
+  "pmid": "28453785",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "generates 5'-phosphate/3'-hydroxyl DNA termini",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NHEJ relies on polynucleotide kinase/phosphatase (PNKP), which generates 5΄-phosphate/3΄-hydroxyl DNA termini that are critical for ligation by the NHEJ DNA ligase, LigIV.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "requires the NHEJ scaffolding protein XRCC4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP and LigIV require the NHEJ scaffolding protein, XRCC4.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "FHA domain binds CK2-phosphorylated XRCC4 C-terminal tail",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The PNKP FHA domain binds to the CK2-phosphorylated XRCC4 C-terminal tail,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "stable binding in complex requires XRCC4 phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We show that the stable binding of PNKP in this complex requires XRCC4 phosphorylation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "one PNKP protomer binds per XRCC4 dimer",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "only one PNKP protomer binds per XRCC4 dimer.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "both the PNKP FHA and catalytic domains contact XRCC4 coiled-coil and LigIV BRCT repeats",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggests that both the PNKP FHA and catalytic domains contact the XRCC4 coiled-coil and LigIV BRCT repeats.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "protection of a surface on the PNKP phosphatase domain that may contact XRCC4-LigIV",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hydrogen-deuterium exchange indicates protection of a surface on the PNKP phosphatase domain that may contact XRCC4-LigIV.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "MCSZ",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A mutation on this surface (E326K) causes the hereditary neuro-developmental disorder, MCSZ.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "impairs PNKP recruitment to damaged DNA in human cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This mutation impairs PNKP recruitment to damaged DNA in human cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "multipoint contacts with XRCC4-LigIV regulate PNKP recruitment and activity within NHEJ",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, this work unveils multipoint contacts between PNKP and XRCC4-LigIV that regulate PNKP recruitment and activity within NHEJ.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,176 @@
+{
+  "pmid": "39406516",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "protein enriched at glutamatergic synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a protein enriched at glutamatergic synapses",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates the time course of forebrain glutamatergic synapse maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 regulates the time course of forebrain glutamatergic synapse maturation;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1, a protein enriched at glutamatergic synapses, cause intellectual disability associated with epilepsy, autism spectrum disorder, and sensory dysfunctions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1, a protein enriched at glutamatergic synapses, cause intellectual disability associated with epilepsy, autism spectrum disorder, and sensory dysfunctions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1, a protein enriched at glutamatergic synapses, cause intellectual disability associated with epilepsy, autism spectrum disorder, and sensory dysfunctions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sensory dysfunctions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1, a protein enriched at glutamatergic synapses, cause intellectual disability associated with epilepsy, autism spectrum disorder, and sensory dysfunctions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We used genetic strategies to generate Syngap1 haploinsufficiency in (1) prenatal interneurons derived from the medial ganglionic eminence, (2) in postnatal PV cells, and (3) in prenatal SST interneurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "prenatal-onset Syngap1 haploinsufficiency restricted to Nkx2.1-expressing neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with prenatal-onset Syngap1 haploinsufficiency restricted to Nkx2.1-expressing neurons show abnormal cortical oscillations and increased entrainment induced by 40 Hz auditory stimulation but lack stimulus-specific adaptation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal cortical oscillations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with prenatal-onset Syngap1 haploinsufficiency restricted to Nkx2.1-expressing neurons show abnormal cortical oscillations",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased entrainment induced by 40 Hz auditory stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased entrainment induced by 40 Hz auditory stimulation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "lack stimulus-specific adaptation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but lack stimulus-specific adaptation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "lack stimulus-specific adaptation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This latter phenotype was reproduced in mice with Syngap1 haploinsufficiency restricted to PV, but not SST, interneurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "lack stimulus-specific adaptation",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "This latter phenotype was reproduced in mice with Syngap1 haploinsufficiency restricted to PV, but not SST, interneurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired social behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prenatal-onset Syngap1 haploinsufficiency in Nkx2.1-expressing neurons led to impaired social behavior and inability to extinguish fear memories;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "inability to extinguish fear memories",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prenatal-onset Syngap1 haploinsufficiency in Nkx2.1-expressing neurons led to impaired social behavior and inability to extinguish fear memories;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired social behavior",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "however, neither postnatal PV- nor prenatal SST-specific mutant mice show these phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "inability to extinguish fear memories",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "however, neither postnatal PV- nor prenatal SST-specific mutant mice show these phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

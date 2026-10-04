@@ -1,0 +1,16 @@
+{
+  "pmid": "29390993",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intractable early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The NGS panel identified 28 patients (37.8%) with genetic abnormalities; 25 patients had pathogenic or likely pathogenic SNVs in 17 genes including SXTBP1 (n = 3), CDKL5 (n = 2), KCNQ2 (n = 2), SCN1A (n = 2), SYNGAP1 (n = 2), GNAO1 (n = 2), KCNT1 (n = 2), BRAT1, WWOX, ZEB2, CHD2, PRICKLE2, COL4A1, DNM1, SCN8A, MECP2, SLC9A6 (n = 1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

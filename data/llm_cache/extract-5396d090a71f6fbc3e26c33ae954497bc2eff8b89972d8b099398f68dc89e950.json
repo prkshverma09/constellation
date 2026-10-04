@@ -1,0 +1,26 @@
+{
+  "pmid": "29426806",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "pathognomonic electro-clinical phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathognomonic electro-clinical phenotypes such as the ones associated with KCNQ2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "precision medicine treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with KCNQ2 or KCNT1 gene mutation, when recognized early, can lead to targeted diagnostic testing and precision medicine treatment, enabling the possibility of improved outcome.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

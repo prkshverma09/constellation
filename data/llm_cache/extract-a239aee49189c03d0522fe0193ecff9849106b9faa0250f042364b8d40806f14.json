@@ -1,0 +1,16 @@
+{
+  "pmid": "25649377",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found 18 pathogenic variants in 13 XLID genes (AP1S2, ATRX, CUL4B, DLG3, IQSEC2, KDM5C, MED12, OPHN1, SLC9A6, SMC1A, UBE2A, UPF3B and ZDHHC9) among the 150 male patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

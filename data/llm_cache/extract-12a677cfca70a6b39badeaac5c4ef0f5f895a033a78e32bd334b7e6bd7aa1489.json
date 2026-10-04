@@ -1,0 +1,96 @@
+{
+  "pmid": "24098468",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "encodes GluA2 subunit of ionotropic AMPA receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gria2 gene, which encodes for the GluA2 subunit of the ionotropic glutamate, alpha-amino-3-hydroxy-5-methyl-4-isoxazole proprionic acid receptor",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "methylation of a 5' regulatory region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "kainic acid exposure for two hours to mouse hippocampal slices triggers methylation of a 5' regulatory region of the gria2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "persistent methylation of 5' region and suppression of gria2 mRNA expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Increase in methylation persists one week after removal of the drug, with concurrent suppression of gria2 mRNA expression levels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "degree of hypermethylation correlates with changes in excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The degree of kainic acid-induced hypermethylation of gria2 5' region varies between individual slices and correlates with the changes in excitability induced by kainic acid.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "hypermethylation of the 5' region in an in vivo rat model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a rat in vivo model of post kainic acid-induced epilepsy, we show similar hypermethylation of the 5' region of gria2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "seizure frequency and intensity correlate with gria2 methylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inter-individual variations in gria2 methylation, correlate with the frequency and intensity of seizures among epileptic rats.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "methylation of gria2 5' region has a regulatory role (luciferase reporter assays)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Luciferase reporter assays support a regulatory role for methylation of gria2 5' region.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "RG108 inhibition of DNA methylation blocks gria2 hypermethylation and bursting activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inhibition of DNA methylation by RG108 blocked kainic acid-induced hypermethylation of gria2 5' region in hippocampal slice cultures and bursting activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "DNA methylation mediates persistent epileptiform activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNA methylation of such genes as gria2 mediates persistent epileptiform activity and inter-individual differences in the epileptic response to neuronal insult",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

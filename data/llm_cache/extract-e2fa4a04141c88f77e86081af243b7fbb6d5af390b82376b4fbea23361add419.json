@@ -1,0 +1,86 @@
+{
+  "pmid": "37980565",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "G protein \u0003o subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1, encoding the G protein \u0003o subunit,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "transduce extracellular chemical messages to generate appropriate intracellular responses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterotrimeric G proteins transduce extracellular chemical messages to generate appropriate intracellular responses.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "G\u0003o conformation, thermostability, nucleotide binding, and hydrolysis, and interaction with G\u0003\u0003 subunits, receptors, and effectors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we report the effects of 55 mutations on G\u0003o conformation, thermostability, nucleotide binding, and hydrolysis, as well as interaction with G\u0003\u0003 subunits, receptors, and effectors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one group that sequesters receptors and another that sequesters G\u0003\u0003, both acting in a genetically dominant manner.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a pathogenic condition characterized by seizures, movement disorders, intellectual disability, and developmental delay (GNAO1 disorder).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a pathogenic condition characterized by seizures, movement disorders, intellectual disability, and developmental delay (GNAO1 disorder).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a pathogenic condition characterized by seizures, movement disorders, intellectual disability, and developmental delay (GNAO1 disorder).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a pathogenic condition characterized by seizures, movement disorders, intellectual disability, and developmental delay (GNAO1 disorder).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

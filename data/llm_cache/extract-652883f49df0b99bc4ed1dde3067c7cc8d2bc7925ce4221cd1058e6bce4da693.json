@@ -1,0 +1,16 @@
+{
+  "pmid": "40180227",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "key_gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven of which, CDKL5, GABRA1, KCNQ2, KCNQ3, SCN1A, SCN8A and STXBP1, were identified as key genes (via Venn diagram analysis).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

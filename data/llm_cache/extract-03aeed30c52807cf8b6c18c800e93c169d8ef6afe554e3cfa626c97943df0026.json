@@ -1,0 +1,16 @@
+{
+  "pmid": "41837521",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presynaptic markers (such as SNAP-25, VAMP-2, and β-synuclein)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

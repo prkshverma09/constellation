@@ -1,0 +1,96 @@
+{
+  "pmid": "30370248",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "modeling loss of WWOX expression in vivo.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "flies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several animal models including flies, fish, and rodents",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "fish",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several animal models including flies, fish, and rodents",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "rodents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several animal models including flies, fish, and rodents",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "growth retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "growth retardation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "post-natal lethality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "post-natal lethality",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "metabolic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "metabolic disorders",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "tumorigenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tumorigenesis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

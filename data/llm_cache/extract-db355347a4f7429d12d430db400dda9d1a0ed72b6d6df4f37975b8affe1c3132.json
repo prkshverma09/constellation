@@ -1,0 +1,36 @@
+{
+  "pmid": "33686256",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "expression of Nprl3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ARRB1 and ARRB2 differentially regulate the expression of nitrogen permease regulator-like 3 (Nprl3)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "microglia inflammatory responses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in the gain- and loss-of-function studies, Nprl3 mediates the functions of both ARRBs in microglia inflammatory responses.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "microglia-mediated inflammation and the pathogenesis of PD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two closely related ARRBs exert opposite functions in microglia-mediated inflammation and the pathogenesis of PD which are mediated at least in part through Nprl3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

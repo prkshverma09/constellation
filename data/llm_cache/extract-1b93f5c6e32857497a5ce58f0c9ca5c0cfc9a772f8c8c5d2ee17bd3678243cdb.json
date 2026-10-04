@@ -1,0 +1,66 @@
+{
+  "pmid": "22875091",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "PKD or ICCA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are the major cause of PKD or ICCA",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "febrile convulsions or migraine",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "PRRT2 mutations did not cosegregate with febrile convulsions or with migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "penetrance for PKD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The estimated penetrance of PRRT2 mutations was 61%, if only the PKD phenotype was considered;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "penetrance including infantile convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "however, if infantile convulsions were also taken into account, the penetrance was nearly complete.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "families analyzed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Considering our findings and those reported in literature, 23 PRRT2 mutations explain ∼56% of the families analyzed.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one novel missense mutation (p.Ser275Phe) was detected in the remaining family with ICCA;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

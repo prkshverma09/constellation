@@ -1,0 +1,26 @@
+{
+  "pmid": "41430252",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deregulation of the SNARE protein SNAP25 and increased formation of SNARE complexes pointed to reduced vesicle docking and fusion at the presynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced vesicle docking and fusion at the presynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

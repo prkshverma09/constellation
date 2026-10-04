@@ -1,0 +1,16 @@
+{
+  "pmid": "38512027",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "preventing the formation of the RAB3A-MADD-KIF1A/1Bβ complex driving anterograde SVP transport",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

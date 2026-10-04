@@ -1,0 +1,116 @@
+{
+  "pmid": "37491868",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This variant is predicted to cause a loss of function and segregated in one affected brother.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "recurrent focal motor seizures during sleep (sleep-related hypermotor epilepsy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 12-year-old girl with recurrent focal motor seizures during sleep, suggestive of sleep-related hypermotor epilepsy (SHE),",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed the predominance of focal-onset seizures (67/74-90%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "frontal and frontotemporal onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with mainly frontal and frontotemporal (32/67-47.7%), unspecified (19/67-28%), or temporal (9/67-13%) onset.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic syndromes included familial focal epilepsy with variable foci (FFEVF) (29/74-39%) and SHE (11/74-14.9%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "sleep-related hypermotor epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic syndromes included familial focal epilepsy with variable foci (FFEVF) (29/74-39%) and SHE (11/74-14.9%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "Focal cortical dysplasia type 2A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal cortical dysplasia (FCD) type 2A was the most frequent histopathological finding.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "MRI-negative cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI-negative cases are prevalent, but the association with malformations of cortical developments (MCDs) is significant, especially FCD type 2a.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical developments (MCDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI-negative cases are prevalent, but the association with malformations of cortical developments (MCDs) is significant, especially FCD type 2a.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fifteen patients out of 60 (25%) underwent epilepsy surgery, 11 of whom achieved complete seizure remission (11/15-73%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "incomplete penetrance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We reported an illustrative NPRL3-related epilepsy (NRE) family with incomplete penetrance.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

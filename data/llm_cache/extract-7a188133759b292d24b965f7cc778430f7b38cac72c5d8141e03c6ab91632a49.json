@@ -1,0 +1,36 @@
+{
+  "pmid": "31110700",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA repair in both single and double strand break repair systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Polynucleotide kinase 3'-phosphatase (PNKP) is an enzyme that is actively involved in DNA repair in both single and double strand break repair systems.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "a complex group of diseases with a broad clinical spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in this protein or others in the same pathway are responsible for a complex group of diseases with a broad clinical spectrum.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Charcot-Marie-Tooth disease and ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As models, we analyze PNKP-related disorders, focusing on Charcot-Marie-Tooth disease and ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

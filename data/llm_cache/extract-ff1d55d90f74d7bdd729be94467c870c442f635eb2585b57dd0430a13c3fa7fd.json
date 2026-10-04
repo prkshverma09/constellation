@@ -1,0 +1,116 @@
+{
+  "pmid": "41513671",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dominant negative pathogenic variants in KIF1A result in an allelically heterogeneous neurodegenerative condition",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive deficits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic nerve atrophy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spasticity",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "patient-derived glutamatergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patient-derived glutamatergic neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "dendrite neurite outgrowth length",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a cell-autonomous phenotype, dendrite neurite outgrowth length",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotide-mediated knockdown",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "antisense oligonucleotide-mediated knockdown of the pathogenic transcript rescues the dendrite neurite outgrowth phenotype in neurons from a patient with the P305L variant",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotide therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identify four common polymorphisms that, if targetable, would make it possible for 54 of these individuals to receive antisense oligonucleotide therapy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotides targeting shared common polymorphisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different pathogenic KIF1A variants in multiple patients can be knocked down by targeting shared common polymorphisms with antisense oligonucleotides",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

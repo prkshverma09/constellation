@@ -1,0 +1,126 @@
+{
+  "pmid": "42704317",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "synaptogenesis and downstream synapse maintenance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Long-distance trafficking by the microtubule motor KIF1A is crucial for synaptogenesis and downstream synapse maintenance.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "isogenic gene-edited human-induced pluripotent stem cell -derived neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "isogenic gene-edited human-induced pluripotent stem cell -derived neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Null (p.C92*) and hypoactive (p.P305L) mutations delay neurite outgrowth, mislocalize synaptic cargoes, and decrease synapse density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Null (p.C92*) and hypoactive (p.P305L) mutations delay neurite outgrowth, mislocalize synaptic cargoes, and decrease synapse density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Conversely, a hyperactive (p.R350G) mutation supports neurite outgrowth but causes aberrant motility of synaptic vesicle precursors and deficits in microtubule-dependent presynaptic patterning.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "delay neurite outgrowth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delay neurite outgrowth",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "mislocalize synaptic cargoes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mislocalize synaptic cargoes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "decrease synapse density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decrease synapse density",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "aberrant motility of synaptic vesicle precursors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "aberrant motility of synaptic vesicle precursors",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "deficits in microtubule-dependent presynaptic patterning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deficits in microtubule-dependent presynaptic patterning",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "delayed synaptic maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed synaptic maturation in loss-of-function mutations (p.P305L, p.C92*)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "precocious activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "precocious activity in the hyperactive p.R350G mutation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

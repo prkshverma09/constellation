@@ -1,0 +1,16 @@
+{
+  "pmid": "33074286",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of 25 known loci associated with Alzheimer disease in non-Hispanic White individuals, only APOE, ABCA7, TREM2, BIN1, CD2AP, FERMT2, and WWOX were implicated at a nominal significance level or stronger in African American individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

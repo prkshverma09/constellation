@@ -1,0 +1,56 @@
+{
+  "pmid": "37974179",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic loss-of-function variants in WWOX cause WWOX-related epileptic encephalopathy (WOREE syndrome), which has been reported in 60 affected individuals to date.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early-onset refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset refractory seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "global neurodevelopmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global neurodevelopmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "died at the age of two and a half years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "died at the age of two and a half years.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "critical role in neural development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "support the critical role of the WWOX gene in neural development.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

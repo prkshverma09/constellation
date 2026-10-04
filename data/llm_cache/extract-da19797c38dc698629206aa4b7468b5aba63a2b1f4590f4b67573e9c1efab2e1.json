@@ -1,0 +1,136 @@
+{
+  "pmid": "40228184",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental and epilepsy phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A-related disorders encompass a range of neurodevelopmental and epilepsy phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic-clonic seizures as early as at 1 year",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with SCN8A-related disorders (mean age = 8.3 years, 52% female) had >10-fold odds of bilateral tonic-clonic seizures as early as at 1 year (p = 1.70 × 10-14, OR 10.56, CI 5.85-18.90).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals carrying gain-of-function (GOF) SCN8A variants had particularly high seizure risk at 6 months (p = 0.007/pthreshold = 4.25 × 10-4, OR 4.71, CI 1.36-21.25)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "increased risk of global developmental delay as early as at 3 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and an increased risk of global developmental delay as early as at 3 months (p = 0.002/pthreshold = 4.72 × 10-5, OR 5.67, CI 1.74-20.23)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with loss-of-function variants were more likely to have atypical absence seizures, most prominently at 4.25 years (p = 0.013/pthreshold = 7.08 × 10-4, OR 32.71, CI 1.44-2,193.51).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "atypical absence seizures, most prominently at 4.25 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with loss-of-function variants were more likely to have atypical absence seizures, most prominently at 4.25 years (p = 0.013/pthreshold = 7.08 × 10-4, OR 32.71, CI 1.44-2,193.51).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms at 6 months (recurrent p.Arg850Gln variant)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "individuals with the recurrent p.Arg850Gln variant were more likely to have infantile spasms at 6 months",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neonatal seizures (variants at the p.Arg1872Trp/Gln/Leu hotspot)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with variants at the p.Arg1872Trp/Gln/Leu hotspot were more likely to have neonatal seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "active epilepsy after 5 years of age (recurrent p.Gly1475Arg variant)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with the recurrent p.Gly1475Arg variant were more likely to have active epilepsy after 5 years of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures more prominent in later childhood (recurrent p.Arg1617Gln variant)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In later childhood, focal seizures were more prominent in individuals with the recurrent p.Arg1617Gln variant",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "generalized-onset seizures more prominent (p.Asn1877Ser variant)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while generalized-onset seizures were more prominent with the p.Asn1877Ser variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also established the effectiveness of sodium channel blockers in managing SCN8A epilepsy in individuals carrying GOF variants and those whose variants have not been functionally characterized,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that many unstudied SCN8A variants may have GOF mechanisms.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

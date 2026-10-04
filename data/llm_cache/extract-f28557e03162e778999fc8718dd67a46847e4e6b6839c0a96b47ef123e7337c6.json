@@ -1,0 +1,106 @@
+{
+  "pmid": "36207442",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "KCNB1 null mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuronal migration of glutamatergic neurons was impaired in the neocortices of KCNB1 null mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "migratory defects; disrupted morphology; disrupted synaptic connectivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Migratory defects persisted into the adult brains, along with disrupted morphology and synaptic connectivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "seizure phenotype; anxiety; compulsive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice developed seizure phenotype, anxiety, and compulsive behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "Knock In (KI) mice harboring the gene variant Kcnb1R312H (R312H mice)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we constructed Knock In (KI) mice, harboring the gene variant Kcnb1R312H (R312H mice) found in children with developmental and epileptic encephalopathies (DEEs).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs) (variant found in children)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gene variant Kcnb1R312H (R312H mice) found in children with developmental and epileptic encephalopathies (DEEs)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "R312H mice exhibit a phenotype similar to KCNB1 null mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The R312H mice exhibited a similar phenotype to the null mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "complexes with integrins α5β5 (IKCs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wild type (WT) and R312H KCNB1 channels made complexes with integrins α5β5 (Integrin_K+ channel_Complexes, IKCs)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "impaired IKC biochemical signaling in R312H brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whose biochemical signaling was impaired in R312H brains.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "Treatment with Angiotensin II in vitro corrected the neuronal abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with Angiotensin II in vitro, an agonist of Focal Adhesion kinase, a key component of IKC signaling machinery, corrected the neuronal abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "mutation induces neuromorphological abnormalities through non-conducting mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a genetic mutation in a K+ channel induces severe neuromorphological abnormalities through non-conducting mechanisms",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

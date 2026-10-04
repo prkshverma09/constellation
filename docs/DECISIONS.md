@@ -2,7 +2,7 @@
 
 Generated from the source responses on 2026-10-04.
 
-- Honest-gap disease: `FRRS1L` / `MONDO:0014859`. Live PubMed hits: 11; ClinicalTrials.gov records: 0; verified foundation links: 0.
+- Honest-gap disease: `FRRS1L` / `MONDO:0014859`. Live PubMed hits: 11; ClinicalTrials.gov records: 0; verified foundation links: 1.
 - Gap detector fired: No neighbour meets both S ≥ 0.45 and M ≥ 0.25 in the indexed cluster.; No reusable asset or investigator bridge is mapped to this cluster..
 - Similarity layers: source-derived Monarch semantic-similarity results, lowest-level specific Reactome pathway sets, specific GO biological-process terms, filtered STRING mechanism scores, and literature-derived variant-class labels. No gene-name exceptions are used in the analytics.
 - STRING mechanism uses `1 - (1-escore)*(1-dscore)`; text-mining is excluded because co-mention can inflate mechanism evidence. STRING supports M only when this score is at least 0.7; every channel score is retained in edge properties.
@@ -13,3 +13,8 @@ Generated from the source responses on 2026-10-04.
 - Golden expectation revised: DNM1 removed from required members after evidence review (experimental GO / Reactome / physical STRING show no specific shared mechanism; DNM1 acts at vesicle endocytosis, the cluster core at SNARE exocytosis); it is surfaced as a partial overlap instead.
 - Monarch pairwise scores use `/v3/api/semsim/multicompare` for the in-slice phenotype sets. `/v3/api/semsim/search` caps responses at 50 and omitted DNM1 from STXBP1's result set; multicompare provides a complete slice matrix without changing the weights.
 - Animal-model assets were omitted unless a source-validated MGI allele record and live URL could be verified.
+- Live literature extraction uses `CONSTELLATION_EXTRACT_MODEL` (default `gpt-5-mini`), the `extraction-schema-v2` prompt/cache key, exact-abstract quote validation, and cache-only reads during the build.
+- Patient-organization discovery uses `gpt-5` with `web_search` and `discover-v1`. A discovered page is accepted only after redirect-following HTML validation, HTTP 200, a whole-word gene-symbol check, snippet verification or a page-text quote, and registrable-domain deduplication against curated seeds. At most four gene requests run concurrently, with a 120-second timeout; failures are logged and skipped. `web_discovered` evidence is added after analytics and does not affect mechanism support.
+- Live dossiers use `CONSTELLATION_AGENT_MODEL` (default `gpt-5`) and `writer-v1`. The writer receives at most 400 compact evidence rows; post-validation drops out-of-pack citations and unsupported numeric claims, and empty sections fall back to the offline draft. Successful output is cached by disease, persona, comparator, snapshot, model, and prompt version.
+- OpenAI cost estimates use API-reported input/output token counts for extraction, discovery, and live dossiers, plus the applicable web-search request charge; cached results add no new model-call cost. The per-run estimate is recorded after live operations complete.
+- This partial run used 2,587,398/5,878,107 extraction input/output tokens, 1,206,625/134,860 discovery tokens for 18 of 40 genes, and 770,570/65,888 dossier tokens. At standard `gpt-5-mini` and `gpt-5` rates, plus an assumed one web-search call per queried gene, estimated spend was about $17.06; cached-input discounts are excluded.

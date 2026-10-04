@@ -1,0 +1,86 @@
+{
+  "pmid": "37606181",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "mouse model with cell-type specific Depdc5 deletion (excitatory or inhibitory neurons)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5 was specifically deleted in excitatory or inhibitory neurons in the mouse brain to determine neuronal subtypes that drive epileptogenesis and SUDEP.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Depdc5 deletion in excitatory neurons (cortical layer 5 and dentate gyrus) causes frequent generalized tonic-clonic seizures and SUDEP in young adult mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5 deletion in excitatory neurons in cortical layer 5 and dentate gyrus caused frequent generalized tonic-clonic seizures and SUDEP in young adult mice, but Depdc5 deletion in cortical interneurons did not.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Depdc5 deletion in cortical interneurons does not cause the same seizures/SUDEP phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but Depdc5 deletion in cortical interneurons did not.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "EEG suppression immediately following ictal offset observed in seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG suppression immediately following ictal offset was observed in fatal and non-fatal seizures,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "loss of low amplitude rhythmic theta frequency activity occurs only in fatal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "low amplitude rhythmic theta frequency activity was lost only in fatal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "baseline respiratory dysfunction prior to SUDEP in Depdc5-deficient mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these mice developed baseline respiratory dysfunction prior to SUDEP,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ictal apnea occurs long before terminal cardiac asystole",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ictal apnea occurred long before terminal cardiac asystole.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "Ictal apnea and respiratory dysregulation contribute causally to SUDEP pathophysiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ictal apnea and respiratory dysregulation play critical roles in SUDEP.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

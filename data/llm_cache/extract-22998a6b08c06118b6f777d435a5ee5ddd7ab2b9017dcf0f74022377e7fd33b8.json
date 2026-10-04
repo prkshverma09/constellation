@@ -1,0 +1,116 @@
+{
+  "pmid": "23275378",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation in aging and 3xTg-AD mouse brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 (formerly Kv2.1), a voltage-gated K(+) channel abundantly expressed in the cortex and hippocampus, is oxidized in the brains of aging mice and of the triple transgenic 3xTg-AD mouse model of Alzheimer's disease.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation enhances apoptosis in mammalian cell lines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 oxidation acts to enhance apoptosis in mammalian cell lines",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas a KCNB1 variant resistant to oxidative modification, C73A-KCNB1, is cytoprotective.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidized KCNB1 channels form oligomers held together by disulfide bridges involving Cys-73",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oxidized KCNB1 channels, which form oligomers held together by disulfide bridges involving Cys-73, accumulated in the plasma membrane as a result of defective endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidized KCNB1 channels accumulated in the plasma membrane due to defective endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oxidized KCNB1 channels, which form oligomers held together by disulfide bridges involving Cys-73, accumulated in the plasma membrane as a result of defective endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "C73A-mutant channels do not oligomerize and are normally internalized",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, C73A-mutant channels, which do not oligomerize, were normally internalized.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "localize in lipid rafts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 channels localize in lipid rafts",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "internalization is dynamin 2-dependent",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "their internalization was dynamin 2-dependent.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "cholesterol supplementation reduces apoptosis promoted by KCNB1 oxidation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Accordingly, cholesterol supplementation reduced apoptosis promoted by oxidation of KCNB1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "accumulation of KCNB1 oligomers disrupts planar lipid raft integrity and causes apoptosis via activating the c-Src/JNK signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, these data suggest that the accumulation of KCNB1 oligomers in the membrane disrupts planar lipid raft integrity and causes apoptosis via activating the c-Src/JNK signaling pathway.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "inhibition of c-Src and JNK suppresses the pro-apoptotic effect of KCNB1 oxidation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inhibition of raft-associating c-Src tyrosine kinase and downstream JNK kinase by pharmacological and molecular means suppressed the pro-apoptotic effect of KCNB1 oxidation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

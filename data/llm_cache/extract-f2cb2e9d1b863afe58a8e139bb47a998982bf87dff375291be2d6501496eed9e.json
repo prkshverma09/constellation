@@ -1,0 +1,16 @@
+{
+  "pmid": "35305402",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "reflex seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we describe individuals presenting reflex seizures as predominant epileptic events in whom we identified pathogenic and likely pathogenic variants in CACNA1A, GNAO1, and NOVA2 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

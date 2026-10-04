@@ -1,0 +1,96 @@
+{
+  "pmid": "23224214",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe progressive polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consisting of severe progressive polyneuropathy, severe progressive cerebellar atrophy, microcephaly, mild epilepsy, and intellectual disability. The cause of this rare syndrome was found to be a homozygous mutation (c.1250_1266dup, resulting in a frameshift p.Thr424GlyfsX48) in PNKP,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe progressive cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consisting of severe progressive polyneuropathy, severe progressive cerebellar atrophy, microcephaly, mild epilepsy, and intellectual disability. The cause of this rare syndrome was found to be a homozygous mutation (c.1250_1266dup, resulting in a frameshift p.Thr424GlyfsX48) in PNKP,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consisting of severe progressive polyneuropathy, severe progressive cerebellar atrophy, microcephaly, mild epilepsy, and intellectual disability. The cause of this rare syndrome was found to be a homozygous mutation (c.1250_1266dup, resulting in a frameshift p.Thr424GlyfsX48) in PNKP,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "mild epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consisting of severe progressive polyneuropathy, severe progressive cerebellar atrophy, microcephaly, mild epilepsy, and intellectual disability. The cause of this rare syndrome was found to be a homozygous mutation (c.1250_1266dup, resulting in a frameshift p.Thr424GlyfsX48) in PNKP,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consisting of severe progressive polyneuropathy, severe progressive cerebellar atrophy, microcephaly, mild epilepsy, and intellectual disability. The cause of this rare syndrome was found to be a homozygous mutation (c.1250_1266dup, resulting in a frameshift p.Thr424GlyfsX48) in PNKP,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "dual-function enzyme with a key role in different pathways of DNA damage repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP is a dual-function enzyme with a key role in different pathways of DNA damage repair.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "skin fibroblasts from affected individuals showing increased susceptibility to apoptosis under stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In skin fibroblasts from both affected individuals, we show increased susceptibility to apoptosis under stress conditions and reduced PNKP expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced PNKP expression.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "interaction with DNA repair proteins involved in polyneuropathy and cerebellar degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP is known to interact with DNA repair proteins involved in the onset of polyneuropathy and cerebellar degeneration;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

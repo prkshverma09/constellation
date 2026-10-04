@@ -1,0 +1,36 @@
+{
+  "pmid": "27470939",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "processing of modified strand-break termini",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide kinase/phosphatase (PNKP) each act on a discrete set of modified strand-break termini.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly with seizures (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PNKP are considered to be responsible for Microcephaly with seizures (MCSZ) and Ataxia-ocular motor apraxia 4 (AOA4).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Ataxia-ocular motor apraxia 4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PNKP are considered to be responsible for Microcephaly with seizures (MCSZ) and Ataxia-ocular motor apraxia 4 (AOA4).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "31061747",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia type 4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ataxia with oculomotor apraxia type 4 (AOA4) is a rare autosomal recessive, PNKP -related disorder delineated in 2015 in Portugal.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "AOA4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We diagnosed AOA4 by next generation sequencing (NGS) followed by Sanger's sequencing in three boys from two unrelated Belarusian families.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Distinction in two brothers was microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly, seizures, and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP -related \"microcephaly, seizures, and developmental delay\"",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

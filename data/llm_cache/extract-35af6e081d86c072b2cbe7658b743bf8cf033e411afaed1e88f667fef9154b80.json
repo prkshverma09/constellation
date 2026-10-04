@@ -1,0 +1,216 @@
+{
+  "pmid": "34102571",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia (EA2), spinocerebellar ataxia (SCA6), and familial hemiplegic migraine (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A pathogenic mutations are involved in various neurological phenotypes including episodic ataxia (EA2), spinocerebellar ataxia (SCA6), and familial hemiplegic migraine (FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two variants known leading to gain of function (GOF) were found in 5 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five other patients had non-sense variants leading to loss of function (LOF).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were most often revealed by either status epilepticus (SE) (n = 8), eventually triggered by fever (n = 5), or absences/behavioural arrests (n = 7).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures triggered by fever",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were most often revealed by either status epilepticus (SE) (n = 8), eventually triggered by fever (n = 5), or absences/behavioural arrests (n = 7).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "absences/behavioural arrests",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were most often revealed by either status epilepticus (SE) (n = 8), eventually triggered by fever (n = 5), or absences/behavioural arrests (n = 7).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "recurrent hemiplegic accesses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-epileptic paroxysmal events were frequent and consisted in recurrent hemiplegic accesses (n = 9), jitteriness in the neonatal period (n = 6), and ocular paroxysmal events (n = 9).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "jitteriness in the neonatal period",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-epileptic paroxysmal events were frequent and consisted in recurrent hemiplegic accesses (n = 9), jitteriness in the neonatal period (n = 6), and ocular paroxysmal events (n = 9).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "ocular paroxysmal events",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-epileptic paroxysmal events were frequent and consisted in recurrent hemiplegic accesses (n = 9), jitteriness in the neonatal period (n = 6), and ocular paroxysmal events (n = 9).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "early permanent cerebellar dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the patients had early permanent cerebellar dysfunction (n = 16) and early moderate to severe global developmental delay (GDD)/intellectual deficiency (ID) (n = 17).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "early moderate to severe global developmental delay (GDD)/intellectual deficiency (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the patients had early permanent cerebellar dysfunction (n = 16) and early moderate to severe global developmental delay (GDD)/intellectual deficiency (ID) (n = 17).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI was often abnormal, with cerebellar (n = 8) and/or cerebral (n = 6) atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebral atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI was often abnormal, with cerebellar (n = 8) and/or cerebral (n = 6) atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "stroke-like episodes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stroke-like occurred in 2 cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "topiramate, levetiracetam, lamotrigine and valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Some antiepileptic drugs including topiramate, levetiracetam, lamotrigine and valproate were effective on seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "Acetazolamide and calcium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Acetazolamide and calcium channel blockers were often effective when used.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than half of the patients had refractory epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first one, found in all 5 patients with GOF variants, is characterized by intractable seizures, early and recurrent SE and hemiplegic accesses.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "early and recurrent status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first one, found in all 5 patients with GOF variants, is characterized by intractable seizures, early and recurrent SE and hemiplegic accesses.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic accesses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first one, found in all 5 patients with GOF variants, is characterized by intractable seizures, early and recurrent SE and hemiplegic accesses.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "refractory early onset absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The second, less severe, found in 5 patients with LOF variants, is characterized by refractory early onset absence seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

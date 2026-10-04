@@ -1,0 +1,166 @@
+{
+  "pmid": "38562838",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "SYNGAP1-related intellectual disability (SRID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of SYNGAP1 directly causes a genetically identifiable neurodevelopmental disorder (NDD) called SYNGAP1-related intellectual disability (SRID).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmentally delayed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, individuals are developmentally delayed and have prominent features of intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, individuals are developmentally delayed and have prominent features of intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, individuals are developmentally delayed and have prominent features of intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, individuals are developmentally delayed and have prominent features of intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "rodent models with a loss of Syngap1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several rodent models with a loss of Syngap1 have been engineered identifying precise roles in neuronal structure and function, as well as key biochemical pathways key for synapse integrity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous loss of SYNGAP1/Syngap1 is lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "broad range of behavioral phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of Syngap1 result in a broad range of behavioral phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "robust hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our in vivo functional data, using the original mouse model from the Huganir laboratory, corroborated behaviors including robust hyperactivity and deficits in learning and memory in young adults.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "deficits in learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our in vivo functional data, using the original mouse model from the Huganir laboratory, corroborated behaviors including robust hyperactivity and deficits in learning and memory in young adults.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impairments in the domain of sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, we described impairments in the domain of sleep, characterized using neurophysiological data collected with wireless, telemetric electroencephalography (EEG).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated spiking events and spike trains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1+/- mice exhibited elevated spiking events and spike trains, in addition to elevated power, most notably in the delta power frequency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated delta power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1+/- mice exhibited elevated spiking events and spike trains, in addition to elevated power, most notably in the delta power frequency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased network firing activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For the first time, we illustrated primary neurons from Syngap1+/- mice displayed increased network firing activity, greater bursts, and shorter inter-burst intervals between peaks by employing high density microelectrode arrays (HD-MEA).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "greater bursts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For the first time, we illustrated primary neurons from Syngap1+/- mice displayed increased network firing activity, greater bursts, and shorter inter-burst intervals between peaks by employing high density microelectrode arrays (HD-MEA).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "shorter inter-burst intervals between peaks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For the first time, we illustrated primary neurons from Syngap1+/- mice displayed increased network firing activity, greater bursts, and shorter inter-burst intervals between peaks by employing high density microelectrode arrays (HD-MEA).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

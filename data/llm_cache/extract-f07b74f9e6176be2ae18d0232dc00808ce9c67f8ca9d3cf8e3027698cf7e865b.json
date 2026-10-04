@@ -1,0 +1,66 @@
+{
+  "pmid": "33445475",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "progressive dementia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we present two emerging cases of progressive dementia with co-existing serum autoantibodies against the KCNA2 (potassium voltage-gated channel subfamily A member 2) subunit.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "memory impairment (delayed recall)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found various cognitive deficits with dominant impairments in the memory domain, particularly in delayed recall.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "neuropsychiatric symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cognitive impairments coincided with additional neuropsychiatric symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "potential paraneoplastic background",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both had a potential paraneoplastic background according to their medical history and diagnostic results.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "intracellular epitope",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Current evidence indicates an intracellular rather than extracellular epitope.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "causal link between antibodies and cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The pathogenetic role of KCNA2 antibodies in cognitive impairment is not well delineated; clinical presentations are heterogeneous, and thus a causal link between antibodies remains questionable.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

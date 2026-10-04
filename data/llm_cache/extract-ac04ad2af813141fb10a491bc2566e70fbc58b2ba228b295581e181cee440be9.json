@@ -1,0 +1,16 @@
+{
+  "pmid": "40746153",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "response to AED",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our reassessment indicated seven single nucleotide polymorphisms (SNPs) of four genes-ABCB1 (rs1045642, rs2032582), ABCC2 (rs717620, rs3740066), GABRG2 (rs211037) and SCN1A (rs2298771, rs10167228)-which could be regarded as potential determinants of response to AED.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

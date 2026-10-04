@@ -1,0 +1,126 @@
+{
+  "pmid": "29394901",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients suffering from FOXG1-related disorders exhibit severe anxiety, sleep disturbance and choroid plexus cysts",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients suffering from FOXG1-related disorders exhibit severe anxiety, sleep disturbance and choroid plexus cysts",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "choroid plexus cysts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients suffering from FOXG1-related disorders exhibit severe anxiety, sleep disturbance and choroid plexus cysts",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "critical for the development of the telencephalon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 is critical for the development of the telencephalon",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "expression in the developing epithalamus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified the specific expression of Foxg1 in the developing epithalamus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "habenula expansion in Foxg1 self-deletion mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the habenula significantly expanded",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "increased number of habenular subtype neurons in Foxg1 self-deletion mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "included an increased number of habenular subtype neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "impaired habenular innervations (habenular commissure) in Foxg1 mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The innervations, particularly the habenular commissure, were severely impaired.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "reduced pineal gland in Foxg1 mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the Foxg1 mutants exhibited a reduced pineal gland",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "more branched choroid plexus in Foxg1 mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more branched choroid plexus",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "no obvious changes in Shh and Fgf signalling after Foxg1 ablation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After ablation of Foxg1 no obvious changes in Shh and Fgf signalling were observed",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulates development of the epithalamus without involvement of Shh and Fgfs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that Foxg1 regulates the development of the epithalamus without the involvement of Shh and Fgfs.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

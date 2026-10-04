@@ -1,0 +1,106 @@
+{
+  "pmid": "40229422",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by infantile epilepsy and movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by infantile epilepsy and movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GNAO1 gene encodes the Gαo protein that is involved in neuronal signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gαo-G203R lost its ability to enhance forskolin-stimulated cAMP synthesis in HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gαo-G203R had a dominant-negative effect on neuronal activity and GABAB-dependent synaptic release.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gαo-G203R had a dominant-negative effect on neuronal activity and GABAB-dependent synaptic release.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "short hairpin RNA (sh1500) suppressed the c.607G>A transcripts, increasing the ratio of wild-type to mutant GNAO1 transcripts in patient-specific neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sh1500) that suppressed the c.607G>A transcripts, resulting in a 3.8-fold increase in the ratio of wild-type to mutant GNAO1 transcripts in patient-specific neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "AAV construct using an artificial miRNA (miR1500) and the neuron-specific hSyn promoter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We improved the AAV construct by using an artificial miRNA (miR1500) and the neuron-specific hSyn promoter.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1-GGA mice with a \"humanized\" target sequence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gnao1-GGA mice with a \"humanized\" target sequence.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "AAV9 transduced Gαo-positive neurons in the striatum, thalamus, substantia nigra, and cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AAV9 transduced Gαo-positive neurons in the striatum, thalamus, substantia nigra, and cerebellum",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "32931186",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two mutations, c.545A>T (p.Asn182Ile and c.2638C>A (p.Leu880Met) were reported here as a novel mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole exome sequencing revealed mutations in KCN2 gene, which is a member of Potassium channels (KCN) gene family associated with epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy 57",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the computational analysis showed their effect on protein binding site and function suggesting their role in the development of early infantile epileptic encephalopathy 57.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "33746883",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "main cause of an expanding spectrum of disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the PRRT2 (proline-rich transmembrane protein 2) gene have been identified as the main cause of an expanding spectrum of disorders,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal kinesigenic dyskinesia",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign familial infantile epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemiplegic migraine",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "complex neurodevelopmental disorders in cases with biallelic mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "complex neurodevelopmental disorders in cases with biallelic mutations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synapse functioning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent evidence implicates PRRT2 in synapse functioning",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "channel hypothesis",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "which disproves the \"channel hypothesis\"",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "modulates ion channels at the presynaptic level",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 modulates ion channels at the presynaptic level",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synaptopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "justifies the classification of these conditions as synaptopathies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

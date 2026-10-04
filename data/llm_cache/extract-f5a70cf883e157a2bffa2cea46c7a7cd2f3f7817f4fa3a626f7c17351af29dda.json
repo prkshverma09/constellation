@@ -1,0 +1,56 @@
+{
+  "pmid": "37898760",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "promising biomarker of AD-related synapse degeneration in cerebrospinal fluid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Vesicle-associated membrane protein 2 (VAMP-2) has emerged as a promising biomarker of AD-related synapse degeneration in cerebrospinal fluid (CSF).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "VAMP-2 changes in CSF reflect AD biomarkers and cognitive performance across multiple domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our novel digital immunoassay accurately measures VAMP-2 changes in CSF, which reflect AD biomarkers and cognitive performance across multiple domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF concentrations of VAMP-2 were lower in preclinical AD stage 1 compared to controls and higher at later AD stages compared to AD stage 1; associated with core AD biomarkers, particularly total tau",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF concentrations of VAMP-2, neurogranin and SNAP-25 were lower in preclinical AD stage 1 compared to controls and higher at later AD stages compared to AD stage 1 and were associated with core AD biomarkers, particularly total tau (adj. r2 = 0.62 to 0.78, p < 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "associated with all cognitive domains in individuals on the AD continuum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All three synaptic proteins were associated with all cognitive domains in individuals on the AD continuum (adj. r2 = 0.04 to 0.19, p < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "native VAMP-2 protein detected in human brain homogenates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Assay antibodies detected native VAMP-2 protein in human brain homogenates.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

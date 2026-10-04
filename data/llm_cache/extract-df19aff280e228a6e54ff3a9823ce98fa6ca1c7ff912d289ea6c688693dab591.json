@@ -1,0 +1,16 @@
+{
+  "pmid": "20351042",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "studies in the mouse suggest that SCN8A may also contribute to seizure disorders.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

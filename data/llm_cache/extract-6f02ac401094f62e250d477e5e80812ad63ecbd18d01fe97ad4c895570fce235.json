@@ -1,0 +1,26 @@
+{
+  "pmid": "38840272",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "congenital cataract",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A phenotype-specific variant clustering was observed in four genes (KIF1A, MAF, PAX6, SPTAN1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "congenital cataract",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variable expressivity and potential phenotypic expansion in two (BCOR, NHS) and five genes (CWC27, KIF1A, IFIH1, PAX6, SPTAN1), respectively.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

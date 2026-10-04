@@ -1,0 +1,36 @@
+{
+  "pmid": "41235743",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) is a rare developmental and epileptic encephalopathy (DEE) associated with multiple impairments and comorbidities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "multiple impairments and comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) is a rare developmental and epileptic encephalopathy (DEE) associated with multiple impairments and comorbidities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "motor and communication measures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor and communication measures were the most important weighted contributors to the global severity score",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

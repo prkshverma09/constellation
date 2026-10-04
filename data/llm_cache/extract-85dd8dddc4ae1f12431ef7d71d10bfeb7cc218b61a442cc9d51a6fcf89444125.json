@@ -1,0 +1,66 @@
+{
+  "pmid": "31512327",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "electrically-active α-subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(a) electrically-active Kcnb1 α-subunits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "transmembrane domains form the electric pore and regulate electrical activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a role that is performed by transmembrane protein domains of α-subunits that form the electric pore.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic studies revealed a role for this region of α-subunits of voltage-gated potassium channels in human neurodevelopmental disorders, such as epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "animal model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subsequent animal studies revealed the developmental functions of Kcnb1-containing voltage-gated potassium channels and illustrated their role during brain development and reproduction.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "regulation of electrically-active subunits by silent/modulatory α- and β-subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "silent or modulatory α-subunits plus β-subunits that, similar to silent α-subunits, also regulate electrically-active subunits.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "N- and C-terminal domains interact to form cytoplasmic subunit of heterotetrameric channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The N- and C-terminal domains of α-subunits interact to form the cytoplasmic subunit of heterotetrameric potassium channels that regulate electric pores.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "29324989",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "loss of protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significant loss of SNAP47, GAP43, SYBU (syntabulin), LRFN2, SV2C, SYT2 (synaptotagmin 2), GRIA3 and GRIA4 were further validated on a larger cohort comprised of 92 brain samples using ELISA or western blot.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment before death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cognitive impairment before death and rate of cognitive decline significantly correlated with loss of SNAP47, SYBU, LRFN2, SV2C and GRIA3 proteins.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "rate of cognitive decline",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cognitive impairment before death and rate of cognitive decline significantly correlated with loss of SNAP47, SYBU, LRFN2, SV2C and GRIA3 proteins.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

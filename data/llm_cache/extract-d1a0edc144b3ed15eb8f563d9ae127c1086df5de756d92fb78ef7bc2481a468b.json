@@ -1,0 +1,116 @@
+{
+  "pmid": "38510274",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "DEE type 57 (MIM# 617771)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Researchers have identified variations in the KCNT2 gene (OMIM* 610044) as the cause of DEE type 57 (MIM# 617771).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel heterozygous variant in the KCNT2 gene (NM_198503: c.188G>A, p.Arg63His)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset epilepsy, intellectual disability, hypertrichosis, coarse facial features, and short stature.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset epilepsy, intellectual disability, hypertrichosis, coarse facial features, and short stature.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "hypertrichosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset epilepsy, intellectual disability, hypertrichosis, coarse facial features, and short stature.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "coarse facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset epilepsy, intellectual disability, hypertrichosis, coarse facial features, and short stature.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "short stature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with early-onset epilepsy, intellectual disability, hypertrichosis, coarse facial features, and short stature.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy and intellectual disability/developmental delay occur in almost all patients with KCNT2 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability/developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy and intellectual disability/developmental delay occur in almost all patients with KCNT2 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "hypertrichosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2-relevant DEEs partially overlap with the clinical phenotypes of KATP channel diseases, particularly in hypertrichosis and distinctive coarse facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "distinctive coarse facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2-relevant DEEs partially overlap with the clinical phenotypes of KATP channel diseases, particularly in hypertrichosis and distinctive coarse facial features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

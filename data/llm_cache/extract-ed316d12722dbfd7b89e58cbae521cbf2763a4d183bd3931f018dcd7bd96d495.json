@@ -1,0 +1,136 @@
+{
+  "pmid": "35148845",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in Forkhead box G1 (FOXG1), a uniquely brain-expressed gene, cause microcephaly, seizures, and severe intellectual disability,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in Forkhead box G1 (FOXG1), a uniquely brain-expressed gene, cause microcephaly, seizures, and severe intellectual disability,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in Forkhead box G1 (FOXG1), a uniquely brain-expressed gene, cause microcephaly, seizures, and severe intellectual disability,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "glioblastoma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased FOXG1 expression is frequently observed in glioblastoma.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "cells from three clinically diagnosed cases with two sex-matched healthy parents and one unrelated sex-matched control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we modeled FOXG1 syndrome using cells from three clinically diagnosed cases with two sex-matched healthy parents and one unrelated sex-matched control.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "reduction in cell proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cells with heterozygous FOXG1 loss showed significant reduction in cell proliferation,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "increased ratio of cells in G0/G1 stage of the cell cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased ratio of cells in G0/G1 stage of the cell cycle",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "increased frequency of primary cilia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased frequency of primary cilia.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "engineered loss recapitulates cellular effects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Engineered loss of FOXG1 recapitulated this effect,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "isogenic repair reverts output markers to wild type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "isogenic repair of a patient mutation reverted output markers to wild type.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "dose-dependent effect on cell proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 dose-dependently affects all cell proliferation outputs measured.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "control of human brain cell growth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings provide strong support for the critical importance of FOXG1 levels in controlling human brain cell growth in health and disease.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in Forkhead box G1 (FOXG1), a uniquely brain-expressed gene, cause microcephaly, seizures, and severe intellectual disability,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

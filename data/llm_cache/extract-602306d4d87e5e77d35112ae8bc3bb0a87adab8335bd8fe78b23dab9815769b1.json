@@ -1,0 +1,16 @@
+{
+  "pmid": "23622176",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early onset seizure variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in cyclin-dependent kinase like 5 (CDKL5) and FoxG1 genes have been identified in the early onset seizure and the congenital variants respectively.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

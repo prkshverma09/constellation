@@ -1,0 +1,16 @@
+{
+  "pmid": "40613333",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "expressed differently in DLB and FTD than AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CXCL1 (fractalkine), synaptosomal-associated protein 25 (SNAP25), triggering receptor expressed on myeloid cells 1 (TREM1), β-synuclein, and tyrosine kinase (TEK) are expressed differently in DLB and FTD than AD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "40956015",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia (PKD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The PRRT2 gene is the first identified causative gene and accounts for the majority of PKD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "aberrant splicing (exon skipping and intron retention)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional assays showed that 11 PRRT2 variants, including missense and intronic variants, caused aberrant splicing events, such as exon skipping and intron retention.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "minigene system in HEK293T cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a minigene system carrying these variants was constructed and introduced into HEK293T cells for functional assays to assess the pathogenicity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants comprised 10 intronic variants, two synonymous variants, one deletion, and one missense variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "PKD or other PRRT2-related disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five patients with PRRT2 variants previously classified as variants of uncertain significance can now be genetically diagnosed with PKD or other PRRT2-related disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "affect normal splicing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In silico predictions suggested that all variants, except for one deep intronic variant, had the potential to affect normal splicing.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

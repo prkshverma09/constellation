@@ -1,0 +1,16 @@
+{
+  "pmid": "38965081",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Parents of children with DEEs of SCN1A, KCNQ2, CDKL5, PCDH19, and GNAO1 variants were included.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

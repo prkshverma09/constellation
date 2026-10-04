@@ -1,0 +1,16 @@
+{
+  "pmid": "24092288",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal combined dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal (PNKD [DYT8], PRRT2 [DYT10], and SLC2A1 [DYT18]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

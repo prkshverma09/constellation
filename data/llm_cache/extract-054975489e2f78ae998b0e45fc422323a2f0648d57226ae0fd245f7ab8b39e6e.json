@@ -1,0 +1,96 @@
+{
+  "pmid": "29310447",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Ser14 phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is Ser14 phosphorylated.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "IκBα/WWOX/ERK signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "involves a newly identified IκBα/WWOX/ERK signaling, in which WWOX is Ser14 phosphorylated.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "pS14-WWOX enhances cancer progression and metastasis and facilitates neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additional evidence also reveals that pS14-WWOX is involved in enhancing cancer progression and metastasis and facilitating neurodegeneration.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "human newborns deficient in WWOX do not spontaneously develop tumors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human newborns deficient in WWOX do not spontaneously develop tumors.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Tyr33 phosphorylation (pY33) activation in normal tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Activated WWOX with Tyr33 phosphorylation is present in normal tissues and organs.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "pY33-WWOX induces apoptosis to eliminate damaged cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "when pY33-WWOX is overly induced under stress conditions, it becomes apoptotic to eliminate damaged cells.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "Zfra",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Suppression of pS14-WWOX by Zfra reduces cancer growth and mitigates Alzheimer's disease progression, suggesting that pS14-WWOX facilitates disease progression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "pS14-WWOX as a marker of disease progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pS14-WWOX can be regarded as a marker of disease progression.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "upregulated in cancer lesions and in Alzheimer's disease hippocampus and cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, WWOX with Ser14 phosphorylation is upregulated in the lesions of cancer, as well as in the brain hippocampus and cortex with Alzheimer's disease.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

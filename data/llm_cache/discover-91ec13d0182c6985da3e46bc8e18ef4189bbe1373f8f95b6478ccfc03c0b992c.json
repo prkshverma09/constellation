@@ -1,0 +1,44 @@
+{
+  "symbol": "KCNQ2",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:22:35.211850+00:00",
+  "usage": {
+    "input_tokens": 59730,
+    "output_tokens": 8669
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "KCNQ2 Cure Alliance",
+        "url": "https://www.kcnq2cure.org/faq/",
+        "kind": "foundation",
+        "snippet": "KCNQ2 is diagnosed through genetic testing."
+      },
+      {
+        "name": "Jack Pribaz Foundation (KCNQ2.org)",
+        "url": "https://kcnq2.org/what-is-our-mission/",
+        "kind": "foundation",
+        "snippet": "The mission of The Jack Pribaz Foundation is to raise awareness and fund research of the KCNQ2 gene."
+      },
+      {
+        "name": "RIKEE Project (Rational Intervention for KCNQ2/3 Epileptic Encephalopathy)",
+        "url": "https://www.rikee.org/",
+        "kind": "registry",
+        "snippet": "This site is intended for families, researchers, and healthcare professionals interested in learning more about KCNQ2 and KCNQ3."
+      },
+      {
+        "name": "KCNQ2 e.V. (Germany)",
+        "url": "https://kcnq2.de/en/society/about-the-association/",
+        "kind": "foundation",
+        "snippet": "Our association is passionately committed to raising awareness of the rare genetic defect KCNQ2."
+      },
+      {
+        "name": "European KCNQ2 Association (E.K.A.)",
+        "url": "https://www.europeankcnq2association.com/copia-di-chi-siamo",
+        "kind": "foundation",
+        "snippet": "Le convulsioni sono uno dei tratti distintivi di KCNQ2."
+      }
+    ]
+  }
+}

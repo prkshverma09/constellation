@@ -1,0 +1,16 @@
+{
+  "pmid": "42160907",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "critical node in neurotoxicity-associated network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nine hub genes (Gria1, Gria2, Gria4, Grik1, Grik2, Grin1, Grin2a, Grin2b, and Grin2c) were identified as critical nodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

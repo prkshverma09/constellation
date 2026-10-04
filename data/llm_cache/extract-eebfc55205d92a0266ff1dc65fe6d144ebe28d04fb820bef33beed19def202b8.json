@@ -1,0 +1,16 @@
+{
+  "pmid": "38540325",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasms syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While not exhaustive, some of the most commonly reported genetic aetiologies include trisomy 21 and pathogenic variants in genes such as TSC1, TSC2, CDKL5, ARX, KCNQ2, STXBP1 and SCN2A.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

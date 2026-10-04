@@ -1,0 +1,36 @@
+{
+  "pmid": "34440367",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "glutamatergic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the glutamatergic GRIN2B gene variants",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "inattention/hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GLM results enlightened the relation between GRIN2B rs5796555-/A, volume in the left cingulate isthmus and inferior parietal cortices and inattention/hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "volume in the left isthmus of the cingulate cortex mediates rs5796555-/A effect on inattention/hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mediation results showed that rs5796555-/A effect on inattention/hyperactivity was partially mediated by volume in the left isthmus of the cingulate cortex,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

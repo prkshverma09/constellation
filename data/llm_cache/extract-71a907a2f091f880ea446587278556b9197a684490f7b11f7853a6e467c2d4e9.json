@@ -1,0 +1,76 @@
+{
+  "pmid": "24101679",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign (familial) infantile convulsions (B(F)IC)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign (familial) infantile convulsions (B(F)IC)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions with choreoathetosis (ICCA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile convulsions with choreoathetosis (ICCA)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal dyskinesias (PDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal dyskinesias (PDs)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures (FS)",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "PRRT2 mutations do not seem to be involved in the aetiology of FS or infantile epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "PRRT2 mutations do not seem to be involved in the aetiology of FS or infantile epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "learning disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several mutation carriers had learning disabilities and/or impaired fine motor skills later in life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "impaired fine motor skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several mutation carriers had learning disabilities and/or impaired fine motor skills later in life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

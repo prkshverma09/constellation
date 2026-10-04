@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useQueries } from "@tanstack/react-query";
+import { useQueries, useQuery, useQueryClient } from "@tanstack/react-query";
+import { useSearchParams } from "next/navigation";
 import { api, type Dossier as DossierType, type Persona } from "@/lib/api";
 import { Sentence } from "./Shared";
 
@@ -13,6 +14,12 @@ function citedRows(data: DossierType) {
 }
 export function Dossier({ data, persona }: { data: DossierType; persona: Persona }) {
   const [copied, setCopied] = useState(false);
+  const [regenerating, setRegenerating] = useState(false);
+  const [regenerateError, setRegenerateError] = useState(false);
+  const search = useSearchParams();
+  const queryClient = useQueryClient();
+  const health = useQuery({ queryKey: ["health"], queryFn: api.health });
+  const vs = search.get("vs") ?? undefined;
   const edgeIds = useMemo(() => citedRows(data), [data]);
   const numberByEdge = useMemo(() => new Map(edgeIds.map((id, index) => [id, index + 1])), [edgeIds]);
   const edgeQueries = useQueries({ queries: edgeIds.map((id) => ({ queryKey: ["edge", id], queryFn: () => api.edge(id) })) });
@@ -23,6 +30,22 @@ export function Dossier({ data, persona }: { data: DossierType; persona: Persona
     const url = URL.createObjectURL(new Blob([data.markdown], { type: "text/markdown;charset=utf-8" }));
     const anchor = document.createElement("a"); anchor.href = url; anchor.download = "constellation-shared-path-dossier.md"; anchor.click(); URL.revokeObjectURL(url);
   };
+  const regenerate = async () => {
+    setRegenerating(true);
+    setRegenerateError(false);
+    try {
+      const result = await api.dossier(data.disease_id, persona, vs, true);
+      queryClient.setQueryData(["dossier", data.disease_id, persona, vs], result);
+    } catch {
+      setRegenerateError(true);
+    } finally {
+      setRegenerating(false);
+    }
+  };
+  const generatedMode = data.mode === "live" || data.mode === "cached-llm";
+  const modeLabel = generatedMode
+    ? `${(data.model ?? "gpt-5").toUpperCase()} · generated ${new Date(data.generated_at).toLocaleDateString()}`
+    : data.mode === "offline-fallback" ? "offline writer · live fallback" : "offline writer";
   return <article className="dossier-page">
     <div className="dossier-controls no-print"><button className="button secondary" onClick={print}>Export PDF</button>
       <button className="button secondary" onClick={() => void copy()}>Copy Markdown</button>
@@ -31,8 +54,15 @@ export function Dossier({ data, persona }: { data: DossierType; persona: Persona
     </div>
     <header className="dossier-header"><h1>Shared Path Dossier</h1>
       <p className="dossier-disease">{data.disease_id === "MONDO:0012812" ? "developmental and epileptic encephalopathy 4" : "developmental and epileptic encephalopathy 37"}</p>
-      <div className="dossier-meta"><span>Persona: {persona}</span><span>Mode: {data.mode}</span><span>Snapshot: {data.snapshot_hash}</span><span>Trace: {data.trace_id}</span><span>Generated: {new Date(data.generated_at).toLocaleDateString()}</span></div>
+      <div className="dossier-meta"><span>Persona: {persona}</span><span>{modeLabel}</span><span>Snapshot: {data.snapshot_hash}</span><span>Trace: {data.trace_id}</span></div>
     </header>
+    {health.data?.llm_available && <div className="dossier-controls no-print">
+      <button className="button primary" type="button" onClick={() => void regenerate()} disabled={regenerating}>
+        {regenerating ? "Regenerating…" : "Regenerate with GPT-5"}
+      </button>
+      {regenerating && <span role="status">Navigator → Skeptic → Writer</span>}
+      {regenerateError && <span role="alert">Live generation failed; the current dossier is unchanged.</span>}
+    </div>}
     {data.dropped_sentences > 0 && <div className="notice calm dropped-notice">{data.dropped_sentences} sentences removed for lack of evidence.</div>}
     {data.gap_plan ? <section className="section-block gap-plan">
       <h2>What would change this</h2><ul>{data.gap_plan.reasons.map((reason) => <li key={reason}>{reason}</li>)}</ul>

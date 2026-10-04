@@ -1,0 +1,86 @@
+{
+  "pmid": "38749701",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of this subunit causes epilepsy in both mice and humans.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "α2δ-2 knock-out (CACNA2D2 KO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2 knock-out (CACNA2D2 KO) mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "no difference in basal activity of granule cells between genotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both genotypes demonstrated similarly sparse c-fos and ΔFosB expressions within the hippocampal dentate granule cell layer (GCL) at baseline, consistent with no difference in basal activity of granule cells between genotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "fewer c-fos-positive cells but dramatically increased ΔFosB expression in the dentate gyrus compared with WT mice after handling-associated convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surprisingly, when mice were assayed 1 h after handling-associated convulsions, KO mice had fewer c-fos-positive cells but dramatically increased ΔFosB expression in the dentate gyrus compared with WT mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increased c-fos expression in dentate after subthreshold pentylenetetrazol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After administration of a subthreshold pentylenetetrazol dose, however, KO mice dentate had significantly more c-fos expression compared with WT mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "other histopathological markers of TLE were similar between WT and KO mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other histopathological markers of TLE in these mice, including markers of neurogenesis, glial activation, and mossy fiber sprouting, were similar between WT and KO mice,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "small but statistically significant increase in hilar mossy cell density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "apart from a small but statistically significant increase in hilar mossy cell density, opposite to what is typically found in mice with TLE.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "altered functional properties of the network without associated structural changes in the hippocampus at the typical age of seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the differences in seizure-associated dentate gyrus function in the absence of α2δ-2 protein are likely due to altered functional properties of the network without associated structural changes in the hippocampus at the typical age of seizure onset.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

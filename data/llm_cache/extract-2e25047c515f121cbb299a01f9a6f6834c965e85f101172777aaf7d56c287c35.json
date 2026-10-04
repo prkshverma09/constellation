@@ -1,0 +1,96 @@
+{
+  "pmid": "17925011",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "Kv1.2, the alpha subunit of a Shaker-like voltage-dependent potassium channel with high expression in the mammalian thalamocortical system.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcna2 codes for Kv1.2, the alpha subunit of a Shaker-like voltage-dependent potassium channel with high expression in the mammalian thalamocortical system.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "Kcna2 knockout (KO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we studied sleep in Kcna2 knockout (KO) mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KO pups die by P28 due to generalized seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "significantly less non-rapid eye movement (NREM) sleep (-23%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KO pups have significantly less non-rapid eye movement (NREM) sleep (-23%)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "significantly more waking (+21%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and significantly more waking (+21%) than HZ and WT siblings",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "no change in rapid eye movement (REM) sleep time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with no change in rapid eye movement (REM) sleep time.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "decrease in NREM sleep is due to an increase in the number of waking episodes, with no change in number or duration of sleep episodes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The decrease in NREM sleep is due to an increase in the number of waking episodes, with no change in number or duration of sleep episodes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "seizures are either absent or very rare at P17 (< 1% of the 24-h recording time)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At P17 seizures are either absent or very rare in KO pups (< 1% of the 24-h recording time)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "regulates neuronal excitability and affects NREM sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv1.2, a mammalian homologue of Shaker, regulates neuronal excitability and affects NREM sleep.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

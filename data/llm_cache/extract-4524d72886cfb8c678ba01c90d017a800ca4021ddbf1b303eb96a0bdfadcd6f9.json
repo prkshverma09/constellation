@@ -1,0 +1,26 @@
+{
+  "pmid": "33222163",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic vesicle fusion is mediated by SNARE proteins-VAMP2 on the vesicle and Syntaxin-1/SNAP25 on the presynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intermediate 'template' complex containing Syntaxin-1 and VAMP2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

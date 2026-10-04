@@ -1,0 +1,36 @@
+{
+  "pmid": "26486474",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The de novo variant, a missense variant (c.296C>T, p.(T99M)), affecting the motor domain of KIF1A was considered the pathogenic mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "PEHO syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results indicate that the molecular basis for PEHO syndrome, in at least a subset of patients, is a dominant KIF1A variant affecting the motor domain of the protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "PEHO syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variable expressivity is seen with recurrent variants causing the full phenotype of PEHO syndrome in some patients and in other patients, a partial or milder PEHO phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

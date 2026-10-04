@@ -1,0 +1,146 @@
+{
+  "pmid": "31665840",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "clustering of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clustering of seizures as found in all patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizures occurred in 47 patients (78%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized tonic-clonic seizures (GTCS) occurred in 30 patients (50%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "sensitivity to fever",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sensitivity to fever was observed in 47 out of them (78%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal discharges on EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal discharges were monitored in 22 cases (22/45, 49%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset between 4 and 42 months (median 11 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset occurred between 4 and 42 months of age (median: 11 months of age).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "varied degrees of intelligence disability were present in 38 cases (63%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "language delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "language delay in 36 cases (60%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "gait instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait instability in 10 cases (17%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Autistic features occurred in 17 cases (28%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "sodium valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The efficiency of antiepileptic drugs were 65% (33/51) in sodium valproate",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "63% (27/43) in levetiracetam",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "topiramate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "59% (20/34) in topiramate",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven patients (12%) had attacks of status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

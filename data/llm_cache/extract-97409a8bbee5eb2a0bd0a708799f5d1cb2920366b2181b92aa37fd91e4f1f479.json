@@ -1,0 +1,16 @@
+{
+  "pmid": "34145886",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 (8/95, 8.4%), which is associated with benign familial infantile epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

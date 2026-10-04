@@ -1,0 +1,16 @@
+{
+  "pmid": "36931189",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy with/without focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the GATOR1 complex genes (DEPDC5, NPRL2, NPRL3) with focal epilepsy with/without focal cortical dysplasia who underwent epilepsy surgery",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

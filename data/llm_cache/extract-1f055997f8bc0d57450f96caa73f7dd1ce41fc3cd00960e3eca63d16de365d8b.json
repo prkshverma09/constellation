@@ -1,0 +1,146 @@
+{
+  "pmid": "27367160",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "assembled into αβγ2 receptors (major GABAA receptor isoforms)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its encoded γ2 subunit is assembled into αβγ2 receptors, which are the major GABAA receptor isoforms in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "critical role in GABAA receptor trafficking and clustering at synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The γ2 subunits have a critical role in GABAA receptor trafficking and clustering at synapses.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "oligomerize in the endoplasmic reticulum with α and β subunits to assemble pentameric receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They reside inside the endoplasmic reticulum after synthesis, where they oligomerize with other binding partners, such as α and β subunits, and further assemble into pentameric receptors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "correctly assembled receptors traffic to the cell surface and conduct chloride ion current when activated by GABA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only correctly assembled receptors can traffic beyond the endoplasmic reticulum and reach the cell surface and synapses, where they conduct chloride ion current when activated by GABA.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "simple febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRG2 have been associated with simple febrile seizures and with genetic epilepsy syndromes, including childhood absence epilepsy, generalized epilepsy with febrile seizures plus, and Dravet syndrome or severe myoclonic epilepsy in infancy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRG2 have been associated with simple febrile seizures and with genetic epilepsy syndromes, including childhood absence epilepsy, generalized epilepsy with febrile seizures plus, and Dravet syndrome or severe myoclonic epilepsy in infancy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRG2 have been associated with simple febrile seizures and with genetic epilepsy syndromes, including childhood absence epilepsy, generalized epilepsy with febrile seizures plus, and Dravet syndrome or severe myoclonic epilepsy in infancy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (severe myoclonic epilepsy in infancy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRG2 have been associated with simple febrile seizures and with genetic epilepsy syndromes, including childhood absence epilepsy, generalized epilepsy with febrile seizures plus, and Dravet syndrome or severe myoclonic epilepsy in infancy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mutations include missense, nonsense, and frameshift mutations, as well as splice-site and deletion mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All of these mutations reduced channel function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dominant negative suppression of partnering subunits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "mutant subunit aggregation causing cell stress and cell death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutant subunit aggregation causing cell stress and cell death",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "nonsense-mediated mRNA decay and endoplasmic reticulum-associated protein degradation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nonsense-mediated messenger RNA decay, endoplasmic reticulum-associated protein degradation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "gating defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gating defects",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

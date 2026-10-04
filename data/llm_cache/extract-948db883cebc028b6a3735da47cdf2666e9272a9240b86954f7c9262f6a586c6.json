@@ -1,0 +1,126 @@
+{
+  "pmid": "36592223",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "Ca2+ channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ca2+ channel gene CACNA1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "variable paroxysmal manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variable paroxysmal manifestations",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "chronic cerebellar dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chronic cerebellar dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine with hemiplegic aura",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "migraine with hemiplegic aura",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal non-epileptic movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal non-epileptic movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental phenotypes in early-onset cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental phenotypes in early-onset cases",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "neurobehavioural disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurobehavioural disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "chronic cerebellar ataxia in older children and adults",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chronic cerebellar ataxia in older children and adults",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "age-dependent phenotypic spectrum in CACNA1A disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age-dependent phenotypic spectrum in CACNA1A disease",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "different therapy options available for paroxysmal symptoms in CACNA1A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different therapy options available for paroxysmal symptoms in CACNA1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

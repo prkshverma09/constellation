@@ -1,0 +1,46 @@
+{
+  "pmid": "36417806",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "female mice heterozygous for Cdkl5 mutations (mouse model)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures are specific to female mice heterozygous for Cdkl5 mutations and not observed in hemizygous knockout males or homozygous knockout females.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients developed seizures irrespective of their genetic status of the pathogenic variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "feeding, respiratory, and visual functional impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cellular mosaicism of CDKL5 deficiency was associated with lesser severity of other comorbidities such as feeding, respiratory, and visual functional impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental consequences arising directly from the effect of the CDKL5 pathogenic variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDD patients not only exhibited clinical features of epilepsy but also exhibited the developmental consequences arising directly from the effect of the CDKL5 pathogenic variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "SLC6A1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:29:40.910418+00:00",
+  "usage": {
+    "input_tokens": 45573,
+    "output_tokens": 5834
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "SLC6A1 Connect",
+        "url": "https://slc6a1connect.org/",
+        "kind": "foundation",
+        "snippet": "SLC6A1 Connect funds innovative gene therapy and translational research focused on understanding SLC6A1 and developing effective treatments."
+      },
+      {
+        "name": "Simons Searchlight",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/slc6a1/",
+        "kind": "registry",
+        "snippet": "Help the Simons Searchlight team learn more about SLC6A1 genetic changes by taking part in our research."
+      },
+      {
+        "name": "SLC6A1-Portal",
+        "url": "https://slc6a1-portal.lalresearchgroup.org/",
+        "kind": "research_network",
+        "snippet": "SLC6A1-related disorders are a group of genetic disorders characterized by disease-causing variants in the SLC6A1 gene."
+      },
+      {
+        "name": "Association SLC6A1 France",
+        "url": "https://slc6a1france.org/",
+        "kind": "foundation",
+        "snippet": "Face au syndrome SLC6A1, aucune famille ne doit rester seule."
+      },
+      {
+        "name": "Arthur’s Quest (UK)",
+        "url": "https://slc6a1connectuk-aq.org/",
+        "kind": "foundation",
+        "snippet": "In 2018 our wonderful, happy little boy Arthur was diagnosed with SLC6A1, a rare debilitating neurological condition that currently has no cure."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "38409505",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "rat GRIA2 flip-Q isoform structure at 2.3-2.6 Å resolution",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we investigated putative ion and water densities in the open pore of Ca2+-permeable AMPARs (rat GRIA2 flip-Q isoform) at 2.3-2.6 Å resolution.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "extracellular Ca2+ binding site (site-G) forms when channel gate opens",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We show that the ion permeation pathway attains an extracellular Ca2+ binding site (site-G) when the channel gate moves into the open configuration.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "site-G is selective for Ca2+ over Na+ and favors Ca2+ movement into the selectivity filter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Site-G is highly selective for Ca2+ over Na+, favoring the movement of Ca2+ into the selectivity filter of the pore.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "promotes channel opening",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attenuates Ca2+ binding and thus diminishes Ca2+ permeability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "site-G coordinates with the Q/R site to ensure preferential Ca2+ transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "site-G, which coordinates with the Q/R site of the selectivity filter to ensure the preferential transport of Ca2+ through the channel pore.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

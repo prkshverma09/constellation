@@ -1,0 +1,66 @@
+{
+  "pmid": "25728773",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The integration of data from these analyses led to the identification of the same homozygous PNKP (polynucleotide kinase 3'-phosphatase) mutation, c.1123G>T (p.Gly375Trp), in three of the studied families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA-damage repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP is a dual-function enzyme with a key role in different pathways of DNA-damage repair.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in this gene have previously been associated with an autosomal-recessive syndrome characterized by microcephaly;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset, intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in this gene have previously been associated with an autosomal-recessive syndrome characterized by microcephaly; early-onset, intractable seizures;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in this gene have previously been associated with an autosomal-recessive syndrome characterized by microcephaly; early-onset, intractable seizures; and developmental delay (MCSZ).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "recessive ataxia with oculomotor apraxia (AOA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The finding of PNKP mutations associated with recessive AOA extends the phenotype associated with this gene and identifies a fourth locus that causes AOA.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

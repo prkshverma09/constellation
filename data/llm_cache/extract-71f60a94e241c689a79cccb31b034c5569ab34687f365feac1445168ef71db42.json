@@ -1,0 +1,16 @@
+{
+  "pmid": "38160579",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "temporal lobe epilepsy and syndromes of idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rs211037 of GABRG2, rs1130183 of KCNJ10, and rs1045642 of ABCB1 genes are shared between TLE and syndromes of IGE.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "41018689",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients with gain-of-function missense variants in GRIA1 and GRIA2, successfully treated with perampanel, have also been reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients with gain-of-function missense variants in GRIA1 and GRIA2, successfully treated with perampanel, have also been reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

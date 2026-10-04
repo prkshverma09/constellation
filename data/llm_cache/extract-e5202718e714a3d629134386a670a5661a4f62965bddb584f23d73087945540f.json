@@ -1,0 +1,66 @@
+{
+  "pmid": "36936141",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "invasiveness of pituitary adenoma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1 was significantly correlated with the invasiveness of pituitary adenoma",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "upregulated in invasive pituitary adenoma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The final experiment revealed that SLC2A1 was significantly upregulated in invasive pituitary adenoma.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "EMT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The functions and pathways of SLC2A1 and paired protein enrichment were closely linked to the EMT.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "classical markers of EMT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1 expression was significantly and positively correlated with the expression of classical markers of EMT.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "EMT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It may regulate EMT.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "potential diagnostic marker for invasive pituitary adenoma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It may be a potential diagnostic marker for invasive pituitary adenoma.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

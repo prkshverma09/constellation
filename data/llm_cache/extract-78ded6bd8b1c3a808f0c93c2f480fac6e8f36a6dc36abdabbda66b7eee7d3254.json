@@ -1,0 +1,66 @@
+{
+  "pmid": "25537520",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "candidate tumor suppressor WW domain-containing oxidoreductase protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes a candidate tumor suppressor WW domain-containing oxidoreductase protein.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "FRA16D",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This gene is located on a common fragile site FRA16D.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "TNF, chemotherapeutic drugs, UV irradiation, Wnt, TGF-β, C1q, Hyal-2, sex steroid hormones signaling pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX participates in a variety of cellular events and acts as a transducer in the many signal pathways, including TNF, chemotherapeutic drugs, UV irradiation, Wnt, TGF-β, C1q, Hyal-2, sex steroid hormones, and others.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "restricts relocation of transcription factors to the nucleus for suppressing cancer survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transiently overexpressed WWOX restricts relocation of transcription factors to the nucleus for suppressing cancer survival",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease and neuronal injury",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "play a crucial role in neural development and in the pathogenesis of Alzheimer's disease and neuronal injury.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, mental retardation, and brain developmental defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "participate in the development of epilepsy, mental retardation, and brain developmental defects in mice, rats and humans.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

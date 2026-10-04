@@ -1,0 +1,96 @@
+{
+  "pmid": "37308910",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "delayed or absent developmental milestone attainment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed or absent developmental milestone attainment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures (61%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders (58%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Participants harbouring a missense variant had a milder phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "sitting attainment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to individuals with gene deletions (0%) or nonsense variants (20%), missense variants were associated with more frequent attainment of sitting (73%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "independent walking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further, individuals with missense variants (41%) achieved independent walking more frequently than those with gene deletions (0%) or frameshift variants (6%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy frequency by genotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Presence of epilepsy also varied by genotype and was significantly more common in those with gene deletions (81%) compared to missense variants (47%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "daily seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with gene deletions were more likely to have higher seizure burden than other genotypes with 53% reporting daily seizures, even at best control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "truncations preserving the forkhead DNA binding domain associated with better developmental outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "truncations preserving the forkhead DNA binding domain were associated with better developmental outcomes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

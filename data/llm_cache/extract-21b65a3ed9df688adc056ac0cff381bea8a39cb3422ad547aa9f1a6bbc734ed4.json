@@ -1,0 +1,126 @@
+{
+  "pmid": "41436176",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in PNKP are associated with microcephaly and early-onset seizures (MCSZ), ataxia with oculomotor apraxia type 4 and Charcot-Marie-Tooth disease type 2B2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in PNKP are associated with microcephaly and early-onset seizures (MCSZ), ataxia with oculomotor apraxia type 4 and Charcot-Marie-Tooth disease type 2B2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia type 4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in PNKP are associated with microcephaly and early-onset seizures (MCSZ), ataxia with oculomotor apraxia type 4 and Charcot-Marie-Tooth disease type 2B2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Charcot-Marie-Tooth disease type 2B2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in PNKP are associated with microcephaly and early-onset seizures (MCSZ), ataxia with oculomotor apraxia type 4 and Charcot-Marie-Tooth disease type 2B2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "congenital microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients presented with early-onset seizures, congenital microcephaly and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients presented with early-onset seizures, congenital microcephaly and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "widening of the frontal lobe gyri",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The brain imaging features of the 25 patients varied significantly, but widening of the frontal lobe gyri with frontal hypoplasia and prominent cerebellar folia (consistent with atrophy) could point to PNKP-related microcephaly .",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "frontal hypoplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The brain imaging features of the 25 patients varied significantly, but widening of the frontal lobe gyri with frontal hypoplasia and prominent cerebellar folia (consistent with atrophy) could point to PNKP-related microcephaly .",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "prominent cerebellar folia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The brain imaging features of the 25 patients varied significantly, but widening of the frontal lobe gyri with frontal hypoplasia and prominent cerebellar folia (consistent with atrophy) could point to PNKP-related microcephaly .",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "white matter loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, the two patients with severe phenotype showed additional brain MRI features of white matter loss and pontocerebellar hypoplasia fulfilling the criteria of microlissencephaly.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "pontocerebellar hypoplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, the two patients with severe phenotype showed additional brain MRI features of white matter loss and pontocerebellar hypoplasia fulfilling the criteria of microlissencephaly.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microlissencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, the two patients with severe phenotype showed additional brain MRI features of white matter loss and pontocerebellar hypoplasia fulfilling the criteria of microlissencephaly.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

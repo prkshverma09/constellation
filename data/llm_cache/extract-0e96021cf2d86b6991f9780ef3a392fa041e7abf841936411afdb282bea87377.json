@@ -1,0 +1,36 @@
+{
+  "pmid": "41497664",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "disruption of mitochondrial–purine metabolism coupling across human, organoid, and mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In MECP2 Duplication Syndrome (MDS), we identify a conserved correlation between mitochondrial function and purine metabolism that is disrupted across human, organoid, and mouse models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "Complex III focal point of mitochondrial collapse leading to redox stress, DNA damage, and hyperactivation of de novo purine biosynthesis via purinosome assembly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multiomics integration reveals Complex III as the focal point of mitochondrial collapse, leading to redox stress, DNA damage, and hyperactivation of the de novo purine biosynthesis via purinosome assembly.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "breakdown of mitochondria-purinosome coupling compromises genome stability, impairs radial glia proliferation, and delays neuronal maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The breakdown of mitochondria-purinosome coupling compromises genome stability, impairs radial glia proliferation, and delays neuronal maturation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "8411721",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "15 q11-q13",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 is located at 15 q11-q13.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "presence in telephalonal cortex, hippocampus, thalamus and cerebellum; peak expression during embryogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The beta 3 subunit, one of the components of the receptor, is present in the telephalonal cortex, hippocampus, thalamus and cerebellum, and a peak GABRB3 expression is observed during embryogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "CNS development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This indicates that GABRB3 plays a role in CNS development, suppression of seizures and behavioral control.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "suppression of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This indicates that GABRB3 plays a role in CNS development, suppression of seizures and behavioral control.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "behavioral control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This indicates that GABRB3 plays a role in CNS development, suppression of seizures and behavioral control.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "central nerve disturbances in AS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Since GABRB3 is encompassed within the smallest deletion among AS patients, it becomes a candidate responsible for the central nerve disturbances in AS.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "not expressed in hydatidiform mole; expressed in normal villous tissue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our preliminary study showed that GABRB3 was not expressed in hydatidiform mole that is composed only of the paternal genome, while it was expressed fully in normal villous tissue,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "paternally imprinted",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that GABRB3 is paternally imprinted.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

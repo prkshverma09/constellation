@@ -1,0 +1,136 @@
+{
+  "pmid": "27502353",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 is a newly recognized gene in which variations lead to variable clinical phenotypes including drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrating drug-resistant focal epilepsy, developmental delays, and head growth deceleration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrating drug-resistant focal epilepsy, developmental delays, and head growth deceleration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "head growth deceleration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrating drug-resistant focal epilepsy, developmental delays, and head growth deceleration.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "prolonged, unilateral, focal clonic activity of the arm, leg or face",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had seizure semiologies consisting of prolonged, unilateral, focal clonic activity of the arm, leg or face, in addition to generalized clonic or myoclonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "generalized clonic or myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had seizure semiologies consisting of prolonged, unilateral, focal clonic activity of the arm, leg or face, in addition to generalized clonic or myoclonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsia partialis continua",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ictal EEG characteristics included epilepsia partialis continua, epilepsy of infancy with migrating focal seizures, and other focal seizures with indiscrete interictal-ictal transitions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ictal EEG characteristics included epilepsia partialis continua, epilepsy of infancy with migrating focal seizures, and other focal seizures with indiscrete interictal-ictal transitions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures with indiscrete interictal-ictal transitions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ictal EEG characteristics included epilepsia partialis continua, epilepsy of infancy with migrating focal seizures, and other focal seizures with indiscrete interictal-ictal transitions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "super-refractory status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two seemingly unrelated Navajo patients with identical variations experienced super-refractory status epilepticus at 9 months of age, with one achieving resolution with ketogenic diet therapy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two seemingly unrelated Navajo patients with identical variations experienced super-refractory status epilepticus at 9 months of age, with one achieving resolution with ketogenic diet therapy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our series suggests that TBC1D24-related epilepsy can manifest with hypotonia, developmental delays, and a variety of focal-onset seizures prone to electroclinical dissociation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal-onset seizures prone to electroclinical dissociation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our series suggests that TBC1D24-related epilepsy can manifest with hypotonia, developmental delays, and a variety of focal-onset seizures prone to electroclinical dissociation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

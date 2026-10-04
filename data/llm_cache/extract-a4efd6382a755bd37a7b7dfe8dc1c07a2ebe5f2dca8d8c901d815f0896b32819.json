@@ -1,0 +1,96 @@
+{
+  "pmid": "28009282",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "Gabrb3-/- mouse (Gabrb3 deletion)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using exome and RNA sequencing, we confirmed that only the Gabrb3 gene was disrupted while the Oca2 gene was intact.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "loss of retinal pigmentation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deletion of Gabrb3 alone causes nearly complete loss of retinal pigmentation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "atrophied melanosomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "causes nearly complete loss of retinal pigmentation due to atrophied melanosomes, as evidenced by electron microscopy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced Oca2 and adjacent gene mRNA abundance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mRNA abundance of Oca2 and other genes adjacent to Gabrb3 is substantially reduced in Gabrb3-/- mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "downregulates OCA2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that impairment in GABRB3 downregulates OCA2 and indirectly causes ocular hypopigmentation and visual defects in AS and PWS.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "ocular hypopigmentation and visual defects in AS and PWS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results suggest that impairment in GABRB3 downregulates OCA2 and indirectly causes ocular hypopigmentation and visual defects in AS and PWS.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have frequently been associated with epilepsy and autism",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have frequently been associated with epilepsy and autism",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "role in neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consistent with its role in neurodevelopment.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

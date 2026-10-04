@@ -1,0 +1,156 @@
+{
+  "pmid": "33132203",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Numerous genes have been identified as a monogenic cause of DEE, including KCNB1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "delayed rectifier potassium currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The voltage-gated potassium channel KV2.1, encoded by KCNB1, is primarily responsible for delayed rectifier potassium currents that are important regulators of excitability in electrically excitable cells, including neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "organizing endoplasmic reticulum-plasma membrane junctions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KV2.1 also serves a highly conserved structural function organizing endoplasmic reticulum-plasma membrane junctions clustered in the soma and proximal dendrites of neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms and atonic, focal and tonic-clonic seizures refractory to standard antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The de novo pathogenic variant KCNB1-p.G379R was identified in an infant with epileptic spasms, and atonic, focal and tonic-clonic seizures that were refractory to treatment with standard antiepileptic drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previous work demonstrated deficits in potassium conductance, but did not assess non-conducting functions.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "endoplasmic reticulum-plasma membrane junctions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KV2.1-G379R expression did not induce formation of endoplasmic reticulum-plasma membrane junctions,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "co-expression of KV2.1-G379R with KV2.1-wild-type lowered induction of these structures relative to KV2.1-WT alone, consistent with a dominant negative effect.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "Kcnb1G379R mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To model this variant in vivo, we introduced Kcnb1G379R into mice using CRISPR/Cas9 genome editing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "genotype-dependent differences in expression levels of KV2.1, KV2.2 and AMIGO-1 proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Immunohistochemistry studies on brains from Kcnb1+/+, Kcnb1R/+ and Kcnb1R/R mice revealed genotype-dependent differences in the expression levels of KV2.1 protein, as well as associated KV2.2 and AMIGO-1 proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity, repetitive behaviors, impulsivity and reduced anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnb1R/+ and Kcnb1R/R mice displayed profound hyperactivity, repetitive behaviors, impulsivity and reduced anxiety.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures and seizures induced by exposure to novel environments and/or handling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Spontaneous seizures were observed in Kcnb1R/R mice, as well as seizures induced by exposure to novel environments and/or handling.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "more susceptible to proconvulsant-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both Kcnb1R/+ and Kcnb1R/R mutants were more susceptible to proconvulsant-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal interictal EEG activity, including isolated spike and slow waves",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both Kcnb1R/+ and Kcnb1R/R mice exhibited abnormal interictal EEG activity, including isolated spike and slow waves.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "recapitulate many features observed in individuals with DEE due to pathogenic variants in KCNB1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, the Kcnb1G379R mice recapitulate many features observed in individuals with DEE due to pathogenic variants in KCNB1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "therapies to treat this pharmacoresistant DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "will provide a valuable tool for the development of therapies to treat this pharmacoresistant DEE.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

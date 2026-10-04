@@ -1,0 +1,126 @@
+{
+  "pmid": "38654472",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function mutation in CDKL5 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "serine-threonine kinase highly expressed in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding a serine-threonine kinase highly expressed in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "motor impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "CDKL5R59X knock-in (R59X) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5R59X knock-in (R59X) mice, a CDD model based on a human mutation that exhibits both lifelong seizure susceptibility and behavioural deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cannabidiol pre-treatment rescued the increased seizure susceptibility in response to the chemoconvulsant pentylenetetrazol (PTZ)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attenuated working memory and long-term memory impairments",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rescued social deficits in adult R59X mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "decreased expression of CB1R and TRPV1 in hippocampus; decreased TRPV2 in cortex; increased TRPV1 in cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adult R59X mice demonstrated significantly decreased expression of CB1R and TRPV1 in the hippocampus, and TRPV2 in the cortex, while TRPV1 was increased in the cortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "dysregulation of endocannabinoid signalling as a plausible mechanism and therapeutic target in CDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysregulation of eCB signalling as a plausible mechanism and therapeutic target in CDD",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

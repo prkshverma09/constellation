@@ -1,0 +1,16 @@
+{
+  "pmid": "39825393",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present six vignettes of undiagnosed patients experiencing seizures as part of their recessive genetic condition. For each patient, we analyze a gene of interest: MPO, P2RX7, SQSTM1, COL27A1, PIGQ, or CACNA2D2, and find relevant symptoms associated with UKB participants.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

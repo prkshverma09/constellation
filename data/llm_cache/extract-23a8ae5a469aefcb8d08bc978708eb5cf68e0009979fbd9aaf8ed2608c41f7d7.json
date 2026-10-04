@@ -1,0 +1,106 @@
+{
+  "pmid": "28971703",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 is an essential protein for presynaptic vesicle release.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "STXBP1-encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in STXBP1 have been associated with a series of (epileptic) neurodevelopmental disorders collectively referred to as STXBP1-encephalopathy (STXBP1-E).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "seizure control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Current treatment for STXBP1-E is largely limited to seizure control",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Possibilities of different treatment modalities are discussed including unbiased compound screening, specific protein-protein interaction inhibition and gene therapy, consisting either of gene suppletion or upregulation of gene expression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "specific protein-protein interaction inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "specific protein-protein interaction inhibition",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "STXBP1 as a therapeutic target",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this review we hypothesize about the potential of STXBP1 as a therapeutic target in the field of epileptic encephalopathies.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "in vitro models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in vitro- and animal models used to study the pathophysiology of STXBP1-E could be further optimized as a model for compound screening.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in vitro- and animal models used to study the pathophysiology of STXBP1-E could be further optimized as a model for compound screening.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "hyper excitable state",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They should reflect both the hyper excitable state and the psychomotor delay of STXBP1-E.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They should reflect both the hyper excitable state and the psychomotor delay of STXBP1-E.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

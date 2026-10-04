@@ -1,0 +1,16 @@
+{
+  "pmid": "22206818",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "epileptogenesis of absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the genes that code for the subunits of GABA receptors (GABRG2, GABRA1, GABRB3, GABRA5, GABA(B1) and GABA(B2))",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

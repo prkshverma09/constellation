@@ -1,0 +1,76 @@
+{
+  "pmid": "32643187",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "severe early epileptic encephalopathies and neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in Munc18-1/STXBP1 (syntaxin-binding protein 1) are linked to various severe early epileptic encephalopathies and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations in the STXBP1 gene include missense, nonsense, frameshift, and splice site mutations, as well as intragenic deletions and duplications and whole-gene deletions.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both haploinsufficiency and dominant-negative mechanisms have been proposed.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both haploinsufficiency and dominant-negative mechanisms have been proposed.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "anti-epileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients are treated by anti-epileptic drugs",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We additionally evaluate the available animal models to study these disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "No genotype-phenotype correlation has been identified so far",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No genotype-phenotype correlation has been identified so far",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

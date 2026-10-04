@@ -1,0 +1,156 @@
+{
+  "pmid": "29274432",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "implicated in focal epilepsy, brain malformations, and Sudden Unexplained Death in Epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 is a newly identified epilepsy-related gene implicated in focal epilepsy, brain malformations, and Sudden Unexplained Death in Epilepsy (SUDEP).",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "negatively regulates amino acid sensing by the mTOR complex 1 (mTORC1) pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In vitro, DEPDC5 negatively regulates amino acid sensing by the mTOR complex 1 (mTORC1) pathway,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "neuron-specific Depdc5 conditional knockout mouse by cre-recombination under the Synapsin1 promotor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we establish a neuron-specific Depdc5 conditional knockout mouse by cre-recombination under the Synapsin1 promotor.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "germline knockout rodent models are embryonic lethal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline knockout rodent models are embryonic lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "hind limb clasping",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor abnormalities (i.e., hind limb clasping)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "reduced survival compared to littermate control mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced survival compared to littermate control mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "larger brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5cc+ mice have larger brains",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased cortical neuron size",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased cortical neuron size",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "dysplastic neurons throughout the cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysplastic neurons throughout the cortex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "constitutive mTORC1 hyperactivation exclusively in neurons as measured by increased phosphorylation of ribosomal protein S6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5 results in constitutive mTORC1 hyperactivation exclusively in neurons as measured by the increased phosphorylation of the downstream ribosomal protein S6.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "reactive astrogliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depdc5cc+ brains show reactive astrogliosis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We observed two Depdc5cc+ mice to have spontaneous seizures, including a terminal seizure.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "lowered seizure thresholds",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "as a group Depdc5cc+ mice have lowered seizure thresholds, as evidenced by decreased latency to seizures after chemoconvulsant injection",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased mortality from pentylenetetrazole-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased mortality from pentylenetetrazole-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "neuron-specific Depdc5 knockout mouse model recapitulates clinical, pathological, and biochemical features of human DEPDC5-related epilepsy and brain malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "our neuron-specific Depdc5 knockout mouse model recapitulates clinical, pathological, and biochemical features of human DEPDC5-related epilepsy and brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

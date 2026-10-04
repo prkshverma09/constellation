@@ -1,0 +1,106 @@
+{
+  "pmid": "34576077",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "regulate neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv1.2 channels, encoded by the KCNA2 gene, are localized in the central and peripheral nervous system, where they regulate neuronal excitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "non-progressive congenital ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-progressive congenital ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar ataxia",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirmed a mixed gain- and loss-of-function (GoF/LoF) biophysical phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirmed a mixed gain- and loss-of-function (GoF/LoF) biophysical phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "voltage-dependent activation shifted towards negative potentials; slower kinetics of deactivation and activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "E236K channels showed voltage-dependent activation shifted towards negative potentials and slower kinetics of deactivation and activation compared with Kv1.2 WT.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "4-aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-AP inhibited both Kv1.2 and E236K channels with similar potency.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

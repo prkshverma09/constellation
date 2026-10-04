@@ -1,0 +1,86 @@
+{
+  "pmid": "40811894",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a well-known causative gene for genetic epilepsy with febrile seizures plus (GEFS+)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A novel heterozygous missense variant in GABRG2 (c.964G>A; p.Ala322Thr) was identified in patient 1, patient 2, and their father.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 1 developed drug-resistant epilepsy requiring multiple anti-seizure medications (ASMs).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "milder epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 2 exhibited milder epilepsy, controlled with a single ASM.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free under low-dose ASM",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 3 has remained seizure-free under low-dose ASM.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile and afebrile seizures in childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The father had febrile and afebrile seizures in childhood but has been seizure-free for over 10 years with ASMs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "intrafamilial phenotypic variability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This intrafamilial phenotypic variability was observed despite all affected individuals carrying the same variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "M2 segment of GABRG2 is functionally important",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the identified variant is located in the M2 segment of GABRG2, which is functionally important",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "36775847",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Self-limited infantile epilepsy (SeLIE) has distinctive clinical features, and the PRRT2 gene is known to be a considerable genetic cause.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "afebrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including all afebrile, clustered (n = 23, 63.9%), short-duration (n = 33, 91.7%), and bilateral tonic-clonic seizures (n = 26, 72.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "clustered seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including all afebrile, clustered (n = 23, 63.9%), short-duration (n = 33, 91.7%), and bilateral tonic-clonic seizures (n = 26, 72.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "short-duration seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including all afebrile, clustered (n = 23, 63.9%), short-duration (n = 33, 91.7%), and bilateral tonic-clonic seizures (n = 26, 72.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including all afebrile, clustered (n = 23, 63.9%), short-duration (n = 33, 91.7%), and bilateral tonic-clonic seizures (n = 26, 72.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "neonatal-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, six atypical cases with neonatal-onset seizures and unremitting after 3 years of age were included to understand the expanded clinical spectrum of PRRT2-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "unremitting seizures after 3 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, six atypical cases with neonatal-onset seizures and unremitting after 3 years of age were included to understand the expanded clinical spectrum of PRRT2-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 33 patients treated with anti-seizure medications, sodium channel blockers, such as carbamazepine, were the most effective in seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

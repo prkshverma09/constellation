@@ -1,0 +1,26 @@
+{
+  "pmid": "31273778",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fourteen probands (14/64 = 22%; four males, mean age = 32 years ± 10) were found to have pathogenic or likely pathogenic variants in the following genes: SCN1A, GABRB3, UBE3A, KANSL1, SLC2A1, KCNQ2, SLC6A1, HNRNPU, STX1B, SCN2A, PURA, and CHD2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fourteen probands (14/64 = 22%; four males, mean age = 32 years ± 10) were found to have pathogenic or likely pathogenic variants in the following genes: SCN1A, GABRB3, UBE3A, KANSL1, SLC2A1, KCNQ2, SLC6A1, HNRNPU, STX1B, SCN2A, PURA, and CHD2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

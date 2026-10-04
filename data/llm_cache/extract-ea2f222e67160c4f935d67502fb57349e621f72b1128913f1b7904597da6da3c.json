@@ -1,0 +1,16 @@
+{
+  "pmid": "29100083",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining these strategies, we were able to provide a causal link between DEE and the following genes: NTRK2, GABRB2, CLTC, DHDDS, NUS1, RAB11A, GABBR2, and SNAP25.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

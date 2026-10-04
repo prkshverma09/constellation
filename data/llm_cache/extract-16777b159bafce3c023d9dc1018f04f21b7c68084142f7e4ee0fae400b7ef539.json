@@ -1,0 +1,46 @@
+{
+  "pmid": "34632383",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "subunit of the GTPase-activating protein (GAP) activity towards Rags 1 complex (GATOR1), the principal amino acid-sensing regulator of mechanistic target of rapamycin complex 1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5, NPRL2 and NPRL3 code for subunits of the GTPase-activating protein (GAP) activity towards Rags 1 complex (GATOR1), the principal amino acid-sensing regulator of mechanistic target of rapamycin complex 1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "non-lesional focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline pathogenic variants in GATOR1 genes cause non-lesional focal epilepsies and epilepsies associated with malformations of cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsies associated with malformations of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline pathogenic variants in GATOR1 genes cause non-lesional focal epilepsies and epilepsies associated with malformations of cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "mechanistic target of rapamycin inhibitors for drug-resistant seizures in GATOR1-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lastly, we discuss the potential therapeutic application of mechanistic target of rapamycin inhibitors for drug-resistant seizures in GATOR1-related epilepsies and focal cortical dysplasia type II.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

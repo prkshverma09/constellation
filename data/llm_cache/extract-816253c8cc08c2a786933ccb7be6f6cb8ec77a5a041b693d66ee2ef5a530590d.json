@@ -1,0 +1,126 @@
+{
+  "pmid": "31435640",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "GABAA receptor assembly and trafficking; stem cell differentiation in embryonic brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 is highly expressed early in the developing brain, and its encoded β3 subunit is critical for GABAA receptor assembly and trafficking as well as stem cell differentiation in embryonic brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been increasingly recognized as a major cause for severe paediatric epilepsy syndromes such as Lennox-Gastaut syndrome, Dravet syndrome and infantile spasms with intellectual disability as well as relatively mild epilepsy syndromes such as childhood absence epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been increasingly recognized as a major cause for severe paediatric epilepsy syndromes such as Lennox-Gastaut syndrome, Dravet syndrome and infantile spasms with intellectual disability as well as relatively mild epilepsy syndromes such as childhood absence epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms with intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been increasingly recognized as a major cause for severe paediatric epilepsy syndromes such as Lennox-Gastaut syndrome, Dravet syndrome and infantile spasms with intellectual disability as well as relatively mild epilepsy syndromes such as childhood absence epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been increasingly recognized as a major cause for severe paediatric epilepsy syndromes such as Lennox-Gastaut syndrome, Dravet syndrome and infantile spasms with intellectual disability as well as relatively mild epilepsy syndromes such as childhood absence epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced surface expression of partnering γ2 subunits when co-expressed with mutant β3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "surface expression of partnering γ2 subunits was lower when co-expressed with mutant than with wild-type subunits.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced total subunit expression in neurons but not in HEK293T cells for N328D and E357K",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both the GABRB3 (N328D) and GABRB3 (E357K) mutations reduced total subunit expression in neurons but not in HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced on the cell surface and in synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both mutant subunits, however, were reduced on the cell surface and in synapses",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "N328D shows greater reduction in surface/synaptic presence than E357K",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but the Lennox-Gastaut syndrome mutant β3 (N328D) subunit was more reduced than the juvenile absence epilepsy mutant β3 (E357K) subunit.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "impaired postsynaptic clustering of wild-type GABAA receptor γ2 subunits and prevention of γ2 incorporation into synaptic receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both mutant β3 subunits impaired postsynaptic clustering of wild-type GABAA receptor γ2 subunits and prevented γ2 subunits from incorporating into GABAA receptors at synapses",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "Gabrb3+/- knockout mice show reduced and less clustered wild-type γ2 subunits at inhibitory synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "wild-type γ2 subunits were reduced and less clustered at inhibitory synapses in Gabrb3+/- knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "impaired receptor localization to synapses is a common pathophysiological mechanism for GABRB3 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This suggests that impaired receptor localization to synapses is a common pathophysiological mechanism for GABRB3 mutations,",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

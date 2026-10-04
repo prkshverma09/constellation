@@ -1,0 +1,46 @@
+{
+  "pmid": "31960992",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a two-gene signature (GRIA2 and RYR3) associated with survival was selected in the GSE16011 dataset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GRIA2-RYR3 signature divided patients into two risk groups with significantly different survival",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "independent from clinicopathological prognostic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the survival predictive potency of the signature was independent from clinicopathological prognostic features in multivariable Cox analysis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "proliferation, migration, and invasion of glioblastoma cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA2 and RYR3 influenced the biological behaviors of proliferation, migration, and invasion of glioblastoma cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

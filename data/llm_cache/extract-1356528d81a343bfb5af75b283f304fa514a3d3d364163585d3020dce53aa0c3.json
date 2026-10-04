@@ -1,0 +1,76 @@
+{
+  "pmid": "38161429",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "encodes a 414-amino-acid protein composed of two N-terminal WW domains and a C-terminal short-chain dehydrogenase/reductase (SDR) domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The WWOX gene encodes a 414-amino-acid protein composed of two N-terminal WW domains and a C-terminal short-chain dehydrogenase/reductase (SDR) domain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "highly conserved and mainly expressed in the cerebellum, cerebral cortex, brain stem, thyroid, hypophysis, and reproductive organs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX protein is highly conserved among species and mainly expressed in the cerebellum, cerebral cortex, brain stem, thyroid, hypophysis, and reproductive organs.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development, migration, and proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It plays a crucial role in the biology of the central nervous system, and it is involved in neuronal development, migration, and proliferation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both missense and null variants have been described in affected patients, leading to a reduction in protein function and stability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most severe WOREE phenotypes have been related to biallelic null/null variants, associated with the complete loss of function of the protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WOREE syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in WWOX have been associated with an early infantile epileptic encephalopathy known as WOREE syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "brain anomalies on magnetic resonance imaging (MRI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All affected patients showed brain anomalies on magnetic resonance imaging (MRI), suggesting the pivotal role of WWOX protein in brain homeostasis and developmental processes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

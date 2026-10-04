@@ -1,0 +1,106 @@
+{
+  "pmid": "41197257",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizures were observed in 95 patients (79.2 %).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development (MCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MCD in 38 (34.9 %), including 30 cases of focal cortical dysplasia (FCD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "normal MRI findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI results showed normal findings in 69 patients (63.3 %)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy (DRE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DRE was reported in 52 patients (54.2 %)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "median age of onset 48 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a median age of onset of 48.0 months (12.0-120.0 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasms syndrome (IESS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile epileptic spasms syndrome (IESS) emerges as a new phenotype in NPRL3-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primarily driven by loss-of-function (LOF) mechanisms",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers (e.g., oxcarbazepine)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers such as oxcarbazepine are commonly effective ASMs for monotherapy in both NPRL2/NPRL3-related epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "surgical resection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For NPRL2/NPRL3-related epilepsy with MCD, surgical resection proves beneficial, with postoperative pathology predominantly revealing focal cortical dysplasia type II (FCD II).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia type II (FCD II) on postoperative pathology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postoperative pathology predominantly revealing focal cortical dysplasia type II (FCD II).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

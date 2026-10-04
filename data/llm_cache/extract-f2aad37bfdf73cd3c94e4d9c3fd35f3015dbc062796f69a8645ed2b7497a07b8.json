@@ -1,0 +1,66 @@
+{
+  "pmid": "33201747",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "high expression in glioma tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 was highly expressed in glioma tissues.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "up-regulated in glioma cells following exposure to X-ray irradiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 expression level was up-regulated in glioma cells following exposure to X-ray irradiation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "attenuate radiosensitivity of glioma cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 can attenuate radiosensitivity of glioma cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "promoting autophagy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 attenuate radiosensitivity of glioma cells by promoting autophagy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "circumventing radiation-induced cell death through regulation of autophagy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 is a pivotal molecule for circumventing radiation-induced cell death in malignant glioma cells through the regulation of autophagy",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "target for the treatment of human brain glioma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it may be a target for the treatment of human brain glioma.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

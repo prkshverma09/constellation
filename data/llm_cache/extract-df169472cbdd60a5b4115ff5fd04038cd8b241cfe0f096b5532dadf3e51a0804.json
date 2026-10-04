@@ -1,0 +1,16 @@
+{
+  "pmid": "31882278",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most commonly implicated genes in NGS studies to date, in order, are SCN1A, KCNQ2, CDKL5, SCN2A, and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,166 @@
+{
+  "pmid": "26354034",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo KIF1A mutations were identified in patients with intellectual disability, spasticity and cerebellar atrophy and/or optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo KIF1A mutations were identified in patients with intellectual disability, spasticity and cerebellar atrophy and/or optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo KIF1A mutations were identified in patients with intellectual disability, spasticity and cerebellar atrophy and/or optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo KIF1A mutations were identified in patients with intellectual disability, spasticity and cerebellar atrophy and/or optic nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified five de novo missense KIF1A mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "motor domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the mutations are located in the motor domain of KIF1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "infantile onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "initial symptom onset was during the infantile period",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "included developmental delay in three patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "gait disturbance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "included ... gait disturbance in two.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "gait disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait disturbances, exaggerated deep tendon reflexes, cerebellar symptoms and cerebellar atrophy on brain magnetic resonance imaging.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "exaggerated deep tendon reflexes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait disturbances, exaggerated deep tendon reflexes, cerebellar symptoms and cerebellar atrophy on brain magnetic resonance imaging.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait disturbances, exaggerated deep tendon reflexes, cerebellar symptoms and cerebellar atrophy on brain magnetic resonance imaging.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "lower limb spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four patients showed lower limb spasticity, upper limb clumsiness and visual disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "upper limb clumsiness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four patients showed lower limb spasticity, upper limb clumsiness and visual disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "visual disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four patients showed lower limb spasticity, upper limb clumsiness and visual disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nerve conduction study revealed peripheral neuropathy in three patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

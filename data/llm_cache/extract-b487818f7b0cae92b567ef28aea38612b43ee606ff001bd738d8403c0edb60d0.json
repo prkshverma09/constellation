@@ -1,0 +1,16 @@
+{
+  "pmid": "35799789",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "high expression in cold immune cell infiltration subtype (gene cluster B)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gene cluster B, a cold immune cell infiltration subtype, exhibited a high expression of the KCNIP2, SCRT1, CPLX2, JPH3, UNC13A, GABRB3, ARPP21, DLGAP1, NRXN1, DLL3, CA10, MAP2, SEZ6L, GRIA2, and GRIA4 genes and a low expression of immune-related genes, i.e., low levels of immune reactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

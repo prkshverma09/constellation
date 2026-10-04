@@ -1,0 +1,16 @@
+{
+  "pmid": "18000379",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including FHIT and WWOX, have already demonstrated the capacity to function as tumor suppressor genes, both in vitro and in vivo.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

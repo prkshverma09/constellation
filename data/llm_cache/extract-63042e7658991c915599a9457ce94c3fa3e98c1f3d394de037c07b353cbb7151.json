@@ -1,0 +1,66 @@
+{
+  "pmid": "22124977",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamate receptor ionotropic AMPA subunit 3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 encodes glutamate receptor ionotropic AMPA (alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid) subunit 3",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report on a male proband with ID and epilepsy associated with a duplication mapping within a gene desert, 874-kb upstream of the GRIA3 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report on a male proband with ID and epilepsy associated with a duplication mapping within a gene desert, 874-kb upstream of the GRIA3 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quantitative polymerase chain reaction analysis indicates absence of GRIA3 mRNA in the proband lymphocytes relative to a wild-type control.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "repositioning of distant-acting sequences",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The repositioning of distant-acting sequences, rather a missense/nonsense mutation, is considered to be causative for GRIA3-linked ID.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "transcription factor binding-site for GRIA3 expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Centromeric to the duplicated region, comparative genomic analysis showed a 2268-bp evolutionarily conserved region that could be a critical transcription factor binding-site for GRIA3 expression.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

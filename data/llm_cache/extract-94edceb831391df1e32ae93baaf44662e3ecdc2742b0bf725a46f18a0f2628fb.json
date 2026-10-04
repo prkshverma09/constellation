@@ -1,0 +1,56 @@
+{
+  "pmid": "42190144",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and epileptic encephalopathies with early burst-suppression EEG (EIDEE-BS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although variants in the KCNQ2, STXBP1, and SCN2A genes are recognized as major causes, the full genetic spectrum remains uncertain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "identified in 24 patients (n = 24)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 (n = 24) and STXBP1 (n = 16) accounted for one-third of diagnoses, whereas SCN2A (n = 3) and KCNT1 (n = 2) were less frequent.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset: mean 2 days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In KCNQ2 cases, seizures and BS onset occurred earlier than in STXBP1 cases: mean 2 days vs 6 weeks for seizures and 3 days vs 2 months for BS, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "burst-suppression (BS) onset: mean 3 days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In KCNQ2 cases, seizures and BS onset occurred earlier than in STXBP1 cases: mean 2 days vs 6 weeks for seizures and 3 days vs 2 months for BS, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "typical BS pattern (bursts longer than suppressions)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A typical BS pattern (bursts longer than suppressions) strongly correlated with KCNQ2 and STXBP1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

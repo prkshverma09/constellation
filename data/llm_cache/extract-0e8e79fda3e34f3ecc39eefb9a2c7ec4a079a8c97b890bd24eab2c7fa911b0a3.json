@@ -1,0 +1,96 @@
+{
+  "pmid": "40407699",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related disorders are common neurodevelopmental conditions characterized by autism spectrum disorder, developmental delay, intellectual disability, and a range of generalized seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related disorders are common neurodevelopmental conditions characterized by autism spectrum disorder, developmental delay, intellectual disability, and a range of generalized seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related disorders are common neurodevelopmental conditions characterized by autism spectrum disorder, developmental delay, intellectual disability, and a range of generalized seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related disorders are common neurodevelopmental conditions characterized by autism spectrum disorder, developmental delay, intellectual disability, and a range of generalized seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the individuals with protein-truncating variants, generalized epilepsy was observed in six individuals, autism spectrum disorder in two individuals, and developmental delay or intellectual disability in all individuals with germline variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the individuals with protein-truncating variants, generalized epilepsy was observed in six individuals, autism spectrum disorder in two individuals, and developmental delay or intellectual disability in all individuals with germline variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the individuals with protein-truncating variants, generalized epilepsy was observed in six individuals, autism spectrum disorder in two individuals, and developmental delay or intellectual disability in all individuals with germline variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the individuals with protein-truncating variants, generalized epilepsy was observed in six individuals, autism spectrum disorder in two individuals, and developmental delay or intellectual disability in all individuals with germline variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "clinically unaffected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including a single individual with a mosaic SYNGAP1 variant who was clinically unaffected.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

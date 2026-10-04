@@ -1,0 +1,16 @@
+{
+  "pmid": "32812023",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "interacts with phosphorylated tau",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "34 proteins had previously been associated with total tau, but not yet linked directly to phosphorylated tau (e.g. synaptic protein VAMP2, vacuolar-ATPase subunit ATP6V0D1); therefore, we provide new evidence that they directly interact with phosphorylated tau in Alzheimer's disease.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

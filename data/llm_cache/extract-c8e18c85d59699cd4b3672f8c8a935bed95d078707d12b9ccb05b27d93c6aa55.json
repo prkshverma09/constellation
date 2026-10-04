@@ -1,0 +1,16 @@
+{
+  "pmid": "41799440",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "network vulnerability and clinical heterogeneity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic and epigenetic variations in signaling genes, such as CACNA1C, GRIN2B, and DISC1, along with developmental and environmental factors, contribute to network vulnerability and clinical heterogeneity.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "36203605",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "differential expression between nonsurvivors and survivors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The longitudinal expression pattern of SLC2A1 and STIMATE were different between nonsurvivors and survivors, which were validated by qPCR.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "predictor of SAD and 28-day mortality in ICU patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression levels of SLC2A1 and STIMATE may be predictors of SAD and 28-day mortality in ICU patients.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

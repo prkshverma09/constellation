@@ -1,0 +1,146 @@
+{
+  "pmid": "41292970",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset cluster seizures often triggered by fever",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset cluster seizures often triggered by fever",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "later neuropsychiatric risk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later neuropsychiatric risk",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "X-linked gene critical for brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is an X-linked gene critical for brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular mosaicism arising from random X-inactivation and resultant segregation of wild-type and mutant neurons (cellular interference)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "likely due to cellular mosaicism arising from random X-inactivation and resultant segregation of wild-type and mutant neurons (so-called cellular interference) during development.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "novel PCE mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated a novel PCE mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Female Pcdh19 +/- mice were crossed with X-GFP males",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Female Pcdh19 +/- mice were crossed with X-GFP males to visualize random X-inactivation patterns.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Juvenile Pcdh19 +/- females lacked spontaneous seizures but displayed lower seizure thresholds and more severe seizures during hyperthermia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Juvenile Pcdh19 +/- females lacked spontaneous seizures but displayed lower seizure thresholds and more severe seizures during hyperthermia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Seizure susceptibility did not differ from controls after flurothyl exposure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure susceptibility did not differ from controls after flurothyl exposure.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "segregation of GFP+ cells in the cortex, hippocampal CA1 region and medial ganglionic eminence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pcdh19 +/- females also exhibited segregation of GFP+ cells in the cortex, hippocampal CA1 region and medial ganglionic eminence,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "marked reduction of parvalbumin-positive interneurons in the CA1 hippocampal region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a marked reduction of parvalbumin-positive interneurons in the CA1 hippocampal region.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "parvalbumin interneuron density was unchanged in the Pcdh19 +/- female cortex overall",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although parvalbumin interneuron density was unchanged in the Pcdh19 +/- female cortex overall,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "localized decreases arose in GFP- ( Pcdh19 knockout) cortical stripes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "localized decreases arose in GFP- ( Pcdh19 knockout) cortical stripes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

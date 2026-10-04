@@ -1,0 +1,56 @@
+{
+  "pmid": "36685832",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GAP Activity Towards Rags 1 (GATOR1) complex, which includes DEPDC5, NPRL2, and NPRL3, plays a key role in epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two rare mutations in the NPRL3 gene in two unrelated Chinese families with focal epilepsy in this study.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bioinformatics analysis predicted that the mutation (c.954C>A) was in the highly conserved amino acid residues of NPRL3, which affected the α-helix of NPRL3 protein, leading to a truncated protein.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The splice variant (c.1545-1G>C) resulted in the loss of the last exon of the NPRL3 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic carriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surprisingly, the mothers of the two probands each carried the variants, but neither had an attack.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

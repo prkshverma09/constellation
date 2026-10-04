@@ -1,0 +1,16 @@
+{
+  "pmid": "32469098",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic atonic seizures (MAE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These were pathogenic genetic variants in SYNGAP1 (n = 3), KIAA2022 (n = 2), and SLC6A1 (n = 2), as well as KCNA2, SCN2A, STX1B, KCNB1, and MECP2 (n = 1 each).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

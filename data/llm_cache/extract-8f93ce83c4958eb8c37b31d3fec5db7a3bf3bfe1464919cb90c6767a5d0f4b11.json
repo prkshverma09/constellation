@@ -1,0 +1,86 @@
+{
+  "pmid": "34965576",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "Emx1cre/+; Nprl3f/f (Nprl3-cKO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Emx1cre/+; Nprl3f/f (Nprl3-cKO)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl2-cKO and Nprl3-cKO mice recapitulated the major abnormal features of patients-spontaneous seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic enlarged neuronal cells with increased mechanistic target of rapamycin complex 1 signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic enlarged neuronal cells with increased mechanistic target of rapamycin complex 1 signaling",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic postnatal rapamycin administration dramatically prolonged the survival period and inhibited seizure occurrence but not enlarged neuronal cells in Nprl2-cKO and Nprl3-cKO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic postnatal rapamycin administration dramatically prolonged the survival period and inhibited seizure occurrence but not enlarged neuronal cells in Nprl2-cKO and Nprl3-cKO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "enlarged neuronal cells",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Chronic postnatal rapamycin administration dramatically prolonged the survival period and inhibited seizure occurrence but not enlarged neuronal cells in Nprl2-cKO and Nprl3-cKO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin (benefit after withdrawal less durable)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, the benefit of rapamycin after withdrawal was less durable in Nprl2- and Nprl3-cKO mice compared with Depdc5-cKO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequent genetic cause of focal epilepsies is variations in the GAP activity toward RAGs 1 complex genes DEP domain containing 5 (DEPDC5), nitrogen permease regulator 2-like protein (NPRL2) and nitrogen permease regulator 3-like protein (NPRL3).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

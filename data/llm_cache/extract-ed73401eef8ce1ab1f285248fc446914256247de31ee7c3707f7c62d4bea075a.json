@@ -1,0 +1,56 @@
+{
+  "pmid": "27624551",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "several paroxysmal neurological disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "proline-rich transmembrane protein (PRRT)2 has been identified as the causative gene for several paroxysmal neurological disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synapse development and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an important role of PRRT2 in synapse development and function has emerged.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "impairs the formation of synaptic contacts and neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Knock down of the protein strongly impairs the formation of synaptic contacts and neurotransmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "endows synaptic vesicle exocytosis with Ca2+ sensitivity by interacting with proteins of the fusion complex and with the Ca2+ sensors synaptotagmins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At the nerve terminal, PRRT2 endows synaptic vesicle exocytosis with Ca2+ sensitivity by interacting with proteins of the fusion complex and with the Ca2+ sensors synaptotagmins (Syts).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "interacts with glutamate receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the postsynaptic compartment, PRRT2 interacts with glutamate receptors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "38049202",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "language/communication delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Language/communication delays were observed early",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental stagnation after age 2 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental stagnation occurred after age 2 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "language/communication delay and stagnation independent of seizure burden",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In infants and young children with SCN1A+ DS, language/communication delay and stagnation were independent of seizure burden.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "high seizure frequency despite antiseizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Monthly countable seizure frequency (MCSF) increased with age (median [minimum-maximum] = 1.0 in the youngest [1.0-70.0] and middle [1.0-242.0] age groups and 4.5 [.0-2647.0] in the oldest age group), and remained high, despite use of currently approved antiseizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "MCSF, number of antiseizure medications, age at first seizure, and convulsive status epilepticus not predictors of language/communication raw scores",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MCSF, number of antiseizure medications, age at first seizure, and convulsive status epilepticus were not predictors of language/communication raw scores.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

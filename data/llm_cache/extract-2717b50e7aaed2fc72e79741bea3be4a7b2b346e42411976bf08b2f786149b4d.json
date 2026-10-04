@@ -1,0 +1,26 @@
+{
+  "pmid": "8687190",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "GABAA receptor subunit gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This region encompasses three GABAA receptor subunit genes (beta3, alpha5, and gamma3).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "located in the 15q11-13 region implicated in Angelman syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Angelman syndrome (AS) results from lack of genetic contribution from maternal chromosome 15q11-13. This region encompasses three GABAA receptor subunit genes (beta3, alpha5, and gamma3).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

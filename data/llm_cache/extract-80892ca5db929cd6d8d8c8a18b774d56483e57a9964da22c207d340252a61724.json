@@ -1,0 +1,36 @@
+{
+  "pmid": "41390089",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, our study identified six SNP-related biomarkers (IQGAP2, HHAT, FGF14, CTNNA3, GRIA3, and NRXN1) associated with AD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "regulated by Cispb M4676",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The biomarker-transcription factor (TF) network indicated that Cispb M4676 regulates IQGAP2, NRXN1, GRIA3 and FGF14.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "exocytic vesicle membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional enrichment and gene set enrichment analysis (GSEA) linked these biomarkers to pathways such as carboxylic acid catabolic process, exocytic vesicle membrane, and carbon metabolism.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

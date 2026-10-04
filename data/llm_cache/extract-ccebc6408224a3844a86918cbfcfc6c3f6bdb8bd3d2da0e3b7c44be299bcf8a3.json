@@ -1,0 +1,26 @@
+{
+  "pmid": "10436342",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "reduction of presynaptic terminals in the upper layers of the frontal cortex (not posterior parietal cortex)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduction of presynaptic terminals (as suggested by the decreased expression of synaptic vesicle-associated proteins, synaptophysin, synaptotagmin, rab 3a and synapsin 1, and presynaptic plasma membrane proteins SNAP-25 and syntaxin 1) in the upper layers of the frontal cortex, but not of the posterior parietal cortex",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "decreased expression of SNAP-25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased expression of synaptic vesicle-associated proteins, synaptophysin, synaptotagmin, rab 3a and synapsin 1, and presynaptic plasma membrane proteins SNAP-25 and syntaxin 1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

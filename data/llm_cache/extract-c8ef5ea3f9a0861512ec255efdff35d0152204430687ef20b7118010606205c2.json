@@ -1,0 +1,76 @@
+{
+  "pmid": "27600546",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic-atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy with myoclonic-atonic seizures, also known as myoclonic-astatic epilepsy or Doose syndrome, has been recently linked to variants in the SLC6A1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "removes gamma-aminobutyric acid from the synaptic cleft",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The SLC6A1 gene encodes a transporter that removes gamma-aminobutyric acid from the synaptic cleft.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She carried a c.491G>A mutation predicted to cause p.Cys164Tyr amino acid change",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "disrupt the gamma-aminobutyric acid transporter protein 1, affecting gamma-aminobutyric acid levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SLC6A1 are known to disrupt the gamma-aminobutyric acid transporter protein 1, affecting gamma-aminobutyric acid levels",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SLC6A1 are known to disrupt the gamma-aminobutyric acid transporter protein 1, affecting gamma-aminobutyric acid levels and causing seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A 10-year-old girl with a novel SLC6A1 mutation and epilepsy with myoclonic-atonic seizures had an excellent clinical response to the ketogenic diet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "gamma-aminobutyric acid reuptake mediated by gamma-aminobutyric acid transporter protein 1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An effect of the diet on gamma-aminobutyric acid reuptake mediated by gamma-aminobutyric acid transporter protein 1 is suggested.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

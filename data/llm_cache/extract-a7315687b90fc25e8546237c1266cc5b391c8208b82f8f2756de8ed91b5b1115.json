@@ -1,0 +1,156 @@
+{
+  "pmid": "41992961",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in GNAO1 cause a spectrum of epilepsy, movement disorders, and developmental impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in GNAO1 cause a spectrum of epilepsy, movement disorders, and developmental impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in GNAO1 cause a spectrum of epilepsy, movement disorders, and developmental impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders (95.5% prevalence)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Movement disorders were nearly universal (95.5%), with dyskinetic crises in 54.5%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dyskinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Movement disorders were nearly universal (95.5%), with dyskinetic crises in 54.5%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (51.5% prevalence)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy affected 51.5%, with different seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "lacked head control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "45.5% lacked head control",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "independent walking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "22.7% achieved independent walking",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "no expressive language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "65% had no expressive language",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular functional analysis for 20 of 31 missense variants correlated with severity scores.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "stability or mild improvement across most functional domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Longitudinal data from 21 patients in the natural history cohort showed overall stability or mild improvement across most functional domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "no significant deterioration in global severity, motor function, cognition, or quality of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No significant deterioration was observed in global severity, motor function, cognition, or quality of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "progressive worsening of movement disorder in severe patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, severe patients experienced progressive worsening of movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "non-degenerative course",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-RD generally follows a non-degenerative course, showing stability or mild improvements over time in cognition, language, adaptive skills, and motor function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "mortality due to complications from dyskinetic crises, infections, and epilepsy-related events",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mortality occurred in a subset of patients because of complications from dyskinetic crises, infections, and epilepsy-related events.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

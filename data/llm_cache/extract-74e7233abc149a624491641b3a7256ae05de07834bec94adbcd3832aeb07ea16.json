@@ -1,0 +1,46 @@
+{
+  "pmid": "42171824",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "key hub target",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Network pharmacology identified GRIN2B as a key hub target.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "bind to the same allosteric pocket as ifenprodil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular docking revealed that β-asarone and senegenin (the active metabolite of tenuifolin) bind to the same allosteric pocket as ifenprodil on GRIN2B, sharing highly consistent interaction residues.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "upregulation accompanied by autophagic dysfunction (increased LC3B/LC3A ratio and PINK1, reduced p62) and mitochondrial stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B upregulation in AD mice was accompanied by autophagic dysfunction (increased LC3B/LC3A ratio and PINK1, reduced p62) and mitochondrial stress.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "β-asarone, tenuifolin, their combination, and YuanZhi decoction alleviate GRIN2B-linked autophagic imbalance and mitochondrial stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "β-asarone, tenuifolin, their combination, and YuanZhi decoction alleviate GRIN2B-linked autophagic imbalance and mitochondrial stress in AD-like mice, supporting their therapeutic potential.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

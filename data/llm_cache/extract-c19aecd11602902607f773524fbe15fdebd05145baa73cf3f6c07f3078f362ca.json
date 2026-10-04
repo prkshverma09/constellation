@@ -1,0 +1,36 @@
+{
+  "pmid": "27652284",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirmed existing literature reports that de novo loss-of-function HNRNPUmutations lead to severe developmental delay and febrile seizures in the first year of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss-of-function HNRNPUmutations lead to severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures in the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss-of-function HNRNPUmutations lead to severe developmental delay and febrile seizures in the first year of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

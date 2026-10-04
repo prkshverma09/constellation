@@ -1,0 +1,136 @@
+{
+  "pmid": "29858110",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing the HNRNPU gene have been associated with infantile spasms and hemiconvulsion-hemiplegia-epilepsy syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "hemiconvulsion-hemiplegia-epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microdeletions in the 1q44 region encompassing the HNRNPU gene have been associated with infantile spasms and hemiconvulsion-hemiplegia-epilepsy syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent studies have revealed that heterozygous HNRNPU variants resulted in early onset epilepsy and severe intellectual disability.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent studies have revealed that heterozygous HNRNPU variants resulted in early onset epilepsy and severe intellectual disability.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo frameshift mutation in HNRNPU was identified in a 5-year-old boy with developmental delay associated with Rett-like features including stereotypic hand movements and respiratory abnormalities with episode of apnea and hyperpnea followed by falling.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "Rett-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo frameshift mutation in HNRNPU was identified in a 5-year-old boy with developmental delay associated with Rett-like features including stereotypic hand movements and respiratory abnormalities with episode of apnea and hyperpnea followed by falling.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "stereotypic hand movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo frameshift mutation in HNRNPU was identified in a 5-year-old boy with developmental delay associated with Rett-like features including stereotypic hand movements and respiratory abnormalities with episode of apnea and hyperpnea followed by falling.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "respiratory abnormalities with episode of apnea and hyperpnea followed by falling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo frameshift mutation in HNRNPU was identified in a 5-year-old boy with developmental delay associated with Rett-like features including stereotypic hand movements and respiratory abnormalities with episode of apnea and hyperpnea followed by falling.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He also showed an episode of acute encephalopathy with biphasic seizures and late reduced diffusion followed by hemiplegia and intractable epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He also showed an episode of acute encephalopathy with biphasic seizures and late reduced diffusion followed by hemiplegia and intractable epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He also showed an episode of acute encephalopathy with biphasic seizures and late reduced diffusion followed by hemiplegia and intractable epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Unique and variable clinical features are related to loss-of-function or haploinsufficiency of HNRNPU.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Unique and variable clinical features are related to loss-of-function or haploinsufficiency of HNRNPU.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "21119708",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "haploinsufficiency of SYNGAP1, which was recently demonstrated to cause non-syndromic mental retardation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "secretory pathway in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "experimental evidence that SYNGAP1 and CuTA are involved in the secretory pathway in neurons, through glutamate and acetylcholinesterase signalling",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "modulation of the glutamate pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consider modulation of the glutamate pathway as target of a therapeutic strategy for seizure control.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

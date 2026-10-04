@@ -1,0 +1,26 @@
+{
+  "pmid": "11173058",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "P/Q-type Ca(2+) channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the brain-specific P/Q-type Ca(2+)channel gene CACNA1A",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A as a pivotal player in the pathogenesis of migraine",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

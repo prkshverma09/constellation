@@ -1,0 +1,86 @@
+{
+  "pmid": "30410802",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "auxiliary subunit of the voltage-dependent calcium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2 encodes an auxiliary subunit of the voltage-dependent calcium channel.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "early-infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To date, there have only been two reports of individuals with early-infantile epileptic encephalopathy due to CACNA2D2 mutations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.782C>T (p.Pro261Leu)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.3137T>C (p.Leu1046Pro)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar dysfunction",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure types that begin in the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multiple seizure types that begin in the first year of life",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

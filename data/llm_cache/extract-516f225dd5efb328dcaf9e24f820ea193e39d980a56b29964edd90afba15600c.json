@@ -1,0 +1,96 @@
+{
+  "pmid": "39370580",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-activated potassium channel (Slack channel)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 encodes a sodium-activated potassium channel (Slack channel)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "EIMFS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we describe one heterozygous KCNT1 mutation, M267T, in a patient with EIMFS.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "Xenopus laevis oocytes expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wild-type or mutant KCNT1 plasmids were expressed heterologously in Xenopus laevis oocytes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "HEK293T excised inside-out patches",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The single-channel properties were investigated using the excised inside-out patches from HEK293T cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "in utero electroporation expression in hippocampal CA1 pyramidal neurons in male mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Through in utero electroporation, WT and M267T Slack channels were expressed in the hippocampal CA1 pyramidal neurons in male mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KCNT1 M267T mutation enhanced Slack channel function by increasing single-channel open probability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "affected afterhyperpolarization properties and induced neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the KCNT1 M267T mutation in the mouse hippocampal CA1 pyramidal neurons affected afterhyperpolarization properties and induced neuronal hyperexcitability, which was inhibited by carvedilol.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "carvedilol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "carvedilol effectively reversed the mutation-induced gain-of-function channel properties.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "carvedilol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "carvedilol exhibited antiseizure effects in the kainic acid-induced epilepsy model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

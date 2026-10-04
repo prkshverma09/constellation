@@ -1,0 +1,146 @@
+{
+  "pmid": "42453761",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-activated potassium channel involved in neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KCNT1 gene encodes for a sodium-activated potassium channel involved in neuronal excitability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy of Infancy with Migrating Focal Seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "181 patients had an EIMFS phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Sleep-related Hypermotor Epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "62 had SHE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and Epileptic Encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "59 had various DEEs",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "systemic-to-pulmonary collateral arteries",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "systemic-to-pulmonary collateral arteries",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "vascular or cardiac malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other vascular or cardiac malformations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "respiratory disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "various respiratory, orthopaedic or gastrointestinal disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "orthopaedic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "various respiratory, orthopaedic or gastrointestinal disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "various respiratory, orthopaedic or gastrointestinal disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "pulmonary complications (haemorrhage or infection)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main cause of death was pulmonary complications (haemorrhage or infection).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "EIMFS/non-EIMFS DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the first regulator of conductance of potassium (RCK1) domain to associate with EIMFS/non-EIMFS DEE",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Sleep-related Hypermotor Epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SHE-associated variants were predominantly located in the second regulator of conductance of potassium (RCK2) domain.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "vascular malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants p.Arg474Cys may confer increased risk for vascular malformations",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic parents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five individuals were asymptomatic parents",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "40677927",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "CdLS-like clinical features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Single variants were detected in the remaining genes (EBF3, KMT2A, MED13L, NLGN3, NR2F1, PHIP, PUF60, SET, SETD5, SMC1A, and TBL1XR1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

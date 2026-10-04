@@ -1,0 +1,126 @@
+{
+  "pmid": "35483386",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDD is now recognised as an independent disorder and classified as a developmental epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset (generally within the first 2 months of life) seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures refractory to polypharmacy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that are usually refractory to polypharmacy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severely impaired development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Development is severely impaired in patients with CDD",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "independent walking (reduced attainment)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with only a quarter of girls and a smaller proportion of boys achieving independent walking",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gastrointestinal, sleep, and musculoskeletal problems are common in CDD",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "sleep problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gastrointestinal, sleep, and musculoskeletal problems are common in CDD",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "musculoskeletal problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gastrointestinal, sleep, and musculoskeletal problems are common in CDD",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "cerebral visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the prevalence of cerebral visual impairment appears higher in CDD.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diets",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some benefit from ketogenic diets and vagal nerve stimulation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "vagal nerve stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some benefit from ketogenic diets and vagal nerve stimulation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "conventional antiseizure medications",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "there has been little evidence that conventional antiseizure medications or their combinations are helpful in CDD",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

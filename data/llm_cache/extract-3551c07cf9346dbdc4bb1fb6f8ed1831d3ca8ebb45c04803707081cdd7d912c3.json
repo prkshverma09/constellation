@@ -1,0 +1,106 @@
+{
+  "pmid": "32906212",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicle-associated membrane protein 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the synaptic vesicle-associated membrane protein 2 (VAMP2)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic tendencies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic tendencies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral disturbances",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "higher propensity to develop epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a higher propensity to develop epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "model",
+      "object_text": "neurons expressing three VAMP2 variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic vesicle recycling and neurotransmission were assayed in neurons expressing three VAMP2 variants by live-cell imaging and electrophysiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "variant_effect",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two variants decrease both the rate of exocytosis and the number of synaptic vesicles released from the recycling pool, compared with wild-type.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "aminopyridine treatment (4-aminopyridine and 3,4-diaminopyridine) increases exocytosis and synaptic charge transfer",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Aminopyridine treatment increases the rate and extent of exocytosis and total synaptic charge transfer and desynchronizes GABA release.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "off-label aminopyridine treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical response of the patient to 2 years of off-label aminopyridine treatment includes improved emotional and behavioral regulation by parental report, and objective improvement in standardized cognitive measures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "aminopyridine treatment may extend to patients with pathogenic variants in VAMP2 and other presynaptic/GABAergic genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Aminopyridine treatment may extend to patients with pathogenic variants in VAMP2 and other genes influencing presynaptic function or GABAergic tone, and tested in vitro before treatment.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

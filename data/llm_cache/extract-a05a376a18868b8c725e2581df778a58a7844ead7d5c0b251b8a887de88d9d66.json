@@ -1,0 +1,86 @@
+{
+  "pmid": "40225165",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant neurodevelopmental syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 disorder is a rare autosomal dominant neurodevelopmental syndrome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clinically manifested by developmental delay, (early onset) epilepsy, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clinically manifested by developmental delay, (early onset) epilepsy, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clinically manifested by developmental delay, (early onset) epilepsy, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "variable response to medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the response of GNAO1 patients to available medication varies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "pathogenic variants scattered throughout the gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic GNAO1 variants have been found mainly scattered throughout the gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "function of the encoded Gαo proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "certain mutation hotspots affecting the function of the encoded Gαo proteins exist.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "GNAO1 variants only partially explain the diverse phenotypic spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 variants only partially explain the diverse phenotypic spectrum observed",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

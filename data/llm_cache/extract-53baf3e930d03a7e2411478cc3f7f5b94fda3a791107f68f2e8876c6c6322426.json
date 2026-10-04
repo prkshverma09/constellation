@@ -1,0 +1,16 @@
+{
+  "pmid": "30027842",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a few cases, migraine is transmitted as a monogenic disorder, and the disease phenotype cosegregates with mutations in different genes like CACNA1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

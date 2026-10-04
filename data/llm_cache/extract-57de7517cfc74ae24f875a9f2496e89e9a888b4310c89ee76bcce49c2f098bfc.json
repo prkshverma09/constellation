@@ -1,0 +1,16 @@
+{
+  "pmid": "27423601",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genotyping case-control studies have shown an association between glutamate receptor genes, namely, GRIA1 and GRIA3 with migraine with indirect supporting evidence from GWAS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

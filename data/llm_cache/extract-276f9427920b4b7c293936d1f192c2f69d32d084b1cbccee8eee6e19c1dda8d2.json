@@ -1,0 +1,166 @@
+{
+  "pmid": "33914858",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "premature death at the age of 2-4 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "premature death at the age of 2-4 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "specific neuronal deletion of murine Wwox",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "specific neuronal deletion of murine Wwox produces phenotypes typical of the Wwox-null mutation leading to brain hyperexcitability, intractable epilepsy, ataxia and postnatal lethality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "brain hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "brain hyperexcitability",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "postnatal lethality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postnatal lethality",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "decrease in transcript levels of genes involved in myelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A significant decrease in transcript levels of genes involved in myelination was observed in mouse cortex and hippocampus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reduced maturation of oligodendrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced maturation of oligodendrocytes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reduced myelinated axons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced myelinated axons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "impaired axonal conductivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired axonal conductivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "human brain organoids with a WWOX deletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain hyperexcitability and hypomyelination were also revealed in human brain organoids with a WWOX deletion.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "brain hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain hyperexcitability and hypomyelination were also revealed in human brain organoids with a WWOX deletion.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "hypomyelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain hyperexcitability and hypomyelination were also revealed in human brain organoids with a WWOX deletion.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

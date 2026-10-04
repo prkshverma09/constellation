@@ -1,0 +1,96 @@
+{
+  "pmid": "39580518",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "expression lower in gliomas; correlated with better prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 expression was lower in gliomas than in normal neuronal tissues and high expression of GNAO1 correlated with a better prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "promotes neural differentiation of glioma stem-like cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 overexpression markedly promoted neural differentiation of GSCs",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "decreases cell proliferation and colony formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to decreased cell proliferation and colony formation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "recruits TRIM21 and facilitates TRIM21-mediated ubiquitination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 recruited TRIM21 and facilitated TRIM21-mediated ubiquitination.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "ubiquitination causes CREB degradation and reduces p300-mediated H3K27ac at the HES1 promoter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This ubiquitination resulted in the degradation of CREB and further reduced p300-mediated H3K27ac levels of the HES1 promoter.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "downregulates HES1 expression to reinforce neuronal differentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As a result, GNAO1 overexpression downregulated HES1 expression, which reinforced neuronal differentiation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "orthotopic GSC xenografts treated with GNAO1 adenovirus show increased neuronal differentiation and reduced tumor cell proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with GNAO1 adenovirus increased neuronal differentiation of tumor cells and reduced tumor cell proliferation in orthotopic GSC xenografts",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "temozolomide enhances GNAO1 adenovirus effects and extends animal survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "temozolomide further enhanced GNAO1 adenovirus effects, resulting in extended animal survival.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "engineering GNAO1 overexpression to induce neural differentiation of GSCs as a potential therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study presents that engineering GNAO1 overexpression-inducing neural differentiation of GSCs is a potential therapy strategy via synergistic inhibition of malignant proliferation and chemotherapy resistance.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

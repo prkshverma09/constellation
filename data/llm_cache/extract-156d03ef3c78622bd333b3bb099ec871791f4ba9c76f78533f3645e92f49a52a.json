@@ -1,0 +1,86 @@
+{
+  "pmid": "39310880",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A missense mutation c.1220C>G of KCN2A gene was recently identified in an infant with epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A missense mutation c.1220C>G of KCN2A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutant KV1.2_P407R subunits formed loss-of-function channels",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suppressed both KV1.2 and KV1.1 channel activities",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "early postnatal rat cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression of human KV1.2_P407R in early postnatal rat cortical neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "genetically engineered hESC-derived neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetically engineered hESC-derived neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "Gapmer antisense oligonucleotides (ASOs) targeted to c.1220C>G mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We hypothesize that Gapmer antisense oligonucleotides (ASOs) targeted to c.1220C>G mutation will selectively degrade the mutant mRNA while allowing the remaining wild-type (WT) subunits to form functional channels.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "Gapmer antisense oligonucleotides delivered in lipid nanoparticle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As a proof of principle, delivery of Gapmer packaged in lipid nanoparticle into cortical neurons selectively suppressed KV1.2_P407R over the WT protein expression, reversing the broadening of action potential duration, abrogating the EAD and leading to overall increase in potassium current.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,217 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "STXBP1-related disease sits in the Neurotransmitter release cycle research cluster.",
+          "edge_ids": [
+            "8b8a74101835d1d2"
+          ]
+        },
+        {
+          "text": "STX1B-related disease shares mechanism evidence with STXBP1.",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "VAMP2-related disease shares neurotransmitter release cycle processes with STXBP1.",
+          "edge_ids": [
+            "ca33d6f8f475990e"
+          ]
+        },
+        {
+          "text": "SNAP25-related disease shares neurotransmitter release cycle processes with STXBP1.",
+          "edge_ids": [
+            "fcb938d1b0386f7c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "The Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) exists for STXBP1-related disease.",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "The STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) already enrolls individuals with STXBP1-related disease.",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "This STXBP1/SYNGAP1 study maps to part of the DNM1-related disease phenotype profile (6 of 39 terms; 12% coverage).",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b",
+            "049ef546da3cdfdc",
+            "6df8a36e97901f12"
+          ]
+        },
+        {
+          "text": "Asociación Síndrome STXBP1 (Spain) and the European STXBP1 Consortium (ESCO) support this disease group.",
+          "edge_ids": [
+            "453d4be996145f4e",
+            "ba44da54694ec39f"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "DNM1-related disease overlaps only weakly with STXBP1 at the process level: both are annotated to vesicle organization, and overall similarity between the diseases is limited.",
+          "edge_ids": [
+            "6df8a36e97901f12",
+            "f1a54e7fce5ac22f",
+            "34c673fba26b1793"
+          ]
+        },
+        {
+          "text": "CACNA1A-related disease shares only one process with STXBP1 (Regulation of insulin secretion).",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "187be2699f417de6",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "SLC2A1-related disease shares only one process with STXBP1 (Regulation of insulin secretion).",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "5490966f0991bdf8",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "GRIN1-related disease shares only one process with STXBP1 (Neurexins and neuroligins).",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "Variant patterns differ: STXBP1 shows loss-of-function reports, while CACNA1A shows gain-of-function reports.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040"
+          ]
+        },
+        {
+          "text": "Variant patterns differ: STXBP1 shows loss-of-function reports, while GRIN1 shows gain-of-function reports.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730"
+          ]
+        },
+        {
+          "text": "Genotype–phenotype consistency in STXBP1 remains uncertain, with no clear correlations reported.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2",
+            "e362983ef11a54b1",
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Ingo Helbig (Children's Hospital of Philadelphia) links both STXBP1- and DNM1-related work and is listed on the STXBP1/SYNGAP1 natural history study.",
+          "edge_ids": [
+            "0bead7fade435d02",
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd",
+            "748b09f0bdfbb400"
+          ]
+        },
+        {
+          "text": "Sarah McKeown Ruggiero (Children's Hospital of Philadelphia) has published on both STXBP1- and DNM1-related disease.",
+          "edge_ids": [
+            "3e4ae99a27cf8209",
+            "54fc3ff5f2a9b51f",
+            "702d0b63ccf87eb4"
+          ]
+        },
+        {
+          "text": "Katherine L Helbig (Children's Hospital of Philadelphia) has published on both STXBP1- and DNM1-related disease.",
+          "edge_ids": [
+            "270b287e0a68cd44",
+            "4a0508e26e9d06db",
+            "6f44f9b5593572e3"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review the STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) to see if it can include DNM1-related disease and confirm Ingo Helbig as the contact for this study.",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416",
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b",
+            "049ef546da3cdfdc",
+            "6df8a36e97901f12",
+            "0bead7fade435d02",
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Current coverage of DNM1-related disease phenotypes by the STXBP1/SYNGAP1 study mapping is 12% (6 of 39 terms).",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "markdown": "## Who shares our characteristics\nSTXBP1-related disease sits in the Neurotransmitter release cycle research cluster. [8b8a74101835d1d2]\nSTX1B-related disease shares mechanism evidence with STXBP1. [ab5fe5ff268d13ba]\nVAMP2-related disease shares neurotransmitter release cycle processes with STXBP1. [ca33d6f8f475990e]\nSNAP25-related disease shares neurotransmitter release cycle processes with STXBP1. [fcb938d1b0386f7c]\n\n## What already exists\nThe Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) exists for STXBP1-related disease. [bc71e274e1c691ec]\nThe STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) already enrolls individuals with STXBP1-related disease. [dcec503694916ae3]\nThis STXBP1/SYNGAP1 study maps to part of the DNM1-related disease phenotype profile (6 of 39 terms; 12% coverage). [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b, 049ef546da3cdfdc, 6df8a36e97901f12]\nAsociación Síndrome STXBP1 (Spain) and the European STXBP1 Consortium (ESCO) support this disease group. [453d4be996145f4e, ba44da54694ec39f]\n\n## What differs and must be verified\nDNM1-related disease overlaps only weakly with STXBP1 at the process level: both are annotated to vesicle organization, and overall similarity between the diseases is limited. [6df8a36e97901f12, f1a54e7fce5ac22f, 34c673fba26b1793]\nCACNA1A-related disease shares only one process with STXBP1 (Regulation of insulin secretion). [34c9bc447921f8cb, 187be2699f417de6, 3a40a3f53a18b664]\nSLC2A1-related disease shares only one process with STXBP1 (Regulation of insulin secretion). [20c30f77dc2491fb, 5490966f0991bdf8, 3a40a3f53a18b664]\nGRIN1-related disease shares only one process with STXBP1 (Neurexins and neuroligins). [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nVariant patterns differ: STXBP1 shows loss-of-function reports, while CACNA1A shows gain-of-function reports. [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040]\nVariant patterns differ: STXBP1 shows loss-of-function reports, while GRIN1 shows gain-of-function reports. [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730]\nGenotype–phenotype consistency in STXBP1 remains uncertain, with no clear correlations reported. [b1f9e5eeafbc81d2, e362983ef11a54b1, ddc8cd6784a496fb]\n\n## Who to contact\nIngo Helbig (Children's Hospital of Philadelphia) links both STXBP1- and DNM1-related work and is listed on the STXBP1/SYNGAP1 natural history study. [0bead7fade435d02, 1787b8db0c61e674, 18e9e45f700b90dd, 748b09f0bdfbb400]\nSarah McKeown Ruggiero (Children's Hospital of Philadelphia) has published on both STXBP1- and DNM1-related disease. [3e4ae99a27cf8209, 54fc3ff5f2a9b51f, 702d0b63ccf87eb4]\nKatherine L Helbig (Children's Hospital of Philadelphia) has published on both STXBP1- and DNM1-related disease. [270b287e0a68cd44, 4a0508e26e9d06db, 6f44f9b5593572e3]\n\n## Proposed first joint step\nReview the STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) to see if it can include DNM1-related disease and confirm Ingo Helbig as the contact for this study. [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416, dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b, 049ef546da3cdfdc, 6df8a36e97901f12, 0bead7fade435d02, 1787b8db0c61e674, 18e9e45f700b90dd]\n\n## Search coverage\nCurrent coverage of DNM1-related disease phenotypes by the STXBP1/SYNGAP1 study mapping is 12% (6 of 39 terms). [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b]",
+  "usage": {
+    "input_tokens": 134284,
+    "output_tokens": 8808
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "maria",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "ef2c062f-e952-498f-b9af-d05665db961d",
+  "generated_at": "2026-10-04T11:11:44.901358+00:00",
+  "gap_plan": null,
+  "fallback_sections": [],
+  "model": "gpt-5",
+  "elapsed_ms": 112819,
+  "comparator_id": "MONDO:0957248"
+}

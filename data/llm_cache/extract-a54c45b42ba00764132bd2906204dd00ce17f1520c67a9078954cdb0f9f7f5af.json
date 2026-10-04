@@ -1,0 +1,16 @@
+{
+  "pmid": "21800092",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, we describe a critical region for the SZR phenotype which contains three genes (FAM36A, C1ORF199, and HNRNPU).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

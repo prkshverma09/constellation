@@ -1,0 +1,106 @@
+{
+  "pmid": "38845412",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "self-limited infantile epilepsy (SeLIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A variants cause a spectrum of epilepsy phenotypes ranging from self-limited infantile epilepsy (SeLIE) to developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A variants cause a spectrum of epilepsy phenotypes ranging from self-limited infantile epilepsy (SeLIE) to developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "last seizure after 3 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six had their last seizure after 3 years (range = 4-21 years);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "drug-responsive",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "although drug-responsive and despite multiple weaning attempts (1-5), five of six remain on antiseizure medications (carbamazepine, n = 3; lamotrigine, n = 2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "antiseizure medications (carbamazepine, lamotrigine)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five of six remain on antiseizure medications (carbamazepine, n = 3; lamotrigine, n = 2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure offset prior to 3 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nine of 22 (41%) had seizure offset prior to 3 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure offset between 3 and 10 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five of 22 (23%) had seizure offset between 3 and 10 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizures after 10 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "eight of 22 (36%) had seizures after 10 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizures into late childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data highlight that more than half of individuals with SCN8A-SeLIE continue to have seizures into late childhood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "more persistent form of epilepsy compared to other SeLIE etiologies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast to SeLIE due to other etiologies, many individuals have a more persistent, albeit drug-responsive, form of epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

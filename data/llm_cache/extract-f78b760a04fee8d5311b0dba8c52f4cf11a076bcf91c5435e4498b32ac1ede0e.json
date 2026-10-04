@@ -1,0 +1,16 @@
+{
+  "pmid": "33349918",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole-exome sequencing was performed on 59 patients who tested negative on customized epilepsy gene panel testing. We identified eight pathogenic or likely pathogenic sequence variants in eight different genes (FARS2, YWHAG, KCNC1, DYRK1A, SMC1A, PIGA, OGT, and FGF12),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

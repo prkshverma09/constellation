@@ -1,0 +1,36 @@
+{
+  "pmid": "41807755",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "PNKP is an essential DNA end-processing enzyme required for DSBR in transcribed genes; its activity is impaired in ALS and TDP-43-depleted cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "activity of polynucleotide kinase 3'-phosphatase (PNKP), an essential DNA end-processing enzyme required for DSBR in transcribed genes, is impaired in ALS brains and TDP-43-depleted cells.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "PNKP interacts with PFKFB3 and requires its metabolic product F2,6BP as an essential cofactor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Such defect stems from reduced levels of PNKP-interacting enzyme phosphofructo-2- kinase/fructose-2,6-bisphosphatase 3 (PFKFB3) and its metabolic product fructose-2,6- bisphosphate (F2,6BP), an essential cofactor of PNKP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "F2,6BP supplementation rescues PNKP activity in ALS/FTD brain extracts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rescues PNKP activity in ALS/FTD brain extracts",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "30866059",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified CNVs covering recently reported (HNRNPU) or emerging (RORB) epilepsy genes, and further delineated the phenotype associated with mutations of these genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

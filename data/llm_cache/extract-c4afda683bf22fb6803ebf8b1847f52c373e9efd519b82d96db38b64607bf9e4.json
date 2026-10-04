@@ -1,0 +1,26 @@
+{
+  "pmid": "37049959",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "regulated by scutellarin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It was found that the aberrant levels of glutamate receptors, including EAAT2, GRIN1, GRIN2B, and GRM1, as well as of other glutamatergic pathway-involving proteins, including CAMKK2, PSD95, and nNOS, were significantly regulated in the ischemic cortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "regulated by scutellarin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the hippocampus, EAAT2, GRIN1, nNOS, and CAM were significantly regulated.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

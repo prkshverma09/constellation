@@ -1,0 +1,16 @@
+{
+  "pmid": "37820178",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4 TBC1D24, 2 TH, and 1 PCDH19 (X chromosome) mutations were detected in three of the patients using the next-generation sequencing method.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

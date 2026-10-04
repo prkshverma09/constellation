@@ -1,0 +1,16 @@
+{
+  "pmid": "37536979",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "vinpocetine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Vinpocetine has been previously reported efficacious in a patient harboring a GABRB3 pathogenic variant, encoding another GABAA receptor subunit.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

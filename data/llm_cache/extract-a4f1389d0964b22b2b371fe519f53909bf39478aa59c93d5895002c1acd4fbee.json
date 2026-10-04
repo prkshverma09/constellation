@@ -1,0 +1,36 @@
+{
+  "pmid": "29089052",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "decreased_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chromatin-immunoprecipitation experiments revealed short-term (3 h, 7 h, and 24 h) and long-term (3 d and 2 weeks) changes in histone modifications, which were directly linked to decreased expression of two selected epilepsy target genes, e.g. excitatory glutamate receptor genes Gria2 and Grin2a.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "increased_promoter_methylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Increased promoter methylation observed 4 weeks after glutamate stimulation at respective genes suggested long-term repression of Gria2 and Grin2a genes.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "inhibition_of_glutamatergic_activation_or_blocking_action_potentials",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inhibition of glutamatergic activation or blocking the propagation of action potentials in cultured neurons rescued altered gene expression and regulatory epigenetic modifications.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

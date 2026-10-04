@@ -1,0 +1,96 @@
+{
+  "pmid": "37467479",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eighty per cent of patients with Dravet syndrome have a mutation in SCN1A, encoding Nav1.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "GEFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Milder clinical phenotypes, such as GEFS+ (generalized epilepsy with febrile seizures plus), can also arise from SCN1A mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "loss of Na+ current in inhibitory neurons leading to disinhibition and seizure generation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of Na+-current in inhibitory neurons was recognized specifically to result in disinhibition and consequently seizure generation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "patient-derived excitatory neuronal networks differentiated on multi-electrode arrays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we investigated a panel of patient-derived excitatory neuronal networks differentiated on multi-electrode arrays.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specifically, loss-of-function mutations could be distinguished from missense mutations,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specifically, loss-of-function mutations could be distinguished from missense mutations,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "mutations in the pore domain have different effects than mutations in the voltage sensing domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the pore domain could be distinguished from mutations in the voltage sensing domain.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "aggravated neuronal network responses at febrile temperatures compared with controls",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, all patients showed aggravated neuronal network responses at febrile temperatures compared with controls.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "anti-seizure medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "retrospective drug screening revealed that anti-seizure medication affected GEFS+ patient- but not Dravet patient-derived neuronal networks in a patient-specific and clinically relevant manner.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

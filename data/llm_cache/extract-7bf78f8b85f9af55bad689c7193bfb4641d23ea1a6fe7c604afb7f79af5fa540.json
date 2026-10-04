@@ -1,0 +1,26 @@
+{
+  "pmid": "41931178",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "KCNT2 protein upregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PAE upregulated KCNT2 and NR1D1 proteins",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "mitochondrial oxidative stress and neuronal damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PAE alleviates mitochondrial oxidative stress and neuronal damage via the KCNT2/NR1D1 pathway",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

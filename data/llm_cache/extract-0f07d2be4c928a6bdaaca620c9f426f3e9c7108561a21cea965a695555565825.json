@@ -1,0 +1,66 @@
+{
+  "pmid": "37176165",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "encodes the GABAA receptor (GABAAR) β3 subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in GABRB3 that encodes the GABAA receptor (GABAAR) β3 subunit.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "heterozygous knock-in mouse expressing Gabrb3 (c.A982G, p.N238D)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated a heterozygous knock-in mouse expressing Gabrb3 (c.A982G, p.N238D), a de novo mutation identified in a patient with LGS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/N328D mice showed spontaneous seizures and signs of cognitive impairment, including deficits in spatial learning, memory, and locomotion.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "deficits in spatial learning, memory, and locomotion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/N328D mice showed spontaneous seizures and signs of cognitive impairment, including deficits in spatial learning, memory, and locomotion.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced β3 subunit expression in the cerebellum, hippocampus, and thalamus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/N328D mice showed reduced β3 subunit expression in the cerebellum, hippocampus, and thalamus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "provide a good model for investigating the pathophysiology and therapeutic intervention of LGS and DEEs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/N328D mice provide a good model for investigating the pathophysiology and therapeutic intervention of LGS and DEEs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

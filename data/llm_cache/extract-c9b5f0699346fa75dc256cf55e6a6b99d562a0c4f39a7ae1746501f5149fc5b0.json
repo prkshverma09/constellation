@@ -1,0 +1,76 @@
+{
+  "pmid": "26371875",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "infantile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile myoclonic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS (deafness, onychodystrophy, osteodystrophy, mental retardation and seizures)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DOORS (deafness, onychodystrophy, osteodystrophy, mental retardation and seizures)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NSHL (non-syndromic hearing loss)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.641G>A (p.Arg214His)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that it acts as an hypomorphic variant leading to restricted deafness when combined with another recessive severe mutation.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in TBC1D24 gene are a frequent cause (>2%) of NSHL in Morocco",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

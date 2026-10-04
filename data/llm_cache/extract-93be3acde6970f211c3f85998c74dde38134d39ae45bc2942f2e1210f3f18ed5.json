@@ -1,0 +1,26 @@
+{
+  "pmid": "37939785",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic testing yielded pathogenic mTOR pathway variants in 63% patients, including somatic MTOR variants in 47% operated patients and germline DEPDC5 or NPRL3 variants in 73% patients with familial focal epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline DEPDC5 or NPRL3 variants in 73% patients with familial focal epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

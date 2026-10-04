@@ -1,0 +1,26 @@
+{
+  "pmid": "33919872",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "tyrosine phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AMPAR antagonists reduced GRIA2 tyrosine (Y) phosphorylations in responders",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they did not affect GRIA2 surface expression and protein interacting with C kinase 1 (PICK1) protein level in both responders and non-responders.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

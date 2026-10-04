@@ -1,0 +1,46 @@
+{
+  "pmid": "29649454",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy onset 1-6 m",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset of most epilepsy caused by SCN1A mutations (1-6 m) was later than that of SCN2A mutations (neonatal).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A mutations included truncating mutations and missense mutations occurred in the crucial region were associated with more severe phenotypes and developmental delay (85.7%, P = 0.020).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "focal epileptiform discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with SCN1A mutations showed more focal epileptiform discharges (69.2%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers were less effective for patients with SCN1A mutations and SCN2A mutations with early seizures onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36154780",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ganaxolone for seizures in Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

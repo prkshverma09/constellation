@@ -1,0 +1,26 @@
+{
+  "pmid": "41137852",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequently implicated genes were SLC2A1, SLC6A1, SYNGAP1, CHD2, and SCN1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disease-specific therapies (e.g., ketogenic diet in SLC2A1, stiripentol/fenfluramine in SCN1A) were effective in select cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

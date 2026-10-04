@@ -1,0 +1,146 @@
+{
+  "pmid": "25769375",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found a homozygous missense mutation, c.457G>A/p.Glu153Lys, in the two affected brothers.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "infantile-onset myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report on the electro-clinical features of two brothers, born to first-cousin parents, affected with infantile-onset myoclonic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "very early onset of focal myoclonic fits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patients had very early onset of focal myoclonic fits with variable topography, lasting a few minutes to several hours, without loss of consciousness, which frequently evolved to generalized myoclonus or myoclonic status.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "reflex myoclonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reflex myoclonia were noticed in one patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological outcome was marked by moderate intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "normal background rhythm and rare interictal spikes and waves",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Despite the high frequency of seizures, repeated EEG recordings showed normal background rhythm and rare interictal spikes and waves.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-responsive, early-onset idiopathic myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the TBC1D24 gene were first reported in an Italian family with a unique epileptic phenotype consisting of drug-responsive, early-onset idiopathic myoclonic seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "isolated bilateral or focal myoclonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presented with isolated bilateral or focal myoclonia, which could evolve to long-lasting attacks without loss of consciousness, with a peculiar reflex component, and were associated with generalized tonic-clonic seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presented with isolated bilateral or focal myoclonia, which could evolve to long-lasting attacks without loss of consciousness, with a peculiar reflex component, and were associated with generalized tonic-clonic seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of various seizure types and severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More recently, TBC1D24 mutations have been shown to cause a variable range of disorders, including epilepsy of various seizure types and severity, non-syndromic deafness, and DOORS syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More recently, TBC1D24 mutations have been shown to cause a variable range of disorders, including epilepsy of various seizure types and severity, non-syndromic deafness, and DOORS syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More recently, TBC1D24 mutations have been shown to cause a variable range of disorders, including epilepsy of various seizure types and severity, non-syndromic deafness, and DOORS syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "FIME",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This observation combined with recent data from the literature, suggest that mutations in TBCD24 cause a pathological continuum, with FIME at the \"benign\" end and severe drug-refractory epileptic encephalopathy on the severe end.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe drug-refractory epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This observation combined with recent data from the literature, suggest that mutations in TBCD24 cause a pathological continuum, with FIME at the \"benign\" end and severe drug-refractory epileptic encephalopathy on the severe end.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

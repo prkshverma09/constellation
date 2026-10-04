@@ -1,0 +1,156 @@
+{
+  "pmid": "41193790",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Tg(hGABRG2I107T) zebrafish",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we generated a transgenic zebrafish line, Tg(hGABRG2I107T), harboring the GABRG2(I107T) mutation associated with developmental and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "HEK293T cells transfected with the mutant γ2(I107T)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HEK293T cells transfected with the mutant γ2(I107T) exhibited significant reductions in TCA-related gene expression, ATP levels, and mitochondrial density.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizure-like behaviors and hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spontaneous seizure-like behaviors and hyperexcitability",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "increased total γ2 subunit expression and reduced cell membrane localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Total γ2 subunit expression increased and its cell membrane localization was reduced.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "impairing receptor trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairing receptor trafficking",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "may induce ER stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may induce ER stress",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "disrupt inflammatory and metabolic pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disrupt inflammatory and metabolic pathways",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "indicative of an excitatory/inhibitory imbalance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicative of an excitatory/inhibitory imbalance",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "disrupted neuronal marker expression and abnormal synaptic ultrastructure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disrupted neuronal marker expression and abnormal synaptic ultrastructure",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "differentially expressed genes in the brain were enriched in the endoplasmic reticulum (ER) protein processing, metabolic pathway, and TGF-β signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "differentially expressed genes in the brain were enriched in the endoplasmic reticulum (ER) protein processing, metabolic pathway, and TGF-β signaling pathway.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "Pro-inflammatory factors were upregulated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pro-inflammatory factors were upregulated",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "genes involved in the tricarboxylic acid (TCA) cycle were downregulated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genes involved in the tricarboxylic acid (TCA) cycle were downregulated.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "reductions in TCA-related gene expression, ATP levels, and mitochondrial density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant reductions in TCA-related gene expression, ATP levels, and mitochondrial density",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "dexamethasone and INCB3344",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pharmacological intervention with dexamethasone and INCB3344, a C-C chemokine receptor type 2 antagonist, ameliorated seizure-like behavior in Tg(hGABRG2I107T) zebrafish",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "causal role of neuroinflammation in epileptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "further supporting the causal role of neuroinflammation in epileptogenesis in genetic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

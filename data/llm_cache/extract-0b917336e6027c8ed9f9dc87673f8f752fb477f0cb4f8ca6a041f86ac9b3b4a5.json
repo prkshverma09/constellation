@@ -1,0 +1,186 @@
+{
+  "pmid": "37700749",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five subjects carrying heterozygous missense genetic variants in SLC6A1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 pathogenic variants have been associated with epilepsy and neurodevelopmental disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 pathogenic variants have been associated with epilepsy and neurodevelopmental disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "different seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype includes different seizure types, intellectual disability, and psychiatric symptoms affecting mood and behavior.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype includes different seizure types, intellectual disability, and psychiatric symptoms affecting mood and behavior.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric symptoms affecting mood and behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype includes different seizure types, intellectual disability, and psychiatric symptoms affecting mood and behavior.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "borderline intellectual functioning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three patients had borderline intellectual functioning",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "mild cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one patient had mild cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "moderate cognitive disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one patient presented with a moderate cognitive disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "worsening of cognitive functions over time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which revealed a worsening of cognitive functions over time.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "attention deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We detected attention deficits in all patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we observed anxiety, disruptive behavior disorder, emotional instability, and hetero aggressiveness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "disruptive behavior disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we observed anxiety, disruptive behavior disorder, emotional instability, and hetero aggressiveness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "emotional instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we observed anxiety, disruptive behavior disorder, emotional instability, and hetero aggressiveness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "hetero aggressiveness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we observed anxiety, disruptive behavior disorder, emotional instability, and hetero aggressiveness.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "mild-to-moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most of the patients with SLC6A1 pathogenic variants have mild-to-moderate intellectual disability",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autistic traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one-third of cases have autistic traits.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "Periodic standardized neuropsychological tests and patient-specific rehabilitation programs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Periodic standardized neuropsychological tests may be useful tools to follow development over time, and patient-specific rehabilitation programs could be tailored consistently.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

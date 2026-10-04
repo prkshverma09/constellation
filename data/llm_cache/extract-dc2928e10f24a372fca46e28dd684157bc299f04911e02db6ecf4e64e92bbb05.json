@@ -1,0 +1,126 @@
+{
+  "pmid": "37132416",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin 1 is a GTPase protein involved in synaptic vesicle fission, which facilitates the exocytosis of neurotransmitters necessary for normal signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the DNM1 gene are associated with intractable epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often manifested as infantile spasms at onset",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 36-year-old man with autism and moderate intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderate intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "experienced only a few generalized seizures between the age 16 and 30 years",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1994T>C p.(Leu665Pro) de novo novel missense pathogenic variant in the GTPase effector domain (GED) of the DNM1 protein.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Structural analyses suggest that this substitution impairs both the stalk formation and its interactions",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "GTPase and middle domains of the protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are located in the GTPase and middle domains of the protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "autism and mild epilepsy (adolescent onset)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "linking a variant in the GED domain with autism and onset in the adolescence of mild epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

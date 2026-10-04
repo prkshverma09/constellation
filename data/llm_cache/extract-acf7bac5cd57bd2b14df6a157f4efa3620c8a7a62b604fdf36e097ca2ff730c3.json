@@ -1,0 +1,86 @@
+{
+  "pmid": "36997609",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and Epileptic Encephalopathy 9 (DEE9)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in PCDH19 gene, which encodes protocadherin-19 (PCDH19), cause Developmental and Epileptic Encephalopathy 9 (DEE9).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterogeneous loss of PCDH19 expression in neurons is considered a key determinant of the disorder;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Pcdh19 mosaic mice (conditional knockout mouse model)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the hippocampus of Pcdh19 mosaic mice is characterized by structural and functional synaptic defects and by the presence of PCDH19-negative hyperexcitable neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "structural and functional synaptic defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the hippocampus of Pcdh19 mosaic mice is characterized by structural and functional synaptic defects",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "PCDH19-negative hyperexcitable neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the presence of PCDH19-negative hyperexcitable neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "reduced firing rate and increased neuronal synchronization in limbic areas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global reduction of network firing rate and increased neuronal synchronization have been observed in different limbic system areas.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "decrease in excitatory/inhibitory ratio and functional hyperconnectivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed a decrease in excitatory/inhibitory ratio and functional hyperconnectivity within the limbic system of Pcdh19 mosaic mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "altered expression affects circuit wiring and functioning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered PCDH19 expression profoundly affects circuit wiring and functioning,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

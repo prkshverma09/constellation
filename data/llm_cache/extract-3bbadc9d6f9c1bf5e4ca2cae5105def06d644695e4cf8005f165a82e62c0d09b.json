@@ -1,0 +1,16 @@
+{
+  "pmid": "17181426",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the discovery of KCNQ2 mutations in benign familial neonatal convulsions",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "37782669",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous de novo loss-of-function mutations in the gene expression regulator HNRNPU cause an early-onset developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "model",
+      "object_text": "mouse model of HNRNPU haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mouse model of HNRNPU haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "impaired ultrasonic vocalizations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired ultrasonic vocalizations",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "cognitive dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "increased seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased seizure susceptibility",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "the gene expression regulator HNRNPU",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gene expression regulator HNRNPU",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "widespread, yet modest, dysregulation of gene expression across mutant neuronal subtypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed widespread, yet modest, dysregulation of gene expression across mutant neuronal subtypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "increased burden of differentially-expressed genes in mutant excitatory neurons of the subiculum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased burden of differentially-expressed genes in mutant excitatory neurons of the subiculum-a region of the hippocampus implicated in temporal lobe epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "therapy",
+      "object_text": "transcriptomic signature reversal as a therapeutic strategy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Evaluation of transcriptomic signature reversal as a therapeutic strategy",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

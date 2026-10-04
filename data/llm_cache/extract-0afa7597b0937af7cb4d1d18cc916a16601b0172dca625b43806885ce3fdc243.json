@@ -1,0 +1,96 @@
+{
+  "pmid": "30818898",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a family with inherited generalized epilepsy with febrile seizures plus (GEFS+) caused by STX1B gene mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "frequent epileptic seizures with focal seizures evolving into generalized bilateral tonic-clonic attacks after febrile seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "frequent epileptic seizures in a month, with focal seizures evolving into the generalized bilateral tonic-clonic epileptic attacks after febrile seizure.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizure in early childhood and epilepsy in adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His father presented febrile seizure in early childhood stage and epilepsy in adult stage",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "history of febrile seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The proband's grandmother had a history of febrile seizure.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "incomplete penetrance / clinical heterogeneity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was incomplete penetrance in the family, so different types of epileptic attacks occurred among different family members.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "sensitivity to antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures caused by STX1B gene mutation were sensitive to antiepileptic drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam controlled seizures in the proband",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His seizures were well controlled by levetiracetam.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "lamotrigine controlled father's seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which were under control with lamotrigine.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of these mutations, there were 5 missense mutations, 3 nonsense mutations, 1 insert mutation and 1 deletion mutation;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

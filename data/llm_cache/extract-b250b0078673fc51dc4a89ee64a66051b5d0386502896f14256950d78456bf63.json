@@ -1,0 +1,46 @@
+{
+  "pmid": "24076350",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with febrile seizures (EFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found significant association between SCN1A polymorphism and EFS (A vs. G: OR=1.498, 95%CI=1.138-1.972; AA vs. GG: OR=2.292, 95%CI=1.620-3.243; AG vs. GG: OR=1.414, 95%CI=1.010-1.978; recessive model: OR=1.747, 95%CI=1.119-2.728 and dominant model: OR=1.730, 95%CI=1.259-2.376).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "EFS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the SNP was significantly associated with EFS in Caucasian (A vs. G: OR=1.505, 95%CI=1.218-1.861; AA vs. GG: OR=2.081, 95%CI=1.358-3.189; recessive model: OR=1.715, 95%CI=1.273-2.310 and dominant model: OR=1.625, 95%CI=1.096-2.410)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "EFS",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "but not in Indian and Chinese.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "EFS and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The present meta-analysis suggests that SCN1A IVS5N+5G>A polymorphism is a risk factor of EFS and epilepsy, especially in Caucasian.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

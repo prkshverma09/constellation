@@ -1,0 +1,36 @@
+{
+  "pmid": "29426806",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "pathognomonic electro-clinical phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathognomonic electro-clinical phenotypes such as the ones associated with KCNQ2 or KCNT1 gene mutation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "precision medicine treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 gene mutation, when recognized early, can lead to targeted diagnostic testing and precision medicine treatment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "neonatal-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We review some common neonatal-onset epilepsies and emphasize how pathognomonic electro-clinical phenotypes such as the ones associated with KCNQ2 or KCNT1 gene mutation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

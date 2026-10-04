@@ -1,0 +1,56 @@
+{
+  "pmid": "41340537",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous de novo and inherited biallelic pathogenic variants in DNM1 have been reported in association with autosomal dominant (AD) and autosomal recessive (AR) developmental and epileptic encephalopathy, respectively",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "aberrant dynamin function or expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "due to aberrant dynamin function or expression",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the de novo dominant negative-associated c.194C>A (p.Thr65Asn)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the maternally inherited loss of function-associated c.850C>T (p.Gln284*)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "early infantile developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1-related early infantile developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

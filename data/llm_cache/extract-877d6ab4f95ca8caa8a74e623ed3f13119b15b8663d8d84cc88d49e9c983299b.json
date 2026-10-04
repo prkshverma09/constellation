@@ -1,0 +1,16 @@
+{
+  "pmid": "34153113",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic epilepsies were associated with pathogenic variants in KCNQ2 (n = 12), KCNQ3 (n = 2), SCN2A (n = 2), KCNT1 (n = 1), PRRT2 (n = 1), and BRAT1 (n = 2).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

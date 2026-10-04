@@ -1,0 +1,146 @@
+{
+  "pmid": "10818139",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glycine concentration-response curves from acutely dissociated hippocampal neurons revealed a 5- and 86-fold reduction in receptor glycine affinity in mice carrying Grin1(D481N) and Grin1(K483Q) mutations, respectively",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "receptor glutamate affinity remained unaffected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas receptor glutamate affinity remained unaffected.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "Grin1(D481N) homozygous mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous mutant Grin1(D481N) animals are viable and fertile and appear to develop normally.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "low birth weight, failure to feed, neonatal death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous mutant Grin1(K483Q) animals are significantly lighter at birth, do not feed, and die within a few days.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "no gross CNS anatomical abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No gross abnormalities in CNS anatomy were detected in either Grin1(D481N) or Grin1(K483Q) mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "changes in expression levels of NMDA receptor subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in situ hybridization and Western blot analysis revealed changes in the expression levels of NMDA receptor subunits in Grin1(D481N) mice relative to wild type",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "compensatory response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that may represent a compensatory response to the reduction in receptor glycine affinity.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "deficits in hippocampal theta burst-induced long-term potentiation (LTP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grin1(D481N) mice exhibited deficits in hippocampal theta burst-induced long-term potentiation (LTP) and spatial learning",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "deficits in spatial learning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grin1(D481N) mice exhibited deficits in hippocampal theta burst-induced long-term potentiation (LTP) and spatial learning",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "reduction in sensitivity to NMDA-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and also a reduction in sensitivity to NMDA-induced seizures relative to wild-type controls",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "normal prepulse inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutant mice exhibited normal prepulse inhibition but showed increased startle reactivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "increased startle reactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutant mice exhibited normal prepulse inhibition but showed increased startle reactivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "decreased natural aversion to an exposed environment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Preliminary analysis indicated that the mice exhibit a decreased natural aversion to an exposed environment.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDA receptor activation is critical for neonatal survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The lethal phenotype of Grin1(K483Q) animals confirms the critical role of NMDA receptor activation in neonatal survival.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

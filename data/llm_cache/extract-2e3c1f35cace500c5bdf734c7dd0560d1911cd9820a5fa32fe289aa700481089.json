@@ -1,0 +1,16 @@
+{
+  "pmid": "36604176",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Rare missense variants in NPRL2 and NPRL3 did not segregate with epilepsy in families, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

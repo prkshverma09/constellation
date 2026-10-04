@@ -1,0 +1,16 @@
+{
+  "pmid": "38959648",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five patients had genetic epilepsies, including PCDH19- and MECP2-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

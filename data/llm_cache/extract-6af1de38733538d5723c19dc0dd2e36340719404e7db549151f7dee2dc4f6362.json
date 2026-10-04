@@ -1,0 +1,56 @@
+{
+  "pmid": "42332879",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report monozygotic twins with HNRNPU-related neurodevelopmental disorder who harbor two closely spaced mosaic single-nucleotide deletions on the same allele (c.1463del [p.Pro488Glnfs∗13] and c.1466del [p.Lys489Argfs∗12]).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "clustered monoallelic mosaicism (cMoMa)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We term this rare genotypic configuration clustered monoallelic mosaicism (cMoMa).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "variants mutually exclusive on individual DNA molecules resulting in three distinct cellular lineages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The variants are mutually exclusive on individual DNA molecules and result in three distinct cellular lineages within each individual.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "single mutational event in an early embryonic cell yielding divergent outcomes on sister chromatids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Based on our analysis, we propose that this genotype arises from a single mutational event in an early embryonic cell, yielding divergent outcomes on sister chromatids.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "cMoMa-like cases identified in COSMIC and MosaicBase suggesting a broader path of mutagenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Screening of large datasets (COSMIC and MosaicBase) identified additional cMoMa-like cases, suggesting that the mechanism is not unique to our case but may represent a broader, previously unrecognized path of mutagenesis that extends our current definition of mosaicism.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

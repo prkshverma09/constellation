@@ -1,0 +1,16 @@
+{
+  "pmid": "36749655",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "promoter hypomethylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypomethylation at the promoters of genes involved in neuroactive ligand-receptor interaction and cell adhesion molecules such as GABRB3, CLDN8, and CLDN4 was also observed, suggesting that cells from primary tumors may require specific reprogramming to form brain metastasis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

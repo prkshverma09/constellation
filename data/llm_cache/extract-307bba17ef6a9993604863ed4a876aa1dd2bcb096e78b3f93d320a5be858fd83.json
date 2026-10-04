@@ -1,0 +1,36 @@
+{
+  "pmid": "36161652",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with GRIA2 variants typically causing AMPAR loss of function.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel, heterozygous de novo pathogenic missense mutation in GRIA2 (c.1928 C>T, p.A643V, NM_001083619.1)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluA2 A643V-containing AMPARs to exhibit a novel gain of function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

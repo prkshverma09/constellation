@@ -1,0 +1,136 @@
+{
+  "pmid": "34006619",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "encodes GAT-1, a major gamma-aminobutyric acid (GABA) transporter in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 encodes GAT-1, a major gamma-aminobutyric acid (GABA) transporter in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "maintains neurotransmitter homeostasis by removing excess GABA from the synaptic cleft",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GAT-1 maintains neurotransmitter homeostasis by removing excess GABA from the synaptic cleft.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 disrupt the reuptake of GABA",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including missense (15/21 or 71%) and truncating variants (6/21 or 29%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "Missense variants clustered around the sixth and seventh transmembrane domains (GABA binding pocket)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants were largely clustered around the sixth and seventh transmembrane domains, which functions as a GABA binding pocket.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability/developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "language disorder/speech delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "sleep issues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of individuals with pathogenic variants in SLC6A1 includes hypotonia, intellectual disability/developmental delay, language disorder/speech delay, autism spectrum disorder, sleep issues and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "behaviour problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1 are associated with a clinical phenotype of developmental delay, behaviour problems and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "new treatments for GABA-related conditions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Understanding of the genotype-phenotype correlation within SLC6A1 may provide opportunities to develop new treatments for GABA-related conditions.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "20308251",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy (CAE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3, GABRG2 and GABRD) have been associated with genetic epilepsy syndromes including childhood absence epilepsy (CAE)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "juvenile myoclonic epilepsy (JME)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3, GABRG2 and GABRD) have been associated with genetic epilepsy syndromes including childhood absence epilepsy (CAE), juvenile myoclonic epilepsy (JME)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "pure febrile seizures (FS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3, GABRG2 and GABRD) have been associated with genetic epilepsy syndromes including childhood absence epilepsy (CAE), juvenile myoclonic epilepsy (JME), pure febrile seizures (FS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3, GABRG2 and GABRD) have been associated with genetic epilepsy syndromes including childhood absence epilepsy (CAE), juvenile myoclonic epilepsy (JME), pure febrile seizures (FS), generalized epilepsy with febrile seizures plus (GEFS+)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS)/severe myoclonic epilepsy in infancy (SMEI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3, GABRG2 and GABRD) have been associated with genetic epilepsy syndromes including childhood absence epilepsy (CAE), juvenile myoclonic epilepsy (JME), pure febrile seizures (FS), generalized epilepsy with febrile seizures plus (GEFS+), and Dravet syndrome (DS)/severe myoclonic epilepsy in infancy (SMEI).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "altering receptor function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations are found in both translated and untranslated gene regions and have been shown to affect the GABAA receptors by altering receptor function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "impairing receptor biogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations are found in both translated and untranslated gene regions and have been shown to affect the GABAA receptors by altering receptor function and/or by impairing receptor biogenesis",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reducing subunit mRNA transcription or stability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations are found in both translated and untranslated gene regions and have been shown to affect the GABAA receptors by ... impairing receptor biogenesis by multiple mechanisms including reducing subunit mRNA transcription or stability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "impairing subunit folding, stability, or oligomerization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "... by multiple mechanisms including reducing subunit mRNA transcription or stability, impairing subunit folding, stability, or oligomerization",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "inhibiting receptor trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "... impairing subunit folding, stability, or oligomerization and by inhibiting receptor trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

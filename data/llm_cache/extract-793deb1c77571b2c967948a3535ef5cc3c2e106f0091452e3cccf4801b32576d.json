@@ -1,0 +1,16 @@
+{
+  "pmid": "36204995",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "early-stage neurodevelopmental marker",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "no significant differences in either early- (PAX6, FOXG1) or late-stage (CTIP2, TBR1) neurodevelopmental markers.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

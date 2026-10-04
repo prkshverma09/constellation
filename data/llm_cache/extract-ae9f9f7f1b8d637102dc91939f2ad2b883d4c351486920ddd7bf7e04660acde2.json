@@ -1,0 +1,16 @@
+{
+  "pmid": "39950246",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "psychosis of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-nine percent of the patients with POE with genetic data had a rare pathogenic variant: 19 in an epilepsy gene (PCDH19, SCN1A, DEPDC5, KCNT1, CHD2, SLC2A1, NPRL3, CLN3, NPRL3, ATP1A3, and CACNA1A)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

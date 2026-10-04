@@ -1,0 +1,86 @@
+{
+  "pmid": "27296483",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "reader of epigenetic information contained in methylated (and hydroxymethylated) DNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is a reader of epigenetic information contained in methylated (and hydroxymethylated) DNA",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "moving from the 'classical' CpG doublet to the more complex view addressed by the non-CpG methylation, which is a feature of the postnatal brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moving from the 'classical' CpG doublet to the more complex view addressed by the non-CpG methylation, which is a feature of the postnatal brain",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 is a transcriptional repressor",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional activator",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it can become a transcriptional activator",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "repression of inappropriate expression from repetitive elements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "repression of inappropriate expression from repetitive elements",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "regulation of pericentric heterochromatin condensation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the regulation of pericentric heterochromatin condensation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome, which is caused by MECP2 mutations, is considered a paradigmatic example of a 'chromatin disorder'",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "maintenance of chromatin architecture",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the role of MeCP2 in the maintenance of chromatin architecture appears to be clearly established",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

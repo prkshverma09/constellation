@@ -1,0 +1,16 @@
+{
+  "pmid": "39201431",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "upregulated expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of NRXNs and NLGNs in the neural stem cells upregulated the expression of synaptophysin, PSD95, VAMP2, and synapsin, which are synaptic markers.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

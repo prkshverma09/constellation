@@ -1,0 +1,76 @@
+{
+  "pmid": "35815844",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy-37 (DEE37)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic pathogenic variants in the FRRS1L gene are now known to cause developmental and epileptic encephalopathy-37 (DEE37).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It can also be associated with chorea and continuous spikes and waves during sleep (CSWS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "continuous spikes and waves during sleep (CSWS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It can also be associated with chorea and continuous spikes and waves during sleep (CSWS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental regression was found in 80% of the patients,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset (mean age 18 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mean age of seizure onset was 18 months,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "ESES or slow spike and wave on the EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ESES or slow spike and wave on the EEG were reported mostly in the older patients (median age of 11 years)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "hypsarrhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypsarrhythmia was reported in younger patients (median age of 4 years).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

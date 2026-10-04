@@ -1,0 +1,136 @@
+{
+  "pmid": "41385967",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "γ-aminobutyric acid (GABA) transporter 1 (GAT-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1, encoding γ-aminobutyric acid (GABA) transporter 1 (GAT-1),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "present with seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "motor difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "social deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "social deficits",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Slc6a1+/S295L knock-in mouse model of DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1+/S295L knock-in mouse model of DEE",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "prolonged righting reflexes in neonates; reduced locomotion at 1 month",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1+/S295L mice exhibited prolonged righting reflexes in neonates and reduced locomotion at 1 month of age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "traveled less distance; spent less time hanging; changes in sleep patterns",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In home cage monitoring, Slc6a1+/S295L mice traveled less distance at 1 and 7 months; spent less time hanging at 1, 7, and 10 months; and showed changes in sleep patterns at 7 and 10 months.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Acute treatment with intraperitoneal PBA (100 mg/kg/day for 7 days) improved travel at 1 month (27 %) and hanging at 1 month (35 %) and 7 months (24 %).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic oral PBA treatment (100 mg/kg/day for 28 days) at 7 months further improved hanging (56 %) and travel (16 %).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both acute and chronic PBA treatments increased sleep in the mutant mouse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PBA not only reduces seizures but also mitigates comorbidities including motor and behavioral outcomes in SLC6A1 DEE, supporting its potential as a disease-modifying therapy.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

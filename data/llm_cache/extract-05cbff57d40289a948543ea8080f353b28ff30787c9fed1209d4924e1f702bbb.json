@@ -1,0 +1,66 @@
+{
+  "pmid": "39542017",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the SMC1A gene are often dominant-negative",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "an X-linked form of Cornelia de Lange syndrome (CdLS) with growth retardation and typical facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cause an X-linked form of Cornelia de Lange syndrome (CdLS) with growth retardation and typical facial features",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE) with intractable early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rare SMC1A variants cause a developmental and epileptic encephalopathy (DEE) with intractable early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy; walking disorder; neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we describe an 11-year-old girl with epilepsy, walking disorder, and neurodevelopmental disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "mixed, sensory-motor, chronic 4-limb polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A neurophysiological examination of nerve conduction velocity showed a mixed, sensory-motor, chronic 4-limb polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe sensory-motor polyneuropathy could be an expansion of the SMC1A-related phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe sensory-motor polyneuropathy could be an expansion of the SMC1A-related phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

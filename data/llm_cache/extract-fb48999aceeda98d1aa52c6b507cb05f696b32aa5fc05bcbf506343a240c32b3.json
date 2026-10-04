@@ -1,0 +1,16 @@
+{
+  "pmid": "40533913",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recurrent variants in EIF2AK2, VPS16, KCNMA1, and SLC2A1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

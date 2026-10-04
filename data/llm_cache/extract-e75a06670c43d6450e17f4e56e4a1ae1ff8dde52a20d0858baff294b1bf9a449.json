@@ -1,0 +1,16 @@
+{
+  "pmid": "22341151",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "Hemiconvulsion-Hemiplegia-Epilepsy (HHE) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We draw new hypothesis that may explain the involvement of one hemisphere such as maturation of brain structure such as corpus callosum or genetic factors (CACNA1A gene) that are specifically discussed.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

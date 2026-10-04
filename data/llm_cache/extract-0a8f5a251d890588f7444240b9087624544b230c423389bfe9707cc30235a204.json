@@ -1,0 +1,16 @@
+{
+  "pmid": "31394400",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including pathogenic variants in KCNB1 (n = 2), GNAO1 (n = 1), STXBP1 (n = 1), SLC35A2 (n = 1), TBL1XR1 (n = 1), and KIF1A (n = 1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

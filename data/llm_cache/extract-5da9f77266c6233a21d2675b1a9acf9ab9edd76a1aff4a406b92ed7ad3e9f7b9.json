@@ -1,0 +1,26 @@
+{
+  "pmid": "19578124",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "DYT18",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1/DYT18",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven autosomal dominant (TOR1A/DYT1, GCH1/DYT5a, THAP1/DYT6, PNKD1/MR-1/DYT8, SGCE/DYT11, ATP1A3/DYT12 and SLC2A1/DYT18)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

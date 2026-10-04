@@ -1,0 +1,16 @@
+{
+  "pmid": "39843912",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "dysregulated in male offspring neural stem cells after prenatal BPA exposure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with ASD-related genes such as Atp1a3, Nefl, and Grin1 being particularly dysregulated in male offspring.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

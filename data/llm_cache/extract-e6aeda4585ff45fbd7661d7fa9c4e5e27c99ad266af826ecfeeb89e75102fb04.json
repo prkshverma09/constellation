@@ -1,0 +1,116 @@
+{
+  "pmid": "35655584",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 developmental and epileptic encephalopathy (DEE)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo STXBP1 variants and a history of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "active epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "65% of individuals (31/48) had active epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "remission within the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "76% of those (13/17) achieved remission within the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairment and/or neurologic abnormalities before epilepsy onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-two individuals (46%) showed signs of developmental impairment and/or neurologic abnormalities before epilepsy onset",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "later seizure onset associated with better developmental outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age at seizure onset correlated with severity of developmental outcome and the developmental milestones achieved, with a later seizure onset associated with better developmental outcome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure remission and epilepsy duration did not affect neurodevelopmental outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, age at seizure remission and epilepsy duration did not affect neurodevelopmental outcomes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "no clear genotype-phenotype correlation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, we did not observe a clear genotype-phenotype correlation",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "similar phenotype and parallel disease course in monozygotic twins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "monozygotic twins with de novo STXBP1 variant showed similar phenotype and parallel disease course",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "early seizure remission or drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disease course in STXBP1-DEE presents with 2 main trajectories, with either early seizure remission or drug-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "mild to profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a range of neurodevelopmental outcomes from mild to profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

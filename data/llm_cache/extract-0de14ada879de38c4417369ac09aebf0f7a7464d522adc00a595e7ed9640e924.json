@@ -1,0 +1,86 @@
+{
+  "pmid": "32980744",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from microcephaly, seizures, and developmental delay to ataxia with oculomotor apraxia type 4.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from microcephaly, seizures, and developmental delay to ataxia with oculomotor apraxia type 4.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from microcephaly, seizures, and developmental delay to ataxia with oculomotor apraxia type 4.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia type 4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from microcephaly, seizures, and developmental delay to ataxia with oculomotor apraxia type 4.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "elevated serum alpha-fetoprotein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cerebellar atrophy and elevated serum alpha-fetoprotein levels are early diagnostic findings across the entire phenotypical spectrum.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "On neuroimaging, (progressive) cerebellar atrophy was a universal feature.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "immunodeficiency",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "No clinical signs of immunodeficiency were present, and immunologic assessment was unremarkable.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cancer predisposition",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Immunodeficiency and cancer predisposition do not appear to be part of PNKP-associated disease, contrasting many other DNA repair disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

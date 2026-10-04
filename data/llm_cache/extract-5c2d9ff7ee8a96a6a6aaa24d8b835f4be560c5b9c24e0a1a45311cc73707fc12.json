@@ -1,0 +1,16 @@
+{
+  "pmid": "33604570",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other eleven causative genes were PIK3CA, NEDD4L, COL4A1, COL4A2, GPSM2, GRIN2B, WDR62, TUBB3, TUBB2B, ACTG1 and FH.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

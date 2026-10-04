@@ -1,0 +1,16 @@
+{
+  "pmid": "36226386",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "second hit disease mechanism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For germline variant-associated malformations of cortical development genes such as TSC2, DEPDC5 and PTEN, germline single-nucleotide variants were frequently identified within large loss of heterozygosity regions, supporting the recently proposed 'second hit' disease mechanism in these genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

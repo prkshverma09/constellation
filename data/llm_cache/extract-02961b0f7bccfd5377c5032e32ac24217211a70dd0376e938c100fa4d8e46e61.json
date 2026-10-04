@@ -1,0 +1,56 @@
+{
+  "pmid": "39602259",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental encephalopathies (KCNQ2-encephalopathies), both with and without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KCNQ2 encoding Kv7.2 voltage-gated potassium channel subunits cause developmental encephalopathies (KCNQ2-encephalopathies), both with and without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currents through KCNQ2 mutant channels displayed increased density, hyperpolarizing shifts in activation gating, faster activation and slower deactivation kinetics, and resistance to changes in the cellular concentrations of phosphatidylinositol 4,5-bisphosphate (PIP2), a critical regulator of Kv7 channel function; all these features are consistent with a strong gain-of-function effect.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "increase in the probability of single-channel opening with no change in membrane abundance or single-channel conductance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An increase in the probability of single-channel opening, with no change in membrane abundance or single-channel conductance, was responsible for the observed gain-of-function effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "widened the inner pore gate and stabilized a constitutively open channel configuration in the closed state",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All-atom molecular dynamics simulations revealed that the mutations widened the inner pore gate and stabilized a constitutively open channel configuration in the closed state, with minimal effects on the open conformation.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "mutation-induced stabilization of the inner pore gate open configuration is a molecular pathogenetic mechanism for KCNQ2-related encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, mutation-induced stabilization of the inner pore gate open configuration is a molecular pathogenetic mechanism for KCNQ2-related encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

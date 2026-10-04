@@ -1,0 +1,106 @@
+{
+  "pmid": "35413638",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "mild to fatal seizure diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild to fatal seizure diseases",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-syndromic deafness",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOOR syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "complex syndromes such as deafness, onychodystrophy, osteodystrophy, and mental retardation(DOOR syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "infantile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial infantile myoclonic epilepsy caused by a homozygous TBC1D24 mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is likely to decrease protein activity",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset myoclonic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were prone to status epilepticus",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures only during wakefulness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures only occurred during wakefulness",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "abnormal cerebellar signals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal cerebellar signals",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

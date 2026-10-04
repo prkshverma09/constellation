@@ -1,0 +1,16 @@
+{
+  "pmid": "42573089",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with seizure onset before 3 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirty infants with KCNQ2/3-, SCN2A-, SCN1A gain-of-function, CDD-, BRAT1-, KCNT1-, FGF12-, SMC1A-, STXBP1-, GNAO1-, PHF6-, CELF2-, and 2q24.3 microduplication-related epilepsies were included.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

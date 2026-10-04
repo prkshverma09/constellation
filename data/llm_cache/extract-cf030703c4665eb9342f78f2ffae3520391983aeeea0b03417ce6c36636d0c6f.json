@@ -1,0 +1,36 @@
+{
+  "pmid": "41033234",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant epilepsies and rare genetic syndromes such as CDKL5 deficiency disorder",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "rare genetic syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rare genetic syndromes such as CDKL5 deficiency disorder",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone reduces seizure frequency in CDKL5 deficiency disorder and led to FDA and EMA approval",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical trials have confirmed GNX's benefits, particularly in CDD, where it significantly reduces seizure frequency, leading to its FDA and EMA approval.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

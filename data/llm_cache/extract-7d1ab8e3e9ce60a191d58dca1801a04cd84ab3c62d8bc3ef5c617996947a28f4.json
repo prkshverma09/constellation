@@ -1,0 +1,26 @@
+{
+  "pmid": "33135066",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "up-regulation by indoxyl sulfate (IS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "IS leads to an up-regulation of the heterogenous nuclear ribonucleoprotein U (hnRNPU)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "retains miR-130a-3p in the cell leading to reduced vesicular miR-130a-3p export and impaired EV-recipient cell proliferation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which retains miR-130a-3p in the cell leading to reduced vesicular miR-130a-3p export and impaired EV-recipient cell proliferation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

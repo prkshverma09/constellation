@@ -1,0 +1,76 @@
+{
+  "pmid": "31225800",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three girls with CDKL5 mutations showing severe neurodevelopmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "different epileptic phenotypes and severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with different epileptic phenotypes and severity",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "honeymoon period (seizure-free period longer than two months) as indicator of epilepsy outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "\"honeymoon period\", defined as a seizure-free period longer than two months, represented, in our case series, a good indicator of the epilepsy outcome, but not of the severity of developmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "interictal EEG epileptiform abnormalities, slowing, or disappearance of physiological pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "even during the \"honeymoon period\", the interictal EEG showed epileptiform abnormalities, slowing, or a disappearance of physiological pattern",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 mutations likely play a direct role in psychomotor development",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy is one of the clinical features associated with this complex disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "currently considered a specific and independent early-infantile epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

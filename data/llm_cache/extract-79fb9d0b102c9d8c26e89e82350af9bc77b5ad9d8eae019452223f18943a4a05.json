@@ -1,0 +1,76 @@
+{
+  "pmid": "37187037",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "model",
+      "object_text": "Kcnq2p.(Thr274Met/+) mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mouse model of NEO-DEE carrying the p.(Thr274Met) variant of Kcnq2",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures accompanied by an abnormal neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable seizures accompanied by an abnormal neurodevelopment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spontaneous generalized seizures occur unexpectedly",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "model",
+      "object_text": "ultrasound-induced seizures (UIS) protocol in Kcnq2p.(Thr274Met/+) mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We developed a protocol to trigger ultrasound-induced seizures (UIS) on demand in this model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "UIS have the same phenotypic expression and severity as spontaneous generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We show that the UIS have the same phenotypic expression and the same severity as spontaneous generalized seizures (SGS) in the Kcnq2-NEO-DEE mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "activation of 6 brain regions 2 h after seizure induction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "C-fos labeling reveals a subset of 6 brain regions activated 2 h after the induction of the seizure.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental period of susceptibility to ultrasound",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The developmental period during which mice exhibit SGS corresponds to the period during which Kcnq2p.(Thr274Met/+) mice are the most susceptible to US.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

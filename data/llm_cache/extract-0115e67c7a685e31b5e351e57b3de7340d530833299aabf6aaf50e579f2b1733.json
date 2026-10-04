@@ -1,0 +1,156 @@
+{
+  "pmid": "40934839",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "rare, X-linked developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-related epilepsy is a rare, X-linked developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "primarily affects heterozygous females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-related epilepsy is a rare, X-linked developmental and epileptic encephalopathy that primarily affects heterozygous females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "calcium-dependent adhesion protein involved in neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding protocadherin-19, a calcium-dependent adhesion protein involved in neurodevelopment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference, leading to brain mosaicism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disorder's hallmark is cellular interference, leading to brain mosaicism and clinical features including early-onset clustered focal seizures, cognitive impairment, and frequent comorbidity with autism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset clustered focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset clustered focal seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "frequent comorbidity with autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "frequent comorbidity with autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "often pharmacoresistant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The condition is often pharmacoresistant, with highly variable responses.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Levetiracetam, especially when initiated early, showed the most consistent seizure reduction, followed by clobazam and potassium bromide.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "clobazam and potassium bromide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Levetiracetam, especially when initiated early, showed the most consistent seizure reduction, followed by clobazam and potassium bromide.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "carbamazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Carbamazepine was often ineffective or worsened seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "corticosteroids (adjunctive agents had variable efficacy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adjunctive agents - including corticosteroids, ganaxolone - had variable efficacy; ganaxolone showed promise in recent trials.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adjunctive agents - including corticosteroids, ganaxolone - had variable efficacy; ganaxolone showed promise in recent trials.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation, ketogenic diet, and temporal lobectomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-pharmacological interventions, like vagus nerve stimulation, ketogenic diet, and temporal lobectomy, reduced seizures in some cases but lacked standardized evidence.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "early, individualized, multimodal approaches",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early, individualized, multimodal approaches appear most beneficial.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

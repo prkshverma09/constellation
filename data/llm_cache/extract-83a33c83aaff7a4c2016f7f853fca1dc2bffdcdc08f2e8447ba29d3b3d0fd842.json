@@ -1,0 +1,56 @@
+{
+  "pmid": "24766768",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its fundamental involvement in Rett syndrome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "intrinsic highly disordered nature; post-translational modifications (PTMs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intrinsic highly disordered nature of MeCP2, which is amenable to a plethora of post-translational modifications (PTMs)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "protein interacting partners, including histones",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "allows it to recognize a large number of protein interacting partners, including histones",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "important component of neuronal chromatin; high brain abundance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is highly abundant in the brain and it is an important component of neuronal chromatin",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "role in brain development, aging, and neurological disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 plays an important role in brain development, aging, and in neurological disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

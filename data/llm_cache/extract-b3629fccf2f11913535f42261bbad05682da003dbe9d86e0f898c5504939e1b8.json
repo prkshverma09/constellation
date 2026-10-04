@@ -1,0 +1,16 @@
+{
+  "pmid": "26626081",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "reorganization of the composition of AMPAR subunits (high Gria1/Gria2 mRNA ratio)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a reorganization of the composition of AMPAR subunits (high Gria1/Gria2 mRNA ratio)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

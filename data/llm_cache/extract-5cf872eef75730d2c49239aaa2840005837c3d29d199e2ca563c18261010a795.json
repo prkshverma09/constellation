@@ -1,0 +1,76 @@
+{
+  "pmid": "38057990",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function mutations in the cyclin-dependent kinase-like 5 (CDKL5) and FOXG1 genes also cause similar behavioral and neurobiological defects and were referred to as congenital or variant Rett syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "display microcephaly",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "aberrant dendritic morphology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "aberrant dendritic morphology",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "reduced spine density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced spine density",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "imbalance of excitatory/inhibitory signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an imbalance of excitatory/inhibitory signaling",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "reduced expression or activity of KCC2, vGlut1, PSD-95, and AKT, and increased expression of GluD1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that reduced expression or activity of KCC2, vGlut1, PSD-95, and AKT, along with increased expression of GluD1, is involved in the excitatory/inhibitory that represents a key aspect in all three disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "astrocyte-derived BDNF, IGF-1, and inflammatory cytokines affect expression and functioning of these molecules",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "astrocyte-derived brain-derived neurotrophic factor (BDNF), insulin-like growth factor 1 (IGF-1), and inflammatory cytokines likely affect the expression and functioning of these molecules resulting in disease-associated abnormalities.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

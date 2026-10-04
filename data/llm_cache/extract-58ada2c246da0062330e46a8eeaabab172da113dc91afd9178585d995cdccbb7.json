@@ -1,0 +1,16 @@
+{
+  "pmid": "41173332",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "cAMP-PKA-mediated SNAP-25 phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptic modulation via cAMP-PKA-mediated SNAP-25 phosphorylation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

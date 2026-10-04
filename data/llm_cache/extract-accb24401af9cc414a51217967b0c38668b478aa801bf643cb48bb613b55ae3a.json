@@ -1,0 +1,16 @@
+{
+  "pmid": "40381457",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "chemical chaperones",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chemical chaperones for STXBP1-related disorders",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "40620474",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_glycoprotein_2A_PET",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Plasma vesicle-associated membrane protein 2 associated with synaptic vesicle glycoprotein 2A PET within frontal, temporal, and occipital cortices [β s (95% confidence interval) -0.75 (-1.06 to -0.44)], independent of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synapse_pathology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In conclusion, plasma levels of glial fibrillary acidic protein and vesicle-associated membrane protein 2 may reflect synapse pathology independent of age and beyond general neuronal loss, even in absence of detectable Alzheimer's disease pathology.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "other_synaptic_plasma_biomarkers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic plasma biomarkers correlated with each other [Spearman's ρ (95% confidence interval) 0.37 (0.14-0.57), P = 0.019], but not with the ATN(I) plasma biomarkers.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

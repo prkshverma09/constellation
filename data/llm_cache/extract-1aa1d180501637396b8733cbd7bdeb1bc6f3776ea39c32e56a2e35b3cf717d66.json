@@ -1,0 +1,126 @@
+{
+  "pmid": "24269118",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the glucose transporter GLUT1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1 gene encoding the glucose transporter GLUT1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "limit brain glucose availability and lead to cerebral energy deficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in this gene limit brain glucose availability and lead to cerebral energy deficiency.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype is characterized by the variable association of mental retardation, acquired microcephaly, complex motor disorders, and paroxysmal manifestations including seizures and non-epileptic paroxysmal episodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "acquired microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype is characterized by the variable association of mental retardation, acquired microcephaly, complex motor disorders, and paroxysmal manifestations including seizures and non-epileptic paroxysmal episodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "complex motor disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype is characterized by the variable association of mental retardation, acquired microcephaly, complex motor disorders, and paroxysmal manifestations including seizures and non-epileptic paroxysmal episodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype is characterized by the variable association of mental retardation, acquired microcephaly, complex motor disorders, and paroxysmal manifestations including seizures and non-epileptic paroxysmal episodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "non-epileptic paroxysmal episodes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype is characterized by the variable association of mental retardation, acquired microcephaly, complex motor disorders, and paroxysmal manifestations including seizures and non-epileptic paroxysmal episodes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exercise-induced dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In particular, the diagnosis should be considered in patients with paroxysmal exercise-induced dyskinesia or with early-onset generalized epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In particular, the diagnosis should be considered in patients with paroxysmal exercise-induced dyskinesia or with early-onset generalized epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "Low CSF level of glucose, relative to blood level",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Low CSF level of glucose, relative to blood level, is the best biochemical clue to the diagnosis although not constantly found.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "Ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet is the cornerstone of the treatment and implicates a close monitoring by a multidisciplinary team including trained dieticians.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "Non-specific drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-specific drugs may be used as add-on symptomatic treatments but their effects are often disappointing.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

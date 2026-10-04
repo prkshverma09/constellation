@@ -1,0 +1,26 @@
+{
+  "pmid": "41366559",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated channel gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most commonly implicated genes were predominantly voltage-gated channels genes (SCN1A, SCN1B, KCNT1, CACNA1A, CACNA1H), and GABA receptor-related genes (GABRA1, GABRB2, GABRB3, GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "GEFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "83 variants of 43 different genes (31 P/LP variants and 52 VUS variants) were identified in 78 GEFS+ families, with a diagnostic yield of 23.6%. The most commonly implicated genes were predominantly voltage-gated channels genes (SCN1A, SCN1B, KCNT1, CACNA1A, CACNA1H), and GABA receptor-related genes (GABRA1, GABRB2, GABRB3, GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

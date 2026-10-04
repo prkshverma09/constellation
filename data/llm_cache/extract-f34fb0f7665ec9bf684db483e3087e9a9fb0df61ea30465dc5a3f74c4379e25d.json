@@ -1,0 +1,16 @@
+{
+  "pmid": "27781560",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers in patients with KCNQ2, SCN2A and SCN8A mutations",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

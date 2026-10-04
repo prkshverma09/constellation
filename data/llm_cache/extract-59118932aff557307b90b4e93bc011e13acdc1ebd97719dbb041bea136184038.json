@@ -1,0 +1,26 @@
+{
+  "pmid": "39488055",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "upregulated expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it upregulated the expression of CALML3, GRIN2, and GRIA2 gene expressions",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "AMPK and CAMK2 signaling pathways; neurotransmission and synaptic function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which influence the AMPK and CAMK2 signaling pathways, indicating the potential of BBEE in neurotransmission and synaptic function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

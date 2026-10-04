@@ -1,0 +1,16 @@
+{
+  "pmid": "38101940",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "genetic generalized epilepsies or nonacquired focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including four families with CNVs disrupting the DEPDC5 gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

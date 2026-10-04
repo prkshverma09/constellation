@@ -1,0 +1,16 @@
+{
+  "pmid": "38212777",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "co-expressed with PTPRO",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gene co-expression analysis revealed that PTPRO was co-expressed with RBP4, NDN, PAK3, FOXG1, IDS, and IDS, and GADD45A was co-expressed with LRRK2 in human brain tissue.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

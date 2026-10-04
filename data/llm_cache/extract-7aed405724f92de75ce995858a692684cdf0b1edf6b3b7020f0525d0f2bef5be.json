@@ -1,0 +1,166 @@
+{
+  "pmid": "37705601",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the α-subunit (Gαo) of the heterotrimeric guanine nucleotide-binding protein (G protein)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GNAO1 gene encodes the α-subunit (Gαo) of the heterotrimeric guanine nucleotide-binding protein (G protein).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "27 patients with variations in GNAO1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-seven patients with variations in GNAO1 were analyzed (10 patients from Shenzhen Children's Hospital, 17 patients from previously published studies) including 12 boys and 15 girls.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median age of onset was 3 months with moderate to severe global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was observed in 18 patients (67%, 18/27)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorder (MD) was observed in 22 patients (81%, 22/27)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "both epilepsy and movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and both were seen in 13 patients (48%, 13/27).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures typically presented as focal seizures in all patients with epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia and chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MD typically presented as dystonia and chorea.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function (LOF) or partial loss-of-function (PLOF) mutations were more frequent in patients with developmental and epileptic encephalopathy (p = 0.029).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "multifocal or diffuse epileptiform discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interictal electroencephalograms showed multifocal or diffuse epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "widened extracerebral space",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common magnetic resonance imaging finding was widened extracerebral space.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "control by anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures were easily controlled by anti-seizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe dystonia in three patients was effectively treated by deep brain stimulation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "death due to respiratory complications, status dystonicus, choreoathetosis, or sudden unexpected death in epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven (26%, 7/27) patients died of respiratory complications, status dystonicus, choreoathetosis, or sudden unexpected death in epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder central and difficult to control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MD seemed to be the central feature and was most difficult to control.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "active intervention of severe dystonia may prevent death due to status dystonicus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The active intervention of severe dystonia may prevent death due to status dystonicus.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

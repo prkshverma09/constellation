@@ -1,0 +1,26 @@
+{
+  "pmid": "38677558",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "pre-synaptic protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "selected pre-synaptic proteins (syntaxin-1; SNAP-25, VAMP-2, synaptophysin-1, synapsin-1, α-synuclein)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "model",
+      "object_text": "tau-transgenic Line 1 (L1) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression of selected pre-synaptic proteins (syntaxin-1; SNAP-25, VAMP-2, synaptophysin-1, synapsin-1, α-synuclein) in brain tissue harvested from tau-transgenic Line 1 (L1) and wild-type mice using immunohistochemistry",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

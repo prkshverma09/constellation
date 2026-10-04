@@ -1,0 +1,76 @@
+{
+  "pmid": "40875931",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy with onset within the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant epilepsy with onset within the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe psychomotor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe psychomotor developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay (96%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures (90%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "hypertonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we demonstrate a higher risk of developing seizures, respiratory complications, and hypertonia in individuals with biallelic null WWOX variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we demonstrate a higher risk of developing seizures, respiratory complications, and hypertonia in individuals with biallelic null WWOX variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "respiratory complications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we demonstrate a higher risk of developing seizures, respiratory complications, and hypertonia in individuals with biallelic null WWOX variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

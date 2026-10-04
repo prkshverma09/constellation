@@ -1,0 +1,126 @@
+{
+  "pmid": "33802230",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated potassium channel Kv1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2, encoding for the voltage-gated potassium channel Kv1.2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders resulting from cerebellar dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders resulting from cerebellar dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "a milder course of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a milder course of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "complicated hereditary spastic paraplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "complicated hereditary spastic paraplegia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "self-limited infantile seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants resulting in loss- or gain-of-function",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants resulting in loss- or gain-of-function",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "PVP motif in transmembrane domain S6 is a mutational hotspot",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the proline(405)-valine(406)-proline(407) (PVP) motif in transmembrane domain S6 as a mutational hotspot",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "early developmental abnormalities and an earlier onset of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more often show early developmental abnormalities and an earlier onset of epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

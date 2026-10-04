@@ -1,0 +1,36 @@
+{
+  "pmid": "32252776",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of miR-153 controls CBH-induced presynaptic vesicle release impairment by posttranscriptionally regulating the expression of four vesicle release-related proteins by targeting the 3'UTRs of the Stx1a, Snap25, Vamp2 and Syt1 genes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FM1-43 fluorescence images showed that miR-153 blunted vesicle exocytosis, but this effect was prevented by either 2'-O-methyl antisense oligoribonucleotides to miR-153 (AMO-153) and miR-masking of the miR-153 binding site in the 3' untranslated region (3'UTR) of the Snap25, Vamp2, Stx1a and Syt1 genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to sham rats, 2VO rats presented decreased field excitatory postsynaptic potential (fEPSP) amplitude and increased paired-pulse ratios (PPRs) in the CA3-CA1 pathway, as well as significantly decreased expression of multiple vesicle fusion-related proteins, including SNAP-25, VAMP-2, syntaxin-1A and synaptotagmin-1, in the hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "39989429",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "APOE genotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptosomal-associated protein 25 (SNAP25) with APOE genotype;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

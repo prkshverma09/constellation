@@ -1,0 +1,86 @@
+{
+  "pmid": "40994429",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "unique pharmacological properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NMDA receptors that contain the GluN2B subunit have unique pharmacological properties, being inhibited by multiple structurally distinct series of biaryl compounds with high potency and selectivity.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "radiprodil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil inhibits NMDA receptors that contain GluN2B with high potency and selectivity and appears to be safe in humans.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil is an effective antagonist at >80% of human disease-associated GRIN1 and GRIN2B missense variants tested in vitro (22/27, equally or more effective as wild-type receptors)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including variants in the pore-forming region, linker regions and elsewhere that uniformly increase NMDA receptor-mediated charge transfer.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "knock-in mouse line harbouring the gain-of-function variant GluN2B-Ser810Arg",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a knock-in mouse line harbouring the gain-of-function variant GluN2B-Ser810Arg",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "radiprodil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil blocks synaptic GluN2B receptors in brain slices acutely isolated from a knock-in mouse line harbouring the gain-of-function variant GluN2B-Ser810Arg",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "radiprodil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil delays the onset of seizures (458 ± 90 s, versus 207 ± 23 s in the vehicle group) in response to in vivo administration of the chemoconvulsant pentylenetetrazole.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "GluN2B-selective antagonists (radiprodil)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data support the potential utility of GluN2B-selective antagonists, such as radiprodil, for clinical treatments of neurological conditions where clinical aetiologies might involve increased current mediated by GluN2B-containing NMDA receptors.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

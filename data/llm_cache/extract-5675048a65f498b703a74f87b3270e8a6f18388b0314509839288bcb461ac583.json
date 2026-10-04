@@ -1,0 +1,86 @@
+{
+  "pmid": "42666715",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "encodes a subunit (GluR3) of the a-amino-3- hydroxy-5-methylisoxazole-4-propionic acid receptor (AMPAR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes a subunit (GluR3) of the a-amino-3- hydroxy-5-methylisoxazole-4-propionic acid receptor (AMPAR).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The pathogenic variants of GRIA3 are mostly associated with neurodevelopmental disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented mainly with intellectual disability, dystonia, epilepsy and other symptoms.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented mainly with intellectual disability, dystonia, epilepsy and other symptoms.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented mainly with intellectual disability, dystonia, epilepsy and other symptoms.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three affected family members (two males and one female) not only showed intellectual disability but also presented significant psychiatric symptoms and spatial memory deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "spatial memory deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three affected family members (two males and one female) not only showed intellectual disability but also presented significant psychiatric symptoms and spatial memory deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "minigene assay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The minigene assay further confirmed that this variant lead to exon 2 skipping.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

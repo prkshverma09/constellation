@@ -1,0 +1,136 @@
+{
+  "pmid": "32737135",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hereditary sensory and autonomic neuropathy type 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hereditary sensory and autonomic neuropathy type 2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spastic paraplegia type 30",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spastic paraplegia type 30",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation type 9",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mental retardation type 9",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "prominent pyramidal signs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a complex phenotype with prominent pyramidal signs",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic nerve atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "early onset or congenital ataxic phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early onset or congenital ataxic phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hereditary spastic paraparesis/paraplegias (HSP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hereditary spastic paraparesis/paraplegias (HSP)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxic phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxic phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fourteen different heterozygous missense variants were detected by next-generation sequencing screening",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "kinesin motor domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most falling within the kinesin motor domain",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

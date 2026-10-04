@@ -1,0 +1,36 @@
+{
+  "pmid": "32773162",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2 was recently recognized as a gene associated with neurodevelopmental disorder and epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole exome sequencing identified the missense variant c.725C > A p.(Thr242Asn)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "refractory stereotyped and monomorphic type of hyperkinetic focal motor seizure occurring only during sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our patient has a refractory stereotyped and monomorphic type of hyperkinetic focal motor seizure, similar to what is seen in frontal lobe epilepsy, occurring only during sleep.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

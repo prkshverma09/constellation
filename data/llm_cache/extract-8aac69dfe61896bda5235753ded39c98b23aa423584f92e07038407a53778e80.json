@@ -1,0 +1,136 @@
+{
+  "pmid": "38009673",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin-1 (DNM1) is involved in synaptic vesicle recycling",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 mutations can lead to developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures from 1 month of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our case presented drug-resistant seizures from 1 month of age",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms at 2 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and epileptic spasms at 2 years of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "no progression of myelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain MRI showed no progression of myelination",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "progression of diffuse cerebral atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "progression of diffuse cerebral atrophy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "a thin corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and a thin corpus callosum.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "a decreased N-acetylaspartate peak",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proton magnetic resonance spectroscopy showed a decreased N-acetylaspartate peak",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "less pyramidal decussation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and diffusion tensor imaging presented with less pyramidal decussation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "delayed myelination occurred in two cases of GTPase-domain DNM1 encephalopathy and in six cases of middle-domain DNM1 encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among these patients, delayed myelination occurred in two cases of GTPase-domain DNM1 encephalopathy and in six cases of middle-domain DNM1 encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "inadequate axonal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neuroimaging findings in this case suggest inadequate axonal development.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 is involved in the release of synaptic vesicles with the inhibitory transmitter GABA",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "GABAergic neuron dysfunction may cause white matter abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAergic neuron dysfunction may be cause of white matter abnormalities in DNM1 encephalopathy.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

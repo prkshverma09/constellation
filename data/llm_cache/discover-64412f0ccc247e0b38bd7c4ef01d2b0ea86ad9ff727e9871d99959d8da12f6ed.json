@@ -1,0 +1,44 @@
+{
+  "symbol": "SCN2A",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:17:50.714590+00:00",
+  "usage": {
+    "input_tokens": 69373,
+    "output_tokens": 8515
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "FamilieSCN2A Foundation",
+        "url": "https://www.scn2a.org/scn2a-related-disorders/",
+        "kind": "foundation",
+        "snippet": "Changes in the SCN2A gene can cause a range of health issues known as SCN2A-related disorders."
+      },
+      {
+        "name": "SCN2A Australia",
+        "url": "https://www.scn2aaustralia.org/",
+        "kind": "foundation",
+        "snippet": "SCN2A Australia began as a support network for families navigating SCN2A-related disorders, one of the genetic causes of developmental and epileptic encephalopathy."
+      },
+      {
+        "name": "The DRAGONFLY Study (NORD IAMRARE)",
+        "url": "https://scn2a.iamrare.org/",
+        "kind": "registry",
+        "snippet": "Welcome to The DRAGONFLY Study, a registry dedicated to individuals and families impacted by SCN2A-related disorders."
+      },
+      {
+        "name": "Simons Searchlight – SCN2A",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/scn2a/",
+        "kind": "registry",
+        "snippet": "SCN2A–related syndrome happens when there are changes in the SCN2A gene."
+      },
+      {
+        "name": "FamilieSCN2A Research Network",
+        "url": "https://www.scn2a.org/research/research-network/",
+        "kind": "research_network",
+        "snippet": "Professionals who are interested in sharing and learning more about SCN2A are invited to join the network."
+      }
+    ]
+  }
+}

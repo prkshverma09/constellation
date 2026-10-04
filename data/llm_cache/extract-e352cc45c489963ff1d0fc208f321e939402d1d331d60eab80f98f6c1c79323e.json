@@ -1,0 +1,66 @@
+{
+  "pmid": "25362483",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in STX1B, encoding syntaxin-1B, that are associated with both febrile seizures and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole-exome sequencing in independent large pedigrees identified cosegregating STX1B mutations predicted to cause an early truncation or an in-frame insertion or deletion.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "zebrafish larvae with antisense knockdown of stx1b",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Video and local field potential analyses of zebrafish larvae with antisense knockdown of stx1b showed seizure-like behavior and epileptiform discharges that were highly sensitive to increased temperature.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wild-type human syntaxin-1B but not a mutated protein rescued the effects of stx1b knockdown in zebrafish.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results thus implicate STX1B and the presynaptic release machinery in fever-associated epilepsy syndromes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three additional nonsense or missense mutations and a de novo microdeletion encompassing STX1B were then identified in 449 familial or sporadic cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

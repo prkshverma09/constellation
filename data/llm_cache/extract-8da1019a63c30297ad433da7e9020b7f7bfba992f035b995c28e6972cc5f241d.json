@@ -1,0 +1,16 @@
+{
+  "pmid": "11462757",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "ADHD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA genes--GABRB3;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

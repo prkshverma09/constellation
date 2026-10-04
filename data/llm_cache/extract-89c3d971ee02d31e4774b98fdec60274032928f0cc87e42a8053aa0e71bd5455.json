@@ -1,0 +1,106 @@
+{
+  "pmid": "35893069",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to West syndrome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual impairment with focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to ... intellectual impairment with focal epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to ... developmental delay",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "macrocephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to ... macrocephaly",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to ... infantile spasms",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variations in the GluN2B coding gene (GRIN2B) have consistently been linked to ... Lennox-Gastaut syndrome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four polymorphisms were identified as phylogenetically conserved PTM drivers and were related to structural and functional impact: rs869312669 (p.Thr685Pro), rs387906636 (p.Arg682Cys), rs672601377 (p.Asn615Ile), and rs1131691702 (p.Ser526Pro).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "GluN2B hydrogen occupancy is positively associated with protein stability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluN2B hydrogen occupancy was positively associated with protein stability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "solvent-accessible surface area is positively related to globularity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "solvent-accessible surface area was positively related to globularity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "link between protein folding, movement, and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "there was a link between GluN2B protein folding, movement, and function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

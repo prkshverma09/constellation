@@ -1,0 +1,16 @@
+{
+  "pmid": "38836461",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "functional evaluation of human disease-associated variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we review the current literature on the functional evaluation of human disease-associated variants in GRIN1, GRIN2A and GRIN2B genes at all levels of analysis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

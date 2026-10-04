@@ -1,0 +1,166 @@
+{
+  "pmid": "30858606",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "mild and severe epilepsies; DOORS syndrome (Deafness, Onycodystrophy, Osteodystrophy, Mental Retardation and Seizure)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in TBC1D24 are described in patients with a spectrum of neurological diseases, including mild and severe epilepsies and complex syndromic phenotypes such as Deafness, Onycodystrophy, Osteodystrophy, Mental Retardation and Seizure (DOORS) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "involved in neuronal development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "regulation of synaptic vesicle trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regulation of synaptic vesicle trafficking",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "protection from oxidative stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "protection from oxidative stress",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most patients bearing predicted loss of function mutations exhibit a severe neurodevelopmental disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "rat cortical primary neurons silenced for TBC1D24",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In rat cortical primary neurons silenced for TBC1D24, we found defects in axonal specification, the maturation of axonal initial segment and action potential firing.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "defects in axonal specification; impaired maturation of axonal initial segment; impaired action potential firing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we found defects in axonal specification, the maturation of axonal initial segment and action potential firing.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "impairment of endocytosis at the growth cone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an impairment of endocytosis at the growth cone",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "altered activation of ADP ribosylation factor 6 (ARF6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an altered activation of the TBC1D24 molecular partner ADP ribosylation factor 6.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "acute knockdown of TBC1D24 in cerebrocortical neurons in vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "acute knockdown of TBC1D24 in cerebrocortical neurons in vivo analogously impairs callosal projections.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "impaired callosal projections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "acute knockdown of TBC1D24 in cerebrocortical neurons in vivo analogously impairs callosal projections.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "human induced pluripotent stem cell-derived neurons from patients carrying TBC1D24 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The axonal defect was also investigated in human induced pluripotent stem cell-derived neurons from patients carrying TBC1D24 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "significant axon formation defect in neurons from a patient with severe developmental encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reprogrammed neurons from a patient with severe developmental encephalopathy show significant axon formation defect",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "axon formation defect absent in neurons from a patient with mild early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that were absent from reprogrammed neurons of a patient with mild early onset epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "alterations of membrane trafficking at the growth cone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alterations of membrane trafficking at the growth cone induced by TBC1D24 loss of function cause axonal and excitability defects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "axonal and excitability defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alterations of membrane trafficking at the growth cone induced by TBC1D24 loss of function cause axonal and excitability defects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

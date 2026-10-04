@@ -1,0 +1,16 @@
+{
+  "pmid": "38861909",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5-DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "New aetiology-specific syndromes were identified (e.g. CDKL5-DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

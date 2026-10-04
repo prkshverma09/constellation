@@ -1,0 +1,26 @@
+{
+  "pmid": "42129839",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "cross-dataset consistency from HC to CSVD-NC to CSVD-CI; distinct expression patterns between CSVD-CI and AD-CI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three plasma EV proteins (ATP6V1F, HNRNPU, and RPL38) demonstrated robust, cross-dataset consistency from HC to CSVD-NC to CSVD-CI continuum, and displayed distinct expression patterns between CSVD-CI and AD-CI (P < 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "visuospatial function and executive function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EV HNRNPU with visuospatial function and executive function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

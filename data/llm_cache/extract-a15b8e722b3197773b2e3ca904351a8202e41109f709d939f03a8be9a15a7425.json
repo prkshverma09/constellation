@@ -1,0 +1,16 @@
+{
+  "pmid": "37185751",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "higher_gene_expression_in_hippocampal_BECs_than_cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specifically, brain endothelial cells (BECs) of the hippocampus express higher gene levels of abcb1, abcg2, lrp1, and slc2a1 compared to the BECs of the cortex regions with a trend of increase for claudin-5, while BECs of the cortex express higher gene levels of abcc1 and trf compared to the hippocampus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

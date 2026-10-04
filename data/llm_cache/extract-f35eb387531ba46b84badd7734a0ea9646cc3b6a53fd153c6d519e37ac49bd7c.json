@@ -1,0 +1,16 @@
+{
+  "pmid": "35563596",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "specific genes related to the SNARE complex, including Vesicle-associated membrane protein 2 (VAMP2), Syntaxin 1A (STX1A), and p21-activated kinase 1 (PAK1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

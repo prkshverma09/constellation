@@ -1,0 +1,106 @@
+{
+  "pmid": "38874638",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "neural maturation and synaptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) is a complex clinical condition resulting from non-functional or absent CDKL5 protein, a serine-threonine kinase pivotal for neural maturation and synaptogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal issues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gastrointestinal issues",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "hypermotor-tonic-spasms sequence seizures (HTSS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypermotor-tonic-spasms sequence seizures (HTSS) noted in 17.6% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "HTSS at onset is a negative prognostic factor for daily seizures at long-term follow-up",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The presence of HTSS or HTSS-like at onset resulted a negative prognostic factor for the presence of daily seizures at long-term follow-up in CDD patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "valproic acid; clobazam; cannabidiol (used in polypharmacotherapy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "extensive polypharmacotherapy, including medications such as valproic acid, clobazam, cannabidiol, and others",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "inherent drug-resistant nature of CDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sustained seizure freedom proved elusive, affirming the inherent drug-resistant nature of CDD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

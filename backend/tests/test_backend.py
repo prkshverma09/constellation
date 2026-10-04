@@ -1308,7 +1308,7 @@ def test_offline_dossier_has_cited_required_sections() -> None:
         if "No corroborated" not in sentence["text"]
     )
     assert any(
-        "has published on both STXBP1- and STX1B-related disease" in sentence["text"]
+        "has published on both STXBP1- and DNM1-related disease" in sentence["text"]
         and "(" in sentence["text"]
         for sentence in contact_sentences
     )
@@ -1457,7 +1457,14 @@ def test_api_contract_for_both_demo_diseases() -> None:
     resolved_edge_ids: set[str] = set()
     health = client.get("/api/health")
     assert health.status_code == 200
-    assert {"status", "snapshot_hash", "llm_mode", "counts"} <= health.json().keys()
+    assert {
+        "status",
+        "snapshot_hash",
+        "llm_mode",
+        "llm_available",
+        "agent_model",
+        "counts",
+    } <= health.json().keys()
 
     for disease_id in {supported, gap}:
         overview_response = client.get(f"/api/disease/{quote(disease_id, safe='')}")
@@ -1658,6 +1665,7 @@ def test_offline_api_constructs_no_outbound_http_clients(monkeypatch: Any) -> No
         health = client.get("/api/health")
         assert health.status_code == 200
         assert health.json()["llm_mode"] == "offline"
+        assert health.json()["llm_available"] is False
         stxbp1 = "MONDO:0012812"
         cluster_response = client.get(
             f"/api/disease/{quote(stxbp1, safe='')}/cluster"
@@ -1677,9 +1685,15 @@ def test_offline_api_constructs_no_outbound_http_clients(monkeypatch: Any) -> No
         assert client.get(
             "/api/bridges", params={"a": stxbp1, "b": dnm1}
         ).status_code == 200
-        assert client.post(
+        dossier_response = client.post(
             "/api/dossier", json={"disease": stxbp1, "persona": "maria"}
-        ).status_code == 200
+        )
+        assert dossier_response.status_code == 200
+        dossier_payload = dossier_response.json()
+        assert dossier_payload["mode"] == "offline"
+        assert dossier_payload["model"] == "offline"
+        assert isinstance(dossier_payload["elapsed_ms"], int)
+        assert dossier_payload["usage"] == {"input_tokens": 0, "output_tokens": 0}
 
 
 def test_contribution_persists_only_as_proposed(
@@ -1737,11 +1751,21 @@ def test_live_extraction_uses_mocked_structured_outputs() -> None:
             self.responses = FakeResponses()
 
     client = FakeClient()
+    usage: list[tuple[int, int]] = []
     result = extract_live(
         {"pmid": "12345678", "title": "Test", "abstract": abstract},
-        ["STXBP1"],
+        "STXBP1",
+        ["DNM1"],
         client=client,
+        usage_callback=lambda input_tokens, output_tokens: usage.append(
+            (input_tokens, output_tokens)
+        ),
     )
     assert result == expected
     assert client.responses.called["text_format"] is ExtractionResult
-    assert "STXBP1" in client.responses.called["input"][1]["content"]
+    assert "Target gene: STXBP1" in client.responses.called["input"][1]["content"]
+    assert "Other slice genes (do not extract claims about them): DNM1" in (
+        client.responses.called["input"][1]["content"]
+    )
+    assert "object_text must be exactly one of:" in client.responses.called["input"][0]["content"]
+    assert usage == []

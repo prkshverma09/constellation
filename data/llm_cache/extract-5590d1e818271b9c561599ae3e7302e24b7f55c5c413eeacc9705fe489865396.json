@@ -1,0 +1,36 @@
+{
+  "pmid": "41580787",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "reduced expression at admission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1 was reduced at admission (p = 0.006) but normalized by day 7 (p > 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "expression normalized by day 7",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1 was reduced at admission (p = 0.006) but normalized by day 7 (p > 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "diagnostic significance (AUC = 0.693)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ROC analysis showed diagnostic significance for ANKRD12, GNAI2, and GRIN1 (AUC = 0.683, 0.698, 0.693).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

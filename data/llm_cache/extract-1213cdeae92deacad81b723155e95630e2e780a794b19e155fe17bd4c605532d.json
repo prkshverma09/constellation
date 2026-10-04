@@ -1,0 +1,16 @@
+{
+  "pmid": "35461153",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet Syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A SCN1A variant that could explain the syndrome was found in over 90% of children.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

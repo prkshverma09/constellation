@@ -1,0 +1,126 @@
+{
+  "pmid": "30956058",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "kinase/phosphatase involved in DNA damage response, controlled and stabilized by ATM phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP gene encodes for a kinase/phosphatase involved in DNA damage response, controlled and stabilized by ATM phosphorylation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "oculomotor apraxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "polyneuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP deficiency, thus far described in 40 subjects, has been associated with a complex neurological phenotype encompassing microcephaly, seizures, developmental delay, ataxia, oculomotor apraxia and polyneuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This 25 years old girl presented with chorea at the age of 2 years",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "fatigability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the emergence of fatigability and asthenia of lower limbs",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "asthenia of lower limbs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the emergence of fatigability and asthenia of lower limbs",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "sensory-motor axonal demyelinating neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disclosing a sensory-motor axonal demyelinating neuropathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early onset apparently non progressive chorea as a presenting symptom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showing that an early onset apparently non progressive chorea can be the presenting symptoms of this rare condition.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

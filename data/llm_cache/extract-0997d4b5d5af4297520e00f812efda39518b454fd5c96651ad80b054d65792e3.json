@@ -1,0 +1,36 @@
+{
+  "pmid": "42793132",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor subunit GluA3 function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3-mediated AMPA receptor subunit GluA3 function",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "implicates the GRIA3-mediated AMPA receptor subunit GluA3 function in epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "implicates the GRIA3-mediated AMPA receptor subunit GluA3 function in epilepsy and schizophrenia",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

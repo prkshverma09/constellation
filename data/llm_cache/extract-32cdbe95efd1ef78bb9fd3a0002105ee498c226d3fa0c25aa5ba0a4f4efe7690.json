@@ -1,0 +1,16 @@
+{
+  "pmid": "37041519",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "association with key differential immune cell infiltration (CD56bright natural killer cell, Immature B cell and Type 1 T helper cell) in intracranial aneurysm",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, 7 key DEmRNAs (NRXN1, GRIA2, SLC1A2, SLC17A7, IL6, VEGFA and SYP) associated with key differential immune cell infiltration (CD56bright natural killer cell, Immature B cell and Type 1 T helper cell) were identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

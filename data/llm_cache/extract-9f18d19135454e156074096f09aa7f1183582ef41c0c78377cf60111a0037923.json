@@ -1,0 +1,26 @@
+{
+  "pmid": "30870728",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function versus loss-of-function variants in SCN2A determine whether sodium channel blockers improve or worsen seizure control",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function versus loss-of-function variants in SCN2A determine whether sodium channel blockers improve or worsen seizure control",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

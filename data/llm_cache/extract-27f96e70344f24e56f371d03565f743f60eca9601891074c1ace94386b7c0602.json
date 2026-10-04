@@ -1,0 +1,16 @@
+{
+  "pmid": "40772259",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "network hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polygenic interactions (e.g., DEPDC5, CHD2 variants), astrocytic calcium signaling aberrations, and mitochondrial metabolic deficits synergistically exacerbate network hyperexcitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

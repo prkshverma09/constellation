@@ -1,0 +1,116 @@
+{
+  "pmid": "38802994",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are five phenotypes: three with early seizure onset (severe developmental and epileptic encephalopathy [DEE], mild/moderate DEE, self-limited (familial) infantile epilepsy [SeL(F)IE]) and two with later/no seizure onset (neurodevelopmental delay with generalized epilepsy [NDDwGE], NDD without epilepsy [NDDwoE]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "mild/moderate DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are five phenotypes: three with early seizure onset (severe developmental and epileptic encephalopathy [DEE], mild/moderate DEE, self-limited (familial) infantile epilepsy [SeL(F)IE]) and two with later/no seizure onset (neurodevelopmental delay with generalized epilepsy [NDDwGE], NDD without epilepsy [NDDwoE]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "self-limited (familial) infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are five phenotypes: three with early seizure onset (severe developmental and epileptic encephalopathy [DEE], mild/moderate DEE, self-limited (familial) infantile epilepsy [SeL(F)IE]) and two with later/no seizure onset (neurodevelopmental delay with generalized epilepsy [NDDwGE], NDD without epilepsy [NDDwoE]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental delay with generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are five phenotypes: three with early seizure onset (severe developmental and epileptic encephalopathy [DEE], mild/moderate DEE, self-limited (familial) infantile epilepsy [SeL(F)IE]) and two with later/no seizure onset (neurodevelopmental delay with generalized epilepsy [NDDwGE], NDD without epilepsy [NDDwoE]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "NDD without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are five phenotypes: three with early seizure onset (severe developmental and epileptic encephalopathy [DEE], mild/moderate DEE, self-limited (familial) infantile epilepsy [SeL(F)IE]) and two with later/no seizure onset (neurodevelopmental delay with generalized epilepsy [NDDwGE], NDD without epilepsy [NDDwoE]).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain of function (GOF) versus loss of function (LOF) is valuable for informing treatment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain of function (GOF) versus loss of function (LOF) is valuable for informing treatment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers are optimal first-line treatment for GOF, severe DEE, mild/moderate DEE, and SeL(F)IE;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "levetiracetam is relatively contraindicated in GOF patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "valproate, ethosuximide, or lamotrigine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "First-line treatment for NDDwGE is valproate, ethosuximide, or lamotrigine; sodium channel blockers are relatively contraindicated in LOF patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers are relatively contraindicated in LOF patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

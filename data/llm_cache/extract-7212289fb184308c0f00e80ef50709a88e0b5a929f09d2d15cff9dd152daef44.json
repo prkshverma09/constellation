@@ -1,0 +1,26 @@
+{
+  "pmid": "38472035",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "biological role",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlight the biological role of STXBP1 and SYNGAP1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "development of therapeutics for SYNGAP1 disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is currently focused on the development of therapeutics for STXBP1 and SYNGAP1 disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "40158290",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "These compounds bind to the α2δ subunit of voltage-dependent calcium channels and specifically target the two isoforms α2δ-1 and α2δ-2.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These compounds bind to the α2δ subunit of voltage-dependent calcium channels and specifically target the two isoforms α2δ-1 and α2δ-2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "α2δ-2 (encoded by CACNA2D2) plays a key role in the degeneration of FTLD-Tau neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "α2δ-2, encoded by CACNA2D2, plays a key role in the degeneration of FTLD-Tau neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "CACNA2D2 knockout iPSC model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we employed a knockout approach using iPSCs",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "CACNA2D2 knockout reversed part of the gene expression alterations associated with neurodegenerative features in FTLD-Tau organoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2 knockout reversed a part of the gene expression alterations associated with these neurodegenerative features.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "therapy",
+      "object_text": "α2δ-2 may be a promising target for disease-modifying therapies in FTLD-Tau",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest that α2δ-2 may be a promising target for disease-modifying therapies in FTLD-Tau.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "42037703",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy related to fever sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one case each of mutations in SCN2A, PRRT2, CACNA1A, CACNA1E, CACNA1H, KCNA2, CHD2, and KIAA2022",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

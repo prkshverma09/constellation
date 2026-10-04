@@ -1,0 +1,16 @@
+{
+  "pmid": "37583270",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "genetic IESS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX (n = 4) were the dominant single gene causes of genetic IESS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

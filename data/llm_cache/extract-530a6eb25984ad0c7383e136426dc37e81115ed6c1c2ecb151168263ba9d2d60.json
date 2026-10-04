@@ -1,0 +1,26 @@
+{
+  "pmid": "36633502",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "hippocampus of Aβ42-injected C57BL/6J mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the hippocampus, three synaptic-associated proteins-gephyrin, collybistin, and GABRA1 -were detected by western blotting.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "triptolide maintained expression of GABRA1 in AD-like mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, triptolide maintained the expression of gephyrin, collybistin, and GABRA1 and reduced Aβ in these mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

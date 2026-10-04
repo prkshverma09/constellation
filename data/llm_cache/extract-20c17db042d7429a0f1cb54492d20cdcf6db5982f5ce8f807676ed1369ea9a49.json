@@ -1,0 +1,16 @@
+{
+  "pmid": "39476534",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy PRS effect (modifies penetrance/phenotype)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whilst the epilepsy PRS effect was strong for relatives segregating the GABRG2 p.Arg82Gln pathogenic variant (padj = 0.0010)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

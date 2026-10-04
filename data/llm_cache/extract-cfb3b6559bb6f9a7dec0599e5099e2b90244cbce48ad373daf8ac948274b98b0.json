@@ -1,0 +1,16 @@
+{
+  "pmid": "32657892",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several new genetic causes for disorders in which dystonia is a feature have been described in the last 2 years, including ZNF142, GSX2, IRF2BPL, DEGS1, PI4K2A, CAMK4, VPS13D and VAMP2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

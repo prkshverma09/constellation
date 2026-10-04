@@ -1,0 +1,86 @@
+{
+  "pmid": "35058336",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main culprit gene for paroxysmal kinesigenic dyskinesia, characterized by brief and recurrent attacks of involuntary movements, is PRRT2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "decreased gray matter volume in the cerebellar lobule VI and in the medial prefrontal cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with PRRT2 had decreased gray matter volume in the cerebellar lobule VI and in the medial prefrontal cortex,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "microstructural alterations of white matter in the cerebellum and along the tracts connecting the cerebellum to the striatum and the cortical motor areas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microstructural alterations of white matter in the cerebellum and along the tracts connecting the cerebellum to the striatum and the cortical motor areas,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "dysfunction of cerebellar motor pathways to the striatum and the cortical motor areas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysfunction of cerebellar motor pathways to the striatum and the cortical motor areas,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "abnormal communication between the associative cerebellum (Crus I) and the medial prefrontal cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal communication between the associative cerebellum (Crus I) and the medial prefrontal cortex.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "cerebellar stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cerebellar stimulation modulated communication within the motor and associative cerebellar networks and tended to restore this communication to the level observed in healthy controls.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "converging structural alterations of the motor cerebellum and related pathways with a dysfunction of cerebellar output toward the cerebello-thalamo-striato-cortical network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with PRRT2-related dyskinesia have converging structural alterations of the motor cerebellum and related pathways with a dysfunction of cerebellar output toward the cerebello-thalamo-striato-cortical network.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "abnormal cerebellar output",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We hypothesize that abnormal cerebellar output is the primary dysfunction in patients with a PRRT2 pathogenic variant, resulting in striatal dysregulation and paroxysmal dyskinesia.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

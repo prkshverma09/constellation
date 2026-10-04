@@ -1,0 +1,46 @@
+{
+  "pmid": "40956028",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function variants in the disheveled, Egl-10, and pleckstrin domain-containing protein 5 (DEPDC5), and nitrogen permease regulator-like proteins 2 and 3 (NPRL2, and NPRL3) genes",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "disinhibition of the mechanistic target of rapamycin (mTOR) pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disinhibition of the mechanistic target of rapamycin (mTOR) pathway has been observed in patients with loss-of-function variants in the disheveled, Egl-10, and pleckstrin domain-containing protein 5 (DEPDC5), and nitrogen permease regulator-like proteins 2 and 3 (NPRL2, and NPRL3) genes, which encode the components of GTPase activating protein Activity Toward Rags Complex 1 (GATOR1) complex.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "GTPase activating protein Activity Toward Rags Complex 1 (GATOR1) complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disheveled, Egl-10, and pleckstrin domain-containing protein 5 (DEPDC5), and nitrogen permease regulator-like proteins 2 and 3 (NPRL2, and NPRL3) genes, which encode the components of GTPase activating protein Activity Toward Rags Complex 1 (GATOR1) complex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "everolimus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Everolimus, a synthetic mTOR inhibitor, has shown efficacy in treating seizures in patients with DEPDC5 epilepsy, but seemed to worsen seizures in the one published patient with NPRL3 epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

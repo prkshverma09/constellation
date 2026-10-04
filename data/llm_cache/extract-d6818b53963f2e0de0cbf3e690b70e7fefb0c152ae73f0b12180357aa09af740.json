@@ -1,0 +1,66 @@
+{
+  "pmid": "41489401",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "altered N-methyl-D-aspartate receptor (NMDAR) function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN-related disorders due to pathogenic variants in GRIN1, GRIN2A, GRIN2B, or GRIN2D genes are associated with altered N-methyl-D-aspartate receptor (NMDAR) function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN-related disorders due to pathogenic variants in GRIN1, GRIN2A, GRIN2B, or GRIN2D genes are associated with altered N-methyl-D-aspartate receptor (NMDAR) function. Functional changes include gain (GoF) and loss of receptor function (LoF).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN-related disorders due to pathogenic variants in GRIN1, GRIN2A, GRIN2B, or GRIN2D genes are associated with altered N-methyl-D-aspartate receptor (NMDAR) function. Functional changes include gain (GoF) and loss of receptor function (LoF).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In 19 of the 34 variants, a pathogenic likely or possible GoF of the receptor was detected. Fourteen of 19 individuals (74%) benefited from memantine, comprising improvements in behavior (71%), development (50%), and seizure frequency (39%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with either LoF or a functionally indeterminate or no effect GRIN variant (15/34 individuals) showed significantly less benefit from memantine treatment but nevertheless rare adverse events (3/15).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "increased distance from the memantine binding site is associated with clinical benefit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An increased distance of the variant from the memantine binding site was associated with a clinical benefit.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

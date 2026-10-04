@@ -1,0 +1,56 @@
+{
+  "pmid": "32090326",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "heterogeneous epilepsy phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants in the four human brain-expressed SCN genes SCN1A/2A/3A/8A have been associated with heterogeneous epilepsy phenotypes and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants in the four human brain-expressed SCN genes SCN1A/2A/3A/8A have been associated with heterogeneous epilepsy phenotypes and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with gain-of-function SCN2A/3A/8A missense variants or CNV duplications share similar characteristics, most frequently present with early onset epilepsy (<3 months), and demonstrate good response to sodium channel blockers (SCBs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy (<3 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with gain-of-function SCN2A/3A/8A missense variants or CNV duplications share similar characteristics, most frequently present with early onset epilepsy (<3 months), and demonstrate good response to sodium channel blockers (SCBs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with gain-of-function SCN2A/3A/8A missense variants or CNV duplications share similar characteristics, most frequently present with early onset epilepsy (<3 months), and demonstrate good response to sodium channel blockers (SCBs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

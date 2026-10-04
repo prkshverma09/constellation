@@ -1,0 +1,16 @@
+{
+  "pmid": "21173574",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "member of δ2 subgroup of non-clustered protocadherins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phylogenetic analysis with full sequences of non-clustered PCDHs enabled them to be further classified into three subgroups: δ1 (PCDH1, PCDH7, PCDH9, PCDH11 and PCDH20), δ2 (PCDH8, PCDH10, PCDH12, PCDH17, PCDH18 and PCDH19) and ε (PCDH15, PCDH16, PCDH21 and MUCDHL).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

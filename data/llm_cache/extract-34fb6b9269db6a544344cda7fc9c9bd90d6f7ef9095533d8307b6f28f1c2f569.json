@@ -1,0 +1,46 @@
+{
+  "pmid": "26505888",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In our cohort of 404 unrelated focal epilepsy patients, we identified five mutations in NPRL2 and five in NPRL3.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We have identified NPRL2 and NPRL3 as two new focal epilepsy genes that also play a role in the mTOR-signaling pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR-signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We have identified NPRL2 and NPRL3 as two new focal epilepsy genes that also play a role in the mTOR-signaling pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Exome sequencing analysis of two families with focal epilepsy identified NPRL2 and NPRL3 as the top candidate-causative genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

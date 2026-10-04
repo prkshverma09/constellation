@@ -1,0 +1,16 @@
+{
+  "pmid": "30524204",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "editing level of GRIA2Q607R",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the editing level of GRIA2Q607R was significantly correlated with ADAR3 expression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

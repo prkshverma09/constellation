@@ -1,0 +1,206 @@
+{
+  "pmid": "35136953",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in nitrogen permease regulator-like 3 (NPRL3), a component of the GATOR1 complex within the mTOR pathway, are associated with epilepsy and malformations of cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in nitrogen permease regulator-like 3 (NPRL3), a component of the GATOR1 complex within the mTOR pathway, are associated with epilepsy and malformations of cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "exhibited an epilepsy penetrance of 28%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The NPRL3 pedigree exhibited an epilepsy penetrance of 28% and heterogeneous clinical phenotypes with a range of epilepsy semiologies, i.e. focal or generalized onset, brain imaging abnormalities, i.e. polymicrogyria, focal cortical dysplasia or normal imaging, and EEG findings, e.g. focal, multi-focal or generalized spikes, focal or generalized slowing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR pathway hyperactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl3 knockout in vitro caused mTOR pathway hyperactivation, cell soma enlargement and the formation of cellular aggregates seen in time-lapse videos that were prevented with the mTOR inhibitors rapamycin or torin1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "cell soma enlargement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl3 knockout in vitro caused mTOR pathway hyperactivation, cell soma enlargement and the formation of cellular aggregates seen in time-lapse videos that were prevented with the mTOR inhibitors rapamycin or torin1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "formation of cellular aggregates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl3 knockout in vitro caused mTOR pathway hyperactivation, cell soma enlargement and the formation of cellular aggregates seen in time-lapse videos that were prevented with the mTOR inhibitors rapamycin or torin1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl3 knockout in vitro caused mTOR pathway hyperactivation, cell soma enlargement and the formation of cellular aggregates seen in time-lapse videos that were prevented with the mTOR inhibitors rapamycin or torin1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "torin1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nprl3 knockout in vitro caused mTOR pathway hyperactivation, cell soma enlargement and the formation of cellular aggregates seen in time-lapse videos that were prevented with the mTOR inhibitors rapamycin or torin1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR remained localized on the lysosome in a constitutively active conformation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In Nprl3 knockout cells, mTOR remained localized on the lysosome in a constitutively active conformation, as evidenced by phosphorylation of ribosomal S6 and 4E-BP1 proteins, even under nutrient starvation (amino acid-free) conditions, demonstrating that Nprl3 loss decouples mTOR activation from neuronal metabolic state.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "phosphorylation of ribosomal S6 and 4E-BP1 proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In Nprl3 knockout cells, mTOR remained localized on the lysosome in a constitutively active conformation, as evidenced by phosphorylation of ribosomal S6 and 4E-BP1 proteins, even under nutrient starvation (amino acid-free) conditions, demonstrating that Nprl3 loss decouples mTOR activation from neuronal metabolic state.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "decouples mTOR activation from neuronal metabolic state",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In Nprl3 knockout cells, mTOR remained localized on the lysosome in a constitutively active conformation, as evidenced by phosphorylation of ribosomal S6 and 4E-BP1 proteins, even under nutrient starvation (amino acid-free) conditions, demonstrating that Nprl3 loss decouples mTOR activation from neuronal metabolic state.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "CRISPR/Cas9 Nprl3 knockout in Neuro2a cells in vitro",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPR/Cas9 Nprl3 knockout in Neuro2a cells in vitro and in foetal mouse brain in vivo was used to assess the effects of Nprl3 knockout on mTOR activation, subcellular mTOR localization, nutrient signalling, cell morphology and aggregation, cerebral cortical cytoarchitecture and network integrity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "CRISPR/Cas9 Nprl3 knockout in foetal mouse brain in vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPR/Cas9 Nprl3 knockout in Neuro2a cells in vitro and in foetal mouse brain in vivo was used to assess the effects of Nprl3 knockout on mTOR activation, subcellular mTOR localization, nutrient signalling, cell morphology and aggregation, cerebral cortical cytoarchitecture and network integrity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "focal Nprl3 knockout in foetal mouse cortex by in utero electroporation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To model human malformations of cortical development associated with NPRL3 variants, we created a focal Nprl3 knockout in foetal mouse cortex by in utero electroporation and found altered cortical lamination and white matter heterotopic neurons, effects which were prevented with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "altered cortical lamination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To model human malformations of cortical development associated with NPRL3 variants, we created a focal Nprl3 knockout in foetal mouse cortex by in utero electroporation and found altered cortical lamination and white matter heterotopic neurons, effects which were prevented with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "white matter heterotopic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To model human malformations of cortical development associated with NPRL3 variants, we created a focal Nprl3 knockout in foetal mouse cortex by in utero electroporation and found altered cortical lamination and white matter heterotopic neurons, effects which were prevented with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To model human malformations of cortical development associated with NPRL3 variants, we created a focal Nprl3 knockout in foetal mouse cortex by in utero electroporation and found altered cortical lamination and white matter heterotopic neurons, effects which were prevented with rapamycin treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "network hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG recordings showed network hyperexcitability and reduced seizure threshold to pentylenetetrazol treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "reduced seizure threshold to pentylenetetrazol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG recordings showed network hyperexcitability and reduced seizure threshold to pentylenetetrazol treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR-dependent effects on cell structure, cortical development and network organization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 variants are linked to a highly variable clinical phenotype which we propose results from mTOR-dependent effects on cell structure, cortical development and network organization.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

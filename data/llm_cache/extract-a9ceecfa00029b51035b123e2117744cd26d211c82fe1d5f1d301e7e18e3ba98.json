@@ -1,0 +1,16 @@
+{
+  "pmid": "36709037",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "target of miR-9a-5p",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "miR-9a-5p targets, like KCNA4, KCNA2, CACNB2, SCN4B, KCNC1, should receive special attention in them.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

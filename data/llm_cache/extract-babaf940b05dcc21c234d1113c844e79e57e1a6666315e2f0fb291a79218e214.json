@@ -1,0 +1,196 @@
+{
+  "pmid": "34877642",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "voltage-dependent potassium channel that regulates transmembrane currents in pyramidal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KCNB1 gene encodes a voltage-dependent potassium channel that regulates transmembrane currents in pyramidal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants have recently been associated with early-onset epileptic encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with early-onset epileptic encephalopathies and intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "de novo mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In two of them, the mutation in KCNB1 was de novo",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "inherited from a parent with germline mosaicism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the other two, who were sisters, inherited the variant from a parent with germline mosaicism",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "mild-to-moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had mild-to-moderate intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "autistic spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two patients had autistic spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two had attention deficit hyperactivity disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three of them developed epilepsy (cases 1-3).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome (case 1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "onset at 9.5 months with West syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "vigabatrine and zonisamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "well controlled with vigabatrine and zonisamide",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome (case 2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "onset at 13 months with West syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "polymorphic seizures refractory to multiple therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that were refractory to 10 antiepileptic drugs and corticosteroids",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder characterised by ataxia, dyskinesias and tremor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorder characterised by ataxia, dyskinesias and tremor",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "progressive cortical atrophy on MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only case 2 displayed alterations in the MRI brain scan: progressive cortical atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "atonic seizures (case 3)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "onset at 14.5 years with atonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "multifocal EEG pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multifocal EEG pattern",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adequate control with levetiracetam",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "heterogeneous natural history with respect to epilepsy (from refractory to no seizures)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encephalopathy has a heterogeneous natural history, mainly with respect to epilepsy, ranging from patients with refractory epilepsy to patients without any epileptic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

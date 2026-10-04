@@ -1,0 +1,16 @@
+{
+  "pmid": "34181986",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The prevalence of GI symptoms varied across DEE cohorts with 44% of SCN1A-DEE patients, 35% of KCNB1-DEE patients, and 71% of KCNQ2-DEE patients reporting GI symptoms in the previous month.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

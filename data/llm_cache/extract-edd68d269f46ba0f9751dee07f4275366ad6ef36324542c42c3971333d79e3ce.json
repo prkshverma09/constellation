@@ -1,0 +1,26 @@
+{
+  "pmid": "42270582",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of Npas4 in the primary neurons increased the number of VAMP2-labeled synaptic vesicles",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while interfering the expression of Neuroligin-1 and N-cadherin in the primary neurons with siRNA reduced the increase of VAMP2-labeled synaptic vesicles without affecting the Npas4 expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

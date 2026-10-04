@@ -1,0 +1,56 @@
+{
+  "pmid": "31334757",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "holoprosencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we report holoprosencephaly associated with variants in the two X-linked cohesin complex genes, STAG2 and SMC1A, with loss-of-function variants in 10 individuals and a missense variant in one.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we report holoprosencephaly associated with variants in the two X-linked cohesin complex genes, STAG2 and SMC1A, with loss-of-function variants in 10 individuals and a missense variant in one.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we report holoprosencephaly associated with variants in the two X-linked cohesin complex genes, STAG2 and SMC1A, with loss-of-function variants in 10 individuals and a missense variant in one.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "model",
+      "object_text": "expressed in the prosencephalic neural folds during primary neurulation in the mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using whole mount in situ hybridization, we show that STAG2 and SMC1A are expressed in the prosencephalic neural folds during primary neurulation in the mouse, consistent with forebrain morphogenesis and holoprosencephaly pathogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "aberrant expression of HPE-associated genes ZIC2, GLI2, SMAD3 and FGFR1 in human neural stem cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, we found that shRNA knockdown of STAG2 and SMC1A causes aberrant expression of HPE-associated genes ZIC2, GLI2, SMAD3 and FGFR1 in human neural stem cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

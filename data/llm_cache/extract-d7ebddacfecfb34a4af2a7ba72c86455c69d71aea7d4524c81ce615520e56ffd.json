@@ -1,0 +1,26 @@
+{
+  "pmid": "24461912",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cornelia de Lange syndrome is a rare genetic disease, caused by mutations in three known different genes: NIBPL (crom 5p), SMC1A (crom X) and SMC3 (crom 10q), that account for about 65% of cases.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "mild phenotype of the syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A and SMC3 mutations are responsible for a mild phenotype of the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "36779245",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early infantile developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is an autosomal recessive cause of early infantile developmental and epileptic encephalopathy (WWOX-DEE), also known as WOREE (WWOX-related epileptic encephalopathy).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most frequent being focal (85%), epileptic spasms (77%), and tonic seizures (69%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most frequent being focal (85%), epileptic spasms (77%), and tonic seizures (69%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most frequent being focal (85%), epileptic spasms (77%), and tonic seizures (69%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "median onset = 5 weeks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(median onset = 5 weeks, range = 1 day-10 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven of 13 patients had a movement disorder, most frequently dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe frontotemporal, hippocampal, and optic atrophy; thin corpus callosum; white matter signal abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain MRIs revealed severe frontotemporal, hippocampal, and optic atrophy, thin corpus callosum, and white matter signal abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants were located throughout WWOX and comprised both missense and null changes including five copy number variants (four deletions, one duplication).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants were located throughout WWOX and comprised both missense and null changes including five copy number variants (four deletions, one duplication).",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "higher mortality risk with two null variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Survival analyses showed that patients with two null variants are at higher mortality risk (p-value = .0085, log-rank test).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

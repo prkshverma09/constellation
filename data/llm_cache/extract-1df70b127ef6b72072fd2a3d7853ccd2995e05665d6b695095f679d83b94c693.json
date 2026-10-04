@@ -1,0 +1,16 @@
+{
+  "pmid": "34058286",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that the expression of VDAC1 was decreased and Stx1b was increased when BDNF overexpressing,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "37815090",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders (NDDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants affecting Heterogeneous Nuclear Ribonucleoprotein U (HNRNPU) have been identified in several neurodevelopmental disorders (NDDs).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "widely expressed in the human brain and shows the highest postnatal expression in the cerebellum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU is widely expressed in the human brain and shows the highest postnatal expression in the cerebellum.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "chromatin remodeling of A/B compartments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU deficiency leads to chromatin remodeling of A/B compartments",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional rewiring partly by impacting exon inclusion during mRNA processing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU deficiency leads to chromatin remodeling of A/B compartments, and transcriptional rewiring, partly by impacting exon inclusion during mRNA processing.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsies, intellectual disability, and autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genomic regions affected by the chromatin restructuring and host genes of exon usage differences show a strong enrichment for genes implicated in epilepsies, intellectual disability, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "increased fraction of neural progenitors in the maturing neuronal population",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU downregulation leads to an increased fraction of neural progenitors in the maturing neuronal population.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "delayed commitment of neural progenitors to differentiate in cell types with hindbrain profile",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We conclude that the HNRNPU locus is involved in delayed commitment of neural progenitors to differentiate in cell types with hindbrain profile.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "model",
+      "object_text": "in vitro neural differentiation of patient-derived and isogenic neuroepithelial stem cells with a hindbrain profile",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vitro neural differentiation of patient-derived and isogenic neuroepithelial stem cells with a hindbrain profile",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

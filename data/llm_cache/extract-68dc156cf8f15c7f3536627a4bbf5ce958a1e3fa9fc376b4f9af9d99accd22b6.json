@@ -1,0 +1,106 @@
+{
+  "pmid": "33986365",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "profound, prelingual hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several TBC1D24 variants are causally involved in the development of profound, prelingual hearing loss (HL)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy syndromes (autosomal recessive)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and different epilepsy syndromes inherited in an autosomal recessive manner.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "postlingual progressive autosomal dominant hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only two TBC1D24 pathogenic variants have been linked with postlingual progressive autosomal dominant HL (ADHL).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In four families, TBC1D24-related HL was found based on the identification of three novel, likely pathogenic (c.553G>A, p.Asp185Asn; c.1460A>T, p. His487Leu or c.1461C>G, p.His487Gln) and one known (c.533C>T, p.Ser178Leu) TBC1D24 variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "variants in TBC and TLDc domains involved in ADHL",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants not only in the TBC (p.Ser178Leu, p.Asp185Asn) but also in the TLDc domain (p.His487Gln, p.His487Leu) are involved in ADHL development,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "affecting interactions between the domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the latter two mutations probably affecting interactions between the domains.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "progressive hearing loss involving mainly mid and high frequencies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinically, progressive HL involving mainly mid and high frequencies was observed in the patients (n = 29).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cochlear origin of ADHL",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24-related ADHL originates from the cochlear component of the auditory system,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "onset usually in the second decade of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "becomes apparent usually in the second decade of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "accounts for approximately 4% of ADHL cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and accounts for approximately 4% of ADHL cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

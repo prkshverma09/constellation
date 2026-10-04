@@ -1,0 +1,36 @@
+{
+  "pmid": "21492892",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "neuronal voltage-gated calcium channel Cav1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EA2 is caused by mutations in CACNA1A, a gene coding for the neuronal voltage-gated calcium channel Cav1.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For two-thirds of the cases, mutations lead to a stop codon.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This type is most often responsive to acetazolamide that reduces the frequency and severity of the attacks, but does not appear to prevent the progression of interictal symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36287100",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The observed functional changes closely paralleled effects of pathogenic variants in SCN3A and SCN8A at corresponding positions.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

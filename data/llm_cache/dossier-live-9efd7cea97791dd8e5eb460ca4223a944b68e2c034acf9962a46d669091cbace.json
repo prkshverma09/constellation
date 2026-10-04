@@ -1,0 +1,196 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "Mechanism cluster: Neurotransmitter release cycle (Reactome R-HSA-112310; membership stability S=1.00).",
+          "edge_ids": [
+            "8b8a74101835d1d2",
+            "9ade5a695a352157"
+          ]
+        },
+        {
+          "text": "Pathway-anchored links within the SNARE/synaptic release axis: STXBP1, VAMP2, and SNAP25 co-participate in Acetylcholine (R-HSA-264642) and Serotonin (R-HSA-181429) Neurotransmitter Release Cycles.",
+          "edge_ids": [
+            "cdc0a9af79e4b2f6",
+            "78d613b03a5d2f16",
+            "e6d5b0914532b438",
+            "d8497858c88a7d26",
+            "c8fcfc6ef79c0a33",
+            "9c42c5bf01870c1c"
+          ]
+        },
+        {
+          "text": "GO annotations for STXBP1 emphasize vesicle trafficking: export from cell (GO:0002576) and vesicle organization (GO:0035493).",
+          "edge_ids": [
+            "23791896ba71de93",
+            "34c673fba26b1793"
+          ]
+        },
+        {
+          "text": "Additional synaptic pathways for STXBP1 include Transmission across Chemical Synapses (R-HSA-112315) and broader Neuronal System (R-HSA-112316).",
+          "edge_ids": [
+            "e0481a2cb39e23bb",
+            "b631fe0c2a98eb04"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) serves STXBP1-related disease (DEE4).",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) also serves STXBP1-related disease (DEE4).",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "The NCT05462054 asset is mapped cross-disease to STX1B-related disease (GEFS+, type 9) with reported phenotype coverage 55% (5/8; IC 16.98/30.76).",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "Community assets include Asociación Síndrome STXBP1 (Spain) and the European STXBP1 Consortium (ESCO).",
+          "edge_ids": [
+            "453d4be996145f4e",
+            "ba44da54694ec39f"
+          ]
+        },
+        {
+          "text": "A VAMP2-focused foundation (Raging Raymond Foundation) anchors within the same neurotransmitter release network.",
+          "edge_ids": [
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "Counterexample on mechanism: GNAO1-related disease (NEDIM) is phenotypically proximate yet mechanistically off-axis for neurotransmitter release and is excluded for current clustering purposes.",
+          "edge_ids": [
+            "f94ad5494a3e9ab8",
+            "28dfc2a4aa28527a"
+          ]
+        },
+        {
+          "text": "Variant-model differences: STXBP1 shows loss_of_function, whereas CACNA1A comparators include gain_of_function variants in epilepsy cohorts.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040"
+          ]
+        },
+        {
+          "text": "Variant-model differences: STXBP1 shows loss_of_function, whereas GRIN1 comparators include gain_of_function variants that increase NMDA receptor-mediated charge transfer.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730"
+          ]
+        },
+        {
+          "text": "Contradictory genotype–phenotype correlations within STXBP1 are reported: no correlation between seizure and ID severity; no correlation between mutation type and seizure/cognitive outcome; and no recurrent variant–syndrome specificity.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2",
+            "e362983ef11a54b1",
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Rikke S Møller is a bridge across STX1B and STXBP1 work: authored STX1B disease papers and an STXBP1 natural history study relevant to data capture.",
+          "edge_ids": [
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        },
+        {
+          "text": "Ingo Helbig is active in STXBP1 community-building and phenotyping relevant to cross-disease capture.",
+          "edge_ids": [
+            "18e9e45f700b90dd",
+            "220ad6798167d0d5",
+            "0bead7fade435d02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review NCT05462054 phenotype mapping coverage for STX1B-related disease (GEFS+, type 9) claimed as 0.55 (5/8; IC 16.98/30.76), and verify Rikke S Møller as contact based on authorship links to STX1B and the STXBP1 natural history asset.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba",
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage of STX1B-related disease (GEFS+, type 9) phenotype information is reported as 55% (5/8; IC 16.98/30.76) using NCT05462054 mapping.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 4,
+  "markdown": "## Who shares our characteristics\nMechanism cluster: Neurotransmitter release cycle (Reactome R-HSA-112310; membership stability S=1.00). [8b8a74101835d1d2, 9ade5a695a352157]\nPathway-anchored links within the SNARE/synaptic release axis: STXBP1, VAMP2, and SNAP25 co-participate in Acetylcholine (R-HSA-264642) and Serotonin (R-HSA-181429) Neurotransmitter Release Cycles. [cdc0a9af79e4b2f6, 78d613b03a5d2f16, e6d5b0914532b438, d8497858c88a7d26, c8fcfc6ef79c0a33, 9c42c5bf01870c1c]\nGO annotations for STXBP1 emphasize vesicle trafficking: export from cell (GO:0002576) and vesicle organization (GO:0035493). [23791896ba71de93, 34c673fba26b1793]\nAdditional synaptic pathways for STXBP1 include Transmission across Chemical Synapses (R-HSA-112315) and broader Neuronal System (R-HSA-112316). [e0481a2cb39e23bb, b631fe0c2a98eb04]\n\n## What already exists\nNatural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy (NCT05462054) serves STXBP1-related disease (DEE4). [bc71e274e1c691ec]\nSTXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) also serves STXBP1-related disease (DEE4). [dcec503694916ae3]\nThe NCT05462054 asset is mapped cross-disease to STX1B-related disease (GEFS+, type 9) with reported phenotype coverage 55% (5/8; IC 16.98/30.76). [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]\nCommunity assets include Asociación Síndrome STXBP1 (Spain) and the European STXBP1 Consortium (ESCO). [453d4be996145f4e, ba44da54694ec39f]\nA VAMP2-focused foundation (Raging Raymond Foundation) anchors within the same neurotransmitter release network. [202ca5201eca2102]\n\n## What differs and must be verified\nCounterexample on mechanism: GNAO1-related disease (NEDIM) is phenotypically proximate yet mechanistically off-axis for neurotransmitter release and is excluded for current clustering purposes. [f94ad5494a3e9ab8, 28dfc2a4aa28527a]\nVariant-model differences: STXBP1 shows loss_of_function, whereas CACNA1A comparators include gain_of_function variants in epilepsy cohorts. [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040]\nVariant-model differences: STXBP1 shows loss_of_function, whereas GRIN1 comparators include gain_of_function variants that increase NMDA receptor-mediated charge transfer. [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730]\nContradictory genotype–phenotype correlations within STXBP1 are reported: no correlation between seizure and ID severity; no correlation between mutation type and seizure/cognitive outcome; and no recurrent variant–syndrome specificity. [b1f9e5eeafbc81d2, e362983ef11a54b1, ddc8cd6784a496fb]\n\n## Who to contact\nRikke S Møller is a bridge across STX1B and STXBP1 work: authored STX1B disease papers and an STXBP1 natural history study relevant to data capture. [00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\nIngo Helbig is active in STXBP1 community-building and phenotyping relevant to cross-disease capture. [18e9e45f700b90dd, 220ad6798167d0d5, 0bead7fade435d02]\n\n## Proposed first joint step\nReview NCT05462054 phenotype mapping coverage for STX1B-related disease (GEFS+, type 9) claimed as 0.55 (5/8; IC 16.98/30.76), and verify Rikke S Møller as contact based on authorship links to STX1B and the STXBP1 natural history asset. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba, 00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\n\n## Search coverage\nCoverage of STX1B-related disease (GEFS+, type 9) phenotype information is reported as 55% (5/8; IC 16.98/30.76) using NCT05462054 mapping. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92]",
+  "usage": {
+    "input_tokens": 69814,
+    "output_tokens": 8228
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "priya",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "8bc084bc-c22a-4426-ba7c-015f2b4bd336",
+  "generated_at": "2026-10-04T11:10:25.358515+00:00",
+  "gap_plan": null,
+  "fallback_sections": [],
+  "model": "gpt-5",
+  "elapsed_ms": 99749,
+  "comparator_id": null
+}

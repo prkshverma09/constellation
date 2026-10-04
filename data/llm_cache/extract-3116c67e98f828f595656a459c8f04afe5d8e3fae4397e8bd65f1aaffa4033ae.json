@@ -1,0 +1,136 @@
+{
+  "pmid": "29016847",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel missense variant in the X-linked GRIA3 gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which has been implicated in intellectual disability.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "AMPA-type ionotropic glutamate receptor subunit (GluA3)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 encodes GluA3, a subunit of AMPA-type ionotropic glutamate receptors (AMPARs).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "transmembrane domain of the ion channel gate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "falls within the highly conserved transmembrane domain of the ion channel gate",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In vitro, the GRIA3(A653T) mutation stabilizes the channel in a closed conformation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "Gria3A653T mouse (CRISPR-Cas9 hemizygous mutants)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We introduced the orthologous mutation into a mouse strain by CRISPR-Cas9 mutagenesis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "fewer brief bouts of activity and sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Gria3A653T mouse showed significantly fewer brief bouts of activity and sleep than the wild-types.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "enhanced period lengthening under constant light",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gria3A653T mice showed enhanced period lengthening under constant light compared to wild-type mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "increased sensitivity to light",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting an increased sensitivity to light.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the two male children had severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "dramatically disturbed sleep-wake cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a dramatically disturbed sleep-wake cycle",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "very long wake and sleep durations (up to 106-h awake and 48-h asleep)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "very long wake and sleep durations, reaching up to 106-h awake and 48-h asleep.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "GluA3 channel activity regulates sleep behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest a role for GluA3 channel activity in the regulation of sleep behavior in both mice and humans.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

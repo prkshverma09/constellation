@@ -1,0 +1,136 @@
+{
+  "pmid": "30771507",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "benign seizure disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 related disorders comprise both benign seizure disorders and early onset epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 related disorders comprise both benign seizure disorders and early onset epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures to standard antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Especially within the latter group, patients suffer from refractory seizures to standard antiepileptic drugs and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Especially within the latter group, patients suffer from refractory seizures to standard antiepileptic drugs and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure free",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 'benign' group, 92.5% of patients became seizure free while 3.8% did not respond to treatment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure free",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast 65.5% of patients in the 'EOEE' group were reported seizure free, while 14.3% showed no treatment success (p = 0.003).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizure remission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Spontaneous seizure remission (without medication) was 30.1% in the 'benign' group.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "Phenobarbital",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital and sodium channel blockers most often lead to seizure freedom in patients with a 'benign' course.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital and sodium channel blockers most often lead to seizure freedom in patients with a 'benign' course.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In patients with 'EOEE' seizure freedom was more likely achieved when receiving sodium channel blockers.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "medical treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures associated with mutations within the voltage gated potassium channel KCNQ2 are well controlled by medical treatment in patients with 'benign' courses and moderately well in patients with the 'EOEE' group.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "Phenobarbital",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital might be considered in benign courses, while sodium channel blockers seem appropriate for both 'benign' and 'EOEE' patients.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenobarbital might be considered in benign courses, while sodium channel blockers seem appropriate for both 'benign' and 'EOEE' patients.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

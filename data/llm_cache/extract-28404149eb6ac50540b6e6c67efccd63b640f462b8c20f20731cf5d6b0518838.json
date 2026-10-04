@@ -1,0 +1,66 @@
+{
+  "pmid": "37536505",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "inhibitor of TGF-β signaling pathway; nucleocytoplasmic transcription factor essential for forebrain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Forkhead box G1 (FOXG1, also known as BF1), a member of the FOX family and an inhibitor of TGF-β signaling pathway, is a nucleocytoplasmic transcription factor that is essential for forebrain development.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "localized in oocytes, theca cells and corpora lutea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 is localized in oocytes, theca cells (TCs) and CLs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "expressed at all stages during early embryogenesis from zygote to blastocyst",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After fertilization, FOXG1 is expressed at all stages during early embryogenesis, from zygotes to blastocysts.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "expression significantly increased following gonadotropin administration in immature mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Following gonadotropin administration in immature mice, the expression of Foxg1 significantly increased along with steroidogenic genes, including Star, Hsd3β, Cyp11a1, as well as Cyp17a1 and Cyp19a1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "silencing reduces testosterone and estrogen concentrations in cultured primary granulosa cells and theca cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "silencing of Foxg1 significantly reduced the concentration of testosterone and estrogen in cultured primary granulosa cells (GCs) and TCs (P < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "silencing reduces expression of estrogen synthesis genes including Cyp17a1 and Cyp19a1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression level of genes that are critical in estrogen synthesis were significantly reduced after Foxg1 silencing, including Cyp17a1 and Cyp19a1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

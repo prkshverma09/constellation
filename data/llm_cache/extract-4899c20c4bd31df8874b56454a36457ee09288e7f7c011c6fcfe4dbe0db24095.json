@@ -1,0 +1,36 @@
+{
+  "pmid": "17942731",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "distal localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of myosin Va function also blocked distal localization of vesicle-associated membrane protein 2 (VAMP2)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "oligodendrocyte morphogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When VAMP2 function was disrupted, oligodendrocytes exhibited similar morphologic deficits to what is seen with functional ablation of myosin Va.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "oligodendrocyte function as it relates to myelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings establish a role for both myosin Va and VAMP2 in oligodendrocyte function as it relates to myelination.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

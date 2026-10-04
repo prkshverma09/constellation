@@ -1,0 +1,16 @@
+{
+  "pmid": "23906638",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "BoNT serotype B (BoNT/B) targets VAMP2, which is expressed in both excitatory and inhibitory terminals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

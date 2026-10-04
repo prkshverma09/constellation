@@ -1,0 +1,16 @@
+{
+  "pmid": "27830185",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsies and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the genes encoding CNS Navs (Nav1.1 [SCN1A], Nav1.2 [SCN2A], Nav1.3 [SCN3A], and Nav1.6 [SCN8A]) are causes of some of the most common and severe genetic epilepsies and epileptic encephalopathies (EE).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

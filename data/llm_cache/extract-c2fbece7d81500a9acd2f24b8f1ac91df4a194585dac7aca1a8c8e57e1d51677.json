@@ -1,0 +1,16 @@
+{
+  "pmid": "33004838",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

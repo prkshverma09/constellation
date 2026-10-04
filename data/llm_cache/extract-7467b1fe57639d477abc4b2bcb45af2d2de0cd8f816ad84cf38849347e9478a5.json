@@ -1,0 +1,26 @@
+{
+  "pmid": "41047224",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "reduced plasma SNAP25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ex-players returned reduced plasma glial fibrillary acidic protein (GFAP), kallikrein-6 (KLK6) and synaptosomal-associated protein 25 (SNAP25).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "reduced SNAP25 in ex-forwards",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced GFAP and SNAP25 in ex-forwards has an uncertain basis,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "35346832",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the sodium-activated potassium channel KNa1.1; preferential expression in frontal cortex, hippocampus, cerebellum, and brainstem",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 encodes the sodium-activated potassium channel KNa1.1, expressed preferentially in the frontal cortex, hippocampus, cerebellum, and brainstem.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS); sleep-related hypermotor epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic missense variants in KCNT1 are associated with intractable epilepsy, namely epilepsy of infancy with migrating focal seizures (EIMFS), and sleep-related hypermotor epilepsy (SHE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In vitro studies of pathogenic KCNT1 variants support predominantly a gain-of-function molecular mechanism",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "CRISPR/Cas9 knock-in mouse with a gain-of-function variant in endogenous Kcnt1 (heterozygous and homozygous)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using CRISPR/Cas9 gene editing, we introduced a gain-of-function variant into the endogenous mouse Kcnt1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "heterozygous and homozygous knock-in mice displayed greater seizure susceptibility to kainate and pentylenetetrazole (PTZ) but not to flurothyl",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to wild-type (WT) littermates, heterozygous and homozygous knock-in mice displayed greater seizure susceptibility to the chemoconvulsants kainate and pentylenetetrazole (PTZ), but not to flurothyl.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "greater amplitude of miniature inhibitory postsynaptic currents in CA1 pyramidal neurons; greater inhibitory tone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CA1 hippocampal pyramidal neurons exhibit greater amplitude of miniature inhibitory postsynaptic currents in mutant mice with no difference in frequency, suggesting greater inhibitory tone associated with the Kcnt1 mutation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "parvalbumin-expressing (PV+) interneurons fail to fire repetitively and are more prone to depolarization block",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "parvalbumin-expressing (PV+) interneurons failed to fire repetitively with large amplitude current injections and were more prone to depolarization block.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These alterations in firing can be recapitulated by direct application of the KNa1.1 channel activator loxapine in WT but are occluded in knock-in littermates, supporting a direct channel gain-of-function mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "KNa1.1 gain-of-function dampens interneuron excitability to a greater extent than it impacts pyramidal neuron excitability, driving seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together, these results suggest that KNa1.1 gain-of-function dampens interneuron excitability to a greater extent than it impacts pyramidal neuron excitability, driving seizure susceptibility in a mouse model of KCNT1-associated epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

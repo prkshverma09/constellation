@@ -1,0 +1,126 @@
+{
+  "pmid": "36618935",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the voltage-gated potassium channel, KV2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1, which encodes the voltage-gated potassium channel, KV2.1,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Numerous pathogenic variants in KCNB1, which encodes the voltage-gated potassium channel, KV2.1, are linked to developmental and epileptic encephalopathies and associated with loss-of-function, -regulation, and -expression of the channel.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with loss-of-function, -regulation, and -expression of the channel.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified a de novo missense variant in the coding region of the KCNB1 gene, c.49C>A which encodes a p.P17T mutation in the N-terminus of the voltage-gated, KV2.1 potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with a gain-of-function (GoF)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "gain of current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified a gain of current, rightward shifts in the steady-state inactivation curve and reduced sensitivity to the blocker, guanxitoxin-1E.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "rightward shifts in the steady-state inactivation curve",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rightward shifts in the steady-state inactivation curve",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "reduced sensitivity to guanxitoxin-1E",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced sensitivity to the blocker, guanxitoxin-1E.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with global developmental delays, mild hypotonia and joint laxity, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "mild hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with global developmental delays, mild hypotonia and joint laxity, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "joint laxity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with global developmental delays, mild hypotonia and joint laxity, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "absence of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with global developmental delays, mild hypotonia and joint laxity, but without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

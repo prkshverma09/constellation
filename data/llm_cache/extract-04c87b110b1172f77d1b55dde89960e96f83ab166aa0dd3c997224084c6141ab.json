@@ -1,0 +1,16 @@
+{
+  "pmid": "39423955",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "expressed in human but not in mouse brain pericytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several genes implicated in human disease were expressed in human but not in mouse brain pericytes, including SLC6A1, CACNA2D3, and SLC20A2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

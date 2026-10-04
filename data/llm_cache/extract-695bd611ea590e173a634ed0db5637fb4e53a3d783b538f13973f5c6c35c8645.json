@@ -1,0 +1,36 @@
+{
+  "pmid": "36734057",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "loss of γ-aminobutyric acid inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsies with loss of γ-aminobutyric acid inhibition (e.g., SCN1A)",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "high treatment efficacy with perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The following genes showed high treatment efficacy: SCN1A, GNAO1, PIGA, PCDH19, SYNGAP1, POLG1, POLG2, and NEU1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "responders 64.7%; >90% seizure reduction in 35.3%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven of 17 (64.7%) patients with Dravet syndrome due to an SCN1A pathogenic variant were responders to perampanel treatment; 35.3% of them had >90% seizure reduction.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

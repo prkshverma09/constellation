@@ -1,0 +1,16 @@
+{
+  "pmid": "31904117",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A and SCN2A pathogenic variants have been identified in genetic studies of cohorts of patients with ASD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

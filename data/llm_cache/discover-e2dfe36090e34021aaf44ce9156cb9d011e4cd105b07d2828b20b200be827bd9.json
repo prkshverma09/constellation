@@ -1,0 +1,32 @@
+{
+  "symbol": "VAMP2",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:46:56.419177+00:00",
+  "usage": {
+    "input_tokens": 63652,
+    "output_tokens": 6318
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "VAMP2.org",
+        "url": "https://vamp2.org/",
+        "kind": "foundation",
+        "snippet": "In 2018, the first case of a VAMP2 genetic variant was diagnosed in the United States."
+      },
+      {
+        "name": "Raging Raymond Foundation",
+        "url": "https://ragingraymondfoundation.org/vamp2-syndrome",
+        "kind": "foundation",
+        "snippet": "We have chosen to focus exclusively on mutations of a gene that encodes the essential SNARE protein known as vesicle-associated membrane protein 2, or VAMP2."
+      },
+      {
+        "name": "Simons Searchlight",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/vamp2/",
+        "kind": "registry",
+        "snippet": "Help the Simons Searchlight team learn more about VAMP2 genetic changes by taking part in our research."
+      }
+    ]
+  }
+}

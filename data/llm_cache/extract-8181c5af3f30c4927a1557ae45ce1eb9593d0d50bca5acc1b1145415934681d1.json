@@ -1,0 +1,36 @@
+{
+  "pmid": "40278414",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "interacts_with_SMC4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC4 interacts with GLUT1, encoded by Slc2a1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "promotes_prostate_cancer_cell_metastasis_through_Rheb/mTOR_pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the interaction between SMC4 and GLUT1, as confirmed by co-IP, promotes prostate cancer cell metastasis through the Rheb/mTOR pathway.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "encodes_GLUT1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GLUT1, encoded by Slc2a1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "41255692",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "5 male ASD/DD patients from 3 unrelated families had PCDH19 missense variants,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "neurobehavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "at least some hemizygous males with non-mosaic PCDH19 variants may present with neurobehavioral abnormalities.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "These variants did not cause epilepsy restricted to females in patients' mothers or sisters.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

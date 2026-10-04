@@ -1,0 +1,126 @@
+{
+  "pmid": "35883580",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "inhibits cancer growth and retards Alzheimer's disease (AD) progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tumor suppressor WWOX inhibits cancer growth and retards Alzheimer's disease (AD) progression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "pY33-WWOX is proapoptotic and anticancer, and is essential for maintaining normal physiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pY33-WWOX is proapoptotic and anticancer, and is essential for maintaining normal physiology.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "pS14-WWOX is accumulated in the lesions of cancers and AD brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pS14-WWOX is accumulated in the lesions of cancers and AD brains",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "suppression of WWOX phosphorylation at S14 by a short peptide Zfra abolishes cancer growth and retardation of AD progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suppression of WWOX phosphorylation at S14 by a short peptide Zfra abolishes cancer growth and retardation of AD progression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Zfra4-10 or WWOX7-21 peptide strengthens the binding of endogenous WWOX with intracellular protein partners leading to cancer suppression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In parallel, synthetic Zfra4-10 or WWOX7-21 peptide strengthens the binding of endogenous WWOX with intracellular protein partners leading to cancer suppression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "triple transgenic mice for AD (3xTg)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zfra4-10 is potent in restoring memory loss in triple transgenic mice for AD (3xTg) by blocking the aggregation of amyloid beta 42 (Aβ42), enhancing degradation of aggregated proteins, and inhibiting activation of inflammatory NF-κB.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "blocking the aggregation of amyloid beta 42 (Aβ42)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "blocking the aggregation of amyloid beta 42 (Aβ42)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "enhancing degradation of aggregated proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "enhancing degradation of aggregated proteins",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "inhibiting activation of inflammatory NF-κB",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inhibiting activation of inflammatory NF-κB",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Zfra4-10-mediated suppression of cancer and AD is due, in part, to an enhanced binding of endogenous WWOX and its binding partners",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zfra4-10-mediated suppression of cancer and AD is due, in part, to an enhanced binding of endogenous WWOX and its binding partners.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "HYAL-2/WWOX/SMAD4 signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we detail the molecular action of WWOX in the HYAL-2/WWOX/SMAD4 signaling for biological effects",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "the more strongly WWOX binds intracellular protein partners, the weaker is cancer cell growth in vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Supporting evidence shows that the more strongly WWOX binds intracellular protein partners, the weaker is cancer cell growth in vivo.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "34226156",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one (2.8%) had an STX1B mutation",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

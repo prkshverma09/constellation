@@ -1,0 +1,16 @@
+{
+  "pmid": "35695987",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease risk",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "researched variants in COMT, DBH, MAO, DAT/SLC6A3, DRD2, GRIN2B, GSK3β, ATP13A2, LINGO1, PICALM, and GRN were not related to PD risk.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

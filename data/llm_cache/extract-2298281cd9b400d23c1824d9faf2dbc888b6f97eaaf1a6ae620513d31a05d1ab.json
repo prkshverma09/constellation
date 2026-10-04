@@ -1,0 +1,96 @@
+{
+  "pmid": "41642117",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with epilepsy (onset age ≥ 3 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder (ASD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "11 caused total Nav1.2 LoF",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three caused partial LoF",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one showed mixed LoF and gain-of-function (GoF) effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "midinfancy epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a midinfancy epilepsy phenotype was observed in 22 of 24 individuals (92%) carrying a mixed LoF variant,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A novel LoF-associated phenotype-episodic ataxia with or without developmental delay or ID-was identified in five of six individuals with the L1650P variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "distinct SCN2A LoF phenotypes cannot be reliably linked to specific biophysical mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Distinct SCN2A LoF phenotypes cannot be reliably linked to specific biophysical mechanisms, as both total and partial Nav1.2 LoF occurs across diverse phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

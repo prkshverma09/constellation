@@ -1,0 +1,26 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "convulsive status epilepticus (CSE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSE was also notable in patients with pathogenic variants in KCNT1 (6/10; 60%; 95% CI 26-88) and SCN2A (8/15; 53%; 95% CI 27-79).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexplained death in epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes were associated with SUDEP: SCN1A, SCN2A, SCN8A, and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

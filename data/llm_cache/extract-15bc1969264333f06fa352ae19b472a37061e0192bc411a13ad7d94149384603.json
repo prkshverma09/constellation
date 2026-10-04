@@ -1,0 +1,56 @@
+{
+  "pmid": "37301203",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "adult-onset and infantile-onset forms of disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A, ITPR1, SPTBN2, and KCNC3-were associated with both adult-onset and infantile-onset forms of disease",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "wide ranges in age at onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several variants in CACNA1A showed particularly wide ranges in age at onset",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "infantile developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia onset at 64 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia onset at 64 years of age",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "phenotype affected by type of variant and charge change on the protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For CACNA1A, ITPR1, and SPTBN2, the type of variant and charge change on the protein greatly affected the phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "33515866",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, the following causative genes associated with early-onset developmental and epileptic encephalopathies are discussed in detail: KCNT1, KCNQ2, KCNA2, SCN2A, SCN8A, STXBP1, CDKL5, PIGA, SPTAN1, and GNAO1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

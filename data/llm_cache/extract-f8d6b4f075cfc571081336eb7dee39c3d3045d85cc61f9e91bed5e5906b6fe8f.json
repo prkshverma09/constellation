@@ -1,0 +1,16 @@
+{
+  "pmid": "32580088",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEGs in this module were involved in the synaptic vesicle cycle, axon and neuron regeneration, and neurotransmission. The Dlg4 and Vamp2 genes were selected as common candidate factors in epilepsy and ADHD pathogenesis.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

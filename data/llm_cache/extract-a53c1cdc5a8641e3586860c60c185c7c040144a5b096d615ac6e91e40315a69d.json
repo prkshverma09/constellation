@@ -1,0 +1,96 @@
+{
+  "pmid": "10766861",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "maps to the critical human tumor suppressor gene region in chromosome 3p21.3, showing very frequent allele loss and occasional homozygous deletions in lung, breast, and other cancers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gene maps to the critical human tumor suppressor gene region in chromosome 3p21.3, showing very frequent allele loss and occasional homozygous deletions in lung, breast, and other cancers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "mRNA is most abundantly expressed in lung and testis and well expressed in brain, heart, and pancreas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alpha(2)delta-2 mRNA is most abundantly expressed in lung and testis and well expressed in brain, heart, and pancreas.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increased peak size of the N-type Ca(2+) currents 9-fold",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased peak size of the N-type Ca(2+) currents 9-fold",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increased peak size of L-type channels 2-fold and T-type channels 1.8-fold, respectively",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased peak size of L-type channels 2-fold and T-type channels 1.8-fold, respectively",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "expression of a 129-kDa alpha(2)delta-2 polypeptide in some but not all lung tumor cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Anti-peptide antibodies detect the expression of a 129-kDa alpha(2)delta-2 polypeptide in some but not all lung tumor cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "encodes a functional auxiliary subunit of voltage-gated Ca(2+) channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We conclude that the alpha(2)delta-2 gene encodes a functional auxiliary subunit of voltage-gated Ca(2+) channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "needs to be explored as a potential tumor suppressor gene linking Ca(2+) signaling and lung, breast, and other cancer pathogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Because of its chromosomal location and expression patterns, CACNA2D2 needs to be explored as a potential tumor suppressor gene linking Ca(2+) signaling and lung, breast, and other cancer pathogenesis.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "mouse neurologic mutant ducky (du)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the homologous location on mouse chromosome 9 is also the site of the mouse neurologic mutant ducky (du)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "inherited idiopathic generalized epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2 is also a candidate gene for this inherited idiopathic generalized epilepsy syndrome.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

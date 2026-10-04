@@ -1,0 +1,56 @@
+{
+  "pmid": "41429663",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "lactylation at lysine 210 (K210)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "methyl-CpG binding protein 2 (MeCP2) is lactylated at lysine 210 (K210)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional activation of glycolytic/inflammatory genes, especially hexokinase 2 (HK2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "enhancing its transcriptional activation of glycolytic/inflammatory genes, especially hexokinase 2 (HK2).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "impairs mitochondrial respiration; dysregulates mTOR/AMPK signaling; sustains neuroinflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lactylated MeCP2 impairs mitochondrial respiration, disrupts metabolic signaling (leading to dysregulated activation of the mammalian target of rapamycin (mTOR)/AMPK pathway), and sustains neuroinflammation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "Genetic ablation of MeCP2-K210 lactylation via K210R mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic ablation of MeCP2-K210 lactylation (via K210R mutation), pharmacological inhibition of lactyltransferase p300, or HK2 inhibition with lonidamine restores mitochondrial function, attenuates neuroinflammation, and improves neurofunctional recovery.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MeCP2-K210 lactylation drives microglial activation via the HK2/mTOR axis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The findings establish MeCP2-K210 lactylation as a critical metabolic-epigenetic switch driving microglial activation via the HK2/mTOR axis, identifying a therapeutic target for postischemic neuroinflammation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

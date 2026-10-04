@@ -1,0 +1,76 @@
+{
+  "pmid": "39049436",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "CDKL5-knockout mice (CDKL5 deficiency disorder model)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-knockout mice, a CDKL5 deficiency disorder model,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "central apneas during wakefulness reported in patients with CDKL5 deficiency disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Central apneas during wakefulness have been reported in patients with CDKL5 deficiency disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "higher apnea occurrence rate and greater prevalence of obstructive sleep apnea during REM in CDKL5-knockout mice compared with wild-type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-knockout mice exhibited a higher apnea occurrence rate and a greater prevalence of obstructive sleep apnea during rapid eye movement sleep, compared with wild-type",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "no significant difference in central sleep apnea between CDKL5-knockout and wild-type mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "no significant difference was observed for central sleep apnea.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "reduced number of somatostatin neurons in the preBötzinger complex in CDKL5-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5-knockout mice showed a reduced number of somatostatin neurons in the preBötzinger complex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "lower level of neurokinin-1 receptor expression in somatostatin neurons of the preBötzinger complex in CDKL5-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these neurons expressed a lower level of neurokinin-1 receptors compared with wild-type controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "CDKL5 regulates normal breathing and may be involved in shaping preBötzinger complex neural circuitry and controlling respiratory muscles during sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting its potential involvement in shaping preBötzinger complex neural circuitry and controlling respiratory muscles during sleep.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

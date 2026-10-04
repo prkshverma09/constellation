@@ -1,0 +1,136 @@
+{
+  "pmid": "38045990",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten of 14 (71%) patients had drug-resistant seizures, treated with a median of 2 antiseizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures in adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seventy-one percent of patients with SYNGAP1-DEEs continue to have seizures when adults.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal pain processing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients (100%) had abnormal pain processing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sleep disturbances, social communication disorders, and aggressive/self-injurious behaviors were each reported in 86% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "social communication disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sleep disturbances, social communication disorders, and aggressive/self-injurious behaviors were each reported in 86% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "aggressive/self-injurious behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sleep disturbances, social communication disorders, and aggressive/self-injurious behaviors were each reported in 86% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "could walk with minimal or no assistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only half of adults could walk with minimal or no assistance.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "normal toileting",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Toileting was normal in 29%, and 71% had constipation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "constipation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Toileting was normal in 29%, and 71% had constipation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "unable to read or understand verbal material at a sixth-grade level or higher",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No adult patients could read or understand verbal material at a sixth-grade level or higher.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "dependence on caregivers for activities of daily living",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Almost all adult patients depend on caregivers for many activities of daily living.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "greater daily living skills (partial exon 3 deletion vs SNVs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One patient with a partial exon 3 deletion had greater daily living skills and social skills than others with single-nucleotide variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "greater social skills (partial exon 3 deletion vs SNVs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One patient with a partial exon 3 deletion had greater daily living skills and social skills than others with single-nucleotide variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

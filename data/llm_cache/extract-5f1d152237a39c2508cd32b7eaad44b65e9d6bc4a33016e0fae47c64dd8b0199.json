@@ -1,0 +1,26 @@
+{
+  "pmid": "35653814",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "encodes the α-subunit of the voltage-gated ion channel NaV1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A gene, which encodes the α-subunit of the voltage-gated ion channel NaV1.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet Syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Over 80% of cases are due to a de novo mutation in one allele of the SCN1A gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

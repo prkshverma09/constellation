@@ -1,0 +1,96 @@
+{
+  "pmid": "28053010",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed reduced GABA-induced current amplitudes or GABA sensitivity for 5 of 7 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "GABAergic disinhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced receptor function causing GABAergic disinhibition represents the relevant disease mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "Xenopus laevis oocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electrophysiologic analysis of 7 mutations in Xenopus laevis oocytes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "simple febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "simple febrile seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsies with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic epilepsies with febrile seizures plus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic-atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy with myoclonic-atonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "West syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "severe, early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other types of severe, early-onset epileptic encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "broad phenotypic spectrum of epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 mutations are associated with a broad phenotypic spectrum of epilepsies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

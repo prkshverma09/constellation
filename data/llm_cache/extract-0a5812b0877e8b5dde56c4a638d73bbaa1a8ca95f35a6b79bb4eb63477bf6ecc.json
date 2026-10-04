@@ -1,0 +1,36 @@
+{
+  "pmid": "37804337",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "duplications on Xq28 chromosome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 duplication syndrome (MDS) is a rare genetic disorder that is caused by genetic duplications on Xq28 chromosome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "moya moya vasculopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we present a child with both MDS and MMV.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "correlation between the patient's MECP2 duplication and MMV",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Possible correlation between our patient's extensive genetic mutation and MMV has been evaluated.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "42149211",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "negative regulator of mTORC1 activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GATOR1 complex, composed of DEPDC5, NPRL2, and NPRL3, functions as a negative regulator of mTORC1 activity",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants in the genes which comprise this complex cause focal epilepsy and malformation of cortical development",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "malformation of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants in the genes which comprise this complex cause focal epilepsy and malformation of cortical development",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "cortical malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 mutations showed a tendency toward cortical malformations, though the small subgroup size limits interpretation.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

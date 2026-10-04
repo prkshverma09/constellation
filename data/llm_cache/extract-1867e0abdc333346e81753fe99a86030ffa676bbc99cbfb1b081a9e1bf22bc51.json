@@ -1,0 +1,36 @@
+{
+  "pmid": "33914968",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy, early infantile 54 (OMIM 602,869)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy, early infantile 54 (OMIM 602,869).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominance early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal dominance early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early infantile epileptic encephalopathy caused by HNRNPU variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

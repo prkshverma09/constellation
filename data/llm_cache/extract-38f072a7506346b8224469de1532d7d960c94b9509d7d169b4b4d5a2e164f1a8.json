@@ -1,0 +1,46 @@
+{
+  "pmid": "27232581",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly, seizures and developmental delay (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One of the syndromic forms of microcephaly is microcephaly, seizures and developmental delay (MCSZ) (OMIM #613402), a rare autosomal recessive neurodevelopmental disorder with a range of phenotypic severity, and known to be caused by mutations in the polynucleotide kinase 3' phosphatase (PNKP) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "repair of single and double stranded DNA breaks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The PNK protein is a key enzyme involved in the repair of single and double stranded DNA breaks, a process which is particularly important in the nervous system.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We used whole exome sequencing to identify homozygosity for a missense c.1385G > C (p.Arg462Pro) mutation in PNKP in the patient",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "Arg 462 residue is part of the lid subdomain helix of the P-loop Kinase domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Arg 462 residue forms a part of the lid subdomain helix of the P-loop Kinase domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

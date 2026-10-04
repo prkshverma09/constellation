@@ -1,0 +1,76 @@
+{
+  "pmid": "32038177",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "KNa1.2 (Slick) subunit of the sodium-dependent voltage-gated potassium channel KNa",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 and KCNT2 respectively encode the KNa1.1 (Slack) and KNa1.2 (Slick) subunits of the sodium-dependent voltage-gated potassium channel KNa.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EIMFS have a genetic origin and are mostly caused by de novo mutations in the KCNT1 gene, and much more rarely in the KCNT2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "EOEE (possibly EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report two novel, de novo truncating mutations of KCNT2: one mutation is frameshift (p.L48Qfs43), is situated in the N-terminal domain, and was found in a patient with EOEE (possibly EIMFS);",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the other mutation is nonsense (p.K564*), is located in the C-terminal region, and was found in a typical EIMFS patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they decreased the global current density of heteromeric channels by ~25% (p.K564*) and ~55% (p.L48Qfs43).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "model",
+      "object_text": "reconstituted KNa1.2 homomeric and KNa1.1/KNa1.2 heteromeric channels in transfected chinese hamster ovary (CHO) cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using whole-cell patch-clamp recordings, we have analyzed the functional consequences of those two novel KCNT2 mutations on reconstituted KNa1.2 homomeric and KNa1.1/KNa1.2 heteromeric channels in transfected chinese hamster ovary (CHO) cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies (EOEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall our data emphasize the involvement of KCNT2 in EOEE",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

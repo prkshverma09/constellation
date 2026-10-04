@@ -1,0 +1,106 @@
+{
+  "pmid": "35074918",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome (RTT)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is associated with Rett syndrome (RTT)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "MECP2 duplication syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is associated with Rett syndrome (RTT), MECP2 duplication syndrome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autism, intellectual disability, and motor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is associated with Rett syndrome (RTT), MECP2 duplication syndrome, and a number of conditions with isolated features of these diseases, including autism, intellectual disability, and motor dysfunction.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "broadly bind methylated DNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is known to broadly bind methylated DNA",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "interacts with TCF20 complex at the chromatin interface",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified a transcription factor 20 (TCF20) complex that interacts with MeCP2 at the chromatin interface.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "interaction with TCF20 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RTT-causing mutations in MECP2 disrupt this interaction.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "coregulate the expression of key neuronal genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TCF20 and MeCP2 are highly coexpressed in neurons and coregulate the expression of key neuronal genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "MECP2 overexpression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reducing Tcf20 partially rescued the behavioral deficits caused by MECP2 overexpression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MeCP2-PHF14-TCF20 interaction abolished by PHF14 missense mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a missense mutation in the PHF14 subunit of the TCF20 complex that abolishes the MeCP2-PHF14-TCF20 interaction.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MeCP2-TCF20 complex is critical for brain function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data demonstrate the critical role of the MeCP2-TCF20 complex for brain function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

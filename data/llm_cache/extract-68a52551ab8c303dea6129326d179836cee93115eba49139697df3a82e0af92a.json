@@ -1,0 +1,46 @@
+{
+  "pmid": "41378238",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HNRNPU gene (MIM #602869) is associated with a neurodevelopmental condition characterized by intellectual disability and developmental delay, epilepsy, and characteristic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HNRNPU gene (MIM #602869) is associated with a neurodevelopmental condition characterized by intellectual disability and developmental delay, epilepsy, and characteristic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HNRNPU gene (MIM #602869) is associated with a neurodevelopmental condition characterized by intellectual disability and developmental delay, epilepsy, and characteristic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "characteristic facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HNRNPU gene (MIM #602869) is associated with a neurodevelopmental condition characterized by intellectual disability and developmental delay, epilepsy, and characteristic facial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

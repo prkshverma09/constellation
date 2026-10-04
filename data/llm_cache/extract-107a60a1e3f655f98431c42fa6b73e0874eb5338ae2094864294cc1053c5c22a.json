@@ -1,0 +1,16 @@
+{
+  "pmid": "28336463",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "dysgenesis of the corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deleted region included the genes ZBTB18 as well as HNRNPU amongst others. Both are possibly candidate genes for the dysgenesis of the corpus callosum.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

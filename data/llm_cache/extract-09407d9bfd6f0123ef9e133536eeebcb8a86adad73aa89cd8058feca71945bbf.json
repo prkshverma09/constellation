@@ -1,0 +1,106 @@
+{
+  "pmid": "34338318",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A pathogenic variants are found in >80% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure-onset age 5.7 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median seizure-onset age was 5.7 months (range 1.5-20.6 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "initial seizures tonic-clonic and hemiclonic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Initial seizures were tonic-clonic (52%) and hemiclonic (35%), with only 55% being associated with fever.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures associated with fever 55%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with only 55% being associated with fever.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus at presentation 34%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only 34% of patients presented with status epilepticus (seizure lasting ≥30 minutes).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "median time between first and second seizure 30 days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median time between first and second seizure was 30 days (range 4 hours to 8 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "≥6 months between initial seizures in 5% of patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven patients (5%) had at least 6 months between initial seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "age at onset of second seizure type 9.1 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median ages at onset of second and third seizure types were 9.1 months (range 3 months-25.4 years) and 15.5 months (range 4 months-8.2 years), respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "age at onset of third seizure type 15.5 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median ages at onset of second and third seizure types were 9.1 months (range 3 months-25.4 years) and 15.5 months (range 4 months-8.2 years), respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental slowing prior to 12 months in 27%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental slowing occurred prior to 12 months in 27%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

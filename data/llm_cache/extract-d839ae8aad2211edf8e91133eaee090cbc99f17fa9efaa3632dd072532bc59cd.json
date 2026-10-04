@@ -1,0 +1,156 @@
+{
+  "pmid": "35138025",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "novel neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in heterogeneous nuclear ribonucleoprotein U (HNRNPU) results in a novel neurodevelopmental disorder recently delineated.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients were found to harbor de novo loss-of-function variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had seizures which started in early childhood",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral abnormalities (such as autistic features, aggression, anxiety, and obsessive-compulsive behaviors)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "aggression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "aggression",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "anxiety",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "obsessive-compulsive behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "obsessive-compulsive behaviors",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "septal defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "septal defects",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "ventriculomegaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ventriculomegaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "corpus callosum thinning/agenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corpus callosum thinning/agenesis",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

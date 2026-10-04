@@ -1,0 +1,86 @@
+{
+  "pmid": "25633985",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "processes 3'-P and 5'-OH; has 3'-phosphatase and 5'-kinase activities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two common dirty ends, 3'-P and 5'-OH, are processed by mammalian polynucleotide kinase 3'-phosphatase (PNKP), a bifunctional enzyme with 3'-phosphatase and 5'-kinase activities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "stably associates with Ataxin-3 (ATXN3)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP stably associates with Ataxin-3 (ATXN3)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "WT ATXN3 stimulates and mutant ATXN3 inhibits PNKP's 3' phosphatase activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "purified wild-type (WT) ATXN3 stimulates, and by contrast the mutant form specifically inhibits, PNKP's 3' phosphatase activity in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "decreased PNKP activity in ATXN3-deficient cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ATXN3-deficient cells also show decreased PNKP activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "transgenic mice conditionally expressing the pathological form of human ATXN3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transgenic mice conditionally expressing the pathological form of human ATXN3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "decreased 3'-phosphatase activity of PNKP, mostly in the deep cerebellar nuclei, in the transgenic mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transgenic mice conditionally expressing the pathological form of human ATXN3 also showed decreased 3'-phosphatase activity of PNKP, mostly in the deep cerebellar nuclei",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "significant accumulation of DNA strand breaks in human MJD patients' brain samples",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "long amplicon quantitative PCR analysis of human MJD patients' brain samples showed a significant accumulation of DNA strand breaks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "accumulation of DNA strand breaks due to functional deficiency of PNKP is etiologically linked to the pathogenesis of SCA3/MJD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the accumulation of DNA strand breaks due to functional deficiency of PNKP is etiologically linked to the pathogenesis of SCA3/MJD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

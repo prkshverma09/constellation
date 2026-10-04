@@ -1,0 +1,36 @@
+{
+  "pmid": "36153432",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "absence of seizures for the first 6 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The absence of studious seizure in SCN1A mutation-positive babies for the first 6 months",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "miRNA/lncRNA from BML and bacosides/miRNA from BMI buffer the effect of SCN1A mutation by maintaining modifier gene effect",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Therefore, we advocate that miRNA/lncRNA from BML and bacosides/miRNA from BMI buffer the effect of SCN1A mutation by sustainably maintaining modifier gene effect in the aberrant neurons.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "upregulating the haploinsufficient SCN1A strand",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

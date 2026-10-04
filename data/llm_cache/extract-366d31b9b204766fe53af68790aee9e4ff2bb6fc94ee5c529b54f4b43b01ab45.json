@@ -1,0 +1,16 @@
+{
+  "pmid": "26238304",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "upregulated in prolactinomas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three upregulated (HMGA2, HST, SNAP25)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "41066795",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lower QOLCE-55 total scores were associated with regression, absence seizures, clinical severity, coordination difficulties, and male gender (P < 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lower QOLCE-55 total scores were associated with regression, absence seizures, clinical severity, coordination difficulties, and male gender (P < 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "clinical severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lower QOLCE-55 total scores were associated with regression, absence seizures, clinical severity, coordination difficulties, and male gender (P < 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "coordination difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lower QOLCE-55 total scores were associated with regression, absence seizures, clinical severity, coordination difficulties, and male gender (P < 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "male gender",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lower QOLCE-55 total scores were associated with regression, absence seizures, clinical severity, coordination difficulties, and male gender (P < 0.039).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Autism severity was significantly associated with lower total scores on all three QoL measures (P < 0.025; ρ = -0.473 to -0.681).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

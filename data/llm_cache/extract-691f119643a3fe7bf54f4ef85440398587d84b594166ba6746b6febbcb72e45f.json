@@ -1,0 +1,156 @@
+{
+  "pmid": "30682176",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Infants and children with dominant de novo mutations in GNAO1 exhibit movement disorders, epilepsy, or both.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Infants and children with dominant de novo mutations in GNAO1 exhibit movement disorders, epilepsy, or both.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with loss-of-function (LOF) mutations exhibit Epileptiform Encephalopathy 17 (EIEE17).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "Epileptiform Encephalopathy 17 (EIEE17)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with loss-of-function (LOF) mutations exhibit Epileptiform Encephalopathy 17 (EIEE17).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function (GOF) mutations or those with normal function are found in patients with Neurodevelopmental Disorder with Involuntary Movements (NEDIM).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "Neurodevelopmental Disorder with Involuntary Movements (NEDIM)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function (GOF) mutations or those with normal function are found in patients with Neurodevelopmental Disorder with Involuntary Movements (NEDIM).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1 knock-in GOF (G203R) mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A mouse Gnao1 knock-in GOF mutation (G203R) was created by CRISPR/Cas9 methods.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1+/G184S GOF knock-in mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A previously reported GOF mutant mouse knock-in (Gnao1+/G184S), which has not been found in patients, was also studied for comparison.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1+/G203R mice (viable; gain weight comparably to controls)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gnao1+/G203R mutant mice are viable and gain weight comparably to controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "homozygotes non-viable",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygotes are non-viable.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "decreased grip strength",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grip strength was decreased in both males and females.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "male-specific movement impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Male Gnao1+/G203R mice were strongly affected in movement assays (RotaRod and DigiGait) while females were not.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "enhanced seizure propensity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Male Gnao1+/G203R mice also showed enhanced seizure propensity in the pentylenetetrazole kindling test.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement-related behavioral phenotypes (G184S), female predominant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with a G184S GOF knock-in also showed movement-related behavioral phenotypes but females were more strongly affected than males.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "phenocopy of heterozygous GNAO1 G203R patients (movement disorder and mild epilepsy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gnao1+/G203R mice phenocopy children with heterozygous GNAO1 G203R mutations, showing both movement disorder and a relatively mild epilepsy pattern.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

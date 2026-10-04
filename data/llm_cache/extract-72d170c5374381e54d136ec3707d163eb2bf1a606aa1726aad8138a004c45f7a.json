@@ -1,0 +1,96 @@
+{
+  "pmid": "33281559",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel (c.919A>C; p.Asn307His) causative variant in TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Autosomal dominant nonsyndromic late-onset hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Autosomal dominant (AD) nonsyndromic late-onset hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three conserved residues in α18 contribute to the formation of a functionally relevant cationic phosphoinositide binding pocket that regulates synaptic vesicle trafficking",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "Drosophila Skywalker crystal structure showing proximity between p.Asn307 and p.Ser178Leu",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protein modeling on the Drosophila TBC1D24 ortholog Skywalker crystal structure showed close interhelix proximity (6.8Å) between the highly conserved residue p.Asn307 in α18 and the position of the single known pathogenic dominant variation (p.Ser178Leu) in α11",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "recessive DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recessive DOORS syndrome",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hearing impairment (recessive and dominant)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both recessive and dominant hearing impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "AD nonsyndromic late-onset hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants affecting two polar hydrophilic residues in neighboring helices of TBC1D24 cause AD nonsyndromic late-onset hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

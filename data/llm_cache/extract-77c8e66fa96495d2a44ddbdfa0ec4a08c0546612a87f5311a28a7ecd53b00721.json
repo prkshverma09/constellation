@@ -1,0 +1,26 @@
+{
+  "pmid": "22029951",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "dominantly inherited neonatal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microduplication of chromosome 2q24.3 (containing eight genes including SCN2A, SCN3A, and the 3' end of SCN1A) was reported in a family with dominantly inherited neonatal seizures and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microduplication of chromosome 2q24.3 (containing eight genes including SCN2A, SCN3A, and the 3' end of SCN1A) was reported in a family with dominantly inherited neonatal seizures and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

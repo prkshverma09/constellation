@@ -1,0 +1,16 @@
+{
+  "pmid": "39820860",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "plasticity-related gene (PRG) in memory ensemble",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "plasticity-related genes (PRGs; Dlg4/PSD95 and Grin2b/NR2B)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

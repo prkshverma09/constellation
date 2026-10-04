@@ -1,0 +1,16 @@
+{
+  "pmid": "37609676",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "Cacna1a knock-in mice mutated for ataxin-6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "BDNF signaling countered cerebellar degeneration, sensorimotor deficits, or both, in transgenic ATXN1 mice mutated for ataxin-1, Cacna1a knock-in mice mutated for ataxin-6",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

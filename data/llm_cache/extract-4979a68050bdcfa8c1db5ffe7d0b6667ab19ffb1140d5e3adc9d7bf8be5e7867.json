@@ -1,0 +1,56 @@
+{
+  "pmid": "36227410",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo missense mutation in KIF1A",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo KIF1A mutation was identified in a patient with ataxia, intellectual disability and mild foot deformity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo KIF1A mutation was identified in a patient with ataxia, intellectual disability and mild foot deformity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "mild foot deformity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo KIF1A mutation was identified in a patient with ataxia, intellectual disability and mild foot deformity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "neurodegeneration and spasticity with or without cerebellar atrophy or cortical visual impairment syndrome (NESCAVS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A, a known causative gene of neurodegeneration and spasticity with or without cerebellar atrophy or cortical visual impairment syndrome (NESCAVS).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

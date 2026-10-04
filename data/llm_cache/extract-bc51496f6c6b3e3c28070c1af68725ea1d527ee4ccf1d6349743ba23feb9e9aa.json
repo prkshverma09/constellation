@@ -1,0 +1,46 @@
+{
+  "pmid": "17472701",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "mice lacking functional copies of the gene encoding the GluR3 AMPA receptor subunit (Gria3)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oligodendroglial lineage cells from mice lacking functional copies of the gene encoding the GluR3 AMPA receptor subunit (Gria3) had a diminished capacity to assemble edited GluR2-free AMPA receptors, and were resistant to excitotoxicity in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "diminished capacity to assemble edited GluR2-free AMPA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had a diminished capacity to assemble edited GluR2-free AMPA receptors",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "resistant to excitotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were resistant to excitotoxicity in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "Neurological deficits and spinal cord demyelination were substantially milder in Gria3 mutant mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurological deficits and spinal cord demyelination elicited by immunization with myelin oligodendrocyte glycoprotein peptide were substantially milder in these Gria3 mutant mice than in their wild-type littermates.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

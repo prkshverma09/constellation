@@ -1,0 +1,136 @@
+{
+  "pmid": "32928027",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EIEE-37 is caused by biallelic loss of function variants in the FRRS1L gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "AMPA-receptor function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FRRS1L gene, which is critical for AMPA-receptor function",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy (EIEE-37) with prominent movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with early infantile epileptic encephalopathy (EIEE-37) with prominent movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy and dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in intractable epilepsy and dyskinesia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset 6-24 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset of seizures was from 6 to 24 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "severe global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most had hyperkinetic involuntary movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression during the first year of life (86%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental regression during the first year of life was common (86%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "hypsarrhythmia (66%, 10/15)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electroencephalogram showed hypsarrhythmia in 66% (10/15)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "evolving into Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with many older children evolving into Lennox-Gastaut syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "progressive volume loss and/or cerebellar atrophy on brain MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six patients demonstrated progressive volume loss and/or cerebellar atrophy on brain magnetic resonance imaging (MRI).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "very homogenous phenotype of early developmental regression and epilepsy, starting with infantile spasms and evolving into Lennox-Gastaut syndrome with hyperkinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children homozygous for the FRRS1L (p.Gly246del) Boricua variant exhibit a very homogenous phenotype of early developmental regression and epilepsy, starting with infantile spasms and evolving into Lennox-Gastaut syndrome with hyperkinetic movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

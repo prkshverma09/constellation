@@ -1,0 +1,76 @@
+{
+  "pmid": "39062615",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex; negative regulation of the mTORC1 pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The NPRL3 gene is a critical component of the GATOR1 complex, which negatively regulates the mTORC1 pathway, essential for neurogenesis and brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "Located on chromosome 16p13.3 near the α-globin gene cluster",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Located on chromosome 16p13.3, NPRL3 is situated near the α-globin gene cluster.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Haploinsufficiency of NPRL3, either by deletion or a pathogenic variant, is associated with a variable phenotype of focal epilepsy, with or without malformations of cortical development, with known decreased penetrance.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Haploinsufficiency of NPRL3, either by deletion or a pathogenic variant, is associated with a variable phenotype of focal epilepsy, with or without malformations of cortical development, with known decreased penetrance.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "α-thalassemia trait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This deletion encompassed the entire NPRL3 gene, which overlaps the regulatory region of the α-globin gene cluster, giving him the dual diagnosis of NPRL3-related epilepsy and α-thalassemia trait.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "left hippocampal sclerosis and mid-posterior para-hippocampal focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain imaging postprocessing showed left hippocampal sclerosis and mid-posterior para-hippocampal focal cortical dysplasia, leading to the consideration of epilepsy surgery.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to the consideration of epilepsy surgery.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

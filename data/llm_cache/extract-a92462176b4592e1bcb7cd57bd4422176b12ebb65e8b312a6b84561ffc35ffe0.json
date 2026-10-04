@@ -1,0 +1,16 @@
+{
+  "pmid": "34933910",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "neurodevelopmental gene expression programme",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TECPR2 was found to be part of a tight neurodevelopmental gene expression programme that includes KIF1A, ATXN1, TOM1L2 and FA2H, all implicated in neurological diseases.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

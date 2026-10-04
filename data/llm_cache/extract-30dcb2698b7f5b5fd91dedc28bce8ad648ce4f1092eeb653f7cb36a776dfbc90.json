@@ -1,0 +1,16 @@
+{
+  "pmid": "29042589",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "rs17035816 regulates GRIA2 gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In Braineac dataset, the results showed that rs17035816 variant could significantly regulate GLRB and GRIA2 gene expression.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

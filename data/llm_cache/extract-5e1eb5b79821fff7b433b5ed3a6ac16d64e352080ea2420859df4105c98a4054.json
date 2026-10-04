@@ -1,0 +1,106 @@
+{
+  "pmid": "30929742",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "VAMP2 encodes the vesicular SNARE protein VAMP2 (also called synaptobrevin-2).",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2 encodes the vesicular SNARE protein VAMP2 (also called synaptobrevin-2).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "Together with its partners syntaxin-1A and synaptosomal-associated protein 25 (SNAP25), VAMP2 mediates fusion of synaptic vesicles to release neurotransmitters.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together with its partners syntaxin-1A and synaptosomal-associated protein 25 (SNAP25), VAMP2 mediates fusion of synaptic vesicles to release neurotransmitters.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "VAMP2 is essential for vesicular exocytosis and activity-dependent neurotransmitter release.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2 is essential for vesicular exocytosis and activity-dependent neurotransmitter release.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "axial hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "axial hypotonia (which had been present since birth)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "central visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "central visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperkinetic movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy or electroencephalography abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy or electroencephalography abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "variant_effect",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reconstituted fusion involving a lipid-mixing assay indicated impairment in vesicle fusion as one of the possible associated disease mechanisms.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

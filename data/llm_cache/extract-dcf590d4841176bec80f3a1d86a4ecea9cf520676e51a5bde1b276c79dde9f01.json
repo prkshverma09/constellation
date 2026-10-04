@@ -1,0 +1,106 @@
+{
+  "pmid": "28007585",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, kinesigenic dyskinesia, episodic ataxia and migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous and rare homozygous mutations in PRoline-Rich Transmembrane protein 2 (PRRT2) underlie a group of paroxysmal disorders including epilepsy, kinesigenic dyskinesia episodic ataxia and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the mutations lead to impaired PRRT2 expression and/or function.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "neurotransmitter release machinery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, an important role for PRTT2 in the neurotransmitter release machinery, brain development and synapse formation has been uncovered.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, an important role for PRTT2 in the neurotransmitter release machinery, brain development and synapse formation has been uncovered.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synapse formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, an important role for PRTT2 in the neurotransmitter release machinery, brain development and synapse formation has been uncovered.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "PRRT2 KO mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mouse in which the PRRT2 gene has been constitutively inactivated (PRRT2 KO).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "paroxysmal movements at the onset of locomotion that persist in the adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 KO mice are normal at birth, but display paroxysmal movements at the onset of locomotion that persist in the adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "abnormal motor behaviors characterized by wild running and jumping in response to audiogenic stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adult PRRT2 KO mice present abnormal motor behaviors characterized by wild running and jumping in response to audiogenic stimuli that are ineffective in wild type mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "increased sensitivity to the convulsive effects of pentylentetrazol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an increased sensitivity to the convulsive effects of pentylentetrazol.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patch-clamp electrophysiology in hippocampal and cerebellar slices revealed specific effects in the cerebellum, where PRRT2 is highly expressed, consisting in a higher excitatory strength at parallel fiber-Purkinje cell synapses during high frequency stimulation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

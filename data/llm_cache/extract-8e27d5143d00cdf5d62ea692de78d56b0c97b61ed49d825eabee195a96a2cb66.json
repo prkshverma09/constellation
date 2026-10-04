@@ -1,0 +1,126 @@
+{
+  "pmid": "30838925",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deletions of CACNA1A, encoding the α1 subunit of CaV 2.1 channels, cause epilepsy with ataxia in humans.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "impairs cortical inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the deletion of Cacna1a in γ-aminobutyric acidergic (GABAergic) interneurons (INs) derived from the medial ganglionic eminence (MGE) impairs cortical inhibition and causes generalized seizures in Nkx2.1Cre;Cacna1ac/c mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the deletion of Cacna1a in γ-aminobutyric acidergic (GABAergic) interneurons (INs) derived from the medial ganglionic eminence (MGE) impairs cortical inhibition and causes generalized seizures in Nkx2.1Cre;Cacna1ac/c mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "does not result in seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the targeted deletion of Cacna1a in somatostatin-expressing INs (SOM-INs), a subset of MGE-derived INs, does not result in seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "PVCre;Cacna1ac/c mutant mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated PVCre;Cacna1ac/c mutant mice carrying a conditional Cacna1a deletion in PV neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "reduced cortical perisomatic inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PVCre;Cacna1ac/c mice display reduced cortical perisomatic inhibition and frequent absences, but only rare motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "frequent absences",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PVCre;Cacna1ac/c mice display reduced cortical perisomatic inhibition and frequent absences, but only rare motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "rare motor seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PVCre;Cacna1ac/c mice display reduced cortical perisomatic inhibition and frequent absences, but only rare motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "net increase in cortical inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PVCre;Cacna1ac/c mice have a net increase in cortical inhibition, with a gain of dendritic inhibition through sprouting of SOM-IN axons, largely preventing motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "gain of dendritic inhibition through sprouting of SOM-IN axons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PVCre;Cacna1ac/c mice have a net increase in cortical inhibition, with a gain of dendritic inhibition through sprouting of SOM-IN axons, largely preventing motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "mechanistic target of rapamycin complex 1 (mTORC1)-dependent",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This beneficial compensatory remodeling of cortical GABAergic innervation is mechanistic target of rapamycin complex 1 (mTORC1)-dependent, and its inhibition with rapamycin leads to a striking increase in motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "rapamycin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This beneficial compensatory remodeling of cortical GABAergic innervation is mechanistic target of rapamycin complex 1 (mTORC1)-dependent, and its inhibition with rapamycin leads to a striking increase in motor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

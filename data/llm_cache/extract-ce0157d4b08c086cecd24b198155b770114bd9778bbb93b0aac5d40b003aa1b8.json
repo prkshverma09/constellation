@@ -1,0 +1,26 @@
+{
+  "pmid": "37422919",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "focal epilepsy through hyperactivation of the mechanistic target of rapamycin pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the GAP activity towards RAGs 1 (GATOR1) complex genes (DEPDC5, NPRL2, NPRL3) cause focal epilepsy through hyperactivation of the mechanistic target of rapamycin pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizure worsening",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient with NPRL3-related epilepsy had seizure worsening.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "42277445",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "worse prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, high expression of GRIA3 in SHH, or of either GRIA3 or GRIA4 in Group 3 MB, was associated with worse prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "worse prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, high expression of GRIA3 in SHH, or of either GRIA3 or GRIA4 in Group 3 MB, was associated with worse prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

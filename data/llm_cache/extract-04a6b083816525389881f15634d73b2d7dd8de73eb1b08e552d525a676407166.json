@@ -1,0 +1,96 @@
+{
+  "pmid": "34884460",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN subunit of NMDA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encode for the GluN subunit of the N-methyl D-aspartate (NMDA) type ionotropic glutamate receptors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN-encoded GluN1 subunit disturbances can be dichotomically classified into gain- and loss-of-function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN-encoded GluN1 subunit disturbances can be dichotomically classified into gain- and loss-of-function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "paediatric encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "15 paediatric encephalopathy patients harbouring these variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "protein stability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "protein stability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "subunit assembly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "subunit assembly",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "surface trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "surface trafficking",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR biophysical properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NMDAR biophysical properties",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "correlation between structural and functional outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings show a strong correlation between GRIN1 variants-associated structural and functional outcomes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

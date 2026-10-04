@@ -1,0 +1,56 @@
+{
+  "pmid": "22705271",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In about 85% of patients, a mutation of the SCN1A gene is present.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An overwhelmingly high number of SCN1A mutations have been associated with DS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "heterozygous Scn1a+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In heterozygous Scn1a+/- mice, GABAergic interneurons exhibit substantially reduced sodium current density with reduced ability for sustained action potential firing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "reduced sodium current density in GABAergic interneurons with reduced ability for sustained action potential firing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAergic interneurons exhibit substantially reduced sodium current density with reduced ability for sustained action potential firing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "reduced GABAergic output and increased excitability of downstream synaptic targets",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAergic output is reduced and excitability of downstream synaptic targets increased.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "28527083",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "different types of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations of ATP1A2, SCN1A and CACNA1A genes, identified in this disease, have also been involved in different types of epilepsy and febrile seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations of ATP1A2, SCN1A and CACNA1A genes, identified in this disease, have also been involved in different types of epilepsy and febrile seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

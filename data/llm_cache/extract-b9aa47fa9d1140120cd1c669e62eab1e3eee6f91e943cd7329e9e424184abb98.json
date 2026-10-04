@@ -1,0 +1,66 @@
+{
+  "pmid": "26598494",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia or choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Paroxysmal dyskinesia can be subdivided into three clinical syndromes: paroxysmal kinesigenic dyskinesia or choreoathetosis, paroxysmal exercise-induced dyskinesia, and paroxysmal non-kinesigenic dyskinesia. Each subtype is associated with the known causative genes PRRT2, SLC2A1 and PNKD, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "migraine and hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypes associated with PRRT2 mutations included a high frequency of migraine and hemiplegic migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine or episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two PRRT2 mutations were in familial hemiplegic migraine or episodic ataxia,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that some PRRT2 loss-of-function mutations cause nonsense mediated decay, except when in the last exon",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas missense mutations do not affect mRNA.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and similar to PRRT2, an increase in vesicle release.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

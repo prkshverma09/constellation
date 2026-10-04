@@ -1,0 +1,96 @@
+{
+  "pmid": "40414190",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "profound developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound developmental delays",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "significant impairments in motor and communication skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant impairments in motor and communication skills",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental milestones",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "specific CDKL5 mutations impact developmental milestones",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathways disrupted by CDKL5 mutations and their effects on neuronal development and function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "novel antiseizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel antiseizure medications",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene therapy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "targeted molecular interventions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "targeted molecular interventions",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "neuro-rehabilitation strategies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "integrates pharmacological treatments with neuro-rehabilitation strategies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

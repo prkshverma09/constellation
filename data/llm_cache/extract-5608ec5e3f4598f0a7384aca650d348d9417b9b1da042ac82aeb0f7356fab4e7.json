@@ -1,0 +1,116 @@
+{
+  "pmid": "42609058",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in STXBP1 are a well-established cause of developmental and epileptic encephalopathy (DEE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsies of variable severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 variants may underlie epilepsies of variable severity, extending from milder epilepsy syndromes to DEE",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gly236Val segregated in a family with epilepsy with febrile seizures plus",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "self-limited epilepsy with centrotemporal spikes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pro434Leu was inherited in a family with self-limited epilepsy with centrotemporal spikes with incomplete penetrance",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including one truncating variant (Lys63Ter) and seven missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "transfected HEK293T cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "their effects on Munc18-1 expression were evaluated by immunoblotting in transfected HEK293T cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "reduced Munc18-1 levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "immunoblotting showed markedly reduced Munc18-1 levels for DEE-associated missense variants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "Munc18-1 levels similar to wild-type expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gly236Val and Pro434Leu preserved similar Munc18-1 levels to wild-type expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "milder destabilizing effects and greater solvent accessibility compared to DEE-associated variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In silico analyses suggested that Gly236Val and Pro434Leu had comparatively milder destabilizing effects and were located at more solvent-accessible positions than DEE-associated variants",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five de novo missense variants (Pro187Leu, Arg190Gln, Ala251Thr, Arg292His, and Gly544Val) and one de novo truncating variant were observed exclusively in individuals with DEE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "clinical severity tracks with predicted structural/biophysical impact and Munc18-1 abundance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical severity broadly tracks with the predicted structural/biophysical impact of the variant and Munc18-1 abundance",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

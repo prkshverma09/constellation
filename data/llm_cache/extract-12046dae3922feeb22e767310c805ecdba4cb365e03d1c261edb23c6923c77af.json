@@ -1,0 +1,36 @@
+{
+  "pmid": "38081835",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD, DEE2), one of the most common genetic epilepsies, is caused by loss-of-function mutations in the brain-enriched kinase CDKL5.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "Cav2.3 (CACNA1E)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified the voltage-gated Ca2+ channel Cav2.3 (encoded by CACNA1E) as a physiological target of CDKL5 in mice and humans.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Cav2.3 inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "could be ameliorated with Cav2.3 inhibitors.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "28608234",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the use of quinidine in some children with KCNT1 mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

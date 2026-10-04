@@ -1,0 +1,66 @@
+{
+  "pmid": "30680869",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.442G>A, p.(Glu148Lys) variant in TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "congenital sensorineural hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "congenital sensorineural hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital and potassium bromide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the combination of a high dose phenobarbital and potassium bromide was very effective for the seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

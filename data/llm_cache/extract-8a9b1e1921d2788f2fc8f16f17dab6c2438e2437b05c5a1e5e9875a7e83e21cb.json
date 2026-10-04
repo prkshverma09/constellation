@@ -1,0 +1,16 @@
+{
+  "pmid": "41630268",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "KIF1A-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3-, SCN2A-, KCNT1-, KIF1A-, and COL4A1-related epilepsies (3.4% each);",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

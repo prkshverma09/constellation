@@ -1,0 +1,106 @@
+{
+  "pmid": "33241211",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic variants in the solute carrier family 6 member 1 gene as a monogenic cause of neurodevelopmental disorders, including epilepsy with myoclonic atonic seizures, autism spectrum disorder and intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic variants in the solute carrier family 6 member 1 gene as a monogenic cause of neurodevelopmental disorders, including epilepsy with myoclonic atonic seizures, autism spectrum disorder and intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic variants in the solute carrier family 6 member 1 gene as a monogenic cause of neurodevelopmental disorders, including epilepsy with myoclonic atonic seizures, autism spectrum disorder and intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter protein type 1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The solute carrier family 6 member 1 gene encodes for the GABA transporter protein type 1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reuptake of GABA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is responsible for the reuptake of the neurotransmitter GABA, the primary inhibitory neurotransmitter in the central nervous system, from the extracellular space",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the vast majority of which are likely to lead to GABA transporter protein type 1 loss-of-function",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "cohort of 116 individuals with solute carrier family 6 member 1 variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we assess genetic and phenotypic features in 116 individuals with solute carrier family 6 member 1 variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "longitudinal and cell type-specific expression of solute carrier family 6 member 1 in humans",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We analysed the longitudinal and cell type-specific expression of solute carrier family 6 member 1 in humans",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "novel GABA transporter protein type 1 protein structure model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "localization of patient and control missense variants in a novel GABA transporter protein type 1 protein structure model",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "targeted therapies that selectively enhance transporter function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the development of targeted therapies that selectively enhance transporter function and may improve symptoms",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

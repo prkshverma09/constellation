@@ -1,0 +1,176 @@
+{
+  "pmid": "41136907",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual and developmental disabilities (IDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a severe genetic neurodevelopmental disorder characterized by intellectual and developmental disabilities (IDD), postnatal microcephaly, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a severe genetic neurodevelopmental disorder characterized by intellectual and developmental disabilities (IDD), postnatal microcephaly, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a severe genetic neurodevelopmental disorder characterized by intellectual and developmental disabilities (IDD), postnatal microcephaly, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a severe genetic neurodevelopmental disorder characterized by intellectual and developmental disabilities (IDD), postnatal microcephaly, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Core clinical phenotypes include IDD, gastrointestinal disorders, strabismus, epilepsy, movement disorders, and sleep problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "strabismus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Core clinical phenotypes include IDD, gastrointestinal disorders, strabismus, epilepsy, movement disorders, and sleep problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "sleep problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Core clinical phenotypes include IDD, gastrointestinal disorders, strabismus, epilepsy, movement disorders, and sleep problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "irritability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 syndrome behavioral phenotype is characterized by irritability, including aggressive behaviors, stereotypies, social withdrawal, and lethargy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "aggressive behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 syndrome behavioral phenotype is characterized by irritability, including aggressive behaviors, stereotypies, social withdrawal, and lethargy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 syndrome behavioral phenotype is characterized by irritability, including aggressive behaviors, stereotypies, social withdrawal, and lethargy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "social withdrawal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 syndrome behavioral phenotype is characterized by irritability, including aggressive behaviors, stereotypies, social withdrawal, and lethargy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "lethargy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 syndrome behavioral phenotype is characterized by irritability, including aggressive behaviors, stereotypies, social withdrawal, and lethargy;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "features of autism spectrum disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in those with missense variants, features of autism spectrum disorders are also reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "greater limitations across motor and communication domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "truncating variants are associated with greater limitations across motor and communication domains, as well as increased frequency of core FOXG1 syndrome phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "increased frequency of core FOXG1 syndrome phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "truncating variants are associated with greater limitations across motor and communication domains, as well as increased frequency of core FOXG1 syndrome phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "higher scores on a composite measure of FOXG1 syndrome severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "individuals with truncating variants had higher scores on a composite measure of FOXG1 syndrome severity, which persists when modeled longitudinally.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "static encephalopathy without evidence of neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a static encephalopathy without evidence of neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "31444548",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Somatic gain-of-function variants in MTOR and its activators (AKT3, PIK3CA, RHEB), as well as germline, somatic and two-hit loss-of-function variants in its repressors (DEPDC5, TSC1, TSC2) were found exclusively in FCD2/HME cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline, somatic and two-hit loss-of-function variants in its repressors (DEPDC5, TSC1, TSC2) were found exclusively in FCD2/HME cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "FCD2/HME",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline, somatic and two-hit loss-of-function variants in its repressors (DEPDC5, TSC1, TSC2) were found exclusively in FCD2/HME cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Single-cell microdissection followed by sequencing of enriched pools of DNs unveiled a somatic second-hit loss-of-heterozygosity in a DEPDC5 germline case.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

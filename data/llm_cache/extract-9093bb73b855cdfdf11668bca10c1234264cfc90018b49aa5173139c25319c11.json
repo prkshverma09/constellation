@@ -1,0 +1,176 @@
+{
+  "pmid": "29050392",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "the voltage-gated K+ channel Kv1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the gene KCNA2, causing either a dominant-negative loss-of-function or a gain-of-function of the voltage-gated K+ channel Kv1.2,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mostly dominant-negative current amplitude reduction",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function effects (mostly dominant-negative current amplitude reduction) in eight patients",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "only gain-of-function effects (hyperpolarizing shift of voltage-dependent activation, increased amplitude) in nine patients.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten mutations were missense",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "Xenopus oocyte two-microelectrode voltage clamp system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies using a Xenopus oocyte two-microelectrode voltage clamp system",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "predominant focal (loss-of-function) versus generalized (gain-of-function) seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized (gain-of-function) seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic discharges with prominent sleep activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corresponding epileptic discharges with prominent sleep activation in most cases with loss-of-function mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "more severe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more severe epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental problems",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "atrophy of the cerebellum or even the whole brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "atrophy of the cerebellum or even the whole brain",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "most severe early-onset phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most severe early-onset phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "neonatal onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neonatal onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "EEG abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

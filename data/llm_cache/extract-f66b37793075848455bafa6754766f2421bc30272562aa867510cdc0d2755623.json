@@ -1,0 +1,46 @@
+{
+  "pmid": "20438806",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "not significantly associated with PD risk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "None of the 6 SNPs were significantly associated with PD risk on their own.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "reduced PD risk in conjunction with putative low-risk GRIN1 genotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in conjunction with putative low-risk genotypes for the GRIN1 gene, the GRIN2BC366G variant was significantly associated with reduced PD risk compared with the homozygous genotype 366CC (OR=0.38, 95%CI=0.17-0.93, P=0.033).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "synergistic reduction in PD risk when multiple GRIN1 polymorphisms are present with GRIN2BC366G",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A synergistic effect on risk reduction was observed in subjects who carried multiple polymorphisms of GRIN1 and the GRIN2BC366G polymorphism (OR=0.78, 95%CI=0.59-1.02, P(trend)=0.073).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "may serve as potential biomarkers for a reduced risk of PD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest that polymorphisms in the GRIN1 and GRIN2B genes may serve as potential biomarkers for a reduced risk of PD among the Chinese population in Taiwan.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

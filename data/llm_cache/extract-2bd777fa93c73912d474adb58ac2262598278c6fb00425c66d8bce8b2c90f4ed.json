@@ -1,0 +1,16 @@
+{
+  "pmid": "33441621",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, we use our analysis to prioritize new candidate genes for epilepsy (i.e. ANK2, CACNA1E, CACNA2D3, GRIA2, DLG4) for further validation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

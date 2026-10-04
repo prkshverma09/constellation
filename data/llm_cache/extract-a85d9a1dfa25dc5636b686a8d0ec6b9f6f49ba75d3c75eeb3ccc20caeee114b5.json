@@ -1,0 +1,86 @@
+{
+  "pmid": "23339110",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygosity mapping in DNA samples followed by exome analysis in one of the patients resulted in the identification of a homozygous mutation, p.L1040P, in the CACNA2D2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "auxiliary α(2)δ2 subunit of high voltage gated calcium channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This gene encodes the auxiliary α(2)δ2 subunit of high voltage gated calcium channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The expression of the α(2)δ2-L1040P mutant instead of α(2)δ2 wild-type (WT) in Xenopus laevis oocytes was associated with a notable reduction of current density of both N (Ca(V)2.2) and L (Ca(V)1.2) type calcium channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Western blot and confocal imaging analyses showed that the α(2)δ2-L1040P mutant was synthesised normally in oocyte but only the α(2)δ2-WT, and not the α(2)δ2-L1040P mutant, increased the expression of α(1B), the pore forming subunit of Ca(V)2.2, at the plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "increased surface expression of α(1B) and accelerated current inactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The expression of α(2)δ2-WT with Ca(V)2.2 increased the surface expression of α(1B) 2.5-3 fold and accelerated current inactivation, whereas α(2)δ2-L1040P did not produce any of these effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "L1040P mutation in the CACNA2D2 gene is associated with dysfunction of α(2)δ2, resulting in reduced current density and slow inactivation in neuronal calcium channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The prolonged calcium entry during depolarisation and changes in surface density of calcium channels caused by deficient α(2)δ2 could underlie the epileptic phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This is the first report of an encephalopathy caused by mutation in the auxiliary α(2)δ subunit of high voltage gated calcium channels in humans, illustrating the importance of this subunit in normal physiology of the human brain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

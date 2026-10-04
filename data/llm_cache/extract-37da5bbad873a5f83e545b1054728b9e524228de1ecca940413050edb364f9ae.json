@@ -1,0 +1,166 @@
+{
+  "pmid": "37039969",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "severe to profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe to profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "refractory epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infantile spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the affected individuals had de novo missense variants in DNM1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "DNM1 undergoes alternative splicing that results in expression of six different transcript variants.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 undergoes alternative splicing that results in expression of six different transcript variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "One alternatively spliced region affects the tandemly arranged exons 10a and 10b, producing isoforms DNM1A and DNM1B, respectively.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One alternatively spliced region affects the tandemly arranged exons 10a and 10b, producing isoforms DNM1A and DNM1B, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "Pathogenic variants in the DNM1 coding region affect all transcript variants.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the DNM1 coding region affect all transcript variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leads to disease through a dominant-negative mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "we identified aberrantly spliced DNM1 mRNAs with exon 9 spliced to the last 45 nucleotides of intron 9 followed by exon 10a (NM_001288739.2:r.1196_1197ins[1197-1_1197-45])",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified aberrantly spliced DNM1 mRNAs with exon 9 spliced to the last 45 nucleotides of intron 9 followed by exon 10a (NM_001288739.2:r.1196_1197ins[1197-1_1197-45])",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "The encoded DNM1A mutant is predicted to contain 15 novel amino acids between Ile398 and Arg399 [NP_001275668.1:p.(Ile398_Arg399ins15)]",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The encoded DNM1A mutant is predicted to contain 15 novel amino acids between Ile398 and Arg399 [NP_001275668.1:p.(Ile398_Arg399ins15)]",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "likely functions in a dominant-negative manner, similar to other DNM1 mutants.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "confirm the importance of the DNM1 isoform A for normal human brain function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirm the importance of the DNM1 isoform A for normal human brain function",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "functional differences of the mouse Dnm1a and Dnm1b isoforms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "functional differences of the mouse Dnm1a and Dnm1b isoforms",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "the Dnm1 fitful mouse, an epilepsy mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the Dnm1 fitful mouse, an epilepsy mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

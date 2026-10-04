@@ -1,0 +1,126 @@
+{
+  "pmid": "40515869",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and epileptic encephalopathy type 32 (DEE32)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental and epileptic encephalopathy type 32 (DEE32) is a severe neurological disorder caused by pathogenic variants in the KCNA2 gene,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "Kv1.2 voltage-gated potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 gene, encoding the Kv1.2 voltage-gated potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a rare KCNA2 loss-of-function variant",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "normal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal development",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "normal cognition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicated normal cognition",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "Sudden Unexpected Death in Epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sudden Unexpected Death in Epilepsy (SUDEP) at age 30.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "zonisamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients 1 and 2 responded well to zonisamide",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delays",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

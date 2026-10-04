@@ -1,0 +1,86 @@
+{
+  "pmid": "26420639",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodevelopmental disorder associated with hypotonia and spasticity, severe learning disability, stereotyped movements, and recurrent pulmonary infections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Xq28 duplications encompassing MECP2 have been described in male patients with a severe neurodevelopmental disorder associated with hypotonia and spasticity, severe learning disability, stereotyped movements, and recurrent pulmonary infections.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "corpus callosum abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corpus callosum abnormalities (n = 20)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "reduced volume of the white matter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced volume of the white matter (WM) (n = 12)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "ventricular dilatation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ventricular dilatation (n = 9)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "abnormal increased hyperintensities on T2-weighted images involving posterior periventricular WM",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal increased hyperintensities on T2-weighted images involving posterior periventricular WM (n = 6)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "vermis hypoplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vermis hypoplasia (n = 5)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "occipitofrontal circumference >+2SD or <-2SD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The occipitofrontal circumference varied considerably between >+2SD in five patients and <-2SD in four patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "non-specific brain abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with an Xq28 duplication involving MECP2 share some similar but non-specific brain abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

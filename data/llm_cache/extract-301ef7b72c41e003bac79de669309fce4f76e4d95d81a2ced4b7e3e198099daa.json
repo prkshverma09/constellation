@@ -1,0 +1,16 @@
+{
+  "pmid": "38503299",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "delayed rectifier potassium currents; modulation of overall excitability of neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KCNB family of voltage-gated potassium channels (Kv) consists of two members (KCNB1 and KCNB2) encoded by KCNB1 and KCNB2, respectively. These channels are major contributors to delayed rectifier potassium currents arising from the neuronal soma which modulate overall excitability of neurons.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

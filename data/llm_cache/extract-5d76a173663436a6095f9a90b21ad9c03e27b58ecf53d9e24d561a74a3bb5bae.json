@@ -1,0 +1,16 @@
+{
+  "pmid": "24839169",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "followed by deceleration in head growth resulting in postnatal microcephaly. Among these are classic disorders such as Angelman syndrome and MECP2-related disorder (formerly Rett syndrome), as well as more recently described clinical entities associated with mutations in CASK, CDKL5,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

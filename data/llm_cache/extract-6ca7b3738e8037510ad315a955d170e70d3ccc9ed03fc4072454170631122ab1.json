@@ -1,0 +1,46 @@
+{
+  "pmid": "25025424",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "encodes the β3 subunit of GABAA receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRB3 encoding the β3 subunit of GABAA receptor",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "heroin dependence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The C allele of rs4906902 was found to be associated with increased risk of heroin dependence (odds ratio:1.27, p = 0.002).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "promoter activity higher for C-A-G haplotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reporter gene activity assay showed that haplotype C-A-G that contained the C allele of the tag SNP rs4906902 had higher activity than haplotype T-G-C.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased expression of GABRB3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased expression of GABRB3 might contribute to the pathogenesis of heroin dependence.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

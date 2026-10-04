@@ -1,0 +1,16 @@
+{
+  "pmid": "36123899",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "down-regulated in adamantinomatous craniopharyngioma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYN1, SYP, and GRIA2 were significantly down-regulated with ACP.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

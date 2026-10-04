@@ -1,0 +1,86 @@
+{
+  "pmid": "39976380",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "HNRNPU-related neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU-related neurodevelopmental disorder (HNRNPU-NDD) is caused by pathogenic and likely pathogenic variants in HNRNPU.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "Global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderate to severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "ophthalmic abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ophthalmic abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "cardiac abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cardiac abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "short stature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "short stature",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

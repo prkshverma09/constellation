@@ -1,0 +1,56 @@
+{
+  "pmid": "41573391",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "MRI abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormalities were most frequent in the SCN2A (70.6%) group",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In SCN2A-related epilepsies, common abnormalities included atrophy (58.8%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "white matter signal abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In SCN2A-related epilepsies, common abnormalities included atrophy (58.8%), white matter signal abnormalities (17.6%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "hypoxic-ischemic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In SCN2A-related epilepsies, common abnormalities included atrophy (58.8%), white matter signal abnormalities (17.6%), hypoxic-ischemic encephalopathy (11.8%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In SCN2A-related epilepsies, common abnormalities included atrophy (58.8%), white matter signal abnormalities (17.6%), hypoxic-ischemic encephalopathy (11.8%) and malformations of cortical development (11.8}).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

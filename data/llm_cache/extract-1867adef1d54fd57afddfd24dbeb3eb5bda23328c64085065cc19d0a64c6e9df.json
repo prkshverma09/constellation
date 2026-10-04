@@ -1,0 +1,86 @@
+{
+  "pmid": "39897576",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-associated disorders are ultra-rare autosomal dominant conditions",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including epileptic encephalopathy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay with movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay with movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "late-onset dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "late-onset dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "allele-specific antisense oligonucleotides (ASOs) targeting the mutated allele",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We systemically screened allele-specific antisense oligonucleotides (ASOs) targeting the mutated allele to identify a potent and specific sequence",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "reduction of mutated GNAO1 by ASO (or knockout)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduction of mutated GNAO1 in vitro by knockout or by ASO has a beneficial functional outcome",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1-E246K mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We established a Gnao1-E246K mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "selected ASO can be used to treat the mouse model to test efficacy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mouse can be treated with the selected ASO to test treatment efficacy in animal models",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

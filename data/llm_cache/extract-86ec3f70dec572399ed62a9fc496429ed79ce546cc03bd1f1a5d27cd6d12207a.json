@@ -1,0 +1,16 @@
+{
+  "pmid": "33603712",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "typical EEG patterns",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "individual variants associated with typical EEG patterns (e.g., KCNQ2, KCNT1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

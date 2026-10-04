@@ -1,0 +1,16 @@
+{
+  "pmid": "42277445",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "more favorable patient outcomes in specific MB subgroups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Higher GRIA1, GRIA2, and GRIA4 transcription was associated with more favorable patient outcomes in specific MB subgroups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

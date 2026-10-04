@@ -1,0 +1,16 @@
+{
+  "pmid": "38959648",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "MECP2-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including PCDH19- and MECP2-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

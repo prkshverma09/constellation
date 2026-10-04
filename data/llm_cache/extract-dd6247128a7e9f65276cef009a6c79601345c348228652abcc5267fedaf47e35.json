@@ -1,0 +1,16 @@
+{
+  "pmid": "38572415",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Also, we have identified 15 de novo variants in genes that were previously implicated in ASD or related neurodevelopmental disorders (PHF21A, WASF1, TCF20, DEAF1, MED13, CREBBP, KDM6B, SMURF1, ADNP, CACNA1G, MYT1L, KIF13B, GRIA2, CHM, and KCNK9).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

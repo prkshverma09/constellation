@@ -1,0 +1,16 @@
+{
+  "pmid": "39032529",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy susceptibility and pathogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptic proteins (e.g., SYNGAP1, KCNQ2), have illuminated critical pathways underlying epilepsy susceptibility and pathogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

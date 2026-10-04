@@ -1,0 +1,26 @@
+{
+  "pmid": "35514343",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "mRNA expression marker in preterm hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mRNA expression of oligodendrocyte lineage cells (CSPG4, MBP), neuronal growth (INA, VEGFA), and the GABAergic/glutamatergic system (SLC32A1, SLC1A2, GRIN1, GRIN2C, DLG4).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone did not affect mRNA deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These deficits were not affected by ganaxolone at the doses used at the equivalent of normal term.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "31302675",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "incidence 1 per 17 000 live births (5.89/100 000; 95% confidence interval 2.24-9.56)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2: 1 per 17 000 (5.89/100 000; 95% confidence interval 2.24-9.56)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

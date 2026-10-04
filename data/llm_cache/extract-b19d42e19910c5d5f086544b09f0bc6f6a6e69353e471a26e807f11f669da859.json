@@ -1,0 +1,176 @@
+{
+  "pmid": "35658367",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy 85",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathy 85 caused by SMC1A gene truncating variation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "female",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among these 21 patients, who were all female, the onset of seizures occurred between 0.5 and 18.0 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset in infantile period",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset age of seizure were all in the infantile period.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset between 0.5 and 18.0 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among these 21 patients, who were all female, the onset of seizures occurred between 0.5 and 18.0 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizures occurred in all 4 patients",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasm",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "1 of them experienced infantile spasm.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure clustering",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The characteristic of cluster was observed in all of them with an interval of 14 days to 5.0 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "refractory to anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizures were all refractory to different kinds of anti-seizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 4 patients had severe developmental retardation with microcephaly (head circumference<-2 s).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly was found in all patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had moderate to severe mental retardation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "diffuse slow wave on interictal EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The interictal electroencephalogram (EEG) was characterized by diffuse slow wave.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "normal brain MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain magnetic resonance imaging (MRI) was normal in 13 cases (62%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other MRI changes included cerebellar atrophy (3 cases), thin corpus callosum (3 cases), and lateral ventricular enlargement (2 cases).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "thin corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other MRI changes included cerebellar atrophy (3 cases), thin corpus callosum (3 cases), and lateral ventricular enlargement (2 cases).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "lateral ventricular enlargement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other MRI changes included cerebellar atrophy (3 cases), thin corpus callosum (3 cases), and lateral ventricular enlargement (2 cases).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "poor response to antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty patients did not respond well to antiepileptic drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

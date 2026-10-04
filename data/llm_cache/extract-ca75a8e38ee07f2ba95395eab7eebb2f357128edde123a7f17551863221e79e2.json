@@ -1,0 +1,26 @@
+{
+  "pmid": "37328865",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ADRD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five with ADRD and PD (near LCORL, CLU, SETD1A/KAT8, WWOX, and GRN)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "PD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Colocalization analysis supported a shared causal variant between ADRD and PD at the CLU, WWOX, and LCORL loci",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "25534083",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GWAS meta-analysis identified RIT2 rs12456492 and STX1B rs4889603 as PD susceptible loci.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both rs12456492 and rs4889603 were associated with PD susceptibility (P = 0.012 and 0.03, respectively).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The G allele of rs12456492 and the A allele of rs4889603 served as risk alleles toward PD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

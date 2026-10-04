@@ -1,0 +1,26 @@
+{
+  "pmid": "41042498",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "gene_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAergic (GABRA1, GABRB1) gene expression altered by PTZ administration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "gene_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prior administration of Bacillus safensis NMCC-189 and Bacillus clausii successfully restored the expression of tight junction (ZO-1, Occludin, Claudin), and normalized glutamatergic (NR1, NR2A, NR2B, mGluR1, GluA1, GluA2) and GABAergic (GABRA1, GABRB1) gene expression altered by PTZ administration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

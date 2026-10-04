@@ -1,0 +1,66 @@
+{
+  "pmid": "35217385",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability, developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability, developmental delay, autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "attention-deficit/hyperactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability, developmental delay, autism, attention-deficit/hyperactivity disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability, developmental delay, autism, attention-deficit/hyperactivity disorder and, further, schizophrenia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B is predominantly associated with neurodevelopmental disorders such as intellectual disability, developmental delay, autism, attention-deficit/hyperactivity disorder and, further, schizophrenia, Alzheimer's disease.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "29023665",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cornelia de Lange syndrome with SMC1A variants",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

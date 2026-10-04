@@ -1,0 +1,66 @@
+{
+  "pmid": "41714804",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "K98 crotonylation (K98cr)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a significant decrease in K98 crotonylation (K98cr) of syntaxin-binding protein 1 (STXBP1) in epileptic mice hippocampus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "binding with syntaxin-1B (STX1B)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the upregulation of STXBP1 K98cr reduces the binding with syntaxin-1B(STX1B)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to a decreased assembly of soluble NSF attachment protein receptors (SNAREs) in presynaptic active zone",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "subsequent inhibition vesicle release",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "thereby promoting epilepsy formation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "p300-mediated crotonylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced E1A-binding protein p300 (p300)-mediated crotonylation is a major cause of the altered STXBP1 crotonylation in the hippocampus of epileptic mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

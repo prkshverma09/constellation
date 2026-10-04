@@ -1,0 +1,16 @@
+{
+  "pmid": "31618474",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including 9 novel EIMFS genes: de novo dominant GABRA1, GABRB1, ATP1A3; X-linked CDKL5, PIGA; and recessive ITPA, AIMP1, KARS, WWOX.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

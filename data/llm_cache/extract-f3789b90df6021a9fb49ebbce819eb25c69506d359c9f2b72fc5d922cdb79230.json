@@ -1,0 +1,36 @@
+{
+  "pmid": "38355613",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "decreased gene and protein levels in hippocampi",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene and protein levels of GluR2 in the hippocampi of rats in the epileptic group were significantly reduced.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "cAMP signaling pathway; cocaine addiction; dopaminergic synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Network pharmacology analysis revealed a close association between quinpirole and GluR2 as well as its involvement in the cAMP signaling pathway, cocaine addiction, and dopaminergic synapses.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "modulation of GLUR2 protein expression linked to treatment improvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This improvement was linked to the modulation of protein expression levels of GLUR2, BAX, and BCL2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

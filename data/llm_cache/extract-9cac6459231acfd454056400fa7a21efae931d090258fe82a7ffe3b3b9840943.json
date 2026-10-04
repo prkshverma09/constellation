@@ -1,0 +1,16 @@
+{
+  "pmid": "23516101",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "neuronal differentiation marker",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NaB increased the mRNA expression of Gria2, a neuronal differentiation marker, in D283 and DAOY cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

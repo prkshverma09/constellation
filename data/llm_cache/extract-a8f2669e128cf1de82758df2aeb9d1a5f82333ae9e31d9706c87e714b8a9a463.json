@@ -1,0 +1,116 @@
+{
+  "pmid": "37293116",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "Ras-GTPase activating protein enriched at excitatory synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a Ras-GTPase activating protein highly enriched at excitatory synapses in the brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates developing excitatory synapse structure and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 regulates developing excitatory synapse structure and function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo loss-of-function mutations in SYNGAP1 are a major cause of genetically defined neurodevelopmental disorders (NDD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data suggest that half the amount of SYNGAP1 protein is key to the pathogenesis of SRID.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "knock-in mouse with frameshift mutation L813RfsX22",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one with a frameshift mutation leading to a premature stop codon, SYNGAP1; L813RfsX22",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "knock-in mouse with intronic c.3583-9G>A cryptic splice variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a second with a single-nucleotide mutation in an intron that creates a cryptic splice acceptor site leading to premature stop codon, SYNGAP1; c.3583-9G>A .",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "deficits in synaptic plasticity observed in models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both models show ∼50% reduction in Syngap1 protein, have deficits in synaptic plasticity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recapitulate key features of SRID including hyperactivity and impaired working memory.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired working memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recapitulate key features of SRID including hyperactivity and impaired working memory.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous Syngap1 knockout mice have deficits in synaptic plasticity, learning and memory, and have seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "models show decreased Syngap1 mRNA and protein (35–50% mRNA, ~50% protein)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both models show decreased Syngap1 mRNA and Syngap1 protein",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

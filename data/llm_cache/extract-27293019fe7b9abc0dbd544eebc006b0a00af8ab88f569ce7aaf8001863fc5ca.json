@@ -1,0 +1,16 @@
+{
+  "pmid": "41332841",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "FCDIIa or FCDIIb",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of these, six cases with FCDIIa or FCDIIb had germline variants in NPRL3 (n=4) or DEPDC5 (n=2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

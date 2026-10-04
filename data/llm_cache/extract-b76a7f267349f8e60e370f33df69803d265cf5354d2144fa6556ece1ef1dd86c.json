@@ -1,0 +1,16 @@
+{
+  "pmid": "38464823",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "brain metastasis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Finally, we developed a random forest algorithm model with eight proteins (RRS1, CPT1A, DNM1, SRCAP, MLYCD, PCID2, IMPAD1 and FILIP1), which showed excellent predictive value (AUC: 0.9401) of BM in patients with LUAD harboring EGFR mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

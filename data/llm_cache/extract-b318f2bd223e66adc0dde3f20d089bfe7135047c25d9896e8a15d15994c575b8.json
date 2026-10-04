@@ -1,0 +1,76 @@
+{
+  "pmid": "20727515",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two compound heterozygous missense mutations (D147H and A509V) in TBC1D24, a gene of unknown function, are responsible for FIME.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "familial infantile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two compound heterozygous missense mutations (D147H and A509V) in TBC1D24, a gene of unknown function, are responsible for FIME.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "ARF6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By coimmunoprecipitation assay we found that TBC1D24 binds ARF6,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "expressed in cerebral cortex and hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In situ hybridization analysis revealed that Tbc1d24 is mainly expressed at the level of the cerebral cortex and the hippocampus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "increased neurite length and arborization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 overexpression resulted in a significant increase in neurite length and arborization",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "reversion of overexpression phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the FIME mutations significantly reverted this phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "ARF6-dependent molecular pathway in brain hyperexcitability and seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "unveiled the involvement of ARF6-dependent molecular pathway in brain hyperexcitability and seizures",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

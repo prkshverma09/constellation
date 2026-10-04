@@ -1,0 +1,136 @@
+{
+  "pmid": "34979445",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "benign infantile epilepsy (BIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SCN8A have been demonstrated with a wide spectrum of epilepsy phenotypes, ranging from benign infantile epilepsy (BIE), to early onset developmental and epileptic encephalopathy (DEE) with moderate to severe developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "early onset developmental and epileptic encephalopathy (DEE) with moderate to severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SCN8A have been demonstrated with a wide spectrum of epilepsy phenotypes, ranging from benign infantile epilepsy (BIE), to early onset developmental and epileptic encephalopathy (DEE) with moderate to severe developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found 50 patients who presented with severe developmental and epileptic encephalopathy (DEE, 70%), benign infantile epilepsy (BIE, 12%), developmental encephalopathy with epilepsy (16%), and severe developmental delay without epilepsy (2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental encephalopathy with epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found 50 patients who presented with severe developmental and epileptic encephalopathy (DEE, 70%), benign infantile epilepsy (BIE, 12%), developmental encephalopathy with epilepsy (16%), and severe developmental delay without epilepsy (2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found 50 patients who presented with severe developmental and epileptic encephalopathy (DEE, 70%), benign infantile epilepsy (BIE, 12%), developmental encephalopathy with epilepsy (16%), and severe developmental delay without epilepsy (2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset age ranged from 1 day to 1 year and 11 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset age ranged from 1 day to 1 year and 11 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "anti-seizure treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After anti-seizure treatment, 28% of patients obtained seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers showed good prognosis in 26% of patients with severe DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "Oxcarbazepine (OXC) monotherapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxcarbazepine (OXC) monotherapy was obviously effective in patients with BIE and developmental encephalopathy with epilepsy, most importantly, 87.5% received the anti-seizure therapy with sodium channel blockers in combination.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "anti-seizure therapy with sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "87.5% received the anti-seizure therapy with sodium channel blockers in combination.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the variants were de novo missense with exception of one splice site variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "SCN8A-BIE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We reported three new variants, Asn1887Ser, Ile1605Thr, and Met1869Thr, which were associated with SCN8A-BIE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers were effective in treating seizures for some SCN8A-related disorders however may not be relevant to the mutant location.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

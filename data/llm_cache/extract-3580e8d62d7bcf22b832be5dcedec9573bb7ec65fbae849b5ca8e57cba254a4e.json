@@ -1,0 +1,16 @@
+{
+  "pmid": "32086284",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "non-acquired focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ES identified pathogenic or likely pathogenic (ie, diagnostic) variants in 13/112 patients (12%) in the genes DEPDC5, NPRL3, GABRG2, SCN1A, PCDH19 and STX1B.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

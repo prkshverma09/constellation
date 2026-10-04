@@ -1,0 +1,126 @@
+{
+  "pmid": "36067010",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "inhibitory component of the mTOR pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 (DEP Domain-Containing Protein 5) encodes an inhibitory component of the mammalian target of rapamycin (mTOR) pathway",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline pathogenic variants are typically heterozygous and inactivating.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We describe a novel phenotype caused by germline biallelic missense variants in DEPDC5.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Irish Traveller children shared the same DEPDC5 germline homozygous missense variant (p.Thr337Arg), whereas the Lebanese and Tunisian children shared a different germline homozygous variant (p.Arg806Cys).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "extensive bilateral polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "extensive bilateral polymicrogyria",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "congenital macrocephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "congenital macrocephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset refractory epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "Eye involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eye and cardiac involvement and severe neutropenia were also observed in one or more patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cardiac involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eye and cardiac involvement and severe neutropenia were also observed in one or more patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "severe neutropenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eye and cardiac involvement and severe neutropenia were also observed in one or more patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "death in infancy or childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five of the children died in infancy or childhood;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "hyperactivation of the mTOR pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Skin biopsy immunohistochemistry was supportive of hyperactivation of the mTOR pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "33036271",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "major neuronal α-subunit of heterotrimeric G proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 encoding Gαo, the major neuronal α-subunit of heterotrimeric G proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paediatric epileptic patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "motor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "humanized Gαo locus in Drosophila (fruit fly)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the humanization of the Gαo locus in the fruit fly.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "homozygous humanized GNAO1 flies are viable and fertile without visible phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The resulting flies, homozygous for the humanized GNAO1 loci, are viable and fertile without any visible phenotypes;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "homozygous humanized GNAO1 flies have normal body weight, locomotion, and longevity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "their body weight, locomotion, and longevity are also normal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

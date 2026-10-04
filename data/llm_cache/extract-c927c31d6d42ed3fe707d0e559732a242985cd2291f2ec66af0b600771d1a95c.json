@@ -1,0 +1,86 @@
+{
+  "pmid": "30050035",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidative modification as mechanism of neuronal vulnerability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxidative modification of the voltage-gated K+ channel subfamily B member 1 (KCNB1, Kv2.1) is emerging as a mechanism of neuronal vulnerability potentially capable of affecting multiple conditions associated with oxidative stress, from normal aging to neurodegenerative disease.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "oxidation of KCNB1 channels is exacerbated in AD post mortem brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study we report that oxidation of KCNB1 channels is exacerbated in the post mortem brains of Alzheimer's disease (AD) donors compared to age-matched controls.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "KCNB1 oxidation followed by strengthened phosphorylation of FAK and Src in AD brains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, phosphorylation of Focal Adhesion kinases (FAK) and Src tyrosine kinases, two key signaling steps that follow KCNB1 oxidation, is also strengthened in AD vs. control brains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "Quadruple transgenic mice expressing a non-oxidizable form of KCNB1 in the 3xTg-AD background",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quadruple transgenic mice expressing a non-oxidizable form of KCNB1 in the 3xTg-AD background (APPSWE, PS1M146V, and tauP301L),",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "improved working memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit improved working memory along with reduced brain inflammation, protein carbonylation and intraneuronal β-amyloid (Aβ) compared to 3xTg-AD mice or mice expressing the wild type (WT) KCNB1 channel.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "reduced brain inflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit improved working memory along with reduced brain inflammation, protein carbonylation and intraneuronal β-amyloid (Aβ) compared to 3xTg-AD mice or mice expressing the wild type (WT) KCNB1 channel.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "reduced protein carbonylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit improved working memory along with reduced brain inflammation, protein carbonylation and intraneuronal β-amyloid (Aβ) compared to 3xTg-AD mice or mice expressing the wild type (WT) KCNB1 channel.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "reduced intraneuronal β-amyloid (Aβ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit improved working memory along with reduced brain inflammation, protein carbonylation and intraneuronal β-amyloid (Aβ) compared to 3xTg-AD mice or mice expressing the wild type (WT) KCNB1 channel.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

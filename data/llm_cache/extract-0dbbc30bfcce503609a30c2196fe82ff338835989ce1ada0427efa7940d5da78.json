@@ -1,0 +1,96 @@
+{
+  "pmid": "38650830",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a partial or complete loss of γ-aminobutyric acid uptake due to impaired protein trafficking is the primary aetiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1+/A288V and Slc6a1+/S295L mice, representative of a partial or a complete loss of function of SLC6A1 mutations, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reduced protein expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "γ-aminobutyric acid transporter 1 protein was markedly reduced in cortex, hippocampus, thalamus and cerebellum in both mutant mouse lines.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both the total and the γ-aminobutyric acid transporter 1-mediated 3H γ-aminobutyric acid reuptake was reduced.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "no compensatory increase of γ-aminobutyric acid transporter 3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "there was no compensatory increase of γ-aminobutyric acid transporter 3 in either of the mutant mouse lines.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "ring-like structure in Slc6a1+/A288V mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a ring-like structure was identified only in the Slc6a1+/A288V mouse",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "endoplasmic reticulum retention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting more γ-aminobutyric acid transporter 1 retention inside endoplasmic reticulum in the Slc6a1+/A288V mouse.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "increased α5 GABAA receptor expression in hippocampus of S295L homozygous mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a small increase in the expression of α5 subunits of GABAA receptor in the hippocampus of Slc6a1S295L homozygous mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "tailored treatment options based on the expression and function of γ-aminobutyric acid transporter 1 and GABAA receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the findings from this study can help guide tailored treatment options based on the expression and function of γ-aminobutyric acid transporter 1 and GABAA receptor in SLC6A1 mutation-mediated neurodevelopmental and epileptic encephalopathies.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

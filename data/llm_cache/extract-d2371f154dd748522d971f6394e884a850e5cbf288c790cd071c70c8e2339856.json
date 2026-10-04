@@ -1,0 +1,36 @@
+{
+  "pmid": "37628658",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome, a complex X-linked condition, affecting mainly females, is due to pathogenic variants of the MECP2 gene in most affected individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "median age of diagnosis of 3 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Analysis of 103 girls who fulfilled the clinical diagnostic criteria for classical Rett syndrome with a pathogenic variant of the MECP2 gene showed a median age of diagnosis of 3 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "c.502 C>T",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most frequent MECP2 variant was c.502 C>T.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

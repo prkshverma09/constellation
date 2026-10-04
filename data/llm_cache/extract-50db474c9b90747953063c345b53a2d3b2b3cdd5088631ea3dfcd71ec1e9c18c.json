@@ -1,0 +1,26 @@
+{
+  "pmid": "24512576",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA2 and GRIA4 genes, which encode subunits of the ionotropic AMPA receptor",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no association between migraine and the GRIA2 and GRIA4 polymorphisms investigated.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

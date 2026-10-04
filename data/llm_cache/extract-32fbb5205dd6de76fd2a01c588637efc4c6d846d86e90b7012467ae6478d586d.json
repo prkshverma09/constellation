@@ -1,0 +1,16 @@
+{
+  "pmid": "34465229",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "downregulation of Grin1 mRNA compared to wild-type littermates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "linked to downregulation of Grin1 mRNA compared to wild-type littermates.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

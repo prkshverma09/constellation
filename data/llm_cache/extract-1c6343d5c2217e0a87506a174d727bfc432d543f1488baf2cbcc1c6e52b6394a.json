@@ -1,0 +1,16 @@
+{
+  "pmid": "24839169",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several genetic disorders are characterized by normal head size at birth, followed by deceleration in head growth resulting in postnatal microcephaly. Among these are classic disorders such as Angelman syndrome and MECP2-related disorder (formerly Rett syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

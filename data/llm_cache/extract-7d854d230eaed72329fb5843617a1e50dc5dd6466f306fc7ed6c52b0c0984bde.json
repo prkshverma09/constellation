@@ -1,0 +1,36 @@
+{
+  "pmid": "39246294",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "bilateral spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bilateral spasticity was the most common motor disorder reported in individuals with variants in all 6 genes",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "accompanying conditions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most individuals had accompanying conditions.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "tier I gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The tier I gene list was composed of 6 genes: ATL1, COL4A1, GNAO1, KIF1A, SPAST, and TUBA1A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

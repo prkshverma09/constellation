@@ -1,0 +1,16 @@
+{
+  "pmid": "30410579",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype of our patient mainly reflects the effects of haploinsufficiency of AKT3, HNRNPU, ZBTB18 genes associated with duplication of GLRA3, GMP6A, HAND2 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

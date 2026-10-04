@@ -1,0 +1,16 @@
+{
+  "pmid": "41026139",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "genotypic variability in SLC2A1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Possible contributing factors include genotypic variability in SLC2A1",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,156 @@
+{
+  "pmid": "35318369",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "Gabrb3 endothelial cell conditional knockout (Gabrb3ECKO) mice with β3 deleted selectively from endothelial cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the GABAA receptor β3 subunit endothelial cell conditional knockout (Gabrb3ECKO) mice, the β3 subunit is deleted selectively from endothelial cells",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "endothelial GABAA receptors become inactivated and dysfunctional",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "therefore endothelial GABAA receptors become inactivated and dysfunctional",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduction in vessel densities and increased vessel morphology in telencephalon persisting in adult neocortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There is a reduction in vessel densities and increased vessel morphology in the Gabrb3ECKO telencephalon that persists in the adult neocortex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased red blood cell velocity and blood flow in cortical microcirculation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Red blood cell velocity and blood flow were increased in the cortical microcirculation of the Gabrb3ECKO mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduction in vessel densities in the heart",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Gabrb3ECKO mice had a reduction in vessel densities in the heart, similar to the brain",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "wavy myocardial fibers with elongated 'worm-like' nuclei in cardiac histology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibited wavy, myocardial fibers, with elongated 'worm-like' nuclei in their cardiac histology",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "hypertension",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and developed hypertension",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "impaired reciprocal social interactions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired reciprocal social interactions",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "communication deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "communication deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "heightened anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heightened anxiety",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "depression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and depression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "increased spontaneous exploratory activity and rearing in an open field",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased spontaneous exploratory activity and rearing in an open field",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "reduced short term memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced short term memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "decreased ambulatory activity in CLAMS testing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased ambulatory activity in CLAMS testing",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "altered prepulse inhibition to startle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered prepulse inhibition to startle",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "31201651",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "neuronal function affected by processes following perturbed cytoskeletal formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuronal function affected by processes following perturbed cytoskeletal formation (Mt-Co3, Stx1b, p-Syn1)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

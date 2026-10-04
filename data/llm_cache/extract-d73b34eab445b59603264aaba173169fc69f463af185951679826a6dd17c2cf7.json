@@ -1,0 +1,16 @@
+{
+  "pmid": "42094463",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "neuronal_EV_surface_marker",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified CNTNAP2 and STX1B as neuronal, brain-enriched EV surface proteins accessible for selective capture and confirmed their presence in EVs from post-mortem human brain, supporting them as bona fide brain-derived EV markers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

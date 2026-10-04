@@ -1,0 +1,106 @@
+{
+  "pmid": "34915430",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encephalopathy encompasses a broad phenotypic spectrum associating intellectual disability, behavioral disturbances, and epilepsies of various severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encephalopathy encompasses a broad phenotypic spectrum associating intellectual disability, behavioral disturbances, and epilepsies of various severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encephalopathy encompasses a broad phenotypic spectrum associating intellectual disability, behavioral disturbances, and epilepsies of various severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "pathological adaptive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VABS-II questionnaire showed pathological adaptive behavior in all participants with a severity of adaptive deficiency ranging from mild in 8/20 to severe in 7/20.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "attention problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight out of 16 were at risk of Attention Problems at the CBCL",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "13/18 were at risk of autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "decrease in adaptive behavior composite score with age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The adaptive behavior composite score significantly decreased with age (Spearman's Rho=-0.72, p<0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "stagnation and slowing but no regression over time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting stagnation and slowing but no regression over time.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severity of epilepsy predicts severity of behavioral profile",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The severity of the epilepsy phenotype predicted the severity of the behavioral profile with a sensitivity of 70% and a specificity of 90.9%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "ASD and attention disorders are frequent",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ASD and attention disorders are frequent.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

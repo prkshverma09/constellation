@@ -1,0 +1,116 @@
+{
+  "pmid": "27363778",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "endocytosis and recycling of pre-synaptic membranes and synaptic vesicles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin 1 is a large neuron-specific GTPase involved in the endocytosis and recycling of pre-synaptic membranes and synaptic vesicles.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut Syndrome and Infantile Spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the gene encoding dynamin 1 (DNM1) underlie two epileptic encephalopathy syndromes, Lennox-Gastaut Syndrome and Infantile Spasms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "mice homozygous for the Dnm1 \"fitful\" mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice homozygous for the Dnm1 \"fitful\" mutation, a non-synonymous coding variant in an alternatively spliced exon of Dnm1 (exon 10a; isoform designation: Dnm1a(Ftfl)) have an epileptic encephalopathy-like disorder including lethal early onset seizures, locomotor and neurosensory deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "fitful heterozygotes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although fitful heterozygotes have milder recurrent seizures later in life, suggesting an additive or semi-dominant mechanism,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dnm1a(Ftfl) exerts a dominant negative effect on endocytosis in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "downregulation of Dnm1a",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutants have a downregulation of Dnm1a and an upregulation of Dnm1b",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "upregulation of Dnm1b",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutants have a downregulation of Dnm1a and an upregulation of Dnm1b",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "may contribute to the epileptic pathology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "changes which may contribute to the epileptic pathology.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "mice lacking Dnm1 exon 10a or Dnm1 exon 10b",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice lacking Dnm1 exon 10a or Dnm1 exon 10b have neither spontaneous seizures nor other overt abnormalities, suggesting that in normal conditions the major role of each isoform is redundant.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "exon 10a deleted mice in the presence of Dnm1a(Ftfl)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in the presence of Dnm1a(Ftfl) only exon 10a deleted mice experience severe seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "functional differences between Dnm1a and Dnm1b isoforms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results reveal functional differences between Dnm1a and Dnm1b isoforms in the presence of a challenge, i.e. toxic Dnm1(Ftfl),",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

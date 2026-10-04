@@ -1,0 +1,66 @@
+{
+  "pmid": "29069600",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy (EOEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings establish pathogenicity of the Phe240Leu KCNT2 mutation in the reported EOEE patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The de novo heterozygous variant Phe240Leu SLICK was identified by exome sequencing and confirmed by Sanger sequencing.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "reversed intracellular chloride ([Cl-]i) sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "First, [Cl-]i sensitivity was reversed in Phe240Leu channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "altered ion selectivity favoring Na+ over K+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Second, predominantly K+-selective WT channels were made to favor Na+ over K+ by Phe240Leu.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "larger inward conductance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Third, and consequent to altered ion selectivity, Phe240Leu channels had larger inward conductance.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "model",
+      "object_text": "primary neuron expression causing membrane hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further, rSlick channels induced membrane hyperexcitability when expressed in primary neurons, resembling the cellular seizure phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

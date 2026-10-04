@@ -1,0 +1,26 @@
+{
+  "pmid": "38232560",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "atypical absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants associated with AAS, such as GABRG2, GABRG3, SLC6A1, CACNB4, SCN8A, and SYNGAP1, are also linked to developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants associated with AAS, such as GABRG2, GABRG3, SLC6A1, CACNB4, SCN8A, and SYNGAP1, are also linked to developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

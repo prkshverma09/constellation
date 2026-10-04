@@ -1,0 +1,16 @@
+{
+  "pmid": "36119689",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation (VNS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with pathogenic mutations in the SLC35A2, CIC, DNM1, MBD5, TUBGCP6, EEF1A2, and CHD2 genes or duplication of X q28 (MECP2 gene) had a >50% reduction in seizure frequency.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

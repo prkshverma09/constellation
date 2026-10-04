@@ -1,0 +1,16 @@
+{
+  "pmid": "39210294",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "hub-protein among shared differentially expressed genes in delirium and AD identified by PPI network analysis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the sDEGs of delirium and AD, the top 10 hub-proteins including ALB, APP, BDNF, CREB1, DLG4, GAD1, GAD2, GFAP, GRIN2B and GRIN2A were found by the PPI network analysis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

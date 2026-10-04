@@ -1,0 +1,16 @@
+{
+  "pmid": "40811633",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "levodopa/carbidopa",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exacerbation of motor symptoms with levodopa/carbidopa in GNAO1 and MECP2 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

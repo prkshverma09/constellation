@@ -1,0 +1,66 @@
+{
+  "pmid": "41534834",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "critical DNA end-processing enzyme",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide kinase 3'-phosphatase (PNKP), a critical DNA end-processing enzyme,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "decreased activity in the mitochondrial extract of brains of patients with HD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the activity of polynucleotide kinase 3'-phosphatase (PNKP), a critical DNA end-processing enzyme, is significantly decreased in the mitochondrial extract of brains of patients with HD due to a lower level of fructose-2,6 bisphosphate (F2,6BP)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "decrease in PNKP activity leads to persistent DNA strand breaks refractory to repair completion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Such decrease in PNKP activity leads to persistent DNA strand breaks that are refractory to subsequent steps for repair completion.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "binds F2,6BP and utilizes it as a cofactor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP binds F2,6BP (Kd = 525 ± 25 nM) and utilizes it as a cofactor.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "member of a mitochondrial DNA repair complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PFKFB3 is part of a mitochondrial DNA repair complex containing HTT, PNKP, DNA Pol γ (POLG), and Lig IIIα.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "F2,6BP supplementation restores PNKP activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Activity of PNKP is thus severely decreased in the mitochondrial extract; however, addition of F2,6BP restored its activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

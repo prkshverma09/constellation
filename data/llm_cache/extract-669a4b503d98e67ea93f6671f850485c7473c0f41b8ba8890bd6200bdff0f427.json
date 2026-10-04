@@ -1,0 +1,26 @@
+{
+  "pmid": "40754606",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "GLUT1 DS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We detected two different pathogenic and likely pathogenic variants in SLC2A1 (NM_006516.3) in patients from unrelated families.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potential relationship between cortical dysplasia and specific genotypes in GLUT1 DS.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

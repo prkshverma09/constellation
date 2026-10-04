@@ -1,0 +1,16 @@
+{
+  "pmid": "25125236",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "less typical CdLS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in other cohesin components, SMC1A, SMC3, HDAC8 and RAD21 cause less typical CdLS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

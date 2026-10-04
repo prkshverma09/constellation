@@ -1,0 +1,106 @@
+{
+  "pmid": "36604176",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "component of the GATOR1 complex; modulator of the mTOR pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5, NPRL2 and NPRL3 that encode the GATOR1 (GTPase-activating protein towards the Rags 1) complex, a modulator in the mammalian target of rapamycin (mTOR) pathway",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "prevalence of pathogenic DEPDC5 variants in cohort",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two novel frameshift variants and one recurrent nonsense variant were detected in DEPDC5, with a prevalence of 1.8% (3 out of 170) in the whole cohort and 3.1% (3 out of 97) in focal epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "variants cosegregated with epilepsy in pedigrees",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants cosegregated in pedigrees with epilepsy, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures with non-lesional variable foci predominantly sleep-related; median onset age 10 years (range 1-30)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic phenotypes of 21 patients with DEPDC5 variants showed focal seizures with non-lesional variable foci that were predominantly sleep-related, with a median onset age of 10 years (range 1-30).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy in ~24% of patients with DEPDC5 variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "About 24% of patients were drug-resistant",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "seizure attacks absent in 33% of variant carriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure attacks were absent in 33% of variant carriers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "seizures tended to resolve spontaneously in 54% of affected patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of 13 patients who experienced seizures, 54% tended to resolve spontaneously.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These loss-of-function (LoF) variants affected the DEPDC5-dependent inhibition of mTOR.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "loss of inhibition of the mTOR pathway causes the associated epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The associated epilepsy was caused by loss of inhibition of the mTOR pathway.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "DEPDC5-LoF carriers might show high prevalence of focal seizures with dynamic phenotype, reduced penetrance and self-resolving features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients carrying DEPDC5-LoF variants might show a high prevalence of focal seizures with a dynamic phenotype, indicating reduced penetrance and self-resolving features.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

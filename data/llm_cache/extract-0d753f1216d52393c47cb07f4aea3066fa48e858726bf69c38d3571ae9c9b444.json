@@ -1,0 +1,46 @@
+{
+  "pmid": "29101845",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in STX1B encoding the presynaptic protein syntaxin-1B are associated with febrile seizures with or without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in STX1B encoding the presynaptic protein syntaxin-1B are associated with febrile seizures with or without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "RMT, input-output curves of MEP amplitude, SICI and ICF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RMT, and input-output curves of MEP amplitude, SICI and ICF revealed no significant differences between STX1B mutation carriers and healthy controls.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "normal motor cortical GABAAergic and glutamatergic excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Findings suggest normal motor cortical GABAAergic and glutamatergic excitability in currently asymptomatic STX1B mutation carriers.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

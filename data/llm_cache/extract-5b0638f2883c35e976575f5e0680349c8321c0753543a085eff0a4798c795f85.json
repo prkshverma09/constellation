@@ -1,0 +1,76 @@
+{
+  "pmid": "35055139",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "plays fundamental roles in forebrain development, from the timing of neurogenesis to the patterning of the cerebral cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Forkhead Box G1 (FOXG1) is one of the master regulators that play fundamental roles in forebrain development; from the timing of neurogenesis, to the patterning of the cerebral cortex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "FOXG1 syndrome (congenital form of Rett syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the FOXG1 gene cause a rare neurodevelopmental disorder called FOXG1 syndrome, also known as congenital form of Rett syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe cognitive dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presenting with FOXG1 syndrome manifest a spectrum of phenotypes, ranging from severe cognitive dysfunction and microcephaly to social withdrawal and communication deficits, with varying severities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presenting with FOXG1 syndrome manifest a spectrum of phenotypes, ranging from severe cognitive dysfunction and microcephaly to social withdrawal and communication deficits, with varying severities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "social withdrawal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presenting with FOXG1 syndrome manifest a spectrum of phenotypes, ranging from severe cognitive dysfunction and microcephaly to social withdrawal and communication deficits, with varying severities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "communication deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients presenting with FOXG1 syndrome manifest a spectrum of phenotypes, ranging from severe cognitive dysfunction and microcephaly to social withdrawal and communication deficits, with varying severities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "disease-modelling approaches in animals and human-based systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "explore disease-modelling approaches in animals and human-based systems",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

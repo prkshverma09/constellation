@@ -1,0 +1,76 @@
+{
+  "pmid": "29416524",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "wide spectrum of epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 mutation-related epileptic syndrome includes a wide spectrum of epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsia partialis continua",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient manifested epilepsia partialis continua (EPC)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "secondary generalized tonic-clonic seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rare secondary generalized tonic-clonic seizure",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal limbs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EPC, which involved focal limbs",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "without intellectual disability or developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "without intellectual disability or developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "brain development abnormality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This case indicates a possible correlation between the TBC1D24 mutation and brain development abnormality.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

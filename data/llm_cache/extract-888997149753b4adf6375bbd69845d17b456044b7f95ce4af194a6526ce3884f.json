@@ -1,0 +1,36 @@
+{
+  "pmid": "36831238",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "model",
+      "object_text": "AAV-VAMP2 robust transduction in dorsal medulla oblongata",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Administration of AAV-VAMP2 or AAV-SNAP25 caused robust transduction of either of the proteins in the dorsal medulla oblongata",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "interneuronal transfer and caudo-rostral spreading",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "was not followed by interneuronal VAMP2 or SNAP25 transfer and caudo-rostral spreading",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "protein aggregation",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "overexpression of β-synuclein, but not VAMP2 or SNAP25, in the dorsal medulla oblongata was associated with pronounced protein aggregation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

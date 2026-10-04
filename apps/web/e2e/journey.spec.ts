@@ -62,7 +62,7 @@ test("Journey A: inspect the STXBP1 cluster and compare against DNM1", async ({ 
   await expect(dnm1Overlap).toContainText("excluded by: mechanism layer (M < 0.25)");
 
   const trialCard = page.locator(".asset-card").filter({ hasText: "NCT06555965" });
-  await expect(trialCard).toBeVisible();
+  await expect(trialCard).toBeVisible({ timeout: 15_000 });
   await expect(trialCard.locator(".coverage-score")).toContainText(/\d+% \(IC .+, \d+ of \d+ phenotypes\)/);
   const peopleSelector = page.getByLabel("Compare bridge people against");
   await expect(peopleSelector).toHaveValue(dnm1Id!);

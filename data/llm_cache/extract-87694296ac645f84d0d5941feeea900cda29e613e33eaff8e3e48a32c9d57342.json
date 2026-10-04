@@ -1,0 +1,96 @@
+{
+  "pmid": "32353324",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental and epileptic encephalopathy (DEE) associated with de novo variants in the gene encoding dynamin-1 (DNM1) is a severe debilitating disease with no pharmacological remedy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "therapy-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the majority of DNM1 patients suffer from therapy-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "comorbidities such as intellectual disability, developmental delay, and hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "Dnm1 fitful mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We tested RNAi gene therapy in the Dnm1 fitful mouse model of DEE",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "RNAi gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We tested RNAi gene therapy in the Dnm1 fitful mouse model of DEE",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "RNAi gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These major impairments are mitigated following a single treatment in newborn mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "RNAi gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These major impairments are mitigated following a single treatment in newborn mice, along with key underlying cellular features including gliosis, cell death, and aberrant neuronal metabolic activity typically associated with recurrent seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

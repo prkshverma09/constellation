@@ -1,0 +1,26 @@
+{
+  "pmid": "39174245",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "P/Q-type calcium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A, ATP1A2 or SCN1A, which encode different subunits of channels, involving P/Q-type calcium channel, Na/K pump and Na channel, respectively, located in neurons and glial cells.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most described subtypes of familial hemiplegic migraine include FHM1, FHM2, and FHM3. These have been demonstrated to have a mutation in either CACNA1A, ATP1A2 or SCN1A,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

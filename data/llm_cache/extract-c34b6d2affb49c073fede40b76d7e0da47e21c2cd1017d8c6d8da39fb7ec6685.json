@@ -1,0 +1,36 @@
+{
+  "pmid": "37649269",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we choose 11 missense variants within the GRIN1, GRIN2A, and GRIN2B genes that alter residues located in the M2 loop and significantly reduce Mg2+ inhibition.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "reduction in voltage-dependent Mg2+ inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most consequential alteration being a reduction in voltage-dependent Mg2+ inhibition.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "memantine, dextromethorphan, and ketamine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three FDA-approved NMDAR drugs-memantine, dextromethorphan, and ketamine-were chosen based on their ability to bind near the M2 re-entrant loop, potentially rectifying dysregulated NMDAR function by supplementing the reduced voltage-dependent Mg2+ block.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

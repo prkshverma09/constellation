@@ -1,0 +1,36 @@
+{
+  "pmid": "35850019",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "encode GABA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1, GABRA2, GABRA5, GABRB1, GABRB2, GABRB3, GABRG2 and GABBR2 are genes that encode GABA receptors and are commonly associated with epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of these genes lead to a variety of epilepsy syndromes with different clinical phenotypes, primarily by down regulating receptor expression and reducing the amplitude of GABA-evoked potentials.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1, GABRA2, GABRA5, GABRB1, GABRB2, GABRB3, GABRG2 and GABBR2 are genes that encode GABA receptors and are commonly associated with epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "20187861",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The majority of FHM families have a mutation in one of the ion channels CACNA1A, ATP1A2 and SCN1A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "sporadic hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SHM is sometimes caused by a de novo mutation in one of the genes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "26875109",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "eating seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eating seizures were also reported in rare patients with MECP2 duplication or mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

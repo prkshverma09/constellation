@@ -1,0 +1,16 @@
+{
+  "pmid": "27029629",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified 11 novel or very rare missense variants in 5 different genes: CHRNA4, GRIN2B, KCNT1, PCDH19, and SCN1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

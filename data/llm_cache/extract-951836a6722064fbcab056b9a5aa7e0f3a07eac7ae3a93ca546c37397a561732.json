@@ -1,0 +1,26 @@
+{
+  "pmid": "42143463",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "up-regulation in perirhinal cortex (PRh)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "up-regulation of GABRA1, VGAT, and gephyrin in the perirhinal cortex (PRh).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "inhibitory synaptic marker",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inhibitory synaptic markers (GABRA1, VGAT, and gephyrin)",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

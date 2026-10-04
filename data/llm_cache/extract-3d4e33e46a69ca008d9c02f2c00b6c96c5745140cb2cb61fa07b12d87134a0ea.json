@@ -1,0 +1,36 @@
+{
+  "pmid": "32660967",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizure and epileptic encephalopathy associated with intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 is associated with an autosomal dominant early-onset seizure and epileptic encephalopathy associated with intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Structural and evolutionary assessments establish this variant as a loss of function to the protein.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "valproic acid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was resistant to multiple epileptic drugs, finally finding that valproic acid controls the seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

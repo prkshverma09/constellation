@@ -1,0 +1,96 @@
+{
+  "pmid": "20204399",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "pore-forming alpha1 subunit of human voltage-gated CaV2.1 (P/Q-type) Ca2+ channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes the pore-forming alpha1 subunit of human voltage-gated CaV2.1 (P/Q-type) Ca2+ channels",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine type 1 (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial hemiplegic migraine type 1 (FHM1)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia type 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia type 2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia type 6 (SCA6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spinocerebellar ataxia type 6 (SCA6)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "knockin mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuronal CaV2.1 channels expressed at the endogenous physiological level in knockin mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "cortical spreading depression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The effects of FHM1 mutations on cortical spreading depression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "cortical excitatory and inhibitory synaptic transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "on cortical excitatory and inhibitory synaptic transmission in FHM1 knockin mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "ataxic spontaneous cacna1a mouse mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different ataxic spontaneous cacna1a mouse mutants",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "motor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor dysfunction caused by mutant CaV2.1 channels",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

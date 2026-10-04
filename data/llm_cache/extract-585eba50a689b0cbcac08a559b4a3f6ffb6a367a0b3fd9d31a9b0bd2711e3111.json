@@ -1,0 +1,16 @@
+{
+  "pmid": "24399675",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "overlapping of epilepsy and FS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A, IL-1β, CHRNA4, and GABRG2 were the most commonly involved genes in this context.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

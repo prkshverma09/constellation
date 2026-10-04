@@ -1,0 +1,186 @@
+{
+  "pmid": "39148034",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 variants are associated with varying degrees of intellectual disability (ID), developmental delay (DD), epilepsy, autism, and behavioural difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 variants are associated with varying degrees of intellectual disability (ID), developmental delay (DD), epilepsy, autism, and behavioural difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 variants are associated with varying degrees of intellectual disability (ID), developmental delay (DD), epilepsy, autism, and behavioural difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 variants are associated with varying degrees of intellectual disability (ID), developmental delay (DD), epilepsy, autism, and behavioural difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "behavioural difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 variants are associated with varying degrees of intellectual disability (ID), developmental delay (DD), epilepsy, autism, and behavioural difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures affected children with SYNGAP1-ID (84.6%) more frequently than the ID-comparison group (7.6%; p = < 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "fine motor impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fine-motor development was disproportionally impaired in SYNGAP1-ID, with 92.3% of children experiencing difficulties compared to 50% of ID-comparisons(p = 0.03).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "gross motor development (no difference)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gross motor and social development did not differ between the two groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "social development (no difference)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gross motor and social development did not differ between the two groups.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "non-verbal status",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID were more likely to be non-verbal (61.5%) than ID-comparisons (23.1%; p = 0.01).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "language competency (reduced)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Those children able to speak, spoke their first words at the same age as the ID-comparison group (mean = 3.25 years), yet achieved lower language competency (p = 0.04).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism (no increased likelihood vs other monogenic ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID compared to the ID-comparison group were not more likely to meet criteria for autism (SYNGAP1-ID = 46.2%; ID-comparison = 30.7%; p = .35)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "attention-deficit hyperactivity disorder (no increased likelihood vs other monogenic ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID compared to the ID-comparison group were not more likely to meet criteria for autism (SYNGAP1-ID = 46.2%; ID-comparison = 30.7%; p = .35), attention-deficit hyperactivity disorder (15.4%;15.4%; p = 1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalised anxiety (no increased likelihood vs other monogenic ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID compared to the ID-comparison group were not more likely to meet criteria for autism (SYNGAP1-ID = 46.2%; ID-comparison = 30.7%; p = .35), attention-deficit hyperactivity disorder (15.4%;15.4%; p = 1), generalised anxiety (7.7%;15.4%; p = .49)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "oppositional defiant disorder (no increased likelihood vs other monogenic ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID compared to the ID-comparison group were not more likely to meet criteria for autism (SYNGAP1-ID = 46.2%; ID-comparison = 30.7%; p = .35), attention-deficit hyperactivity disorder (15.4%;15.4%; p = 1), generalised anxiety (7.7%;15.4%; p = .49) or oppositional defiant disorder (7.7%;0%; p = .15).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "fine motor difficulties beyond other genetic causes of DD and ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For the first time, we demonstrate that SYNGAP1-ID is associated with fine motor and language difficulties beyond those experienced by children with other genetic causes of DD and ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "language difficulties beyond other genetic causes of DD and ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For the first time, we demonstrate that SYNGAP1-ID is associated with fine motor and language difficulties beyond those experienced by children with other genetic causes of DD and ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "Targeted occupational and speech and language therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Targeted occupational and speech and language therapies should be incorporated early into SYNGAP1-ID management.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

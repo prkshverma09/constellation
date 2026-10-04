@@ -1,0 +1,146 @@
+{
+  "pmid": "42481851",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A variants are among the most common genetic causes of developmental and epileptic encephalopathies (DEEs)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "uncontrolled seizures at birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which can present with uncontrolled seizures at birth",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A substantial fraction of causal variants are gain-of-function or mixed-function variants associated with increased channel open probability or greater sodium current flux.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Individualized allele-selective antisense oligonucleotides (ASOs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individualized allele-selective antisense oligonucleotides (ASOs) were designed to target heterozygous intronic single-nucleotide polymorphisms (SNPs) for decreased expression of mutant SCN2A transcript while preserving the wild-type copy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "reduction in seizure frequency (26% and 90%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients experienced a reduction in seizure frequency (26% and 90% in the two patients, respectively)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "decreased use of concomitant medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased use of concomitant medications",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "improvement in neurodevelopmental skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "improvement in neurodevelopmental skills",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "ASOs were well tolerated with no ASO-related serious adverse events",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both ASOs were well tolerated, with no ASO-related serious adverse events.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "refractory seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "choreoathetosis",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "gastrointestinal dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gastrointestinal dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "16% of patients with compatible SNPs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Haplotype phasing in a separate cohort of infants with SCN2A-related disorder (SCN2A-RD), diagnosed by rapid whole-genome sequencing, identified 16% of patients with compatible SNPs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

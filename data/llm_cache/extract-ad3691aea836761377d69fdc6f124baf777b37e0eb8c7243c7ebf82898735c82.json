@@ -1,0 +1,106 @@
+{
+  "pmid": "41146259",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders (NDDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in GRIN2B are predominantly associated with neurodevelopmental disorders (NDDs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants located in the transmembrane domain predominantly resulted in a GOF effect.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GOF variants were more likely to cause epilepsy and microcephaly than LOF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GOF variants were more likely to cause epilepsy and microcephaly than LOF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two of these individuals (carrying the p.Ile641Thr and p.Met818Leu variants, respectively) achieved seizure control after receiving memantine.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "memantine has been shown to be effective in controlling seizures and improving cognition.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, in comparison to LOF truncated variants, missense variants were associated with more severe clinical phenotypes, including severe DD/ID, language delay, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay /intellectual disability (DD/ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical manifestations included severe developmental delay /intellectual disability (DD/ID) and hypotonia in 100% of cases, as well as microcephaly in 28.57% of cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical manifestations included severe developmental delay /intellectual disability (DD/ID) and hypotonia in 100% of cases, as well as microcephaly in 28.57% of cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The predominant phenotypes observed were DD/ID (100%), hypotonia (87.27%), epilepsy (53.08%), and language impairment (45.71%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

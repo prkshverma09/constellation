@@ -1,0 +1,56 @@
+{
+  "pmid": "25164438",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "KV 2.1 voltage-gated potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 that encodes the KV 2.1 voltage-gated potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified a de novo missense mutation in KCNB1 that encodes the KV 2.1 voltage-gated potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies demonstrated a deleterious effect of the mutation on KV 2.1 function leading to a loss of ion selectivity and gain of a depolarizing inward cation conductance.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "heterologous expression system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The effect of mutations on protein function was assessed in a heterologous expression system.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 mutation can result in early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

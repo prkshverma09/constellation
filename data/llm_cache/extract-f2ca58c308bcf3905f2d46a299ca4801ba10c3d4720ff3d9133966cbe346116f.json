@@ -1,0 +1,16 @@
+{
+  "pmid": "16359473",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "ligand-gated neurotransmitter receptor subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a ligand-gated neurotransmitter receptor subunit (GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

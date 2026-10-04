@@ -1,0 +1,76 @@
+{
+  "pmid": "25194488",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "various paroxysmal dyskinesias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the PRRT2 gene have been identified in patients and families with a variety of early-onset paroxysmal disorders, including various paroxysmal dyskinesias, benign familial infantile seizures, hemiplegic migraine, and episodic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the PRRT2 gene have been identified in patients and families with a variety of early-onset paroxysmal disorders, including various paroxysmal dyskinesias, benign familial infantile seizures, hemiplegic migraine, and episodic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the PRRT2 gene have been identified in patients and families with a variety of early-onset paroxysmal disorders, including various paroxysmal dyskinesias, benign familial infantile seizures, hemiplegic migraine, and episodic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the PRRT2 gene have been identified in patients and families with a variety of early-onset paroxysmal disorders, including various paroxysmal dyskinesias, benign familial infantile seizures, hemiplegic migraine, and episodic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic regulation in the cortex and basal ganglia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Through its interaction with the presynaptic plasma membrane protein SNAP25, the PRRT2 protein may play a role in synaptic regulation in the cortex and basal ganglia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations likely have a loss-of-function effect and result in synaptic deregulation and neuronal hyperexcitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic deregulation and neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations likely have a loss-of-function effect and result in synaptic deregulation and neuronal hyperexcitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

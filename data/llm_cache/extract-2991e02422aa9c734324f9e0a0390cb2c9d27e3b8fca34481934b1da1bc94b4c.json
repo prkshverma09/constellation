@@ -1,0 +1,66 @@
+{
+  "pmid": "39923323",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter 1 (GAT-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA transporter 1 (GAT-1)- encoding SLC6A1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Haploinsufficient deletions of GABA transporter 1 (GAT-1)- encoding SLC6A1, and GABA transporter 3 (GAT-3)-encoding SLC6A11 are implicated in epileptic syndromes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chromosomal microarray analysis identified a deletion affecting one allele of both SLC6A1 and SLC6A11 in two pediatric patients with 3p- syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reduced GABA uptake and protein expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The haploinsufficient GAT-1 and GAT-3 conditions demonstrated reduced GABA uptake and protein expression, comparable to known SLC6A1 missense variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Haploinsufficiency of SLC6A1 and SLC6A11 contributes to the epileptic phenotypes observed in 3p- syndrome, marking this as the first study to biochemically characterize the functional impact of these deletions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Post-treatment EEGs showed a moderate reduction in epileptiform discharges following PBA administration, and patients exhibited improved motor function.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -3,6 +3,8 @@
   "status": "ok",
   "snapshot_hash": "fixture-2025-02-14",
   "llm_mode": "cached",
+  "llm_available": false,
+  "agent_model": "gpt-5",
   "counts": {
     "nodes": 274,
     "edges": 812

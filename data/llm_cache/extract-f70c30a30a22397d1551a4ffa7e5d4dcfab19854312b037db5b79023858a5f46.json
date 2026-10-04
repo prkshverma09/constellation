@@ -1,0 +1,86 @@
+{
+  "pmid": "38422154",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic GTPase-activating protein (GAP) critical for synaptic plasticity, learning, memory, and cognition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SynGAP is an abundant synaptic GTPase-activating protein (GAP) critical for synaptic plasticity, learning, memory, and cognition.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 in humans result in intellectual disability, autistic-like behaviors, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autistic-like behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 in humans result in intellectual disability, autistic-like behaviors, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 in humans result in intellectual disability, autistic-like behaviors, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "heterozygous Syngap1-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous Syngap1-knockout mice display deficits in synaptic plasticity, learning, and memory and exhibit seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "inactivating mutations within the GAP domain do not inhibit synaptic plasticity or cause behavioral deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "competes with the AMPA-receptor-TARP excitatory receptor complex to form molecular condensates with synaptic scaffolding proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SynGAP modulates synaptic strength by physically competing with the AMPA-receptor-TARP excitatory receptor complex in the formation of molecular condensates with synaptic scaffolding proteins.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "therapeutic treatments for SYNGAP1-related neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These results have major implications for developing therapeutic treatments for SYNGAP1-related neurodevelopmental disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "31302675",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "single-gene epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 was the most common single-gene epilepsy with an incidence of 1 per 9970 live births (10.0/100 000; 95% confidence interval 5.26-14.8)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

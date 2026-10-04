@@ -1,0 +1,36 @@
+{
+  "pmid": "41223896",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "cell death-related mechanisms and vulnerability to ischemic injury",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Elevated Syngap1, Ikbkb, and Rock1 expression across glutamatergic subclusters suggested roles in cell death-related mechanisms and vulnerability to ischemic injury.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "dissociation from PSD-95 may enhance ERK1/2 phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dissociation of SynGAP1 from PSD-95 after ischemia may enhance ERK1/2 phosphorylation",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "activation of Syngap1 and the CREB pathway post-ischemia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Immunohistochemistry confirmed Syngap1 and cAMP response element-binding (CREB) pathway activation at 3 and 14 days post-ischemia",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

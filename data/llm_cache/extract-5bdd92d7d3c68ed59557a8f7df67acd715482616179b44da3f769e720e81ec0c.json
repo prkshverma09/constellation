@@ -1,0 +1,16 @@
+{
+  "pmid": "40943684",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "specific therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with pathogenic variants in other genes, such as ADCY5 and SLC2A1, may benefit from specific therapies that can potentially change their clinical course and prognosis.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

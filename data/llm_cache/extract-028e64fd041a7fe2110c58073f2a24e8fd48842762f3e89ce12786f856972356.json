@@ -1,0 +1,126 @@
+{
+  "pmid": "39153472",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "major neuronal G protein Gαo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gene encoding the major neuronal G protein Gαo",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "pediatric encephalopathies and other neurological deficiencies largely refractory to available therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cause pediatric encephalopathies and other neurological deficiencies largely refractory to available therapies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "restore guanosine triphosphate hydrolysis and cellular interactions of pathogenic Gαo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zn2+ emerged to restore guanosine triphosphate hydrolysis and cellular interactions of pathogenic Gαo",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "dietary zinc salt supplementation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dietary zinc salt supplementation improves lifespan and motoric function in a Drosophila disease model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "zinc acetate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we provide support for the patient stratification and application of zinc acetate in GNAO1-associated disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16 different pathogenic missense variants cluster in three distinct groups in their responsiveness to Zn2+",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "mouse disease model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we provide the safety study in a mouse disease model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "oral 50 mg zinc (zinc acetate) daily",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "treatment of a 3-year-old patient with the common pathogenic GNAO1 variant c607G>A, p.Gly203Arg with oral 50 mg zinc (in the form of zinc acetate) daily, as applied in Wilson's disease",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "cessation of daily dyskinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cessation of daily dyskinetic crises",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "improved Burke-Fahn Marsden Dystonia Rating Scale movement score",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "improved Burke-Fahn Marsden Dystonia Rating Scale movement score",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "reduction in epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduction in epileptic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "excellent safety profile",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an excellent safety profile",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

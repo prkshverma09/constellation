@@ -1,0 +1,16 @@
+{
+  "pmid": "40768634",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "biomarker for diagnosis and pathogenesis of Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Emerging biomarkers, including neurofilament light chain (NfL), neurogranin (Ng), Beta-site APP cleaving enzyme 1 (BACE1), synaptosome associated protein 25 (SNAP-25), as well as inflammation-related and gene-related factors, provided valuable insights into the diagnosis and pathogenesis of AD from diverse perspectives.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

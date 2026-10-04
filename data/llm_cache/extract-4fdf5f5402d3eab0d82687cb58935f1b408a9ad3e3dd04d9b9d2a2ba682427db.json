@@ -1,0 +1,16 @@
+{
+  "pmid": "35886038",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "the reported phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four additional plausible variants of unknown significance in SCN2A, SCN9A, and SLC2A1 correlated with the reported phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

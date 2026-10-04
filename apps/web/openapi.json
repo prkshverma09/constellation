@@ -525,6 +525,22 @@
             ],
             "title": "Persona",
             "default": "maria"
+          },
+          "vs": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Vs"
+          },
+          "regenerate": {
+            "type": "boolean",
+            "title": "Regenerate",
+            "default": false
           }
         },
         "type": "object",

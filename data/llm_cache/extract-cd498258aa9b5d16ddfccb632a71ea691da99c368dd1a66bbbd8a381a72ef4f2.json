@@ -1,0 +1,46 @@
+{
+  "pmid": "40344058",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "Prrt2-mutant mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an animal model of paroxysmal dystonia harboring a mutation in the proline-rich transmembrane protein 2 (Prrt2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "sustained calcium activity elevation in DCN IO-projecting neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We observed sustained calcium activity elevation across glutamatergic, glycinergic, and GABAergic inferior olive (IO)-projecting neurons within the DCN during episodes of dystonia in Prrt2-mutant mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "aberrant activation of DCN glutamatergic neurons mediates cerebellar-originated dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Collectively, our findings highlight the pivotal role of aberrant activation of DCN glutamatergic neurons in the neuropathological mechanisms underlying cerebellar-originated dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "selective ablation of DCN glutamatergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Selective ablation of DCN glutamatergic neurons effectively eliminated aberrant cerebellar DCN outputs and alleviated dystonia attacks in both Prrt2-associated and kainic acid-induced dystonia mouse models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

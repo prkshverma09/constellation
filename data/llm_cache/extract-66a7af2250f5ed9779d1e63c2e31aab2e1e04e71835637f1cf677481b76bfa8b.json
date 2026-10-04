@@ -1,0 +1,176 @@
+{
+  "pmid": "32336483",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "axial hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting five heterozygous de novo variants in VAMP2 in unrelated individuals with a neurodevelopmental disorder characterized by axial hypotonia, intellectual disability, and autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting five heterozygous de novo variants in VAMP2 in unrelated individuals with a neurodevelopmental disorder characterized by axial hypotonia, intellectual disability, and autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting five heterozygous de novo variants in VAMP2 in unrelated individuals with a neurodevelopmental disorder characterized by axial hypotonia, intellectual disability, and autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 4 months of age he showed hypotonia and no visual pursuit and fixation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "no visual pursuit and fixation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 4 months of age he showed hypotonia and no visual pursuit and fixation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He presented with infantile spasms at 6 months",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "hypsarrhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electroencephalography (EEG) showed hypsarrhythmia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "adrenocorticotropic hormone therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His infantile spasms completely disappeared by adrenocorticotropic hormone therapy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "non-verbal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 2 years of age he was non-verbal, had an absence of purposeful hand movements, and no visual fixation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "absence of purposeful hand movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 2 years of age he was non-verbal, had an absence of purposeful hand movements, and no visual fixation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "no visual fixation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 2 years of age he was non-verbal, had an absence of purposeful hand movements, and no visual fixation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "somnolence tendency in the daytime",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He had somnolence tendency in the daytime.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "slight brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Magnetic resonance imaging showed slight brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 2 years and 7 months of age, he suffered from myoclonic seizures of the eyelid and tongue, which propagated to unilateral fingers, and sometimes to the bilateral legs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At 8 years of age hyperkinetic movement occurred.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a heterozygous missense variant, NM_014232.2:c.199G>C,[p.(Ala67Pro)] in exon 3 of VAMP2 which was a de novo non-synonymous variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "Hypotonia at early infancy, poor visual fixation, and absence of purposeful hand movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hypotonia at early infancy, poor visual fixation, and absence of purposeful hand movements may be indicative of the diagnosis for VAMP2 variant.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

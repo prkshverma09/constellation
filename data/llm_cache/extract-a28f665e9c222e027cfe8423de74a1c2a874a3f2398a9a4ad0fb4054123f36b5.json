@@ -1,0 +1,36 @@
+{
+  "pmid": "38440111",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual development was significantly delayed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Her intellectual development was significantly delayed, and a novel pathogenic mutation in the SMC1A gene, c.298+2T>C, was detected.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel pathogenic mutation in the SMC1A gene, c.298+2T>C, was detected. She was diagnosed with developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "frequent spontaneous and drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This patient did not exhibit bathing seizures after stopping her bathing but later experienced frequent spontaneous and drug-resistant seizures. The interictal EEG background slowed down, while focal epileptic discharge increased. Her intellectual development was significantly delayed, and a novel pathogenic mutation in the SMC1A gene, c.298+2T>C, was detected.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

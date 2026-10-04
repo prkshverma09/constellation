@@ -1,0 +1,56 @@
+{
+  "pmid": "38325331",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "differentiating AD dementia from controls (high discriminatory accuracy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP-25, 14-3-3 zeta/delta, β-synuclein, and neurogranin exhibited the highest discriminatory accuracy in differentiating AD dementia from controls (areas under the curve = 0.81-0.93).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "association with tau-PET, amyloid-β-PET and cortical thickness and longitudinal changes in these imaging biomarkers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP-25 and 14-3-3 zeta/delta also had the strongest associations with tau-PET, amyloid-β-PET and cortical thickness at baseline and were associated with longitudinal changes in these imaging biomarkers [β(standard error, SE) = -0.056(0.0006) to 0.058(0.005), P < 0.0001].",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "predictor of progression to AD dementia in non-demented individuals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP-25 was the strongest predictor of progression to AD dementia in non-demented individuals (hazard ratio = 2.11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "ratio of SNAP-25 over NPTX2 improves associations with cognitive decline and brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "utilizing a ratio of the proteins that displayed higher levels in AD, such as SNAP-25 or 14-3-3 zeta/delta, over NPTX2 improved the biomarkers' associations with cognitive decline and brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "ratios of SNAP-25/NPTX2 best predict cognitive decline and brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cognitive decline and brain atrophy were best predicted by ratios of SNAP-25/NPTX2 and 14-3-3 zeta/delta/NPTX2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

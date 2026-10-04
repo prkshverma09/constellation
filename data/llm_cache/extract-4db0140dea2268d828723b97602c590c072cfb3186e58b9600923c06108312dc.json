@@ -1,0 +1,36 @@
+{
+  "pmid": "39171993",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disorders caused by gain-of-function mutations in the GRIN1, -2A, -2B, or -2D genes;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "radiprodil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil, a selective negative allosteric modulator of NR2B subunit-containing N-methyl-D-aspartate glutamate receptors, in development for the treatment of seizures and behavior manifestations associated with disorders caused by gain-of-function mutations in the GRIN1, -2A, -2B, or -2D genes;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "seizures and behavior manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures and behavior manifestations associated with disorders caused by gain-of-function mutations in the GRIN1, -2A, -2B, or -2D genes;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

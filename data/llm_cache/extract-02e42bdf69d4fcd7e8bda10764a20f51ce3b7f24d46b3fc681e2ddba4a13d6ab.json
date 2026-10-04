@@ -1,0 +1,16 @@
+{
+  "pmid": "41352652",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "hyperprolactinemia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polymorphisms in GRIN2A and GRIN2B, encoding NMDA glutamate receptor subunits, modify the neuroendocrine consequences of dopamine receptor inhibition.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

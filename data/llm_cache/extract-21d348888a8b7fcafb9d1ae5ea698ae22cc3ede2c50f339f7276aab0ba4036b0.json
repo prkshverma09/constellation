@@ -1,0 +1,26 @@
+{
+  "pmid": "39751855",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "ferroptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified differentially expressed ferroptosis-related genes in the hippocampus following exercise intervention. Hub genes like SLC2A1, TXN, MEF2C, and KRAS were significantly upregulated",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "antioxidant defenses and regulating iron metabolism via Nrf2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hub genes like SLC2A1, TXN, MEF2C, and KRAS were significantly upregulated, suggesting that exercise may activate a network enhancing antioxidant defenses and regulating iron metabolism via Nrf2.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

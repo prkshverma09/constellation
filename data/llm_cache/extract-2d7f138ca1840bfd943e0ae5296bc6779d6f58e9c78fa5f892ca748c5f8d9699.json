@@ -1,0 +1,26 @@
+{
+  "pmid": "32168371",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "de novo variant associated monogenic disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo variant associated monogenic disorders for which epidemiological estimates were available (SCN1A, SLC2A1, SALL1, TBX5, KCNQ2, and CDKL5)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "predicted incidence estimates matched reported epidemiological estimates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Second, for six of seven (86%) de novo variant associated monogenic disorders for which epidemiological estimates were available (SCN1A, SLC2A1, SALL1, TBX5, KCNQ2, and CDKL5), the predicted incidence estimates matched the reported estimates.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

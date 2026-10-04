@@ -1,0 +1,146 @@
+{
+  "pmid": "33961861",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "variable epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variable epilepsy syndromes",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability (ID)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic astatic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder (ADHD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attention deficit hyperactivity disorder (ADHD)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ID",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Next-generation sequencing identified a missense mutation in the SLC6A1 gene (c.373G > A(p.Val125Met)) in the sisters",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "destabilizes the global protein conformation and reduces transporter protein expression at total and cell surface",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GAT-1(Val125Met) mutation destabilizes the global protein conformation and reduces transporter protein expression at total and cell surface.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "localized intracellularly inside the endoplasmic reticulum (ER) in both HEK293T cells and astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mutant transporter protein was localized intracellularly inside the endoplasmic reticulum (ER) in both HEK293T cells and astrocytes which may directly contribute to seizures in patients.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "high-throughput 3H radio-labeled GABA uptake assays in mouse astrocytes and neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high-throughput 3H radio-labeled GABA uptake assays in mouse astrocytes and neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "HEK293T cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HEK293T cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Radioactive 3H-labeled GABA uptake assay indicated the mutation reduced the function of the mutant GAT-1(Val125Met) to ~30% of the wildtype.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure phenotypes, ADHD, and impaired cognition are likely caused by a partial loss-of-function of GAT-1 due to protein destabilization resulting from the mutation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "Reduced GAT-1 function in astrocytes and neurons may consequently alter brain network activities such as increased seizures and reduced attention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced GAT-1 function in astrocytes and neurons may consequently alter brain network activities such as increased seizures and reduced attention.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

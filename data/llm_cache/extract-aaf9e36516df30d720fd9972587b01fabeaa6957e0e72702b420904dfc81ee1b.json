@@ -1,0 +1,86 @@
+{
+  "pmid": "40485335",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "clearance of GABA from the synaptic cleft",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "plays a pivotal role in synaptic neurotransmission by facilitating the clearance of GABA from the synaptic cleft",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, autism spectrum disorder, intellectual disability, developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic mutations in the SLC6A1 gene encoding hGAT-1 have been implicated in a spectrum of neurodevelopmental disorders, including epilepsy, autism spectrum disorder, intellectual disability, and developmental delay",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "substitutions of G443 to aspartate (G443D) or valine (G443V) result in complete abolishment of GABA transport",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "disruptions in protein folding and trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This severe impairment stems from distinct disruptions in protein folding and trafficking",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Drosophila melanogaster",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vivo studies in Drosophila melanogaster",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "retention in the endoplasmic reticulum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "G443V is fully retained in the endoplasmic reticulum (ER)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "partial trafficking to the plasma membrane with reduced expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The G443D variant, on the other hand, exhibits partial trafficking to the plasma membrane, confirmed by the presence of maturely glycosylated bands, albeit at significantly reduced expression levels relative to the wild type transporter",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "glycerol and 4-phenylbutyrate (4-PBA) rescue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with glycerol and 4-phenylbutyrate (4-PBA) successfully restored both surface expression and GABA uptake activity of the G443 mutants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

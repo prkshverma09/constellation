@@ -1,0 +1,16 @@
+{
+  "pmid": "26060908",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first decade of the 21st century was marked by progress in understanding the basic biology of generalized epilepsies including generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE through studies of large families, discovering causative mutations in SCN1A, SCN1B, GABRG2, and GABRA1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

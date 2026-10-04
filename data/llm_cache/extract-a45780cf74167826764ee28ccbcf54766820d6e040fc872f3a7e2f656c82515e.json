@@ -1,0 +1,16 @@
+{
+  "pmid": "37008993",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EA may also be caused by gene mutations associated with chronic ataxias (SCA-14, SCA-27, SCA-42, AOA2, CAPOS), epilepsy syndromes (KCNA2, SCN2A, PRRT2)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

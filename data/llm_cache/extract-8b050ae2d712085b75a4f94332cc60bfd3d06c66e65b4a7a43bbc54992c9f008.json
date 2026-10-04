@@ -1,0 +1,126 @@
+{
+  "pmid": "36287100",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function variants in SCN1A cause Dravet syndrome, the most common genetic developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "emerging evidence suggests separate entities of SCN1A-related disorders due to gain-of-function variants.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electrophysiological analysis showed a mixed gain-of-function effect with normal current density, a leftward (hyperpolarized) shift of steady-state inactivation, and slower inactivation kinetics leading to a prominent late sodium current.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional consequences of this variant lead to mixed loss and gain of function that is partially corrected by oxcarbazepine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "a leftward (hyperpolarized) shift of steady-state inactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a leftward (hyperpolarized) shift of steady-state inactivation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "slower inactivation kinetics leading to a prominent late sodium current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "slower inactivation kinetics leading to a prominent late sodium current",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both wild type and variant exhibited sensitivity to block by oxcarbazepine, partially correcting electrophysiological abnormalities of the SCN1A p.R1636Q variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinically, a single individual responded to treatment with oxcarbazepine.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "early onset DEE characterized by focal tonic seizures and additional seizure types starting in the first few weeks of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All four individuals had an early onset DEE characterized by focal tonic seizures and additional seizure types starting in the first few weeks of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "neonatal onset epilepsy and absence of prominent movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The recurrent SCN1A p.R1636Q variant causes a clinical entity with a wider clinical spectrum than previously reported, characterized by neonatal onset epilepsy and absence of prominent movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earliest ages at onset among SCN1A-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Across 51 individuals with SCN1A-related epilepsies, those with the recurrent p.R1636Q variants had the earliest ages at onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "one of the most common causes of early onset SCN1A-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The recurrent p.R1636Q variant represents one of the most common causes of early onset SCN1A-related epilepsies with separate treatment and prognosis implications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

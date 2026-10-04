@@ -1,0 +1,66 @@
+{
+  "pmid": "40609285",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "can transport glucose from blood to the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transmembrane protein Glut1, encoded by the SLC2A1 gene, can transport glucose from blood to the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic testing identified two missense mutations in SLC2A1 in these families",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with missense mutations exhibited a later onset than those with truncated mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "mutations in transmembrane segments 3, 4, 5, 7, and 8 and the intracellular domain are more frequent in PED",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in certain regions of the Glut1 protein, particularly in transmembrane segments 3, 4, 5, 7, and 8, together with the intracellular domain, were more frequently seen in PED.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the various types of epilepsy, absence seizures were the most common in patients with PED.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "later onset and higher cerebrospinal fluid/blood glucose ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial PED had a later onset and a higher cerebrospinal fluid/blood glucose ratio.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

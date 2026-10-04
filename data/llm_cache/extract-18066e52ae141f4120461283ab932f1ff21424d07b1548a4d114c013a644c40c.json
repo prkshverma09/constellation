@@ -1,0 +1,76 @@
+{
+  "pmid": "33107105",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the alpha-O1 subunit of guanine nucleotide-binding protein (GαO )",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 is a DEE-associated gene encoding the alpha-O1 subunit of guanine nucleotide-binding protein (GαO ).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "SPTAN1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "co-immunoprecipitation and mass spectrometry analyses identified another DEE-associated protein, SPTAN1, as an interacting partner of GαO .",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "neurite outgrowth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Silencing of endogenous Gnao1 attenuated the neurite outgrowth and calcium-dependent signaling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "calcium-dependent signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Silencing of endogenous Gnao1 attenuated the neurite outgrowth and calcium-dependent signaling.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "anomalous brain organoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inactivation of GNAO1 in human-induced pluripotent stem cells gave rise to anomalous brain organoids",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "weak expression of SPTAN1 and Ankyrin-G",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inactivation of GNAO1 in human-induced pluripotent stem cells gave rise to anomalous brain organoids that only weakly expressed SPTAN1 and Ankyrin-G.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "synchronized firing to adjacent neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-deficient organoids failed to conduct synchronized firing to adjacent neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

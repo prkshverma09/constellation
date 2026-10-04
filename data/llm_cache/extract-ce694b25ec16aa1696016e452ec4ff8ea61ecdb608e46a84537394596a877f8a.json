@@ -1,0 +1,26 @@
+{
+  "pmid": "35863867",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "site-specific RNA editing to recode open reading frames",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ADAR2 proteins involved in the efficient, highly site-specific RNA editing to recode open reading frames first discovered in the GRIA2 transcript",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "encodes the key GLUA2 subunit of AMPA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIA2 transcript encoding the key GLUA2 subunit of AMPA receptors",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

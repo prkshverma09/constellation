@@ -1,0 +1,176 @@
+{
+  "pmid": "38421079",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "SMC1A epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A epilepsy syndrome or developmental and epileptic encephalopathy-85 with or without midline brain defects (DEE85, OMIM #301044) is an X-linked neurologic disorder associated with mutations of the SMC1A gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "responsible for about 5% of patients affected by Cornelia de Lange syndrome spectrum (CdLS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "female patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only described in female patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe refractory epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "onset of severe refractory epileptic seizures in the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a variable degree of intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic facial features not typical of CdLS",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postnatal microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "neonatal seizures and respiratory compromise",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neonatal problems (seizures and respiratory compromise) is considerable (51.4%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "central nervous system malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant prevalence of central nervous system (20%) and cardiovascular malformations (20%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "cardiovascular malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant prevalence of central nervous system (20%) and cardiovascular malformations (20%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "motor delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor skills are generally delayed",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The presence of drug-resistant epilepsy is confirmed",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the therapeutic role of a ketogenic diet is still uncertain",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "regression of previously acquired skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant regression of previously acquired skills following the onset of seizures has been observed",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more than two-thirds of whom were shown to progress to developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants caused drug-resistant epilepsy in these patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

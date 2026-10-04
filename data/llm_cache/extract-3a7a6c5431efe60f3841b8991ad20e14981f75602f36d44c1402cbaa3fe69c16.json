@@ -1,0 +1,96 @@
+{
+  "pmid": "26752331",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cohesin complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A (structural maintenance of chromosomes 1A), encoding part of the cohesin complex,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo missense mutations and in-frame coding deletions in the X-linked gene SMC1A (structural maintenance of chromosomes 1A), encoding part of the cohesin complex, are known to cause Cornelia de Lange syndrome in both males and females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For a long time, loss-of-function (LoF) mutations in SMC1A were considered incompatible with life, as such mutations had not been reported in neither male nor female patients. However, recently, the authors and others reported LoF mutations in females with intellectual disability (ID) and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo missense mutations and in-frame coding deletions in the X-linked gene SMC1A (structural maintenance of chromosomes 1A), encoding part of the cohesin complex, are known to cause Cornelia de Lange syndrome in both males and females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining our patients with the other recently reported females carrying SMC1A LoF mutations, we ascertained a phenotypic spectrum of (severe) ID, therapy-resistant epilepsy, absence/delay of speech, hypotonia and small hands and feet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "therapy-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining our patients with the other recently reported females carrying SMC1A LoF mutations, we ascertained a phenotypic spectrum of (severe) ID, therapy-resistant epilepsy, absence/delay of speech, hypotonia and small hands and feet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "absence/delay of speech",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining our patients with the other recently reported females carrying SMC1A LoF mutations, we ascertained a phenotypic spectrum of (severe) ID, therapy-resistant epilepsy, absence/delay of speech, hypotonia and small hands and feet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining our patients with the other recently reported females carrying SMC1A LoF mutations, we ascertained a phenotypic spectrum of (severe) ID, therapy-resistant epilepsy, absence/delay of speech, hypotonia and small hands and feet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "small hands and feet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By combining our patients with the other recently reported females carrying SMC1A LoF mutations, we ascertained a phenotypic spectrum of (severe) ID, therapy-resistant epilepsy, absence/delay of speech, hypotonia and small hands and feet.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

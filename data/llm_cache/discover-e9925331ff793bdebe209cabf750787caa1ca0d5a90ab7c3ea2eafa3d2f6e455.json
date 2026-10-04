@@ -1,0 +1,32 @@
+{
+  "symbol": "SNAP25",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:42:51.144439+00:00",
+  "usage": {
+    "input_tokens": 80861,
+    "output_tokens": 6830
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "Snap25 Foundation",
+        "url": "https://snap25.org/about-snap25",
+        "kind": "foundation",
+        "snippet": "SNAP25 is a gene located on the 20th Chromosome."
+      },
+      {
+        "name": "SNAP25 Data Collection Program (RARE‑X)",
+        "url": "https://snap25.org/rare-x",
+        "kind": "registry",
+        "snippet": "The SNAP25 community is partnering with RARE-X, a program of Global Genes, to build a Data Collection Program for SNAP25 families."
+      },
+      {
+        "name": "Simons Searchlight – SNAP25",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/snap25/",
+        "kind": "research_network",
+        "snippet": "SNAP25-related syndrome happens when there are changes in the SNAP25 gene."
+      }
+    ]
+  }
+}

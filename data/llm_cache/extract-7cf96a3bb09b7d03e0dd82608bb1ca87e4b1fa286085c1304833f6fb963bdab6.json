@@ -1,0 +1,16 @@
+{
+  "pmid": "36848747",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only one VOI, a missense variant in NPRL3, found in 1/96 (1.1%) patients, was classified as a variant of unknown significance.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

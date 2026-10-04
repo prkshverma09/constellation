@@ -1,0 +1,36 @@
+{
+  "pmid": "35773312",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "PANS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Candidate mutations were found in 11 genes (PPM1D, SGCE, PLCG2, NLRC4, CACNA1B, SHANK3, CHK2, GRIN2A, RAG1, GABRG2, and SYNGAP1) in 21 cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "expressed primarily at neuronal synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other is expressed primarily at neuronal synapses (SHANK3, SYNGAP1, GRIN2A, GABRG2, CACNA1B, SGCE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder and myoclonus-dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in these neuronal genes are also described in autism spectrum disorder and myoclonus-dystonia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

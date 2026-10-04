@@ -1,0 +1,116 @@
+{
+  "pmid": "25557349",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recessive mutations in the TBC1D24 gene cause a variety of epilepsy syndromes",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DOORS syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "nonsyndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nonsyndromic deafness",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two siblings with hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "clonic and myoclonic jerks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patients presented with clonic and myoclonic jerks within 1 h after birth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures resistant to treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizures were resistant to treatment.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "bilateral sensorineural hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Audiologic examination showed bilateral sensorineural hearing loss in both siblings.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel missense mutation c.32A > G (p.Asp11Gly) in exon 2",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy with sensorineural hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In fact, early-onset epileptic encephalopathy with sensorineural hearing loss is an additional phenotype observed in patients with recessive TBC1D24 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

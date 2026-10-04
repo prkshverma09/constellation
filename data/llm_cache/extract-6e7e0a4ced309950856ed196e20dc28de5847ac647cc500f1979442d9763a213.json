@@ -1,0 +1,76 @@
+{
+  "pmid": "37407264",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in STXBP1 are among the major genetic causes of neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "absence of epilepsy (25% of individuals)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was absent in 18/71 (25%) of individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "able to walk unassisted",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-nine of 61 individuals (48%) were able to walk unassisted",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "able to speak single words",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "24/69 (35%) were able to speak single words.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "lower GMFCS scores in individuals without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals without epilepsy presented with a similar onset and spectrum of phenotypic features but had lower GMFCS scores (median 3 vs 4, p < 0.01) than individuals with epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "less likely to walk unassisted with epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with epileptic spasms were less likely to walk unassisted than individuals with other seizure types (6% vs 58%, p < 0.01).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "higher speech impairment scores with early epilepsy onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with early epilepsy onset had higher speech impairment scores (p = 0.02) than individuals with later epilepsy onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

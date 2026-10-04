@@ -1,0 +1,16 @@
+{
+  "pmid": "40543030",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "component of the GATOR1 complex (GAP activity toward Rags1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous germline variants in genes encoding components of the GAP activity toward Rags 1 (GATOR1) complex (DEPDC5, NPRL2, and NPRL3) have been frequently identified in these cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "27798188",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transgenic mice harboring human KCNB1 wild-type (Tg-WT) or a nonoxidable C73A mutant (Tg-C73A) in cortex and hippocampus",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "oxidation of KCNB1 channels is a contributing mechanism to cellular and behavioral deficits in vertebrates",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "typical lesions of brain injury, namely, inflammation (astrocytosis), neurodegeneration, and cell death, were markedly reduced in Tg-C73A and dasatinib-treated non-Tg animals",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a Food and Drug Administration-approved drug ameliorates the outcome of TBI in mouse, by directly impinging on the toxic pathway activated in response to oxidation of the KCNB1 channel",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

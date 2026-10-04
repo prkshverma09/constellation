@@ -1,0 +1,116 @@
+{
+  "pmid": "40119723",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a genetic neurodevelopmental disorder characterized by generalized epilepsy, autism, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a genetic neurodevelopmental disorder characterized by generalized epilepsy, autism, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral abnormalities (odds ratio [OR]: 12.35, 95% CI: 9.21-16.78)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generalized-onset seizures (OR: 1.56, 95% CI: 1.20-2.02)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism (OR: 12.23, 95% CI: 9.29-16.24)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "prominent deficits in verbal skill acquisition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a developmental profile with prominent deficits in verbal skill acquisition.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autistic behavior emerging between 27 and 30 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a more than 5-fold risk of autistic behavior emerging between 27 and 30 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased generalized-onset seizures after 3 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Generalized-onset seizures were significantly increased (OR: 4.05, 95% CI: 2.02-7.59) after 3 years of age and persisted over time.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "Valproic acid and clobazam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproic acid and clobazam were commonly used for epilepsy treatment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "risperidone, aripiprazole, and guanfacine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "risperidone, aripiprazole, and guanfacine were commonly used for behavior management.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "Valproate and lamotrigine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate and lamotrigine were more effective at reducing seizure frequencies or maintaining seizure freedom than other antiseizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

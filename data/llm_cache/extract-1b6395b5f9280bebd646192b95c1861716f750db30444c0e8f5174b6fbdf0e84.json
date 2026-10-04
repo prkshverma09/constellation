@@ -1,0 +1,26 @@
+{
+  "pmid": "40830973",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "human epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the SCN8A gene can cause human epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "disease mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disease mechanisms and best practices for management of SCN8A-related disorders (SCN8A-RD) remain incompletely understood",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

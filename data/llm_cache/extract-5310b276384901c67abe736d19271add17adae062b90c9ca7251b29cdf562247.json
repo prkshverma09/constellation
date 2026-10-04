@@ -1,0 +1,106 @@
+{
+  "pmid": "32858780",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "familial, fever-associated epilepsy syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo heterozygous mutations in the STX1B gene, encoding syntaxin 1B, cause a familial, fever-associated epilepsy syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "regulates the exocytosis of synaptic vesicles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syntaxin 1B is an essential component of the pre-synaptic neurotransmitter release machinery as a soluble N-ethylmaleimide-sensitive factor attachment protein receptor protein that regulates the exocytosis of synaptic vesicles.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "regulating the functions of the SLC6 family of neurotransmitter transporters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is also involved in regulating the functions of the SLC6 family of neurotransmitter transporters that reuptake neurotransmitters, including inhibitory neurotransmitters, such as γ-aminobutyric acid (GABA) and glycine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The purpose of the present study was to elucidate the molecular mechanisms underlying the development of febrile seizures by examining the effects of syntaxin 1B haploinsufficiency on inhibitory synaptic transmission during hyperthermia in a mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "Stx1b+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stx1b gene heterozygous knockout (Stx1b+/- ) mice showed increased susceptibility to febrile seizures and drug-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures and drug-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stx1b gene heterozygous knockout (Stx1b+/- ) mice showed increased susceptibility to febrile seizures and drug-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The rate of spontaneous quantal GABA release was reduced in Stx1b+/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "absence of hyperthermia-induced increase in tonic GABAA current in Stx1b+/- synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The hyperthermic temperature increased the tonic GABAA current in wild-type (WT) synapses, but not in Stx1b+/- synapses.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "therapy",
+      "object_text": "blockade of GAT-1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The blockade of GAT-1 increased the tonic GABAA current and suppressed recurrent bursting activities in Stx1b+/- neurons at the hyperthermic temperature.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "functional abnormalities associated with GABA release and reuptake may increase circuit excitability with hyperthermia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data suggest that functional abnormalities associated with GABA release and reuptake in the pre-synaptic terminals of GABAergic neurons may increase the excitability of the neural circuit with hyperthermia.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

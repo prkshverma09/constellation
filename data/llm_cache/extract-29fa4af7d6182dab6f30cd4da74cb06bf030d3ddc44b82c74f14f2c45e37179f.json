@@ -1,0 +1,26 @@
+{
+  "pmid": "35396579",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The associations of the NMDA (N-methyl-D-aspartate) receptor subunit GRIN2A and AMPA (α-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid) receptor subunit GRIA3 provide support for dysfunction of the glutamatergic system as a mechanistic hypothesis in the pathogenesis of schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "dysfunction of the glutamatergic system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The associations of the NMDA (N-methyl-D-aspartate) receptor subunit GRIN2A and AMPA (α-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid) receptor subunit GRIA3 provide support for dysfunction of the glutamatergic system as a mechanistic hypothesis in the pathogenesis of schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

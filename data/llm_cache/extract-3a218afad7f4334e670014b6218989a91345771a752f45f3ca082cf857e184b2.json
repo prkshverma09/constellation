@@ -1,0 +1,26 @@
+{
+  "pmid": "31580306",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy such as ARX and GNAO1 genetic variants",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "status dystonicus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic predisposition included: primary dystonias particularly in the case of TOR1A mutation; epileptic encephalopathy such as ARX and GNAO1 genetic variants and neurodegenerative disorders as PANK2.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

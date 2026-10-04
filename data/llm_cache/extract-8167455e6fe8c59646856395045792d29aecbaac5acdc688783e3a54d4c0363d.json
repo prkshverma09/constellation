@@ -1,0 +1,106 @@
+{
+  "pmid": "41981306",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1-related epileptic encephalopathy, including epilepsy of infancy with migrating focal seizures, is a severe neurodevelopmental disorder associated with refractory seizures, profound neurologic impairment and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1-related epileptic encephalopathy, including epilepsy of infancy with migrating focal seizures, is a severe neurodevelopmental disorder associated with refractory seizures, profound neurologic impairment and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "profound neurologic impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1-related epileptic encephalopathy, including epilepsy of infancy with migrating focal seizures, is a severe neurodevelopmental disorder associated with refractory seizures, profound neurologic impairment and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "premature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1-related epileptic encephalopathy, including epilepsy of infancy with migrating focal seizures, is a severe neurodevelopmental disorder associated with refractory seizures, profound neurologic impairment and premature death.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-gated potassium channel that modulates neuronal firing patterns and excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slack, an evolutionarily conserved sodium-gated potassium channel that modulates neuronal firing patterns and excitability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic KCNT1 variants lead to overactive Slack channels",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "boosting total neuronal potassium currents by up to 40%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "boosting total neuronal potassium currents by up to 40%",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "driving cortical hyperexcitability and causing seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotide-mediated KCNT1 knockdown",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intrathecal delivery of an experimental, non-allele-specific, KCNT1-targeting antisense oligonucleotide by lumbar puncture in two 2-year-old females with KCNT1 p.R474H, a severe, recurrent pathogenic variant, led to a significant reduction in seizure frequency and intensity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ventricular enlargement or hydrocephalus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "was also associated with the development of ventricular enlargement or hydrocephalus in both patients",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

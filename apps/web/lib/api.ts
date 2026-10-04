@@ -76,14 +76,18 @@ export type CoverageResponse = {
   what_would_change: { layer: string; text: string; edge_ids: string[] }[];
 };
 export type Dossier = {
-  disease_id: string; persona: Persona; mode: "live" | "cached" | "offline"; snapshot_hash: string; trace_id: string; generated_at: string;
+  disease_id: string; persona: Persona; mode: "live" | "cached" | "cached-llm" | "offline" | "offline-fallback"; snapshot_hash: string; trace_id: string; generated_at: string;
   sections: { key: "who_shares" | "what_exists" | "what_differs" | "who_to_contact" | "next_step" | "coverage"; title: string; sentences: Sentence[] }[];
   dropped_sentences: number;
   gap_plan: { reasons: string[]; what_would_change: { layer: string; text: string; edge_ids: string[] }[] } | null;
   markdown: string;
+  model?: string;
+  elapsed_ms?: number;
+  fallback_sections?: string[];
+  usage?: { input_tokens: number; output_tokens: number };
 };
 export type MechanismSearchResponse = { query: string; clusters: { id: string; label: string; score: number; member_ids: string[]; matched_pathways: { id: string; name: string }[] }[] };
-export type HealthResponse = { status: "ok"; snapshot_hash: string; llm_mode: "live" | "cached" | "offline"; counts: { nodes: number; edges: number } };
+export type HealthResponse = { status: "ok"; snapshot_hash: string; llm_mode: "live" | "cached" | "offline"; llm_available: boolean; agent_model: string; counts: { nodes: number; edges: number } };
 export type ContributeRequest = { url: string; sentence: string; edge_id: string; polarity: "supports" | "contradicts" };
 export type ContributeResponse = LedgerRow;
 export type SearchResponse = { query: string; best: SearchHit | null; results: SearchHit[] };
@@ -114,7 +118,7 @@ export const api = {
   assets: (clusterId: string, diseaseId: string) => base === "mock" ? import("./mock").then((m) => m.mockAssets(clusterId, diseaseId)) : request<AssetsResponse>(`/api/cluster/${encodeURIComponent(clusterId)}/assets?for=${encodeURIComponent(diseaseId)}`),
   bridges: (a: string, b: string) => base === "mock" ? import("./mock").then((m) => m.mockBridges(a, b)) : request<BridgesResponse>(`/api/bridges?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`),
   coverage: (id: string) => base === "mock" ? import("./mock").then((m) => m.mockCoverage(id)) : request<CoverageResponse>(`/api/disease/${encodeURIComponent(id)}/coverage`),
-  dossier: (disease: string, persona: Persona, vs?: string) => base === "mock" ? import("./mock").then((m) => m.mockDossier(disease, persona)) : request<Dossier>("/api/dossier", { method: "POST", body: JSON.stringify({ disease, persona, vs }) }),
+  dossier: (disease: string, persona: Persona, vs?: string, regenerate = false) => base === "mock" ? import("./mock").then((m) => m.mockDossier(disease, persona)) : request<Dossier>("/api/dossier", { method: "POST", body: JSON.stringify({ disease, persona, vs, regenerate }) }),
   mechanismSearch: (q: string) => base === "mock" ? import("./mock").then((m) => m.mockMechanismSearch(q)) : request<MechanismSearchResponse>(`/api/mechanism/search?q=${encodeURIComponent(q)}`),
   contribute: (body: ContributeRequest) => base === "mock" ? import("./mock").then((m) => m.mockContribute(body)) : request<ContributeResponse>("/api/contribute", { method: "POST", body: JSON.stringify(body) }),
   exportKgx: async (): Promise<Blob> => {

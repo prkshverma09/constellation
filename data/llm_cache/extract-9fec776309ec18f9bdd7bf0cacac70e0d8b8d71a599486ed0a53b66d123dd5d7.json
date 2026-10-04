@@ -1,0 +1,86 @@
+{
+  "pmid": "32205311",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a heterozygous de novo missense mutation in the GABRA1 gene (c.875C>T).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "alpha subunit of the gamma-aminobutyric acid receptor A (GABAAR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 encodes the alpha subunit of the gamma-aminobutyric acid receptor A (GABAAR).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "zebrafish model of gabra1 deficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we developed a zebrafish model of gabra1 deficiency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "hypoactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the knockdown of gabra1 results in hypoactivity",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "defects in the expression of other subunits of the GABAAR",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defects in the expression of other subunits of the GABAAR.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression of the c.875C>T variant did not restore these behavioral deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "expression of the human GABRA1 protein in morphants partially restored the hypomotility phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expression of the human GABRA1 protein in morphants partially restored the hypomotility phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "seizure phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient with a multi-system disorder characterized by a seizure phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

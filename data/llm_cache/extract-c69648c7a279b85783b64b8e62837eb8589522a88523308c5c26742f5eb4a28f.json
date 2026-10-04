@@ -1,0 +1,66 @@
+{
+  "pmid": "39331775",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett Syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is caused by pathogenic variants in the MECP2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disease has a characteristic developmental regression",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "impairment of expressive language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in impairment of expressive language, hand skills, and ambulation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "impairment of hand skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in impairment of expressive language, hand skills, and ambulation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "impairment of ambulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in impairment of expressive language, hand skills, and ambulation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "hand stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that is accompanied by hand stereotypies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

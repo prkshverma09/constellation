@@ -1,0 +1,96 @@
+{
+  "pmid": "32572454",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a core component of the N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) complex",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "critical for the exocytosis of synaptic vesicles in the presynapse",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations within the STX1B gene are associated with epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "benign fever-associated seizures in childhood; severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cause epilepsy syndromes of different severity, from benign fever-associated seizures in childhood to severe epileptic encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leads to an unfolded protein unable to sustain neurotransmission",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "strongly compromises the interaction with Munc18-1 and reduces expression of both proteins, the size of the readily releasable pool of vesicles, and Ca2+-triggered neurotransmitter release",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leads to enhanced fusogenicity and increased vesicular release probability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "STX1-null neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1-null neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "excitatory hippocampal STX1B+/- neurons exogenously expressing STX1B mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "excitatory hippocampal STX1B+/- neurons exogenously expressing STX1B mutants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

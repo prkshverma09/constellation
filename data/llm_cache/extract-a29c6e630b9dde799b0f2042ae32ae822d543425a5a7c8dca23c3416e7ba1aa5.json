@@ -1,0 +1,16 @@
+{
+  "pmid": "24319291",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "Hereditary spastic paraparesis (HSP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hereditary spastic paraparesis (HSP) (syn. Hereditary spastic paraplegia, SPG) are a group of genetic disorders characterised by spasticity of the lower limbs due to pyramidal tract dysfunction. Nearly 60 disease loci have been identified, which include mutations in two genes (KIF5A and KIF1A) that encode motor proteins of the kinesin superfamily.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

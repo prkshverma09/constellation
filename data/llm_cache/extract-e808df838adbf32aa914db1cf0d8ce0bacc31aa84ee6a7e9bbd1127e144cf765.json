@@ -1,0 +1,26 @@
+{
+  "pmid": "33818783",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Candidate genetic explanations in this cohort included single nucleotide de novo variants in other epilepsy-associated and neurodevelopmental disease-associated genes (SCN2A in two individuals, GRIA3, CACNA1C)",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest possible roles for SCN2A, GRIA3, CACNA1C, and 15q25 deletion in polymicrogyria, each already associated with epilepsy or other neurodevelopmental conditions without brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

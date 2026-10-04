@@ -1,0 +1,26 @@
+{
+  "pmid": "32979221",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found significant associations between single-nucleotide variants and migraine in 7 genes, SYN1, SYN2, SNAP25, VAMP2, STXBP1, STXBP5, and UNC13A, either conferring an increased risk or protection of migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2-rs1150's G allele revealed a risk association to migraine, not statistically significant after correction (P = .068).",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

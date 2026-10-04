@@ -1,0 +1,46 @@
+{
+  "pmid": "34232384",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deafness and onychodystrophy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in four genes, ATP6V1B2, TBC1D24, KCNH1 and KCNN3, have been shown to be associated with deafness and onychodystrophy syndromes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "GTPase-activating protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 belongs to GTPase-activating protein",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "regulation of membrane trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 belongs to GTPase-activating protein, which are all involved in the regulation of membrane trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "physiological link with ATP6V1B2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The overlapping clinical phenotype of TBC1D24- and ATP6V1B2- related diseases and their function with GTPases or ATPases activity indicate that they may have some physiological link.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "38267766",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "reduction in expression in cerebellum increases probability of Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the reduction in the expression of the APP in auditory cortex and GRIN2B cerebellum had a significant effect in increasing the probability of AD",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "tissue-specific expression change associated with Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A correlation analysis showed a significant effect also tissue-specific AD in APP, GRIN2B, INSR, and LRP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "E4 allele of APOE correlates with tissue-specific change in GRIN2B expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, the E4 allele of the APOE gene revealed a significant correlation with change expression tissue-specific in ABPA2, APP, GRIN2B, LRP1, and INSR genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

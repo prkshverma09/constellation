@@ -1,0 +1,26 @@
+{
+  "pmid": "26800698",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The previous studies have reported the glutamate receptor ionotropic GRIA1 and GRIA3 genes variants associated with migraine.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "However, no evidence was found that GRIA1 (rs548294) or GRIA3 (rs3761555) is associated with migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

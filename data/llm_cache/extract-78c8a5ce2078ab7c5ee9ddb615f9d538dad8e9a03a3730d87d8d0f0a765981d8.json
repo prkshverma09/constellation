@@ -1,0 +1,136 @@
+{
+  "pmid": "39135902",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "alpha subunit of the Kv2.1 voltage gated potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1, on human chromosome 20q13.3, encodes the alpha subunit of the Kv2.1 voltage gated potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "ubiquitously expressed throughout the brain; critical in controlling neuronal excitability, including in the hippocampus and pyramidal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv2.1 is ubiquitously expressed throughout the brain and is critical in controlling neuronal excitability, including in the hippocampus and pyramidal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "global development delay or plateauing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human KCNB1 mutations are known to cause global development delay or plateauing, epilepsy, and behavioral disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human KCNB1 mutations are known to cause global development delay or plateauing, epilepsy, and behavioral disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human KCNB1 mutations are known to cause global development delay or plateauing, epilepsy, and behavioral disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole exome sequencing revealed a heterozygous variant of uncertain significance (c. 342 C>A), p. (S114R) in KCNB1, encoding a serine to arginine substitution (S114R) in the N-terminal cytoplasmic region of Kv2.1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional investigation of Kv2.1-S114R using cellular electrophysiology revealed slowing of channel activation, deactivation, and inactivation, resulting in increased net current after longer membrane depolarizations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features (father carrier)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The siblings' father demonstrated autistic features and was determined to be an obligate KCNB1 c. 342 C>A carrier based on familial genetic testing results.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

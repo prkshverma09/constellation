@@ -1,0 +1,66 @@
+{
+  "pmid": "26818399",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This deletion results in haploinsufficiency of STX1B and other genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our observation of a STX1B deletion in a third patient with MAE therefore supports that STX1B gene variants or deletions can be involved in the aetiology of MAE.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, variants in the STX1B gene have been associated with a wide spectrum of fever-related epilepsies ranging from single febrile seizures to severe epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, variants in the STX1B gene have been associated with a wide spectrum of fever-related epilepsies ranging from single febrile seizures to severe epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two previously reported patients with a STX1B missense variant or deletion were diagnosed with MAE.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STX1B encodes for syntaxin-1B, of which interaction with the protein encoded by the STXBP1 gene is essential for the regulation of the synaptic transmission of neurotransmitters.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

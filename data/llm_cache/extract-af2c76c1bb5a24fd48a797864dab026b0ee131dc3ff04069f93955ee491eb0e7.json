@@ -1,0 +1,156 @@
+{
+  "pmid": "26598493",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Next-generation sequencing has identified mutations in the PRRT2 (proline-rich transmembrane protein 2) gene as the leading cause for a wide and yet evolving spectrum of paroxysmal diseases.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are found in the majority of patients with benign familial infantile epilepsy, infantile convulsions and choreoathetosis and paroxysmal kinesigenic dyskinesia, confirming a common disease spectrum that had previously been suggested based on gene linkage analyses and shared clinical features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions and choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are found in the majority of patients with benign familial infantile epilepsy, infantile convulsions and choreoathetosis and paroxysmal kinesigenic dyskinesia, confirming a common disease spectrum that had previously been suggested based on gene linkage analyses and shared clinical features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 mutations are found in the majority of patients with benign familial infantile epilepsy, infantile convulsions and choreoathetosis and paroxysmal kinesigenic dyskinesia, confirming a common disease spectrum that had previously been suggested based on gene linkage analyses and shared clinical features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "childhood-onset movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beyond these clinical entities, PRRT2 mutations have been described in other childhood-onset movement disorders, different forms of seizures, headache disorders, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "different forms of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beyond these clinical entities, PRRT2 mutations have been described in other childhood-onset movement disorders, different forms of seizures, headache disorders, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "headache disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beyond these clinical entities, PRRT2 mutations have been described in other childhood-onset movement disorders, different forms of seizures, headache disorders, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beyond these clinical entities, PRRT2 mutations have been described in other childhood-onset movement disorders, different forms of seizures, headache disorders, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "modulation of synaptic neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 encodes a protein that is expressed in the central nervous system and is thought to be involved in the modulation of synaptic neurotransmitter release.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The vast majority of mutations lead to a truncated protein or no protein at all and thus to a haploinsufficient state.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "altered synaptic neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The subsequent reduction of PRRT2 protein may lead to altered synaptic neurotransmitter release and dysregulated neuronal excitability in various regions of the brain, resulting in paroxysmal movement disorders and seizure phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "dysregulated neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The subsequent reduction of PRRT2 protein may lead to altered synaptic neurotransmitter release and dysregulated neuronal excitability in various regions of the brain, resulting in paroxysmal movement disorders and seizure phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "Benign familial infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benign familial infantile epilepsy (41.7%; n = 602), paroxysmal kinesigenic dyskinesia (38.7%; n = 560) and infantile convulsions and choreoathetosis (14.3%; n = 206) constitute the vast majority of PRRT2-associated diseases, leaving 76 patients (5.3%) with a different primary diagnosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benign familial infantile epilepsy (41.7%; n = 602), paroxysmal kinesigenic dyskinesia (38.7%; n = 560) and infantile convulsions and choreoathetosis (14.3%; n = 206) constitute the vast majority of PRRT2-associated diseases, leaving 76 patients (5.3%) with a different primary diagnosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions and choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benign familial infantile epilepsy (41.7%; n = 602), paroxysmal kinesigenic dyskinesia (38.7%; n = 560) and infantile convulsions and choreoathetosis (14.3%; n = 206) constitute the vast majority of PRRT2-associated diseases, leaving 76 patients (5.3%) with a different primary diagnosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

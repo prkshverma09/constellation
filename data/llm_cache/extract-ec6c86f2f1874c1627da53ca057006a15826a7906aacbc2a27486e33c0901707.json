@@ -1,0 +1,126 @@
+{
+  "pmid": "38866563",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "Gα o",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the abundant brain G-protein Gα o",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the GNAO1 gene, which encodes the abundant brain G-protein Gα o, result in neurologic disorders characterized by developmental delay, epilepsy, and movement abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the GNAO1 gene, which encodes the abundant brain G-protein Gα o, result in neurologic disorders characterized by developmental delay, epilepsy, and movement abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the GNAO1 gene, which encodes the abundant brain G-protein Gα o, result in neurologic disorders characterized by developmental delay, epilepsy, and movement abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the R209H mutation results in dystonia, choreoathetosis, and developmental delay without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the R209H mutation results in dystonia, choreoathetosis, and developmental delay without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay (R209H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the R209H mutation results in dystonia, choreoathetosis, and developmental delay without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "Gnao1 +/R209H heterozygous mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice heterozygous for the human mutant allele (Gnao1 +/R209H) exhibit hyperactivity in open field tests but no seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice heterozygous for the human mutant allele (Gnao1 +/R209H) exhibit hyperactivity in open field tests but no seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Mice heterozygous for the human mutant allele (Gnao1 +/R209H) exhibit hyperactivity in open field tests but no seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "scAAV9-GNAO1.1 or scAAV9-GNAO1.2 bilateral intrastriatal injections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bilateral intrastriatal injections of either scAAV9-GNAO1.1 or scAAV9-GNAO1.2 significantly reversed mutation-associated hyperactivity in open field tests.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "GNAO1 overexpression did not increase seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 overexpression did not increase seizure susceptibility, a potential side effect of GNAO1 vector treatment.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

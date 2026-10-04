@@ -1,0 +1,46 @@
+{
+  "pmid": "36833172",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "transcription factor important for normal brain development and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 (Forkhead box g1) syndrome is a neurodevelopmental disorder caused by a defective transcription factor, FOXG1, important for normal brain development and function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulates mitochondrial function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 regulates mitochondrial function",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "decrease in mitochondrial content and ATP levels and morphological changes in mitochondrial network in patient fibroblasts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We observed a significant decrease in mitochondrial content and adenosine triphosphate (ATP) levels and morphological changes in mitochondrial network in the fibroblasts of affected individuals",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "involvement of mitochondrial dysfunction in FOXG1 syndrome pathogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating involvement of mitochondrial dysfunction in FOXG1 syndrome pathogenesis.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

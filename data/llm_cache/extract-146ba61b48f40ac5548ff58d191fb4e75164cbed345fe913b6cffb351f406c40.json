@@ -1,0 +1,66 @@
+{
+  "pmid": "33639450",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "rhythmic posterior/diffuse delta waves appearing with eye-closure (fixation-off sensitivity)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pattern 1 (14/15 individuals) consisted of rhythmic posterior/diffuse delta waves appearing with eye-closure and persisting until eye opening (strongly suggestive of fixation-off sensitivity).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "diffuse polyspike-and-wave discharges triggered by eye closure (eye-closure sensitivity)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pattern 2 (9/15 individuals) consisted of diffuse polyspike-and-wave discharges triggered by eye closure (eye-closure sensitivity).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures occurring at or following eye closure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of 224 seizures experienced while awake, 161 (72%) occurred at or following eye closure.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pattern 1 preceding atypical absence, myoclonic seizure or myoclonic absence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In 119/161, pattern 1 preceded an atypical absence, myoclonic seizure or myoclonic absence;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pattern 2 associated with eyelid myoclonia, absences and myoclonic or atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in 42/161, pattern 2 was associated with eyelid myoclonia, absences and myoclonic or atonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "fixation-off and eye closure as main seizure triggers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fixation-off and eye closure were the main triggers for seizures in this SYNGAP1 cohort.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

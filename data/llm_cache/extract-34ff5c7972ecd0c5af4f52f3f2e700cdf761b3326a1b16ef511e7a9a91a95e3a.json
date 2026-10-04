@@ -1,0 +1,36 @@
+{
+  "pmid": "23772601",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Polymorphisms in the glutamate receptor ionotropic amino-3-hydroxy-5-methyl-4-isoxazole-propionin acid 1 (GRIA1) and GRIA3 genes that code for 2 of 4 subunits of the glutamate receptor have been previously associated with migraine in an Italian population.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, association was observed with the GRIA3 single nucleotide polymorphism (SNP) rs3761555 (P=.008).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "migraine with aura",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The results of this study confirmed the previous report of association at the rs3761555 SNP within the migraine with aura subgroup of migraineurs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

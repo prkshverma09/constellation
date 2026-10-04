@@ -1,0 +1,46 @@
+{
+  "pmid": "41390674",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "binding of EIF3J-AS1 to FOXG1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "METTL3 promotes m6A-dependent binding of EIF3J-AS1 to the transcription factor FOXG1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "suppresses autophagy via MIF downregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "METTL3/EIF3J-AS1/FOXG1 axis suppresses autophagy via MIF downregulation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "disruption of EIF3J-AS1-FOXG1 binding restores MIF expression and promotes autophagy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "miR-101-mediated suppression of METTL3 disrupts EIF3J-AS1-FOXG1 binding, restoring MIF expression and promoting autophagy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "disruption of EIF3J-AS1-FOXG1 interactions as an autophagy-modulating strategy for glioma treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with disruption of EIF3J-AS1-FOXG1 interactions representing a novel autophagy-modulating strategy for glioma treatment.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

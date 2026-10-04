@@ -1,0 +1,26 @@
+{
+  "pmid": "35393670",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy caused by protocadherin-19 (PCDH-19) mutation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "female heterozygotes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is more common in female heterozygotes, which are caused by mutations in the PCDH-19 gene.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

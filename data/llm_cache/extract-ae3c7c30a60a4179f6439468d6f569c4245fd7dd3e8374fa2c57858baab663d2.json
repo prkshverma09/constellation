@@ -1,0 +1,36 @@
+{
+  "pmid": "22998673",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe cognitive impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early onset epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "dyskinetic movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dyskinetic movement disorders",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

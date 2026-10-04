@@ -1,0 +1,116 @@
+{
+  "pmid": "32726744",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cell-cell adhesion protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes a cell-cell adhesion protein with restricted expression during brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "on the X-chromosome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19, is on the X-chromosome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizure",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "neurocognitive disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurocognitive disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "manifests in heterozygous females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-CE manifests in heterozygous females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "hemizygous males not affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygous males are not affected.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "males with postzygotic somatic mutation are affected and clinically similar to affected females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "males with postzygotic somatic mutation in PCDH19 are affected and clinically similar to the affected females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "disorder of cellular mosaicism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-CE is a disorder of cellular mosaicism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference (coexistence of wild type and variant cells)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The coexistence of two different, but otherwise 'normal' cells in a PCDH19-CE individual, that is the wild type and the variant PCDH19 cells, has been proposed as the driving force of the disorder.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has now been tested using sophisticated mouse models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

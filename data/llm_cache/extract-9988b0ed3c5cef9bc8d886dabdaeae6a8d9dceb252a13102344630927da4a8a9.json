@@ -1,0 +1,16 @@
+{
+  "pmid": "29314583",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic infantile with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SCN2A, KCNT1, KCNQ2 and CLCN4 were identified in patients with epileptic infantile with migrating focal seizures;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

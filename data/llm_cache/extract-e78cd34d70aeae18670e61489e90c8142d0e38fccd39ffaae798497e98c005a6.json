@@ -1,0 +1,66 @@
+{
+  "pmid": "35978409",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-related epilepsy is a rare X-linked type of epilepsy caused by genomic variants of the Protocadherin 19 (PCDH19) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The genetic analysis identified the two variants c.1006G > A (p.Val336Met) and c.1014C > A (p.Asp338Glu) in the gene PCDH19.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure clusters arising under condition of apyrexia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our patient was admitted for the first time at the age of 12 months for seizure clusters arising under condition of apyrexia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "frontal paroxysmal activity on EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The electroencephalography (EEG) showed frontal paroxysmal activity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "no cognitive impairment or behavior disturbances / persistently normal neurological examination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "During the follow-up, the neurological examination was persistently normal with neither cognitive impairment nor behavior disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "Carbamazepine and Clonazepam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was treated with Carbamazepine and Clonazepam achieving the disappearance of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

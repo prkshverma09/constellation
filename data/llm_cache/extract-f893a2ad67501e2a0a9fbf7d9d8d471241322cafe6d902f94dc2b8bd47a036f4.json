@@ -1,0 +1,16 @@
+{
+  "pmid": "33741238",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "SUDEP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other than in channelopathies, SUDEP has been reported in further patients with genetic epilepsies due to mutations of genes such as DEPDC5, TBC1D24, FHF1, or 5q14.3 deletion.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "39758604",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "idiopathic ASD (macrocephaly) induced pluripotent stem cell-derived telencephalic organoids (day-30 organoid omics datasets)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "where FOXG1 was upregulated.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

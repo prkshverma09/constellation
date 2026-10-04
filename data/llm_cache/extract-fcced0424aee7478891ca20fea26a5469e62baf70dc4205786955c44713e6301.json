@@ -1,0 +1,66 @@
+{
+  "pmid": "35412344",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "critical DNA damage repair enzyme",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide 5'-kinase 3'-phosphatase (PNKP) gene, which encodes a critical DNA damage repair enzyme",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "congenital microcephaly with seizures (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the polynucleotide 5'-kinase 3'-phosphatase (PNKP) gene, which encodes a critical DNA damage repair enzyme, result in recessive syndromes often characterized by congenital microcephaly with seizures (MCSZ).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "two PNKP phosphatase inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we show that two PNKP phosphatase inhibitors or PNKP knockout inhibited ZIKV replication.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "relocalization from nucleus to cytoplasm with functional nuclear PNKP depletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP relocalized from the nucleus to the cytoplasm in infected cells, colocalizing with the marker of ZIKV replication factories (RF) NS1 and resulting in functional nuclear PNKP depletion.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "host factor participating in ZIKV replication in NPC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP and CycA/CDK1 are thus host factors participating in ZIKV replication in NPC, and pathogenesis to neural progenitor cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "PNKP knockout",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP knockout inhibited ZIKV replication.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

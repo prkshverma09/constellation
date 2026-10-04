@@ -1,0 +1,76 @@
+{
+  "pmid": "39556335",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss- and gain- of- function vari-ants, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss- and gain- of- function vari-ants, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental delays without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurodevelopmental delays without seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathies (DEEs)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "nearly synchronous developmental delay/seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "nearly synchronous developmental delay/seizure onset for the U3 (termed DEE) subgroup.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "gain seizure control yet rarely experience improvements in development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients in U1 (termed developmental encephalopathy) typically gain seizure control yet rarely experience improvements in development",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "fewer if any developmental impairments despite difficulty in achieving seizure control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas those in U2 (termed epileptic encephalopathy) have fewer if any developmental impairments despite difficulty in achieving seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

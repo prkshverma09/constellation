@@ -1,0 +1,16 @@
+{
+  "pmid": "40290421",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To our knowledge not described previously, we report a good ketogenic diet response related to causative variants in CSNK2A1, FARS2, GABRB3, GRIN1, KCNA2, KCTD3, STX1B and SLC16A2",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

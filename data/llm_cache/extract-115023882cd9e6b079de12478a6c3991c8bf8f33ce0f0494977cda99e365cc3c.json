@@ -1,0 +1,106 @@
+{
+  "pmid": "41279425",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA Transporter 1 (GAT-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes GABA Transporter 1 (GAT-1)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1, which encodes GABA Transporter 1 (GAT-1), are associated with developmental delay, autism, epilepsy (e.g., epilepsy with myoclonic astatic seizures [EMAS]), and possibly schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1, which encodes GABA Transporter 1 (GAT-1), are associated with developmental delay, autism, epilepsy (e.g., epilepsy with myoclonic astatic seizures [EMAS]), and possibly schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1, which encodes GABA Transporter 1 (GAT-1), are associated with developmental delay, autism, epilepsy (e.g., epilepsy with myoclonic astatic seizures [EMAS]), and possibly schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic astatic seizures (EMAS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1, which encodes GABA Transporter 1 (GAT-1), are associated with developmental delay, autism, epilepsy (e.g., epilepsy with myoclonic astatic seizures [EMAS]), and possibly schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SLC6A1, which encodes GABA Transporter 1 (GAT-1), are associated with developmental delay, autism, epilepsy (e.g., epilepsy with myoclonic astatic seizures [EMAS]), and possibly schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants strongly reduced uptake (mean, -89.4% [95% CI, -71.5% to -107.3%])",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Some variants of uncertain significance (VUS) were associated with reduced GABA uptake (G111R, S459R, V511M; mean, -101.2% [95% CI -81.1% to -121.3%])",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas others showed only mild reduction (R211C, R566H, F242V, R419C; mean, -33.6% [95% CI -17.2% to -50.1%])",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyric acid (4PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The molecular chaperone 4-phenylbutyric acid (4PBA) was associated with ~35% increase in iGABA.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

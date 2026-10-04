@@ -188,7 +188,7 @@ const searchStx = { _fixture: true, query: "", best: null, results: [
   searchHit("constellation:org/stxbp1-foundation-fixture", "STXBP1 Foundation", "STXBP1 Foundation", "org", stx, "patient_group"),
 ] };
 const searchGap = { _fixture: true, query: "", best: null, results: [searchHit(gap.gene_id, "FRRS1L", "FRRS1L", "symbol", gap)] };
-const health = { _fixture: true, status: "ok", snapshot_hash: "fixture-2025-02-14", llm_mode: "cached", counts: { nodes: 274, edges: 812 } };
+const health = { _fixture: true, status: "ok", snapshot_hash: "fixture-2025-02-14", llm_mode: "cached", llm_available: false, agent_model: "gpt-5", counts: { nodes: 274, edges: 812 } };
 const mechanism = { _fixture: true, query: "", clusters: [{ id: "constellation:cluster/1", label: "Presynaptic vesicle cycle (SNARE)", score: 0.91, member_ids: [stx.id, ...refs.slice(0, 4).map((r) => r.id)], matched_pathways: [pathway, pathway2] }] };
 const mkDossier = (persona: string, gapMode = false) => {
   const plain = persona === "devon";

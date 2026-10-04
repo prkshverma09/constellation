@@ -1,0 +1,16 @@
+{
+  "pmid": "30664068",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "relatively mild forms of monogenic epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inherited variants in GABRG2 and GABRA1 cause relatively mild forms of monogenic epilepsies in large families.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

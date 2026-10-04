@@ -1,0 +1,106 @@
+{
+  "pmid": "40100487",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant inheritance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the DEPDC5 gene are inherited in an autosomal dominant manner",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "can lead to various clinical phenotypes, including focal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy or developmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We analyzed seven cases of epilepsy or developmental disorders caused by DEPDC5 mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Minigene experiments confirmed that the c.4034-2 A > G mutation resulted in a slightly truncated protein.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The intronic mutation c.463 + 4 A > G (splicing) led to protein truncation and was determined to be pathogenic.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the four patients with nonsense mutations, three (Cases 2, 4, and 5) exhibited drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "more severe symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 mutations can cause focal seizures, with truncating mutations associated with more severe symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "lacosamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four out of seven patients responded effectively to lacosamide treatment.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "lacosamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lacosamide may offer better therapeutic outcomes.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one missense mutation: c.1140 C > A (p.F380L);",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

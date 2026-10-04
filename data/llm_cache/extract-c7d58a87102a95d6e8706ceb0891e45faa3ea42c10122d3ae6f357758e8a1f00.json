@@ -1,0 +1,106 @@
+{
+  "pmid": "40930967",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "GluA3 subunit of AMPARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3, the gene encoding the GluA3 subunit of amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA)-type glutamate receptors (AMPARs),",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "M3 segment forms the filter pore of AMPAR tetramers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "N651D is located in the M3 segment, which forms the filter pore of AMPAR tetramers.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disease-causing variants are generally categorised as either loss of function (LoF) or gain of function (GoF)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disease-causing variants are generally categorised as either loss of function (LoF) or gain of function (GoF)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "glutamate induced no currents in GluA3_N651D homomeric receptors, likely indicating an LoF effect.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GluA2/A3_N651D heteromeric receptors showed slower deactivation and desensitisation curves, along with elevated non-desensitising steady-state currents, features typically observed in GoF variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "parkinsonism",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cortical malformation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical malformation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "defects in early brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with defects in early brain development.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

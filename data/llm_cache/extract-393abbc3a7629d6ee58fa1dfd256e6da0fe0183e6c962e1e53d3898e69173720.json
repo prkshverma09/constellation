@@ -1,0 +1,16 @@
+{
+  "pmid": "40769126",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "miR-101-3p-Nrf2-Slc2a1 axis mediating transmission of redox imbalance and metabolic defects to microglia, causing microglial dysfunction and exacerbating VCI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "via the miR-101-3p-Nrf2-Slc2a1 axis, causing microglial dysfunction and exacerbating VCI",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

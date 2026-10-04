@@ -1,0 +1,86 @@
+{
+  "pmid": "41554218",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited infantile epilepsy (SeLIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 variants have been reported in association with self-limited infantile epilepsy (SeLIE)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two novel missense variants (c.643C > A/ p.P215T and c.932G > A/ p.R311Q) were demonstrated to impair protein expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were demonstrated to impair protein expression, indicating a likely haploinsufficiency mechanism.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "age of seizure onset predominantly during infancy or adolescence, with epilepsy persisting or relapsing into adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of seizure onset was predominantly during infancy or adolescence, with epilepsy persisting or relapsing into adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy in some cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Drug-resistant epilepsy was observed in two cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "others were primarily controlled through sodium channel blockers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "epileptiform discharges recorded in the majority of patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptiform discharges were recorded in the majority of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "reduced thalamocortical connectivity indicating disrupted brain network integration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "fMRI revealed reduced thalamocortical connectivity, indicating disrupted brain network integration.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

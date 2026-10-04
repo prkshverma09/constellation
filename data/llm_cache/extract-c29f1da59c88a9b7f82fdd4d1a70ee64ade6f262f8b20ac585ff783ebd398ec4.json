@@ -1,0 +1,16 @@
+{
+  "pmid": "41151066",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "transgenic mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This review catalogs 48 transgenic mouse models involving sodium channels (SCN1A, SCN2A, SCN3A, SCN8A) and potassium channels (KCNQ2, KCNQ3, KCNT1, KCNA1, KCNB1, KCND2), detailing the effects of genetic alterations in terms of channel function, affected cell types, and phenotypic manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

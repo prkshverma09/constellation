@@ -1,0 +1,56 @@
+{
+  "pmid": "35429480",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe global developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe global developmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures beginning in the first few months after birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that can begin in the first few months after birth",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "treatment refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are often treatment refractory.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ganaxolone significantly reduced the frequency of CDD-associated seizures compared with placebo and was generally well tolerated.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ganaxolone, an investigational neuroactive steroid, reduced seizure frequency in an open-label, phase 2 trial that included patients with CDD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

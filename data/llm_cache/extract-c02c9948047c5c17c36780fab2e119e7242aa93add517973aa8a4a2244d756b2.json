@@ -1,0 +1,16 @@
+{
+  "pmid": "30820047",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "late-onset Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirm 20 previous LOAD risk loci and identify five new genome-wide loci (IQCK, ACE, ADAM10, ADAMTS1, and WWOX)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

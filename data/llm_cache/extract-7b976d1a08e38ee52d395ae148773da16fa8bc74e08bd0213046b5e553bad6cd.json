@@ -1,0 +1,16 @@
+{
+  "pmid": "39102902",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "APPtg and C57Bl/6J mice CSF/ISF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We performed proteomic analyses of both CSF and ISF fluid compartments using intracerebral microdialysis to validate and detect novel biomarkers of Alzheimer's disease (AD) in APPtg and C57Bl/6J control mice. In addition, we also detected new interesting regulated proteins related to the control of synapses and neurotransmission (Kcna2, Cacng3, and Clcn6) whose roles as AD biomarkers should be further investigated.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

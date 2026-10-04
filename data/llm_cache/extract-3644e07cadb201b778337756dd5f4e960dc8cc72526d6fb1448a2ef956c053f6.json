@@ -1,0 +1,136 @@
+{
+  "pmid": "41458379",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "important neurophysiological roles in regulation of neural networks, sleep, and breathing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glutamate receptor AMPA GluR3, encoded by the GRIA3 gene, has important neurophysiological roles in regulation of neural networks, sleep, and breathing.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "increases the susceptibility to seizures and disrupts oscillatory networks of sleep, breathing, exploratory activity, and motor coordination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluR3 deletion or abnormal function increases the susceptibility to seizures and disrupts oscillatory networks of sleep, breathing, exploratory activity, and motor coordination.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "expression of GluR3 RNA and protein in human primary skeletal muscle cells (myoblasts)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human primary skeletal muscle cells (myoblasts) express GluR3 RNA and protein, evident by PCR and immunostaining,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamate increases intracellular sodium and increases muscle cell number in human skeletal muscle cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "glutamate (10-8-10-5M) increases intracellular sodium in human skeletal muscle cells and increases muscle cell number (probably by inducing muscle cell proliferation),",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "AMPA and NMDA increase intracellular sodium in skeletal muscle cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AMPA and NMDA increase intracellular sodium in skeletal muscle cells,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "GluR3B monoclonal antibody binds skeletal muscle cells and increases their number",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluR3B monoclonal antibody binds skeletal muscle cells and increases their number,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "autoimmune patient-derived GluR3B antibodies bind skeletal muscle cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autoimmune affinity-purified GluR3B antibodies of epileptic NS patients, suffering from nodding due to loss of muscle tone and muscle wasting, bind skeletal muscle cells,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "purified IgGs rich in autoimmune GluR3B antibodies bind and kill skeletal muscle cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "purified IgGs rich in autoimmune GluR3B antibodies of intractable epilepsy patients bind and kill skeletal muscle cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "GluR3 has an important physiological role in muscle cells and motor function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluR3 has an important physiological role in muscle cells and motor function,",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "muscle impairments and motor problems can be caused by impaired GluR3 function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired GluR3 function (due to genetic/epigenetic/autoimmune/infectious/inflammatory factors?) can cause muscle impairments and motor problems,",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamate activation of GluR3 can beneficially affect muscle cell survival, growth, and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "glutamate, by direct activation of GluR3 and/or other GluRs expressed in skeletal muscle cells, can beneficially affect muscle cell survival, growth, and function,",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "Glutamate, iGluR agonists, and/or GluR3B mAb may have therapeutic effects for muscle diseases, injuries, and age-related sarcopenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glutamate, iGluR agonists, and/or GluR3B mAb may have therapeutic effects for muscle diseases, injuries, and age-related sarcopenia,",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "autoimmune GluR3B antibodies may bind GluR3 in muscle cells, damage these cells, and induce muscle dysfunction and motor problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autoimmune GluR3B antibodies of NS patients and/or other epilepsy patients may bind GluR3 in muscle cells, damage these cells, and induce muscle dysfunction and motor problems.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

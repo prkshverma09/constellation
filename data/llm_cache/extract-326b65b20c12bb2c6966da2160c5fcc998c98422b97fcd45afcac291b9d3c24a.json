@@ -1,0 +1,36 @@
+{
+  "pmid": "37228410",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile epilepsy (BFIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel pathogenic variant c.397delG (p.E133Nfs*43) in the PRRT2 gene that causes BFIE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "focal or generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the presence of focal or generalized tonic-clonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "anti-seizure medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which was well controlled by anti-seizure medication.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

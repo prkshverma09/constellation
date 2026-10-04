@@ -1,0 +1,36 @@
+{
+  "pmid": "37691428",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "critically involved in disease development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Through an extensive literature survey, we found that three of the hub genes including GRIN1, SYN2, and SYT1 were critically involved in disease development.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "biomarker; therapeutic_target",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "According to our study, the identified hub gene could serve as a biomarker as well as a therapeutic target for AD,",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "lorazepam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lorazepam exhibits a binding energy of -7.3 kcal/mol with GRIN1,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

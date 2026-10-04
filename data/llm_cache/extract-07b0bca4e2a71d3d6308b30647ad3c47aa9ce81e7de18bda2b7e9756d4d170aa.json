@@ -1,0 +1,16 @@
+{
+  "pmid": "17765802",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "central nervous system ion channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Many of these genes encode for some important central nervous system ion channels (KCNJ10, KCNJ3, KCNQ2/KCNQ3, CLCN2, GABRG2, GABRA1, SCN1B, and SCN1A)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

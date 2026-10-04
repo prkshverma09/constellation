@@ -1,0 +1,146 @@
+{
+  "pmid": "37546838",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development, synaptic structure, and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a critical gene for neuronal development, synaptic structure, and function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "SYNGAP1-related intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the disruption of SYNGAP1 directly causes a genetically identifiable neurodevelopmental disorder (NDD) called SYNGAP1-related intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, patients present with intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, patients present with intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, patients present with intellectual disability, motor impairments, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous loss of SYNGAP1 is embryonically lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased locomotor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of SynGAP1 result in a broad range of phenotypes including increased locomotor activity, impaired working spatial memory, impaired cued fear memory, and increased stereotypic behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired working spatial memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of SynGAP1 result in a broad range of phenotypes including increased locomotor activity, impaired working spatial memory, impaired cued fear memory, and increased stereotypic behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired cued fear memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of SynGAP1 result in a broad range of phenotypes including increased locomotor activity, impaired working spatial memory, impaired cued fear memory, and increased stereotypic behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased stereotypic behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of SynGAP1 result in a broad range of phenotypes including increased locomotor activity, impaired working spatial memory, impaired cued fear memory, and increased stereotypic behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 +/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We discovered Syngap1 +/- mice exhibited elevated spike trains in both number and duration, in addition to elevated power, most notably in the delta power band.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "elevated spike trains and elevated delta power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We discovered Syngap1 +/- mice exhibited elevated spike trains in both number and duration, in addition to elevated power, most notably in the delta power band.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Primary neurons from Syngap1 +/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Primary neurons from Syngap1 +/- mice displayed increased network firing activity, greater spikes per burst, and shorter inter-burst intervals between peaks using high density micro-electrode arrays (HD-MEA).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impairments in the translational biomarker domain of sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we describe impairments in the translational biomarker domain of sleep, characterized using neurophysiological data collected with wireless telemetric electroencephalography (EEG).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

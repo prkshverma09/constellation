@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import os
+import time
 import zipfile
 from io import BytesIO, StringIO
 from typing import Any, Literal
@@ -14,6 +16,7 @@ from constellation.agents.dossier import (
     build_dossier,
     build_live_dossier,
     dossier_cache_path,
+    live_dossier_cache_path,
 )
 from constellation.analytics.bridges import find_bridges_with_unverified
 from constellation.analytics.coverage import asset_coverage, eligibility_diff
@@ -23,7 +26,7 @@ from constellation.analytics.gaps import (
     nearest_leads,
     what_would_change,
 )
-from constellation.config import CACHE, DATA, SNAPSHOT, configured_mode
+from constellation.config import CACHE, DATA, SNAPSHOT, agent_model, configured_mode
 from constellation.graph.store import Snapshot
 from constellation.ledger import make_edge
 
@@ -46,6 +49,7 @@ class DossierRequest(BaseModel):
     disease: str
     persona: Literal["maria", "devon", "priya", "osei"] = "maria"
     vs: str | None = None
+    regenerate: bool = False
 
 
 class ContributeRequest(BaseModel):
@@ -271,6 +275,8 @@ def health() -> dict[str, Any]:
         "status": "ok",
         "snapshot_hash": snapshot.snapshot_hash,
         "llm_mode": mode,
+        "llm_available": bool(os.environ.get("OPENAI_API_KEY")) and mode != "offline",
+        "agent_model": agent_model(),
         "counts": {"nodes": len(snapshot.nodes), "edges": len(snapshot.edges)},
     }
 
@@ -782,6 +788,7 @@ def coverage(mondo: str) -> dict[str, Any]:
 
 @app.post("/api/dossier")
 async def dossier(request: DossierRequest) -> dict[str, Any]:
+    started = time.perf_counter()
     snapshot = get_snapshot()
     if (
         request.disease not in snapshot.node_by_id
@@ -789,14 +796,43 @@ async def dossier(request: DossierRequest) -> dict[str, Any]:
     ):
         raise HTTPException(status_code=404, detail="Disease not found.")
     mode = configured_mode()
+    if not mode:
+        mode = "cached" if any(CACHE.glob("*.json")) else "offline"
     cache_file = dossier_cache_path(
         request.disease, request.persona, snapshot.snapshot_hash, "offline"
     )
-    if mode == "live":
-        return await build_live_dossier(snapshot, request.disease, request.persona)
+    live_cache = live_dossier_cache_path(
+        request.disease,
+        request.persona,
+        request.vs,
+        snapshot.snapshot_hash,
+        agent_model(),
+    )
+    llm_available = bool(os.environ.get("OPENAI_API_KEY")) and mode != "offline"
+    if llm_available and (mode == "live" or request.regenerate):
+        result = await build_live_dossier(
+            snapshot,
+            request.disease,
+            request.persona,
+            request.vs,
+        )
+        result.setdefault("model", agent_model())
+        result.setdefault("elapsed_ms", 0)
+        result.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
+        return result
+    if mode == "cached" and live_cache.exists():
+        result = json.loads(live_cache.read_text(encoding="utf-8"))
+        result["mode"] = "cached-llm"
+        result.setdefault("model", agent_model())
+        result.setdefault("elapsed_ms", round((time.perf_counter() - started) * 1000))
+        result.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
+        return result
     if request.vs is None and cache_file.exists() and mode != "offline":
         result = json.loads(cache_file.read_text(encoding="utf-8"))
         result["mode"] = "cached"
+        result.setdefault("model", "offline")
+        result.setdefault("elapsed_ms", round((time.perf_counter() - started) * 1000))
+        result.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
         return result
     result = build_dossier(
         snapshot,
@@ -805,6 +841,9 @@ async def dossier(request: DossierRequest) -> dict[str, Any]:
         mode="offline",
         comparator_id=request.vs,
     )
+    result.setdefault("model", "offline")
+    result.setdefault("elapsed_ms", round((time.perf_counter() - started) * 1000))
+    result.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
     if mode != "offline" and request.vs is None:
         cache_file.parent.mkdir(parents=True, exist_ok=True)
         cache_file.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -1,0 +1,36 @@
+{
+  "pmid": "40472070",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been linked to human epilepsies, including KCNA1 (Kv1.1), KCNA2 (Kv1.2), and more recently, KCNA3 (Kv1.3) and KCNA6 (Kv1.6).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Current findings suggest that, similar to Kv1.1, Kv1.2, and Kv1.3, both loss-of-function and gain-of-function mutations in Kv1.6 may contribute to the phenotypic variability in epilepsy severity.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Current findings suggest that, similar to Kv1.1, Kv1.2, and Kv1.3, both loss-of-function and gain-of-function mutations in Kv1.6 may contribute to the phenotypic variability in epilepsy severity.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

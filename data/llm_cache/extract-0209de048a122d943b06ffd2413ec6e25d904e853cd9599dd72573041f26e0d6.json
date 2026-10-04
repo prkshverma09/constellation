@@ -1,0 +1,36 @@
+{
+  "pmid": "42436150",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "voltage-dependent calcium channel activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the novel pleiotropic genes, TPCN1, CACNA2D2, CACNA1D, and ATP2B1 are involved in voltage-dependent calcium channel activity, regulation of calcium influx, enriched in calcium-related pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "regulation of calcium influx",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the novel pleiotropic genes, TPCN1, CACNA2D2, CACNA1D, and ATP2B1 are involved in voltage-dependent calcium channel activity, regulation of calcium influx, enriched in calcium-related pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "calcium-related pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the novel pleiotropic genes, TPCN1, CACNA2D2, CACNA1D, and ATP2B1 are involved in voltage-dependent calcium channel activity, regulation of calcium influx, enriched in calcium-related pathway.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

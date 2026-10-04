@@ -1,0 +1,36 @@
+{
+  "pmid": "22742851",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "development of specific neuronal fates inside this region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcription factor Foxg1 is crucial to the development of specific neuronal fates inside this region",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "integrator of telencephalic signalling centres",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent findings in zebrafish and mouse unveiled its impact as an integrator of telencephalic signalling centres.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Foxg1-dependent human disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This essential regulatory activity may be key to understand Foxg1-dependent human disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

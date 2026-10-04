@@ -1,0 +1,76 @@
+{
+  "pmid": "39376210",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5-related epilepsy carries an increased risk of sudden unexpected death in epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ictal central apnea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "According to the presence of ictal apnea events, 5 of 14 patients with ICA showed pathogenic DEPDC5 variants (35%) while none of the 15 patients without ICA showed pathogenic mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ictal central apnea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, DEPDC5 patients showed ICA in all recorded seizures (n = 15) with apnea duration ranging from 20 seconds to more than 1 minute.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "motor arrest without overt automatic behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All seizures were characterized by motor arrest without overt automatic behaviors during ictal apnea.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "involvement of temporal lobe leads",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scalp EEG showed the involvement of temporal lobe leads in all events.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "severe oxygen desaturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe oxygen desaturation was observed in 2 cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic DEPDC5 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NGS was finally performed in 29 patients, resulting in DEPDC5 pathogenic mutations in 5 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

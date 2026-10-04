@@ -1,0 +1,26 @@
+{
+  "pmid": "29206688",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients who were diagnosed with Rett syndrome or Rett-like syndrome because of their phenotype but were negative for mutations in the MECP2, CDKL5 or FOXG1 genes were subjected to whole exome sequencing and the results of the last few years revealed yet 69 different genes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "Rett-like syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients who were diagnosed with Rett syndrome or Rett-like syndrome because of their phenotype but were negative for mutations in the MECP2, CDKL5 or FOXG1 genes were subjected to whole exome sequencing and the results of the last few years revealed yet 69 different genes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

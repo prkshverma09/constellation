@@ -1,0 +1,32 @@
+{
+  "symbol": "GABRG2",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:56:01.184534+00:00",
+  "usage": {
+    "input_tokens": 112966,
+    "output_tokens": 8824
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "CURE GABA-A",
+        "url": "https://curegabaa.org/gabrg2/",
+        "kind": "foundation",
+        "snippet": "GABRG2 is a gene that is responsible for producing a protein called a receptor."
+      },
+      {
+        "name": "GABA-A Alliance",
+        "url": "https://www.gabaa.org/gabrg2",
+        "kind": "foundation",
+        "snippet": "GABRG2 mutations in genetic epilepsy with febrile seizures plus: structure, roles, and molecular genetics."
+      },
+      {
+        "name": "COMBINEDBrain (Consortium for Outcome Measures and Biomarkers for Neurodevelopmental Disorders)",
+        "url": "https://combinedbrain.org/Research",
+        "kind": "research_network",
+        "snippet": "Modulating Endoplasmic Reticulum Chaperones and Mutant Protein Degradation in GABRG2(Q390X) Associated with Genetic Epilepsy with Febrile Seizures Plus and Dravet Syndrome."
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "25891919",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "corticosteroids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Corticosteroid treatments significantly improved the acute symptoms, including seizure clusters, in all cases, most often immediately after the initial administration.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "corticosteroids (transient effect with recurrence)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, the effect was transient, and some seizures recurred within a few weeks, especially in association with fever.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "antibodies against the N-methyl-d-aspartate-type glutamate receptor (abs-NR) in serum and/or cerebrospinal fluid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Serum and/or cerebrospinal fluid abs-NR were detected in all patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "expression in brain microvascular endothelial cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is well expressed in brain microvascular endothelial cells",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "BBB vulnerability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "its impairment may cause BBB vulnerability",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "34080406",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The polymorphism rs211037 of the GABRG2 gene increases the risk of the development of idiopathic generalized epilepsy in the Macedonian population.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Carriers of CC genotype had approximately a 2-fold higher probability of developing IGE than the carriers of CT and TT genotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Carriers of the C allele had a 1.9-folds higher probability for IGE than the carriers of the T allele.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

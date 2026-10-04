@@ -1,0 +1,56 @@
+{
+  "pmid": "23890838",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "facilitated glucose transporter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutational analysis of the solute carrier family 2 (facilitated glucose transporter) member 1 (SLC2A1) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "infantile seizures; developmental delay; acquired microcephaly; hypotonia; spasticity; ataxia; dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The \"classic\" GLUT1DS patient presents with infantile seizures (resistant to traditional seizure medications), developmental delay, acquired microcephaly, hypotonia, spasticity, and a complex movement disorder consisting of ataxia and dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exertion-induced dystonia; choreoathetosis; alternating hemiplegia; intermittent ataxia; dystonia; migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other clinical manifestations have been described, such as paroxysmal exertion-induced dystonia with or without seizures, choreoathetosis, alternating hemiplegia, and other paroxysmal events, such as intermittent ataxia, dystonia, and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "low cerebrospinal fluid glucose (<50mg/dl or ratio <0.60)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutational analysis of the solute carrier family 2 (facilitated glucose transporter) member 1 (SLC2A1) gene should be performed in patients with highly suggestive clinical findings and low cerebrospinal fluid glucose (<50mg/dl or ratio <0.60).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early diagnosis is critical because it allows prompt initiation of treatment with a ketogenic diet (KD).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "37130995",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Physiologic α-syn is involved in regulating neurotransmitter release by binding to the SNARE complex protein VAMP-2 on synaptic vesicles.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Short-term exposure to monomers or PFFs for 24 h increased the co-localization of VAMP-2 and syntaxin-1",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Long-term exposure to α-syn PFFs for 7 d reduced VAMP-2 and SNAP-25 co-localization",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exposure to extracellular vesicles collected from astrocytes treated with α-syn PFFs for 7 d influenced VAMP-2 and SNAP-25 co-localization",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

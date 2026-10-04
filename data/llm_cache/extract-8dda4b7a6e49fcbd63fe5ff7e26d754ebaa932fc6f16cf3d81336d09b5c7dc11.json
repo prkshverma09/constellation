@@ -1,0 +1,16 @@
+{
+  "pmid": "42101182",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "involved_in_neurodevelopmental_processes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genes involved in neurodevelopmental processes (ACTG1, TUBA1A, MAPT, UBE3A, DCHS1, WWOX)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

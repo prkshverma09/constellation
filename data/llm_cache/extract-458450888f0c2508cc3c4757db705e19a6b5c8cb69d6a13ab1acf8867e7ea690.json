@@ -1,0 +1,196 @@
+{
+  "pmid": "34698933",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset age ranged from 1 to 21 months (median age 3.75 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset age ranged from 1 to 21 months (median age 3.75 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types predominated including focal seizures (92.3%), generalized tonic-clonic seizures (23.1%), and epileptic spasms (15.4%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types predominated including focal seizures (92.3%), generalized tonic-clonic seizures (23.1%), and epileptic spasms (15.4%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types predominated including focal seizures (92.3%), generalized tonic-clonic seizures (23.1%), and epileptic spasms (15.4%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "cluster seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical features included cluster seizures (80.8%), fever sensitivity (53.8%), and developmental delay (96.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "fever sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical features included cluster seizures (80.8%), fever sensitivity (53.8%), and developmental delay (96.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical features included cluster seizures (80.8%), fever sensitivity (53.8%), and developmental delay (96.2%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "dysplasia of the cerebral cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging was abnormal in 10 patients, including dysplasia of the cerebral cortex, dysplasia of the frontal and temporal cortex, delayed myelination, and corpus callosum dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "dysplasia of the frontal and temporal cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging was abnormal in 10 patients, including dysplasia of the cerebral cortex, dysplasia of the frontal and temporal cortex, delayed myelination, and corpus callosum dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "delayed myelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging was abnormal in 10 patients, including dysplasia of the cerebral cortex, dysplasia of the frontal and temporal cortex, delayed myelination, and corpus callosum dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "corpus callosum dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging was abnormal in 10 patients, including dysplasia of the cerebral cortex, dysplasia of the frontal and temporal cortex, delayed myelination, and corpus callosum dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic-atonic seizures (EMAS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures plus (FS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven patients were diagnosed with developmental and epileptic encephalopathy (DEE), four with West syndrome, three with epilepsy of infancy with migrating focal seizures (EIMFS), one with epilepsy with myoclonic-atonic seizures (EMAS), one with Dravet syndrome, and one with febrile seizures plus (FS+).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "valproate, levetiracetam, or perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were controlled in 57.7% of patients by valproate, levetiracetam, or perampanel in the majority.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "valproate, levetiracetam and perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate, levetiracetam and perampanel seem to have positive effects on seizure control for patients with GABRB3 variants.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

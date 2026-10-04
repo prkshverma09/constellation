@@ -1,0 +1,16 @@
+{
+  "pmid": "42190144",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "EIDEE-BS (early burst-suppression EEG developmental and epileptic encephalopathies)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Novel associations were found with DPM1, GRIN2A, KCNT2, PIGO, PURA, WWOX, and candidate genes (KMT2E, SNAP25, and SYT1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "27818011",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "encodes the GluN2B subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "language, motor, and learning disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder (ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder (ADHD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GRIN2B gene encoding the GluN2B subunit being implicated in many cases of neurodevelopmental disorders, which are psychiatric conditions originating in childhood and include language, motor, and learning disorders, autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), developmental delay, epilepsy, and schizophrenia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "plays a crucial role in normal neuronal development and is important for learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GRIN2B gene plays a crucial role in normal neuronal development and is important for learning and memory.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Studies that provide functional analysis of variants are still lacking, however current analysis of de novo variants that segregate with disease cases such as intellectual disability, developmental delay, ASD or epileptic encephalopathies reveal altered NMDAR function.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Studies that provide functional analysis of variants are still lacking, however current analysis of de novo variants that segregate with disease cases such as intellectual disability, developmental delay, ASD or epileptic encephalopathies reveal altered NMDAR function.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "altered NMDAR function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Studies that provide functional analysis of variants are still lacking, however current analysis of de novo variants that segregate with disease cases such as intellectual disability, developmental delay, ASD or epileptic encephalopathies reveal altered NMDAR function.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

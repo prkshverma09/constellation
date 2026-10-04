@@ -1,0 +1,36 @@
+{
+  "pmid": "40943430",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an 8.4 Mb triplication at 15q11.2-q13.1 encompassing SNRPN, UBE3A, and GABRB3, which are associated with epilepsy, delayed neuropsychomotor development, and dysmorphic traits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "delayed neuropsychomotor development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an 8.4 Mb triplication at 15q11.2-q13.1 encompassing SNRPN, UBE3A, and GABRB3, which are associated with epilepsy, delayed neuropsychomotor development, and dysmorphic traits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an 8.4 Mb triplication at 15q11.2-q13.1 encompassing SNRPN, UBE3A, and GABRB3, which are associated with epilepsy, delayed neuropsychomotor development, and dysmorphic traits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "26598494",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exercise-induced dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Paroxysmal dyskinesia can be subdivided into three clinical syndromes: paroxysmal kinesigenic dyskinesia or choreoathetosis, paroxysmal exercise-induced dyskinesia, and paroxysmal non-kinesigenic dyskinesia. Each subtype is associated with the known causative genes PRRT2, SLC2A1 and PNKD, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia, paroxysmal non-kinesigenic dyskinesia, episodic ataxia and myotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1 mutations were associated with variable phenotypes including paroxysmal kinesigenic dyskinesia, paroxysmal non-kinesigenic dyskinesia, episodic ataxia and myotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "38663152",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1-related neurodevelopmental disorder (SLC6A1-NDD) is a rare genetic disorder linked to autism spectrum disorder, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1-related neurodevelopmental disorder (SLC6A1-NDD) is a rare genetic disorder linked to autism spectrum disorder, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1-related neurodevelopmental disorder (SLC6A1-NDD) is a rare genetic disorder linked to autism spectrum disorder, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

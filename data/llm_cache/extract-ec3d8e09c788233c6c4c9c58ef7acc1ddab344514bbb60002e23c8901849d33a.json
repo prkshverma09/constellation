@@ -1,0 +1,16 @@
+{
+  "pmid": "33588936",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The proline-rich transmembrane protein 2 (PRRT2) was the first identified causative gene of PKD, accounting for the majority of PKD cases worldwide.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

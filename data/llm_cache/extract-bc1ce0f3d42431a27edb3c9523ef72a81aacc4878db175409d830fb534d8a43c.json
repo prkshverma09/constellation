@@ -1,0 +1,136 @@
+{
+  "pmid": "36408521",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cluster seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cluster seizures (100%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "fever sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "fever sensitivity (73%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal seizures (91%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay/intellectual disability (DD/ID, 82%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features (45%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset at 6 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median seizure onset age was 6 months (range: 4-9 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variant types included missense variants (42%), truncating variants (52%), splice variants (3%), and whole PCDH19 deletion (3%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seventy-five percent of variants from the high VAF group were missense, whereas 89% of those from the low VAF group were truncations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants tended to have higher VAFs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "more severe epileptic phenotype associated with high VAF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with a high VAF were more likely to have a more severe epileptic phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "difference in median seizure onset age between low and high VAF groups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median seizure onset age was 6 months in the low VAF group and 9 months in the high VAF group (p = 0.018).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free ≥1 year more frequent in low VAF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Forty-four percent (4/9) of patients from the low VAF group achieved seizure-free for ≥1 year, whereas none of the 12 patients from the high VAF group did (p = 0.021).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability more frequent in high VAF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DD/ID was present in 83% (10/12) of the high VAF group and 56% (5/9) of the low VAF group (p = 0.331).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "36389226",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "transmembrane protein and member of the protocadherin family",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is a transmembrane protein and member of the protocadherin family.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19-clustering epilepsy (PCDH19-CE) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more than 200 mutations have been linked to the neurodevelopmental PCDH-clustering epilepsy (PCDH19-CE) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "mosaic absence of PCDH19 causes disturbed cell-cell contact proposed to cause the syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A disturbed cell-cell contact that arises when random X-inactivation creates mosaic absence of PCDH19 has been proposed to cause the syndrome.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "roles in neuronal proliferation, migration, and synapse function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several studies have shown roles for PCDH19 in neuronal proliferation, migration, and synapse function, yet most of them have focused on cortical and hippocampal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cortical interneuron migration is affected by altering PCDH19 dosage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical interneuron migration is affected by altering PCDH19 dosage by means of overexpression in brain slices and medial ganglionic eminence (MGE) explants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "reduced PCDH19 expression causes subtle defects in MGE explants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also detect subtle defects when PCDH19 expression was reduced in MGE explants, suggesting that the dosage of PCDH19 is important for proper interneuron migration.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "heterozygote, but not in homozygote PCDH19 knockout animals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirm this finding in vivo by showing a mild reduction in interneuron migration in heterozygote, but not in homozygote PCDH19 knockout animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "subdomains of PCDH19 have a different impact on cell survival and interneuron migration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, we provide evidence that subdomains of PCDH19 have a different impact on cell survival and interneuron migration.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "non-cell-autonomous effect of PCDH19 dosage changes on migration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrating a non-cell-autonomous effect of PCDH19 dosage changes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "new roles for the extracellular and cytoplasmic domains of PCDH19",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, our findings suggest new roles for the extracellular and cytoplasmic domains of PCDH19 and support that cortical interneuron migration is dependent on balanced PCDH19 dosage.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

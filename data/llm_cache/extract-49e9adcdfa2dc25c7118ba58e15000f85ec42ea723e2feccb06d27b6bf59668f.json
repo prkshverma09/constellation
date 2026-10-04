@@ -1,0 +1,86 @@
+{
+  "pmid": "35435735",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "monoallelic loss-of-function variants in the SCN1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AAV9-REGABA-eTFSCN1A was engineered to upregulate SCN1A expression levels within GABAergic inhibitory interneurons to correct the underlying haploinsufficiency and circuit dysfunction.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "alpha subunit of the voltage-gated type I sodium channel (NaV1.1) responsible for generation of action potentials in GABAergic inhibitory interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A encodes for the alpha subunit of the voltage-gated type I sodium channel (NaV1.1), the primary voltage-gated sodium channel responsible for generation of action potentials in GABAergic inhibitory interneurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a+/- mouse model of DS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a+/- mouse model of DS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "increased SCN1A mRNA transcripts and NaV1.1 protein levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "led to increased SCN1A mRNA transcripts, specifically within GABAergic inhibitory interneurons, and NaV1.1 protein levels in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "decrease in spontaneous and hyperthermia-induced seizures and prolonged survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This was associated with a significant decrease in the occurrence of spontaneous and hyperthermia-induced seizures, and prolonged survival for over a year.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "widespread vector biodistribution and transgene expression throughout the brain including hippocampus and cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delivery of AAV9-REGABA-eTFSCN1A by unilateral ICV injection led to widespread vector biodistribution and transgene expression throughout the brain, including key structures involved in epilepsy and cognitive behaviors, such as hippocampus and cortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "well tolerated in nonhuman primates (no adverse events, no adverse histopathology findings, no dorsal root ganglion-related toxicity)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AAV9-REGABA-eTFSCN1A was well tolerated, with no adverse events during administration, no detectable changes in clinical observations, no adverse findings in histopathology, and no dorsal root ganglion-related toxicity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

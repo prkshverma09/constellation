@@ -1,0 +1,16 @@
+{
+  "pmid": "40462179",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "up-regulated in MMD group",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCR analysis revealed that model genes RGS1, MUC1, KCNA2, TAC1, and SOST were all up-regulated in MMD group.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

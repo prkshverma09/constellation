@@ -1,0 +1,26 @@
+{
+  "pmid": "33839563",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in all three and possibly four FHM genes can cause epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy precedes hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All mutations except ATP1A2, which could not be evaluated due to insufficient data, revealed first epilepsy then HM.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

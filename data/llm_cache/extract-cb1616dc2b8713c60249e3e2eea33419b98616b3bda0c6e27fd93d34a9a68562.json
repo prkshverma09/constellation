@@ -1,0 +1,16 @@
+{
+  "pmid": "37321222",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "higher expression of FRRS1L, implicated in AMPA receptor trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

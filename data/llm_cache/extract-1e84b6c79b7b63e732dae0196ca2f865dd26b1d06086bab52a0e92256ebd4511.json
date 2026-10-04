@@ -1,0 +1,16 @@
+{
+  "pmid": "26271793",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To date, approximately 265 genes have been defined in epilepsy and several genes including STXBP1, ARX, SLC25A22, KCNQ2, CDKL5, SCN1A, and PCDH19 have been found to be associated with early-onset epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "38454084",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Clustering Epilepsy (CE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clustering Epilepsy (CE) is a neurological disorder caused by pathogenic variants of the Protocadherin 19 (PCDH19) gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cell adhesion and Estrogen Receptor α mediated-gene regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 encodes a protein involved in cell adhesion and Estrogen Receptor α mediated-gene regulation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "developing mouse hippocampus and cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developing mouse hippocampus and cortex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "actin, microtubule, and gene regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 interacts with proteins involved in actin, microtubule, and gene regulation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "CAPZA1, αN-catenin and β-catenin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report CAPZA1, αN-catenin and, importantly, β-catenin as novel PCDH19 interacting proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "β-catenin transcriptional activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is a regulator of β-catenin transcriptional activity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "β-catenin pathway disrupted in CE individuals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this pathway is disrupted in CE individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cytoskeletal network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "support the involvement of PCDH19 in the cytoskeletal network",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

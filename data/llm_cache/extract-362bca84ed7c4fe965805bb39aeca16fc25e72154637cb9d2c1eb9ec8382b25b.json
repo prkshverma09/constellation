@@ -1,0 +1,16 @@
+{
+  "pmid": "35363364",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy recognized in Saudi epileptic patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WDR45B, WWOX, UBR, UGDH, and YIF1B.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

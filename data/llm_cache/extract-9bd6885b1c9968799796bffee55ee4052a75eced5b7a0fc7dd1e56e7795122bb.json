@@ -1,0 +1,36 @@
+{
+  "pmid": "27458546",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A significant interactive two-locus model of STX1A_rs4363087|VAMP2_rs2278637 (presynaptic genes) was observed among SVC variants in all epilepsy cases (P 1000-value = 0.054; CVC = 9/10; OR = 2.86, 95%CI = 1.88-4.35).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A significant interactive two-locus model of STX1A_rs4363087|VAMP2_rs2278637 (presynaptic genes) was observed among SVC variants in all epilepsy cases (P 1000-value = 0.054; CVC = 9/10; OR = 2.86, 95%CI = 1.88-4.35).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "cryptogenic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A significant interactive two-locus model of STX1A_rs4363087|VAMP2_rs2278637 (presynaptic genes) was observed among SVC variants in all epilepsy cases (P 1000-value = 0.054; CVC = 9/10; OR = 2.86, 95%CI = 1.88-4.35). Further, subgroup analysis revealed stronger interaction for the same model in cryptogenic epilepsy patients only (P 1000-value = 0.012; CVC = 10/10; OR = 4.59, 95%CI = 2.57-8.22).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

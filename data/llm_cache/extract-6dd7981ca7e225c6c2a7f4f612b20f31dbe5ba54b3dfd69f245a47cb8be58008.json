@@ -1,0 +1,176 @@
+{
+  "pmid": "39358332",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "SYNGAP1-related intellectual disability (SRID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of SYNGAP1 directly causes a genetically identifiable neurodevelopmental disorder (NDD) called SYNGAP1-related intellectual disability (SRID).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Without functional SynGAP1 protein, individuals are developmentally delayed",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have prominent features of intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor impairments",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous loss of SYNGAP1/Syngap1 is lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations of Syngap1 result in a broad range of behavioral phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 loss rodent models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several rodent models with a loss of Syngap1 have been engineered",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "original mouse model from the Huganir laboratory (Syngap1+/-)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using the original mouse model from the Huganir laboratory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "robust hyperactivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "learning and memory deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deficits in learning and memory in young adults",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sleep impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairments in the domain of sleep",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated spiking events and spike trains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1+/- mice exhibited elevated spiking events and spike trains",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated delta power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "elevated power, most notably in the delta power frequency.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased network firing activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary neurons from Syngap1+/- mice displayed: 1) increased network firing activity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "greater bursts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2) greater bursts",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "shorter inter-burst intervals between peaks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "3) and shorter inter-burst intervals between peaks",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

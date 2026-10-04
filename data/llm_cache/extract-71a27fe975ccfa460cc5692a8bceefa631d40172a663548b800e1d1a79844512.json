@@ -1,0 +1,16 @@
+{
+  "pmid": "30343341",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "2-month-old Atm-/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Concomitant dysregulations were found for Vglut2/Sema7a as climbing fiber markers, glutamate receptors like Grin2b, and calcium homeostasis factors (Atp2b2, Calb1, Itpr1), while factors involved in DNA damage, oxidative stress, neuroinflammation, and cell adhesion were normal at this stage.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

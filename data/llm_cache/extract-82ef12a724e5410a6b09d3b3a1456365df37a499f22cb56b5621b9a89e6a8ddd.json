@@ -1,0 +1,46 @@
+{
+  "pmid": "37548038",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay or intellectual disability; hypotonia; movement disorders; epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are characterized by developmental delay or intellectual disability, hypotonia, movement disorders, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "harboring 12 distinct missense variants, including four novel variants (p.K46R, p.T48I, p.R209P, and p.L235P)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "molecular mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we found a significant correlation between clinical severity scores and molecular mechanisms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "unique disease mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with the same variant had comparable severity scores, indicating that differences in disease profiles are not due to interpatient variability, but rather, to unique disease mechanisms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

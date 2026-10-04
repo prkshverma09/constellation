@@ -1,0 +1,66 @@
+{
+  "pmid": "39409184",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Underlying heterozygous pathogenic variants in the Forkhead Box G1 (FOXG1) gene with resulting impaired or loss of FOXG1 function lead to severe neurological impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "Foxg1 c946del mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To study this variant in vivo, we generated and characterized Foxg1 c946del mice that recapitulate hallmarks of the human disorder.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "neurological symptoms with aberrant neuronal networks and increased seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Accordingly, heterozygous Foxg1 c946del mice display neurological symptoms with aberrant neuronal networks and increased seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "overexpression of proteolipid protein 1 (Plp1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specifically, we showed that expression of the c946del mutant and of other pathogenic FOXG1 variants correlated with overexpression of proteolipid protein 1 (Plp1)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "Plp1-targeting antisense oligonucleotides (ASOs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Postnatal administration of Plp1-targeting antisense oligonucleotides (ASOs) in Foxg1 c946del mice improved neurological deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "Plp1 as a target for therapeutic strategies in FOXG1 syndrome patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data suggest Plp1 as a new target for therapeutic strategies mitigating disease phenotypes in FOXG1 syndrome patients.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

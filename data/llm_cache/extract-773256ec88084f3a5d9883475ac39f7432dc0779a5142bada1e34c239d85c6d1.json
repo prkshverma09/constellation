@@ -1,0 +1,46 @@
+{
+  "pmid": "36047730",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "Kv7.2 channel subunit encoded by the KCNQ2 gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv7.2 channel subunit encoded by the KCNQ2 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "a benign form with self-limited epileptic seizures and normal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a benign form with self-limited epileptic seizures and normal development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "severe forms with intractable epileptic seizures and encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe forms with intractable epileptic seizures and encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "model",
+      "object_text": "Kcnq2 mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The diversity of Kcnq2 mouse models has proven invaluable to access neuronal networks and evaluate the associated cognitive deficits.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

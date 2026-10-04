@@ -1,0 +1,166 @@
+{
+  "pmid": "38269327",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "plays vital roles in inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "plays vital roles in inhibitory neurons",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with developmental and epileptic encephalopathy (DEE)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy (IGE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and idiopathic generalized epilepsy (IGE)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three missense mutations (p.His83Asn, p.Val207Phe, and p.Arg214Cys)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "predicted to decrease the protein stability but no hydrogen bond alteration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were predicted to decrease the protein stability but no hydrogen bond alteration",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "mild genetic epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with mild genetic epilepsy with febrile seizures plus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "monotherapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "achieved seizure-free status by monotherapy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "predicted to decrease protein stability and destroy hydrogen bonds with surrounding residues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "was predicted to decrease protein stability and destroy hydrogen bonds with surrounding residues",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "severe DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recurrently identified in three cases with severe DEE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "extension of 47 amino acids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused an extension of 47 amino acids",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "moderated epilepsy with generalized tonic-clonic seizures alone (GTCA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with moderated epilepsy with generalized tonic-clonic seizures alone (GTCA)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "four drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "achieved seizure-free status by four drugs",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "FS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with mutations in the N-terminal extracellular region presented a significantly higher percentage of FS and DEE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with mutations in the N-terminal extracellular region presented a significantly higher percentage of FS and DEE",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset ages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the patients with variants in the transmembrane region presented earlier seizure onset ages",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "EFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 variants were potentially associated with a spectrum of epilepsies, including EFS+, DEE, and GTCA",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

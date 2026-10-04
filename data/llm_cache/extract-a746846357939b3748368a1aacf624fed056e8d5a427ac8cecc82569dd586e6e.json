@@ -1,0 +1,36 @@
+{
+  "pmid": "33390903",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "accessory subunit of VGCC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2/α2δ-2, an accessory subunit of VGCC,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "downregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The results of the biochemical and morphological investigations of CACNA2D2/α2δ-2, an accessory subunit of VGCC, were in accordance with the downregulation of the corresponding gene",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced number of functional channels at the plasma membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consistent with the hypothesis that a lower number of functional channels may reach the plasma membrane.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

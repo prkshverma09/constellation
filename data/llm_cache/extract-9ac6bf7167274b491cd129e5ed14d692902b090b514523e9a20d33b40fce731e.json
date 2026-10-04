@@ -1,0 +1,96 @@
+{
+  "pmid": "42286426",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "a range of neurological and developmental manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 encephalopathy is a rare autosomal dominant genetic condition characterized by a range of neurological and developmental manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "treatment-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "treatment-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "structural brain abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "structural brain abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "well-controlled epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "well-controlled epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "mild dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild dysmorphic features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "GTPase domain variants confer a more severe presentation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disease-causing variants in the GTPase domain were thought to confer a more severe presentation.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "expanded and more variable phenotypic spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This supports an expanded and more variable phenotypic spectrum of DNM1 encephalopathy than previously recognized.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

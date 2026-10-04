@@ -1,0 +1,166 @@
+{
+  "pmid": "37669379",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "Ras-GTPase-activating protein at excitatory synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a Ras-GTPase-activating protein highly enriched at excitatory synapses in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo loss-of-function mutations in SYNGAP1 are a major cause of genetically defined neurodevelopmental disorders (NDDs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "social deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "social deficits",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sleep disturbances",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates developing excitatory synapse structure and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 regulates developing excitatory synapse structure and function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "heterozygous Syngap1 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous Syngap1 knockout mice have deficits in synaptic plasticity, learning, and memory and have seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "SYNGAP1; L813RfsX22",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1; L813RfsX22",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "SYNGAP1; c.3583-9G>A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1; c.3583-9G>A",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "~50% reduction in Syngap1 protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both models show ~50% reduction in Syngap1 protein",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "deficits in synaptic plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have deficits in synaptic plasticity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperactivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired working memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired working memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data suggest that half the amount of SYNGAP1 protein is key to the pathogenesis of SRID.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "framework for the development of therapeutic strategies for this disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "establish a framework for the development of therapeutic strategies for this disorder.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

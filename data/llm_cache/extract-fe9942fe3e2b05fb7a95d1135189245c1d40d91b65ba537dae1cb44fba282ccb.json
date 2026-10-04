@@ -1,0 +1,56 @@
+{
+  "pmid": "30132828",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five missense variants, one in-frame deletion, one nonsense variant, and one intronic splice-site variant were identified, representing a 1.7% diagnostic yield.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using a [3 H]-GABA transport assay, the seven identified exonic variants were found to reduce GABA transport activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A minigene splicing assay revealed that the splice-site variant disrupted canonical splicing of exon 9 in the mRNA transcript, leading to premature protein truncation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "childhood epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 is an important contributor to childhood epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced GAT-1 function is a common consequence of epilepsy-causing SLC6A1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

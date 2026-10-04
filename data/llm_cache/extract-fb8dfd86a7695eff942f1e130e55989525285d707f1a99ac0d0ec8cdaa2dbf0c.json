@@ -1,0 +1,26 @@
+{
+  "pmid": "35426160",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "AOA4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AOA1, AOA2, AOA3, and AOA4 subtypes may present pathogenic variants in APTX, SETX, PIK3R5, and PNKP genes, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic variants in PNKP (12 patients)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found pathogenic variants in SETX (15 patients), PNKP (12), and APTX (5).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

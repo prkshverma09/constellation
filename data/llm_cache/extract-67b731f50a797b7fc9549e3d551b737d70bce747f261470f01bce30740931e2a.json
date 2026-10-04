@@ -1,0 +1,36 @@
+{
+  "pmid": "36259267",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "rare and orphan diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel disease indications viz. rare and orphan diseases associated with target Glutamate Ionotropic Receptor NMDA Type Subunit 1, GRIN1",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "Narciclasine (ZINC04097652) and Alvespimycin (ZINC73138787)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identification of Narciclasine (ZINC04097652) and Alvespimycin (ZINC73138787) as potential inhibitors.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "potential drug to recuperate schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which suggests that the identified leads could be a better potential drug to recuperate schizophrenia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

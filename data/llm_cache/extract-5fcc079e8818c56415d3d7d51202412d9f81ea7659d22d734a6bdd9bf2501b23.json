@@ -1,0 +1,16 @@
+{
+  "pmid": "39519162",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "dental abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic variations in KIF1A, FZD8, and PDGFA may underlie these dental abnormalities.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "29588952",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic cryptogenic neonatal/infantile EE (NIEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants of uncertain significance (VUS) were found in DNM1 and TUBA8 in 2 NIEE patients (2/31; 6%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

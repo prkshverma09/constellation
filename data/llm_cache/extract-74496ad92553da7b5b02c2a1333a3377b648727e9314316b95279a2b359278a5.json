@@ -1,0 +1,86 @@
+{
+  "pmid": "41460161",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "Gαo subunit of heterotrimeric G proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1, which encodes the Gαo subunit of heterotrimeric G proteins,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dystonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "dominantly engage GPCRs or sequester Gβγ",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several Gαo variants have been independently reported to dominantly engage G protein-coupled receptors (GPCRs) or to sequester Gβγ-two seemingly incompatible mechanisms inferred from distinct, indirect biosensor assays.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "fail to disengage from activated Gi/o-coupled GPCRs, preventing receptor phosphorylation and endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe Gαo variants fail to disengage from activated Gi/o-coupled GPCRs, thereby preventing downstream receptor phosphorylation and endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "near-normal receptor internalization and only minor phosphorylation defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "milder dystonia-linked mutants showed near-normal receptor internalization and only minor phosphorylation defects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "split-YFP-based bimolecular fluorescence complementation (BiFC) assay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we developed a split-YFP-based bimolecular fluorescence complementation (BiFC) assay to directly visualize receptor-Go protein complexes at the plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "dominant GPCR coupling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings establish dominant GPCR coupling as a molecular hallmark of severe GNAO1 encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

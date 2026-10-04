@@ -1,0 +1,26 @@
+{
+  "pmid": "38836461",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "recombinant receptors expressed in non-neuronal cells; neuronal preparations; animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In recent years, some disease-associated variants in GRIN genes have been characterized using recombinant receptors expressed in non-neuronal cells, and a few variants have also been studied in neuronal preparations or animal models. Here we review the current literature on the functional evaluation of human disease-associated variants in GRIN1, GRIN2A and GRIN2B genes at all levels of analysis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "effects on receptor agonist and co-agonist affinity; channel open probability; receptor cell surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we review the current literature on the functional evaluation of human disease-associated variants in GRIN1, GRIN2A and GRIN2B genes at all levels of analysis. Focusing on the impact of different patient variants at the level of receptor function, we discuss effects on receptor agonist and co-agonist affinity, channel open probability, and receptor cell surface expression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

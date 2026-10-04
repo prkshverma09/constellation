@@ -1,0 +1,46 @@
+{
+  "pmid": "31368118",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "Gabra1+/A322D juvenile myoclonic epilepsy mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabra1+/A322D juvenile myoclonic epilepsy mouse",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures with spike-wave discharges (SWDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SWDs, IS, and MS in the Gabra1+/A322D juvenile myoclonic epilepsy mouse",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic interictal spikes (IS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SWDs, IS, and MS in the Gabra1+/A322D juvenile myoclonic epilepsy mouse",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures (MS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SWDs, IS, and MS in the Gabra1+/A322D juvenile myoclonic epilepsy mouse",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

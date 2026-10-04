@@ -1,0 +1,66 @@
+{
+  "pmid": "35802036",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "Nav 1.6 sodium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A gene encoding the Nav 1.6 sodium channel",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "intractable multivariate seizures and developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is characterized by intractable multivariate seizures and developmental regression",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine treatment — seizure reduction 60%-90%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall seizure reduction was 60%-90% in the last 3, 6, and 12 months of fenfluramine treatment.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine treatment — improvement in non-seizure comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinically meaningful improvement was noted in \u000221non-seizure comorbidity per patient after fenfluramine",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine — no reported valvular heart disease or pulmonary arterial hypertension in series",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There were no reports of valvular heart disease or pulmonary arterial hypertension.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine may be a promising antiseizure medication for SCN8A-related disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fenfluramine may be a promising ASM for randomized clinical trials in SCN8A-related disorders.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

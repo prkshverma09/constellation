@@ -1,0 +1,16 @@
+{
+  "pmid": "34177764",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal kinesigenic dyskinesia is most commonly associated with variants in PRRT2 but also variants identified in PNKD, SCN8A, and SCL2A1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

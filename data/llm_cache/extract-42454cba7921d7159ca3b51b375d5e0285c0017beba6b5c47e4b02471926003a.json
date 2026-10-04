@@ -1,0 +1,16 @@
+{
+  "pmid": "40381457",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "Ras-Raf-MEK-ERK inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ras-Raf-MEK-ERK inhibitors for SYNGAP1 pathologies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

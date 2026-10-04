@@ -1,0 +1,16 @@
+{
+  "pmid": "38528770",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "prognostication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants identified have potential implications for treatment (SCN1), comorbidity screening (TSC1), reproduction (ATAD1, PSAT1, and CLN8), and prognostication (FOXG1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

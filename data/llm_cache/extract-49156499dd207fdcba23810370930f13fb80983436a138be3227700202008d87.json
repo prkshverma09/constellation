@@ -1,0 +1,56 @@
+{
+  "pmid": "34012379",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "Early infantile epileptic encephalopathy (EIEE) type 54",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early infantile epileptic encephalopathy (EIEE) type 54 is a rare epileptic encephalopathy caused by pathogenic variants in the heterogeneous nuclear ribonucleoprotein U (HNRNPU) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe episodes of hyperventilation and apnea, leading to syncope",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A novel and likely pathogenic c.2277dup, p.(Pro760Serfs*5) variant in the HNRNPU gene was found in a male patient with severe episodes of hyperventilation and apnea, leading to syncope.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide, alprazolam and aripiprazole",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Combination therapy with acetazolamide, alprazolam and aripiprazole led to significant clinical improvement.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "abnormal breathing patterns reminiscent of Rett and Pitt-Hopkins syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although HNRNPU has not been implicated in breathing control, pathogenic variants in this gene can be associated with the development of abnormal breathing patterns reminiscent of Rett and Pitt-Hopkins syndrome.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "gene expression regulator and interaction with transcription factors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Its function as a gene expression regulator and its interaction with transcription factors offers a potential pathogenetic link between these 3 disorders.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

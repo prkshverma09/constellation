@@ -1,0 +1,66 @@
+{
+  "pmid": "27066543",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "large mechanochemical GTPase essential for neuronal synaptic vesicle endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes a large mechanochemical GTPase essential for neuronal synaptic vesicle endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the expression of each mutant protein decreased endocytosis activity in a dominant-negative manner.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "higher-order DNM1 oligomerization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The G359A mutation, which occurs in the middle domain, disrupted higher-order DNM1 oligomerization.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "model",
+      "object_text": "mice harboring a middle-domain Dnm1 mutation (Dnm1 (Ftfl))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice harboring a middle-domain Dnm1 mutation (Dnm1 (Ftfl))",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "DNM1's vesicle scission activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mutations likely interfere with DNM1's vesicle scission activity.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "serious early-onset epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the dysfunction of vesicle scission during synaptic vesicle endocytosis can lead to serious early-onset epilepsies.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

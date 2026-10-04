@@ -1,0 +1,116 @@
+{
+  "pmid": "41118617",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 variants are the most common genetic cause of focal epilepsy, often linked to focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often linked to focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By age 10, 76.1% of variant carriers developed epilepsy, with a cumulative penetrance of 64.9% (n = 380/586, 95% CI 60.8%-68.7%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Drug resistance occurred in 48.3% of cases,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cortical malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical malformations were present in 28% of those with available MRI.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sudden unexpected death in epilepsy accounted for 16% (n = 4/25) of deaths among affected individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early seizure onset strongly correlated with drug resistance (p = 2.4e-08, W = 2,220.5, median = 1.33 vs 7)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability (p = 2.1e-08, W = 1,525.5, median = 0.9 vs 7)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "lesional MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lesional MRI (p = 2.2e-08, W = 4,914.5, median = 0.5 vs 7).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among drug-resistant individuals undergoing surgery (34.7% [n = 35/101]), 88% achieved favorable outcomes (Engel I or II).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "early surgical intervention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including consideration of early surgical intervention, particularly for children with early-onset DEPDC5-related epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "37225406",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset central hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset central hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "symptom onset within the first months of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "symptom onset within the first months of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "complex hypertonic and hyperkinetic movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a complex hypertonic and hyperkinetic movement disorder is a common phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dystonia (84%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "choreoathetosis (52%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "life-threatening hyperkinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twelve (48%) patients suffered life-threatening hyperkinetic crises.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with poor treatment response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fifteen (60%) patients had epilepsy with poor treatment response.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deep brain stimulation reduced hyperkinetic symptoms and prevented further hyperkinetic crises.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

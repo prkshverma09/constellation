@@ -1,0 +1,16 @@
+{
+  "pmid": "40633241",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical data also suggests that PBA may have a therapeutic effect for SYNGAP1.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "42638935",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been implicated in various CNS abnormalities including epilepsy, multiple sclerosis, schizophrenia, and cognitive disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "multiple sclerosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been implicated in various CNS abnormalities including epilepsy, multiple sclerosis, schizophrenia, and cognitive disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been implicated in various CNS abnormalities including epilepsy, multiple sclerosis, schizophrenia, and cognitive disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cognitive disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been implicated in various CNS abnormalities including epilepsy, multiple sclerosis, schizophrenia, and cognitive disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "expression in plasmacytoid dendritic cells (pDCs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 has recently been demonstrated in a highly specialized group of immune system cells-plasmacytoid dendritic cells (pDCs).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "expression in the absence of other AMPA receptor subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they express GRIA3 in the absence of other AMPA receptor subunits, suggesting a possible role for the subunit in those neuroimmune disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

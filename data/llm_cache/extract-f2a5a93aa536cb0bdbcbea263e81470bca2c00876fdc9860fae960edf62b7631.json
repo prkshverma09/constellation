@@ -1,0 +1,86 @@
+{
+  "pmid": "30245510",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that 16p13.3 microdeletions resulting in simultaneous haploinsufficiencies of TBC1D24, ATP6V0C, and PDPK1 cause a novel rare contiguous gene deletion syndrome of microcephaly, developmental delay, intellectual disability, and epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that 16p13.3 microdeletions resulting in simultaneous haploinsufficiencies of TBC1D24, ATP6V0C, and PDPK1 cause a novel rare contiguous gene deletion syndrome of microcephaly, developmental delay, intellectual disability, and epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that 16p13.3 microdeletions resulting in simultaneous haploinsufficiencies of TBC1D24, ATP6V0C, and PDPK1 cause a novel rare contiguous gene deletion syndrome of microcephaly, developmental delay, intellectual disability, and epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that 16p13.3 microdeletions resulting in simultaneous haploinsufficiencies of TBC1D24, ATP6V0C, and PDPK1 cause a novel rare contiguous gene deletion syndrome of microcephaly, developmental delay, intellectual disability, and epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that 16p13.3 microdeletions resulting in simultaneous haploinsufficiencies of TBC1D24, ATP6V0C, and PDPK1 cause a novel rare contiguous gene deletion syndrome of microcephaly, developmental delay, intellectual disability, and epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "nonsyndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bi-allelic TBC1D24 pathogenic variants are known to cause nonsyndromic deafness, epileptic disorders, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, mental retardation, seizures).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epileptic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bi-allelic TBC1D24 pathogenic variants are known to cause nonsyndromic deafness, epileptic disorders, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, mental retardation, seizures).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Bi-allelic TBC1D24 pathogenic variants are known to cause nonsyndromic deafness, epileptic disorders, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, mental retardation, seizures).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

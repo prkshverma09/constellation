@@ -1,0 +1,16 @@
+{
+  "pmid": "39191070",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FCDs are classified into three subtypes associated with loss-of-function mutations in PI3K/AKT, TSC1/TSC2, RHEB, and DEPDC/NPRL2/NPRL3.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

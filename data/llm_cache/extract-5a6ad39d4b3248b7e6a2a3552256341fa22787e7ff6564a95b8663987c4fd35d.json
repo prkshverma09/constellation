@@ -1,0 +1,36 @@
+{
+  "pmid": "16100538",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "EA 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EA 2 by mutations in the calcium channel gene CACNA1A gene on chromosome 19p13",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine 1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the CACNA1A gene can cause familial hemiplegic migraine 1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia 6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the CACNA1A gene can cause familial hemiplegic migraine 1 and spinocerebellar ataxia 6",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

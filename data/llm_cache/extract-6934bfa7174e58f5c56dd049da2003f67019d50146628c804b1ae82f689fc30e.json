@@ -1,0 +1,16 @@
+{
+  "pmid": "38782404",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this compound also blocked KCNT2 currents, although with a lower potency",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

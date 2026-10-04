@@ -1,0 +1,106 @@
+{
+  "pmid": "34693554",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline loss-of-function mutations in DEPDC5, and in its binding partners (NPRL2/3) of the mammalian target of rapamycin (mTOR) repressor GATOR1 complex, cause focal epilepsies and increase the risk of sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline loss-of-function mutations in DEPDC5, and in its binding partners (NPRL2/3) of the mammalian target of rapamycin (mTOR) repressor GATOR1 complex, cause focal epilepsies and increase the risk of sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline loss-of-function mutations in DEPDC5, and in its binding partners (NPRL2/3) of the mammalian target of rapamycin (mTOR) repressor GATOR1 complex, cause focal epilepsies and increase the risk of sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "human HA-tagged Depdc5 strain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two novel Depdc5 mouse strains, a human HA-tagged Depdc5 strain and a Depdc5 heterozygous knockout with a neuron-specific deletion of the second allele (Depdc5c/- ), were generated to investigate the role of Depdc5 in SUDEP and cardiac activity during seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Depdc5 heterozygous knockout with a neuron-specific deletion of the second allele (Depdc5c/- )",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two novel Depdc5 mouse strains, a human HA-tagged Depdc5 strain and a Depdc5 heterozygous knockout with a neuron-specific deletion of the second allele (Depdc5c/- ), were generated to investigate the role of Depdc5 in SUDEP and cardiac activity during seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "altered clinical cardiac function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Holter, echocardiographic, and electrocardiographic (ECG) examinations provided no evidence for altered clinical cardiac function in the patient cohort, of whom 3 DEPDC5 patients succumbed to SUDEP and 6 had a family history of SUDEP.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cardiac injury",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no cardiac injury at autopsy in a postmortem DEPDC5 SUDEP case.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "expression of Depdc5 in the brain, heart, and lungs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The HA-tagged Depdc5 mouse revealed expression of Depdc5 in the brain, heart, and lungs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "spontaneous epileptic seizures resulting in a SUDEP-like event are not preceded by cardiac arrhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Simultaneous electroencephalographic-ECG records on Depdc5c/- mice showed that spontaneous epileptic seizures resulting in a SUDEP-like event are not preceded by cardiac arrhythmia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "structural or functional cardiac damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mouse and human data show neither structural nor functional cardiac damage that might underlie a primary contribution to SUDEP in the spectrum of DEPDC5-related epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

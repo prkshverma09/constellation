@@ -1,0 +1,86 @@
+{
+  "pmid": "38963116",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "present on the presynaptic membrane and involved in neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SANP25, a protein present on the presynaptic membrane and involved in neurotransmitter release,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP25 deficiency can lead to synaptic disorders and inhibit neurotransmitter release.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficiency or variation of SNAP25 might be related to the onset of schizophrenia, epilepsy, attention deficit/hypoactivity disorder, bipolar disorder effective disorder, and autism.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficiency or variation of SNAP25 might be related to the onset of schizophrenia, epilepsy, attention deficit/hypoactivity disorder, bipolar disorder effective disorder, and autism.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit/hypoactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficiency or variation of SNAP25 might be related to the onset of schizophrenia, epilepsy, attention deficit/hypoactivity disorder, bipolar disorder effective disorder, and autism.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "bipolar disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficiency or variation of SNAP25 might be related to the onset of schizophrenia, epilepsy, attention deficit/hypoactivity disorder, bipolar disorder effective disorder, and autism.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficiency or variation of SNAP25 might be related to the onset of schizophrenia, epilepsy, attention deficit/hypoactivity disorder, bipolar disorder effective disorder, and autism.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "target of diagnosis or treatment for Alzheimer's disease and Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP25 has been found to be used as a neuropathological marker for neurological diseases, which could be the target of diagnosis or treatment of Alzheimer's disease and Parkinson's disease.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

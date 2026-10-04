@@ -1,0 +1,116 @@
+{
+  "pmid": "42210661",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3-related epilepsy (NRE) is a GATORopathy characterized by focal seizures, with or without focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3-related epilepsy (NRE) is a GATORopathy characterized by focal seizures, with or without focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function variants predominated (83%)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "penetrance of 76% (162/214)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealing an estimated penetrance of 76% (162/214).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizures starting at 1-2 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patients presented with seizures starting at 1-2 years of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal and focal to bilateral tonic-clonic seizures (FBTCS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proband 1 experienced focal and focal to bilateral tonic-clonic seizures (FBTCS),",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proband 2 had focal seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "sodium valproate, oxcarbazepine, and lacosamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 1 achieved seizure control with sodium valproate, oxcarbazepine, and lacosamide,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine and levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patient 2 responded to oxcarbazepine and levetiracetam.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci and sleep-related hypermotor epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 variants have been associated with syndromes such as familial focal epilepsy with variable foci and sleep-related hypermotor epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "incomplete penetrance and phenotypic variability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic and clinical heterogeneity of NRE, which is characterized by incomplete penetrance and phenotypic variability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

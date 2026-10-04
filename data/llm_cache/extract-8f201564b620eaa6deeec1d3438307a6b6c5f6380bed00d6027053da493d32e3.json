@@ -1,0 +1,76 @@
+{
+  "pmid": "25194483",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "β3 subunit of GABAA receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the genes encoding the α1, α6, β2, β3, γ2, or δ subunits (GABRA1, GABRA6, GABRB2, GABRB3, GABRG2, and GABRD, respectively)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations or genetic variations of the genes encoding the α1, α6, β2, β3, γ2, or δ subunits (GABRA1, GABRA6, GABRB2, GABRB3, GABRG2, and GABRD, respectively) have been associated with human epilepsy, both with and without febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations or genetic variations of the genes encoding the α1, α6, β2, β3, γ2, or δ subunits (GABRA1, GABRA6, GABRB2, GABRB3, GABRG2, and GABRD, respectively) have been associated with human epilepsy, both with and without febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, mutations of GABRA1, GABRB2, and GABRB3 were associated with infantile spasms and Lennox-Gastaut syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, mutations of GABRA1, GABRB2, and GABRB3 were associated with infantile spasms and Lennox-Gastaut syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "compromise hyperpolarization through GABAA receptors (leading to seizures)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations compromise hyperpolarization through GABAA receptors, which is believed to cause seizures.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "endoplasmic reticulum (ER)-associated degradation; nonsense-mediated mRNA decay; intracellular trafficking defects; ER stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most of the insufficiencies are not caused by receptor gating abnormalities, but by complex mechanisms, including endoplasmic reticulum (ER)-associated degradation, nonsense-mediated mRNA decay, intracellular trafficking defects, and ER stress.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

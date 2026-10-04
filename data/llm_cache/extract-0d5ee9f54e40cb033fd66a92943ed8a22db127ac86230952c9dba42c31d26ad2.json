@@ -1,0 +1,126 @@
+{
+  "pmid": "38360746",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 is an essential protein for presynaptic neurotransmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Its haploinsufficiency is the main disease mechanism",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "excitatory and inhibitory neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairs both excitatory and inhibitory neurotransmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "cell type-specific Stxbp1 haploinsufficient male and female mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell type-specific Stxbp1 haploinsufficient male and female mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in GABAergic/glycinergic neurons causes developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in GABAergic/glycinergic neurons causes developmental delay, epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "motor deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in GABAergic/glycinergic neurons causes developmental delay, epilepsy, and motor, cognitive, and psychiatric deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in GABAergic/glycinergic neurons causes developmental delay, epilepsy, and motor, cognitive, and psychiatric deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in GABAergic/glycinergic neurons causes developmental delay, epilepsy, and motor, cognitive, and psychiatric deficits",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in glutamatergic neurons results in a small subset of cognitive and seizure phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "seizure phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stxbp1 haploinsufficiency in glutamatergic neurons results in a small subset of cognitive and seizure phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "GABAergic/glycinergic dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAergic/glycinergic dysfunction as a key disease mechanism of STXBP1 encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

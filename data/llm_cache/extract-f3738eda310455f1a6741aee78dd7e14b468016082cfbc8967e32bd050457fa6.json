@@ -1,0 +1,86 @@
+{
+  "pmid": "34298454",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited familial infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Self-limited familial infantile epilepsy (SFIE) is largely associated with variants in proline-rich transmembrane protein 2 (PRRT2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.640G>C p.(Ala214Pro)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.955G>T p.(Val319Leu)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nine patients who had first-line treatment of oxcarbazepine (OXC) became seizure-free.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "initial treatment with levetiracetam (LEV) or sodium valproate (VPA) in eight and three patients, respectively, was not effective even after increasing the dosage, and seizure-free status was only achieved after changing the treatment to OXC.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "sodium valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "initial treatment with levetiracetam (LEV) or sodium valproate (VPA) in eight and three patients, respectively, was not effective even after increasing the dosage, and seizure-free status was only achieved after changing the treatment to OXC.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "OXC as a sodium channel blocker may have a better effect than LEV and VPA in the treatment of PRRT2-associated SFIE.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "PRRT2 variants as a biomarker to help select antiepileptic drugs for SFIE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 variants may be used as a biomarker to help select antiepileptic drugs for SFIE.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

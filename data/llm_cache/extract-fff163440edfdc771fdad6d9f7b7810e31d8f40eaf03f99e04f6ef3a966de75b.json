@@ -1,0 +1,156 @@
+{
+  "pmid": "38434323",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the alpha subunit of Go highly expressed in brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GNAO1 gene, encoding the alpha subunit of an inhibitory heterotrimeric guanine nucleotide-binding protein (Go) highly expressed in the mammalian brain",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been linked to encephalopathy characterized by different combinations of neurological symptoms, including developmental delay, hypotonia, epilepsy and hyperkinetic movement disorder with life-threatening paroxysmal exacerbations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been linked to encephalopathy characterized by different combinations of neurological symptoms, including developmental delay, hypotonia, epilepsy and hyperkinetic movement disorder with life-threatening paroxysmal exacerbations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been linked to encephalopathy characterized by different combinations of neurological symptoms, including developmental delay, hypotonia, epilepsy and hyperkinetic movement disorder with life-threatening paroxysmal exacerbations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorder with life-threatening paroxysmal exacerbations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been linked to encephalopathy characterized by different combinations of neurological symptoms, including developmental delay, hypotonia, epilepsy and hyperkinetic movement disorder with life-threatening paroxysmal exacerbations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "patient-derived induced pluripotent stem cells (hiPSCs) carrying the recurrent p.G203R amino acid substitution in Gαo, and a CRISPR-Cas9-genetically corrected isogenic control line",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a new in vitro model system based on patient-derived induced pluripotent stem cells (hiPSCs) carrying the recurrent p.G203R amino acid substitution in Gαo, and a CRISPR-Cas9-genetically corrected isogenic control line.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.G203R amino acid substitution in Gαo",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "aberrant cell fate commitment in neuronal progenitor cells carrying p.G203R",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RNA-Seq analysis highlighted aberrant cell fate commitment in neuronal progenitor cells carrying the p.G203R pathogenic variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "reduced expression of early neural genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients' cells showed reduced expression of early neural genes and increased expression of astrocyte markers, as well as premature and defective differentiation processes leading to aberrant formation of neuronal rosettes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "increased expression of astrocyte markers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients' cells showed reduced expression of early neural genes and increased expression of astrocyte markers, as well as premature and defective differentiation processes leading to aberrant formation of neuronal rosettes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "premature and defective differentiation leading to aberrant formation of neuronal rosettes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients' cells showed reduced expression of early neural genes and increased expression of astrocyte markers, as well as premature and defective differentiation processes leading to aberrant formation of neuronal rosettes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "lower basal intracellular free calcium concentration ([Ca2+]i) in p.G203R neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional characterization showed lower basal intracellular free calcium concentration ([Ca2+]i), reduced frequency of spontaneous activity, and a smaller response to several neurotransmitters in 40- and 50-days differentiated p.G203R neurons compared to control cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "reduced frequency of spontaneous activity in p.G203R neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional characterization showed lower basal intracellular free calcium concentration ([Ca2+]i), reduced frequency of spontaneous activity, and a smaller response to several neurotransmitters in 40- and 50-days differentiated p.G203R neurons compared to control cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "smaller response to several neurotransmitters in p.G203R neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional characterization showed lower basal intracellular free calcium concentration ([Ca2+]i), reduced frequency of spontaneous activity, and a smaller response to several neurotransmitters in 40- and 50-days differentiated p.G203R neurons compared to control cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "aberrant differentiation of neuronal and glial populations leading to alteration of neuronal communication and signal transduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest that the GNAO1 pathogenic variant causes a neurodevelopmental phenotype characterized by aberrant differentiation of both neuronal and glial populations leading to a significant alteration of neuronal communication and signal transduction.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

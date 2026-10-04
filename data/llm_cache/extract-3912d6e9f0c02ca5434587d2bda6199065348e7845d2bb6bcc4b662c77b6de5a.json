@@ -1,0 +1,26 @@
+{
+  "pmid": "38589703",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "neuropsychiatric traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirty new genes were associated with neuropsychiatric traits, with SYNGAP1 showing pleiotropic effects across cognitive function domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pleiotropic effects across cognitive function domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 showing pleiotropic effects across cognitive function domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

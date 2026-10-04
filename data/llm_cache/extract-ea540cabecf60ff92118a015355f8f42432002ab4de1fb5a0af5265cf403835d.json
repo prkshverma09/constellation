@@ -1,0 +1,36 @@
+{
+  "pmid": "24337656",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "High-frequency action potentials are mediated by voltage-gated sodium channels, composed of one large α subunit and two small β subunits, encoded mainly by SCN1A, SCN2A, SCN3A, SCN1B, and SCN2B genes in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A rs12467383 had OR = 1.16 for allele A (p = 0.01)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "SCN2A brain expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and displayed linkage disequilibrium with rs2082366 (r (2) = 0.67), whose genotypes tended toward association with SCN2A brain expression (p = 0.10).",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

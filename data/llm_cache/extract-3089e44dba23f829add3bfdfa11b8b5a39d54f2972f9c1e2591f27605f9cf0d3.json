@@ -1,0 +1,76 @@
+{
+  "pmid": "26290337",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA repair factor possessing both 5'-kinase and 3'-phosphatase activities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Polynucleotide kinase-phosphatase (PNKP) is a DNA repair factor possessing both 5'-kinase and 3'-phosphatase activities to modify ends of a DNA break prior to ligation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly with seizures (MCSZ) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, decreased PNKP levels were identified as the cause of severe neuropathology present in the human microcephaly with seizures (MCSZ) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "novel murine Pnkp alleles that attenuate expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel murine Pnkp alleles that attenuate expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "mice with PNKP inactivation in neural progenitors manifest neurodevelopmental abnormalities and postnatal death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice with PNKP inactivation in neural progenitors manifest neurodevelopmental abnormalities and postnatal death.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "defective base excision repair and non-homologous end-joining",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This severe phenotype involved defective base excision repair and non-homologous end-joining, pathways required for repair of both DNA single- and double-strand breaks.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "attenuated PNKP levels showed general neurodevelopmental defects, including microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attenuated PNKP levels (akin to MCSZ) showed general neurodevelopmental defects, including microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "broad requirement for genome maintenance during and after neurogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating a broad requirement for genome maintenance, both during and after neurogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

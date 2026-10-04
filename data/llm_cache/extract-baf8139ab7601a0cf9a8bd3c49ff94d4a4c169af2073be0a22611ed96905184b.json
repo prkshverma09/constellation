@@ -1,0 +1,56 @@
+{
+  "pmid": "38582517",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "developmental encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 syndrome is a developmental encephalopathy caused by FOXG1 (Forkhead box G1) mutations, resulting in high phenotypic variability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Foxg1 signaling is predominantly altered in Men1 deficiency mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multifaceted transcriptome analyses revealed that Foxg1 signaling is predominantly altered in Men1 deficiency mice, through its regulation of the Alpha Thalassemia/Mental Retardation Syndrome X-Linked (Atrx) factor.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Atrx recruits menin to bind to the transcriptional start region of Foxg1 and mediates regulation by H3K4me3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Atrx recruits menin to bind to the transcriptional start region of Foxg1 and mediates the regulation of Foxg1 expression by H3K4me3 (Trimethylation of histone H3 lysine 4) modification.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "over-expression of Foxg1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The deficits observed in menin deficient mice are rescued by the over-expression of Foxg1, leading to normalized spine growth and restoration of hippocampal synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "menin signaling as a potential therapeutic target for Foxg1-related encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest that menin may have a putative role in the maintenance of Foxg1 expression, highlighting menin signaling as a potential therapeutic target for Foxg1-related encephalopathy.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

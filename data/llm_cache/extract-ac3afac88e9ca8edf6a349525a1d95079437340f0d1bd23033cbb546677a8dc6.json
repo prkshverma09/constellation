@@ -1,0 +1,26 @@
+{
+  "pmid": "23618705",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In 2012, PRRT2 has been identified as the fourth FHM gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "axonal protein associated to the exocytosis complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes an axonal protein associated to the exocytosis complex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

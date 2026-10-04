@@ -1,0 +1,16 @@
+{
+  "pmid": "26224037",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "STX1B rs4889603 do not confer a significant risk for PD in Chinese population.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

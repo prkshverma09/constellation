@@ -1,0 +1,86 @@
+{
+  "pmid": "32222533",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cohesin-core complex; sister chromatid cohesion; chromosome segregation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It encodes a subunit of the cohesin-core complex that tethers sister chromatids together to ensure correct chromosome segregation in both mitosis and meiosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "gene transcription regulation and genome organization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As a member of the cohesin ring, SMC1A takes part in gene transcription regulation and genome organization;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "DNA Damage Repair (DDR) pathway; phosphorylated by ATM and ATR kinases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it participates in the DNA Damage Repair (DDR) pathway, being phosphorylated by Ataxia Telangiectasia Mutated (ATM) and Ataxia Telangiectasia and Rad3 Related (ATR) threonine/serine kinases.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "component of Recombination protein complex (RC-1) involved in DNA repair by recombination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is also a component of the Recombination protein complex (RC-1) involved in DNA repair by recombination.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome (CdLS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A pathogenic variants have been described in Cornelia de Lange syndrome (CdLS), a human rare disease,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants have been associated with epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "resembling Rett syndrome phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants have been associated with epilepsy or resembling Rett syndrome phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "several human cancers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants have been identified in several human cancers.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

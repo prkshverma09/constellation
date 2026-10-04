@@ -1,0 +1,76 @@
+{
+  "pmid": "40988338",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SRDs are primarily caused by haploinsufficiency of the SYNGAP1 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic scaffolding and signaling protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the synaptic scaffolding and signaling protein, SynGAP.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, motor impairment, and cognitive dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by severe neurological symptoms, including epilepsy, motor impairment, and cognitive dysfunction.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 heterozygous mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 heterozygous mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "SYNGAP1 delivery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 delivery alleviated several disease phenotypes in a Syngap1 heterozygous mouse model, including epileptiform activity, hyperactivity, and risk-taking behaviors.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "AAV-SYNGAP1 administration in juvenile mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AAV-SYNGAP1 administration in juvenile mice, which corresponds to the typical age of diagnosis in humans, rescued behavioral deficits, highlighting its clinical relevance.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "AAV-mediated gene therapy can restore SYNGAP1 function and reverse key phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings provide the first evidence that AAV-mediated gene therapy can restore SYNGAP1 function and reverse key phenotypes, supporting its potential as a transformative therapeutic for SRD patients.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

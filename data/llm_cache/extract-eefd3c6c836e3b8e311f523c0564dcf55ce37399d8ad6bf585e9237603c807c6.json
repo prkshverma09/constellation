@@ -1,0 +1,16 @@
+{
+  "pmid": "29735119",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal dyskinesias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes found to be involved in the pathogenesis of PD include MR-1, PRRT2, SLC2A1, and KCNMA1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

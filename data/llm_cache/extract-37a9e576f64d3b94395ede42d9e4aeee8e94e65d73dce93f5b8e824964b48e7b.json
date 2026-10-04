@@ -1,0 +1,156 @@
+{
+  "pmid": "41260400",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "sleep-related hypermotor epilepsy (SHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 (nitrogen permease regulator-like 3) variants are associated with focal epilepsy syndromes, including sleep-related hypermotor epilepsy (SHE) and familial focal epilepsy with variable foci (FFEVF), with or without focal cortical dysplasia (FCD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 (nitrogen permease regulator-like 3) variants are associated with focal epilepsy syndromes, including sleep-related hypermotor epilepsy (SHE) and familial focal epilepsy with variable foci (FFEVF), with or without focal cortical dysplasia (FCD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia (FCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI abnormalities were present in 10/36 (28%) cases: 8 FCD, 1 hippocampal sclerosis, and 1 hippocampal asymmetry.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hippocampal sclerosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI abnormalities were present in 10/36 (28%) cases: 8 FCD, 1 hippocampal sclerosis, and 1 hippocampal asymmetry.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hippocampal asymmetry",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MRI abnormalities were present in 10/36 (28%) cases: 8 FCD, 1 hippocampal sclerosis, and 1 hippocampal asymmetry.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "crisis-like seizure exacerbations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Crisis-like seizure exacerbations were common in NPRL3-associated epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "persistent focal epileptiform discharges on serial EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Persistent focal epileptiform discharges were present on serial EEGs in 20/37 patients (54%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure onset 3.7 years (mean)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mean age at seizure onset was 3.7 years (median with interquartile range [IQR] 1.3-4.9).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "no distinct genotype-phenotype correlation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No distinct genotype-phenotype correlation was identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The NPRL3 gene encodes a protein that forms the GATOR1 complex",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTOR signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which regulates the mTOR signaling pathway.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers showed notable efficacy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "lacosamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Highest drug response rates were seen with lacosamide, followed by clobazam, carbamazepine/oxcarbazepine, and lamotrigine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy surgery (n = 8) led to seizure freedom in four and significant reduction in one case.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery (beneficial in MRI-negative cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy surgery was beneficial even in MRI-negative cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

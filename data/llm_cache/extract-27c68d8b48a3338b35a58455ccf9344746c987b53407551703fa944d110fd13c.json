@@ -1,0 +1,16 @@
+{
+  "pmid": "36034301",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "photosensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MFSD8, KCNMA1, SZT2, FLNA, and SLC2A1 variants might be candidate genes for photosensitivity.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,126 @@
+{
+  "pmid": "26611353",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "clathrin-mediated endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin 1 (DNM1) is a large guanosine triphosphatase involved in clathrin-mediated endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo mutations in DNM1 have been identified in five individuals with epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, we report two patients with early onset epileptic encephalopathy possessing de novo DNM1 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using whole exome sequencing, we detected the novel mutation c.127G>A (p.Gly43Ser) in a patient with Lennox-Gastaut syndrome, and a recurrent mutation c.709C>T (p.Arg237Trp) in a patient with West syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using whole exome sequencing, we detected the novel mutation c.127G>A (p.Gly43Ser) in a patient with Lennox-Gastaut syndrome, and a recurrent mutation c.709C>T (p.Arg237Trp) in a patient with West syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "destabilize the G domain structure and impair nucleotide binding, dimer formation, and/or GTPase activity of the G domain.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical features of DNM1 mutations include intractable seizures, intellectual disability, developmental delay, and hypotonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay before onset of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most cases showed development delay before the onset of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "extrapyramidal movement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A patient carrying p.Arg237Trp in this report showed a different developmental status from that of a previously reported case, together with characteristic extrapyramidal movement.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

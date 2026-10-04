@@ -1,0 +1,116 @@
+{
+  "pmid": "38783394",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1- related intellectual disability (SYNGAP1-ID) is a rare genetic disorder presenting with intellectual disability (ID), epilepsy, maladaptive behaviours and communication challenges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1- related intellectual disability (SYNGAP1-ID) is a rare genetic disorder presenting with intellectual disability (ID), epilepsy, maladaptive behaviours and communication challenges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "maladaptive behaviours",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1- related intellectual disability (SYNGAP1-ID) is a rare genetic disorder presenting with intellectual disability (ID), epilepsy, maladaptive behaviours and communication challenges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "communication challenges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1- related intellectual disability (SYNGAP1-ID) is a rare genetic disorder presenting with intellectual disability (ID), epilepsy, maladaptive behaviours and communication challenges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "maladaptive problem behaviour (observed in cohort)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 19 individuals engaged in some form of maladaptive problem behaviour.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "ritualistic, sameness and restricted behaviours (commensurate with idiopathic ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ratings of ritualistic, sameness and restricted behaviours measured by the RBS-R were commensurate with individuals diagnosed with idiopathic autism spectrum disorder (ASD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "self-injurious behaviours (higher than idiopathic ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "self-injurious behaviours were endorsed at a higher level in SYNGAP1-ID when compared with idiopathic ASD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "problem behaviours maintained by automatic reinforcement and social attention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The problem behaviours in our cohort of patients with SYNGAP1-ID were maintained by automatic reinforcement and social attention",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "atypical sensory responses (positively correlated with problem behaviours)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and are positively correlated with atypical sensory responses.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "atypical response to sensory stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they exhibit atypical response to sensory stimuli.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "strategies used in persons with ASD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with SYNGAP1-ID may benefit from strategies used in persons with ASD.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

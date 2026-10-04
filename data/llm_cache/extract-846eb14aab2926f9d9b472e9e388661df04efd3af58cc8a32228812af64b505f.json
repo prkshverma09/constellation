@@ -1,0 +1,26 @@
+{
+  "pmid": "34279234",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "found in at least two patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several other candidate genes were found in at least two patients, some of which were associated with other epilepsies (ADGRV1, CACNA1A, CHD2, CLCN2, HECW2, KIF1A, NPRL3, RELN and TSC2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "atypical Rolandic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, we identified a number of unreported candidate genes, including ADGRV1, CHD2, CACNA1A, NSF, NPRL3, KIF1A, GJB2 and HECW2, also associated with atypical Rolandic epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

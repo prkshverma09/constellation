@@ -1,0 +1,26 @@
+{
+  "pmid": "28629431",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "target_of_miR-330-3p",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Luciferase reporter assays showed that GRIA3 was a target of miR-330-3p.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "interacts_with_DNMT1_and_DNMT3A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "co-IP-demonstrated GRIA3 was directly related with DNMT1 and DNMT3A.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "31611775",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "juvenile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To date, only six genes harboring pathogenic variants (GABRA1, GABRD, EFHC1, BRD2, CASR, and ICK) with Mendelian and complex inheritance and covering a limited proportion of the world population, are considered as major susceptibility alleles for JME.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

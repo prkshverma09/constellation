@@ -1,0 +1,96 @@
+{
+  "pmid": "34957497",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the γ-aminobutyric acid type A (GABAA) receptor γ2 subunit gene, GABRG2, have been associated with a variety of epilepsy syndromes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de novo mutation (c.T1027C, p.F343L) in GABRG2 was identified in a patient with early onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "Tg(hGABRG2F343L) overexpression zebrafish model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tg(hGABRG2F343L) overexpression zebrafish model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizure activity and convulsive behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zebrafish overexpressing mutant human GABRG2 (F343L) subunits displayed spontaneous seizure activity and convulsive behaviors.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity during light phase with normal circadian rhythm; increased drug-induced locomotor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tg (hGABRG2F343L) zebrafish displayed hyperactivity during light phase with normal circadian rhythm, as well as increased drug-induced locomotor activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "altered expression of GABAA receptor subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Real-time quantitative PCR, whole mount in situ hybridization and western blotting showed that Tg(hGABRG2F343L) zebrafish had altered expression of GABAA receptor subunits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "robust synaptic phenotype causally linked to GABRG2(F343L) mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "investigation of synaptic protein expression and synapse ultrastructure uncovered a robust synaptic phenotype that is causally linked to GABRG2(F343L) mutation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "postsynaptic defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had postsynaptic defects",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic deficit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "displayed an unanticipated deficit at the presynaptic level",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

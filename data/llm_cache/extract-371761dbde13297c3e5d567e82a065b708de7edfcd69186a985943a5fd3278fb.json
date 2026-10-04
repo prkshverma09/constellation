@@ -1,0 +1,116 @@
+{
+  "pmid": "38748583",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy; intellectual disability; autistic behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protocadherin19 (PCDH19)-related epilepsy syndrome is a rare disorder characterized by early-onset epilepsy, intellectual disability, and autistic behaviors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "regulates cell-to-cell adhesion through homophilic binding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is located on the X chromosome and encodes a calcium-dependent single-pass transmembrane protein, which regulates cell-to-cell adhesion through homophilic binding.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "90% of heterozygous females affected; mutant males typically not affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In human, 90% of heterozygous females, containing PCDH19 wild-type and mutant cells due to random X inactivation, are affected, whereas mutant males, containing only mutant cells, are typically not.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference (altered interactions between wild-type and mutant cells during development)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the altered interactions between wild-type and mutant cells during development, rather than loss of function itself, are responsible.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Pcdh19 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "studies using Pcdh19 knockout mice showed that the complete loss of function also causes autism-like behaviors both in males and females",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism-like behaviors (in mice)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the complete loss of function also causes autism-like behaviors both in males and females",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Xenopus tropicalis tadpoles with complete or mosaic loss of function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we generated Xenopus tropicalis tadpoles with complete or mosaic loss of function by injecting antisense morpholino oligonucleotides into the blastomeres of neural lineage at different stages of development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure-like behaviors (in Xenopus)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that either mosaic or complete knockdown results in seizure-like behaviors, which could be rescued by antiseizure medication, and repetitive behaviors.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "antiseizure medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which could be rescued by antiseizure medication",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "repetitive behaviors (in Xenopus)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "repetitive behaviors",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest that the loss of PCDH19 function itself, in addition to cellular interference, may also contribute to PCDH19-related epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

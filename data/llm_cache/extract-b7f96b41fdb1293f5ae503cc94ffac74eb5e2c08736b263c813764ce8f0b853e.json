@@ -1,0 +1,126 @@
+{
+  "pmid": "28806589",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 mutations have been reported in 10 cases who presented with focal, absence, generalized tonic-clonic or myoclonic astatic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 mutations have been reported in 10 cases who presented with focal, absence, generalized tonic-clonic or myoclonic astatic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 mutations have been reported in 10 cases who presented with focal, absence, generalized tonic-clonic or myoclonic astatic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 mutations have been reported in 10 cases who presented with focal, absence, generalized tonic-clonic or myoclonic astatic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1214 C > T (p.Pro405Leu) mutation, previously reported to be disease causing.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "electrical status epilepticus of sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electrical status epilepticus of sleep",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel c.1195 G > A (p.Val399Met) mutation not previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "continuous polymyoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Continuous polymyoclonus is another new manifestation in patients with KCNA2 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic-astatic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She presented with intermittent then continuous polymyoclonus and myoclonic-astatic and generalized tonic clonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She presented with intermittent then continuous polymyoclonus and myoclonic-astatic and generalized tonic clonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.889C > T (p.Arg297Trp) mutation not previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "recurrent refractory status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later developed recurrent refractory status epilepticus episodes at ages 19, 22 and 23 years, the latter being a novel manifestation in patients with KCNA2 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "26412491",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNARE complex formation of vesicular synaptobrevin/VAMP2 (Syb2)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one to three Syb2 molecules appear to be sufficient for basal exocytosis",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of the Syb2-specific endocytic adaptor AP180 causes a moderate activity-dependent reduction of vesicular Syb2 levels, defects in SV reformation, and a corresponding impairment of neurotransmission",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a large vesicular Syb2 pool maintained by AP180 is crucial to sustain efficient neurotransmission and SV reformation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "excitatory/inhibitory imbalance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "excitatory/inhibitory imbalance",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "premature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "premature death",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "model",
+      "object_text": "AP180(-/-)/Syb2(+/-) mice (perinatal lethality)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Further reduction of Syb2 levels in AP180(-/-)/Syb2(+/-) mice results in perinatal lethality",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "model",
+      "object_text": "Syb2(+/-) mice (partially phenocopy loss of AP180)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syb2(+/-) mice partially phenocopy loss of AP180",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

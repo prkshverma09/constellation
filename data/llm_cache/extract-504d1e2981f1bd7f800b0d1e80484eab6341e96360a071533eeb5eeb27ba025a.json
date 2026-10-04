@@ -1,0 +1,116 @@
+{
+  "pmid": "31299220",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "model",
+      "object_text": "male Grin1-/- knockdown mice (GluN1KD) that were three, six, or twelve weeks old",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We performed magnetic resonance imaging in male Grin1-/- knockdown mice (GluN1KD) that were three, six, or twelve weeks old.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We conclude that Grin1 loss-of-function mutations cause volume reductions in dopaminergic structures early in development,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "volume reductions in substantia nigra and striatum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Volumetric reductions were detected in substantia nigra and striatum of GluN1KD mice at all ages.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "changes in limbic structures evident at six weeks of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Changes in limbic structures were only evident at six weeks of age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "reductions in white matter volumes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reductions in white matter volumes were first evident at three weeks, and additional deficits were detected at six and twelve weeks.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "degenerating neurons in twelve-week old GluN1KD mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FluoroJade immunofluorescence revealed degenerating neurons in twelve-week old GluN1KD mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR hypofunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The evidence of degenerating neurons in the mature brain indicates an ongoing process of cell loss as a consequence of NMDAR hypofunction.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants of GRIN1, GRIN2A, and GRIN2B cause similar syndromes with varying severity of intellectual impairment, autism, epilepsy, and motor dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants of GRIN1, GRIN2A, and GRIN2B cause similar syndromes with varying severity of intellectual impairment, autism, epilepsy, and motor dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants of GRIN1, GRIN2A, and GRIN2B cause similar syndromes with varying severity of intellectual impairment, autism, epilepsy, and motor dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "motor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants of GRIN1, GRIN2A, and GRIN2B cause similar syndromes with varying severity of intellectual impairment, autism, epilepsy, and motor dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

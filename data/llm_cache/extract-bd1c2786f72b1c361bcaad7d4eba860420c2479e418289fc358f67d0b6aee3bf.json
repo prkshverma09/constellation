@@ -1,0 +1,126 @@
+{
+  "pmid": "41294808",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "alpha subunit of the G-protein complex involved in signal transduction in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 is an alpha subunit of the G-protein complex involved in signal transduction in neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The G203R mutation in the GNAO1 gene arises recurrently de novo and causes epileptic encephalopathy and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The G203R mutation in the GNAO1 gene arises recurrently de novo and causes epileptic encephalopathy and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "two main isoforms: GNAO1-A and GNAO1-B",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 has two main isoforms, GNAO1-A and GNAO1-B, but their functional or expression differences are poorly understood.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "expressed in glial cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular functions of GNAO1 are mainly studied in neurons, yet glial cells also express GNAO1 and participate in the pathogenesis of epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "in astrocytes, almost 100% of transcripts encode GNAO1-B with very low GNAO1-A expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We showed that in astrocytes, almost 100% of GNAO1 transcripts encoded GNAO1-B with very low GNAO1-A expression.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "no differences in localization between GNAO1-A and GNAO1-B in WT and G203R",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We showed that there were no differences in localization between GNAO1-A and GNAO1-B, both in WT and G203R states.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "localizes to astrocytic retraction fibers and migrasomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also showed that GNAO1 localized in astrocytic retraction fibers and migrasomes, structures not previously described in this cell type.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "GNAO1-positive retraction fibers provide cell-to-cell contacts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We showed that GNAO1-positive retraction fibers of neighboring cells provided cell-to-cell contacts and also provided calcium waves during astrocytic excitation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "GNAO1-positive retraction fibers provide calcium waves during astrocytic excitation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We showed that GNAO1-positive retraction fibers of neighboring cells provided cell-to-cell contacts and also provided calcium waves during astrocytic excitation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "overexpression of GNAO1-A and GNAO1-B lowers calcium activity in astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of both GNAO1-A and GNAO1-B tends to lower calcium activity in astrocytes, with GNAO1-A providing the most severe impairment of activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "GNAO1-A causes the most severe impairment of calcium activity when overexpressed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of both GNAO1-A and GNAO1-B tends to lower calcium activity in astrocytes, with GNAO1-A providing the most severe impairment of activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

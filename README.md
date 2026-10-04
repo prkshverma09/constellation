@@ -104,12 +104,31 @@ not appear as verified bridges.
 
 ## LLM modes and offline behavior
 
-`LLM_MODE` supports `live`, `cached`, and `offline`. A live API key is currently
-expired, so normal demo behavior uses the committed cached dossiers or the
-offline writer. `make demo` explicitly selects offline mode; its API routes use
-the local snapshot and cache and do not construct an outbound HTTP client.
-`make data` is a separate refresh operation and may contact external data
-providers.
+`LLM_MODE` supports `live`, `cached`, and `offline`. Claim extraction uses
+`CONSTELLATION_EXTRACT_MODEL` (default `gpt-5-mini`) and the versioned
+`extraction-schema-v2` cache. `make extract` makes explicit live calls; the
+normal build reads validated cache entries in cached mode. Patient-organization
+discovery uses `gpt-5` web search and `discover-v1`; the build accepts only
+cached results whose own HTML page is available and names the gene. It runs at
+most four gene requests concurrently with a 120-second timeout and records
+failures without blocking other genes. Live dossiers use
+`CONSTELLATION_AGENT_MODEL` (default `gpt-5`) and `writer-v1`.
+Their writer receives a compact evidence pack, and post-validation drops
+citations outside that pack and unsupported numbers. Successful dossiers are
+cached by disease, persona, comparator, snapshot, model, and prompt version.
+The explicit live workflows are `make extract`, `make discover`, and
+`make dossiers-live`; they report API-reported token usage for cost estimates.
+The measured partial live run estimated about **$17.06**: 2,162 extraction
+jobs, 18 of 40 discovery genes, and nine dossiers, using standard token rates
+and one web-search call per discovered gene. It excludes cached-input discounts.
+
+In cached mode, `/api/dossier` serves a matching live dossier cache when
+available and otherwise uses the offline dossier. With a configured key,
+`Regenerate with GPT-5` explicitly refreshes the live dossier. `/api/health`
+reports availability without exposing the key. `make demo` explicitly selects
+offline mode; its API routes use the local snapshot and cache and do not
+construct an outbound HTTP client. `make data` is a separate refresh operation
+and may contact external data providers.
 
 ## Known limitations
 

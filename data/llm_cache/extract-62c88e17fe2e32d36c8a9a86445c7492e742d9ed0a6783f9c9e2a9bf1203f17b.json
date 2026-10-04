@@ -1,0 +1,36 @@
+{
+  "pmid": "23637084",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamate receptor, ionotropic, AMPA subunit 3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA3 gene, encoding glutamate receptor, ionotropic, AMPA subunit 3",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We suggest that Xq25 duplication is responsible for a novel clinically recognizable X-linked intellectual disability.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "similar facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Based on similar facial features, we clinically suspected a second case of Xq25 duplication in a 4-year-old boy with intellectual disabilty.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

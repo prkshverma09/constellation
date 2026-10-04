@@ -1,0 +1,186 @@
+{
+  "pmid": "41153036",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "muscular hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including muscular hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders (MD)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dystonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "choreoathetosis",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dyskinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dyskinetic crises can lead to life-threatening conditions",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients exhibited severe hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic MD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperkinetic MD",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "recurrent dyskinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to recurrent dyskinetic crises",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "inspiratory stridor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an inspiratory stridor",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "airway obstructions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "airway obstructions",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "death due to respiratory complications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients died at young age (2.4, 2.8, 7.8 and 12 years) due to respiratory complications",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "upper airway dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Upper airway dysfunction significantly contributes to the high morbidity and mortality in GNAO1-RD patients",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "DBS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DBS can be life-saving during acute crises",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "DBS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it does not address swallowing or airway dysfunction effectively",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "tracheostomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Despite interventions such as DBS and tracheostomy, clinical outcomes remained poor",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

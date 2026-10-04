@@ -1,0 +1,16 @@
+{
+  "pmid": "36403388",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "transgenic animal model with epileptic phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic phenotypes were confirmed in several molecular components by transgenic animal models, including CACNA1A",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

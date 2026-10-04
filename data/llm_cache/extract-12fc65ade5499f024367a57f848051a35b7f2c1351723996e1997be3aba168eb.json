@@ -1,0 +1,36 @@
+{
+  "pmid": "38846959",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WES revealed a pathogenic missense mutation in the HNRNPU gene",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "HNRNPU-related neurodevelopmental disorder (HNRNPU-NDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with HNRNPU-related neurodevelopmental disorder (HNRNPU-NDD) and developmental and epileptic encephalopathy-54 (DEE54, OMIM: # 617391).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy-54 (DEE54)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with HNRNPU-related neurodevelopmental disorder (HNRNPU-NDD) and developmental and epileptic encephalopathy-54 (DEE54, OMIM: # 617391).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "37592823",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "reversed abnormal expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ExD17 treatment reversed the abnormal expression of GABAbR1, GRIA2, p-PLCG1/PLCG1 ratio, and p-PLCB3/PLCB3 ratio.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

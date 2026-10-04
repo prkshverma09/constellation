@@ -1,0 +1,126 @@
+{
+  "pmid": "37003255",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "upstream repressor of the mechanistic target of rapamycin pathway via the GATOR-1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 is an upstream repressor of the mechanistic target of rapamycin pathway via the GATOR-1 complex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants causing loss of function typically result in familial focal epilepsy with variable foci.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "normal neuroimaging",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging may either be normal or show brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "brain malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging may either be normal or show brain malformations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "lesional and nonlesional cases within the same family",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Lesional and nonlesional cases may be present within the same family.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "diverged in epilepsy severity and neuroimaging features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Despite sharing the same variant, patients diverged both in terms of epilepsy severity and neuroimaging features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mother is still suffering from drug-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "normal neuroimaging",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mother is still suffering from drug-resistant seizures and has normal neuroimaging",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "prolonged seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the child has been experiencing prolonged seizure freedom notwithstanding a bottom-of-sulcus focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "bottom-of-sulcus focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the child has been experiencing prolonged seizure freedom notwithstanding a bottom-of-sulcus focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "clinical and neuroradiological expressivities are variable",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirm clinical and neuroradiological expressivities are variable",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy outcome partially independent from brain structural abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The epilepsy outcome could partially be independent from brain structural abnormalities.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

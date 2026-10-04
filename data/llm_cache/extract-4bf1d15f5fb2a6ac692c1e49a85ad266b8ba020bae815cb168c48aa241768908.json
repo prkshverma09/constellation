@@ -1,0 +1,26 @@
+{
+  "pmid": "42190144",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Developmental and epileptic encephalopathies (DEEs) with early burst-suppression EEG (EIDEE-BS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the KCNQ2, STXBP1, and SCN2A genes are recognized as major causes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "SCN2A identified in 3 patients in the cohort",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A (n = 3) and KCNT1 (n = 2) were less frequent.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "21248271",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earlier mean onset of prolonged seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to missense mutations, truncating mutations were associated with earlier mean onset of prolonged seizures (7.4 vs 8.8 months; p = 0.040), myoclonic seizures (16.4 vs 19.4 months; p = 0.041), and atypical absence seizures (19.1 vs 30.6 months; p = 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earlier mean onset of myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to missense mutations, truncating mutations were associated with earlier mean onset of prolonged seizures (7.4 vs 8.8 months; p = 0.040), myoclonic seizures (16.4 vs 19.4 months; p = 0.041), and atypical absence seizures (19.1 vs 30.6 months; p = 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "earlier mean onset of atypical absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to missense mutations, truncating mutations were associated with earlier mean onset of prolonged seizures (7.4 vs 8.8 months; p = 0.040), myoclonic seizures (16.4 vs 19.4 months; p = 0.041), and atypical absence seizures (19.1 vs 30.6 months; p = 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median GS was higher in patients with Dravet syndrome compared to polymorphisms (94 vs 58; p = 0.029) and orthologs (94 vs 45; p < 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "early onset of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A high GS was correlated with early onset of seizures (r(s) = -0.235; p = 0.008).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "voltage and ion-pore regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense mutations occurred most frequently in the voltage and ion-pore regions where changes in amino acid polarity were greater in the Dravet group compared to the genetic epilepsy with febrile seizures plus group (3.6 vs 2.7; p = 0.031).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "changes in amino acid polarity greater in Dravet group compared to genetic epilepsy with febrile seizures plus group",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense mutations occurred most frequently in the voltage and ion-pore regions where changes in amino acid polarity were greater in the Dravet group compared to the genetic epilepsy with febrile seizures plus group (3.6 vs 2.7; p = 0.031).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

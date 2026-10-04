@@ -1,0 +1,16 @@
+{
+  "pmid": "22196487",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "involved in the pathogenesis of early-onset epileptic encephalopathies: membrane-associated guanylate kinase inverted-2 (MAGI2), polynucleotide kinase 3'-phosphatase (PNKP)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

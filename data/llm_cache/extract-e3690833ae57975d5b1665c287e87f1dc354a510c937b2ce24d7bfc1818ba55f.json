@@ -1,0 +1,116 @@
+{
+  "pmid": "37703949",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "haploinsufficient for both genes (Gabra1+/-/Gabrg2+/- mouse)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "Gabra1+/-/Gabrg2+/- mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "haploinsufficient for both genes (Gabra1+/-/Gabrg2+/- mouse)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "describes intractable epilepsy and blindness due to optic atrophy in our patient",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "blindness due to optic atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "describes intractable epilepsy and blindness due to optic atrophy in our patient",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "bilateral optical nerve atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient has bilateral optical nerve atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice displayed spontaneous seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "reduced GABAA receptor α1 subunit expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced GABAA receptor α1, β2 and γ2 subunit expression in various brain regions.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "optic nerve degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electronic microscopy showed that mice also had optic nerve degeneration, as indicated by increased G-ratio, the ratio of the inner axonal diameter to the total outer diameter, suggesting impaired myelination of axons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "impaired myelination of axons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting impaired myelination of axons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "phenobarbital was the most effective anticonvulsant in mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the patient's seizures were also controlled with phenobarbital after failing multiple anti-seizure drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "29937144",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in GRIN2B, a subunit of the NMDA receptor, cause intellectual disability and language impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in GRIN2B, a subunit of the NMDA receptor, cause intellectual disability and language impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function mutations in GRIN2B, a subunit of the NMDA receptor, cause intellectual disability and language impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "clonal models of GRIN2B deletion and loss-of-function mutations in a region coding for the glutamate binding domain in human cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We developed clonal models of GRIN2B deletion and loss-of-function mutations in a region coding for the glutamate binding domain in human cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "neurons from a patient harboring a missense mutation in the same domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and generated neurons from a patient harboring a missense mutation in the same domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "increases in genes associated with cell proliferation and decreases in genes associated with neuron differentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptome analysis revealed extensive increases in genes associated with cell proliferation and decreases in genes associated with neuron differentiation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "calcium influx and membrane depolarization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human mutations in GRIN2B can impair calcium influx and membrane depolarization even in a presumed undifferentiated cell state",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and generated neurons from a patient harboring a missense mutation in the same domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

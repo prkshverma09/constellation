@@ -1,0 +1,16 @@
+{
+  "pmid": "29276650",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "Paroxysmal kinesigenic dyskinesia (PKD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Paroxysmal kinesigenic dyskinesia (PKD) is a rare condition associated with heterozygous mutations in the proline-rich transmembrane protein 2 (PRRT2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

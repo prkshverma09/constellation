@@ -1,0 +1,256 @@
+{
+  "pmid": "35431799",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "the seizure onset age ranged from the first day of life to 2 years and 6 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the seizure onset age ranged from the first day of life to 2 years and 6 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures (plus)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "febrile seizures (plus) (n = 2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign (familial) infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign (familial) infantile epilepsy (n = 9)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal-infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign familial neonatal-infantile epilepsy (n = 3)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign neonatal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign neonatal epilepsy (n = 1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "West syndrome (n = 16)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ohtahara syndrome (n = 15)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of infancy with migrating focal seizures (n = 2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome (n = 1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early infantile epileptic encephalopathy (n = 15)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "unclassifiable developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "unclassifiable developmental and epileptic encephalopathy (n = 8)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Approximately 79.2% (57/72) patients had varying degrees of developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "abnormal MRI findings with developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had abnormal MRI findings with developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "de novo SCN2A variants associated with developmental delay (91.7% (55/60))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "91.7% (55/60) patients with de novo SCN2A variants had development delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "inherited SCN2A variants associated with abnormal development (16.7% (2/12))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while only 16.7% (2/12) patients with inherited SCN2A variants had abnormal development.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "SCN2A variants in transmembrane regions associated with developmental delay (83.9% (26/31))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "83.9% (26/31) SCN2A variants that were located in transmembrane regions of the protein were detected in patients with development delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "SCN2A variants in non-transmembrane regions associated with normal development (69.2% (9/13))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Approximately 69.2% (9/13) SCN2A variants detected in patients with normal development were located in the non-transmembrane regions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free at a median age of 8 months (54.2% (39/72))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Approximately 54.2% (39/72) patients were seizure-free at a median age of 8 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Oxcarbazepine use resulting in seizure-free in 11/38 (28.9%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxcarbazepine has been used by 38 patients, and seizure-free was observed in 11 of them (11/38, 28.9%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Oxcarbazepine caused seizure worsening in some patients (6 patients)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while 6 patients had seizure worsening by oxcarbazepine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Oxcarbazepine caused seizure exacerbation in patients with onset > 1 year",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 3 patients used oxcarbazepine and with seizure onset age > 1 year presented seizure exacerbation after taking oxcarbazepine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Valproate use resulting in seizure-free in 12/53 (22.6%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate has been used by 53 patients, seizure-free was observed in 22.6% (12/53) of them.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Oxcarbazepine and valproate were the most effective drugs in epilepsy patients with SCN2A variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxcarbazepine and valproate were the most effective drugs in epilepsy patients with SCN2A variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Sodium channel blockers often worsen seizures in patients with seizure onset beyond 1 year of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers often worsen seizures in patients with seizure onset beyond 1 year of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Abnormal brain MRI findings and de novo variations related to poor prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormal brain MRI findings and de novo variations were often related to poor prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

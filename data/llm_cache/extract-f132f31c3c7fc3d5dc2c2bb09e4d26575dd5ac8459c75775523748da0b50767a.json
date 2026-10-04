@@ -1,0 +1,26 @@
+{
+  "pmid": "37390664",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "5 established epilepsy genes (DEPDC5, LGI1, SCN1A, GRIN2A, and PCHD19) in an extensively phenotyped cohort of focal epilepsy patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19 variant identified in two patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one PCDH19 variant in two patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

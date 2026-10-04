@@ -1,0 +1,16 @@
+{
+  "pmid": "32725455",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epileptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several top candidate genes, which are supported by multiple lines of genomic evidence, such as GRIN1, KCNAB1 and STX1B, were identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

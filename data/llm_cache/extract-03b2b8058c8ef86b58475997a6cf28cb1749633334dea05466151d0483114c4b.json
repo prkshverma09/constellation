@@ -1,0 +1,26 @@
+{
+  "pmid": "33985586",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "ID/GDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variations in ten calcium channel genes including CACNA1A, CACNA1C, CACNA1I, CACNA1H, CACNA1D, CACNA2D1, CACNA2D2, CACNA1E, CACNA1F, and CACNA1G were found to be associated with ID/GDD.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "more severe phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1E, CACNA1G, CACNA1F, CACNA2D2 and CACNA1A associated with more severe phenotype.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

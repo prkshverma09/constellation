@@ -1,0 +1,46 @@
+{
+  "pmid": "25432984",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor_suppressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WW domain-containing oxidoreductase (WWOX) is a tumor suppressor gene, commonly downregulated in various types of tumors, including GBM.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reintroduction_induces_apoptosis_in_p53-mutant_GBM_cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It has been found that the reintroduction of WWOX induced p53-mutant GBM cells to undergo apoptosis, but not in p53 wild-type GBM cells",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reopens_apoptosis_pathways_p53-independent",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is likely to reopen apoptosis pathways in a p53-independent manner in GBM.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "targets_modulated_by_WWOX_deficiency_as_potential_therapeutic_targets",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Identifying the crucial target modulated by WWOX deficiency provides a potential therapeutic target for GBM treatment.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

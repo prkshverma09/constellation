@@ -1,0 +1,146 @@
+{
+  "pmid": "34359949",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "risk factor for Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WW domain-containing oxidoreductase (WWOX) is known as one of the risk factors for Alzheimer's disease (AD), a neurodegenerative disease.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "binds Tau via C-terminal SDR domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX binds Tau via its C-terminal SDR domain",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "interacts with ERK, JNK, and GSK-3β",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "interacts with Tau phosphorylating enzymes ERK, JNK, and GSK-3β",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "limits AD progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "thereby limits AD progression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe neural diseases and early death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of WWOX in newborns leads to severe neural diseases and early death.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "accumulation of extracellular amyloid beta plaques",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "accumulation of extracellular amyloid beta plaques",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intracellular tau tangles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intracellular tau tangles",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "reduction in inhibitory GABAergic interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduction in inhibitory GABAergic interneurons",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "age-related increases in pS14-WWOX promotes neuronal degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age-related increases in pS14-WWOX accumulation in the brain promotes neuronal degeneration.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "Zfra peptide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Suppression of Ser14 phosphorylation by a small peptide Zfra leads to enhanced protein degradation, reduction in NF-κB-mediated inflammation, and restoration of memory loss in triple transgenic mice for AD.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "p53 and WWOX counteraction leads to upregulation of AD-related protein aggregation in brain and lung",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tumor suppressors p53 and WWOX may counteract each other in vivo, which leads to upregulation of AD-related protein aggregation in the brain and lung.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "has numerous binding proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX has numerous binding proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "stronger binding to partners suppresses cancer growth and reduces inflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the stronger the binding between WWOX and its partners, the better the suppression of cancer growth and reduction in inflammation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "stronger complex formation with partners may better block AD progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the stronger complex formation between WWOX and partners may provide a better blockade of AD progression.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36054588",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "chorea predominated in ADCY5-, ATP1A3-, FOXG1-, NKX2.1-, SLC2A1-, GNAO1-, and PDE10A-related disorders;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "40633241",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Preclinical data suggests that 4-phenylbutyrate (PBA) may produce an anti-seizure effect in individuals with genetic epilepsies, including STXBP1, SLC6A1, SLC6A8, GABA(A) disorders, Dravet Syndrome (SCN1A), and LGI1 variants.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -58,6 +58,30 @@ class CachedHTTP:
     def get(self, url: str, *, params: dict[str, Any] | None = None, ncbi: bool = False) -> Any:
         return self.request("GET", url, params=params, ncbi=ncbi)
 
+    def get_html(self, url: str) -> dict[str, Any]:
+        request_key = json.dumps(
+            ["GET_HTML", url],
+            sort_keys=True,
+            separators=(",", ":"),
+        )
+        cache_path = self.cache_dir / (
+            hashlib.sha256(request_key.encode()).hexdigest() + ".html.json"
+        )
+        if cache_path.exists():
+            return json.loads(cache_path.read_text(encoding="utf-8"))
+        response = self.client.get(url)
+        page = {
+            "status_code": response.status_code,
+            "url": str(response.url),
+            "content_type": response.headers.get("content-type", ""),
+            "text": response.text,
+        }
+        cache_path.write_text(
+            json.dumps(page, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        return page
+
     def get_bytes(self, url: str, *, local_fallback: Path | None = None) -> bytes:
         request_key = json.dumps(
             ["GET", url, {}, {}],

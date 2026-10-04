@@ -1,0 +1,26 @@
+{
+  "pmid": "33519703",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in SCN2A, the assignment to gain- vs. loss-of-function mutations has a major impact on clinical decisions to use or avoid treatment with sodium channel blockers,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in SCN2A, the assignment to gain- vs. loss-of-function mutations has a major impact on clinical decisions to use or avoid treatment with sodium channel blockers,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

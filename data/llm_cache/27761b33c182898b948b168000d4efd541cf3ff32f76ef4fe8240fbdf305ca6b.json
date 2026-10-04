@@ -1,0 +1,122 @@
+{
+  "disease_id": "MONDO:0014859",
+  "persona": "devon",
+  "mode": "offline",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "16cf07d6-37e5-4768-a99d-e45df587edc5",
+  "generated_at": "2026-10-04T10:38:16.835204+00:00",
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "FRRS1L is grouped with 1 related diseases under DEE mechanisms.",
+          "edge_ids": [
+            "f6d7b0717195dc95"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Finding Hope for FRRS1L is a disease-specific foundation.",
+          "edge_ids": [
+            "73c3e58f80ceb45c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "GNAO1-related disease (neurodevelopmental disorder with involuntary movements) looks similar clinically but shares no supported mechanism, so it is excluded.",
+          "edge_ids": [
+            "b0f727ee907516be"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "No corroborated cross-disease investigator bridge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Use the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "The snapshot records 21 phenotype links.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": {
+    "reasons": [
+      "No neighbour meets both S ≥ 0.45 and M ≥ 0.25 in the indexed cluster.",
+      "No reusable asset or investigator bridge is mapped to this cluster."
+    ],
+    "what_would_change": [
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with CACNA2D2 would populate the mechanism layer.",
+        "edge_ids": [
+          "92307a1900838526",
+          "a297f33d888102c2"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with STXBP1 would populate the mechanism layer.",
+        "edge_ids": [
+          "d30b8d092282e8a9",
+          "a297f33d888102c2"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with GABRG2 would populate the mechanism layer.",
+        "edge_ids": [
+          "e0049dc271bca234",
+          "a297f33d888102c2"
+        ]
+      }
+    ]
+  },
+  "markdown": "## Who shares our characteristics\nFRRS1L is grouped with 1 related diseases under DEE mechanisms. [f6d7b0717195dc95]\n\n## What already exists\nFinding Hope for FRRS1L is a disease-specific foundation. [73c3e58f80ceb45c]\n\n## What differs and must be verified\nGNAO1-related disease (neurodevelopmental disorder with involuntary movements) looks similar clinically but shares no supported mechanism, so it is excluded. [b0f727ee907516be]\n\n## Who to contact\nNo corroborated cross-disease investigator bridge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Proposed first joint step\nUse the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Search coverage\nThe snapshot records 21 phenotype links. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]"
+}

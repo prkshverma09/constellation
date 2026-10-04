@@ -1,0 +1,96 @@
+{
+  "pmid": "22508754",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA strand break repair protein with DNA 5'-kinase and DNA 3'-phosphatase activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide kinase/phosphatase (PNKP), a DNA strand break repair protein with DNA 5'-kinase and DNA 3'-phosphatase activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly with early-onset, intractable seizures and developmental delay (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly with early-onset, intractable seizures and developmental delay (MCSZ) is a hereditary disease caused by mutations in polynucleotide kinase/phosphatase (PNKP)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three of the four mutations currently associated with MCSZ greatly reduce or ablate DNA kinase activity of recombinant PNKP at 30°C (L176F, T424Gfs48X and exon15Δfs4X)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but only one of these mutations reduces DNA phosphatase activity under the same conditions (L176F)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "less stable than the wild-type enzyme at physiological temperature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The fourth mutation (E326K) has little impact on either DNA kinase or DNA phosphatase activity at 30°C, but is less stable than the wild-type enzyme at physiological temperature.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all of the MCSZ mutations identified to date result in ∼ 10-fold reduced cellular levels of PNKP protein",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "reduced rates of chromosomal DNA strand break repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and reduced rates of chromosomal DNA strand break repair.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three mutations likely ablating cellular DNA 5'-kinase activity",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all of the mutations greatly reducing cellular DNA 3'-phosphatase activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

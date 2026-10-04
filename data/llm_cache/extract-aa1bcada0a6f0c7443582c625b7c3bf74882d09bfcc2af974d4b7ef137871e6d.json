@@ -1,0 +1,76 @@
+{
+  "pmid": "37861287",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the gene encoding syntaxin binding protein 1 (STXBP1) have been implicated in a wide variety of epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "musicogenic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This is the first case to describe musicogenic or other reflex seizures in a patient with STXBP1 encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "reflex seizures triggered by audible stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that are stereotypically reproducible in response to a variety of audible stimuli.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "reproducible triggers: particular cell phone ringtone; music from automobile television commercial; certain beeping alarm sounds",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Her mother reported reproducible seizures triggered by a particular cell phone ringtone, music from a certain automobile television commercial and certain beeping alarm sounds.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "staring; behavioral arrest; eye deviation to the left; tonic stiffening in upper and lower extremities; labored breathing; duration 30 s to 2 min",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the patient had clinically stereotyped seizures associated with staring, behavioral arrest, followed by eye deviation to the left, tonic stiffening in upper and lower extremities, and labored breathing lasting between 30 s and 2 min.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "EEG: diffuse electrodecrement; frontal-predominant theta; progressive diffuse attenuation; semi-rhythmic slowing over the right posterior quadrant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which resulted in induction of a seizure characterized by diffuse electrodecrement, subsequent emergence of frontal-predominant theta which was followed by progressive diffuse attenuation and semi-rhythmic slowing over the right posterior quadrant.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures beginning as infantile spasms during childhood",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

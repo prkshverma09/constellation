@@ -1,0 +1,86 @@
+{
+  "pmid": "27669036",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "binds phosphoinositides phosphorylated at the 4 and 5 positions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cocrystallization and biochemistry showed that this pocket binds phosphoinositides phosphorylated at the 4 and 5 positions.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most prevalent patient mutations affect the phosphoinositide-binding pocket and inhibit lipid binding.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "membrane binding via this pocket restricts Skywalker diffusion in presynaptic terminals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "membrane binding via this pocket restricts Skywalker diffusion in presynaptic terminals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "Skywalker-GFP mutants, including pathogenic mutants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Skywalker-GFP mutants, including pathogenic mutants",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "impaired synaptic-vesicle trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic mutations cause severe neurological defects in flies, including impaired synaptic-vesicle trafficking and seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic mutations cause severe neurological defects in flies, including impaired synaptic-vesicle trafficking and seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "genetically increasing synaptic PI(4,5)P2 concentrations through synaptojanin mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these defects are reversed by genetically increasing synaptic PI(4,5)P2 concentrations through synaptojanin mutations.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "phosphoinositide binding is critical for presynaptic function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "phosphoinositide binding is critical for presynaptic function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

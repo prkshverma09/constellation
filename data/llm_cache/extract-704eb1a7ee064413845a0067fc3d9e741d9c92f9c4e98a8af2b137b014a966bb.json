@@ -1,0 +1,16 @@
+{
+  "pmid": "39106285",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Causal brain somatic or germline mutations in the AKT/PI3K/DEPDC5/MTOR genes have been identified.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "33043365",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "non-pathogenic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic and clinical phenotypes meta-analysis revealed that heterozygous GRIN1, GRIN2C, GRIN2D, GRIN3A and GRIN3B PTVs are non-pathogenic.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

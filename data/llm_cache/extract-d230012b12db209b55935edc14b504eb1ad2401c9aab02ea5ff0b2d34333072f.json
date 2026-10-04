@@ -1,0 +1,46 @@
+{
+  "pmid": "38727899",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders and epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with a wide spectrum of neurodevelopmental disorders and epilepsies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(GRIN1, GRIN2A-D) encoding NMDAR subunits",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in various degrees of loss-of-function, gain-of-function, or mixtures thereof.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulting in various degrees of loss-of-function, gain-of-function, or mixtures thereof.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

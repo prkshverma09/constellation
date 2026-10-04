@@ -1,0 +1,36 @@
+{
+  "pmid": "41166419",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE complex affinity, stability, and conformational deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "uncovered their specific SNARE complex affinity, stability, and conformational deficits that drive dysregulated neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "variant_effect",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with some variants displaying a disproportionate augmentation of spontaneous neurotransmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE complexes localized outside RIM scaffolding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNARE complexes composed of these variants formed exclusively outside of RIM scaffolding, revealing a preserved exclusion zone sparing evoked release from pathophysiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

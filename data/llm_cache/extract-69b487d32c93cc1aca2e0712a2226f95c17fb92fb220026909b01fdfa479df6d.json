@@ -1,0 +1,16 @@
+{
+  "pmid": "33960519",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the most relevant X-linked parkinsonian syndromes, namely X-linked dystonia-parkinsonism (XDP, Lubag disease), fragile X-associated tremor/ataxia syndrome (FXTAS), beta-propeller protein-associated neurodegeneration (BPAN, NBIA/PARK-WDR45), Fabry disease, Waisman syndrome, methyl CpG-binding protein 2 (MeCP2) spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

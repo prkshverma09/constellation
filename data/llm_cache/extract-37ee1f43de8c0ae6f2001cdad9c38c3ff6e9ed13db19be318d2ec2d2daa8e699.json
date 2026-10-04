@@ -1,0 +1,16 @@
+{
+  "pmid": "38366963",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified 21 gene variants (ACMG III: n = 7, ACMG IV: n = 2, ACMG V: n = 12) in 19 patients (45.2%) in the genes TSC1, TSC2, MECP2, DEPDC5, HUWE1, GRIN1, ASH1I, TRIO, KIF5C, CDON, ANKD11, TGFBR2, ATN1, COL4A1, JAK2, KCNQ2, ATP1A2, and GLI3 by whole-exome sequencing as well as deletions and duplications by array CGH in six patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

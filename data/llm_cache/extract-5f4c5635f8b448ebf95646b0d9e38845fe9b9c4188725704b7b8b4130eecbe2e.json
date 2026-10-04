@@ -1,0 +1,16 @@
+{
+  "pmid": "39434833",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our focus is on the progress in precise treatments for specific voltage-gated potassium channel genes linked to epilepsy, including KCNA1, KCNA2, KCNB1, KCNC1, KCND2, KCNQ2, KCNQ3, KCNH1, and KCNH5.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36034301",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with photosensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants were identified in 35 patients, including SCN1A(7) CHD2(6), TPP1(3), SYNGAP1(3), GABRA1(2), GABRG2(1),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

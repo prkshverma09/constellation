@@ -1,0 +1,106 @@
+{
+  "pmid": "36828035",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results show significant pathobiological effects and potential mechanisms through which WWOX partial LoF leads to epilepsy, cerebellar neurodegeneration, neuroinflammation, and ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "mutant knock-in mouse model of Wwox P47T mutation that phenocopies human SCAR12",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated a mutant knock-in mouse model of Wwox P47T mutation that phenocopies human SCAR12.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "WwoxP47T/P47T mice displayed epilepsy, social and cognition deficits, poor motor coordination, and live beyond 1 year of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WwoxP47T/P47T mice displayed epilepsy, profound social behavior and cognition deficits, and poor motor coordination, and unlike KO models that survive only for 1 month, live beyond 1 year of age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "progressive neuroinflammation with elevated astro-microgliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WwoxP47T/P47T mice brains revealed signs of progressive neuroinflammation with elevated astro-microgliosis that increased with age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reduced molecular and granular layer thickness and reduced number of Purkinje cells with degenerated dendrites (cerebellar degeneration)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cerebellar cortex displayed significantly reduced molecular and granular layer thickness and a strikingly reduced number of Purkinje cells with degenerated dendrites.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "widespread changes in neuronal and glial pathways and enrichment of bioprocesses related to neuroinflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptome profiling from various brain regions of WW domain LoF mice highlighted widespread changes in neuronal and glial pathways, enrichment of bioprocesses related to neuroinflammation, and severe cerebellar dysfunction.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a new form of autosomal recessive cerebellar ataxia with epilepsy and intellectual disability (SCAR12, MIM:614322).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a new form of autosomal recessive cerebellar ataxia with epilepsy and intellectual disability (SCAR12, MIM:614322).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a new form of autosomal recessive cerebellar ataxia with epilepsy and intellectual disability (SCAR12, MIM:614322).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "mutation affecting the WW1 protein binding domain impairs interaction with canonical proline-proline-X-tyrosine motifs in partner proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This mutation affecting the WW1 protein binding domain of WWOX, impairs its interaction with canonical proline-proline-X-tyrosine motifs in partner proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

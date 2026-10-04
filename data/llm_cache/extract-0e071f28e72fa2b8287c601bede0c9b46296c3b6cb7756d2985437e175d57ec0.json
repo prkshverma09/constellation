@@ -1,0 +1,26 @@
+{
+  "pmid": "23136725",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "soluble NSF-attachment protein receptor complex (SNARE), like synaptosomal-associated protein of 25 kDa (SNAP-25).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The result of this multistage process is blockade of the presynaptic release of pain neurotransmitters such as CGRP, SP and glutamate.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

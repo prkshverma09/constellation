@@ -1,0 +1,16 @@
+{
+  "pmid": "40310132",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "channelopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "channelopathies (SCN2A, SCN8A, KCNQ2, KCNA2, KCNT1, CACNA1A)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

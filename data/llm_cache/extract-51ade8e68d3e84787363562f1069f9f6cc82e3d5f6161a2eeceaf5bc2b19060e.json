@@ -1,0 +1,46 @@
+{
+  "pmid": "39855473",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "KCNA2 autoantibodies detectable in serum over 4 years with increasing titers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 autoantibodies were also detectable in serum over 4 years with increasing titers over time.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "KCNA2 autoantibody persistence did not trigger poor long-term outcome (no cognitive progression)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 autoantibody persistence in biomarker-supported AD does not necessarily trigger a poor outcome in the long-term, as cognitive impairment did not progress subsequently.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "mild immunotherapy did not reduce immunoreactivity for KCNA2 autoantibodies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At the same time, mild immunotherapy did not result in less immunoreactivity in conjunction with the detection of KCNA2 autoantibodies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "KCNA2 autoantibodies could indicate a potentially benign long-term AD course",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This detection of KCNA2 autoantibodies in AD could provide indices of a potentially benign long-term AD course that should be further evaluated in studies.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

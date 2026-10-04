@@ -1,0 +1,116 @@
+{
+  "pmid": "36004035",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "X-linked inheritance; mainly affects females",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protocadherin 19 (PCDH19) syndrome is inherited as an X-linked pattern and affects mainly females.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "protocadherin protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This syndrome is caused by a mutation in the PCDH19 gene encoding for the protocadherin protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures during febrile episodes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "refractory seizures during febrile episodes",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "neuropsychiatric manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuropsychiatric manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "clobazam and bromide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clobazam and bromide which have been shown to reduce seizures by 50%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "corticosteroids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Corticosteroids improved neurological symptoms during the episodes in a few patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "corticosteroids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nevertheless, they recurred after a few months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Preliminary results of ganaxolone, which is still under study, demonstrated a reduction of 60% in seizure episodes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it has promising results as effective adjuvant therapy in the resolution of status epilepticus,",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting it could be used as part of the treatment in early childhood.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "stiripentol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stiripentol was given as adjuvant therapy in a patient with PCDH19 epilepsy resulting in the most extended period of seizure-free episodes, but more studies must be performed to assess its efficacy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

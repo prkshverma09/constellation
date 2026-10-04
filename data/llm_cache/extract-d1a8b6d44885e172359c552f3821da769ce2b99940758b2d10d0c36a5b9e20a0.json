@@ -1,0 +1,16 @@
+{
+  "pmid": "40956028",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disinhibition of the mechanistic target of rapamycin (mTOR) pathway has been observed in patients with loss-of-function variants in the disheveled, Egl-10, and pleckstrin domain-containing protein 5 (DEPDC5), and nitrogen permease regulator-like proteins 2 and 3 (NPRL2, and NPRL3) genes,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

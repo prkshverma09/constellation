@@ -1,0 +1,26 @@
+{
+  "pmid": "23079654",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "differential regulation of FOXG1 in H3F3A mutation-defined GBM subgroups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "differential regulation of transcription factors OLIG1, OLIG2, and FOXG1",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "differential regulation of FOXG1 possibly reflecting different cellular origins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "differential regulation of transcription factors OLIG1, OLIG2, and FOXG1, possibly reflecting different cellular origins.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

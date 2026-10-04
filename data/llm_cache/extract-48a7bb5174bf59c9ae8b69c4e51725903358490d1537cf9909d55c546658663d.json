@@ -1,0 +1,66 @@
+{
+  "pmid": "32587608",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "serine/threonine protein kinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cyclin-dependent kinase-like 5 (CDKL5, also known as STK9) is a serine/threonine protein kinase originally identified in 1998 during a transcriptional mapping project of the human X chromosome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "regulatory role in neuronal function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that CDKL5 plays an important regulatory role in neuronal function.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Because CDKL5 mutations identified in patients with CDD cause enzymatic loss of function, CDKL5 catalytic activity is likely strongly associated with the disease.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency disorder (CDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disease associated with CDKL5 mutation has recently been recognised as CDKL5 deficiency disorder (CDD) and has been distinguished from the Rett syndrome owing to its symptomatic manifestation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "phosphorylation of CDKL5 substrates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we summarise recent findings on the phosphorylation of CDKL5 substrates and the mechanisms of CDKL5 phosphorylation and dephosphorylation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "Cdkl5 knockout mouse",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the relationship between changes in the phosphorylation signalling pathways and the Cdkl5 knockout mouse phenotype",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

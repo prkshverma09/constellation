@@ -1,0 +1,16 @@
+{
+  "pmid": "27781031",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The variants were found in 19 different genes including SCN1A, STXBP1, CDKL5, SCN2A, SCN8A, GABRA1, KCNA2, and STX1B.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

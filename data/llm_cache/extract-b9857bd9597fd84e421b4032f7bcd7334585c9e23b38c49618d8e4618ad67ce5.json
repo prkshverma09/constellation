@@ -1,0 +1,26 @@
+{
+  "pmid": "41678398",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "poison exon causing AS-NMD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We detected a poison exon in GRIA2",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "splice-switching antisense oligonucleotides that suppressed GRIA2 NMD and increased its functional isoforms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified splice-switching antisense oligonucleotides that suppressed GRIA2 NMD and increased its functional isoforms.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

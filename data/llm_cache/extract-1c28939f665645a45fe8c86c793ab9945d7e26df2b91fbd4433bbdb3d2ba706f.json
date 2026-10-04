@@ -1,0 +1,136 @@
+{
+  "pmid": "39113443",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy of early childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the human PCDH19 gene lead to epileptic encephalopathy of early childhood.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early onset of serial seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the early onset of serial seizures",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disorders (including autistic personality traits)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral disorders (including autistic personality traits)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "pharmacoresistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In most cases, difficulties arise in selecting therapy due to pharmacoresistance.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "epigenetic support of cell life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "affecting both the epigenetic support of cell life",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "development of stem cells and progenitor cells in neuroontogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "development of stem cells and progenitor cells in the process of neuroontogenesis",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "influence on the neurotransmitter mechanisms of the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the influence on the neurotransmitter mechanisms of the brain",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "disruption of the formation of neural networks with increased cortical excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disruption of the formation of neural networks with an inevitable increase in the excitability of the cerebral cortex as a whole",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "local changes in regulatory structures of the hippocampal region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "local changes in the highly labile regulatory structures of the hippocampal region",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "participation of PCDH19 dysfunctions in certain variants of oncogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "participation of PCDH19 dysfunctions in certain variants of oncogenesis.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "need for polypharmacy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The need for polypharmacy (in most cases)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ganaxolone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attempts at relatively specific treatment with ganaxolone.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

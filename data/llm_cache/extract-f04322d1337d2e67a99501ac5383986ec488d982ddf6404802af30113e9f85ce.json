@@ -1,0 +1,36 @@
+{
+  "pmid": "30531098",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 forms a complex, named GATOR1, together with other focal epilepsy related proteins NPRL2 and NPRL3.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "mTORC1 pathway inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 forms a complex, named GATOR1, together with other focal epilepsy related proteins NPRL2 and NPRL3. GATOR1 inhibits the mTORC1 pathway, regulating multiple cellular processes including cell growth and proliferation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other focal epilepsy related proteins NPRL2 and NPRL3",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

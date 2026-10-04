@@ -1,0 +1,26 @@
+{
+  "pmid": "42374047",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "binding affinity for clozapine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The molecular docking results showed that clozapine had strong binding affinities for the core targets, BDNF, GRIN2B, GRIN2A, and GAD1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "glutamatergic, dopaminergic, and GABAergic synaptic pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, clozapine may interfere with the glutamatergic, dopaminergic, and GABAergic synaptic pathways by modulating BDNF, GRIN2B, GRIN2A, and GAD1.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

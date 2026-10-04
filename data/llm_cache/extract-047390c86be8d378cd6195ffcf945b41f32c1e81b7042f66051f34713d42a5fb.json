@@ -1,0 +1,16 @@
+{
+  "pmid": "40650235",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "CAPN5-mediated proteolysis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we provide evidence for CAPN5-mediated proteolysis of the synaptic proteins DLGAP4, IQSEC1 and MPDZ, the neurodegeneration-related EWS, hnRNPU, TFG and UGP2, the DNA replication regulator MCM3, and the neuronal differentiation regulator LMTK1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

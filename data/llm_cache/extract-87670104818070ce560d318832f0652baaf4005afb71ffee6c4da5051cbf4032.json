@@ -1,0 +1,16 @@
+{
+  "pmid": "42576199",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "excitotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA2 editing, which can cause excitotoxicity.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

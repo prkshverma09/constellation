@@ -1,0 +1,26 @@
+{
+  "pmid": "42714610",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "hub gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WGCNA identified 10 hub genes (e.g., DNM1, OCRL, OPA1), whose dysregulation was linked to synaptic dysfunction and inflammation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic dysfunction and inflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WGCNA identified 10 hub genes (e.g., DNM1, OCRL, OPA1), whose dysregulation was linked to synaptic dysfunction and inflammation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

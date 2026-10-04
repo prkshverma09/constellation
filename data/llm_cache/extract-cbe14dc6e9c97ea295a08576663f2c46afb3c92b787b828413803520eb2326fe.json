@@ -1,0 +1,16 @@
+{
+  "pmid": "21463275",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A small percentage of female patients with a DS-like phenotype might carry PCDH19 mutations.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

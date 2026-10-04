@@ -1,0 +1,96 @@
+{
+  "pmid": "39392525",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE), often featuring drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in STXBP1 cause a spectrum of disorders mainly consisting of developmental and epileptic encephalopathy (DEE), often featuring drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "mortality rate 3.2% (31/966)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We estimated a mortality rate of 3.2% (31/966), based on the STXBP1 Foundation and the STXBP1 Global Connect registry.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "median age at death 13 years (range: 11 months-46 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They died at a median age of 13 years (range: 11 months-46 years).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy (SUDEP) as most common cause of death (36%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common cause of death was SUDEP (36%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "pulmonary infections and respiratory complications as cause of death (33%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pulmonary infections and respiratory complications (33%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "incidence of SUDEP peaked in mid-childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The incidence of SUDEP peaked in mid-childhood",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "non-SUDEP causes were more frequent in early childhood or adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-SUDEP causes were more frequent in early childhood or adulthood (p = 0.006)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "in the most severe phenotypes, death was related to non-SUDEP causes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the most severe phenotypes, death was related to non-SUDEP causes (p = 0.018).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "mortality rate similar to other DEEs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found a mortality rate in STXBP1-related disorders similar to other DEEs, with an early age at death and SUDEP as well as pulmonary infections as the main cause of death.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

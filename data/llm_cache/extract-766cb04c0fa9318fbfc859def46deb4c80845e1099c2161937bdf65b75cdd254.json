@@ -1,0 +1,26 @@
+{
+  "pmid": "36188399",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "No significant association between the GABRA1 rs2279020 and GABRA6 rs3219151 and the risk of epilepsy was found in the Asian and Arabic populations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "antiepileptic drug responsiveness",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The negative results were also observed when comparing the GABRA1 rs2279020 and GABRA6 rs3219151 polymorphism to antiepileptic drug responsiveness.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

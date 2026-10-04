@@ -1,0 +1,36 @@
+{
+  "pmid": "40717768",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "Leigh syndrome phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic DNM1-related mitochondrial disorders with Leigh syndrome phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic DNM1-related mitochondrial disorders with Leigh syndrome phenotype may show long-term improvement of hyperkinetic movements after GPi-DBS.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "long-term improvement of hyperkinetic movements after GPi-DBS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic DNM1-related mitochondrial disorders with Leigh syndrome phenotype may show long-term improvement of hyperkinetic movements after GPi-DBS.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

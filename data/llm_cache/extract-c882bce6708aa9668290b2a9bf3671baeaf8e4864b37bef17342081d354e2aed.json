@@ -1,0 +1,46 @@
+{
+  "pmid": "40994429",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN1 subunit of NMDA receptors (two GluN1 + two GluN2 form tetramer)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most NMDA receptors are tetrameric assemblies of two GluN1 and two GluN2 subunits encoded by five genes (GRIN1 and GRIN2A-GRIN2D), which produce GluN1 and GluN2A-GluN2D subunits.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "radiprodil binds to the GluN1-GluN2B amino terminal domain (structural determinants)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we evaluate the structural determinants of radiprodil binding to the heterodimeric GluN1-GluN2B amino terminal domain by X-ray crystallography and explore the molecular mechanism of inhibition.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "radiprodil antagonizes GRIN1 disease-associated missense variants in vitro (>80% effective, 22/27)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "radiprodil is an effective antagonist at >80% of human disease-associated GRIN1 and GRIN2B missense variants tested in vitro (22/27, equally or more effective as wild-type receptors)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including variants in the pore-forming region, linker regions and elsewhere that uniformly increase NMDA receptor-mediated charge transfer.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

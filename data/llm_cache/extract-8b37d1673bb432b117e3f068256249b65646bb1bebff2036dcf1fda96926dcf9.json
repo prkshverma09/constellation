@@ -1,0 +1,16 @@
+{
+  "pmid": "32336485",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A presumed causative mutation was identified in 86 individuals, of these, mutations in MECP2 in 77 individuals and mutations in SMC1A, SYNGAP1, SCN1A, CDKL5, FOXG1 or chromosome 13q in nine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

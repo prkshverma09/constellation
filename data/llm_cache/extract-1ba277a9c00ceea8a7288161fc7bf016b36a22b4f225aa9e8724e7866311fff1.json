@@ -1,0 +1,26 @@
+{
+  "pmid": "36405708",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "hub gene identified in the GSRS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 (hub genes identified in the GSRS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "potential predictor in LGGs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CA2, PTEN, OXTR, and SLC6A1 (hub genes identified in the GSRS) were regarded as the potential predictors in LGGs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

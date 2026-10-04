@@ -1,0 +1,36 @@
+{
+  "pmid": "36457583",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "Kv2.1 potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Potassium voltage-gated channel subfamily B member 1 (KCNB1) encodes Kv2.1 potassium channel.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay, behavioral disorders, and various epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 mutations are known to cause global developmental delay, behavioral disorders, and various epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "intrafamilial phenotypic variability and relatively mild clinical findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study shows that frameshift mutation cytoplasmic domain of KCNB1 gene can cause intrafamilial phenotypic variability and relatively mild clinical findings in these patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

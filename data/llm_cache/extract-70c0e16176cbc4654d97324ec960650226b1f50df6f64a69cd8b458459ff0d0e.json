@@ -1,0 +1,16 @@
+{
+  "pmid": "34177764",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Next-generation sequencing has enabled new gene discovery (RHOBTB2, TBC1D24)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "40982721",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapy (KDT)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The highest responder rate, which occurred among patients with mutations in the solute carrier family 2 member 1 gene, SLC2A1 (n = 87), was 96% (95% CI, 91%-100%, I2 = 0%, P = .72)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapy (KDT)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The highest seizure-free rate, which occurred in patients with mutations in SLC2A1 (n = 80), was 67% (95% CI, 49%-86%, I2 = 78%, P < .01)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "31707987",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy (EE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo GABRA1 (R214C) variant in a child with epileptic encephalopathy (EE)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "wild-type (WT) α1 and R214C α1 GABAA receptor-expressing HEK cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "wild-type (WT) α1 and R214C α1 GABAA receptor-expressing HEK cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decreased whole-cell GABA-evoked currents by reducing single channel open time and both surface and total GABAA receptor expression levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased whole-cell GABA-evoked currents by reducing single channel open time and both surface and total GABAA receptor expression levels",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "single channel open time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reducing single channel open time",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "surface and total GABAA receptor expression levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both surface and total GABAA receptor expression levels",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduces channel activity and surface expression of mutant receptors",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "diazepam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "could only be partially restored with benzodiazepine (diazepam) and insulin",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "insulin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "could only be partially restored with benzodiazepine (diazepam) and insulin",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "verapamil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "verapamil treatment for 24 h fully restored the function of R214C mutant receptors, primarily by increasing channel open time",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "increasing channel open time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primarily by increasing channel open time",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "verapamil",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggests that it is a potentially new therapeutic option for patients with the R214C variant",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "29976148",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ESESS/CSWSS/epilepsy-aphasia spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16 studies reported 11 monogenic mutations: SCN2A (N = 6), NHE6/SLC9A6 (N = 1), DRPLA/ ATN1 (N = 1), Neuroserpin/SRPX2 (N = 1), OPA3 (N = 1), KCNQ2 (N = 2), KCNA2 (N = 5), GRIN2A (N = 34), CNKSR2 (N = 2), SLC6A1 (N = 2) and KCNB1 (N = 5).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

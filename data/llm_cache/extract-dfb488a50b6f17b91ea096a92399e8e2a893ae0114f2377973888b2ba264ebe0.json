@@ -1,0 +1,26 @@
+{
+  "pmid": "42546502",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "272 (likely) pathogenic GABAA receptor missense variants (GABRA1, GABRB2, GABRB3, GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "in-vitro electrophysiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All variants were evaluated with in-vitro electrophysiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "29429257",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset focal myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 gene mutation related early-onset focal myoclonic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset age 4 months, 3 years and 5 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure onset age was 4 months, 3 years and 5 years after birth respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "prolonged focal myoclonus which relieved with sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prolonged focal myoclonus which relieved with sleep",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients had mental retardation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "poor response to AEDs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "poor response to AEDs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "ictal EEGs normal in all cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ictal EEGs were normal in all cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "brain MRI normal in 2 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain magnetic resonance imaging (MRI) was normal in 2 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "abnormal bilateral cerebellar signal in one patient",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormal signal was found bilaterally in cerebellum in 1 patient.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures uncontrolled in two patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures were uncontrolled in 2 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

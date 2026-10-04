@@ -1,0 +1,46 @@
+{
+  "pmid": "37647852",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "broad phenotypic disease spectrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants in the SLC6A1 gene can cause a broad phenotypic disease spectrum by altering the protein function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GAT1 transmembrane domains 1, 6 and extracellular loop 4 (EL4) were enriched for patient over population variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GAT1 transmembrane domains 1, 6 and extracellular loop 4 (EL4) were enriched for patient over population variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Across functionally tested missense variants (n = 156), the spatial proximity from the ligand was associated with loss-of-function in the GAT1 transporter activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "severe disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For variants with complete loss of in vitro GABA uptake, we found a 4.6-fold enrichment in patients having severe disease versus non-severe disease (P = 2.9 × 10-3, 95% confidence interval: 1.5-15.3).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

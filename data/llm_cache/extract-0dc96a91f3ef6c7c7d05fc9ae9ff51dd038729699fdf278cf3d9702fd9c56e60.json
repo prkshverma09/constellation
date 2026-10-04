@@ -1,0 +1,116 @@
+{
+  "pmid": "30093711",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "negative regulator of the mTORC1 pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GATOR1 complex, a negative regulator of the mTORC1 pathway",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "68% are loss-of-function pathogenic",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GATOR1 seizure phenotype consisted mostly in focal seizures (e.g., hypermotor or frontal lobe seizures in 50%),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "hypermotor or frontal lobe seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypermotor or frontal lobe seizures in 50%",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "mean age at onset 4.4 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a mean age at onset of 4.4 years",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sleep-related",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often sleep-related and drug-resistant (54%),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often sleep-related and drug-resistant (54%),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with focal cortical dysplasia (20%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Infantile spasms were reported in 10% of the probands.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "SUDEP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sudden unexpected death in epilepsy (SUDEP) occurred in 10% of the families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sporadic early-onset epilepsies with cognitive impairment comorbidities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

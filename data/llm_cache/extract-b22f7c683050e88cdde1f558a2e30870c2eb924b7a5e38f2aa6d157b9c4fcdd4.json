@@ -1,0 +1,76 @@
+{
+  "pmid": "41856439",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "key regulator of synaptic plasticity, neurodevelopment, and neuronal circuit function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic Ras GTPase-Activating Protein 1 (SynGAP) is a key regulator of synaptic plasticity, neurodevelopment, and neuronal circuit function.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 Encephalopathy, a rare neurodevelopmental disorder characterised by intellectual disability, epilepsy, autistic traits, and other clinical manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 Encephalopathy, a rare neurodevelopmental disorder characterised by intellectual disability, epilepsy, autistic traits, and other clinical manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autistic traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 Encephalopathy, a rare neurodevelopmental disorder characterised by intellectual disability, epilepsy, autistic traits, and other clinical manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "cohort of 44 cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we analysed a cohort of 44 cases extensively characterised at the phenotypic level",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "milder phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In our cohort, individuals carrying variants within the PH domain of SynGAP exhibit milder phenotypes compared with other patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "disease severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the location of SYNGAP1 variants, together with additional genetic modifiers, may contribute to variability in clinical presentation and disease severity.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

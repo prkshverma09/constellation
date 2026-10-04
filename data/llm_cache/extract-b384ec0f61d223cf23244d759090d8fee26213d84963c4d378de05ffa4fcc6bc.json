@@ -1,0 +1,16 @@
+{
+  "pmid": "39650656",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "early subtype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ten hub genes, SLC17A7, SNAP25, GAD1, SLC17A6, SLC32A1, PVALB, SYP, GRIN2A, SLC12A5, and SYN2, were identified as marker genes for the early subtype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

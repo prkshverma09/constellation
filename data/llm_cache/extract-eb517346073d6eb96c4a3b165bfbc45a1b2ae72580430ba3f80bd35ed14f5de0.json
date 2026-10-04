@@ -1,0 +1,76 @@
+{
+  "pmid": "35754477",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FS results from mutations in a single allele of the FOXG1 gene, leading to impaired FOXG1 function.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "Foxg1 heterozygous (HET) mice with a null allele",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We analyzed HET mice with a null mutation allele in a single copy of Foxg1, and found that they show various phenotypes resembling the symptoms of the human FS individuals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "increased anxiety in the open field",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased anxiety in the open field",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "impairment in object recognition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairment in object recognition",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "motor coordination impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairment in object recognition, motor coordination",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "impairment in fear learning and contextual and cued fear memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairment in object recognition, motor coordination, and fear learning and contextual and cued fear memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "Foxg1 HET mice recapitulate some human FS symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results suggest that Foxg1 HET mice recapitulate at least some symptoms of the human FS individuals.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "29760947",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants were seen in SCN8A, SCN2A, SCN1A, KCNQ2, HNRNPU, GRIN2A, SYNGAP1, STXBP1, STX1B, CDKL5, CHRNA4, PCDH19 and PIGT.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "39039877",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "complex heterozygous variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the WWOX gene variants in 12 cases were complex heterozygous variants,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset 10 days to 6 months (median 1.8 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the age of seizure onset ranged from 10 days to 6 months (median 1.8 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures and epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The common seizure types include focal seizures and epileptic spasms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly and global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 12 cases showed microcephaly and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasm syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "8 of them were diagnosed with infantile epileptic spasm syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures despite multiple anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "9 cases still had seizures after multiple anti-seizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "novel WWOX variants reported in this series",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(p.Ala149Thr, p.Arg156Ser, p.R167Tfs*8, p.Leu186Val, c.605+5G>A, p.Trp218*, p.His263Arg, p.Leu275fs*19*1, p.N285Kfs*10, p.Ser304Tyr, p.Met326Arg, loss1 exon2-8) had not been reported previously.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

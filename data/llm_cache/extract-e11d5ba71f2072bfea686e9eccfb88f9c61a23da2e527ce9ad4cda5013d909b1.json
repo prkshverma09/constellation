@@ -1,0 +1,116 @@
+{
+  "pmid": "31112829",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "multifocal myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most prominent features were multifocal myoclonus and epilepsia partialis continua (EPC).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsia partialis continua (EPC)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most prominent features were multifocal myoclonus and epilepsia partialis continua (EPC).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonus triggered by fever or infection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Myoclonus could be triggered by fever or infection in 15 patients, and could be terminated by sleep or sedation drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonus terminable by sleep or sedation drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "could be terminated by sleep or sedation drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Psychomotor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Psychomotor developmental delay was presented in 11 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six patients exhibited hearing loss.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "abnormal brain MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Brain MRIs were abnormal in eight patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients died due to status epilepticus at 4 months and 19 months of age, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 mutation related epilepsy was drug-resistant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "fever-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multifocal myoclonus, EPC, and fever-induced seizures were common clinical features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset age 1 day to 8 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset age ranged from 1 day to 8 months of age (median age 75 days).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

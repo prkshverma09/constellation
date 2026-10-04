@@ -1,0 +1,76 @@
+{
+  "pmid": "36811143",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "ictal vocalizations exhibited by Scn1a+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study shows that ictal vocalizations are exhibited by Scn1a+/- mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "increased total vocalizations during spontaneous GTCS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Spontaneous GTCS in Scn1a+/- mice were associated with a significantly higher number of total vocalizations.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "increased audible mouse squeaks with GTCS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The number of audible mouse squeaks was significantly greater with GTCS activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "ultrasonic vocalizations present in 98% seizure clips vs 57% nonseizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nearly all (98%) the seizure clips contained ultrasonic vocalizations, whereas ultrasonic vocalizations were present in only 57% of nonseizure clips.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "ultrasonic vocalizations higher frequency and nearly twice as long in seizure vs nonseizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ultrasonic vocalizations emitted in the seizure clips were at a significantly higher frequency and were nearly twice as long in duration as those emitted in the nonseizure clips.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "audible mouse squeaks primarily emitted during preictal phase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Audible mouse squeaks were primarily emitted during the preictal phase.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "greatest number of ultrasonic vocalizations during ictal phase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The greatest number of ultrasonic vocalizations was detected during the ictal phase.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

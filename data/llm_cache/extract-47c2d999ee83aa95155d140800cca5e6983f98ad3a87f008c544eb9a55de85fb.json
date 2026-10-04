@@ -1,0 +1,86 @@
+{
+  "pmid": "20696761",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "Pingu (Pgu) mutant mouse carrying I402T in Kcna2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This mutant, named Pingu (Pgu), carries a missense mutation, an I402T substitution in the S6 segment of the voltage-gated potassium channel Kcna2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "carries a missense mutation, an I402T substitution in the S6 segment of the voltage-gated potassium channel Kcna2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a dramatic decrease in the amount of functional Kv1 channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "abundantly expressed in the large axon terminals of basket cells that make powerful axo-somatic synapses onto Purkinje cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gene Kcna2 encodes the voltage-gated potassium channel α-subunit Kv1.2, which is abundantly expressed in the large axon terminals of basket cells that make powerful axo-somatic synapses onto Purkinje cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an increase in GABA release from basket cells is involved in the motor incoordination in Pgu mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pharmacological treatment with acetazolamide or transgenic complementation with wild-type Kcna2 cDNA partially rescued the motor incoordination in Pgu mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "transgenic complementation with wild-type Kcna2 cDNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pharmacological treatment with acetazolamide or transgenic complementation with wild-type Kcna2 cDNA partially rescued the motor incoordination in Pgu mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "subtle changes in biophysical properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed subtle changes in biophysical properties but a dramatic decrease in the amount of functional Kv1 channels.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "24469796",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cortical malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical malformations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "in utero TBC1D24 knockdown in the rat developing neocortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in utero TBC1D24 knockdown in the rat developing neocortex",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "multipolar-bipolar transition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "affects the multipolar-bipolar transition of neurons leading to delayed radial migration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "delayed radial migration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "affects the multipolar-bipolar transition of neurons leading to delayed radial migration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "neuronal maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24-knockdown neurons display an abnormal maturation and retain immature morphofunctional properties",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "ADP ribosylation factor (ARF)6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 interacts with ADP ribosylation factor (ARF)6, a small GTPase crucial for membrane trafficking",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "dominant-negative ARF6 rescues neuronal migration and dendritic outgrowth defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "overexpression of the dominant-negative form of ARF6 rescues the neuronal migration and dendritic outgrowth defects induced by TBC1D24 knockdown",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "prevents ARF6 activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that TBC1D24 prevents ARF6 activation",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "ARF6-dependent membrane-trafficking pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlight the physiological relevance of the ARF6-dependent membrane-trafficking pathway in brain development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

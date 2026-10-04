@@ -1,0 +1,66 @@
+{
+  "pmid": "39399018",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay, epilepsy, motor dysfunction, and autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in SLC6A1 result in a rare neurodevelopmental disorder characterized by a variable clinical presentation of symptoms including developmental delay, epilepsy, motor dysfunction, and autism spectrum disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC6A1 haploinsufficiency has been confirmed as the predominant pathway of SLC6A1-related neurodevelopmental disorders (NDDs)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "find a mild to severe clinical presentation associated with missense variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Drosophila melanogaster allelic series",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "create an allelic series in the Drosophila melanogaster to functionally characterize case variants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirm phenotypes in flies expressing SLC6A1 variants consistent with a partial loss-of-function mechanism.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We conclude that the p.(A334S) variant is a hypomorphic allele",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

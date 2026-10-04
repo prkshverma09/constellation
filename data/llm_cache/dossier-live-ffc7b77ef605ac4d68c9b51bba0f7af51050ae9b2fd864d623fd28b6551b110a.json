@@ -1,0 +1,132 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "Verify: MONDO:0014859 (developmental and epileptic encephalopathy, 37) is an inferred member_of the DEE mechanisms cluster (evidence class=inferred; identity signal=constellation:cluster/6:0.6; stability reported in source; edge f6d7b0717195dc95).",
+          "edge_ids": [
+            "f6d7b0717195dc95"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Verify: the exact foundation link—“Finding Hope for FRRS1L”—serves MONDO:0014859 (evidence class=web_discovered; identity signal=https://www.frrs1l.org/mission; edge 73c3e58f80ceb45c).",
+          "edge_ids": [
+            "73c3e58f80ceb45c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "Verify: the counterexample—neurodevelopmental disorder with involuntary movements (often GNAO1-related; MONDO:0060491)—is phenotypically_similar_to MONDO:0014859 by an inferred analytics edge (evidence class=inferred; identity signal=MONDO:0060491|MONDO:0014859; edge b0f727ee907516be).",
+          "edge_ids": [
+            "b0f727ee907516be"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Verify: this snapshot maps no corroborated cross-disease investigator bridge for MONDO:0014859; absence inferred from the indexed disease–phenotype coverage edges listed here (evidence class=curated; identity signals include uuid:8962af1f-a73c-11f1-baa1-70a8a519a557, uuid:8962af2c-a73c-11f1-baa1-70a8a519a557, uuid:8962af24-a73c-11f1-baa1-70a8a519a557; edges 0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d).",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Use the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped.",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Verify: multiple disease–phenotype associations for MONDO:0014859 are represented in this snapshot, including curated links to Focal hemiclonic seizure, Nystagmus, and Gait disturbance (identity signals uuid:8962af1f-a73c-11f1-baa1-70a8a519a557; uuid:8962af2c-a73c-11f1-baa1-70a8a519a557; uuid:8962af24-a73c-11f1-baa1-70a8a519a557; edges 0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d).",
+          "edge_ids": [
+            "0ba47f149a39c86b",
+            "19369ad09c3c5265",
+            "19b5eceb4aa1259d"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 1,
+  "markdown": "## Who shares our characteristics\nVerify: MONDO:0014859 (developmental and epileptic encephalopathy, 37) is an inferred member_of the DEE mechanisms cluster (evidence class=inferred; identity signal=constellation:cluster/6:0.6; stability reported in source; edge f6d7b0717195dc95). [f6d7b0717195dc95]\n\n## What already exists\nVerify: the exact foundation link—“Finding Hope for FRRS1L”—serves MONDO:0014859 (evidence class=web_discovered; identity signal=https://www.frrs1l.org/mission; edge 73c3e58f80ceb45c). [73c3e58f80ceb45c]\n\n## What differs and must be verified\nVerify: the counterexample—neurodevelopmental disorder with involuntary movements (often GNAO1-related; MONDO:0060491)—is phenotypically_similar_to MONDO:0014859 by an inferred analytics edge (evidence class=inferred; identity signal=MONDO:0060491|MONDO:0014859; edge b0f727ee907516be). [b0f727ee907516be]\n\n## Who to contact\nVerify: this snapshot maps no corroborated cross-disease investigator bridge for MONDO:0014859; absence inferred from the indexed disease–phenotype coverage edges listed here (evidence class=curated; identity signals include uuid:8962af1f-a73c-11f1-baa1-70a8a519a557, uuid:8962af2c-a73c-11f1-baa1-70a8a519a557, uuid:8962af24-a73c-11f1-baa1-70a8a519a557; edges 0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d). [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Proposed first joint step\nUse the indexed disease coverage to plan the next experiment; no reusable asset or verified bridge is mapped. [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]\n\n## Search coverage\nVerify: multiple disease–phenotype associations for MONDO:0014859 are represented in this snapshot, including curated links to Focal hemiclonic seizure, Nystagmus, and Gait disturbance (identity signals uuid:8962af1f-a73c-11f1-baa1-70a8a519a557; uuid:8962af2c-a73c-11f1-baa1-70a8a519a557; uuid:8962af24-a73c-11f1-baa1-70a8a519a557; edges 0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d). [0ba47f149a39c86b, 19369ad09c3c5265, 19b5eceb4aa1259d]",
+  "usage": {
+    "input_tokens": 13431,
+    "output_tokens": 5491
+  },
+  "disease_id": "MONDO:0014859",
+  "persona": "osei",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "bda532af-6b57-4335-b2b3-7e82fab11969",
+  "generated_at": "2026-10-04T11:12:36.026532+00:00",
+  "gap_plan": {
+    "reasons": [
+      "No neighbour meets both S ≥ 0.45 and M ≥ 0.25 in the indexed cluster.",
+      "No reusable asset or investigator bridge is mapped to this cluster."
+    ],
+    "what_would_change": [
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with CACNA2D2 would populate the mechanism layer.",
+        "edge_ids": [
+          "92307a1900838526",
+          "a297f33d888102c2"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with STXBP1 would populate the mechanism layer.",
+        "edge_ids": [
+          "d30b8d092282e8a9",
+          "a297f33d888102c2"
+        ]
+      },
+      {
+        "layer": "M",
+        "text": "A functional study testing whether FRRS1L (regulation of glutamate receptor signaling pathway (GO:1900449)) participates in a mechanism shared with GABRG2 would populate the mechanism layer.",
+        "edge_ids": [
+          "e0049dc271bca234",
+          "a297f33d888102c2"
+        ]
+      }
+    ]
+  },
+  "fallback_sections": [
+    "next_step"
+  ],
+  "model": "gpt-5",
+  "elapsed_ms": 73639,
+  "comparator_id": null
+}

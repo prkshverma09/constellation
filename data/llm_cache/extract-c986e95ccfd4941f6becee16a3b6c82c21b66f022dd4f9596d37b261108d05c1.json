@@ -1,0 +1,16 @@
+{
+  "pmid": "23153929",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We replicated 11 association signals at p < 0.05 (SNCA, STK39, MAPT, GPNMB, CCDC62/HIP1R, SYT11, GAK, STX1B, MCCC1/LAMP3, ACMSD, and FGF20).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "16887333",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizure plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the voltage-gated sodium channel alpha-1, alpha-2 and beta-1 subunit genes (SCN1A, SCN2A and SCN1B) and the GABA(A) receptor gamma-2 subunit gene (GABRG2) have been identified in families with a clinical subset of seizures termed \"generalized epilepsy with febrile seizure plus (GEFS+)\".",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

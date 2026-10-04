@@ -1,0 +1,26 @@
+{
+  "pmid": "27323939",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "component of the GATOR1 complex, a repressor of mTORC1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, germline mutations have been found in genes encoding the components of the GATOR1 complex (DEPDC5, NPRL2, NPRL3), a repressor of mTORC1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy syndromes, with and without cortical structural abnormalities (usually focal cortical dysplasia)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations are increasingly recognized as causing a wide and yet evolving spectrum of focal epilepsy syndromes, with and without cortical structural abnormalities (usually focal cortical dysplasia).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

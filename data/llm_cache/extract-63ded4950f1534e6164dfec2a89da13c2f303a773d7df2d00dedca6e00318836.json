@@ -1,0 +1,26 @@
+{
+  "pmid": "29997391",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "congenital ataxias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlights the pathogenic link between some CA and early infantile epileptic encephalopathies related to the same genes (STXBP1, BRAT1, CACNA1A and CACNA2D2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlights the pathogenic link between some CA and early infantile epileptic encephalopathies related to the same genes (STXBP1, BRAT1, CACNA1A and CACNA2D2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

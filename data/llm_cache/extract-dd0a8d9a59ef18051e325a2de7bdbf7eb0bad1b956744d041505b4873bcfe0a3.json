@@ -1,0 +1,36 @@
+{
+  "pmid": "40971258",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "overactivation of mTORC1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations of the GATOR1 complex genes-comprising NPRL3, NPRL2, and DEPDC5-are known to result in overactivation of mTORC1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "GATOR1 complex membership (NPRL3, NPRL2, DEPDC5)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GATOR1 complex genes-comprising NPRL3, NPRL2, and DEPDC5",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ictal central apnea (ICA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic testing was performed in 21 of 22 MRI-negative patients with ICA, revealing variants in mTOR pathway genes in 10 cases (48%), including DEPDC5 (n = 6).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "40993764",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "loss of certain glutamatergic and microglial clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the loss of certain glutamatergic and microglial clusters in cortical tubers (TSC), MTOR_FCD and DEPDC5_FCD,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

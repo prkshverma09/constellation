@@ -1,0 +1,16 @@
+{
+  "pmid": "31882278",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2, a gene associated with self-limited epilepsy, is frequently implicated.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

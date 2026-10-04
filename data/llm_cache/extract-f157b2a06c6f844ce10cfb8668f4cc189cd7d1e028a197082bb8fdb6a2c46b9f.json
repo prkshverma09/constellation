@@ -1,0 +1,106 @@
+{
+  "pmid": "39895633",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function variants in the SLC6A1 gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "main GABA transporter in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding GAT1, which is the main GABA transporter in the brain",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including epilepsy, developmental delay, intellectual disability, and autism",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including epilepsy, developmental delay, intellectual disability, and autism",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including epilepsy, developmental delay, intellectual disability, and autism",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including epilepsy, developmental delay, intellectual disability, and autism",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "heterozygous and homozygous knockout mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "replacement of GAT1 via AAV type 9 in heterozygous and homozygous knockout mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "intrathecal AAV administration at postnatal day 5 achieved high expression and was best tolerated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intrathecal administration of vectors containing either promoter at postnatal day 5 achieved high expression and was the best tolerated approach.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "gene-replacement therapy failed at later disease stages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gene-replacement therapy failed at later disease stages",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "importance of GABA metabolism in early brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirming the importance of GABA metabolism in early brain development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

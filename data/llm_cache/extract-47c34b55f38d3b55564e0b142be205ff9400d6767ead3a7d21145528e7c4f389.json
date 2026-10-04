@@ -1,0 +1,166 @@
+{
+  "pmid": "40827489",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "GluN2B subunit of NMDARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B encodes the GluN2B subunit of N-methyl-d-aspartate receptors (NMDARs)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "new rat Grin2b haploinsufficiency model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "Grin2b heterozygous knockout rat model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel Grin2b heterozygous knockout rat model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic mutations in GRIN2B are an important cause of severe neurodevelopmental disorders resulting in epilepsy, autism, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic mutations in GRIN2B are an important cause of severe neurodevelopmental disorders resulting in epilepsy, autism, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic mutations in GRIN2B are an important cause of severe neurodevelopmental disorders resulting in epilepsy, autism, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "spike and wave discharges (SWDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Grin2b+/- rats had a higher incidence of spontaneous spike and wave discharges (SWDs), the electrographic correlate of absence seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "longer duration of SWDs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SWDs were longer in duration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "higher delta band spectral power during SWDs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SWDs were longer in duration and displayed higher delta band spectral power in Grin2b+/- animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "reduction in total rapid eye movement sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous animals displayed a reduction in total rapid eye movement sleep",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "altered distributions of non-rapid eye movement sleep and wake epochs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered distributions of non-rapid eye movement sleep and wake epochs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "decrease in overall spectral wake power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a decrease in overall spectral wake power",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "increase in beta band power during non-rapid eye movement sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an increase in beta band power during non-rapid eye movement sleep",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "ethosuximide (systemic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Systemic ethosuximide reduced the number and duration of SWDs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "memantine (systemic)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "memantine only reduced their duration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "intrathalamic ethosuximide and memantine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intrathalamic infusion of both ethosuximide and memantine reduced the number of SWDs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

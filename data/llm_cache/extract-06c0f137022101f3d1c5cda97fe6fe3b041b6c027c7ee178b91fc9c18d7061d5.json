@@ -1,0 +1,96 @@
+{
+  "pmid": "26503721",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous for a de novo missense variant in the coding region of the KCNB1 gene, c.1133T>C.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "expressed at high levels in central neurons and is an important regulator of neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is expressed at high levels in central neurons and is an important regulator of neuronal excitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "expression of the V378A variant results in voltage-activated currents that are sensitive to the selective Kv2 channel blocker guangxitoxin-1E",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "expression of the V378A variant results in voltage-activated currents that are sensitive to the selective Kv2 channel blocker guangxitoxin-1E.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "nonselective among monovalent cations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These voltage-activated Kv2.1 V378A currents were nonselective among monovalent cations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "heterologous cells showing cell background-dependent differences in expression and subcellular localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Striking cell background-dependent differences in expression and subcellular localization of the V378A mutation were observed in heterologous cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "coexpression of V378A and wild-type subunits reciprocally affects trafficking characteristics",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "coexpression of V378A subunits and wild-type Kv2.1 subunits reciprocally affects their respective trafficking characteristics.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "development of epileptic encephalopathy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "loss of voltage-sensitive gating is not required for an epileptic encephalopathy phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the loss of voltage-sensitive gating seen in all other reported disease mutants is not required for an epileptic encephalopathy phenotype.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "defects in expression and subcellular localization could contribute to pathophysiology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defects in expression and subcellular localization of Kv2.1 V378A channels could contribute to the pathophysiology of this KCNB1 variant.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

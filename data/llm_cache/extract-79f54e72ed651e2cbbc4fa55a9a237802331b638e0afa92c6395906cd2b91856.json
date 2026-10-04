@@ -1,0 +1,16 @@
+{
+  "pmid": "25356899",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A total of 12 likely pathogenic DNMs were identified in genes previously associated with ID (ARID1B, CHD2, FOXG1, GABRB3, GATAD2B, GRIN2B, MBD5, MED13L, SETBP1, TBR1, TCF4, WDR45)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

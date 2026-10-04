@@ -1,0 +1,66 @@
+{
+  "pmid": "37590302",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "mitochondrial fission / fragmentation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The absence of Yta4 leads to mild mitochondrial fragmentation in a Dnm1-dependent manner",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "localization to mitochondria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduces the localization of Dnm1 to mitochondria.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "interaction with Yta4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Yta4 interacts with Dnm1, Mdv1, and Fis1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "binding to Mdv1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Yta4 competes with Dnm1 for binding Mdv1",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "GTP affinity / GTP binding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreases the affinity of Dnm1 for GTP",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "assembly (oligomerization)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inhibits Dnm1 assembly in vitro.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

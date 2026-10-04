@@ -1,0 +1,96 @@
+{
+  "pmid": "31904117",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A, encoding the alpha 1 subunit of the sodium channel, is associated with several epilepsy syndromes and a range of other diseases.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A represents the archetypal channelopathy associated with a wide phenotypic spectrum of epilepsies ranging from genetic epilepsy with febrile seizures plus (GEFS+), to developmental and epileptic encephalopathies (DEEs).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A represents the archetypal channelopathy associated with a wide phenotypic spectrum of epilepsies ranging from genetic epilepsy with febrile seizures plus (GEFS+), to developmental and epileptic encephalopathies (DEEs).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A disorders also result in other diseases such as hemiplegic migraine and autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder (ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A disorders also result in other diseases such as hemiplegic migraine and autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The molecular finding of haploinsufficiency is consistent with a loss-of-function defect in cells and animal models.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The molecular finding of haploinsufficiency is consistent with a loss-of-function defect in cells and animal models.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All SCN1A mutations reported in sporadic/familial HM3 are missense mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the experimental results show that they cause a gain of function of NaV 1.1 as opposed to the loss of function of the epileptogenic NaV 1.1 mutations.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

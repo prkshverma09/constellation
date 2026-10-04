@@ -1,0 +1,56 @@
+{
+  "pmid": "22202011",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX/WOX1 is a candidate tumor suppressor.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "WW domain-containing oxidoreductase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human WWOX gene, encoding the WW domain-containing oxidoreductase (designated WWOX, FOR, or WOX1) protein",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "molecular interactions, signaling, and apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the WW domain is not only a tumor suppressor, but also a participant in molecular interactions, signaling, and apoptosis in many diseases.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "participation in Alzheimer's disease pathogenesis via cell death signaling pathways in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we review the potential mechanism by which WWOX/WOX1 may participate in the pathogenesis of AD with a focus on cell death signaling pathways in neurons.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "mapped to a fragile site on chromosome ch16q23.3-24.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has been mapped to a fragile site on the chromosome ch16q23.3-24.1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

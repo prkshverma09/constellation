@@ -1,0 +1,76 @@
+{
+  "pmid": "34183050",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "episodic memory (delayed recall)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP-2 was the only synaptic protein to correlate with episodic memory (delayed recall adj.p = .04)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP-2 was the only synaptic protein to correlate with episodic memory (delayed recall adj.p = .04) and age (adj.p = .0008)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF Aβ42:40",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP-2 was the only synaptic protein to correlate with episodic memory (delayed recall adj.p = .04) and age (adj.p = .0008) and was the best correlate of CSF Aβ42:40 (adj.p = .0001), p-tau (adj.p < .0001), and NFL (adj.p < .0001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF p-tau",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP-2 was the only synaptic protein to correlate with episodic memory (delayed recall adj.p = .04) and age (adj.p = .0008) and was the best correlate of CSF Aβ42:40 (adj.p = .0001), p-tau (adj.p < .0001), and NFL (adj.p < .0001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF NFL",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP-2 was the only synaptic protein to correlate with episodic memory (delayed recall adj.p = .04) and age (adj.p = .0008) and was the best correlate of CSF Aβ42:40 (adj.p = .0001), p-tau (adj.p < .0001), and NFL (adj.p < .0001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "reduced VAMP-2 levels in asymptomatic adults with Down syndrome compared to controls",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to controls, mean VAMP-2 levels were lower in asymptomatic adults with DS only (adj.p = .02).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synapse degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data show proof-of-concept for CSF VAMP-2 as a potential marker of synapse degeneration that correlates with CSF AD and axonal degeneration markers and cognitive performance.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

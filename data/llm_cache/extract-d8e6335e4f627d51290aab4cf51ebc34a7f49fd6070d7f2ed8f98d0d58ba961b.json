@@ -1,0 +1,76 @@
+{
+  "pmid": "42236689",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulator of embryonic brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The FOXG1 transcription factor is a crucial regulator of embryonic brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "FOXG1 syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic FOXG1 variants cause FOXG1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "FOXG1 syndrome-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we identify two non-coding structural variants in individuals with FOXG1 syndrome-like features, allowing us to delineate a ~ 124 kb commonly affected regulatory region.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "regulatory elements within the commonly affected regulatory region and wider FOXG1 TAD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using epigenomic profiling and in vivo enhancer assays, we characterize and validate regulatory elements within the commonly affected regulatory region and wider FOXG1 TAD.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "important regulator of forebrain-directed neural progenitor cell differentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a process in which FOXG1 is an important regulator.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "reduced FOXG1 transcription in forebrain neural progenitor cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Perturbation of these elements results in varying degrees of reduced FOXG1 transcription in forebrain neural progenitor cells and in population shifts within these cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "enhancer and architectural elements essential for proper FOXG1 transcription during neurodevelopment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings characterize enhancer and architectural elements essential for proper FOXG1 transcription during neurodevelopment, therefore improving variant interpretation in this region.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

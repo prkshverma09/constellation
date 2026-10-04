@@ -1,0 +1,26 @@
+{
+  "pmid": "37529779",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "high expression in brain tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven cytosine-phosphate-guanine (CpG) sites in genes highly expressed in brain tissues (GRIN2D, GABRB3, KCNC1, SLC12A9, CHD5, STXBP5, and NFASC)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "CpG site DNAm measured in cohort",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven cytosine-phosphate-guanine (CpG) sites in genes highly expressed in brain tissues (GRIN2D, GABRB3, KCNC1, SLC12A9, CHD5, STXBP5, and NFASC)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

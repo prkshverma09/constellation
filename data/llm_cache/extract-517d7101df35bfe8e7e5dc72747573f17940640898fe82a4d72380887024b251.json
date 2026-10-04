@@ -1,0 +1,146 @@
+{
+  "pmid": "39965881",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function variants in heterogeneous nuclear ribonucleoprotein U (HNRNPU) cause early-onset developmental and epileptic encephalopathy with multiple congenital anomalies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was a 1-year-old Japanese girl with developmental delay, hypotonia, early-onset epilepsy, respiratory distress, and distinctive facial features, including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was a 1-year-old Japanese girl with developmental delay, hypotonia, early-onset epilepsy, respiratory distress, and distinctive facial features, including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was a 1-year-old Japanese girl with developmental delay, hypotonia, early-onset epilepsy, respiratory distress, and distinctive facial features, including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "respiratory distress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was a 1-year-old Japanese girl with developmental delay, hypotonia, early-onset epilepsy, respiratory distress, and distinctive facial features, including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "ptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epicanthus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "prominent nasal bridge",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "wide nasal floor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "cleft soft palate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "micrognathia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including ptosis, epicanthus, a prominent nasal bridge, a wide nasal floor, a cleft soft palate, and micrognathia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "pharyngeal stenosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Respiratory distress was caused by pharyngeal stenosis and laryngomalacia, which gradually worsened, necessitating a scheduled tracheostomy at 1 year and 7 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "laryngomalacia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Respiratory distress was caused by pharyngeal stenosis and laryngomalacia, which gradually worsened, necessitating a scheduled tracheostomy at 1 year and 7 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "severe airway anomalies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We herein describe the first case of HNRNPU-related neurodevelopmental disorder with severe airway anomalies and a novel nonsense variant, thereby expanding the phenotypic spectrum.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

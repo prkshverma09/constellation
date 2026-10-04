@@ -1,0 +1,116 @@
+{
+  "pmid": "36719128",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "a variant of epileptic encephalopathy, developmental encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "8 patients (5 with mutation c.607G>A (p.Gly203Arg), 1 - c.155A>G (Gln52Arg), 1 - c.485G>A (p.Arg162Gln)) had a variant of epileptic encephalopathy, developmental encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "torsion dystonia without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "1 patient had torsion dystonia without epilepsy (mutation c.713A>G (p.Asp238Gly)).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic seizures debuted at 1 month of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic seizures in 8 children with epileptic encephalopathy GNAO1 in 100% debuted at 1 month of life, becoming the earliest symptom of the disease.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "motor development delayed in 100% of cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Motor development delayed in 100% of cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "mental development not affected only in the case of the dystonic variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mental development was not affected only in the case of the dystonic variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "Hyperkinesis (dystonia, choreoathetosis, ballism) followed later, from 2 to 8 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hyperkinesis (dystonia, choreoathetosis, ballism) followed later, from 2 to 8 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinesis were more severe than epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They were more severe than epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "repeated dystonic storms that were resistant to most drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4 patients with the c.607G>A (p.Gly203Arg) mutation developed repeated dystonic storms that were resistant to most drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy in GNAO1 is difficult to treat but temporary or complete remission is possible",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy in GNAO1 is difficult to treat, but temporary or complete remission is possible.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "Effective drug strategies for the treatment of hyperkinesis have not yet been developed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Effective drug strategies for the treatment of hyperkinesis have not yet been developed.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "surgical therapy (DBS) of hyperkinesis (expansion of indications is desirable)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expansion of indications for surgical therapy (DBS) of hyperkinesis in this syndrome is desirable.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

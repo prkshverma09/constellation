@@ -1,0 +1,26 @@
+{
+  "pmid": "33519703",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pathognomonic chewing-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the first description of pathognomonic chewing-induced seizures in SYNGAP1 patients",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "statins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the therapeutic effect of statins as anticonvulsant in these patients",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

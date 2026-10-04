@@ -1,0 +1,106 @@
+{
+  "pmid": "40217381",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "brain energy metabolism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The SLC2A1 gene plays a vital role in brain energy metabolism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "late-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SLC2A1 variants are associated with late-onset epilepsy, which is consistent with the genetic-dependent stage feature of SLC2A1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten cases (62.5%) presented with infantile onset seizures and developmental delay/intellectual disability and were diagnosed with developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic partial epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They were diagnosed with idiopathic partial epilepsy (n = 2) or idiopathic generalized epilepsy (n = 4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They were diagnosed with idiopathic partial epilepsy (n = 2) or idiopathic generalized epilepsy (n = 4).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "late-onset seizures with normal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other six cases (37.5%) exhibited late-onset seizures and normal development.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "variants cluster in transmembrane region vs outside (molecular sub-regional effect)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEE-associated variants tended to cluster in the transmembrane region, whereas the mild epilepsy-associated variants tended to locate in regions outside the transmembrane region, suggesting a potential molecular sub-regional effect.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "expression at relatively high level throughout the whole life span with two peaks at approximately four and 14 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The SLC2A1 expression stage, which is expressed at relatively high level throughout the whole life span, from the embryonic to adult stages with two peaks at approximately four and 14 years, is generally consistent with the seizure onset age.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "variant_effect",
+      "object_text": "variants potentially associated with severe damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, patients with early-onset age had variants that were potentially associated with severe damage, suggesting a potential correlation between the age of disease onset and the damaging effects of the variants.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "early genetic diagnosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early genetic diagnosis is important for treatment of patients with SLC2A1 variants.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

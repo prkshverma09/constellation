@@ -1,0 +1,16 @@
+{
+  "pmid": "28064419",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "association with pharmacokinetics or pharmacodynamics of carbamazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supports the association of PXR*1B, HNF4a rs2071197, CYP1A2*1F, ABCC2 1249G>A, and PRRT2 c.649dupC with either pharmacokinetics or pharmacodynamics of carbamazepine.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

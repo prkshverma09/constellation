@@ -1,0 +1,146 @@
+{
+  "pmid": "14660671",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "entla (ent) is a novel recessive phenotype of mice.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "entla (ent) is a novel recessive phenotype of mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "the Cacna2d2 gene encoding the alpha2delta-2 subunit of voltage-gated calcium channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified as an allele of the Cacna2d2 gene encoding the alpha2delta-2 subunit of voltage-gated calcium channels.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "The Cacna2d2entla allele harbors a 38-kb duplication comprising the 117 nucleotides of exon 3.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Cacna2d2entla allele harbors a 38-kb duplication comprising the 117 nucleotides of exon 3.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "predicted duplication of 39 amino acid residues results in expression of a full-length, membrane-associated protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The predicted duplication of 39 amino acid residues near the subunit's N terminus results in the expression of a full-length, membrane-associated protein.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "loss of the disulfide linkage between the two proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but indicated loss of the disulfide linkage between the two proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ca2+ current densities recorded from acutely dissociated Purkinje cells of homozygous entla animals were reduced by 50% compared with wild type.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed a >60% reduced maximum binding to cerebellar membranes of ent/ent compared with unaffected littermates.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia by postnatal day 13-15",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ent/ent mice develop ataxia by postnatal day 13-15,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal dyskinesia a few days later",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "followed by paroxysmal dyskinesia a few days later.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "absence epilepsy (two distinct types of cortical and hippocampal epileptic activity at 2 and 4 Hz)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two distinct types of cortical and hippocampal epileptic activity at 2 and 4 Hz were recorded, indicative of absence epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "reduced size and weight",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygotes display reduced size and weight,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "increased mortality before weaning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased mortality before weaning,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "female infertility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "female infertility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "no overt neuroanatomical abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No overt neuroanatomical abnormalities were detected.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "34731330",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.2360A > G, p.(Glu787Gly)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe ID",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar signs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebellar signs",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "short stature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "short stature",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "facial dysmorphisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "facial dysmorphisms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "maps to chromosome Xq25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GRIA3 gene maps to chromosome Xq25",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "segregation pattern compatible with causative role",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subsequent analysis in the family showed a segregation pattern compatible with the causative role of this variant",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "preliminary functional insights support pathogenicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "further supported by preliminary functional insights",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

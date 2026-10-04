@@ -1,0 +1,16 @@
+{
+  "pmid": "32412599",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "most intimate protein in GBM-related module / PPI network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VAMP2 was filtered out as the most intimate protein.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

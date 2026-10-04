@@ -1,0 +1,16 @@
+{
+  "pmid": "39087855",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "severe and refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2 and KCNQ3 variants are associated with severe and refractory epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

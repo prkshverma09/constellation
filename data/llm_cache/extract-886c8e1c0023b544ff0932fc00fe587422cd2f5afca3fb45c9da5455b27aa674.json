@@ -1,0 +1,86 @@
+{
+  "pmid": "22029951",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign familial neonatal-infantile seizures (BFNIS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SCN2A, the gene encoding α2 subunit of the neuronal sodium channel, are associated with a variety of epilepsies: benign familial neonatal-infantile seizures (BFNIS); genetic epilepsy with febrile seizures plus (GEFS+); Dravet syndrome (DS); and some intractable childhood epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SCN2A, the gene encoding α2 subunit of the neuronal sodium channel, are associated with a variety of epilepsies: benign familial neonatal-infantile seizures (BFNIS); genetic epilepsy with febrile seizures plus (GEFS+); Dravet syndrome (DS); and some intractable childhood epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SCN2A, the gene encoding α2 subunit of the neuronal sodium channel, are associated with a variety of epilepsies: benign familial neonatal-infantile seizures (BFNIS); genetic epilepsy with febrile seizures plus (GEFS+); Dravet syndrome (DS); and some intractable childhood epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "some intractable childhood epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SCN2A, the gene encoding α2 subunit of the neuronal sodium channel, are associated with a variety of epilepsies: benign familial neonatal-infantile seizures (BFNIS); genetic epilepsy with febrile seizures plus (GEFS+); Dravet syndrome (DS); and some intractable childhood epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 10 new mutations have been identified in BFNIS, all of them are missense.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "divergent biophysical defects in Na(V)1.2 and impair cell surface expressions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies of SCN2A mutations show that they can cause divergent biophysical defects in Na(V)1.2 and impair cell surface expressions.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "neonatal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, microduplication of chromosome 2q24.3 (containing eight genes including SCN2A, SCN3A, and the 3' end of SCN1A) was reported in a family with dominantly inherited neonatal seizures and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, microduplication of chromosome 2q24.3 (containing eight genes including SCN2A, SCN3A, and the 3' end of SCN1A) was reported in a family with dominantly inherited neonatal seizures and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "26912996",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "Intellectual Disability (ID) with comorbid Autism Spectrum Disorder (ASD) and epilepsy in children",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 (Synaptic Ras-GTPase-activating protein) has been shown to cause Intellectual Disability (ID) with comorbid Autism Spectrum Disorder (ASD) and epilepsy in children.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "negative regulator of Ras, Rap and of AMPA receptor trafficking to the postsynaptic membrane; regulates synaptic plasticity and neuronal homeostasis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a negative regulator of Ras, Rap and of AMPA receptor trafficking to the postsynaptic membrane, thereby regulating not only synaptic plasticity, but also neuronal homeostasis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using Syngap1 mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "potential target during critical period of development when the brain is more susceptible to therapeutic intervention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggests a potential target during critical period of development when the brain is more susceptible to therapeutic intervention.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

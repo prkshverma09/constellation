@@ -1,0 +1,96 @@
+{
+  "pmid": "30928302",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a developmental encephalopathy caused by pathogenic variants in the gene CDKL5.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early infantile onset refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early infantile onset refractory epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental intellectual and motor disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental intellectual and motor disabilities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants include deletions, truncations, splice variants, and missense variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic missense variants occur exclusively within the kinase domain or affect splice sites.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "widely expressed in the brain, predominantly in neurons, with roles in cell proliferation, neuronal migration, axonal outgrowth, dendritic morphogenesis, and synapse development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The CDKL5 protein is widely expressed in the brain, predominantly in neurons, with roles in cell proliferation, neuronal migration, axonal outgrowth, dendritic morphogenesis, and synapse development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "phase 2 and 3 clinical trials",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with phase 2 and 3 clinical trials underway or planned to assess disease specific and disease modifying treatments.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

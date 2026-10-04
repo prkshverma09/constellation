@@ -1,0 +1,116 @@
+{
+  "pmid": "19304421",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "Transport of glucose from the bloodstream across the blood-brain barrier to the central nervous system is facilitated by glucose transport protein type 1 (GLUT1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transport of glucose from the bloodstream across the blood-brain barrier to the central nervous system is facilitated by glucose transport protein type 1 (GLUT1)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "GLUT1-deficiency syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous mutations in the GLUT1/SLC2A1 gene, occurring de novo or inherited as an autosomal dominant trait, result in cerebral energy failure and a clinical condition termed GLUT1-deficiency syndrome (GLUT1-DS).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "motor and mental developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor and mental developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures with infantile onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures with infantile onset",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "deceleration of head growth often resulting in acquired microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deceleration of head growth often resulting in acquired microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "a movement disorder with ataxia, dystonia, and spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a movement disorder with ataxia, dystonia, and spasticity",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "carbohydrate-responsive symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "carbohydrate-responsive symptoms",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "predominant ataxia or dystonia, but without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "predominant ataxia or dystonia, but without seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exertion-induced dyskinesia and seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal exertion-induced dyskinesia and seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "reduced glucose level in cerebrospinal fluid with lowered CSF-to-blood glucose ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced glucose level in cerebrospinal fluid with lowered CSF-to-blood glucose ratio",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Treatment with a ketogenic diet results in marked improvement of seizures and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

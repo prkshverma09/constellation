@@ -1,0 +1,126 @@
+{
+  "pmid": "37099548",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Familial focal epilepsy with variable foci (FFEVF) is a rare type of focal epilepsy syndrome; it is associated with NPRL3 variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "age at onset 4 months to 31 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with NPRL3: c.1137dupT variant had a wide range of onset age (4 months to 31 years)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "diverse seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "diverse seizure types",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "variable seizure foci (frontal lobe/temporal lobe)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variable foci (frontal lobe/temporal lobe)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizure times (day/night)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different seizure times (day/night)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizure frequencies (monthly/seldom/every day)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "frequencies (monthly/seldom/every day)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "variable therapeutic response (refractory epilepsy/almost seizure free)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different therapeutic effects (refractory epilepsy/almost seizure free)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "normal MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal MRI",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "abnormal EEG (epileptiform discharge, slow wave)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal EEG (epileptiform discharge, slow wave)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "altered mRNA quantity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significantly different relative quantities of mRNA were found between patients and healthy individuals in real-time qPCR.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "abnormal splicing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormal splicing was observed in patients compared with healthy individual in RT-PCR.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "variable mRNA splicing among family members possibly causing phenotype differences",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Despite having the same gene variant, different family members had different mRNA splicing, possibly causing different phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

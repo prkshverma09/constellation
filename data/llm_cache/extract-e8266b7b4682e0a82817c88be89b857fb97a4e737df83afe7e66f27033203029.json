@@ -1,0 +1,156 @@
+{
+  "pmid": "39812613",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "difficult-to-treat and early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "difficult-to-treat and early-onset seizures",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay/intellectual disability",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "impaired quality of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired quality of life",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "increased risk of early mortality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased risk of early mortality",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A-DEE caused by gain-of-function (GoF) variants.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "High doses of sodium channel blockers are typically used to treat SCN8A-DEE caused by gain-of-function (GoF) variants.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "cenobamate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Countable motor seizures were meaningfully reduced in 10 of 12 patients (83%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "seizure reduction >70%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six patients experienced a seizure reduction above 70%, of which two achieved seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two achieved seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "50-70% seizure reduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two patients achieved a reduction in seizures ranging between 50% and 70%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "increase in seizure-free days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An increase in seizure-free days per patient was also reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "decreased rescue medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rescue medication was decreased in six of seven patients (85%) in need.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "non-seizure-related improvements (increased alertness; better sleep; improved muscle tone)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "80% of patients reported non-seizure-related improvements, which included increased alertness, better sleep, and improved muscle tone.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "adverse effects reported in 50% of patients; half resolved",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adverse effects were reported by 50% of patients, and half resolved spontaneously or through the reduction of concomitant antiseizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "cenobamate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data suggest that cenobamate is a promising and safe treatment for SCN8A-DEE, even during early childhood.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

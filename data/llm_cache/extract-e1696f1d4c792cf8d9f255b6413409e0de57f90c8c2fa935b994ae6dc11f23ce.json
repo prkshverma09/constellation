@@ -1,0 +1,46 @@
+{
+  "pmid": "20816411",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "pore-forming subunit of Ca(V)2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the pore-forming subunit of Ca(V)2.1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FHM1 mutations produce gain-of-function of the Ca(V)2.1 channel",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "increased glutamate release at cortical synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased glutamate release at cortical synapses",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "facilitation of induction and propagation of cortical spreading depression (CSD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "facilitation of induction and propagation of cortical spreading depression (CSD)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

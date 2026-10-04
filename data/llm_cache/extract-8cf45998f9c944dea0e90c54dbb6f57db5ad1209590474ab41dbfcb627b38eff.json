@@ -1,0 +1,116 @@
+{
+  "pmid": "34050134",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic epilepsy with febrile seizures plus",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "febrile seizures plus",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "febrile seizures",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "other symptoms of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other symptoms of epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "conditional knockout (CKO) mice with deficient Gabrg2 in hippocampus and neocortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we used the Cre/loxP system to generate conditional knockout (CKO) mice with deficient Gabrg2 in the hippocampus and neocortex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "heterozygous CKO mice (Gabrg2fl/wtCre+) exhibiting temperature-dependent myoclonic jerks, generalised tonic-clonic seizures, increased anxiety-like symptoms, and predisposition to seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous CKO mice (Gabrg2fl/wtCre+) exhibited temperature-dependent myoclonic jerks, generalised tonic-clonic seizures, increased anxiety-like symptoms, and a predisposition to induce seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "temperature-dependent cortical hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cortical electroencephalography showed the hyperexcitability in response to temperature elevation in Gabrg2fl/wtCre+ mice, but not in wild-type mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "spontaneous seizures and susceptibility to temperature-induced seizures in Gabrg2fl/wtCre+ mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrg2fl/wtCre+ mice exhibited spontaneous seizures and susceptibility to temperature-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "loss of neurons in cortical layers V-VI and hippocampus of Gabrg2fl/wtCre+ mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of neurons were observed in cortical layers V-VI and hippocampus of Gabrg2fl/wtCre+ mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "decreased latency to temperature- or pentylenetetrazol-induced seizures in Gabrg2fl/wtCre+ mice compared with wild-type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, the latency of temperature- or pentylenetetrazol-induced seizures were significantly decreased in Gabrg2fl/wtCre+ mice compared with wild-type mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "model reproducing many features of febrile seizures (neocortex and hippocampus Gabrg2 deletion)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In summary, Gabrg2fl/wtCre+ mice with Gabrg2 deletion in the neocortex and hippocampus reproduce many features of febrile seizures and therefore provide a novel model to further understand this syndrome at the cellular and molecular level.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

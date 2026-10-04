@@ -1,0 +1,166 @@
+{
+  "pmid": "42128308",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "located at the common fragile site FRA16D",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "located at the common fragile site FRA16D",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Initially identified as a tumor suppressor frequently disrupted in cancer",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "multifunctional signaling scaffold that integrates pathways governing DNA damage responses, transcriptional regulation, cellular metabolism, and neuronal differentiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is now recognized as a multifunctional signaling scaffold that integrates pathways governing DNA damage responses, transcriptional regulation, cellular metabolism, and neuronal differentiation",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WWOX-related epileptic encephalopathy (WOREE syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline WWOX mutations cause a severe developmental and epileptic encephalopathy, known as WWOX-related epileptic encephalopathy (WOREE syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "profound neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound neurodevelopmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early mortality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early mortality",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism spectrum disorder",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "major neurodegenerative diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "major neurodegenerative diseases",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "human brain organoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human brain organoids",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "disrupts neuronal maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX loss disrupts neuronal maturation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "alters excitatory-inhibitory circuit balance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alters excitatory-inhibitory circuit balance",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "impairs oligodendrocyte development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairs oligodendrocyte development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "induces widespread transcriptional and metabolic dysregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "induces widespread transcriptional and metabolic dysregulation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "AAV-based gene therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "restoration of neuronal WWOX expression using AAV-based gene therapy rescues seizures, myelination defects, and survival in preclinical models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

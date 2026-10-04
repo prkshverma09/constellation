@@ -1,0 +1,26 @@
+{
+  "pmid": "41532810",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "higher levels of CSF synaptosomal-associated protein 25 (SNAP-25)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Higher LOAD PGS was also associated with higher levels of CSF synaptosomal-associated protein 25 (SNAP-25)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptosomal-associated protein 25 (SNAP-25), a key component of the SNARE complex",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

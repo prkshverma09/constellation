@@ -1,0 +1,16 @@
+{
+  "pmid": "40879304",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "late-onset ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Late-onset ataxia cases previously considered as CACNA1A-related disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

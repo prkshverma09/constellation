@@ -1,0 +1,46 @@
+{
+  "pmid": "31830750",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 2.3-Mb 1q44 deletion, including AKT3, ZBTB18, and HNRNPU, who shows microcephaly, developmental delay, abnormal corpus callosum, and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 2.3-Mb 1q44 deletion, including AKT3, ZBTB18, and HNRNPU, who shows microcephaly, developmental delay, abnormal corpus callosum, and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "abnormal corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 2.3-Mb 1q44 deletion, including AKT3, ZBTB18, and HNRNPU, who shows microcephaly, developmental delay, abnormal corpus callosum, and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a 2.3-Mb 1q44 deletion, including AKT3, ZBTB18, and HNRNPU, who shows microcephaly, developmental delay, abnormal corpus callosum, and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

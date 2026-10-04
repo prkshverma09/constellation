@@ -1,0 +1,76 @@
+{
+  "pmid": "42673765",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "fever-associated epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in STX1B/syntaxin-1B are linked to a spectrum of fever-associated epilepsy syndromes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "G226R exhibited both gain- and loss-of-function characteristics",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "G226R exhibited both gain- and loss-of-function characteristics",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "the predicted loss-of-function phenotype based on reduced syntaxin-1B levels was not detectable at the single-cell level",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both variants were associated with neuronal hyperexcitability, characterised by more frequent and prolonged bursting activity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "differential dysregulation of synaptic and other neuronal genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Transcriptomic profiling revealed a differential dysregulation of synaptic and other neuronal genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "graded severity of network alterations correlates with the clinical phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The graded severity of network alterations across STX1B variants correlates with the clinical phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

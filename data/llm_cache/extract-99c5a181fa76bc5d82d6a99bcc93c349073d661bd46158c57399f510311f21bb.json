@@ -1,0 +1,26 @@
+{
+  "pmid": "27983596",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "NRF1 target gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AD-associated NRF1 target genes-APLP1, APP, GRIN1, GRIN2B, MAPT, PSEN2, PEN2, and IDE-are also regulated by E2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "regulated by 17 β-estradiol (E2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AD-associated NRF1 target genes-APLP1, APP, GRIN1, GRIN2B, MAPT, PSEN2, PEN2, and IDE-are also regulated by E2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

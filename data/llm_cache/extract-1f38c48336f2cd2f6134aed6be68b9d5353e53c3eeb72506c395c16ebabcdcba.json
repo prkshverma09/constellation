@@ -1,0 +1,86 @@
+{
+  "pmid": "35740271",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "cellular uptake of glucose; highly expressed in the brain and in erythrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glucose transporter type 1 (Glut1) is the main transporter involved in the cellular uptake of glucose into many tissues, and is highly expressed in the brain and in erythrocytes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glut1 deficiency syndrome is caused mainly by mutations of the SLC2A1 gene, impairing passive glucose transport across the blood-brain barrier.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset drug-resistant metabolic epileptic encephalopathy with a complex movement disorder and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In its classic form, the syndrome presents as an early-onset drug-resistant metabolic epileptic encephalopathy with a complex movement disorder and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia, ataxia, chorea or spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In later-onset forms, complex motor disorder predominates, with dystonia, ataxia, chorea or spasticity, often triggered by fasting.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "hypoglycorrhachia (below 45 mg/dL) with normal blood glucose",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diagnosis is confirmed by hypoglycorrhachia (below 45 mg/dL) with normal blood glucose, 18F-fluorodeoxyglucose positron emission tomography, and genetic analysis showing pathogenic SLC2A1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic therapies supplying ketones as alternative brain fuel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The standard treatment still consists of ketogenic therapies supplying ketones as alternative brain fuel.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "Anaplerotic substances may provide alternative energy sources",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Anaplerotic substances may provide alternative energy sources.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "small molecules to restore Glut1, metabolic stimulation, and SLC2A1 transfer strategies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ongoing research for future interventions is focusing on small molecules to restore Glut1, metabolic stimulation, and SLC2A1 transfer strategies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

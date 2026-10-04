@@ -1,0 +1,76 @@
+{
+  "pmid": "20700442",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "activity-dependent membrane recycling in neurons, including synaptic vesicle endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin-1 (Dnm1) encodes a large multimeric GTPase necessary for activity-dependent membrane recycling in neurons, including synaptic vesicle endocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fitful is a missense mutation in an exon that defines the DNM1a isoform, leaving intact the alternatively spliced exon that encodes DNM1b.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "does not efficiently self-assemble into higher order complexes known to be necessary for proper dynamin function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutant DNM1a does not efficiently self-assemble into higher order complexes known to be necessary for proper dynamin function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "interferes with endocytic recycling in cell culture",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and it also interferes with endocytic recycling in cell culture.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "recurrent seizures (heterozygous mice)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mice heterozygous for a novel spontaneous Dnm1 mutation--fitful--experience recurrent seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "more debilitating, often lethal seizures, severe ataxia, and neurosensory deficits (homozygotes)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygotes have more debilitating, often lethal seizures in addition to severe ataxia and neurosensory deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "developmentally regulated expression of DNM1a and DNM1b isoforms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The expression of the corresponding alternate transcripts is developmentally regulated, with DNM1b expression highest during early neuronal development and DNM1a expression increasing postnatally with synaptic maturation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

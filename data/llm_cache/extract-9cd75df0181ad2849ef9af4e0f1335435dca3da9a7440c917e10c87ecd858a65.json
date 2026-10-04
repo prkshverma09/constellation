@@ -1,0 +1,76 @@
+{
+  "pmid": "17562589",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Different mutations in MECP2 are found in up to 95% of typical cases of RS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "major transcription repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This mainly neuronal expressed gene functions as a major transcription repressor.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "decreased dendritic arborization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased dendritic arborization is common to RS and autism,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "DLX5 and genes on 15q11-13 region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 effects on genes connected to autism, like DLX5 and genes on 15q11-13 region.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "neuropathologic changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defining neuropathologic changes caused by its defects.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "MECP2 mutations are rare in nonspecific autistic and mentally retarded populations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Despite these connections, MECP2 mutations in nonspecific autistic and mentally retarded populations are rare.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

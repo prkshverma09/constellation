@@ -1,0 +1,16 @@
+{
+  "pmid": "42112912",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "atypical absence status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven epilepsy genes (UBE3A, CNKSR2, TRPM3, KCNH2, NEXMIF, SYNGAP1, GABRB1) were found in which a clinical and electrographic picture consistent with AASE was described.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

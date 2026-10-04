@@ -1,0 +1,56 @@
+{
+  "pmid": "37160367",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a R1407X/+ (Dravet syndrome; DS) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we studied Scn1a R1407X/+ (Dravet syndrome; DS) and Scn8a N1768D/+ (D/+) mice of both sexes, two models of SUDEP, and found that convulsive seizures caused a postictal decrease in ventilation and severely depressed the HCVR in a subset of animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "postictal decrease in ventilation and severely depressed the HCVR",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we studied Scn1a R1407X/+ (Dravet syndrome; DS) and Scn8a N1768D/+ (D/+) mice of both sexes, two models of SUDEP, and found that convulsive seizures caused a postictal decrease in ventilation and severely depressed the HCVR in a subset of animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "transient postictal hypothermia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Those mice with severe postictal depression of the HCVR also exhibited transient postictal hypothermia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "mimicked seizure-induced hypoventilation; partially occluded the postictal decrease in the HCVR; exacerbated hypothermia; increased postictal mortality in DS mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Depleting 5-HT with para-chlorophenylalanine (PCPA) mimicked seizure-induced hypoventilation, partially occluded the postictal decrease in the HCVR, exacerbated hypothermia, and increased postictal mortality in DS mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "fenfluramine reduced postictal inhibition of the HCVR and hypothermia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Conversely, pretreatment with the 5-HT agonist fenfluramine reduced postictal inhibition of the HCVR and hypothermia.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

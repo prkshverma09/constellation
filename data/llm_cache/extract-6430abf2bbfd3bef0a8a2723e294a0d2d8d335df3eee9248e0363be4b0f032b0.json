@@ -1,0 +1,66 @@
+{
+  "pmid": "39990425",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "activity impaired in nuclear extracts of patient brains and TDP-43-depleted cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide kinase 3'-phosphatase (PNKP) activity was severely impaired in the nuclear extracts of both patient brains and TDP-43-depleted cells.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "key player in DSB repair within the transcribed genome; 3'-P termini processing activity prevents persistent DNA damage and neuronal death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP is a key player in DSB repair within the transcribed genome, where its 3'-P termini processing activity is crucial for preventing persistent DNA damage and neuronal death.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "inactivation due to reduced levels of PFKFB3 and F2,6BP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The inactivation of PNKP in ALS/FTD was due to reduced levels of its interacting partner, phosphofructo-2-kinase fructose 2,6 bisphosphatase (PFKFB3), and its biosynthetic product, fructose-2,6-bisphosphate (F2,6BP), an allosteric modulator of glycolysis.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "positive modulation of PNKP activity by F2,6BP in vivo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "F2,6BP acts as a positive modulator of PNKP activity in vivo.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "exogenous F2,6BP restored PNKP activity in nuclear extracts and patient-derived iPS cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exogenous supplementation with F2,6BP restored PNKP activity in nuclear extracts from ALS/FTD brain samples and patient-derived induced pluripotent stem (iPS) cells harboring pathological mutations.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "F2,6BP supplementation restores genome integrity and partially rescues motor phenotype in a Drosophila model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supplementation of F2,6BP restores genome integrity and partially rescues motor phenotype in a Drosophila model of ALS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

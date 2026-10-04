@@ -1,0 +1,96 @@
+{
+  "pmid": "31625153",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "regulating mTOR signaling in response to cellular amino acid levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GATOR1 protein complex, comprised of DEPDC5, NPRL3, and NPRL2, plays a pivotal role in regulating mTOR signaling in response to cellular amino acid levels",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in DEPDC5, NPRL3, or NPRL2 are linked to FCD, HME, and seizures.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hemimegalencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in DEPDC5, NPRL3, or NPRL2 are linked to FCD, HME, and seizures.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in DEPDC5, NPRL3, or NPRL2 are linked to FCD, HME, and seizures.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual and neuropsychiatric disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Family pedigrees carrying mutations in either DEPDC5 or NPRL3 share clinical phenotypes of epilepsy and MCD, as well as intellectual and neuropsychiatric disabilities.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "non-lesional neocortical epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some individuals with seizures associated with DEPDC5, NPRL3, or NPRL2 variants exhibit normal brain imaging suggesting either occult MCD or a role for these genes in non-lesional neocortical epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "model",
+      "object_text": "altered cortical lamination, neuronal dysmorphogenesis, and enhanced neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mouse models resulting from knockdown or knockout of either Depdc5 or Nprl3 exhibit altered cortical lamination, neuronal dysmorphogenesis, and enhanced neuronal excitability",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "hyperactivation of mTOR pathway signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Histopathological analysis of FCD and HME tissue specimens resected from individuals harboring DEPDC5, NPRL3, or NPRL2 gene mutations reveals hyperactivation of mTOR pathway signaling.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "mTOR inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The role of the GATOR1 proteins in regulating mTOR signaling suggest plausible options for mTOR inhibition in the treatment of epilepsy associated with mutations in DEPDC5, NPRL3, or NPRL2.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

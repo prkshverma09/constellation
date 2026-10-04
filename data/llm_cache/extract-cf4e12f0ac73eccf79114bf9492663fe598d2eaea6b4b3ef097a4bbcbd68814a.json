@@ -1,0 +1,176 @@
+{
+  "pmid": "27066567",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "repair of strand breaks and base damage in the DNA molecule mainly caused by radical oxygen species",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP (polynucleotide kinase 3'-phosphatase, OMIM #605610) product is involved in the repair of strand breaks and base damage in the DNA molecule mainly caused by radical oxygen species.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous loss-of-function substitution in PNKP was associated with cerebellar atrophy, neuropathy, microcephaly, epilepsy, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deleterious variants affecting this gene have been previously associated with microcephaly, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deleterious variants affecting this gene have been previously associated with microcephaly, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deleterious variants affecting this gene have been previously associated with microcephaly, epilepsy, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous loss-of-function substitution in PNKP was associated with cerebellar atrophy, neuropathy, microcephaly, epilepsy, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous loss-of-function substitution in PNKP was associated with cerebellar atrophy, neuropathy, microcephaly, epilepsy, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia (AOA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whole-exome sequencing (WES) performed in a cohort of Portuguese families with ataxia with oculomotor apraxia (AOA) disclosed pathogenic variants in PNKP in 11 individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "decreased vibration sense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "pyramidal signs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "mild elevation in α-fetoprotein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "low levels of albumin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other clinical features in that study included neuropathy, dystonia, cognitive impairment, decreased vibration sense, pyramidal signs, mild elevation in α-fetoprotein, and low levels of albumin.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset axonal sensory-motor neuropathy (axonal Charcot-Marie-Tooth disease)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we further enlarge this variability by demonstrating that early-onset axonal sensory-motor neuropathy (or axonal Charcot-Marie-Tooth (CMT) disease) followed years later by ataxia without oculomotor apraxia can be caused by deleterious variants in PNKP.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia without oculomotor apraxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we further enlarge this variability by demonstrating that early-onset axonal sensory-motor neuropathy (or axonal Charcot-Marie-Tooth (CMT) disease) followed years later by ataxia without oculomotor apraxia can be caused by deleterious variants in PNKP.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

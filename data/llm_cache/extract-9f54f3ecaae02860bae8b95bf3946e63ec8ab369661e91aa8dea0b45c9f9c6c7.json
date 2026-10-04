@@ -1,0 +1,16 @@
+{
+  "pmid": "33519703",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "pathognomonic MRI findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathognomonic MRI findings in FOXG1 patients",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,240 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "STXBP1 sits in the Neurotransmitter release cycle group.",
+          "edge_ids": [
+            "8b8a74101835d1d2"
+          ]
+        },
+        {
+          "text": "STX1B disease shows a shared research pattern with STXBP1.",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "VAMP2 disease shows a shared research pattern with STXBP1.",
+          "edge_ids": [
+            "ca33d6f8f475990e"
+          ]
+        },
+        {
+          "text": "SNAP25 disease shows a shared research pattern with STXBP1.",
+          "edge_ids": [
+            "fcb938d1b0386f7c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "A natural history study for STXBP1 is listed.",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "A joint natural history study for STXBP1 and SYNGAP1 is listed.",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "4c2106f026e81f1e"
+          ]
+        },
+        {
+          "text": "The joint study covers about 12 percent of DNM1 features, 6 of 39 terms.",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b",
+            "049ef546da3cdfdc",
+            "6df8a36e97901f12"
+          ]
+        },
+        {
+          "text": "Asociación Síndrome STXBP1 in Spain serves this disease.",
+          "edge_ids": [
+            "453d4be996145f4e"
+          ]
+        },
+        {
+          "text": "The European STXBP1 Consortium has a patient registry.",
+          "edge_ids": [
+            "ba44da54694ec39f"
+          ]
+        },
+        {
+          "text": "Raging Raymond Foundation focuses on VAMP2 syndrome.",
+          "edge_ids": [
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "GNAO1 disease can look similar but shows no shared mechanism here, so we exclude it.",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        },
+        {
+          "text": "CACNA1A disease overlaps only weakly in insulin secretion, a different step.",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "3a40a3f53a18b664",
+            "187be2699f417de6"
+          ]
+        },
+        {
+          "text": "SLC2A1 disease overlaps only weakly in insulin secretion, a different step.",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "3a40a3f53a18b664",
+            "5490966f0991bdf8"
+          ]
+        },
+        {
+          "text": "GRIN1 disease overlaps only weakly in neurexins and neuroligins, a different step.",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "DNM1 disease overlaps only weakly in vesicle organization, a different step.",
+          "edge_ids": [
+            "6df8a36e97901f12",
+            "34c673fba26b1793",
+            "f1a54e7fce5ac22f"
+          ]
+        },
+        {
+          "text": "STXBP1 shows loss of function evidence; CACNA1A shows gain of function evidence.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040"
+          ]
+        },
+        {
+          "text": "STXBP1 shows loss of function evidence; GRIN1 shows gain of function evidence.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730"
+          ]
+        },
+        {
+          "text": "Findings conflict inside STXBP1: no link between seizure severity and disability severity.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2"
+          ]
+        },
+        {
+          "text": "Findings conflict inside STXBP1: no clear link between mutation type and seizures or outcomes.",
+          "edge_ids": [
+            "e362983ef11a54b1"
+          ]
+        },
+        {
+          "text": "Findings conflict inside STXBP1: recurrent variants do not match distinct syndromes.",
+          "edge_ids": [
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Ingo Helbig has published on both STXBP1 and DNM1.",
+          "edge_ids": [
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd"
+          ]
+        },
+        {
+          "text": "Sarah McKeown Ruggiero has published on both STXBP1 and DNM1.",
+          "edge_ids": [
+            "3e4ae99a27cf8209",
+            "54fc3ff5f2a9b51f"
+          ]
+        },
+        {
+          "text": "Katherine L Helbig has published on both STXBP1 and DNM1.",
+          "edge_ids": [
+            "270b287e0a68cd44",
+            "4a0508e26e9d06db"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) eligibility for DNM1-related disease and contact Ingo Helbig.",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b",
+            "049ef546da3cdfdc",
+            "6df8a36e97901f12",
+            "0bead7fade435d02",
+            "1787b8db0c61e674",
+            "18e9e45f700b90dd"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage of DNM1-related disease (developmental and epileptic encephalopathy, 31B) phenotype information is 12% (6 of 39 terms; IC 20.63/167.43) using STXBP1 and SYNGAP1 Related Disorders Natural History Study.",
+          "edge_ids": [
+            "dcec503694916ae3",
+            "038039c482e85db7",
+            "041c3c175e2cb26b"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 1,
+  "markdown": "## Who shares our characteristics\nSTXBP1 sits in the Neurotransmitter release cycle group. [8b8a74101835d1d2]\nSTX1B disease shows a shared research pattern with STXBP1. [ab5fe5ff268d13ba]\nVAMP2 disease shows a shared research pattern with STXBP1. [ca33d6f8f475990e]\nSNAP25 disease shows a shared research pattern with STXBP1. [fcb938d1b0386f7c]\n\n## What already exists\nA natural history study for STXBP1 is listed. [bc71e274e1c691ec]\nA joint natural history study for STXBP1 and SYNGAP1 is listed. [dcec503694916ae3, 4c2106f026e81f1e]\nThe joint study covers about 12 percent of DNM1 features, 6 of 39 terms. [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b, 049ef546da3cdfdc, 6df8a36e97901f12]\nAsociación Síndrome STXBP1 in Spain serves this disease. [453d4be996145f4e]\nThe European STXBP1 Consortium has a patient registry. [ba44da54694ec39f]\nRaging Raymond Foundation focuses on VAMP2 syndrome. [202ca5201eca2102]\n\n## What differs and must be verified\nGNAO1 disease can look similar but shows no shared mechanism here, so we exclude it. [f94ad5494a3e9ab8]\nCACNA1A disease overlaps only weakly in insulin secretion, a different step. [34c9bc447921f8cb, 3a40a3f53a18b664, 187be2699f417de6]\nSLC2A1 disease overlaps only weakly in insulin secretion, a different step. [20c30f77dc2491fb, 3a40a3f53a18b664, 5490966f0991bdf8]\nGRIN1 disease overlaps only weakly in neurexins and neuroligins, a different step. [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nDNM1 disease overlaps only weakly in vesicle organization, a different step. [6df8a36e97901f12, 34c673fba26b1793, f1a54e7fce5ac22f]\nSTXBP1 shows loss of function evidence; CACNA1A shows gain of function evidence. [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040]\nSTXBP1 shows loss of function evidence; GRIN1 shows gain of function evidence. [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730]\nFindings conflict inside STXBP1: no link between seizure severity and disability severity. [b1f9e5eeafbc81d2]\nFindings conflict inside STXBP1: no clear link between mutation type and seizures or outcomes. [e362983ef11a54b1]\nFindings conflict inside STXBP1: recurrent variants do not match distinct syndromes. [ddc8cd6784a496fb]\n\n## Who to contact\nIngo Helbig has published on both STXBP1 and DNM1. [1787b8db0c61e674, 18e9e45f700b90dd]\nSarah McKeown Ruggiero has published on both STXBP1 and DNM1. [3e4ae99a27cf8209, 54fc3ff5f2a9b51f]\nKatherine L Helbig has published on both STXBP1 and DNM1. [270b287e0a68cd44, 4a0508e26e9d06db]\n\n## Proposed first joint step\nReview STXBP1 and SYNGAP1 Related Disorders Natural History Study (NCT06555965) eligibility for DNM1-related disease and contact Ingo Helbig. [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b, 049ef546da3cdfdc, 6df8a36e97901f12, 0bead7fade435d02, 1787b8db0c61e674, 18e9e45f700b90dd]\n\n## Search coverage\nCoverage of DNM1-related disease (developmental and epileptic encephalopathy, 31B) phenotype information is 12% (6 of 39 terms; IC 20.63/167.43) using STXBP1 and SYNGAP1 Related Disorders Natural History Study. [dcec503694916ae3, 038039c482e85db7, 041c3c175e2cb26b]",
+  "usage": {
+    "input_tokens": 132276,
+    "output_tokens": 8385
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "devon",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "bcebefa1-f8c4-4a0e-9b64-6eb6313c0238",
+  "generated_at": "2026-10-04T11:33:25.362134+00:00",
+  "gap_plan": null,
+  "fallback_sections": [
+    "coverage"
+  ],
+  "model": "gpt-5",
+  "elapsed_ms": 116449,
+  "comparator_id": "MONDO:0957248"
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "22612818",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "subcellular localization contributes to neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overlapping patterns with differential expression and precise localization of Kv1.1 and Kv1.2 channels targeted to specialized subcellular compartments contribute to distinctive patterns of neuronal excitability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of the expression, distribution, and density of these channels through deletion or mutation of the genes encoding these channels, Kcna1 and Kcna2, is associated with neurologic pathologies including epilepsy and ataxia in humans and in rodent models.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of the expression, distribution, and density of these channels through deletion or mutation of the genes encoding these channels, Kcna1 and Kcna2, is associated with neurologic pathologies including epilepsy and ataxia in humans and in rodent models.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of the expression, distribution, and density of these channels through deletion or mutation of the genes encoding these channels, Kcna1 and Kcna2, is associated with neurologic pathologies including epilepsy and ataxia in humans and in rodent models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disruption of the expression, distribution, and density of these channels through deletion or mutation of the genes encoding these channels, Kcna1 and Kcna2, is associated with neurologic pathologies including epilepsy and ataxia in humans and in rodent models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "knockout mouse with early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv1.1 and Kv1.2 knockout mice both have seizures beginning early in development; however, each express a different seizure type (pathway), although the channels are from the same subfamily and are abundantly coexpressed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

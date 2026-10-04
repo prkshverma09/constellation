@@ -1,0 +1,36 @@
+{
+  "pmid": "35718920",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders and/or epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "γ-Aminobutyric acid (GABA)A -receptor subunit variants have recently been associated with neurodevelopmental disorders and/or epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "no specific phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "None of the genes described here was associated with a specific phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "variants in transmembrane segment associated with more severe phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the location of variants on the transmembrane (TM) segment was associated with a more severe phenotype, irrespective of the GABAA -receptor subunit gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

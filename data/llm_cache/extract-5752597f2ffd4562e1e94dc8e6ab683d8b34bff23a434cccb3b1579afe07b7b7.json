@@ -1,0 +1,126 @@
+{
+  "pmid": "33616268",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2-associated developmental and epileptic encephalopathies (DEE) present with seizures and developmental impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNQ2-associated developmental and epileptic encephalopathies (DEE) present with seizures and developmental impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "median age of seizure onset 1 day",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had a median age of seizure onset of 1 day (IQR 1-3 days).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common seizure types were bilateral tonic-clonic (N = 72, 28%) and bilateral tonic (N = 13, 33%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common seizure types were bilateral tonic-clonic (N = 72, 28%) and bilateral tonic (N = 13, 33%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "mobility impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe functional impairment was reported for mobility (62%), hand grasp (31%), feeding (59%), and communication (77%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "hand grasp impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe functional impairment was reported for mobility (62%), hand grasp (31%), feeding (59%), and communication (77%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "feeding impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe functional impairment was reported for mobility (62%), hand grasp (31%), feeding (59%), and communication (77%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "communication impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe functional impairment was reported for mobility (62%), hand grasp (31%), feeding (59%), and communication (77%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "impairment in \u00026gt;=2 domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-eight (72%) were impaired in \u00026gt;=2 domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures often well-controlled",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures in KCNQ2-DEE are often well-controlled, but children have severe impairments regardless.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizure control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The functional location of the variants within the Kv 7.2 protein was not associated with seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

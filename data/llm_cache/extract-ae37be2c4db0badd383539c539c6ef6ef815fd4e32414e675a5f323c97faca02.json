@@ -1,0 +1,16 @@
+{
+  "pmid": "37593999",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main pathogenic genes identified were SCN1A (25%, 6/24), KCNQ2 (8.3%, 2/24), and TBC1D24 (8.3%, 2/24).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "38974383",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "GTPase-activating protein (GAP) activity toward the RAG complex 1 (GATOR1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disheveled, EGL-10, and pleckstrin (DEP) domain-containing protein 5 (DEPDC5) is a component of GTPase-activating protein (GAP) activity toward the RAG complex 1 (GATOR1) protein, which is an inhibitor of the amino acid-sensing branch of the mammalian target of rapamycin complex 1 (mTORC1) pathway.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more and more variations in DEPDC5 were uncovered in FFEVF families.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy with variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1217 + 2T>A variations in DEPDC5 might be the genetic etiology for FFEVF in this pedigree.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the translation of the protein is terminated prematurely, which is very likely to result in the loss of function of the protein",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "mini-gene splicing assay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mini-gene splicing assay was performed to validate the effect on the alternative splicing of the variation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

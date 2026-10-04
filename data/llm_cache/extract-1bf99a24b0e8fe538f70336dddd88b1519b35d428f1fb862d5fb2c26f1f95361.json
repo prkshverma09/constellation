@@ -1,0 +1,16 @@
+{
+  "pmid": "42568843",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "specific GRIN2B CpG sites as candidate methylation signatures relevant to diagnostic differentiation, disease progression, and treatment-response research",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "candidate methylation signatures, including brain-derived neurotrophic factor (BDNF)-related methylation changes, specific GRIN2B CpG sites, and epigenetic age acceleration (EAA), have attracted attention for their potential relevance to diagnostic differentiation, disease progression, and treatment-response research.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

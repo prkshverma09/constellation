@@ -1,0 +1,96 @@
+{
+  "pmid": "26477325",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "produces the major delayed rectifier potassium current in pyramidal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The voltage-gated Kv2.1 potassium channel encoded by KCNB1 produces the major delayed rectifier potassium current in pyramidal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "found novel de novo heterozygous missense KCNB1 mutations in two patients showing psychomotor developmental delay and severe infantile generalized seizures with high-amplitude spike-and-wave electroencephalogram discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "psychomotor developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe infantile generalized seizures with high-amplitude spike-and-wave electroencephalogram discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe infantile generalized seizures with high-amplitude spike-and-wave electroencephalogram discharges",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "disrupted sensitivity and cooperativity of the sensor (p.R306C)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mutation located in the channel voltage sensor (p.R306C) disrupted sensitivity and cooperativity of the sensor",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "selectively abolished endogenous Kv2 currents in transfected pyramidal neurons (p.G401R)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the mutation in the channel pore domain (p.G401R) selectively abolished endogenous Kv2 currents in transfected pyramidal neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating a dominant-negative effect.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "inhibited repetitive neuronal firing through preventing production of deep interspike voltages",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both mutants inhibited repetitive neuronal firing through preventing production of deep interspike voltages.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "rare genetic cause of infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus KCNB1 mutations can be a rare genetic cause of infantile epilepsy,",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

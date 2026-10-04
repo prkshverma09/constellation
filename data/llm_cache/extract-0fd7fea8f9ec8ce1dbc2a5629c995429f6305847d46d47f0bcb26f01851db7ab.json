@@ -1,0 +1,26 @@
+{
+  "pmid": "42157695",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic or likely pathogenic variant in KCNT2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic or likely pathogenic variants in DEPDC5, NPRL2, KCNT2, and PRRT2 were identified, respectively, in 4 individuals (3.5%, 4/115).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "epilepsy surgery with good outcome (Engel class ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient with the KCNT2 variant underwent epilepsy surgery with good outcome (Engel class ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

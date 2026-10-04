@@ -1,0 +1,16 @@
+{
+  "pmid": "37843641",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "Gria3 levels in the hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DXM treatment elevates the levels of Ndufs2, Gria3, MAOB, and Ndufv2 in the hippocampus following TBI,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

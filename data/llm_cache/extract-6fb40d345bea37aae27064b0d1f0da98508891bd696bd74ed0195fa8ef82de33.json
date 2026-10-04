@@ -1,0 +1,26 @@
+{
+  "pmid": "27453991",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified a high correlation between GRIA3 and HLA-DRB5 (an AD gene)",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "role in learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is known to play a role in learning and memory",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

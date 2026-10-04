@@ -1,0 +1,26 @@
+{
+  "pmid": "35036070",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "altered biogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the glutamate receptor GRIA3 gene displays altered biogenesis in affected individuals",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "is influenced by expression of two ultraconserved RNAs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is influenced by expression of two ultraconserved RNAs.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

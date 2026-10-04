@@ -1,0 +1,86 @@
+{
+  "pmid": "40391499",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "known disease-causing GOF variants in GRIA3 at position p.Gly803",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay affecting both motor skills and language abilities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "behavioral and psychiatric comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral and psychiatric comorbidities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "hypertonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypertonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "cerebral palsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebral palsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "non-epileptic myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-epileptic myoclonus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "treatment-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "treatment-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

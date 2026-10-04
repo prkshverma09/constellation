@@ -1,0 +1,16 @@
+{
+  "pmid": "23708187",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "phenotypic spectra",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also expand the phenotypic spectra explained by SCN1A, SCN2A and SCN8A mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

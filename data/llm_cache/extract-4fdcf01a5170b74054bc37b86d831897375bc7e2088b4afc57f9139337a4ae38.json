@@ -1,0 +1,86 @@
+{
+  "pmid": "41029476",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional regulation by CREB",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kinesin family member 1A (KIF1A), which is essential for axonal transport, is transcriptionally regulated by cAMP response element-binding protein (CREB).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "CREB binding to Kif1a promoter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ChIP and luciferase assays confirmed the direct binding of CREB to the Kif1a promoter.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "physical association with CGRP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Co-IP showed that KIF1A physically associated with CGRP,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "promotion of CGRP expression and signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CREB directly regulates KIF1A transcription, which in turn promotes CGRP expression and signaling.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "knockdown reduces p-CREB, CGRP, and c-Fos levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kif1a knockdown reduced p-CREB, CGRP, and c-Fos levels in SP5C tissue and Neuro-2a cells, alleviating behavioral hypersensitivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral hypersensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kif1a knockdown reduced p-CREB, CGRP, and c-Fos levels in SP5C tissue and Neuro-2a cells, alleviating behavioral hypersensitivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "overexpression increases CGRP levels (age-dependent)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overexpression of Kif1a increased CGRP levels, but this effect was reversed by age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "CGRP receptor blockade (Olcegepant) inhibits KIF1A activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CGRP receptor blockade also inhibited Forskolin-induced activation of p-CREB, c-Fos, and KIF1A.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

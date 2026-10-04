@@ -1,0 +1,86 @@
+{
+  "pmid": "32532640",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "total callosotomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Total callosotomy resulted in marked reduction of epileptic seizures thereafter, as well as improved responses to external auditory and visual stimuli.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole exome sequencing at age 9 identified a de novo missense variant in KCNQ2 (NM_172107.3:c.563A > C:p.(Gln188Pro)).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy during the neonatal period",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had developed epilepsy during the neonatal period",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "suppression-burst pattern on the electroencephalography",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "accompanied by a suppression-burst pattern on the electroencephalography (EEG).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "profound psychomotor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient showed profound psychomotor developmental delay since early infancy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "Daily seizures of versive posturing and ocular deviation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Daily seizures of versive posturing and ocular deviation were transiently controlled by carbamazepine and valproate at the age of 1 year;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures up to 50 times per day",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the seizures gradually increased to up to 50 times per day.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic focus in the left frontal lobe",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ictal EEG and positron emission tomography revealed an epileptic focus in the left frontal lobe at age 5 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

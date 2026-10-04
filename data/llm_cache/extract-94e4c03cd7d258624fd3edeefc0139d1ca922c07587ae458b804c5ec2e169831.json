@@ -1,0 +1,16 @@
+{
+  "pmid": "36034301",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "genetic photosensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants were identified in 35 patients, including SCN1A(7) CHD2(6), TPP1(3), SYNGAP1(3), GABRA1(2), GABRG2(1), KCTD7(1), MFSD8(1), KCNC1(1) GBA(1), CACNA1A(1), KCNMA1(1), FLNA(1), SZT2(1), SLC2A1(1), 5q33.2-34del(1), and mitochondrial variants(3).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

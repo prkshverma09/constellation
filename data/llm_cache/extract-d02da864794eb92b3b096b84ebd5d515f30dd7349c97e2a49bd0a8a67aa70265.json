@@ -1,0 +1,96 @@
+{
+  "pmid": "27733563",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The p.255_257del mutation caused dominant negative loss of channel function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "repositioning of critical arginine residues in the voltage-sensing domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular modeling predicted repositioning of critical arginine residues in the voltage-sensing domain.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A KCNA2 mutation caused dominantly inherited episodic ataxia, mild infantile-onset seizures, and later generalized and focal epilepsies in the setting of normal intellect.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "mild infantile-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A KCNA2 mutation caused dominantly inherited episodic ataxia, mild infantile-onset seizures, and later generalized and focal epilepsies in the setting of normal intellect.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "generalized and focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A KCNA2 mutation caused dominantly inherited episodic ataxia, mild infantile-onset seizures, and later generalized and focal epilepsies in the setting of normal intellect.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "normal intellect",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A KCNA2 mutation caused dominantly inherited episodic ataxia, mild infantile-onset seizures, and later generalized and focal epilepsies in the setting of normal intellect.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "EE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 sequencing revealed 1 de novo mutation (CCDS_827.1: c.890G>A; p.Arg297Gln) in a girl with EE, ataxia, and tremor.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 sequencing revealed 1 de novo mutation (CCDS_827.1: c.890G>A; p.Arg297Gln) in a girl with EE, ataxia, and tremor.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "tremor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 sequencing revealed 1 de novo mutation (CCDS_827.1: c.890G>A; p.Arg297Gln) in a girl with EE, ataxia, and tremor.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

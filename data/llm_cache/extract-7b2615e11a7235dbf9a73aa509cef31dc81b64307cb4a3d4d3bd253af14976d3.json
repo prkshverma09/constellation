@@ -1,0 +1,36 @@
+{
+  "pmid": "36003298",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "protein highly expressed in the central nervous system and involved in GPCR signal transduction and cAMP production",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "includes genes encoding for proteins highly expressed in the central nervous system and involved in GPCR signal transduction and cAMP production (e.g., GNAO1, GNB1, ADCY5, GNAL, PDE2A, PDE10A, and HPCA genes).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder, epilepsy, and neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While the clinical phenotype associated with ADCY5 and GNAL is characterized by movement disorder in the absence of epilepsy, GNAO1, GNB1, PDE2A, PDE10A, and HPCA have a broader clinical phenotype, encompassing movement disorder, epilepsy, and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe hyperkinetic movement disorder with potential life-threatening exacerbations and high susceptibility to a wide range of triggers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A severe hyperkinetic movement disorder with potential life-threatening exacerbations and high susceptibility to a wide range of triggers is the clinical signature of the whole group of disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

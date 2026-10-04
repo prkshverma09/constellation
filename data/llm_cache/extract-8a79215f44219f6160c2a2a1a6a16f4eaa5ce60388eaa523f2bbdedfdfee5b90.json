@@ -1,0 +1,26 @@
+{
+  "pmid": "39345557",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "Transcription-Coupled Non-Homologous End-Joining (TC-NHEJ) to resolve transcription-associated DSBs in brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HTT joins TC-NHEJ proteins PNKP, Ku70/80, and XRCC4 with chromatin remodeler Brahma-related Gene 1 (BRG1) to resolve transcription-associated DSBs in brain.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "Overexpression restores TC-NHEJ and improves genome integrity, motor defects, and lifespan in a Drosophila HD model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HTT or PNKP overexpression restores TC-NHEJ in a Drosophila HD model dramatically improving genome integrity, motor defects, and lifespan.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

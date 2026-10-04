@@ -1,0 +1,56 @@
+{
+  "pmid": "28428906",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "multifocal polymyoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multifocal polymyoclonus",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurodevelopmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a missense change c.457G>A (p.Glu157Lys)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "previously associated with various epilepsy phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

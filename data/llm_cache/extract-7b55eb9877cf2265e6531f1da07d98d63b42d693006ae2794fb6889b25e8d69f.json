@@ -1,0 +1,16 @@
+{
+  "pmid": "21967765",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "Early Infantile Epileptic Encephalopathy (EIEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(d) the Stxbp1 (MUNC18-1) gene at 9q34-1 (EIEE-4 variant).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "26639969",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the SNARE and vesicle proteins syntaxin, Munc18, VAMP2, and monomeric α-syn in the prefrontal cortex",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "duration of dementia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a significant negative correlation between the duration of dementia and the levels of the binding partners VAMP2 (p = 0.0004)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

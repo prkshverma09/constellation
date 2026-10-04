@@ -1,0 +1,16 @@
+{
+  "pmid": "38301322",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "SPG30",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two affected siblings had a novel variant in the GBA2 gene (SPG46), and one subject each had a novel variant in WASHC5 (SPG8), SPG11 (SPG11), KIF1A (SPG30), GJC2 (SPG44), ERLIN1 (SPG62), ALS2 (IAHSP), and HACE1 (SPPRS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

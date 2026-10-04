@@ -1,0 +1,126 @@
+{
+  "pmid": "40996830",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5, the most common cause of familial focal epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "postnatal focal cortical Depdc5-knockout mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we developed a postnatal focal cortical Depdc5-knockout mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR hyperactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had decreased DEPDC5 levels with hyperactivation of mTOR that increased with age",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cortical lamination not disrupted",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cortical lamination was not disrupted by postnatal DEPDC5 loss.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased SMI-311 neurofilament staining",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased SMI-311 neurofilament staining",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "hypomyelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypomyelination",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "astrogliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "astrogliosis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "microglial activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microglial activation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "lower seizure thresholds",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lower seizure thresholds",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased focal seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased rates of seizure-induced death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased rates of seizure-induced death",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postnatal DEPDC5 loss and subsequent mTOR hyperactivation without disruption of cortical migration is sufficient to cause epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

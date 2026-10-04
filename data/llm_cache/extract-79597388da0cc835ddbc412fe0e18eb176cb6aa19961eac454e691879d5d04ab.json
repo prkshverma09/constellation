@@ -1,0 +1,26 @@
+{
+  "pmid": "21504425",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The second most important Dravet-associated gene is PCDH19.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome clinical course",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These patients initially may have all characteristics of Dravet syndrome but may later run a somewhat different course.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "35041321",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia type 2 (EA2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic ataxia type 2 (EA2) with the previously reported mutation c.269_270insA (p.Tyr90Ter) in a 35-year-old man;",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine type 1 (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial hemiplegic migraine type 1 (FHM1) in a girl aged 3 years 10 months and her mother aged 38 yrs with a novel mutation 1829C>T (p.Ser610Phe), members of a family with 4 patients and incomplete penetrance;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy 42 (DEE42)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathy 42 (DEE42) in a 9-year-old girl and a 5-year-old boy from different families with the identical de novo mutation c.2137G>A (p.Ala713Thr) reported earlier.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

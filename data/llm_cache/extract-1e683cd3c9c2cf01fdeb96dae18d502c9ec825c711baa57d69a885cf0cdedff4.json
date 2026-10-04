@@ -1,0 +1,56 @@
+{
+  "pmid": "24387994",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Analyses of these data revealed homozygous mutation c.208G>T (p.Asp70Tyr) or c.878G>C (p.Arg293Pro) in TBC1D24 as the underlying cause of deafness in the three families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous mutation c.208G>T (p.Asp70Tyr) or c.878G>C (p.Arg293Pro) in TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "mouse inner ear",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 in the mouse inner ear was immunolocalized predominantly to spiral ganglion neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "auditory neuropathy spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "indicating that DFNB86 deafness might be an auditory neuropathy spectrum disorder.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recessive alleles of TBC1D24 can cause either epilepsy or nonsyndromic deafness.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

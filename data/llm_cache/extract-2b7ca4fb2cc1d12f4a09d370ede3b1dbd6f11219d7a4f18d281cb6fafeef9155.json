@@ -1,0 +1,56 @@
+{
+  "pmid": "32051108",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WW domain-containing oxidoreductase (WWOX) gene mutation can result in epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present the case of a patient with epilepsy and WWOX compound heterozygous mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizures manifested as tonic-clonic, convulsive and were refractory to drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "widened subarachnoid space and thin corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Magnetic resonance imaging showed a widened subarachnoid space and thin corpus callosum.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "died from asphyxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient died from asphyxia at the age of one year and 23 days.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "25416187",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor gene mapping to chromosomal fragile site FRA16D",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX was cloned as a tumor suppressor gene mapping to chromosomal fragile site FRA16D.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of WWOX is closely related to tumorigenesis, cancer progression, and therapy resistance.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neurologic phenotype of WWOX mutation includes seizures, ataxia, developmental delay, and spasticity of variable severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neurologic phenotype of WWOX mutation includes seizures, ataxia, developmental delay, and spasticity of variable severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neurologic phenotype of WWOX mutation includes seizures, ataxia, developmental delay, and spasticity of variable severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neurologic phenotype of WWOX mutation includes seizures, ataxia, developmental delay, and spasticity of variable severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "ubiquitous protein with high expression in many tissues including brain, cerebellum, brain stem, and spinal cord",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is a ubiquitous protein with high expression in many tissues including brain, cerebellum, brain stem, and spinal cord.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "murine fetal development and adult mice (cortex and corpus callosum)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX is highly expressed in different brain regions during murine fetal development and remained unchanged in the cortex and the corpus callosum in adult mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "abnormal signaling protein; disruption of neuronal pathways; neuronal differentiation; mitochondrial dysfunction; apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mechanism or the putative role of WWOX in the nervous system is still unclear but may include abnormal signaling protein, disruption of neuronal pathways, neuronal differentiation, mitochondrial dysfunction, or apoptosis.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "critical role in normal central nervous system development and disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The described findings highlight that WWOX plays a critical role in normal central nervous system development and disease.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

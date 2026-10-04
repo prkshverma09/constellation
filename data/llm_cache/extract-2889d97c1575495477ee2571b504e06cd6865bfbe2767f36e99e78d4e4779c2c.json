@@ -1,0 +1,46 @@
+{
+  "pmid": "33043365",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "specific neurological clinical phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, heterozygous GRIN2A and GRIN2B PTVs are associated with specific neurological clinical phenotypes in a subunit- and domain-dependent manner.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "decrease of NMDAR surface expression and NMDAR-mediated currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mechanistically, cell-based assays showed that paradigmatic pathogenic GRIN2A and GRIN2B PTVs result on a decrease of NMDAR surface expression and NMDAR-mediated currents, ultimately leading to NMDAR functional haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mechanistically, cell-based assays showed that paradigmatic pathogenic GRIN2A and GRIN2B PTVs result on a decrease of NMDAR surface expression and NMDAR-mediated currents, ultimately leading to NMDAR functional haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies showed that GRIN2A and GRIN2B pathogenic PTVs trigger NMDAR hypofunctionality, and thus accelerate therapeutic decisions for this neurodevelopmental condition.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,7 +1,16 @@
-.PHONY: data api test lint demo web e2e
+.PHONY: data extract discover dossiers-live api test lint demo web e2e
 
 data:
 	cd backend && uv run python -m constellation.build
+
+extract:
+	cd backend && uv run python -m constellation.extract.run
+
+discover:
+	cd backend && uv run python -m constellation.discover.web
+
+dossiers-live:
+	cd backend && uv run python -m constellation.agents.live
 
 api:
 	cd backend && uv run uvicorn constellation.api.app:app --host 0.0.0.0 --port 8000

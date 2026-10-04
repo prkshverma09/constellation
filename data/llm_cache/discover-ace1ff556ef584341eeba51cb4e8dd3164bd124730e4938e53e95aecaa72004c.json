@@ -1,0 +1,44 @@
+{
+  "symbol": "STXBP1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:34:56.920337+00:00",
+  "usage": {
+    "input_tokens": 63294,
+    "output_tokens": 6889
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "STXBP1 Foundation",
+        "url": "https://www.stxbp1disorders.org/what-is-stxbp1",
+        "kind": "foundation",
+        "snippet": "Changes in the STXBP1 gene impair communication between neurons, specifically the vesicular release of neurotransmitter along the synapses."
+      },
+      {
+        "name": "STXBP1 UK Foundation",
+        "url": "https://www.stxbp1.co.uk/",
+        "kind": "foundation",
+        "snippet": "STXBP1 UK Foundation connects and supports families affected by STXBP1-related disorder, and funds the research that's working towards better treatment — and, ultimately, a cure."
+      },
+      {
+        "name": "Asociación Síndrome STXBP1 (Spain)",
+        "url": "https://stxbp1.es/que-es-el-sindrome-stxbp1/",
+        "kind": "foundation",
+        "snippet": "La encefalopatía STXBP1 es una grave enfermedad neurológica debida a una mutación en el gen STXBP1."
+      },
+      {
+        "name": "European STXBP1 Consortium (ESCO)",
+        "url": "https://stxbp1eu.org/esco-patient-registry/",
+        "kind": "research_network",
+        "snippet": "The European STXBP1 Consortium (ESCO) is dedicated to advancing the understanding and treatment of STXBP1-related disorders (STXBP1-RD)."
+      },
+      {
+        "name": "Simons Searchlight — STXBP1",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/stxbp1/",
+        "kind": "registry",
+        "snippet": "Simons Searchlight – Help the Simons Searchlight team learn more about STXBP1 genetic changes by taking part in our research."
+      }
+    ]
+  }
+}

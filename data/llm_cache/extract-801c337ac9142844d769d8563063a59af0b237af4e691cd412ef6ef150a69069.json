@@ -1,0 +1,96 @@
+{
+  "pmid": "35383156",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "44 pathogenic GABRB3 missense variants segregate into gain-of-function and loss-of-function groups",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "44 pathogenic GABRB3 missense variants segregate into gain-of-function and loss-of-function groups",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "younger age of seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gain-of-function cohort (n = 27 patients) presented with a younger age of seizure onset",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "higher risk of severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures at onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal seizures at onset",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "lower likelihood of seizure freedom in response to treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lower likelihood of seizure freedom in response to treatment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures at onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Febrile seizures at onset are exclusive to the loss-of-function cohort (n = 47 patients).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "more severe developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Overall, patients with GABRB3 variants that increase GABAergic activity have more severe developmental and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

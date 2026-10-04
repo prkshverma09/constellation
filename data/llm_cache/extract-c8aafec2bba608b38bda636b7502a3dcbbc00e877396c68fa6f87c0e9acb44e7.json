@@ -1,0 +1,96 @@
+{
+  "pmid": "38752894",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 emerges to play a vital role in focal epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic/likely pathogenic variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight unrelated probands were revealed to carry different pathogenic/likely pathogenic variants in DEPDC5",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "prevalence 1.67%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the total prevalence of DEPDC5-related focal epilepsy was 1.67% in the cohort.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "null variants accounted for a larger proportion than missense variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "null variants accounted for a larger proportion than missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "drug resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were related to unfavorable prognosis (drug resistance or even sudden unexpected death in epilepsy; χ2 = 5.429, p = .020).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexpected death in epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were related to unfavorable prognosis (drug resistance or even sudden unexpected death in epilepsy; χ2 = 5.429, p = .020).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay/intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the prognosis of probands with developmental delay/intellectual disability or focal cortical dysplasia was worse than that of probands with simple epilepsy (χ2 = -, p = .006).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the prognosis of probands with developmental delay/intellectual disability or focal cortical dysplasia was worse than that of probands with simple epilepsy (χ2 = -, p = .006).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "overall penetrance 68.96% (231/335)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the overall penetrance of variants in DEPDC5 was 68.96% (231/335).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

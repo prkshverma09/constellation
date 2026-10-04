@@ -1,0 +1,44 @@
+{
+  "symbol": "SYNGAP1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:49:01.665283+00:00",
+  "usage": {
+    "input_tokens": 61800,
+    "output_tokens": 6137
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "CURE SYNGAP1 (formerly SRF)",
+        "url": "https://curesyngap1.org/what-is-syngap1/",
+        "kind": "foundation",
+        "snippet": "SYNGAP1-Related Disorders (SRD) are ultra-rare genetic disorders caused by a variant on the SYNGAP1 gene."
+      },
+      {
+        "name": "SYNGAP1 (MRD5) Patient Registry",
+        "url": "https://syngap1registry.iamrare.org/Home/About",
+        "kind": "registry",
+        "snippet": "The SYNGAP1 (MRD5) Registry follows strict government guidelines to assure patient information is protected."
+      },
+      {
+        "name": "Simons Searchlight – SYNGAP1",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/syngap1/",
+        "kind": "research_network",
+        "snippet": "SYNGAP1-related syndrome is also called SYNGAP1-related intellectual disability (SYNGAP1-ID) or intellectual developmental disorder, autosomal dominant 5."
+      },
+      {
+        "name": "Syngap Global Network (SGN)",
+        "url": "https://syngapglobal.net/",
+        "kind": "research_network",
+        "snippet": "We have come together to drive the global unification of Syngap1-related efforts and initiatives."
+      },
+      {
+        "name": "SYNGAP1 UK",
+        "url": "https://syngapuk.org/f/understanding-clinical-trials-what-they-are-and-why-they-matter",
+        "kind": "foundation",
+        "snippet": "SYNGAP1 UK is a national organisation supporting individuals and families affected by SYNGAP1-related intellectual disability."
+      }
+    ]
+  }
+}

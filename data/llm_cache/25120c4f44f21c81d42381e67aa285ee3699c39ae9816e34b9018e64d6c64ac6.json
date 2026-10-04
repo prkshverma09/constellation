@@ -1,0 +1,231 @@
+{
+  "disease_id": "MONDO:0012812",
+  "persona": "osei",
+  "mode": "offline",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "976d5ded-681b-4d3d-9298-907ef12f90ae",
+  "generated_at": "2026-10-04T10:38:15.642371+00:00",
+  "sections": [
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "Verify the counterexample GNAO1-related disease (neurodevelopmental disorder with involuntary movements): clinical similarity P=0.98, mechanism M=0.00; it is excluded by the mechanism layer.",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        },
+        {
+          "text": "Verify CACNA1A-related disease (migraine, familial hemiplegic, 1): 1 shared process term(s) (Regulation of insulin secretion; R-HSA-422356); M=0.11, S=0.40, excluded by M layer.",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "187be2699f417de6",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "Verify SLC2A1-related disease (hereditary cryohydrocytosis with reduced stomatin): 1 shared process term(s) (Regulation of insulin secretion; R-HSA-422356); M=0.08, S=0.49, excluded by M layer.",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "5490966f0991bdf8",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "Verify GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant): 1 shared process term(s) (Neurexins and neuroligins; R-HSA-6794361); M=0.06, S=0.45, excluded by M layer.",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "Verify V=0 against CACNA1A-related disease (migraine, familial hemiplegic, 1): STXBP1 is loss_of_function (“De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”); the comparator is gain_of_function (“Two variants known leading to gain of function (GOF) were found in 5 patients.”).",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040"
+          ]
+        },
+        {
+          "text": "Verify V=0 against GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant): STXBP1 is loss_of_function (“De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”); the comparator is gain_of_function (“including variants in the pore-forming region, linker regions and elsewhere that uniformly increase NMDA receptor-mediated charge transfer.”).",
+          "edge_ids": [
+            "9b5a310872598764",
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730"
+          ]
+        },
+        {
+          "text": "Contradictory evidence is indexed: “We found no correlation between severity of seizures and severity of ID”.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2"
+          ]
+        },
+        {
+          "text": "Contradictory evidence is indexed: “or between mutation type and seizure characteristics or cognitive outcome.”.",
+          "edge_ids": [
+            "e362983ef11a54b1"
+          ]
+        },
+        {
+          "text": "Contradictory evidence is indexed: “None of the recurrent variants were significantly associated with distinct electroclinical syndromes, single phenotypic features, or showed overall clinical similarity”.",
+          "edge_ids": [
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage of STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9) phenotype information is 55% (5 of 8 terms; IC 16.98/30.76) using Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "Verify STXBP1 membership in Neurotransmitter release cycle (stability 1.00).",
+          "edge_ids": [
+            "8b8a74101835d1d2"
+          ]
+        },
+        {
+          "text": "Verify STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): shared mechanism evidence is physical/curated interaction (STRING exp/db 0.96) (S 0.92).",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "Verify VAMP2-related disease (neurodevelopmental disorder with hypotonia and autistic features with or without hyperkinetic movements): shared mechanism evidence is Acetylcholine Neurotransmitter Release Cycle; Serotonin Neurotransmitter Release Cycle (S 0.85).",
+          "edge_ids": [
+            "ca33d6f8f475990e"
+          ]
+        },
+        {
+          "text": "Verify SNAP25-related disease (congenital myasthenic syndrome 18): shared mechanism evidence is Acetylcholine Neurotransmitter Release Cycle; Serotonin Neurotransmitter Release Cycle (S 0.75).",
+          "edge_ids": [
+            "fcb938d1b0386f7c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "Verify cluster asset Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and its mapped disease links.",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "Verify cluster asset STXBP1 and SYNGAP1 Related Disorders Natural History Study and its mapped disease links.",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy is mapped to STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9); it covers 55% of the target disease phenotype information (5 of 8 terms; IC 16.98/30.76).",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "Verify exact foundation link: Asociación Síndrome STXBP1 (Spain).",
+          "edge_ids": [
+            "453d4be996145f4e"
+          ]
+        },
+        {
+          "text": "Verify exact foundation link: European STXBP1 Consortium (ESCO).",
+          "edge_ids": [
+            "ba44da54694ec39f"
+          ]
+        },
+        {
+          "text": "Verify exact foundation link: Raging Raymond Foundation.",
+          "edge_ids": [
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Verify Rikke S Møller with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): matching ORCID 0000000296641448; overlapping affiliation tokens [danish, epilepsy, filadelfia] at 'Danish Epilepsy Center Filadelfia' and 'Danish Epilepsy Centre Filadelfia'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483.",
+          "edge_ids": [
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        },
+        {
+          "text": "Verify Ingo Helbig with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): matching ORCID 0000000184860558; CT.gov official affiliation match \"Children's Hospital of Philadelphia\" / \"Children's Hospital of Philadelphia\"; overlapping affiliation tokens [albrechts, christian] at 'Christian Albrechts University of Kiel and University Medical Center Schleswig-Holstein (UKSH)' and 'Christian Albrechts University'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483.",
+          "edge_ids": [
+            "0bead7fade435d02",
+            "18e9e45f700b90dd",
+            "220ad6798167d0d5"
+          ]
+        },
+        {
+          "text": "Verify Ingrid E Scheffer with CACNA1A-related disease (migraine, familial hemiplegic, 1): matching ORCID 0000000223112174; overlapping affiliation tokens [children, florey, murdoch] at \"Florey Institute and Murdoch Children's Research Institute\" and \"The Florey Institute and Murdoch Children's Research Institute\"; shared co-author 'Amy L Schneider' on PMID:36750385 and PMID:39096015.",
+          "edge_ids": [
+            "27b76058af6d93a5",
+            "33346fc493c96dfd",
+            "b57c18a44198a014"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Verify Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy coverage (5/8) and confirm Rikke S Møller using matching ORCID 0000000296641448; overlapping affiliation tokens [danish, epilepsy, filadelfia] at 'Danish Epilepsy Center Filadelfia' and 'Danish Epilepsy Centre Filadelfia'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483.",
+          "edge_ids": [
+            "08caeb5629c97308",
+            "09e273a907d5e72a",
+            "0ab8bb81a711c416",
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba",
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "gap_plan": null,
+  "markdown": "## What differs and must be verified\nVerify the counterexample GNAO1-related disease (neurodevelopmental disorder with involuntary movements): clinical similarity P=0.98, mechanism M=0.00; it is excluded by the mechanism layer. [f94ad5494a3e9ab8]\nVerify CACNA1A-related disease (migraine, familial hemiplegic, 1): 1 shared process term(s) (Regulation of insulin secretion; R-HSA-422356); M=0.11, S=0.40, excluded by M layer. [34c9bc447921f8cb, 187be2699f417de6, 3a40a3f53a18b664]\nVerify SLC2A1-related disease (hereditary cryohydrocytosis with reduced stomatin): 1 shared process term(s) (Regulation of insulin secretion; R-HSA-422356); M=0.08, S=0.49, excluded by M layer. [20c30f77dc2491fb, 5490966f0991bdf8, 3a40a3f53a18b664]\nVerify GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant): 1 shared process term(s) (Neurexins and neuroligins; R-HSA-6794361); M=0.06, S=0.45, excluded by M layer. [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nVerify V=0 against CACNA1A-related disease (migraine, familial hemiplegic, 1): STXBP1 is loss_of_function (“De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”); the comparator is gain_of_function (“Two variants known leading to gain of function (GOF) were found in 5 patients.”). [34c9bc447921f8cb, 87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040]\nVerify V=0 against GRIN1-related disease (neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant): STXBP1 is loss_of_function (“De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).”); the comparator is gain_of_function (“including variants in the pore-forming region, linker regions and elsewhere that uniformly increase NMDA receptor-mediated charge transfer.”). [9b5a310872598764, 87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730]\nContradictory evidence is indexed: “We found no correlation between severity of seizures and severity of ID”. [b1f9e5eeafbc81d2]\nContradictory evidence is indexed: “or between mutation type and seizure characteristics or cognitive outcome.”. [e362983ef11a54b1]\nContradictory evidence is indexed: “None of the recurrent variants were significantly associated with distinct electroclinical syndromes, single phenotypic features, or showed overall clinical similarity”. [ddc8cd6784a496fb]\n\n## Search coverage\nCoverage of STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9) phenotype information is 55% (5 of 8 terms; IC 16.98/30.76) using Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92]\n\n## Who shares our characteristics\nVerify STXBP1 membership in Neurotransmitter release cycle (stability 1.00). [8b8a74101835d1d2]\nVerify STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): shared mechanism evidence is physical/curated interaction (STRING exp/db 0.96) (S 0.92). [ab5fe5ff268d13ba]\nVerify VAMP2-related disease (neurodevelopmental disorder with hypotonia and autistic features with or without hyperkinetic movements): shared mechanism evidence is Acetylcholine Neurotransmitter Release Cycle; Serotonin Neurotransmitter Release Cycle (S 0.85). [ca33d6f8f475990e]\nVerify SNAP25-related disease (congenital myasthenic syndrome 18): shared mechanism evidence is Acetylcholine Neurotransmitter Release Cycle; Serotonin Neurotransmitter Release Cycle (S 0.75). [fcb938d1b0386f7c]\n\n## What already exists\nVerify cluster asset Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy and its mapped disease links. [bc71e274e1c691ec]\nVerify cluster asset STXBP1 and SYNGAP1 Related Disorders Natural History Study and its mapped disease links. [dcec503694916ae3]\nNatural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy is mapped to STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9); it covers 55% of the target disease phenotype information (5 of 8 terms; IC 16.98/30.76). [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]\nVerify exact foundation link: Asociación Síndrome STXBP1 (Spain). [453d4be996145f4e]\nVerify exact foundation link: European STXBP1 Consortium (ESCO). [ba44da54694ec39f]\nVerify exact foundation link: Raging Raymond Foundation. [202ca5201eca2102]\n\n## Who to contact\nVerify Rikke S Møller with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): matching ORCID 0000000296641448; overlapping affiliation tokens [danish, epilepsy, filadelfia] at 'Danish Epilepsy Center Filadelfia' and 'Danish Epilepsy Centre Filadelfia'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483. [00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\nVerify Ingo Helbig with STX1B-related disease (generalized epilepsy with febrile seizures plus, type 9): matching ORCID 0000000184860558; CT.gov official affiliation match \"Children's Hospital of Philadelphia\" / \"Children's Hospital of Philadelphia\"; overlapping affiliation tokens [albrechts, christian] at 'Christian Albrechts University of Kiel and University Medical Center Schleswig-Holstein (UKSH)' and 'Christian Albrechts University'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483. [0bead7fade435d02, 18e9e45f700b90dd, 220ad6798167d0d5]\nVerify Ingrid E Scheffer with CACNA1A-related disease (migraine, familial hemiplegic, 1): matching ORCID 0000000223112174; overlapping affiliation tokens [children, florey, murdoch] at \"Florey Institute and Murdoch Children's Research Institute\" and \"The Florey Institute and Murdoch Children's Research Institute\"; shared co-author 'Amy L Schneider' on PMID:36750385 and PMID:39096015. [27b76058af6d93a5, 33346fc493c96dfd, b57c18a44198a014]\n\n## Proposed first joint step\nVerify Natural History Study in Pediatric Patients with STXBP1 Encephalopathy with Epilepsy coverage (5/8) and confirm Rikke S Møller using matching ORCID 0000000296641448; overlapping affiliation tokens [danish, epilepsy, filadelfia] at 'Danish Epilepsy Center Filadelfia' and 'Danish Epilepsy Centre Filadelfia'; shared co-author 'Almuth Caliebe' on PMID:26865513 and PMID:25362483. [08caeb5629c97308, 09e273a907d5e72a, 0ab8bb81a711c416, bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba, 00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]"
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "32944953",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous females exhibit seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygous males are asymptomatic",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Pcdh19 mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We assessed seizure susceptibility and progression in the Pcdh19 mouse model using three acute seizure induction paradigms.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "increased seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pcdh19 knockout and heterozygous females displayed increased seizure susceptibility across all current intensities in the 6-Hz psychomotor test, and increased severity overall.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "shorter latencies to generalized seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They also exhibited shorter latencies to generalized seizures following flurothyl, but not PTZ, seizure induction.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "comparable seizure incidence and severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hemizygous males showed comparable seizure incidence and severity to their wild-type male littermates across all paradigms tested.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A cellular interference mechanism resulting from the presence of both wild-type and mutant PCDH19 neurons in heterozygous patients or mosaic carriers of PCDH19 variants has been hypothesized.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cellular interference",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The heightened susceptibility observed in Pcdh19 knockout females suggests additional mechanisms other than cellular interference are at play in PCDH19-related epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

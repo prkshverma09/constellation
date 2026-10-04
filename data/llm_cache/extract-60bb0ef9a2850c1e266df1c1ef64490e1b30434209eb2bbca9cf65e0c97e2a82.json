@@ -1,0 +1,106 @@
+{
+  "pmid": "12750821",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is currently considered a monogenic X-linked dominant disorder due to mutations in MECP2 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome in males (mosaicism)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A few RTT male cases, resulting from mosaicism for MECP2 mutations, have been reported.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "severe encephalopathy with death at birth; X-linked recessive mental retardation (XLMR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Male germline MECP2 mutations cause either severe encephalopathy with death at birth (usually in brothers of classical RTT females) or X-linked recessive mental retardation (XLMR).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "classic Rett syndrome (70-80% of cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 mutations account for approximately 70-80% of classic RTT cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "general transcriptional repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 is considered a general transcriptional repressor.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "methylation-specific transcriptional repression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The involvement of MeCP2 in methylation-specific transcriptional repression suggests that MECP2 related disorders result from dysregulated gene expression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "conditional mouse mutants with selective loss of Mecp2 in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "conditional mouse mutants with selective loss of Mecp2 in the brain develop clinical manifestations similar to RTT",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "required for central nervous system function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 is exclusively required for central nervous system function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "a relatively small number of gene expression changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A relatively small number of gene expression changes were identified.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "digenic model in which a mutated allele in a second gene determines clinical severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we propose a digenic model in which the presence of a \"mutated\" allele in a second gene, leading to a less functional protein, determines the clinical severity of the MECP2 mutation.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

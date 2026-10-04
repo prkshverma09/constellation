@@ -1,0 +1,186 @@
+{
+  "pmid": "37790402",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development, synaptic structure, and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a critical gene for neuronal development, synaptic structure, and function.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "SYNGAP1 -related intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 -related intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients present with intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor impairments",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "critical roles in neuronal structure and function; key biochemical signaling pathways essential to synapse integrity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SynGAP1's critical roles in neuronal structure and function, as well as key biochemical signaling pathways essential to synapse integrity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "embryonically lethal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous loss of SYNGAP1 is embryonically lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased locomotor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased locomotor activity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired working spatial memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired working spatial memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impaired cued fear memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired cued fear memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased stereotypic behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased stereotypic behavior",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1+/- mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "impairments in the translational biomarker domain of sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impairments in the translational biomarker domain of sleep",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated spike trains in number and duration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibited elevated spike trains in both number and duration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "elevated delta power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "elevated power, most notably in the delta power band.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "increased network firing activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Primary neurons from Syngap1+/- mice displayed increased network firing activity",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "greater spikes per burst",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "greater spikes per burst",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "shorter inter-burst intervals between peaks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "shorter inter-burst intervals between peaks",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

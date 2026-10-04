@@ -1,0 +1,86 @@
+{
+  "pmid": "29580901",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 loss-of-function variants are causally associated with intellectual disability, severe epilepsy, autism spectrum disorder and schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "severe epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 loss-of-function variants are causally associated with intellectual disability, severe epilepsy, autism spectrum disorder and schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 loss-of-function variants are causally associated with intellectual disability, severe epilepsy, autism spectrum disorder and schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 loss-of-function variants are causally associated with intellectual disability, severe epilepsy, autism spectrum disorder and schizophrenia.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates fundamental neurodevelopmental processes that are necessary for brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These clinical findings indicate that SYNGAP1 regulates fundamental neurodevelopmental processes that are necessary for brain development.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "four phenotypic domains controlled by Syngap1 expression across vertebrate species",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we describe four phenotypic domains that are controlled by Syngap1 expression across vertebrate species.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "innate survival behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two additional domains are defined by integrating the current literature with new data indicating that SYNGAP1/Syngap1 regulates innate survival behaviors and brain structure.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "brain structure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two additional domains are defined by integrating the current literature with new data indicating that SYNGAP1/Syngap1 regulates innate survival behaviors and brain structure.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

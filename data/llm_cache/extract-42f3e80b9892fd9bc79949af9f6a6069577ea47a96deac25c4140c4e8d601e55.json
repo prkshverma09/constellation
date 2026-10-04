@@ -1,0 +1,26 @@
+{
+  "pmid": "12879983",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "crucial proteins linked to exocytosis and neurotransmission, covering synaptophysin, synaptosomal-associated protein of 25,000 mol wt (SNAP-25)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "decreased expression in cerebral cortex and cerebellum in sporadic CJD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased expression of crucial proteins linked to exocytosis and neurotransmission, covering synaptophysin, synaptosomal-associated protein of 25,000 mol wt (SNAP-25), synapsins, syntaxins and Rab3a occurs in the cerebral cortex and cerebellum in sporadic CJD.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmid": "31454529",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the cytosolic protein SYNGAP1 (SYNaptic GTPase Activating Protein), an essential component of the postsynaptic density at excitatory glutamatergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a gene that encodes the cytosolic protein SYNGAP1 (SYNaptic GTPase Activating Protein), an essential component of the postsynaptic density at excitatory glutamatergic neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "plays critical roles in synaptic development, structure, function, and plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 plays critical roles in synaptic development, structure, function, and plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "Mental retardation-type 5 (MRD5, OMIM #612621)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in SYNGAP1 result in a neurodevelopmental disorder termed Mental retardation-type 5 (MRD5, OMIM #612621)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor impairments",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

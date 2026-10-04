@@ -1,0 +1,66 @@
+{
+  "pmid": "41189825",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The literature shows that Slo2 potassium channels are implicated in ID, with both gain- and loss-of-function mutations contributing to cognitive impairment.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with gain-of-function mutations often associated with more severe phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slo2 channelopathies represent a significant and under-recognized cause of neurodevelopmental impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "Fragile X syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including conditions like Fragile X syndrome and early-onset epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including conditions like Fragile X syndrome and early-onset epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The review highlights the dual impact of both gain- and loss-of-function KCNT mutations on cognitive function, with gain-of-function mutations often associated with more severe phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

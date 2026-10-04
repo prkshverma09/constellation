@@ -1,0 +1,36 @@
+{
+  "pmid": "22371606",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "REST binding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "REST binds a subset of \"transcriptionally responsive\" genes (gria2, grin1, chrnb2, nefh, nfκb2, trpv1, chrm4, and syt6)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "decreased mRNA and protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "REST binds a subset of \"transcriptionally responsive\" genes (gria2, grin1, chrnb2, nefh, nfκb2, trpv1, chrm4, and syt6), of which the AMPA receptor subunit GluA2 is a top hit. Genes with enriched REST exhibited decreased mRNA and protein.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "AMPA receptor subunit GluA2 (top hit)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gria2, grin1, chrnb2, nefh, nfκb2, trpv1, chrm4, and syt6), of which the AMPA receptor subunit GluA2 is a top hit.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41282775",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identify a set of significant ( p < 3. 4 × 10 -7 ) genes which did not meet exome-wide significance in previous studies: KCNQ2, SCN2A, STXBP1, CACNA1A, SLC6A1, DYRK1A, KCNB1, SATB1, PCDHAC2, SP4 , and RYR2 ,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

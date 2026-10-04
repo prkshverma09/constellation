@@ -1,0 +1,44 @@
+{
+  "symbol": "KCNB1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:34:00.623319+00:00",
+  "usage": {
+    "input_tokens": 51863,
+    "output_tokens": 6039
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "KCNB1.org",
+        "url": "https://www.kcnb1.org/",
+        "kind": "foundation",
+        "snippet": "KCNB1 is a voltage-gated potassium channel."
+      },
+      {
+        "name": "Association KCNB1 France",
+        "url": "https://kcnb1-france.org/",
+        "kind": "foundation",
+        "snippet": "La mutation du gène KCNB1 est une maladie génétique rare."
+      },
+      {
+        "name": "Simons Searchlight – KCNB1",
+        "url": "https://www.simonssearchlight.org/research/what-we-study/kcnb1/",
+        "kind": "registry",
+        "snippet": "KCNB1-related syndrome is also called developmental and epileptic encephalopathy, 26."
+      },
+      {
+        "name": "Heidelberg University Hospital – KCNB1 Registry",
+        "url": "https://www.klinikum.uni-heidelberg.de/en/zentrum-fuer-kinder-und-jugendmedizin/i-allgemeine-paediatrie-neuropaediatrie-stoffwechsel-gastroenterologie-nephrologie/forschung/sektion-paediatrische-epileptologie/patientenregister/kcnb1-register",
+        "kind": "registry",
+        "snippet": "KCNB1 is a rare genetic disorder caused by changes in the KCNB1 gene."
+      },
+      {
+        "name": "Human Disease Genes – KCNB1",
+        "url": "https://humandiseasegenes.nl/kcnb1",
+        "kind": "research_network",
+        "snippet": "This website was created to share and collect information about clinic, management, and research projects to gather more knowledge and provide better treatment of patients with pathogenic variants in KCNB1 gene."
+      }
+    ]
+  }
+}

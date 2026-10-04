@@ -1,0 +1,46 @@
+{
+  "pmid": "38176934",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "ischemic stroke",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Univariate analysis showed that the T allele and TT genotype distribution for rs211037 were significantly more frequent in the IS group compared to controls (pallele = 0.01, odds ratio (OR) = 1.673, 95% confidence intervals (CI), 1.119-2.500, pgenotype = 0.03).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "ischemic stroke",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the TT genotype for rs211037 was an independent risk factor for IS (p = 0.017, OR = 1.925, 95% CI, 1.122-3.303).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "higher NIHSS score",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with the rs211037 TT genotype were associated with a higher NIHSS score (p = 0.03)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "large-artery atherosclerosis (LAA) subtype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "large-artery atherosclerosis (LAA) subtype was predominant in patients with the rs211037 TT genotype (p = 0.042).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

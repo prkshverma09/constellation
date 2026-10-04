@@ -1,0 +1,76 @@
+{
+  "pmid": "40024627",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "Grin2b+/- heterozygous mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "constitutive Grin2b+/- heterozygous mice, a GRIN2B-LoF genetic murine model recapitulating GRD-like synaptic, motor, and cognitive alterations.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "spermine-positive allosteric modulators of GluN2B subunit-containing NMDARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spermine-positive allosteric modulators of GluN2B subunit-containing NMDARs",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "potentiation of NMDAR-mediated currents and attenuation of synaptic density deficits in heterologous cell systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In heterologous cell systems, administration of spermine potentiated wild-type and loss-of-function (LoF) NMDAR-mediated currents and attenuated synaptic density deficits.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "spermidine administration partially rescued hippocampal long-term potentiation deficits in Grin2b+/- mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic spermidine administration in young adult Grin2b+/- mice partially rescued hippocampal long-term potentiation deficits in hippocampal slices of Grin2b+/- mice, supporting the cognitive improvement observed in behavioral phenotyping.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "spermidine treatment ameliorated adaptive behavior in pediatric patients with GRIN2B-LoF variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "18 months of spermidine treatment resulted in the amelioration of adaptive behavior (notably in the younger treated patient), with the absence of noticeable side effects.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two pediatric patients harboring mild GRIN2B-LoF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay, hypotonia, intellectual disability, epilepsy, and autistic traits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay, hypotonia, intellectual disability, epilepsy, and autistic traits.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

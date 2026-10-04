@@ -1,0 +1,36 @@
+{
+  "pmid": "37956604",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "medication resistant epilepsy with fever-related seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is a common epilepsy gene causing medication resistant epilepsy with fever-related seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures in childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with seizures in childhood",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "temporal lobectomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All three patients ultimately underwent temporal lobectomy, resulting in seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

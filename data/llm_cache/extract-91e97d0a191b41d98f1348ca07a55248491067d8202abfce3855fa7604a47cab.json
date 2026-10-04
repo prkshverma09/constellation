@@ -1,0 +1,16 @@
+{
+  "pmid": "29023665",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "Rett-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient with a pathogenic variant in KCNB1, which has not been previously linked to a Rett-like phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

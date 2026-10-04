@@ -1,0 +1,16 @@
+{
+  "pmid": "28324682",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "up- or down-regulation in individual experiments, but were not reliable across groups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previously known genes including GABRA1, GABRB3, GABRG2, and RCN2 showed evidence for up- or down-regulation in individual experiments, but were not reliable across groups either.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

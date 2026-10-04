@@ -1,0 +1,106 @@
+{
+  "pmid": "34483011",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ferric chelate reductase 1 like (FRRS1L) encephalopathy is a rare cause of developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "drug refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only a few cases have been reported thus far and seizures tend to be drug refractory.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "video electroencephalogram (EEG) monitoring demonstrated the 'abnormal movements' to be clonic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "continuous spikes-and-waves during slow sleep (CSWS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Repeat EEG at 1 year 8 months old revealed a continuous spikes-and-waves during slow sleep (CSWS) pattern",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "choreiform movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subtle choreiform movements appeared from age one year and later became more prominent.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "therapy",
+      "object_text": "sulthiame",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After 2 weeks of sulthiame, seizures ceased completely.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "therapy",
+      "object_text": "sulthiame",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clonic seizures recurred at age 4 years when sulthiame supply was interrupted, but the seizures promptly remitted following sulthiame's resumption.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "profoundly delayed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "He has been seizure free since 4 years of age but remained profoundly delayed.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "therapy",
+      "object_text": "sulthiame",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sulthiame may have a role in the early treatment of seizures in children with refractory epilepsy due to FRRS1L mutation.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "mechanism",
+      "object_text": "homozygous novel variant (nonsense) NM_014334.3: c.670C>T:p.Gln224*",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole exome sequencing (WES) identified a homozygous novel variant (nonsense) in the FRRS1L gene (NM_014334.3: c.670C>T:p.Gln224*).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "33526073",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "synaptogenic_factor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered synaptogenic factors including BDNF, SNAP25, and PSD95.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NH125 treatment enhanced eEF2 and GSK3β activities, BDNF, SNAP25, and PSD95 expression, but had no effects on HDAC1.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

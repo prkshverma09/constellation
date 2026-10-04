@@ -1,0 +1,56 @@
+{
+  "pmid": "33916893",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcriptional regulator WW domain-containing oxidoreductase (WWOX) is a key player in a number of cellular and biological processes including tumor suppression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive spinocerebellar ataxia 12 (SCAR12)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal recessive spinocerebellar ataxia 12 (SCAR12) (6 patients)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WWOX-related epileptic encephalopathy (DEE28 or WOREE syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX-related epileptic encephalopathy (DEE28 or WOREE syndrome) (56 patients)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "profound global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

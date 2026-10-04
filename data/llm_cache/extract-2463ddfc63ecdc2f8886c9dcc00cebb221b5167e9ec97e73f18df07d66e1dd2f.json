@@ -1,0 +1,146 @@
+{
+  "pmid": "36247896",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 variants have been found to be associated with epileptic encephalopathies, developmental delays (DDs), and movement disorders (MDs).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 variants have been found to be associated with epileptic encephalopathies, developmental delays (DDs), and movement disorders (MDs).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 variants have been found to be associated with epileptic encephalopathies, developmental delays (DDs), and movement disorders (MDs).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A de-novo variant of the GNAO1 gene (NM_138736: exom6: c.709G>A [p. Glu237Lys]) was identified by whole exome sequencing (WES) when he was 8 months old.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine (OXC)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eventually, incremental doses of OXC were effective, and our patient achieved good control of his MD.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine (OXC) before invasive surgical therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To manage MDs associated with GNAO1 mutations, we recommend that OXC treatment be attempted before invasive surgical therapy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report the case of a 5-year-old male patient with a MD, who suffered from hypotonia and refractory choreoathetosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "refractory choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report the case of a 5-year-old male patient with a MD, who suffered from hypotonia and refractory choreoathetosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was found to have a DD and an intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was found to have a DD and an intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "recurrent convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient visited our hospital at the age of 4 years and 3 months because of fever and recurrent convulsions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal EEG spikes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electroencephalogram (EEG) results show abnormal spikes, and magnetic resonance imaging (MRI) showed the enlargement of the lateral ventricles.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "enlargement of the lateral ventricles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electroencephalogram (EEG) results show abnormal spikes, and magnetic resonance imaging (MRI) showed the enlargement of the lateral ventricles.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation (DBS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deep brain stimulation (DBS) treatment appears to be effective, however surgical procedures and equipment failures pose risks to the patients.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

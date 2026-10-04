@@ -1,0 +1,16 @@
+{
+  "pmid": "40795403",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "increased neurite outgrowth of the GABAergic DVB neuron in adults",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of unc-44/ANK2, set-4/KMT5B, daf-18/PTEN, gap-2/SYNGAP1, and chd-1/CHD2/8 increased, while unc-36/CACNA2D3 decreased, neurite outgrowth of the GABAergic DVB neuron in adults.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

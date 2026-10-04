@@ -1,0 +1,156 @@
+{
+  "pmid": "30790667",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptosomal Associated Protein-25 kilodaltons (SNAP-25) is an integral member of the SNARE complex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptosomal Associated Protein-25 kilodaltons (SNAP-25) is an integral member of the SNARE complex. This complex is essential for calcium-triggered synaptic vesicular fusion and release of neurotransmitters into the synaptic cleft.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "insulin release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to neurotransmission, SNAP-25 is associated with insulin release, the regulation of intracellular calcium, and neuroplasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "regulation of intracellular calcium",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to neurotransmission, SNAP-25 is associated with insulin release, the regulation of intracellular calcium, and neuroplasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "neuroplasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to neurotransmission, SNAP-25 is associated with insulin release, the regulation of intracellular calcium, and neuroplasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "bipolar disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "major depressive disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "alcohol use disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "dementia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The accumulated data indicate that SNAP-25 may be linked with some symptoms associated with a variety of psychiatric disorders. These disorders include bipolar disorder, schizophrenia, major depressive disorder, attention deficit hyperactivity disorder, autism, alcohol use disorder, and dementia.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "non-psychiatric seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are also data suggesting SNAP-25 may be involved with non-psychiatric seizures and metabolic disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "metabolic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There are also data suggesting SNAP-25 may be involved with non-psychiatric seizures and metabolic disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "genetically manipulated mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetically manipulated mice",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

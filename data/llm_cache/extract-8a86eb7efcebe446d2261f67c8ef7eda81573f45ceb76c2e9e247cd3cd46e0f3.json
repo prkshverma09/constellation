@@ -1,0 +1,146 @@
+{
+  "pmid": "36739728",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "female predominance (17 females, 5 males)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "17 females and 5 males with CDKL5 deficiency disorder (CDD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "recognizable seizure semiology in first phase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the seizure semiology was already recognizable in the first phase of the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "focal motor seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the short-term evolution, all patients had focal motor and 12/21 hypermotor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "hypermotor seizures (12/21)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the short-term evolution, all patients had focal motor and 12/21 hypermotor seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms present in >50% within first 2 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both epileptic spasms and myoclonic seizures were already present in more than half of the cases in the first 2 months after onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures present in >50% within first 2 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both epileptic spasms and myoclonic seizures were already present in more than half of the cases in the first 2 months after onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "electroclinical pattern of epileptic encephalopathy with hypsarrhythmia in 8 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in eight patients the electroclinical pattern of epileptic encephalopathy with hypsarrhythmia appeared.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures diminished in long-term",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the long-term period, the seizure polymorphism continued but myoclonic and epileptic spasms diminished.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms diminished in long-term",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the long-term period, the seizure polymorphism continued but myoclonic and epileptic spasms diminished.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "tonic seizures appear in later phases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tonic seizures appeared in the last 2 phases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "progressive neurocognitive impairment with seizure aggravation and paroxysmal EEG abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Progressively, with the aggravation of seizures and paroxysmal EEG abnormalities impairment of the neurocognitive status was observed.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe behavioral disturbances in eight patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe behavioral disturbances were seen in eight and autistic-like features in 14.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "autistic-like features in 14 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe behavioral disturbances were seen in eight and autistic-like features in 14.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency is a developmental and epileptic encephalopathy characterized by early, polymorphic, drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDD is a true developmental and epileptic encephalopathy with a specific etiology characterized by the early appearance of epileptic seizures that quickly become polymorphic and drug resistant in infants that are most often female and already have neurological impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

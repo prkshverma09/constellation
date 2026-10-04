@@ -1,0 +1,46 @@
+{
+  "pmid": "31098032",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A-associated CdLS",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "transposition of the great arteries",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transposition of the great arteries",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "periodic intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "periodic intractable seizures from 40 months of age",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "ability to walk",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a seizure-free period after birth of at least 15 months is required for these patients to be able to walk",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

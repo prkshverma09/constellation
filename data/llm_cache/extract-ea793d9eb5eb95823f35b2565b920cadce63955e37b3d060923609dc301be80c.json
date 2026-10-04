@@ -1,0 +1,46 @@
+{
+  "pmid": "26807990",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The condition is caused in up to 95% of the cases by mutations in the X-linked methyl-CpG binding protein 2 (MECP2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "methyl-CpG binding protein 2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "X-linked methyl-CpG binding protein 2 (MECP2) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "immune response involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "evidence on an intimate involvement of MeCP2 in the immune response is cumulating",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autoimmune diseases (primary Sjögren's syndrome; systemic lupus erythematosus; rheumatoid arthritis; systemic sclerosis)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a link between MECP2 gene polymorphisms and autoimmune diseases, including primary Sjögren's syndrome, systemic lupus erythematosus, rheumatoid arthritis, and systemic sclerosis",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

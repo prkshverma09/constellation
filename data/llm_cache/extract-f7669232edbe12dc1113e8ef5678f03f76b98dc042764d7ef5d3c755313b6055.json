@@ -1,0 +1,56 @@
+{
+  "pmid": "34235417",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "familial focal epilepsy of variable foci (FFEVF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPRL3 gene mutations cause autosomal dominant familial focal epilepsy of variable foci (FFEVF)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy arising from different brain regions including temporal, frontal, parietal and occipital lobes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy arising from different brain regions including temporal, frontal, parietal and occipital lobes",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "resistant to medical treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "About 50% of patients with NPRL3 related epilepsy are resistant to medical treatment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure foci (left hippocampus and left orbitofrontal cortices)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stereotactic EEG showed two independent seizure foci, namely, left hippocampus and left orbitofrontal cortices",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "laser interstitial thermal therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "laser interstitial thermal therapy can be an effective treatment for drug resistant NPRL3 related focal epilepsy with better tolerance and less morbidity as compared to open surgical resection, particularly in those with multiple seizure foci",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

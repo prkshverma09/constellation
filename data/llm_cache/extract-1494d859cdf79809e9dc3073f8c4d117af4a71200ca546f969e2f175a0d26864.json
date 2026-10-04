@@ -1,0 +1,46 @@
+{
+  "pmid": "38106673",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "GNAO1-related disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gln52 mutations have been found in patients with GNAO1-related disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gln52 can be mutated to Pro and Arg",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "different clinical manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gln52 can be mutated to Pro and Arg, leading to different clinical manifestations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "personalized drug discovery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Personalized drug discovery is tailored to specific GNAO1 mutations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

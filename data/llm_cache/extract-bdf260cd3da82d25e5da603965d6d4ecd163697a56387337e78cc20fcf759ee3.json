@@ -1,0 +1,66 @@
+{
+  "pmid": "36437393",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "subunit of the tetrameric sodium activated potassium channel (KNa1.1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 has been known to encode a subunit of the tetrameric sodium activated potassium channel (KNa1.1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of KCNT1, especially gain-of-function (GOF) variants, are associated with multiple epileptic disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "multiple epileptic disorders which are often refractory to conventional anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multiple epileptic disorders which are often refractory to conventional anti-seizure medications",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine inhibition of hyperexcitable KNa1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "utilizing quinidine to inhibit hyperexcitable KNa1.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "poor BBB penetration, mutation-dependence, phenotype-genotype associations, and therapeutic schedule may affect quinidine outcomes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "controversial outcomes among studies and partial success in some individuals may be due to multiple factors, such as poor blood-brain barrier (BBB) penetration, mutation-dependent manner, phenotype-genotype associations, and rational therapeutic schedule.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "higher resolution of KNa1.1 structure and advanced synthetic techniques improve therapy targeting KNa1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In recent years, with higher resolution of KNa1.1 structure in different activation states and advanced synthetic techniques, it improves the process performance of therapy targeting at KNa1.1 channel to achieve more effective outcomes.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

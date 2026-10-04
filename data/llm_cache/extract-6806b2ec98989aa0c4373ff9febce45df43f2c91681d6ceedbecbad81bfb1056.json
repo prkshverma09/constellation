@@ -1,0 +1,146 @@
+{
+  "pmid": "35722775",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most reported patients carrying GNAO1 mutations showed a severe phenotype characterized by early-onset epileptic encephalopathy and/or chorea.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most reported patients carrying GNAO1 mutations showed a severe phenotype characterized by early-onset epileptic encephalopathy and/or chorea.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients showed dystonia as prominent movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "focal dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dystonia was focal in 1, segmental in 6, multifocal in 4, and generalized in 13.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "segmental dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dystonia was focal in 1, segmental in 6, multifocal in 4, and generalized in 13.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "multifocal dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dystonia was focal in 1, segmental in 6, multifocal in 4, and generalized in 13.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "generalized dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dystonia was focal in 1, segmental in 6, multifocal in 4, and generalized in 13.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "adolescence- or adulthood-onset dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six patients showed adolescence or adulthood-onset dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven patients presented with parkinsonism and 3 with myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven patients presented with parkinsonism and 3 with myoclonus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dysarthria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dysarthria was observed in 19 patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mild and moderate ID were present in 10 and 2 patients, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "moderate intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mild and moderate ID were present in 10 and 2 patients, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "mild GNAO1-related phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We highlighted a mild GNAO1-related phenotype, including adolescent-onset dystonia, broadening the clinical spectrum of this condition.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

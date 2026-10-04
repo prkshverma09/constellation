@@ -1,0 +1,16 @@
+{
+  "pmid": "41510857",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic mutations were detected most frequently in SCN1A (n = 20), STXBP1(n = 9), and CDKL5 (n = 9) genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

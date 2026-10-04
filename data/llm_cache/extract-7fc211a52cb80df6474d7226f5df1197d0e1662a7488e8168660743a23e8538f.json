@@ -1,0 +1,116 @@
+{
+  "pmid": "39268250",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "uptake of GABA from the synaptic cleft into neurons and astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "plays a pivotal role in the uptake of GABA from the synaptic cleft into neurons and astrocytes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "storage of GABA in presynaptic vesicles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This process facilitates the subsequent storage of GABA in presynaptic vesicles.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human SLC6A1 gene is highly susceptible to missense mutations",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to severe clinical outcomes, such as epilepsy, in the afflicted patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While the majority of the existing loss-of-function SLC6A1 variants interfere with folding and membrane targeting",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "impair protein folding and fail to reach the plasma membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "many SLC6A1 mutations are now known to impair protein folding, and consequently fail to reach the plasma membrane.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "association with molecular chaperones, oligomerization, Golgi sorting, and delivery to the cell surface",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This involves association with specialized molecular chaperones responsible for steering the protein folding process, oligomerization, sorting through the Golgi apparatus, and ultimately delivery to the cell surface.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "disrupts GABAergic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suppressed GAT1 activity disrupts GABAergic neurotransmission",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "certain mutants retain abundant surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "certain mutants retain abundant surface expression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "pharmacochaperoning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We here highlight the significance of pharmacochaperoning as a therapeutic strategy for the treatment of SLC6A1-related disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "chemical and pharmacological chaperones",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "misfolded SLC6A1 variants, which can be salvaged by small molecules, i.e., chemical and pharmacological chaperones, acting on multiple upstream targets in the secretory pathway.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "33803217",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "synaptic dysfunction and/or loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biomarkers about synaptic dysfunction and/or loss includes neurogranin, BACE1, synaptotagmin, SNAP-25, GAP-43, synaptophysin.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

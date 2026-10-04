@@ -1,0 +1,66 @@
+{
+  "pmid": "36173683",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium activated potassium channel protein KNa1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1, which encodes for sodium activated potassium channel protein KNa1.1,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function variants in KCNT1, which encodes for sodium activated potassium channel protein KNa1.1, have been found to play a major role in the etiology of EIMFS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "mouse model carrying the KCNT1 p.P924L pathogenic variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated a mouse model carrying the KCNT1 p.P924L pathogenic variant;",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "frequent, debilitating seizures and developmental compromise",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the frequent, debilitating seizures and developmental compromise",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "Kcnt1 gapmer ASO",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After a single intracerebroventricular bolus injection of a Kcnt1 gapmer ASO in symptomatic mice at postnatal day 40, seizure frequency was significantly reduced, behavioral abnormalities improved, and overall survival was extended compared with mice treated with a control ASO (nonhybridizing sequence).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ASO administration at neonatal age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ASO administration at neonatal age was also well tolerated and effective in controlling seizures and extending the life span of treated animals.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

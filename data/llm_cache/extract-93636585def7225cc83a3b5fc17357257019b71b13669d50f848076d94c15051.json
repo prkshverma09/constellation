@@ -1,0 +1,16 @@
+{
+  "pmid": "41386636",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "ion channel encoding gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In individuals with migraine and epilepsy comorbidity alterations were observed in ion channel encoding gene (SCN1A, KCNMA1, and KIF1A)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

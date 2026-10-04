@@ -1,0 +1,76 @@
+{
+  "pmid": "31904118",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo mutations of the neuronal sodium channel SCN8A have been identified in approximately 2% of individuals with epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These missense mutations alter the biophysical properties of sodium channel Nav1.6 in ways that lead to neuronal hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These missense mutations alter the biophysical properties of sodium channel Nav1.6 in ways that lead to neuronal hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "mouse model carrying patient mutations N1768D and R1872W",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated two mouse models carrying patient mutations N1768D and R1872W to examine the effects on neuronal function in vivo.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "conditional R1872W mutation activated by expression of CRE recombinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The conditional R1872W mutation is activated by expression of CRE recombinase, permitting characterization of the effects of the mutation on different classes of neurons and at different points in postnatal development.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "preclinical drug testing supports new therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Preclinical drug testing in these mouse models provides support for several new therapies for this devastating disorder.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast with the gain-of-function mutations in epilepsy, mutations of SCN8A that result in partial or complete loss of function are associated with intellectual disability and other disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

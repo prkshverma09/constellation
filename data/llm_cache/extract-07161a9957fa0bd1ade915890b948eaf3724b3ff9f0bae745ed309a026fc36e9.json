@@ -1,0 +1,16 @@
+{
+  "pmid": "40233852",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "ionotropic receptor involved in GABAergic systems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ionotropic receptor genes involved in glutamatergic (GRIN2A, GRIN2B) and GABAergic systems (GABRA4, GABRB1, GABRG2, GABRQ).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

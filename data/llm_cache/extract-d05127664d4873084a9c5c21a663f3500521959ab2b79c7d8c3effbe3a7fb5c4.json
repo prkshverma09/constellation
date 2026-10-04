@@ -1,0 +1,136 @@
+{
+  "pmid": "38251463",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "chronic progressive or episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "carrying novel SCN8A variants associated with chronic progressive or episodic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "episodic or chronic ataxia as predominant phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified episodic or chronic ataxia as predominant phenotypes caused by variants in SCN8A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "decreased Na+ current densities and shifted activation curves towards more depolarized potentials",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased Na+ current densities and shifted activation curves towards more depolarized potentials (p.Asn995Asp, p.Lys1498Glu and p.Trp1266Cys)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "premature stop codon (protein truncation)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "resulted in a premature stop codon (p.Trp937Ter).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three variants (p.Arg847Gln and biallelic p.Arg191Trp/p.Asp1525Tyr) were associated with episodic ataxia causing loss-of-function by decreasing Na+ current densities or a hyperpolarizing shift of the inactivation curve.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused mixed gain- and loss-of function effects in ND7/23 cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused mixed gain- and loss-of function effects in ND7/23 cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "altered neuronal firing in excitatory neurons (increased by p.Arg1629His; decreased by p.Glu1201Lys)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuronal firing in excitatory neurons was increased by p.Arg1629His, but decreased by p.Glu1201Lys.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "decreased neuronal firing in inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuronal firing in inhibitory neurons was decreased for both variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "no functional effect for p.Arg1913Trp",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No functional effect was observed for p.Arg1913Trp.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In four individuals, treatment with sodium channel blockers exacerbated symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers (avoidance recommended)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers should be avoided under these conditions.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genotype-phenotype correlations revealed a more pronounced loss-of-function effect for variants causing chronic ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

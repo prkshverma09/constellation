@@ -1,0 +1,36 @@
+{
+  "pmid": "26669816",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "multiple isoforms of neurotransmitter receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Editing creates multiple isoforms of neurotransmitter receptors, such as with Gria2.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "Adar2(-/-) Gria2(R/R) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Adar2(-/-) Gria2(R/R) mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "Gria2 Q/R editing site mutated to mimic the edited version results in viable animals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "if the Gria2 Q/R editing site is mutated to mimic the edited version then the animals are viable.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

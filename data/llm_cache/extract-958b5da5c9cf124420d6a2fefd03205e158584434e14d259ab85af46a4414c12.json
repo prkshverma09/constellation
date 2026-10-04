@@ -1,0 +1,86 @@
+{
+  "pmid": "39994784",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Soluble N-ethylmaleimide-sensitive factor attachment proteins receptors (SNARE) proteins, such as VAMP-2 and SNAP-25, are implicated in α-synuclein pathophysiology",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "decreased in pure DLB",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both proteins were decreased in pure DLB (p < 0.001, p = 0.01)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "increased in DLB + AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but increased in DLB + AD (p = 0.01, p = 0.02) compared to controls",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF p-tau and total tau",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both proteins were associated with CSF p-tau and total tau (t-tau) across all groups (r2 = 0.49-0.88, p < 0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "Aβ42/40 ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with the Aβ42/40 ratio in DLB + AD (r2 = 0.29-0.36, p < 0.001) and in AD (r2 = 0.12-0.23, p < 0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "CSF neurofilament-light chain (NfL)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and with CSF neurofilament-light chain (NfL) in controls (r²=0.10-0.11, p < 0.001-0.01) and AD patients (r²=0.01-0.08, p = 0.01 - 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "phonemic fluency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF VAMP-2 and SNAP-25 were associated with phonemic fluency in pure DLB (r2 = 0.39 - 0.28, p = 0.01-0.03)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "surrogate markers of synapse degeneration in DLB",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF VAMP-2 and SNAP-25 are promising surrogate markers of synapse degeneration in DLB.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

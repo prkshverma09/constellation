@@ -1,0 +1,16 @@
+{
+  "pmid": "36734057",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Perampanel demonstrated high safety and efficacy in patients with rare genetic epilepsies, especially in SCN1A, GNAO1, PIGA, PCDH19, SYNGAP1, CDKL5, NEU1, and POLG, suggesting a targeted effect related to glutamate transmission.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36571524",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Single-nucleotide heterozygous variants were identified in the SCN1A (5), GABRG2 (1), STXBP1 (2) genes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

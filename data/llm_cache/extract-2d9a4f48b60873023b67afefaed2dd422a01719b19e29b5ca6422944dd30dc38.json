@@ -1,0 +1,186 @@
+{
+  "pmid": "31323176",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates synaptic plasticity through AMPA receptor trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic Ras GTPase-activating protein 1 (SYNGAP1) regulates synaptic plasticity through AMPA receptor trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 mutations have been found in human patients with intellectual disability (ID) and autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 mutations have been found in human patients with intellectual disability (ID) and autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Almost every individual with SYNGAP1-related ID develops epilepsy, and approximately 50% have ASD.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Almost every individual with SYNGAP1-related ID develops epilepsy, and approximately 50% have ASD.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related ID is estimated to account for at least 1% of ID cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1-/+ mice (heterozygous)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Male mice with a heterozygous mutation in the Syngap1 gene (Syngap1-/+ mice) created by Seth Grant's group",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "increased locomotor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1-/+ mice showed increased locomotor activity, decreased prepulse inhibition, and impaired working and reference spatial memory, consistent with preceding studies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "decreased prepulse inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1-/+ mice showed increased locomotor activity, decreased prepulse inhibition, and impaired working and reference spatial memory, consistent with preceding studies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "impaired working and reference spatial memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1-/+ mice showed increased locomotor activity, decreased prepulse inhibition, and impaired working and reference spatial memory, consistent with preceding studies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "context fear memory impairment",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Impairment of context fear memory and increased startle reflex in Syngap1 mutant mice could not be reproduced.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "increased startle reflex",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Impairment of context fear memory and increased startle reflex in Syngap1 mutant mice could not be reproduced.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "decreased sensitivity to painful stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significant decreases in sensitivity to painful stimuli and impaired motor function were observed in Syngap1-/+ mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "impaired motor function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significant decreases in sensitivity to painful stimuli and impaired motor function were observed in Syngap1-/+ mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "decreased anxiety-like behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased anxiety-like behavior and depression-like behavior were noted, although increased locomotor activity is a potential confounding factor of these phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "depression-like behavior (decreased)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased anxiety-like behavior and depression-like behavior were noted, although increased locomotor activity is a potential confounding factor of these phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "hyperlocomotor activity / increased home cage locomotor activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Increased home cage locomotor activity indicated hyperlocomotor activity not only in specific behavioral test conditions but also in familiar environments.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "Syngap1 heterozygote mouse recapitulates symptoms of ID and ASD patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We further confirmed that the Syngap1 heterozygote mouse recapitulates the symptoms of ID and ASD patients.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "35712061",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants are known to cause Cornelia de Lange Syndrome (CdLS) which encompasses a clinical spectrum of intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic features (long or thick eyebrows, a hypomorphic philtrum and small nose)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "long or thick eyebrows",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "long or thick eyebrows",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "hypomorphic philtrum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a hypomorphic philtrum",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "small nose",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "small nose",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in some cases, epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "early-childhood onset drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A truncating variants have been described as the cause of a neurodevelopmental disorder with early-childhood onset drug-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures that occur in clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that occur in clusters",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "classical features of CdLS",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "but without the classical features of CdLS.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures (onset at 12 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presented with seizures at the late age of 12 years",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "normal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had normal development into adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

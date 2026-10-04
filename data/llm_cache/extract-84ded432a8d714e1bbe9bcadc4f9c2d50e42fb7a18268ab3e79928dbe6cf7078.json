@@ -1,0 +1,16 @@
+{
+  "pmid": "41366559",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most commonly implicated genes were predominantly voltage-gated channels genes (SCN1A, SCN1B, KCNT1, CACNA1A, CACNA1H), and GABA receptor-related genes (GABRA1, GABRB2, GABRB3, GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

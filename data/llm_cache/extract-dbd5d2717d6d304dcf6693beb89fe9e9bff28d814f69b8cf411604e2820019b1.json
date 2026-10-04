@@ -1,0 +1,156 @@
+{
+  "pmid": "32004315",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diverse mutations on the human TBC1D24 gene are strongly associated with epilepsy and ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diverse mutations on the human TBC1D24 gene are strongly associated with epilepsy and ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "presence at postsynaptic sites and maintenance of dendritic spines via inhibition of ARF6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 is present at the postsynaptic sites of excitatory synapses, where it is required for the maintenance of dendritic spines through inhibition of the small GTPase ARF6.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "dendritic spine loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dendritic spine loss",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deficits in contextual fear memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "deficits in contextual fear memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperactivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "increased anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased anxiety",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the disease-associated missense mutation that leads to F251L amino acid substitution.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "F251L knock-in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The F251L knock-in mice represent a useful animal model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mechanistic link between TBC1D24 loss-of-function and neurodevelopmental disorders.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "increased neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased neuronal excitability",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spontaneous seizure",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "pre-mature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pre-mature death",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "dendritic spine defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dendritic spine defects",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "impaired memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired memory",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

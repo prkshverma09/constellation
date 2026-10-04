@@ -1,0 +1,66 @@
+{
+  "pmid": "35408865",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "a heterogeneous phenotypic spectrum ranging from focal epilepsy with rare seizures and normal cognitive development to severe drug-resistant epilepsy associated with intellectual disability and autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a heterogeneous phenotypic spectrum ranging from focal epilepsy with rare seizures and normal cognitive development to severe drug-resistant epilepsy associated with intellectual disability and autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "function during brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "provided insights on the function of PCDH19 during brain development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "altered function causes the disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and how its altered function causes the disease",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "zebrafish and murine models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Studies with zebrafish and murine models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "these models fail to reproduce the human phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these models fail to reproduce the human phenotype",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "brain organoids (iPSC-derived 3D models)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Induced pluripotent stem cell (iPSC) technology has provided a complementary experimental approach for investigating the pathogenic mechanisms implicated in PCDH19-CE during neurogenesis and studying the pathology in a more physiological three-dimensional (3D) environment through the development of brain organoids",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

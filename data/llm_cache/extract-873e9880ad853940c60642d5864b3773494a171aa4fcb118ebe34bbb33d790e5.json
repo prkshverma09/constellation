@@ -1,0 +1,26 @@
+{
+  "pmid": "28479855",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes often contain one or more mutations in both epilepsy and hemiplegic migraine patients (ie, CACNA1A, ATP1A2, SCN1A, and PRRT2).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes often contain one or more mutations in both epilepsy and hemiplegic migraine patients (ie, CACNA1A, ATP1A2, SCN1A, and PRRT2).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

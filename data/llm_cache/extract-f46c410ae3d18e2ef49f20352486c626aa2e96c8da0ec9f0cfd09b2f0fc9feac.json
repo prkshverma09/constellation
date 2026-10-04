@@ -1,0 +1,16 @@
+{
+  "pmid": "25904555",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Virtually all α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor mutations, most of which occur within GRIA3, are from patients with intellectual disabilities, suggesting a link to this condition.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

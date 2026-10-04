@@ -1,0 +1,86 @@
+{
+  "pmid": "37883018",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two KCNA2 variants (p.H310Y and p.H310R) were discovered in paediatric patients with epilepsy and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two KCNA2 variants (p.H310Y and p.H310R) were discovered in paediatric patients with epilepsy and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both gain and loss of KV 1.2 function cause epilepsy, precluding the prediction of variant effects;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The p.H310Y variant produced 'dual gain of function', increasing both cell-surface trafficking and activity, delaying channel closure.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "formation of a hydrogen bond stabilizes the active state of the voltage-sensor domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that the latter is due to the formation of a hydrogen bond that stabilizes the active state of the voltage-sensor domain.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "abolishes N-type ('ball and chain') inactivation by KV β1 subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, H310Y abolished 'ball and chain' inactivation of KV 1.2 by KV β1 subunits, enhancing gain of function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, p.H310R caused 'dual loss of function', diminishing surface levels by multiple impediments to trafficking and inhibiting voltage-dependent channel opening.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "regulate electrical signalling in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 encodes the subunits of KV 1.2 voltage-activated, K+ -selective ion channels, which regulate electrical signalling in neurons.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

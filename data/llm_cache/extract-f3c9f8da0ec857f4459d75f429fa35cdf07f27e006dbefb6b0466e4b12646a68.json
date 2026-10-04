@@ -1,0 +1,106 @@
+{
+  "pmid": "40903342",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delays",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "cognitive and sensorimotor impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive and sensorimotor impairments",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mosaic loss of CDKL5 function",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "heterozygous female mouse model (Cdkl5 +/-)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterozygous female mouse model (Cdkl5 +/-)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Igk-TATk-CDKL5 fusion protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an Igk-TATk-CDKL5 fusion protein, which enhances brain distribution of the therapeutic protein, significantly improving treatment efficacy in a Cdkl5 knockout male mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Igk-TATk-CDKL5 therapy improved behavioral phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "introducing Igk-TATk-CDKL5 significantly improved behavioral phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "brain structural defects (dendritic morphology and connectivity) were corrected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "corrected brain structural defects, such as dendritic morphology and connectivity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "CDKL5 overexpression well tolerated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 overexpression in the heterozygous condition was well tolerated.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "cross-correction mechanism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a possible cross-correction mechanism may contribute to its efficacy",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

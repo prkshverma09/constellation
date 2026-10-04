@@ -1,0 +1,86 @@
+{
+  "pmid": "29861134",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "zebrafish depdc5 knockout model showing spontaneous epileptiform events, increased drug-induced seizure susceptibility, hypoactivity, premature death, and hyperactivation of mTOR signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a zebrafish depdc5 knockout model showing spontaneous epileptiform events in the brain, increased drug-induced seizure susceptibility, general hypoactivity, premature death at 2-3 weeks post-fertilization, as well as the expected hyperactivation of mTOR signaling was developed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "dysregulation of genes involved in synaptic function, neurogenesis, axonogenesis, and GABA network activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "many genes involved in synaptic function, neurogenesis, axonogenesis, and GABA network activity were found to be dysregulated in larval brains.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "defects in the fine branching of the GABAergic network",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "immunostaining of depdc5-/- brains for several GABAergic markers revealed specific defects in the fine branching of the GABAergic network.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "treatment with GABA compensates some defects in depdc5-/-",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some defects in depdc5-/- could be compensated for by treatment with GABA",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR-independent nature of neurodevelopmental defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the inability of rapamycin to rescue the GABAergic network defects observed in depdc5-/- brains",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "GABA does not rescue hypoactivity in another mTOR-hyperactivation model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the inability of GABA to rescue the hypoactivity in another genetic model showing mTOR hyperactivation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "roles apart from its canonical function as an mTOR inhibitor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 plays previously unknown roles apart from its canonical function as an mTOR inhibitor.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "defective neurodevelopment of GABAergic networks could be a key factor in epileptogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "defective neurodevelopment of GABAergic networks could be a key factor in epileptogenesis when DEPDC5 is mutated.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

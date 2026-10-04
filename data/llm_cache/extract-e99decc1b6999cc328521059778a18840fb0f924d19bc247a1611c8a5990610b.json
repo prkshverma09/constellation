@@ -1,0 +1,76 @@
+{
+  "pmid": "19469841",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus (GEFS(+))",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the NaV1.1 neuronal sodium channel alpha-subunit (SCN1A) gene have been documented in a spectrum of epilepsy syndromes, ranging from the relatively benign generalized epilepsy with febrile seizures plus (GEFS(+)) to severe myoclonic epilepsy in infancy (SMEI), and rare cases of familial migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "severe myoclonic epilepsy in infancy (SMEI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the NaV1.1 neuronal sodium channel alpha-subunit (SCN1A) gene have been documented in a spectrum of epilepsy syndromes, ranging from the relatively benign generalized epilepsy with febrile seizures plus (GEFS(+)) to severe myoclonic epilepsy in infancy (SMEI), and rare cases of familial migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "familial migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the NaV1.1 neuronal sodium channel alpha-subunit (SCN1A) gene have been documented in a spectrum of epilepsy syndromes, ranging from the relatively benign generalized epilepsy with febrile seizures plus (GEFS(+)) to severe myoclonic epilepsy in infancy (SMEI), and rare cases of familial migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "missense mutations being the most common in GEFS(+)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "SCN1A deletions, amplifications, and duplications in patients with SMEI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microchromosomal abnormalities including SCN1A deletions, amplifications, and duplications are also found in patients with SMEI.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "majority of SCN1A mutations in SMEI arise de novo",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The majority of SCN1A mutations in SMEI arise de novo.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "no consistent relationship between changes to channel properties and clinical phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional studies so far show no consistent relationship between changes to channel properties and clinical phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

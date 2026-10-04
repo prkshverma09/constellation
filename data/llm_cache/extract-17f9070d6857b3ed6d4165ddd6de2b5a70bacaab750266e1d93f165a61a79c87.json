@@ -1,0 +1,36 @@
+{
+  "pmid": "41617776",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thirty-one DS-like patients(2.6%) harbored variants in nine genes: PCDH19 (9), GABRA1 (6), GABRB2 (4), GABRG2 (3), GABRB3 (1), HCN1 (3), SCN2A (1), TBC1D24 (2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This study confirms SCN1A as the predominant genetic cause of DS, while identifying nine additional genes (PCDH19, GABRA1, GABRB2, GABRG2, GABRB3, HCN1, SCN2A, TBC1D24, and ALDH7A1) associated with DS-like phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxcarbazepine exacerbated seizures in patients GABRG2, GABRB2 or GABRA1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "38326557",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "serine/threonine kinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 is a brain-enriched serine/threonine kinase",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "CDKL5 deficiency disorder (CDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with a profound developmental and epileptic encephalopathy called CDKL5 deficiency disorder (CDD).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "conditional Cdkl5 knockout mice in excitatory neurons, inhibitory neurons and astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated conditional Cdkl5 knockout mice in excitatory neurons, inhibitory neurons and astrocytes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "EB2 (substrate)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "phosphorylated EB2, a well-known substrate of CDKL5.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "EB2 pS222 presence in excitatory and inhibitory neurons but not astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 and EB2 pS222 were prominent in excitatory and inhibitory neurons but were not detected in astrocytes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "residual EB2 pS222 in Cdkl5 knockout brains and primary neurons (~15-20%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "approximately 15-20% of EB2 pS222 remained in Cdkl5 knockout brains and primary neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "presence of a compensating kinase modulated by NMDA and PP1/PP2A",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the remaining phosphorylation was modulated by NMDA and PP1/PP2A in neuronal CDKL5 knockout cultures, indicating the presence of a compensating kinase.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "CDKL2 and ICK phosphorylate EB2 S222",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL2 and ICK can phosphorylate EB2 S222 in HEK293T cells and in primary neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "CDKL2 phosphorylates CDKL5 substrates in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL2 phosphorylates CDKL5 substrates in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "CDKL2 could potentially replace CDKL5 functions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL2 could potentially replace CDKL5 functions in the brain",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

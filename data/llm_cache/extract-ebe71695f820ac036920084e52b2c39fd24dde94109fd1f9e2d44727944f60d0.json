@@ -1,0 +1,46 @@
+{
+  "pmid": "39212337",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1aA1783V/WT mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We evaluated the efficacy of add-on therapies stiripentol, cannabidiol, lorcaserin, or fenfluramine added to clobazam and sodium valproate against hyperthermia-induced seizures in Scn1aA1783V/WT mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1aWT/WT mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In Scn1aWT/WT mice, brain clobazam and N-desmethyl clobazam concentrations were higher in the triple-drug combinations than in the clobazam monotherapy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "stiripentol + clobazam + sodium valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Higher doses of stiripentol or cannabidiol, in combination with clobazam and sodium valproate, were effective against hyperthermia-induced seizures in Scn1aA1783V/WT mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol + clobazam + sodium valproate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Higher doses of stiripentol or cannabidiol, in combination with clobazam and sodium valproate, were effective against hyperthermia-induced seizures in Scn1aA1783V/WT mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

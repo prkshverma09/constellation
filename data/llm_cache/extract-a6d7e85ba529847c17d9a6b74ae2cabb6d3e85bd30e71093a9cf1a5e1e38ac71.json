@@ -1,0 +1,26 @@
+{
+  "pmid": "41244709",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe pharmaco-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in CDKL5, DNM1, KCNT1, SCN1A, SCN2A, SCN8A, and UBA5 genes, which present severe pharmaco-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "RNA molecules",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in CDKL5, DNM1, KCNT1, SCN1A, SCN2A, SCN8A, and UBA5 genes, which present severe pharmaco-resistant epilepsy, are increasingly becoming targets for RNA molecules that aim to restore neuronal excitability and network function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

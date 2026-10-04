@@ -1,0 +1,26 @@
+{
+  "pmid": "37349285",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syntabulin mainly translocated syntaxin 1B (STX1B) rather than syntaxin 1A (STX1A) to the presynaptic membrane, which resulted in increased presynaptic transmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_membrane_localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syntabulin mainly translocated syntaxin 1B (STX1B) rather than syntaxin 1A (STX1A) to the presynaptic membrane",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

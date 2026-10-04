@@ -1,0 +1,46 @@
+{
+  "pmid": "39409097",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset seizures occurring more than ten times daily in extreme cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset seizures occurring more than ten times daily in extreme cases",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Existing antiseizure drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Existing antiseizure drugs frequently prove ineffective",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "patient-derived iPSC neurons and brain organoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patient-derived iPSC neurons and brain organoids",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "CBD, THC, and other trace cannabinoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the potential of CBD, THC, and other trace cannabinoids in treating CDD",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

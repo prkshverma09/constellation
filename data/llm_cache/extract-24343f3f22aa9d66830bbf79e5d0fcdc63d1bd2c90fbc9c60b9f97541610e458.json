@@ -1,0 +1,76 @@
+{
+  "pmid": "31904126",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "benign (self-limited) neonatal and infantile epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign (self-limited) neonatal and infantile epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "more severe developmental and epileptic encephalopathies also presenting in early infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more severe developmental and epileptic encephalopathies also presenting in early infancy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism and intellectual disability without epilepsy or with rare seizures in later childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism and intellectual disability without epilepsy or with rare seizures in later childhood",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "the movement disorders chorea and episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the movement disorders chorea and episodic ataxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Some missense, gain of function variants tend to present in early infancy with epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas other missense or truncating, loss of function variants present with later-onset epilepsies or intellectual disability only.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "Sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers may be effective antiepileptic medications in gain of function, neonatal and infantile presentations.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

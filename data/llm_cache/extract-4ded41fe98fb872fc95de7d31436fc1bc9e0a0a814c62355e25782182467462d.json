@@ -1,0 +1,16 @@
+{
+  "pmid": "40290421",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and good efficacy was also associated with DEPDC5, GLDC, KCNT1, PDHA1, SLC25A12 and TSC1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

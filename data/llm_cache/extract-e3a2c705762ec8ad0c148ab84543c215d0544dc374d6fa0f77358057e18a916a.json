@@ -1,0 +1,66 @@
+{
+  "pmid": "35940594",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine therapy resulted in ≥50% seizure reduction in 20 patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Records of 80 patients with 33 KCNT1 mutations were analysed, of which 20 patients had gained ≥50% seizure reduction due to quinidine therapy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "variable response to quinidine among patients with the same mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "quinidine therapy often had different effects on patients with the same KCNT1 mutation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "age, genotypes, seizure types and brain MRI did not significantly influence quinidine effect",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Age, genotypes of KCNT1 mutations, seizure types and brain MRI did not significantly influence the therapeutic effect of quinidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "prolonged QTc is the most common adverse event with quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prolonged QTc was the most common among all adverse events with quinidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "in vitro quinidine tests did not correspond with in vivo tests",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, results of in vitro quinidine tests did not correspond with in vivo tests.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "molecular insensitivity predicts clinical inefficacy for the same mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Insensitivity to quinidine by a certain Kcnt1 genotype in molecular tests is predictive of its inefficacy in human populations of the respective mutation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

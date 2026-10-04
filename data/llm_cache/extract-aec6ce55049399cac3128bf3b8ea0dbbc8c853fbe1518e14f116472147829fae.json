@@ -1,0 +1,126 @@
+{
+  "pmid": "40570274",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional assessments of the missense variants revealed that 9 caused LoF and 3 caused gain-of-function (GoF).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional assessments of the missense variants revealed that 9 caused LoF and 3 caused gain-of-function (GoF).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Based on functional analysis and electroclinical data, 37 affected individuals were categorized into 3 groups: null LoF, missense LoF, and GoF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "mild phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Null variants are associated with a mild phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "intermediate phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "missense LoF variants with an intermediate phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "severe phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GoF variants can lead to severe phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 12 individuals with missense LoF variants suffered from epilepsy with a median onset of 15 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "5 of 6 individuals with GoF variants had DEE characterized by early infancy onset at 2 months and severe/profound DD/ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "early infancy onset at 2 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "5 of 6 individuals with GoF variants had DEE characterized by early infancy onset at 2 months and severe/profound DD/ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "severe/profound DD/ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "5 of 6 individuals with GoF variants had DEE characterized by early infancy onset at 2 months and severe/profound DD/ID.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among 19 individuals with null variants, epilepsy was diagnosed in 13, with a median onset of 14 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The remaining 6 of 19 only had febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

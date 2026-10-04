@@ -1,0 +1,36 @@
+{
+  "pmid": "34852372",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 gene variants have been associated with a phenotypic spectrum having epilepsy as the main clinical manifestation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "permanent and paroxysmal movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 gene variants are associated with various clinical features, and increasing data confirms the association with permanent and paroxysmal movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Alternating Hemiplegia of Childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Noteworthy, the patient fulfills all the diagnostic criteria for AHC. An epilepsy gene panel revealed a novel TBC1D24 mutation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

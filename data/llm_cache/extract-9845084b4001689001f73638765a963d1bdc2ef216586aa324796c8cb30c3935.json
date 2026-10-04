@@ -1,0 +1,116 @@
+{
+  "pmid": "37248033",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in the dynamin-1 (DNM1) gene typically cause synaptopathy, leading to developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "severe-to-profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe-to-profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "milder cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "milder cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "novel variant (p.M648R)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "febrile status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "febrile status epilepticus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with GTPase or middle domain variants had more severe intellectual disability (p<0.001) and lower functional levels of ambulation (p=0.001) or speech and language (p<0.001) than the rest.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "ambulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with GTPase or middle domain variants had more severe intellectual disability (p<0.001) and lower functional levels of ambulation (p=0.001) or speech and language (p<0.001) than the rest.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "speech and language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those with GTPase or middle domain variants had more severe intellectual disability (p<0.001) and lower functional levels of ambulation (p=0.001) or speech and language (p<0.001) than the rest.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

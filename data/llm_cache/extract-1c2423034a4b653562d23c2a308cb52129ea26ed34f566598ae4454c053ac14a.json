@@ -1,0 +1,76 @@
+{
+  "pmid": "39575977",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "receptor for CES",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Affinity chromatography of U87MG tumor extracts on insolubilized CES peptide identified Synaptosomal Associated Protein 25 (SNAP25) as a candidate target molecule (receptor) for CES.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "colocalization with CES",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "IV-injected FAM-CES colocalized with SNAP25 in the tumors",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "specific binding to CES peptide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "direct binding studies showed specific binding of the CES peptide to recombinant human SNAP25.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "CES peptide-drug conjugate photodynamic therapy selective cytotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A CES peptide-drug conjugate designed for photodynamic therapy showed selective cytotoxicity to SNAP25+ glioblastoma cell lines.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "antibody accumulation in tumor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specific accumulation of systemically injected anti-SNAP25 antibody in U87MG glioblastoma",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "available from the circulation but not in normal tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SNAP25 is available from the circulation but not in normal tissues",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "cell surface localization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that it is present at the cell surface.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

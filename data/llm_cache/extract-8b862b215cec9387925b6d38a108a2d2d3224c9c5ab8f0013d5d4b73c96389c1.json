@@ -1,0 +1,16 @@
+{
+  "pmid": "35160058",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "pathogenic variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The group of KE consisted of patients with CACNA1S, CHD2, DEPDC5, KIF1A, PIGN, SCN1A, SCN8A, SLC2A1, SYNGAP1 pathogenic variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "35351989",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "murine model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "manipulation of many BD risk genes (e.g., ANK3, CACNA1C, CACNA1B, HOMER1, KCNB1, MCHR1, NCAN, SHANK2 etc.) resulted in altered murine behaviors",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1, MCHR1, NCAN, SHANK2 etc.) resulted in altered murine behaviors largely restoring BD clinical manifestations, including mania-like symptoms such as hyperactivity",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "anxiolytic-like behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1, MCHR1, NCAN, SHANK2 etc.) resulted in altered murine behaviors largely restoring BD clinical manifestations, including mania-like symptoms such as hyperactivity, anxiolytic-like behavior",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "antidepressant-like behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1, MCHR1, NCAN, SHANK2 etc.) resulted in altered murine behaviors largely restoring BD clinical manifestations, including mania-like symptoms such as hyperactivity, anxiolytic-like behavior, as well as antidepressant-like behavior",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

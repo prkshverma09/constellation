@@ -1,0 +1,76 @@
+{
+  "pmid": "35013317",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome is a severe epileptic encephalopathy caused primarily by haploinsufficiency of the SCN1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a conditional knock-in mouse model (Scn1a Stop/+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we generated a Scn1a conditional knock-in mouse model (Scn1a Stop/+) in which Scn1a expression can be re-activated on-demand during the mouse lifetime.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "seizures; sudden unexpected death in epilepsy (SUDEP); hyperactivity; social interaction deficits; cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a gene disruption leads to the development of seizures, often associated with sudden unexpected death in epilepsy (SUDEP) and behavioral alterations including hyperactivity, social interaction deficits and cognitive impairment starting from the second/third week of age.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Scn1a gene re-activation at P30",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a gene re-activation when symptoms were already manifested (P30) led to a complete rescue of both spontaneous and thermic inducible seizures, marked amelioration of behavioral abnormalities and normalization of hippocampal fast-spiking interneuron firing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "gene expression alterations including astrogliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also identified dramatic gene expression alterations, including those associated with astrogliosis in Dravet syndrome mice,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Scn1a gene expression normalization at P30",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that, accordingly, were rescued by Scn1a gene expression normalization at P30.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "regaining Nav1.1 physiological level in adult mice (P90)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regaining of Nav1.1 physiological level rescued seizures also in adult Dravet syndrome mice (P90) after months of repetitive attacks.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "27781027",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "similar phenotypes can be seen in patients with mutations in PCDH19, CHD2, SCN8A, or in rare cases GABRA1 and STXBP1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

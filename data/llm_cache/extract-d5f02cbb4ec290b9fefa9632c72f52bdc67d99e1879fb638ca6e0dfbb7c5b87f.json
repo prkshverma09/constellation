@@ -1,0 +1,16 @@
+{
+  "pmid": "30977854",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "childhood-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Exome sequencing analysis identified 4 genes: SMC1A, SETBP1, NR2F1, and TRIT1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

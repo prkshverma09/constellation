@@ -1,0 +1,26 @@
+{
+  "pmid": "38994030",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "binds circ-UBE2K to form a complex that upregulates UBE2K expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mechanistically, we found that circ-UBE2K binds to heterogeneous nuclear ribonucleoprotein U (HNRNPU) to form a complex that upregulates the expression of the parental gene ubiquitin conjugating enzyme E2 K (UBE2K), leading to abnormal microglial activation and neuroinflammation and promoting the occurrence and development of depression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "part of the circUBE2K/HNRNPU complex that is increased in microglia after external stress and mediates abnormal microglial activation and neuroinflammation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The findings of the present study revealed that the expression of circUBE2K, which combines with HNRNPU to form the circUBE2K/HNRNPU complex, is increased in microglia after external stress, thus regulating the expression of the parental gene UBE2K and mediating the abnormal activation of microglia to induce neuroinflammation, promoting the development of MDD.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

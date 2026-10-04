@@ -1,0 +1,16 @@
+{
+  "pmid": "41300846",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "transcriptional and RNA-processing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "transcriptional and RNA-processing genes (POLR1C, TCF4, HNRNPU, NIPBL, ACTG1)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

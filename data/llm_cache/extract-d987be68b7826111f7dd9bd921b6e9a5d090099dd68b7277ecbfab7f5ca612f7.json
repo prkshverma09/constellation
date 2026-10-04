@@ -1,0 +1,86 @@
+{
+  "pmid": "35697757",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified two rare missense variants in X-linked GRIA3 from male patients who showed syndromes featuring aggressive outbursts.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both G630R and E787G mutations in AMPA receptor GluA3 completely lost their ion channel functions.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "longer guanine repeats suppress transcription of GRIA3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a guanine-repeat single nucleotide polymorphism (SNP, rs3216834) located in the first intron of human GRIA3 gene was found to regulate GluA3 expression with longer guanine repeats (rs3216834-10G/-11G) suppressing transcription compared to the shorter ones (-7G/-8G/-9G).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "aggressive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the distribution of rs3216834-10G/-11G was elevated in a male violent criminal sample from Chinese Han population.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "GluA3 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using GluA3 knockout mice, we showed that the excitatory neurotransmission and neuronal activity in the medial prefrontal cortex (mPFC) was impaired.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "impaired excitatory neurotransmission and neuronal activity in mPFC",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using GluA3 knockout mice, we showed that the excitatory neurotransmission and neuronal activity in the medial prefrontal cortex (mPFC) was impaired.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "GluA3 expression in mPFC alleviates aggressive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expressing GluA3 back into the mPFC alleviated the aggressive behavior of GluA3 knockout mice,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "aggressive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysfunction of AMPA receptor GluA3 promotes aggressive behavior.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

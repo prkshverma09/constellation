@@ -1,0 +1,116 @@
+{
+  "pmid": "25411445",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive spinocerebellar ataxia type 12",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous mutations in WWOX were reported in eight individuals of two families with autosomal recessive spinocerebellar ataxia type 12",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic encephalopathy (IEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we identified five further patients from four families with IEE due to biallelic alterations of WWOX",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one missense",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two predicted null alleles",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "little if any psychomotor acquisitions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "little if any psychomotor acquisitions",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "poor spontaneous motility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "poor spontaneous motility",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "absent eye contact from birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "absent eye contact from birth",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "pharmacoresistant epilepsy starting in the 1st weeks of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pharmacoresistant epilepsy starting in the 1st weeks of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "possible retinal degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "possible retinal degeneration",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "acquired microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "acquired microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "premature death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "premature death",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

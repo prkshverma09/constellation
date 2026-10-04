@@ -1,0 +1,36 @@
+{
+  "pmid": "40763259",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "GluN2B subunit of NMDARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B gene, which encodes the GluN2B subunit of NMDARs,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Specifically, mutations V15M and V618G in the GRIN2B gene, which encodes the GluN2B subunit of NMDARs, are implicated in the pathogenesis of GRIN2B-related neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR-BK complex formation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together, our results demonstrate that mutation V618G specifically disrupts NMDAR-BK complex formation, impairing functional coupling, in spite of robust individual channel expression in the membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

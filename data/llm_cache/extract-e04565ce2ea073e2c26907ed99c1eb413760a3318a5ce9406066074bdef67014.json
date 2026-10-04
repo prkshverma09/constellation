@@ -1,0 +1,116 @@
+{
+  "pmid": "36138431",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "structural and functional similarity to human GluN2B",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We demonstrate that zebrafish GluN2B displays similar structural and functional properties to human GluN2B.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "zebrafish lacking GluN2B (grin2B-/-)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "zebrafish lacking GluN2B (grin2B-/-) surprisingly survive into adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "significantly reduced social preference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "grin2B-/- fish at this age exhibit significantly reduced social preference.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "no alterations in spontaneous or photic-evoked movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "grin2B-/- larvae do not show alterations in spontaneous or photic-evoked movements",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "capable of prey capture",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are capable of prey capture",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "exhibit learning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit learning",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "reduction of an inhibitory neuron marker in the subpallium",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Whole-brain imaging of grin2B-/- larvae revealed reduction of an inhibitory neuron marker in the subpallium",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "overall brain size and E/I balance comparable to wild type",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "overall brain size and E/I balance in grin2B-/- is comparable to wild type.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are unlikely to model nuanced functional alterations of human missense mutations that are not complete loss of function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "GluN2B knockout in rodents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "knockouts of GluN2B in rodents are lethal.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "glutamate-gated ion channel with key synaptic functions in excitatory neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NMDARs are glutamate-gated ion channels with key synaptic functions in excitatory neurotransmission.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

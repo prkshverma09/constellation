@@ -1,0 +1,86 @@
+{
+  "pmid": "36747751",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental defects and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutation of the GABRA1 gene is associated with neurodevelopmental defects and epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "α1 subunit of the GABAAR; regulates fast inhibitory impulses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 encodes for the α1 subunit of the gamma-aminobutyric acid type A receptor (GABAAR), which regulates the fast inhibitory impulses of the nervous system.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "zebrafish gabra1 (sa43718 allele) nonsense mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a nonsense mutation of the zebrafish gabra1 (sa43718 allele) gene.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data support previous studies performed in a zebrafish nonsense allele created by CRISPR/Cas9 and validate that loss of function mutations in the gabra1 gene result in seizure like phenotypes with abnormal function of inhibitory synapses.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "light induced hypermotility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The sa43718 allele causes a decrease in gabra1 mRNA expression, which is associated with light induced hypermotility, one phenotype associated with seizure like behavior in zebrafish.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "decreased expression of gabra2, gabra3, and gabra5",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutation of gabra1 was accompanied by decreased mRNA expression of gabra2, gabra3, and gabra5, indicating a reduction in the expression of additional alpha sub-units of the GABAAR.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "residual GABAAR exists in the sa43718 allele",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "larvae continued to respond to pentylenetetrazole (PTZ) indicating that a residual GABAAR exists in the sa43718 allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "abnormal expression of proteins regulating proton transport, ion homeostasis, vesicle transport, and mitochondrial protein complexes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteomics analysis demonstrated that nonsense mutation of gabra1 is associated with abnormal expression of proteins that regulate proton transport, ion homeostasis, vesicle transport, and mitochondrial protein complexes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

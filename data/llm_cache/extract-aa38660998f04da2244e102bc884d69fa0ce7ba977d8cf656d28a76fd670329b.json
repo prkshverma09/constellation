@@ -1,0 +1,16 @@
+{
+  "pmid": "28362824",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "pure spastic paraplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both presenting with a pure spastic paraplegia phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

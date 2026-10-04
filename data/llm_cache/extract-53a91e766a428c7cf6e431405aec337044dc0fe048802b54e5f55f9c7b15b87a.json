@@ -1,0 +1,16 @@
+{
+  "pmid": "39048885",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ATX/HSP-KCNA2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ATX-ITPR1, ATX/HSP-KCNA2, and ATX-PRKCG (9.5% each) predominated.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36575936",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "brain tissue-specificity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the brain showed higher tissue-specificity of ion channel genes, including Gabrd, Gabra6, Gabrg2, Grin2a, and Grin2b.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

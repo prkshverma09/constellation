@@ -1,0 +1,36 @@
+{
+  "pmid": "41714804",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "binding with STXBP1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduces the binding with syntaxin-1B(STX1B)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to a decreased assembly of soluble NSF attachment protein receptors (SNAREs) in presynaptic active zone",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and subsequent inhibition vesicle release",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

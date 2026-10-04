@@ -1,0 +1,16 @@
+{
+  "pmid": "24779060",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "AS-like syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They also include disorders due to mutations in HERC2, adenylosuccinase lyase (ADSL), CDKL5, FOXG1, MECP2 (duplications), MEF2C, and ATRX.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

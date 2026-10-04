@@ -1,0 +1,66 @@
+{
+  "pmid": "30431232",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 is considered one of the most clinically relevant genes in epilepsy, second only to SCN1A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is characterized by early onset epilepsy, intellectual disabilities, and behavioral disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is characterized by early onset epilepsy, intellectual disabilities, and behavioral disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "behavioral disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is characterized by early onset epilepsy, intellectual disabilities, and behavioral disturbances.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy-9 (EIEE9)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-female epilepsy (also known as early infantile epileptic encephalopathy-9, EIEE9),",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "extracellular and intracellular roles in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 extracellular and intracellular roles in neurons.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

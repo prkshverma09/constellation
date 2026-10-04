@@ -1,0 +1,16 @@
+{
+  "pmid": "36125228",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "downregulated",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and downregulated Dpysl3, Sst, Fos, Mapk1, Mapk3, Grin2a, Grin2b, Bdnf, and Ntrk2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

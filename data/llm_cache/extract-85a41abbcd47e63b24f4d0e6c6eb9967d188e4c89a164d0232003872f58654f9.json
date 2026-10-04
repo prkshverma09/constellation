@@ -1,0 +1,46 @@
+{
+  "pmid": "37008993",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "EA2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EA1 and EA2 are most frequently encountered, caused by mutations in KCNA1 and CACNA1A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "broadened phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Advances in genetic testing have broadened the KCNA1 and CACNA1A phenotypes, and detected EA as an unusual presentation of several other genetic disorders.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "other paroxysmal disorders of childhood with chronic neuropsychiatric features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EA2 may be accompanied by other paroxysmal disorders of childhood with chronic neuropsychiatric features.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "therapy",
+      "object_text": "dalfampridine; fampridine; 4-aminopyridine; acetazolamide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "New treatments for EA2 include dalfampridine and fampridine, in addition to 4-aminopyridine and acetazolamide.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

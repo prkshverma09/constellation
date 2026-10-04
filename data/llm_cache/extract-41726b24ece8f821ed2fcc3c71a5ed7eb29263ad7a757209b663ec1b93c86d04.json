@@ -1,0 +1,156 @@
+{
+  "pmid": "29365063",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found de novo heterozygous missense GRIN1 mutations in 2 of 57 parent-offspring trios with polymicrogyria.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found nine further de novo missense GRIN1 mutations in additional cortical malformation patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "extensive bilateral polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "extensive bilateral polymicrogyria",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postnatal microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN1, the essential subunit of the N-methyl-d-aspartate receptor.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1 encodes GluN1, the essential subunit of the N-methyl-d-aspartate receptor.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "S2 region or M3 helix",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The polymicrogyria-associated GRIN1 mutations tended to cluster in the S2 region (part of the ligand-binding domain of GluN1) or the adjacent M3 helix.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "These regions are rarely mutated in the normal population or in GRIN1 patients without polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These regions are rarely mutated in the normal population or in GRIN1 patients without polymicrogyria.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "alter the in vitro activity of the receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using two-electrode and whole-cell voltage-clamp analysis, we showed that the polymicrogyria-associated GRIN1 mutations significantly alter the in vitro activity of the receptor.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three of the mutations increased agonist potency",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one reduced proton inhibition of the receptor.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "previous GRIN1 mutations have generally caused loss of function",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "N-methyl-d-aspartate receptor signalling in the pathogenesis of polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlight the important role of N-methyl-d-aspartate receptor signalling in the pathogenesis of polymicrogyria.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

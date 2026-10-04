@@ -1,0 +1,96 @@
+{
+  "pmid": "34386584",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "clinically severe neurodevelopmental phenotype, including severe delays or intractable epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To date, all reports of pathogenic variants affecting the GTPase domain of the DNM1 gene have a clinically severe neurodevelopmental phenotype, including severe delays or intractable epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the trio gene panel identified a de novo heterozygous pathogenic missense variant in the DNM1 GTPase domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "moderate developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We describe a case with moderate developmental delays and self-resolved epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "self-resolved epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We describe a case with moderate developmental delays and self-resolved epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She also had hypotonia, mild dysmorphic features, and mild ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "mild dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She also had hypotonia, mild dysmorphic features, and mild ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "mild ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "She also had hypotonia, mild dysmorphic features, and mild ataxia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "seizures at 2 days old",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our patient presented with seizures at 2 days old, requiring phenobarbital.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free for 3 years without ongoing treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Now 4 years old, she has been seizure-free for 3 years without ongoing treatment and has nonsevere developmental delays (e.g., ambulates independently and speaks 2-word phrases).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

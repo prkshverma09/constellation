@@ -1,0 +1,36 @@
+{
+  "pmid": "35718920",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "more severe phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the location of variants on the transmembrane (TM) segment was associated with a more severe phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "milder phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "N-terminal variants seemed to be related to milder phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "no specific phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "None of the genes described here was associated with a specific phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

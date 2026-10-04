@@ -1,0 +1,186 @@
+{
+  "pmid": "40906262",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "P/Q-type (CaV2.1) Ca2+ channels regulate the release of neurotransmitter at central synapses.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "encodes the principal α1A subunit of the CaV2.1 channel complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A, the gene that encodes the principal α1A subunit of the CaV2.1 channel complex",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "Episodic Ataxia type 2 (EA2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are well-known to cause Episodic Ataxia type 2 (EA2) and Familial Hemiplegic Migraine type 1 (FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "Familial Hemiplegic Migraine type 1 (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are well-known to cause Episodic Ataxia type 2 (EA2) and Familial Hemiplegic Migraine type 1 (FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense and nonsense mutations in CACNA1A, the gene that encodes the principal α1A subunit of the CaV2.1 channel complex, are well-known to cause Episodic Ataxia type 2 (EA2) and Familial Hemiplegic Migraine type 1 (FHM1). These CaV2.1 channelopathies are typically caused by either channel loss/reduction-of-function (LOF) or gain-of-function (GOF), respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense and nonsense mutations in CACNA1A, the gene that encodes the principal α1A subunit of the CaV2.1 channel complex, are well-known to cause Episodic Ataxia type 2 (EA2) and Familial Hemiplegic Migraine type 1 (FHM1). These CaV2.1 channelopathies are typically caused by either channel loss/reduction-of-function (LOF) or gain-of-function (GOF), respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "tremor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "nystagmus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "cognitive deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent genome-wide sequencing has revealed that point mutations in CaV2.1, in fact, underlie a spectrum of neurological disorders that feature epilepsy, tremor, nystagmus, hypotonia, cerebellar atrophy, cognitive deficits, and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "HEK 293 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we expressed the rat orthologues of one newly identified and one previously reported, but yet to be characterized, human CaV2.1 variants (V176M and R1673C, respectively) in HEK 293 cells and investigated their biophysical properties using patch-clamp electrophysiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "V178M displayed a ~10 mV hyperpolarizing shift in activation and slowed deactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "V178M displayed a ~10 mV hyperpolarizing shift in activation and slowed deactivation,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "R1624C slowed channel activation kinetics, delayed closure, and accelerated recovery from inactivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "R1624C slowed channel activation kinetics, delayed closure, and accelerated recovery from inactivation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "structural alterations that may account for the observed changes in channel gating",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Molecular modeling revealed structural alterations that may account for the observed changes in channel gating.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "V176M and R1673C likely cause human CaV2.1 channelopathies through multiple, distinct mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together, our results indicate that V176M and R1673C likely cause human CaV2.1 channelopathies through multiple, distinct mechanisms.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

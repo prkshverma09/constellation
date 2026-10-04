@@ -31,6 +31,7 @@ ALLOWED_SOURCES = {
     "ctgov",
     "go",
     "monarch",
+    "openai_web_search",
     "pubmed",
     "reactome",
     "reporter",

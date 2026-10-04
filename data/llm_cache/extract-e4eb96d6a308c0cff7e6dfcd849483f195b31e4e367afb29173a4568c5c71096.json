@@ -1,0 +1,26 @@
+{
+  "pmid": "40943684",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "most frequently implicated gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 was the most frequently implicated gene, followed by SLC2A1 and ADCY5.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "Sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sodium channel blockers are effective in a subset of genetically defined PD, particularly PRRT2-positive cases.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

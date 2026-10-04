@@ -1,0 +1,16 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "convulsive status epilepticus (CSE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSE was also notable in patients with pathogenic variants in KCNT1 (6/10; 60%; 95% CI 26-88)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

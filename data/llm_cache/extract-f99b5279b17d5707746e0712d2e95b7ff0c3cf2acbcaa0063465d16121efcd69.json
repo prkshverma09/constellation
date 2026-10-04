@@ -1,0 +1,96 @@
+{
+  "pmid": "41391149",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss-of-function variants in the X-linked gene MeCP2 cause a severe form of syndromic autism spectrum disorder known as Rett syndrome (RTT).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "prenatal brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increasing evidence suggests that MeCP2 plays a crucial role during prenatal brain development.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "human pluripotent stem cell-derived cerebral organoids and human telencephalic assembloids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human pluripotent stem cell-derived cerebral organoids and human telencephalic assembloids",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "widespread dysregulation of transcriptional programs associated with cortical excitatory neuron development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MeCP2 led to widespread dysregulation of transcriptional programs associated with cortical excitatory neuron development",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "delayed morphological and functional maturation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed morphological and functional maturation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "preserved neuroepithelial architecture, dorsal telencephalic identity, and laminar organization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "preserved neuroepithelial architecture, dorsal telencephalic identity, and laminar organization",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "overproduction of cortical interneurons (cINs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2 deficiency also led to an overproduction of cortical interneurons (cINs)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "hypermotile tangential migration dynamics of cINs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these cINs exhibiting hypermotile tangential migration dynamics",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "persistent hypersynchronous network activity in assembloids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "contributing to persistent hypersynchronous network activity in assembloids.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

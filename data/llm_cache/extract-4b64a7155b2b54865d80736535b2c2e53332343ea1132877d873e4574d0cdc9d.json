@@ -1,0 +1,26 @@
+{
+  "pmid": "41415504",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mendelian randomization suggested causal links for SNAP25 in AD",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "potential biomarker and therapeutic target",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "highlight SNAP25, EDA2R, TIMP4, and PVR as potential biomarkers and therapeutic targets",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

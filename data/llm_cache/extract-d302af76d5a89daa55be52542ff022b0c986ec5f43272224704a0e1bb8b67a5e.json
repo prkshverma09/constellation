@@ -1,0 +1,46 @@
+{
+  "pmid": "24014518",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "encodes a brain-expressed sodium channel subunit targeted by many anti-epileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes a brain-expressed sodium channel subunit targeted by many anti-epileptic drugs.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "mesial temporal lobe epilepsy with hippocampal sclerosis with febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Meta-analysis revealed a genome-wide significant association for mesial temporal lobe epilepsy with hippocampal sclerosis with febrile seizures at the sodium channel gene cluster on chromosome 2q24.3 [rs7587026, within an intron of the SCN1A gene, P = 3.36 × 10(-9), odds ratio (A) = 1.42, 95% confidence interval: 1.26-1.59].",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "rarer epilepsies featuring febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several rarer epilepsies featuring febrile seizures are caused by mutations in SCN1A",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "In a cohort of 172 individuals with febrile seizures, who did not develop epilepsy during prospective follow-up to age 13 years, and 6456 controls, no association was found for rs7587026 and febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

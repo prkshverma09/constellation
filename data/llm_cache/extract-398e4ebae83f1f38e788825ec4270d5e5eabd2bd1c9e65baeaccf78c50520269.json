@@ -1,0 +1,26 @@
+{
+  "pmid": "42227234",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SCN1A, SCN2A, SCN3A, SCN8A, and SCN1B have been associated with a spectrum of epilepsy and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SCN1A, SCN2A, SCN3A, SCN8A, and SCN1B have been associated with a spectrum of epilepsy and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

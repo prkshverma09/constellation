@@ -1,0 +1,106 @@
+{
+  "pmid": "22779007",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has been associated with early-onset epileptic encephalopathies characterized by the manifestation of intractable epilepsy within the first weeks of life, severe developmental delay, profound hypotonia, and often the presence of some Rett-syndrome-like features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy within the first weeks of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy within the first weeks of life",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "profound hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "Rett-syndrome-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some Rett-syndrome-like features",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "X-linked serine/threonine kinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "X-linked serine/threonine kinase cyclin-dependent kinase-like 5 (CDKL5)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "proper brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The association of CDKL5 with neurodevelopmental disorders and its high expression levels in the maturing brain underscore the importance of this kinase for proper brain development.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "neuronal morphology regulation via cytoplasmic signaling pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "regulating both neuronal morphology through cytoplasmic signaling pathways",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "activity-dependent gene expression in the nuclear compartment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "activity-dependent gene expression in the nuclear compartment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "neuronal plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we speculate that CDKL5 might play a role in neuronal plasticity",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

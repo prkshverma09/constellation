@@ -1,0 +1,106 @@
+{
+  "pmid": "32913944",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "glucose diffusion across tissue barriers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glucose diffusion across tissue barriers is facilitated by a family of proteins including glucose transporter type 1 (Glut1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "Glut1 deficiency syndrome (Glut1DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diagnosis is confirmed by the presence of these clinical signs, hypoglycorrhachia documented by lumbar puncture, and genetic analysis showing pathogenic SLC2A1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapies (KDT)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients are treated effectively with ketogenic diet therapies (KDT) that provide a supplemental fuel, namely ketone bodies, for brain energy metabolism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "interventions to restore Glut1 protein content and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ongoing research has identified future interventions to restore Glut1 protein content and function.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "eye-head movement abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key clinical features signaling the onset of Glut1DS are eye-head movement abnormalities, seizures, neurodevelopmental impairment, deceleration of head growth, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key clinical features signaling the onset of Glut1DS are eye-head movement abnormalities, seizures, neurodevelopmental impairment, deceleration of head growth, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key clinical features signaling the onset of Glut1DS are eye-head movement abnormalities, seizures, neurodevelopmental impairment, deceleration of head growth, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "deceleration of head growth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key clinical features signaling the onset of Glut1DS are eye-head movement abnormalities, seizures, neurodevelopmental impairment, deceleration of head growth, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Key clinical features signaling the onset of Glut1DS are eye-head movement abnormalities, seizures, neurodevelopmental impairment, deceleration of head growth, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "impaired development of the brain microvasculature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Impaired development of the brain microvasculature is one such complication of delayed Glut1DS treatment in the postnatal period.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "41279390",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates synaptic strength and neuronal signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Synaptic Ras GTPase-activating protein (SynGAP) regulates synaptic strength and neuronal signaling, with essential roles in cortical development and synaptic plasticity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous loss-of-function variants in SYNGAP1 cause SYNGAP1-related intellectual disability (SRID), a severe neurodevelopmental disorder characterized by epilepsy, developmental delay, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 mutations often result in haploinsufficiency, providing a strong rationale for gene-targeted therapies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "SRID mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we developed a CRISPR-mediated transcriptional activation (CRISPRa) approach to upregulate the functional Syngap1 allele in a SRID mouse model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "CRISPR-mediated transcriptional activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPRa activated Syngap1, normalized SynGAP protein expression and downstream signaling, and rescued working memory deficits.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "hiPSC-derived excitatory cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We validated the translational potential of this strategy in human induced pluripotent stem cell (hiPSC)-derived excitatory cortical neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "CRISPRa rescue in loss-of-function variant lines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPRa rescued SYNGAP1 in two distinct loss-of-function variant lines.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, developmental delay, and autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a severe neurodevelopmental disorder characterized by epilepsy, developmental delay, and autism.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "genetic developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We included patients with a pathogenic variant in the genes SCN1A, SCN2A, SCN8A, SYNGAP1, NEXMIF, CHD2, PCDH19, STXBP1, GRIN2A, KCNT1, and KCNQ2 and with Angelman syndrome (AS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "SUDEP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes were associated with SUDEP: SCN1A, SCN2A, SCN8A, and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

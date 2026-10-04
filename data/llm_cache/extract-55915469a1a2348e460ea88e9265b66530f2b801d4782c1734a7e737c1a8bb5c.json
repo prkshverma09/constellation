@@ -1,0 +1,106 @@
+{
+  "pmid": "20118933",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "early-onset, intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset, intractable seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe neurological disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "that result in severe neurological disease",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "more moderate symptoms (splicing mutation)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a splicing mutation is associated with more moderate symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "sensitivity to radiation and other DNA-damaging agents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the cells of individuals carrying this mutation are sensitive to radiation and other DNA-damaging agents",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cancer",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no such individual has yet developed cancer or immunodeficiency.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "immunodeficiency",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "no such individual has yet developed cancer or immunodeficiency.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP mutations universally cause severe seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "role for PNKP in several DNA repair pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may reflect a role for PNKP in several DNA repair pathways.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

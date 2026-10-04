@@ -1,0 +1,16 @@
+{
+  "pmid": "41854785",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "THP-1 pro-monocytic cells and human blood dendritic cell subsets (pDC, cDC1, cDC2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We measured low but reproducible expression of GRIA3 in THP-1 pro-monocytic cells and human blood dendritic cell subsets (pDC, cDC1, cDC2).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

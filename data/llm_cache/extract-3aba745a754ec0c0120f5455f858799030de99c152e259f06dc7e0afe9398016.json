@@ -1,0 +1,36 @@
+{
+  "pmid": "33468657",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "component of the transcription-coupled repair complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "includes the DNA damage end processing enzyme polynucleotide kinase-phosphatase (PNKP)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "SUMOylation (PIAS1 is a SUMO E3 ligase for PNKP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PIAS1 is a SUMO E3 ligase for PNKP",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "enzymatic activity restored by Pias1 knockdown",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KD also restored mutant HTT-perturbed enzymatic activity of PNKP",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

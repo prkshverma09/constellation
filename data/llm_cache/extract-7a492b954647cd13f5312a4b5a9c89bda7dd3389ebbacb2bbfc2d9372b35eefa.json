@@ -1,0 +1,86 @@
+{
+  "pmid": "25194483",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "human epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations or genetic variations of the genes encoding the α1, α6, β2, β3, γ2, or δ subunits (GABRA1, GABRA6, GABRB2, GABRB3, GABRG2, and GABRD, respectively) have been associated with human epilepsy, both with and without febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations or genetic variations of the genes encoding the α1, α6, β2, β3, γ2, or δ subunits (GABRA1, GABRA6, GABRB2, GABRB3, GABRG2, and GABRD, respectively) have been associated with human epilepsy, both with and without febrile seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "pentamers containing α, β, and either γ or δ subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAA receptors function mainly as pentamers containing α, β, and either γ or δ subunits.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "compromise hyperpolarization through GABAA receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutations compromise hyperpolarization through GABAA receptors, which is believed to cause seizures.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "endoplasmic reticulum (ER)-associated degradation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including endoplasmic reticulum (ER)-associated degradation, nonsense-mediated mRNA decay, intracellular trafficking defects, and ER stress.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "nonsense-mediated mRNA decay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including endoplasmic reticulum (ER)-associated degradation, nonsense-mediated mRNA decay, intracellular trafficking defects, and ER stress.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "intracellular trafficking defects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including endoplasmic reticulum (ER)-associated degradation, nonsense-mediated mRNA decay, intracellular trafficking defects, and ER stress.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "ER stress",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including endoplasmic reticulum (ER)-associated degradation, nonsense-mediated mRNA decay, intracellular trafficking defects, and ER stress.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,146 @@
+{
+  "pmid": "35359574",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "to predict the effect of GABRG2 missense variants using PyMOL 2.3 software.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset ranged from 2 days after birth to 34 months (median 9 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset age was ranged from 2 days after birth to 34 months (median age: 9 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset <1 year in 22/35 patients (62.9%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure onset age was less than 1 year old in 22 patients (22/35, 62.9%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures; generalized tonic-clonic seizures; myoclonic seizures; absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included focal seizures (68.6%), generalized tonic-clonic seizures (60%), myoclonic seizures (14.3%), and absence seizures (11.4%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "fever-sensitive seizures (91.4%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "fever-sensitive seizures (91.4%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "cluster seizures (57.1%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cluster seizures (57.1%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay (45.7%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay (45.7%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "neuroimaging abnormalities including dysplasia of the frontotemporal cortex and delayed myelination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuroimaging was abnormal in 2 patients, including dysplasia of the frontotemporal cortex and delayed myelination of white matter.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "diagnoses included febrile seizures plus; epilepsy and developmental delay; Dravet syndrome; developmental and epileptic encephalopathy; focal epilepsy; febrile seizures; unclassified epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twelve patients were diagnosed with febrile seizures plus, eleven with epilepsy and developmental delay, two with Dravet syndrome, two with developmental and epileptic encephalopathy, two with focal epilepsy, two with febrile seizures, and four with unclassified epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay more frequent with transmembrane-region missense variants (63.2%) than extracellular-region (40%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The proportions of patients with missense variants in the extracellular region and the transmembrane region exhibiting developmental delay were 40% and 63.2%, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizures controlled in 71.4% of patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were controlled in 71.4% of patients,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "valproate and levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate and levetiracetam were effective treatments for most patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "phenotypes ranged from mild febrile seizures to severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypes of GABRG2-related epilepsy were ranged from mild febrile seizures to severe epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "most patients with GABRG2 variants who experienced seizures had a good prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients with GABRG2 variants who experienced seizures had a good prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

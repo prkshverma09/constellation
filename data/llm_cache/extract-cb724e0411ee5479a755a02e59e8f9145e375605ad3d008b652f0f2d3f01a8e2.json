@@ -1,0 +1,56 @@
+{
+  "pmid": "36063335",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "microtubule (MT) plus-end-directed motor protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A is a neuron-specific member of the kinesin-3 family of microtubule (MT) plus-end-directed motor proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "migration of nuclei in differentiating brain stem cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "powers the migration of nuclei in differentiating brain stem cells",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the transport of synaptic precursors and dense core vesicles in axons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "KIF1A-associated neurological disorders (KAND)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Its dysfunction causes severe neurodevelopmental and neurodegenerative diseases termed KIF1A-associated neurological disorders (KAND).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "tail-truncated dimeric KIF1A expressed in E. coli and studied by single-molecule TIRF and optical tweezers assays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "express a tail-truncated dimeric KIF1A in E. coli cells and provide step-by-step protocols for performing single-molecule studies with total internal reflection fluorescence microscopy and optical tweezers assays",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

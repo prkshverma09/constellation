@@ -1,0 +1,26 @@
+{
+  "pmid": "28865303",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "GABAergic signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the review will focus on the mutations that impair GABAergic signaling and selectively discuss the newly identified STXBP1, PRRT2, and DNM1",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "pre-synaptic mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Some mutations, such as STXBP1, PRRT2, DNM1, and SCN1A, impair GABAergic signaling mainly via pre-synaptic mechanisms",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

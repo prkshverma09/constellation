@@ -1,0 +1,106 @@
+{
+  "pmid": "36958475",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pleiotropic paroxysmal syndromes, including epilepsy, kinesigenic dyskinesia, episodic ataxia, and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "kinesigenic dyskinesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pleiotropic paroxysmal syndromes, including epilepsy, kinesigenic dyskinesia, episodic ataxia, and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pleiotropic paroxysmal syndromes, including epilepsy, kinesigenic dyskinesia, episodic ataxia, and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pleiotropic paroxysmal syndromes, including epilepsy, kinesigenic dyskinesia, episodic ataxia, and migraine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "neuron-specific type-2 membrane protein with a COOH-terminal intramembrane domain and a long proline-rich NH2-terminal cytoplasmic region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PRRT2 is a neuron-specific type-2 membrane protein with a COOH-terminal intramembrane domain and a long proline-rich NH2-terminal cytoplasmic region.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "negatively controls intrinsic excitability by regulating surface membrane localization and biophysical properties of voltage-dependent Na+ channels Nav1.2 and Nav1.6, but not Nav1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A large array of experimental data indicates that PRRT2 is a neuron stability gene that negatively controls intrinsic excitability by regulating surface membrane localization and biophysical properties of voltage-dependent Na+ channels Nav1.2 and Nav1.6, but not Nav1.1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "model",
+      "object_text": "molecular dynamics simulations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we studied the structural features of this membrane protein with molecular dynamics simulations",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "NH2-terminal cytoplasmic region binds Nav1.2 better than the isolated COOH-terminal intramembrane domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The unstructured NH2-terminal cytoplasmic region bound to the Nav1.2 better than the isolated COOH-terminal intramembrane domain, mimicking full-length PRRT2",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "COOH-terminal intramembrane domain modulates Na+ current and channel biophysical properties with specificity for Nav1.2 versus Nav1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the COOH-terminal intramembrane domain was able to modulate Na+ current and channel biophysical properties, still maintaining the striking specificity for Nav1.2 versus Nav1.1",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "dual-domain protein: NH2-terminal cytoplasmic region as binding antenna for Na+ channels; COOH-terminal membrane domain regulates channel exposure and biophysical properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The results identify PRRT2 as a dual-domain protein in which the NH2-terminal cytoplasmic region acts as a binding antenna for Na+ channels, while the COOH-terminal membrane domain regulates channel exposure on the membrane and its biophysical properties.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

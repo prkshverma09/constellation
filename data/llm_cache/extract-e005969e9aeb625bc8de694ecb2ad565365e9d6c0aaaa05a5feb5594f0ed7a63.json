@@ -1,0 +1,106 @@
+{
+  "pmid": "35520951",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "broad phenotypic spectrum of epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in gamma-aminobutyric acid type A receptor subunit alpha1 (GABRA1) is a protein coding gene that has been associated with a broad phenotypic spectrum of epilepsies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "mild generalized forms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These have ranged from mild generalized forms to early-onset severe epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These have ranged from mild generalized forms to early-onset severe epileptic encephalopathies.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in mild and in severe forms, tonic-clonic and myoclonic seizures with generalized spike and wave discharges and photoparoxysmal responses are common clinical manifestations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in mild and in severe forms, tonic-clonic and myoclonic seizures with generalized spike and wave discharges and photoparoxysmal responses are common clinical manifestations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "generalized spike and wave discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in mild and in severe forms, tonic-clonic and myoclonic seizures with generalized spike and wave discharges and photoparoxysmal responses are common clinical manifestations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "photoparoxysmal responses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both in mild and in severe forms, tonic-clonic and myoclonic seizures with generalized spike and wave discharges and photoparoxysmal responses are common clinical manifestations.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "severe drug resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient showed severe drug resistance with seizures often triggered by photic stimulation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "seizures often triggered by photic stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient showed severe drug resistance with seizures often triggered by photic stimulation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "therapy",
+      "object_text": "perampanel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The introduction of perampanel therapy led to overall reduction of the focal and generalized myoclonic seizures and complete clinical control of the light-triggered seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

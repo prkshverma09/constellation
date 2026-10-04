@@ -1,0 +1,106 @@
+{
+  "pmid": "40704780",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR inhibitor involved in amino acid sensing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a mechanistic Target of Rapamycin (mTOR) inhibitor involved in amino acid sensing",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with neurological diseases such as epilepsy and/or autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with neurological diseases such as epilepsy and/or autism spectrum disorder (ASD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of DEPDC5 impacts early neuronal development via mTOR hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR hyperactivation, altered mTOR-associated gene expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We confirm that loss of DEPDC5 leads to hyperactivation of mTOR, paralleled by altered expression of mTOR-associated genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "rapamycin (RAPA) partially rescues phenotypes in animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Similarly, the mTOR inhibitor rapamycin (RAPA) only partially rescues phenotypes induced by loss of DEPDC5 in animal models, suggesting some pathological mechanisms independent of mTOR.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "rapamycin (RAPA) treatment partially attenuated effects (up to 33% of genes)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These effects were partially (up to 33% of genes) attenuated by RAPA treatment applying a clinically comparable concentration.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "synaptic pruning and early cortical development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genes not rescued in differentiated neurons were specifically associated with synaptic pruning and early cortical development.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "increased neuronal markers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The observed increase in neuronal markers was confirmed morphologically.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "rapamycin (RAPA) recovered increased differentiation but not morphological changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RAPA treatment recovered the increased differentiation but not the morphological changes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "42605264",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings further support the role of haploinsufficient genes within the distal 1q43q44 region, particularly AKT3, HNRNPU, and ZBTB18, to the core neurodevelopmental phenotype and highlight the value of high-resolution genomic analysis for patient characterization.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

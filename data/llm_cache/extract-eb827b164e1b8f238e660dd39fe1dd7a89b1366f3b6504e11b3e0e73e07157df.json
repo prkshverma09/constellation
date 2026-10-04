@@ -1,0 +1,116 @@
+{
+  "pmid": "27869163",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "radiation and cisplatin resistance of cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss of expression of the fragile site-encoded Wwox protein was found to contribute to radiation and cisplatin resistance of cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WWOX gene deletions occur in a variety of human cancer types, and reduced Wwox protein expression can be detected early during cancer development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX gene deletions occur in a variety of human cancer types, and reduced Wwox protein expression can be detected early during cancer development.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "mouse embryo fibroblast cells from Wwox-knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wwox loss is followed by mild chromosome instability in genomes of mouse embryo fibroblast cells from Wwox-knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "enhanced survival of ionizing radiation and bleomycin treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Human and mouse cells deficient for Wwox also exhibit significantly enhanced survival of ionizing radiation and bleomycin treatment, agents that induce double-strand breaks (DSBs).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "xenograft model of irradiated breast cancer cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cancer cells that survive radiation recur more rapidly in a xenograft model of irradiated breast cancer cells; Wwox-deficient cells exhibited significantly shorter tumor latencies vs Wwox-expressing cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "shorter overall survival times in a cohort of cancer patients treated with radiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a cohort of cancer patients treated with radiation, Wwox deficiency significantly correlated with shorter overall survival times.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "enhanced homology directed repair (HDR) and decreased non-homologous end-joining (NHEJ) repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wwox-deficient cells exhibit enhanced homology directed repair (HDR) and decreased non-homologous end-joining (NHEJ) repair, suggesting that Wwox contributes to DNA DSB repair pathway choice.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Rad51-dependent resensitization to radiation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Upon silencing of Rad51, a protein critical for HDR, Wwox-deficient cells were resensitized to radiation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "interaction with Brca1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also demonstrated interaction of Wwox with Brca1, a driver of HDR,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "suppresses DSB repair at the end-resection step of HDR",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wwox expression suppresses DSB repair at the end-resection step of HDR.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "genome caretaker function in which Brca1-Wwox interaction supports NHEJ as the dominant DSB repair pathway in Wwox-sufficient cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose a genome caretaker function for WWOX, in which Brca1-Wwox interaction supports NHEJ as the dominant DSB repair pathway in Wwox-sufficient cells.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

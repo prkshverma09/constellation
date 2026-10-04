@@ -1,0 +1,106 @@
+{
+  "pmid": "39595574",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "Slack channel KNa1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The potassium sodium-activated channel subtype T member 1 (KCNT1) gene encodes the Slack channel KNa1.1, which is expressed in neurons throughout the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function variants in KCNT1 are associated with a spectrum of epilepsy syndromes,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "spectrum of epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function variants in KCNT1 are associated with a spectrum of epilepsy syndromes,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "EIMFS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a human R474H variant that results in EIMFS.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "Kcnt1R455H/+ mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1R455H/+ mice, an animal model bearing a cytoplasmic C-terminal mutation homologous to a human R474H variant that results in EIMFS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "Kcnt1 knockout (KO) mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1 knockout (KO) mice, however, have a normal lifespan without any epileptic phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "increased expression of multiple proteins of the inner mitochondrial membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The greatest change observed in Kcnt1 KO mice compared to the wild-type mice was the increased expression of multiple proteins of the inner mitochondrial membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "increase in the density of mitochondrial cristae",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electron microscopy studies of cortical mitochondria from Kcnt1 KO mice further confirmed a significant increase in the density of mitochondrial cristae compared to that in wild-type mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "Kcnt1 reduction by a murine-specific Kcnt1 antisense oligonucleotide (ASO)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1 reduction by a murine-specific Kcnt1 antisense oligonucleotide (ASO) in Kcnt1R455H/+ mice partially corrected the proteomic dysregulations in the disease model.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ASO-mediated KCNT1 reduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The results support the hypothesis that ASO-mediated KCNT1 reduction could be therapeutically useful in the treatment of KCNT1 epilepsies.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

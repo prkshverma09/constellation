@@ -1474,5 +1474,285 @@
     "query": "eventsHierarchy/9606",
     "count": 18961,
     "retrieved_at": "2026-10-04"
+  },
+  "discover:STXBP1": {
+    "source": "OpenAI web search (validated)",
+    "query": "STXBP1",
+    "count": 4,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:DNM1": {
+    "source": "OpenAI web search (validated)",
+    "query": "DNM1",
+    "count": 5,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SNAP25": {
+    "source": "OpenAI web search (validated)",
+    "query": "SNAP25",
+    "count": 2,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:STX1B": {
+    "source": "OpenAI web search (validated)",
+    "query": "STX1B",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:VAMP2": {
+    "source": "OpenAI web search (validated)",
+    "query": "VAMP2",
+    "count": 3,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SYNGAP1": {
+    "source": "OpenAI web search (validated)",
+    "query": "SYNGAP1",
+    "count": 4,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GNAO1": {
+    "source": "OpenAI web search (validated)",
+    "query": "GNAO1",
+    "count": 4,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GABRG2": {
+    "source": "OpenAI web search (validated)",
+    "query": "GABRG2",
+    "count": 3,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KCNT1": {
+    "source": "OpenAI web search (validated)",
+    "query": "KCNT1",
+    "count": 1,
+    "rejected": 3,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SCN1A": {
+    "source": "OpenAI web search (validated)",
+    "query": "SCN1A",
+    "count": 3,
+    "rejected": 2,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SCN2A": {
+    "source": "OpenAI web search (validated)",
+    "query": "SCN2A",
+    "count": 3,
+    "rejected": 2,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SCN8A": {
+    "source": "OpenAI web search (validated)",
+    "query": "SCN8A",
+    "count": 3,
+    "rejected": 2,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KCNQ2": {
+    "source": "OpenAI web search (validated)",
+    "query": "KCNQ2",
+    "count": 4,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:CDKL5": {
+    "source": "OpenAI web search (validated)",
+    "query": "CDKL5",
+    "count": 2,
+    "rejected": 3,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:FRRS1L": {
+    "source": "OpenAI web search (validated)",
+    "query": "FRRS1L",
+    "count": 1,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SLC6A1": {
+    "source": "OpenAI web search (validated)",
+    "query": "SLC6A1",
+    "count": 5,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:HNRNPU": {
+    "source": "OpenAI web search (validated)",
+    "query": "HNRNPU",
+    "count": 4,
+    "rejected": 1,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KCNB1": {
+    "source": "OpenAI web search (validated)",
+    "query": "KCNB1",
+    "count": 5,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KCNA2": {
+    "source": "OpenAI web search (validated)",
+    "query": "KCNA2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GRIN2B": {
+    "source": "OpenAI web search (validated)",
+    "query": "GRIN2B",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GRIN1": {
+    "source": "OpenAI web search (validated)",
+    "query": "GRIN1",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GRIA2": {
+    "source": "OpenAI web search (validated)",
+    "query": "GRIA2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GRIA3": {
+    "source": "OpenAI web search (validated)",
+    "query": "GRIA3",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GABRA1": {
+    "source": "OpenAI web search (validated)",
+    "query": "GABRA1",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:GABRB3": {
+    "source": "OpenAI web search (validated)",
+    "query": "GABRB3",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:PCDH19": {
+    "source": "OpenAI web search (validated)",
+    "query": "PCDH19",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:MECP2": {
+    "source": "OpenAI web search (validated)",
+    "query": "MECP2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:FOXG1": {
+    "source": "OpenAI web search (validated)",
+    "query": "FOXG1",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:WWOX": {
+    "source": "OpenAI web search (validated)",
+    "query": "WWOX",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:PNKP": {
+    "source": "OpenAI web search (validated)",
+    "query": "PNKP",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SMC1A": {
+    "source": "OpenAI web search (validated)",
+    "query": "SMC1A",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KIF1A": {
+    "source": "OpenAI web search (validated)",
+    "query": "KIF1A",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:KCNT2": {
+    "source": "OpenAI web search (validated)",
+    "query": "KCNT2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:CACNA1A": {
+    "source": "OpenAI web search (validated)",
+    "query": "CACNA1A",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:CACNA2D2": {
+    "source": "OpenAI web search (validated)",
+    "query": "CACNA2D2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:PRRT2": {
+    "source": "OpenAI web search (validated)",
+    "query": "PRRT2",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:DEPDC5": {
+    "source": "OpenAI web search (validated)",
+    "query": "DEPDC5",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:NPRL3": {
+    "source": "OpenAI web search (validated)",
+    "query": "NPRL3",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:TBC1D24": {
+    "source": "OpenAI web search (validated)",
+    "query": "TBC1D24",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
+  },
+  "discover:SLC2A1": {
+    "source": "OpenAI web search (validated)",
+    "query": "SLC2A1",
+    "count": 0,
+    "rejected": 0,
+    "retrieved_at": "2026-10-04"
   }
 }

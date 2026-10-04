@@ -1,0 +1,16 @@
+{
+  "pmid": "40724959",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "IRE1 RNAse activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, in vitro mRNA cleavage assays demonstrated that OSBPL3, C16orf74, and SLC6A1 mRNAs are targets of IRE1 RNAse activity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

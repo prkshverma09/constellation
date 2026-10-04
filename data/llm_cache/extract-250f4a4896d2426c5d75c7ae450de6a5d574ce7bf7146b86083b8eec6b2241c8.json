@@ -1,0 +1,126 @@
+{
+  "pmid": "41215607",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy and neurodevelopmental disorders, including severe developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic variants in TBC1D24 represent a rare cause of epilepsy and neurodevelopmental disorders, including severe developmental and epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals with TBC1D24-related disorders presented with a range of seizure types with a median age at seizure onset of 3 months-most frequently (73%) with focal myoclonic seizures both sparing and impairing consciousness.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MP of focal seizures was at 6.25 and 7.75 years of age (88%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic seizures (focal and generalized) between 9 and 10 years of age (80%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "status epilepticus at 9 and 11 months of age (90%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-epileptic myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The MP of non-epileptic myoclonus was 100% at 1 and 17 months of age",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "tremor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tremor at 14 months of age (67%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia at 7.25 years of age (45%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "episodic hemiplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "episodic hemiplegia at 3.25 years of age (20%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital, oxcarbazepine, and topiramate",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The use of phenobarbital, oxcarbazepine, and topiramate showed the most promise in seizure management when compared to other ASMs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "Everolimus, phenobarbital, and oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Everolimus, phenobarbital, and oxcarbazepine proved more effective in maintaining seizure freedom or reducing seizure frequencies in focal and myoclonic seizures compared to other ASMs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "severe and pharmacoresistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24-related disorders are characterized by severe and pharmacoresistant epilepsy, with status epilepticus, focal seizures, and myoclonic seizures early in life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41247635",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "upregulated expression post-insults",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, melatonin upregulation brain-derived neurotrophic factor (BDNF), growth-associated protein 43 (GAP-43) and synaptosomal-associated protein 25 (SNAP-25) expression post-insults.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "34114611",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-gated potassium channel (subfamily T member 1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1, encoding a sodium-gated potassium channel (subfamily T member 1),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "a spectrum of epilepsies and neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in KCNT1, encoding a sodium-gated potassium channel (subfamily T member 1), have been associated with a spectrum of epilepsies and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "familial autosomal dominant or sporadic sleep-related hypermotor epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "familial autosomal dominant or sporadic sleep-related hypermotor epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental and epileptic encephalopathies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genotypic analysis of the whole cohort of 248 individuals showed only missense mutations and one inframe deletion in KCNT1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe and less severe phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recurrent KCNT1 mutations were seen to be associated with both severe and less severe phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

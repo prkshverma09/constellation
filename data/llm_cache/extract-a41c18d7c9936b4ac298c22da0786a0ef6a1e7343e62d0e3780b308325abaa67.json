@@ -1,0 +1,16 @@
+{
+  "pmid": "38043972",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These include CACNA1A (FHM1), ATP1A2 (FHM2), and SCN1A (FHM3).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

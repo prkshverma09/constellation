@@ -1,0 +1,26 @@
+{
+  "pmid": "34840971",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "worse prognosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The overall survival calculated by KM analysis showed that patients with lower expression of GRIN1 had worse prognoses than patients with higher expression of GRIN1 (p = 0.004).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "detected in normal tissue and not in the tumor specimens",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ultimately, immunohistochemical assay results showed that GRIN1 was detected in normal tissue and not in the tumor specimens.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

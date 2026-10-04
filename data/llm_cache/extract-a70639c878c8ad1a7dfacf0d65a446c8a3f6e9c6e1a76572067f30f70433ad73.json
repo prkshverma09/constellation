@@ -1,0 +1,96 @@
+{
+  "pmid": "38513571",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome (DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A pathogenic variant in SCN1A can result in a spectrum of phenotypes, including Dravet syndrome (DS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS + ) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A pathogenic variant in SCN1A can result in a spectrum of phenotypes, including Dravet syndrome (DS) and genetic epilepsy with febrile seizures plus (GEFS + ) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral problems in the clinical range on the A/CBCL total problems scale",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Forty-six DS participants (43.0 %) and three GEFS + participants (7.5 %) showed behavioral problems in the clinical range on the A/CBCL total problems scale.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "withdrawn behavior, aggressive behavior, and attention problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The behavioral profile in DS exists out of withdrawn behavior, aggressive behavior, and attention problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances associated with behavioral difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In DS patients, sleep disturbances (β = 1.15, p < 0.001) and a lower age (β = -0.21, p = 0.001) were significantly associated with behavioral difficulties.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral difficulties decrease with age in DS participants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Between 2015 and 2022, behavioral difficulties significantly decreased with age (t = -2.24, CI = -6.10 - -0.15, p = 0.04) in DS participants aging from adolescence into adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "behavioral difficulties are a core feature of the DS phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest that, in addition to epilepsy, behavioral difficulties are a core feature of the DS phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "decrease in intellectual functioning as a risk factor for developing (more) behavioral difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A decrease in intellectual functioning (β = 3.37, p = 0.02) and using less antiseizure medications in 2022 than in 2015, (β = -1.96, p = 0.04), were identified as possible risk factors for developing (more) behavioral difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "using less antiseizure medications as a risk factor for developing (more) behavioral difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A decrease in intellectual functioning (β = 3.37, p = 0.02) and using less antiseizure medications in 2022 than in 2015, (β = -1.96, p = 0.04), were identified as possible risk factors for developing (more) behavioral difficulties.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "36628482",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe hypoxic-ischemic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten of 28 patients had genetic mutations, including CDKL5, pyruvate dehydrogenase, CFTR, CYP21A2, ISY1, KIF1A, KCNQ2, SCN9A, MTFMT, and NPHP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

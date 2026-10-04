@@ -1,0 +1,106 @@
+{
+  "pmid": "29397573",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dynamin 1 is a protein involved in the synaptic vesicle cycle",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previous in vitro studies showed that mutations at Lys535 inhibit endocytosis and impair PH loop binding to PIP2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "PH loop binding to PIP2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previous in vitro studies showed that mutations at Lys535 inhibit endocytosis and impair PH loop binding to PIP2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in DNM1 have been implicated in global developmental delay (DD)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe intellectual disability (ID)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "mild to moderate ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The twin siblings exhibit mild to moderate ID and autistic symptoms but no epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "autistic symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The twin siblings exhibit mild to moderate ID and autistic symptoms but no epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The twin siblings exhibit mild to moderate ID and autistic symptoms but no epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a missense genetic variant in the PH domain of dynamin 1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

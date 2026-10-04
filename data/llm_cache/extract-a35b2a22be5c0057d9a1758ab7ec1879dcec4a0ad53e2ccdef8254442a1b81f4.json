@@ -1,0 +1,96 @@
+{
+  "pmid": "34843701",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function de novo mutations in the SCN1A gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "NaV1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A gene which encodes the voltage-gated sodium channel isoform NaV1.1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "impaired excitability of inhibitory interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased NaV1.1 expression results in impaired excitability of inhibitory interneurons and seizure onset",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "increase Scn1a mRNA levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increase Scn1a mRNA levels",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "increase NaV1.1 protein expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increase NaV1.1 protein expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a+/- mouse model of DS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a+/- mouse model of DS",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "reduce seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STK-001 treatment reduces seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "prolongs survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prolongs survival",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "rescues PV interneuron excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rescues PV interneuron excitability in Scn1a+/- mice to levels observed in WT littermates",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

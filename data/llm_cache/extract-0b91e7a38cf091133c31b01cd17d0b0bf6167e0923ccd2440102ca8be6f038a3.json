@@ -1,0 +1,16 @@
+{
+  "pmid": "23622176",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the X-linked gene methyl-CpG-binding protein 2 (MECP2) involve most of the classical RTT patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

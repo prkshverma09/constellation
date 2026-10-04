@@ -1,0 +1,106 @@
+{
+  "pmid": "20699105",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "mice heterozygous for the Gabrb3 gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice heterozygous for the Gabrb3 gene",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "These results are not adequately explained by simple haploinsufficiency of Gabrb3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reductions in Gabrb3 expression in the dorsal root ganglia, spinal cord, whole brain and amygdala",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "similar reductions in Gabrb3 expression in the dorsal root ganglia, spinal cord, whole brain and amygdala",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "increased seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All heterozygotes exhibited an increase in seizure susceptibility",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "tactile and heat hypersensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tactile and heat hypersensitivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "differences in tactile sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant differences were noted between heterozygous variants in regards to tactile sensitivity, heat sensitivity, sensorimotor competence and PPI",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "differences in heat sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant differences were noted between heterozygous variants in regards to tactile sensitivity, heat sensitivity, sensorimotor competence and PPI",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "differences in sensorimotor competence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant differences were noted between heterozygous variants in regards to tactile sensitivity, heat sensitivity, sensorimotor competence and PPI",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "differences in sensorimotor gating (PPI)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "significant differences were noted between heterozygous variants in regards to tactile sensitivity, heat sensitivity, sensorimotor competence and PPI",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "differences influenced by heterozygotes' gender and parental origin of the Gabrb3 gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These differences were influenced by the heterozygotes' gender and whether the Gabrb3 gene was of paternal or maternal origin",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

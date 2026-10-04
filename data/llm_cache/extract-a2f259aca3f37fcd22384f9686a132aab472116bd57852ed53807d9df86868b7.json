@@ -1,0 +1,96 @@
+{
+  "pmid": "34268881",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tumor suppressor WW domain-containing oxidoreductase (WWOX)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia-12 (SCAR12)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with a relatively mild autosomal recessive spinocerebellar ataxia-12 (SCAR12)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WWOX-related epileptic encephalopathy (WOREE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a more severe early infantile WWOX-related epileptic encephalopathy (WOREE)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "brain organoids from CRISPR-engineered human ES cells and from patient-derived iPSCs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "establishing brain organoids from CRISPR-engineered human ES cells and from patient-derived iPSCs.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "Wnt pathway impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wnt pathway and DNA damage response impairment.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "DNA damage response impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wnt pathway and DNA damage response impairment.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "neural population changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neural population changes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "cortical differentiation malfunctions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical differentiation malfunctions",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "ectopic WWOX expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ectopic WWOX expression could potentially rescue these phenotypes.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

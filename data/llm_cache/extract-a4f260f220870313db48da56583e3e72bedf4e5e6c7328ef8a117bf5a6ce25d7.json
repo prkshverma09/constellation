@@ -1,0 +1,36 @@
+{
+  "pmid": "40718049",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings indicate that variants in the NPRL3 gene contribute to focal cortical dysplasia (FCD) and are frequently associated with drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings indicate that variants in the NPRL3 gene contribute to focal cortical dysplasia (FCD) and are frequently associated with drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "therapy",
+      "object_text": "surgery",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "For FCD 1b patients with NPRL3 gene variants, the risks and benefits of surgery should be carefully evaluated.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "37230036",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "high amino acid similarity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human genome encodes three dynamins: DNM1, DNM2 and DNM3, with high amino acid similarity but distinct expression patterns.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "distinct expression patterns",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human genome encodes three dynamins: DNM1, DNM2 and DNM3, with high amino acid similarity but distinct expression patterns.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "diseases caused by DNM1 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "diseases and pathogenic mechanisms caused by mutations of DNM1 and DNM2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

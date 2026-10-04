@@ -1,0 +1,66 @@
+{
+  "pmid": "42166541",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sleep disturbances are highly prevalent in KCNB1-related disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal SDSC subscale score",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At least one abnormal SDSC subscale score was identified in 53/78 individuals (67.9%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "Disorders of initiating or maintaining sleep (DIMS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disorders of initiating or maintaining sleep (DIMS) were the most frequent disorders (38/53, 71.7%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "sleep problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the epilepsy subgroup, sleep problems were more common among patients receiving polytherapy (≥2 ASMs) and those with frequent seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances in developmental encephalopathy (DE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sleep disturbances were reported in 13 of 18 individuals with developmental encephalopathy (DE) (72.2%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "sleep disturbances in developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and in 17 of 57 individuals with developmental and epileptic encephalopathy (DEE) (29.8%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

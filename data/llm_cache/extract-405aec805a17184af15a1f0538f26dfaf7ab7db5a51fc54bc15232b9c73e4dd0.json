@@ -1,0 +1,36 @@
+{
+  "pmid": "30851244",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Understanding the genetic variation in GABAA receptor subunit genes (GABRs), GABRA1-6, GABRB1-3, GABRG1-3 and GABRD, in individuals affected by epilepsy may improve the diagnosis and treatment of epilepsy syndromes through identification of disease-associated variants.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "Cys-loop receptor family",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAA receptors belong to the Cys-loop receptor family.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "associations between structure and function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Even though GABAA receptor mutant residues are widespread among different GABRs, their frequent occurrence in important structural domains that share common functional features suggests associations between structure and function.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

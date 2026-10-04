@@ -1,0 +1,36 @@
+{
+  "pmid": "41366559",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "GEFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most commonly implicated genes were predominantly voltage-gated channels genes (SCN1A, SCN1B, KCNT1, CACNA1A, CACNA1H), and GABA receptor-related genes (GABRA1, GABRB2, GABRB3, GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "high- and moderate fever sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA receptor-related genes were more frequently in high- and moderate-sensitivity groups.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "fever-sensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA receptor-related genes, but not voltage-gated channel genes, were closely related to fever-sensitivity.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

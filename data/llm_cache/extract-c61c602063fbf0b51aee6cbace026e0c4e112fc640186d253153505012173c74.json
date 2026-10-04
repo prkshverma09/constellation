@@ -1,0 +1,96 @@
+{
+  "pmid": "35633486",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy with infantile-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder (CDD) is a developmental and epileptic encephalopathy with infantile-onset epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy with multiple seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most individuals with CDD develop refractory epilepsy with multiple seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms are the most common seizure type in CDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic spasms are the most common seizure type in CDD and are more often refractory to standard first-line treatment than are spasms of other etiologies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms are more often refractory to standard first-line treatment than are spasms of other etiologies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic spasms are the most common seizure type in CDD and are more often refractory to standard first-line treatment than are spasms of other etiologies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "effectiveness of antiseizure medications is limited and wanes over time",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In other seizure types, the effectiveness of antiseizure medications is limited and wanes over time.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Ketogenic diet and palliative surgical treatments have both had mixed results in observational studies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet and palliative surgical treatments have both had mixed results in observational studies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "carefully balancing seizure control and treatment-related side effects to optimize each individual's overall quality of life (treatment recommendation)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When treating refractory seizures in CDD, we recommend carefully balancing seizure control and treatment-related side effects to optimize each individual's overall quality of life.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Clinical trials of medications targeting epilepsy in CDD have been conducted",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical trials of medications targeting epilepsy in CDD have been conducted, and additional investigational small molecules, gene therapy, and other disease-modifying therapies are in development for CDD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "additional investigational small molecules, gene therapy, and other disease-modifying therapies are in development for CDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clinical trials of medications targeting epilepsy in CDD have been conducted, and additional investigational small molecules, gene therapy, and other disease-modifying therapies are in development for CDD.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

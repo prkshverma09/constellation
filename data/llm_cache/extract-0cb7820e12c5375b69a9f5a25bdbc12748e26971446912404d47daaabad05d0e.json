@@ -1,0 +1,166 @@
+{
+  "pmid": "26125038",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Six patients were identified with de novo missense mutations in the kinesin gene KIF1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The de novo KIF1A mutants were nonmotile in the microtubule gliding assay.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "conformational flexibility and ATP-binding efficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Computational modeling of mutant protein structures when compared to WT kinesin showed substantial differences in conformational flexibility and ATP-binding efficiency.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "axonal transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The profound effect de novo mutations have on axonal transport is likely related to the cause of progressive neurologic impairment in these patients.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "degenerative neurologic syndrome with brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo mutations in KIF1A cause a degenerative neurologic syndrome with brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hyperreflexia and spastic paraparesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "varying degrees of hyperreflexia and spastic paraparesis",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "Microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cortical visual impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "optic neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "optic neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "progressive cerebral and cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All six patients had a degenerative neurologic course with progressive cerebral and cerebellar atrophy seen on sequential magnetic resonance imaging scans.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

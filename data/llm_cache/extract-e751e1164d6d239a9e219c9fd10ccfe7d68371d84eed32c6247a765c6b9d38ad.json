@@ -1,0 +1,116 @@
+{
+  "pmid": "38171565",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was a 2-year-old boy who had developed seizure at the age of 5 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "abnormal appearance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His clinical features had included abnormal appearance, recurrent seizures, and low developmental quotients of each functional area as evaluated by the Gesell scale.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "low developmental quotients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "His clinical features had included abnormal appearance, recurrent seizures, and low developmental quotients of each functional area as evaluated by the Gesell scale.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A total of 13 articles were retrieved, and the types of HNRNPU gene mutations have included splice site mutation, nonsense mutation, missense mutation, in-frame deletion, gene duplication, frameshifting mutation, and multiple exon deletion.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "language delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "craniofacial deformity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "mental and behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The main clinical manifestations have included mental retardation, language delay, global developmental delay, epilepsy, craniofacial deformity, mental and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The c.1720_1722delCTT variant of the HNRNPU gene probably underlay the NDDs in this child.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

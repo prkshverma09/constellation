@@ -1,0 +1,116 @@
+{
+  "pmid": "37170076",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited (familial) infantile epilepsy (SeLIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic PRRT2 variants cause self-limited (familial) infantile epilepsy (SeLIE)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blocking antiseizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which is responsive to sodium channel blocking antiseizure medications.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "oxcarbazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Oxcarbazepine was commenced in two infants and was effective.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight infants were initially treated with levetiracetam, and all were subsequently switched to oxcarbazepine due to ongoing seizures or side effects.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "Posterior polymorphic focal epileptiform discharges on a peri-ictal EEG recording",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Posterior polymorphic focal epileptiform discharges on a peri-ictal EEG recording are a feature of PRRT2-related SeLIE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "interictal EEG is typically normal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The interictal EEG is typically normal.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures at a median age of 5 months (range: 3-6 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten infants presented with focal seizures at a median age of 5 months (range: 3-6 months).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "family history of epilepsy, paroxysmal kinesigenic dyskinesia (PKD) or hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eight had a family history of epilepsy, paroxysmal kinesigenic dyskinesia (PKD) or hemiplegic migraine.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "epileptiform discharges within 24 h of most recent seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven of the eight infants with an EEG performed within 24 h of the most recent seizure had epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "focal sharp waves, spikes, polyspikes or fast activity independently over the left and right temporo-occipital regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Their EEGs showed focal sharp waves, spikes, polyspikes or fast activity independently over the left and right temporo-occipital regions.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "no epileptiform discharges when last known seizure >24 h prior to EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Conversely, the two infants with last known seizure greater than 24 h prior to their EEG had no epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

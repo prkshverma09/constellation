@@ -1,0 +1,136 @@
+{
+  "pmid": "39300821",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "broad spectrum of neuropsychiatric disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 deficiency causes a broad spectrum of neuropsychiatric disorders that can affect both genders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "Rett syndrome (regression with loss of previously acquired skills)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome is the most common and is characterized by an apparently normal growth period followed by a regression phase in which patients lose most of their previously acquired skills.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "apraxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "apraxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "breathing abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "breathing abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "motor deterioration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor deterioration",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "epigenetic transcription factor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 encodes for an epigenetic transcription factor that is particularly abundant in the brain;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "cultured Mecp2-null neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cultured Mecp2-null neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "Mecp2-null hemizygous male mice and heterozygous female mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mecp2-null hemizygous male mice and heterozygous female mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "recombinant human GMP-grade NGF (rhNGF)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrated a healing effect of recombinant human GMP-grade NGF (rhNGF) on neuronal maturation and activity in cultured Mecp2-null neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "rhNGF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rhNGF exerted positive effects on cognitive and motor functions.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "intranasal administration of rhNGF",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intranasal administration of rhNGF is a non-invasive and effective route of administration for the treatment of Rett syndrome and possibly for other neurometabolic disorders with overt mitochondrial dysfunction.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

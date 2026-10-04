@@ -1,0 +1,16 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "genetic developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We included patients with a pathogenic variant in the genes SCN1A, SCN2A, SCN8A, SYNGAP1, NEXMIF, CHD2, PCDH19, STXBP1, GRIN2A, KCNT1, and KCNQ2 and with Angelman syndrome (AS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

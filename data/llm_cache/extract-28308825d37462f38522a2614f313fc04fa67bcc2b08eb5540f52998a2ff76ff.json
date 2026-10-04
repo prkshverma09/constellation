@@ -1,0 +1,36 @@
+{
+  "pmid": "37368068",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of variable severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of voltage-gated potassium channels have been associated with epilepsy of variable severity. These include the sodium-activated potassium channel subfamily T member 2 (KCNT2) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "mechanism",
+      "object_text": "pore-forming alpha subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the sodium-activated potassium channel subfamily T member 2 (KCNT2) gene, which encodes for pore-forming alpha subunits.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2 gene mutations have been recently described to cause developmental and epileptic encephalopathies (DEEs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

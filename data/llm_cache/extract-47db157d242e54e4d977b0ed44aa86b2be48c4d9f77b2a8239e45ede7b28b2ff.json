@@ -1,0 +1,26 @@
+{
+  "pmid": "31108110",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABA transporters (GATs) facilitate the termination of GABAergic signaling by transporting GABA together with sodium and chloride from the synaptic cleft into presynaptic neurons and surrounding glial cells.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four different GATs have been identified that all belong to the solute carrier 6 (SLC6) transporter family: GAT1-3 (SLC6A1, SLC6A13, SLC6A11) and betaine/GABA transporter 1 (BGT1, SLC6A12).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

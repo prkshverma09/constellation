@@ -1,0 +1,16 @@
+{
+  "pmid": "35303589",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hereditary spastic paraplegia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetically confirmed etiologies included SPAST (3 patients), MARS (2), KIF1A (2), KIF5A (1), SACS (1), SPG7 (1), REEP1 (1), PNPT1 (1), MT-ATP6 (1), and ATL1 (1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "40292751",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "neonatal onset developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neonatal onset developmental and epileptic encephalopathy (KCNQ2-DEE; Online Mendelian Inheritance in Man #613720)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most often by loss-of-function in vitro effects.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recurrent de novo KCNQ2 variant (c.794C>T; p.A265V)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "affecting the pore domain of Kv7.2 subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "affecting the pore domain of KCNQ2-encoded Kv7.2 subunits",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "reduced maximal current density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced maximal current density",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "decreased voltage-dependence of activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased voltage-dependence of activation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "current inactivation with 50% current reduction during 1-2-s depolarizing pulses at voltages > 0 mV",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an unusual inactivation process, with a 50% current reduction during 1-2-s depolarizing pulses at voltages > 0 mV",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "effects proportional to number of mutant subunits in heteromeric channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These effects were proportional to the number of mutant subunits incorporated in heteromeric channels",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "effects less dramatic upon coexpression with Kv7.2 or Kv7.2 + Kv7.3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "being overall less dramatic upon coexpression with Kv7.2 or Kv7.2 + Kv7.3 subunits.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "mechanism",
+      "object_text": "current inactivation as a novel pathogenetic mechanism for KCNQ2-DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "current inactivation as a novel pathogenetic mechanism for KCNQ2-DEE",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

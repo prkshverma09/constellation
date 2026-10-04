@@ -1,0 +1,16 @@
+{
+  "pmid": "32776155",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, in younger children other etiologies such as dyskinetic cerebral palsy, anti-NMDAR receptor encephalitis, other autoimmune conditions, or mutations in NKX2-1, ADCY-5, FOXG1, GNAO1, GPR88, SLC2A1, SQSTM1, ATP8A2, or SYT-1 should be considered.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

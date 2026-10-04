@@ -1,0 +1,116 @@
+{
+  "pmid": "28806457",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "20 (77%) carried a missense variant in the ion channel domain of KCNB1, with a concentration of variants in region S5 to S6.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo KCNB1 missense variants in the ion channel domain and loss-of-function variants in this domain and the C-terminal likely cause neurodevelopmental disorders with or without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders with or without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo KCNB1 missense variants in the ion channel domain and loss-of-function variants in this domain and the C-terminal likely cause neurodevelopmental disorders with or without seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had developmental delay,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with 17 (65%) experiencing severe developmental delay;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "14 (82%) with severe delay had behavioral problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-one of 25 patients (84%) had seizures,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with 9 patients (36%) starting with epileptic spasms between 3 and 18 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "milder developmental delay associated with stop variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The developmental delay was milder in 4 of 6 patients with stop variants",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "variable phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with presumed pathogenic variants in KCNB1 have a variable phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "type and position of variants correlate with severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, the type and position of the variants in the protein are (imperfectly) correlated with the severity of the disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

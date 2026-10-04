@@ -1,0 +1,36 @@
+{
+  "pmid": "26452361",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "symptomatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associations between rs211037 and the risk of SE in the pooled data from all cohorts (T vs. C, p = 3 × 10(-5), and TT vs. CC, p = 2 × 10(-5))",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "partial seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and the risk of partial seizure in the combined data of Malaysia and Hong Kong (both T vs. C and TT vs. CC, p = 2 × 10(-6))",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Meta-analysis of all Asians identified association between rs211037 and FS and SE (T vs. C, p = 4 × 10(-4), and p = 4 × 10(-3), respectively).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

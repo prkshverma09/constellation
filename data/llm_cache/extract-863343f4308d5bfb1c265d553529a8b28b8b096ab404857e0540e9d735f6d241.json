@@ -1,0 +1,26 @@
+{
+  "pmid": "37149062",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR pathway repressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline and somatic mutations in mTOR pathway repressors, DEPDC5, NPRL2, NPRL3, TSC1 and TSC2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The spectrum of cortical dysplasia results from somatic brain mutations in the mTOR pathway activators AKT3, MTOR, PIK3CA, and RHEB and from germline and somatic mutations in mTOR pathway repressors, DEPDC5, NPRL2, NPRL3, TSC1 and TSC2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

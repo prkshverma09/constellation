@@ -1,0 +1,16 @@
+{
+  "pmid": "41502370",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "macropinocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "upregulating clathrin-mediated endocytosis (FCHO1) and macropinocytosis (STX1B) pathways while downregulating endocytic inhibitors (DLC1, EHD2).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

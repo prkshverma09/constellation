@@ -1,0 +1,16 @@
+{
+  "pmid": "23840971",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "mutant SNAP-25 knock-in mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To date, the iDG phenotype and shared behavioral abnormalities (including working memory deficit and hyperlocomotor activity) have been discovered in Schnurri-2 knockout, mutant SNAP-25 knock-in, and forebrain-specific calcineurin knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

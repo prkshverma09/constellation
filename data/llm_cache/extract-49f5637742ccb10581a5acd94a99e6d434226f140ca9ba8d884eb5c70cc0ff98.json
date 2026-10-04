@@ -1,0 +1,16 @@
+{
+  "pmid": "22975012",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "development of corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This finding supports the previously suggested hypothesis that the HNRNPU is an essential gene to the development of corpus callosum.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

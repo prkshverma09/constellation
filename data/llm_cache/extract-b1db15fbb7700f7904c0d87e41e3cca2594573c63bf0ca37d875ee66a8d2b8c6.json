@@ -1,0 +1,26 @@
+{
+  "pmid": "16302874",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "sporadic Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo mutations in SCN1A in sporadic Dravet syndrome",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsies with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "germline mutations in SCN1A, SCN1B, and SCN2A in generalized epilepsies with febrile seizures plus",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

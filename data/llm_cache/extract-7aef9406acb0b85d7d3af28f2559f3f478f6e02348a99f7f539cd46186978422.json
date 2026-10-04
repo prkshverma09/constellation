@@ -1,0 +1,56 @@
+{
+  "pmid": "39158034",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 450 de novo missense variants of the sodium channel gene SCN8A have been identified in individuals with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "mouse model carrying the patient Scn8a variant p.Asn1768Asp",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We studied a mouse model carrying the patient Scn8a variant p.Asn1768Asp.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "allele-specific editing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Allele-specific disruption of the reading frame of the pathogenic transcript generated out-of-frame indels in 1/4 to 1/3 of transcripts throughout the brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "lethality and seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This editing efficiency was sufficient to rescue lethality and seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuronal hyperexcitability was reduced in cells expressing the virus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

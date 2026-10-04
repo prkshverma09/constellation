@@ -1,0 +1,16 @@
+{
+  "pmid": "35219921",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia and epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Next-generation sequencing (NGS) has helped in the identification of other genes (e.g.: KCNA2, ATP1A3, SLC2A1, PRRT2) which have shown an overlapping phenotype with EA and epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

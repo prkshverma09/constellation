@@ -1,0 +1,136 @@
+{
+  "pmid": "40332468",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "delayed-rectifier voltage-dependent potassium channel Kv2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encodes an α-subunit of the delayed-rectifier voltage-dependent potassium channel Kv2.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEEs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo pathogenic variants of KCNB1 have been linked to developmental and epileptic encephalopathies (DEEs)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of function (LOF) of KCNB1 has been proposed as the pathogenic mechanism in these disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "kcnb1+/- and kcnb1-/- zebrafish",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a knockout zebrafish line targeting kcnb1 (kcnb1+/- and kcnb1-/-)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "expressed in neurons, oligodendrocytes, and microglial cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In wild-type (WT) larval zebrafish, kcnb1 was found in various regions of the central nervous system and in diverse cell subtypes including neurons, oligodendrocytes, and microglial cells.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "impaired swimming behavior and epilepsy-like features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both kcnb1+/- and kcnb1-/- zebrafish displayed impaired swimming behavior and \"epilepsy-like\" features",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "rescue by human Kv2.1 WT DNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which was restored by the human Kv2.1 WT DNA.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "elevated locomotor activity after PTZ exposure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When exposed to the chemoconvulsant pentylenetetrazol (PTZ), both knockout models showed elevated locomotor activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "increased bdnf mRNA expression and higher c-Fos fluorescence intensity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PTZ-exposed kcnb1-/- larvae exhibited increased bdnf mRNA expression and higher c-Fos fluorescence intensity in cells of the telencephalon.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous and provoked epileptiform-like electrographic activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presents spontaneous and provoked epileptiform-like electrographic activity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "γ-aminobutyric acid dysregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with γ-aminobutyric acid dysregulation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "brain anatomy and neuronal circuit organization remained unaffected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the brain anatomy and neuronal circuit organization remained unaffected.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "early onset phenotypic features reminiscent of DEEs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "kcnb1 knockout in zebrafish leads to early onset phenotypic features reminiscent of DEEs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

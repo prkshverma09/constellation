@@ -1,0 +1,166 @@
+{
+  "pmid": "38410154",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "MECP2 is found on the X chromosome and regulates the transcription of thousands of genes.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MECP2 is found on the X chromosome and regulates the transcription of thousands of genes.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "developmental regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "motor dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "midline hand stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autonomic nervous system dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "scoliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic-like behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of MECP2 gene product leads to Rett Syndrome, a disease found primarily in females, and is characterized by developmental regression, motor dysfunction, midline hand stereotypies, autonomic nervous system dysfunction, epilepsy, scoliosis, and autistic-like behavior.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS). MDS is found mostly in males and presents with developmental delay, hypotonia, autistic features, refractory epilepsy, and recurrent respiratory infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS). MDS is found mostly in males and presents with developmental delay, hypotonia, autistic features, refractory epilepsy, and recurrent respiratory infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS). MDS is found mostly in males and presents with developmental delay, hypotonia, autistic features, refractory epilepsy, and recurrent respiratory infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS). MDS is found mostly in males and presents with developmental delay, hypotonia, autistic features, refractory epilepsy, and recurrent respiratory infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "recurrent respiratory infections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplication of MECP2 causes MECP2 Duplication Syndrome (MDS). MDS is found mostly in males and presents with developmental delay, hypotonia, autistic features, refractory epilepsy, and recurrent respiratory infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "gene-based therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While these two disorders share several characteristics, their differences (e.g., affected sex, age of onset, genotype/phenotype correlations) are important to distinguish in the light of gene-based therapy because they require opposite solutions.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

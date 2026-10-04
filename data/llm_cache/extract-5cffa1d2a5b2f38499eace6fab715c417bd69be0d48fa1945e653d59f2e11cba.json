@@ -1,0 +1,86 @@
+{
+  "pmid": "39707911",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel NaV1.2; generation and forward and back propagation of action potentials in neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A encodes the voltage-gated sodium (Na+) channel α subunit NaV1.2, which is important for the generation and forward and back propagation of action potentials in neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "spectrum of neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic variants in SCN2A are associated with a spectrum of neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven de novo heterozygous variants in SCN2A in eight individuals with developmental and epileptic encephalopathy (DEE) accompanied by prominent malformation of cortical development (MCD).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "malformation of cortical development (MCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seven de novo heterozygous variants in SCN2A in eight individuals with developmental and epileptic encephalopathy (DEE) accompanied by prominent malformation of cortical development (MCD).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neonatal isoforms of all SCN2A variants studied exhibit gain of function (GoF) with a large depolarized shift in steady-state inactivation, creating a markedly enhanced window current common across all four variants tested.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "large depolarized shift in steady-state inactivation creating a markedly enhanced window current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a large depolarized shift in steady-state inactivation, creating a markedly enhanced window current",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "NaV1.2-p.Met1770Leu-N variant expression in a developing neocortical pyramidal neuron results in hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Computational modeling demonstrated that expression of the NaV1.2-p.Met1770Leu-N variant in a developing neocortical pyramidal neuron results in hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "roles for SCN2A in fetal brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggests previously undescribed roles for SCN2A in fetal brain development.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

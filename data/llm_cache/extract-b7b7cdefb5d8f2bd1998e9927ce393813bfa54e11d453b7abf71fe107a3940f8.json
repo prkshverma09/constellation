@@ -1,0 +1,86 @@
+{
+  "pmid": "40282364",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates synaptic communication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human brain relies on complex synaptic communication regulated by key genes such as SYNGAP1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "encodes the GTPase-Activating Protein (SYNGAP), a critical synaptic plasticity and neuronal excitability regulator",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 encodes the GTPase-Activating Protein (SYNGAP), a critical synaptic plasticity and neuronal excitability regulator.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability; epilepsy; behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Impaired SYNGAP1 function leads to neurodevelopmental disorders (NDDs) characterized by intellectual disability (ID), epilepsy, and behavioral abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "disrupt Ras signaling, altering AMPA receptor transport and synaptic plasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variants disrupt Ras signaling, altering AMPA receptor transport and synaptic plasticity and contributing to cognitive and motor difficulties.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "taurine supplementation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "taurine supplementation",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diets",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ketogenic diets",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotide therapy to restore SYNGAP1 expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "antisense oligonucleotide therapy to restore SYNGAP1 expression",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "Behavioral and rehabilitative interventions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Behavioral and rehabilitative interventions remain key for managing developmental and cognitive symptoms.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

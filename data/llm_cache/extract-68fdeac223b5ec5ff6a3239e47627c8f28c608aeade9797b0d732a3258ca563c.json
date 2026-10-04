@@ -1,0 +1,126 @@
+{
+  "pmid": "36495145",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "heterozygous knock-in mouse with the human infantile spasms-associated de novo mutation GABRB3 (c.A328G, p.N110D)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated a heterozygous knock-in mouse with the human infantile spasms-associated de novo mutation GABRB3 (c.A328G, p.N110D)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The infantile spasms-associated human de novo mutation GABRB3 (c.A328G, p.N110D) caused epileptic spasms early in development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "multiple seizure types in adult Gabrb3+/N110D knock-in mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "neurological impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Signs of neurological impairment, anxiety, hyperactivity, social impairment, and deficits in spatial learning and memory were also observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "anxiety",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Signs of neurological impairment, anxiety, hyperactivity, social impairment, and deficits in spatial learning and memory were also observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Signs of neurological impairment, anxiety, hyperactivity, social impairment, and deficits in spatial learning and memory were also observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "social impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Signs of neurological impairment, anxiety, hyperactivity, social impairment, and deficits in spatial learning and memory were also observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "deficits in spatial learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Signs of neurological impairment, anxiety, hyperactivity, social impairment, and deficits in spatial learning and memory were also observed.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "reduced cortical mIPSCs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gabrb3+/N110D mice had reduced cortical mIPSCs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased duration of spontaneous oscillatory firing in the somatosensory thalamocortical circuit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased duration of spontaneous oscillatory firing in the somatosensory thalamocortical circuit",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "epileptic spasms, seizures, and other neurological impairments consistent with infantile spasms syndrome in patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Gabrb3+/N110D knock-in mouse has epileptic spasms, seizures, and other neurological impairments that are consistent with infantile spasms syndrome in patients.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "can be used to study the pathophysiology of infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multiple seizure types and abnormal behaviors indicative of neurological impairment both early and late in development suggest that Gabrb3+/N110D mice can be used to study the pathophysiology of infantile spasms.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

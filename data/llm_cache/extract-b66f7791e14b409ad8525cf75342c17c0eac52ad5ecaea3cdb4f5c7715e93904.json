@@ -1,0 +1,26 @@
+{
+  "pmid": "12610651",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "seizure disorder GEFS+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in two of these genes, SCN1A and SCN2A, result in the seizure disorder GEFS+.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The variant R1902C in SCN2A is located in the calmodulin binding site and was found to reduce binding affinity for calcium-bound calmodulin.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "38226680",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "regulated by Maf1 via promoter binding",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Maf1 regulated the expression of NMDAR1 by binding to the promoter region of Grin1",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "calcium homeostasis and synaptic remodelling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Maf1 regulated the expression of NMDAR1 by binding to the promoter region of Grin1, further regulating calcium homeostasis and synaptic remodelling in neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "stabilizing synaptic structure, neuronal function and behaviour during Alzheimer's disease pathogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Maf1-NMDAR1 signalling pathway in stabilizing synaptic structure, neuronal function and behaviour during Alzheimer's disease pathogenesis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,36 @@
+{
+  "pmid": "37537625",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this gain of function mutation in the GRIN1 NMDA subunit",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "intrathecal MgSO4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We describe a targeted ABA n-of-1 treatment trial with intrathecal MgSO4, rationally designed based on the electrophysiologic properties of this gain of function mutation in the GRIN1 NMDA subunit.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "intrathecal MgSO4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "quantitative longitudinal neurophysiologic monitoring indicated benefit, providing class II evidence in support of intrathecal MgSO4 for select forms of GRIN disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

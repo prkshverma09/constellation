@@ -1,0 +1,156 @@
+{
+  "pmid": "38903163",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-related disorders (GNAO1-RD) encompass a diverse spectrum of neurodevelopmental and movement disorders arising from variants in the GNAO1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-related disorders (GNAO1-RD) encompass a diverse spectrum of neurodevelopmental and movement disorders arising from variants in the GNAO1 gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dyskinetic crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dyskinetic crises, marked by sudden and intense exacerbations of abnormal involuntary movements, present a significant challenge in GNAO1-RD.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "abrupt, paroxysmal episodes involving distinct abnormal movements in multiple body regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consensus was achieved on 31 statements, defining dyskinetic crises as abrupt, paroxysmal episodes involving distinct abnormal movements in multiple body regions, triggered by emotional stress or infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "triggered by emotional stress or infections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consensus was achieved on 31 statements, defining dyskinetic crises as abrupt, paroxysmal episodes involving distinct abnormal movements in multiple body regions, triggered by emotional stress or infections.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "functional impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dyskinetic crises may lead to functional impairment and complications, emphasizing the need for prompt recognition.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "complications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dyskinetic crises may lead to functional impairment and complications, emphasizing the need for prompt recognition.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "benzodiazepines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While individualized pharmacological recommendations were not provided, benzodiazepines and clonidine were suggested for acute crisis management.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "clonidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "While individualized pharmacological recommendations were not provided, benzodiazepines and clonidine were suggested for acute crisis management.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "tetrabenazine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic treatment options included tetrabenazine, benzodiazepines, gabapentin, and clonidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "benzodiazepines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic treatment options included tetrabenazine, benzodiazepines, gabapentin, and clonidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "gabapentin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic treatment options included tetrabenazine, benzodiazepines, gabapentin, and clonidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "clonidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Chronic treatment options included tetrabenazine, benzodiazepines, gabapentin, and clonidine.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deep brain stimulation should be considered early in the treatment of refractory or prolonged dyskinetic crisis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "targeted parental and caregiver education",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "targeted parental and caregiver education, which enables early recognition and intervention, thereby potentially minimizing both short- and long-term complications.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,126 @@
+{
+  "pmid": "25966631",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we report an additional four patients with de novo missense GNAO1 variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "Gαo function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the three novel variants were predicted to impair Gαo function by structural evaluation.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three patients with Ohtahara syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "childhood epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "one patient with childhood epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two patients showed early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "migrating or multifocal partial seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with migrating or multifocal partial seizures in their clinical course",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "no or a few seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the remaining two patients showed no or a few seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the four patients showed severe intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "motor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "involuntary movements",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "progressive cerebral atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Progressive cerebral atrophy and thin corpus callosum were common features in brain images.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "thin corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Progressive cerebral atrophy and thin corpus callosum were common features in brain images.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

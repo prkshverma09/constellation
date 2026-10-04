@@ -1,0 +1,66 @@
+{
+  "pmid": "31513310",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "α subunit of the delayed rectifier voltage-dependent potassium channel Kv 2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encodes the α subunit of the delayed rectifier voltage-dependent potassium channel Kv 2.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most variants occur de novo and mainly consist of missense variants located on the voltage sensor and the pore domain of Kv 2.1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "language difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1-related encephalopathies encompass a wide spectrum of neurodevelopmental disorders with predominant language difficulties and behavioral impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1-related encephalopathies encompass a wide spectrum of neurodevelopmental disorders with predominant language difficulties and behavioral impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eighty-five percent of patients developed epilepsies with variable syndromes and prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "less-severe epileptic phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Truncating variants in the C-terminal domain are associated with a less-severe epileptic phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

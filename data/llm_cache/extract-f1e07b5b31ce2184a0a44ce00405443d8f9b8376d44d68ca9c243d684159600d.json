@@ -1,0 +1,96 @@
+{
+  "pmid": "32319732",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the probands reported here have a de novo loss-of-function variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "craniofacial dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These probands have craniofacial dysmorphic features, in the majority including widely spaced teeth, microcephaly, high arched eyebrows, and palpebral fissure abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "widely spaced teeth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "widely spaced teeth",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "high arched eyebrows",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high arched eyebrows",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "palpebral fissure abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "palpebral fissure abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe ID",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Many of the patients in the group also have moderate to severe ID and seizures that tend to start in early childhood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures that tend to start in early childhood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with a likely mechanism of haploinsufficiency",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

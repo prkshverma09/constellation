@@ -1,0 +1,96 @@
+{
+  "pmid": "36737483",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "adult male and female CDKL5-deficient mice (increased homotopic interhemispheric connectivity and functional hyperconnectivity across higher cognitive areas)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found an increase in homotopic interhemispheric connectivity and functional hyperconnectivity across higher cognitive areas in adult male and female CDKL5-deficient mice by resting-state functional MRI (rs-fMRI) analysis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "juvenile CDKL5-deficient mice (increase in the number of callosal synaptic inputs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an increase in the number of callosal synaptic inputs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "juvenile CDKL5-deficient mice (decrease in local synaptic connectivity in the cingulate cortex)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decrease in local synaptic connectivity in the cingulate cortex of juvenile CDKL5-deficient mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "impairment in excitatory synapse development and a differential role of CDKL5 across excitatory neuron subtypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting an impairment in excitatory synapse development and a differential role of CDKL5 across excitatory neuron subtypes.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "CDKL5 KO mice (significant cognitive impairments)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These deficits were associated with significant cognitive impairments in CDKL5 KO mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "selective deletion of CDKL5 in the largest subtype of CPN (increase of functional callosal inputs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Selective deletion of CDKL5 in the largest subtype of CPN likewise resulted in an increase of functional callosal inputs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "selective deletion of CDKL5 in the largest subtype of CPN (no significant alteration of intracortical cingulate networks)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "without however significantly altering intracortical cingulate networks.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "CDKL5 is necessary and sufficient for proper CPN connectivity and cognitive function and flexibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it is both necessary and sufficient for proper CPN connectivity and cognitive function and flexibility",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "selective re-expression of CDKL5 in the CPN subtype prevents cognitive impairments in otherwise CDKL5-deficient mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "when CDKL5 was selectively re-expressed only in this CPN subtype, in otherwise CDKL5-deficient mice, it was sufficient to prevent the cognitive impairments of CDKL5 mutants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

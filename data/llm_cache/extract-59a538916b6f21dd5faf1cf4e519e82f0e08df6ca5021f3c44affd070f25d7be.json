@@ -1,0 +1,146 @@
+{
+  "pmid": "31678000",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "infantile onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19-Girls Clustering Epilepsy (GCE) is an epileptic syndrome with infantile onset",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "clustered and fever-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by clustered and fever-induced seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability and autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "often associated with intellectual disability (ID) and autistic features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "269 cases collected; 85 with history of status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We collected 269 cases with PCDH19-GCE, in 85 of them, a history of SE was reported.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "status epilepticus prevalence 31.5%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Prevalence of SE in all selected series of PCDH19-GCE series is 31.5%.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "no gender difference in SE occurrence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no gender difference in SE occurrence.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "median age at first SE 12 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median age at first SE occurrence was 12 months (6 months-11 years).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "convulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Semiology of SE was reported in 17 cases: it was convulsive in 15 and nonconvulsive in 2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "nonconvulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Semiology of SE was reported in 17 cases: it was convulsive in 15 and nonconvulsive in 2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "refractory status epilepticus (71.4%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Status epilepticus was refractory in 15 out of 21 cases (71.4%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "benzodiazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benzodiazepine was the most commonly used drug for SE.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "steroids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Alternative treatments with steroids and ketogenic diet were reported as well.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Alternative treatments with steroids and ketogenic diet were reported as well.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "high prevalence of intellectual disability and autism (90%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found a high prevalence of ID and autism (19 out of 21 patients, 90%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

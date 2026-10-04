@@ -1,0 +1,86 @@
+{
+  "pmid": "37960945",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "median seizure course period: 6 years 6 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The median seizure course period from seizure onset was 6 years 6 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizure freedom ≥1 year: 78%; ≥2 years: 56%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of 113 patients, 78% and 56% experienced seizure freedom for at least 1 year and at least 2 years respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "age-stratified seizure freedom rates",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In patients younger than 5 years (n = 30), 5 to 10 years (n = 52), and older than 10 years (n = 31), 57%, 81%, and 94% experienced at least 1 year of seizure freedom, and 32%, 52%, and 84% experienced at least 2 years of seizure freedom, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "relapse after seizure freedom; triggers include fever and ASM reduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, 58% (65 out of 113) relapsed at least once after more than 1 year of seizure freedom without trigger exposure (40%) or because of common triggers, including fever (43%) and antiseizure medication (ASM) reduction (29%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "ASM reduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was an 84% risk of seizure relapse after ASM reduction attempts.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "decreased likelihood of seizure freedom with early seizure onset and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The likelihood of seizure freedom decreased with early age at seizure onset and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "relapsing-remitting disease course",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The disease course is characterized by relapsing-remitting seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "therapy",
+      "object_text": "caution for ASM reduction in children younger than 10 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ASM reduction in children younger than 10 years old requires caution.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

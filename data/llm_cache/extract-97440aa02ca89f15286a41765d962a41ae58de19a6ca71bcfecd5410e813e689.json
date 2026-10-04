@@ -1,0 +1,46 @@
+{
+  "pmid": "33937968",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There is a correlation between PCDH19 pathogenic variants, encodes the protocadherin 19, and a similar disease to DS known as DS-like phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When clinical and genetic data were correlated, autism was predominantly observed in patients with DS-like-carrying PCDH19 variants compared to SCN1A variant carriers (62.5% versus 37.5%, respectively, P-value = 0.044, P-value corrected = 0.198).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "hyperthermia during epilepsy crisis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, it was noticed a significant predisposition to hyperthermia during epilepsy crisis in individuals carrying PCDH19 variants (P-value = 0.003; P-value corrected = 0.027).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a significant proportion of patients with DS-carrying SCN1A was greater than patients with DS-like phenotype-harboring PCDH19 variants (76.6% versus 23.4%).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

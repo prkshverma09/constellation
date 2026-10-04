@@ -1,0 +1,26 @@
+{
+  "pmid": "37275237",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "our results showed that SLC6A11 rs2304725 and GABRG2 rs211037 are not significantly correlated with DRE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Likewise, rs211037 conveyed a genetic risk for DRE in an Asian population in the allele, dominant, and additive models.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

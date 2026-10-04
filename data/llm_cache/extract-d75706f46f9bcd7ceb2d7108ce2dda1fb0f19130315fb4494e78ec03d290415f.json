@@ -1,0 +1,66 @@
+{
+  "pmid": "37414777",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "model",
+      "object_text": "iPSC-derived cortical neurons from patients with GRIN2B mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we measured cortical neurons derived from induced pluripotent stem cells (iPSCs) of patients with four mutations in the genes GRIN2B, SHANK3, UBTF, as well as chromosomal duplication in the 7q11.23 region",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "early maturation of cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed that the mutant cortical neurons demonstrated hyperexcitability and early maturation compared to control lines.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "hyperexcitability of cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed that the mutant cortical neurons demonstrated hyperexcitability and early maturation compared to control lines.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "increased sodium currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These changes were characterized by increased sodium currents",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "increased amplitude and rate of excitatory postsynaptic currents (EPSCs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased amplitude and rate of excitatory postsynaptic currents (EPSCs)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "more evoked action potentials in response to current stimulation (early-stage development)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "more evoked action potentials in response to current stimulation in early-stage cell development (3-5 weeks post differentiation).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

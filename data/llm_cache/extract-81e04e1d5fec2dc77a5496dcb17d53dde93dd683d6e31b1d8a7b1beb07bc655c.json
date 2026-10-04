@@ -1,0 +1,136 @@
+{
+  "pmid": "41351427",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in GABRG2, encoding the γ2 subunit of the γ-aminobutyric acid type A receptor, are linked to epilepsy phenotypes of varying severity, with gain-of-function (GoF) variants associated with the more severe phenotypes than loss-of-function variants.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "early dysphagia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early dysphagia (median onset age = 1 month)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures (median onset age = 2 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperkinetic movement disorders (median onset age = 3 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy prevalence 91%",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was present in 91% of the individuals",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (71%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "71% featuring a developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "seizure freedom in epilepsy (33%)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "33% of the individuals with epilepsy achieved seizure freedom during the follow-up",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "moderate to severe cognitive/neurodevelopmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All individuals exhibited moderate to severe cognitive/neurodevelopmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "profound deficits in motor and language domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with profound deficits in motor, language, and other domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analysis confirmed a GoF effect of the p.(Ala106Thr) variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "may enhance receptor gating by facilitating a hydrogen bond between the extracellular and transmembrane domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Structural modeling indicated that the p.(Ala106Thr) variant may enhance receptor gating by facilitating a hydrogen bond between the extracellular and transmembrane domains, a mechanism not observed with the p.(Ala106Pro) variant.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "severe neurodevelopmental phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "our findings demonstrate that the recurrent GABRG2 p.(Ala106Thr) GoF variant is consistently associated with a severe neurodevelopmental phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

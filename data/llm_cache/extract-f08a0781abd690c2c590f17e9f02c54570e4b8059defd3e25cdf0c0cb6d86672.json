@@ -1,0 +1,26 @@
+{
+  "pmid": "38110963",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "binding site on MAP1LC3B",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the foxg1 binding site on the autophagy molecule microtubule-associated protein 1 light chain 3 beta (MAP1LC3B).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "binding to MAP1LC3B (inhibited)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it inhibited the binding of foxg1 to MAP1LC3B, increased astrocytic autophagy levels, and facilitated NLRP3 degradation through the autophagy-lysosome pathway.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

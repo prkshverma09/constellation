@@ -1,0 +1,106 @@
+{
+  "pmid": "39738805",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "model",
+      "object_text": "homozygous knock-in (KI) Kcnb1R312H(+/+) mouse model of DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "homozygous knock-in (KI) Kcnb1R312H(+/+) mouse model of DEE",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "severe cognitive deficit and compulsive behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnb1R312H(+/+) mice suffer from severe cognitive deficit and compulsive behavior",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "neuronal damage in multiple areas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Their brains show neuronal damage in multiple areas",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "disrupted corticocortical and corticothalamic connectivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disrupted corticocortical and corticothalamic connectivity",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "aberrant glutamatergic vesicular transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "aberrant glutamatergic vesicular transport",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "neocortical IKCs formed by Kcnb1 and α5β5 integrin dimers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neocortical IKCs formed by voltage-gated potassium (Kv) channels Kcnb1 and α5β5 integrin dimers",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "actin cytoskeleton remodeling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reveal marked differences in the way WT and Kcnb1R312H(+/+) neurons modulate the remodeling of the actin cytoskeleton",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the arginine to histidine replacement",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "conducting properties not affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the electrical properties of Kcnb1R312H(+/+) pyramidal neurons are similar to those of WT neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "non-conducting (non-ionic) mechanisms can underlie disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv channels can cause multiple conditions, including epileptic seizures, through mechanisms that do not involve their conducting functions",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

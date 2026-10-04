@@ -1,0 +1,136 @@
+{
+  "pmid": "27281533",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eighteen patients (38%) had myoclonic epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other patients carried diagnoses of focal (25%), multifocal (2%), generalized (4%), and unclassified epilepsy (6%), and early-onset epileptic encephalopathy (25%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "multifocal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other patients carried diagnoses of focal (25%), multifocal (2%), generalized (4%), and unclassified epilepsy (6%), and early-onset epileptic encephalopathy (25%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other patients carried diagnoses of focal (25%), multifocal (2%), generalized (4%), and unclassified epilepsy (6%), and early-onset epileptic encephalopathy (25%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "unclassified epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other patients carried diagnoses of focal (25%), multifocal (2%), generalized (4%), and unclassified epilepsy (6%), and early-onset epileptic encephalopathy (25%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The other patients carried diagnoses of focal (25%), multifocal (2%), generalized (4%), and unclassified epilepsy (6%), and early-onset epileptic encephalopathy (25%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients had drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "seven highly conserved motifs; most common pathogenic mutation located in the first motif",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In silico evaluation revealed 7 different highly conserved motifs, with the most common pathogenic mutation located in the first.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "neuronal outgrowth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuronal outgrowth assays showed that some TBC1D24 mutations, associated with the most severe TBC1D24-associated disorders, are not necessarily the most disruptive to this gene function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "multisystem involvement",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24-related epilepsy syndromes show marked phenotypic pleiotropy, with multisystem involvement",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "isolated deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "isolated deafness (not studied here)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "benign myoclonic epilepsy restricted to childhood with complete seizure control and normal intellect",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "benign myoclonic epilepsy restricted to childhood with complete seizure control and normal intellect",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy with severe developmental delay and early death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epileptic encephalopathy with severe developmental delay and early death",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

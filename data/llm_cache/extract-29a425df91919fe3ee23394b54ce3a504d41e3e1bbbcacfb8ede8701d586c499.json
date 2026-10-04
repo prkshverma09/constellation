@@ -1,0 +1,86 @@
+{
+  "pmid": "38655597",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal altered consciousness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal altered consciousness (n = 8)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders (eye-head movements, ataxia, spasticity, weakness, involuntary movement)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders (n = 35) (eye-head movements, ataxia, spasticity, weakness, involuntary movement)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "dysaesthesia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysaesthesia (n = 8)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "vomiting",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vomiting (n = 6)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "situation-related seizures provoked by prolonged fasting or exercise",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-epileptic seizures due to transient brain dysfunction caused by energy deficiency after prolonged fasting or exercise in individuals with glucose transporter type 1 deficiency syndrome (Glut1DS)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "absence of complete consciousness loss and rapid postictal recovery despite prolonged seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Non-epileptic seizures can be distinguished from epileptic seizures by the absence of complete consciousness loss and rapid postictal recovery despite prolonged seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet therapy was effective in 33 of 43 (77%) non-epileptic seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "supplementary food",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Providing supplementary food before high-impact exercise or during attacks prevented or mitigated non-epileptic seizures in some individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

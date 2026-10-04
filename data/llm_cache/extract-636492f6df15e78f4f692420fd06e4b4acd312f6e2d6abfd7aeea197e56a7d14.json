@@ -1,0 +1,26 @@
+{
+  "pmid": "35420219",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the vesicular SNARE VAMP-2, a direct α-Syn interactor,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the striatal levels of the vesicular SNARE VAMP-2, a direct α-Syn interactor, and of the transmembrane SNARE synaptosome-associated protein 23 (SNAP-23), that promotes glutamate synaptic vesicles release, were markedly decreased in mutant mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

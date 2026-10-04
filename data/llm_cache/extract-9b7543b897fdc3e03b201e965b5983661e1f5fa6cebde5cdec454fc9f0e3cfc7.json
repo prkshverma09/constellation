@@ -1,0 +1,16 @@
+{
+  "pmid": "25818041",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy related to mutations in the SCN1A, SCN2A, SCN8A, KCNQ2, STXBP1, PCDH19, and SLC9A6 genes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

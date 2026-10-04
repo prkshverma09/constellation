@@ -1,0 +1,116 @@
+{
+  "pmid": "31387522",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo loss of function mutations in STXBP1 are a relatively common cause of epilepsy and intellectual disability (ID).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "impairments across all assessed domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The STXBP1 group demonstrated impairments across all assessed domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "global adaptive impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the STXBP1 group had more severe global adaptive impairments, fine motor difficulties, and hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "fine motor difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the STXBP1 group had more severe global adaptive impairments, fine motor difficulties, and hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the STXBP1 group had more severe global adaptive impairments, fine motor difficulties, and hyperactivity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "receptive language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severity of receptive language and social impairments discriminated the STXBP1 group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "social impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severity of receptive language and social impairments discriminated the STXBP1 group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "preservation of social motivation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "was preservation of social motivation.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "complex and variable neurodevelopmental impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo mutations in STXBP1 are associated with complex and variable neurodevelopmental impairments.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

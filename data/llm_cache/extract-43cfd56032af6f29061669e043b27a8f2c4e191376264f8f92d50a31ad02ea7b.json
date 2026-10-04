@@ -1,0 +1,26 @@
+{
+  "pmid": "41678336",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pairs with syntaxin-1 and VAMP2 in synaptic vesicle fusion",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The SNAP25 condensates recruit syntaxin-1 and VAMP2 to form ternary coacervates, facilitating the assembly of the SNARE complexes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

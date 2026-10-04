@@ -1,0 +1,106 @@
+{
+  "pmid": "39232000",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we modeled MECP2 loss-of-function to explore its effects on astrocyte (AST) development and dysfunction in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "human embryonic stem cell (hESC) lines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using human embryonic stem cell (hESC) lines, we modeled MECP2 loss-of-function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "hESC-derived cerebral organoids",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ultrastructural analysis of RTT hESC-derived cerebral organoids revealed significantly smaller mitochondria compared to controls (CTRs), particularly pronounced in glia versus neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "smaller mitochondria in RTT hESC-derived cerebral organoids, particularly in glia versus neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ultrastructural analysis of RTT hESC-derived cerebral organoids revealed significantly smaller mitochondria compared to controls (CTRs), particularly pronounced in glia versus neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "increased gene expression and accessibility of a subset of nuclear-encoded mitochondrial genes in MECP2-mutant astrocytes versus neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we observed increased gene expression and accessibility of a subset of nuclear-encoded mitochondrial genes upon mutation of MECP2 in ASTs compared to neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "reduced mitochondrial respiration and altered key proteins in the tricarboxylic acid cycle and electron transport chain in RTT astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Analysis of hESC-derived ASTs showed reduced mitochondrial respiration and altered key proteins in the tricarboxylic acid cycle and electron transport chain in RTT versus CTRs.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "increased cytosolic amino acids under basal conditions, depleted upon increased energy demands in RTT astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RTT ASTs exhibited increased cytosolic amino acids under basal conditions, which were depleted upon increased energy demands.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "increased reactive oxygen species in mitochondria isolated from RTT astrocytes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, mitochondria isolated from RTT ASTs exhibited increased reactive oxygen species",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "RTT astrocyte mitochondria influence neuronal activity when transferred to cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mitochondria isolated from RTT ASTs exhibited increased reactive oxygen species and influenced neuronal activity when transferred to cortical neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "dysfunctional AST mitochondria may contribute to RTT pathophysiology by affecting neuronal health",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that dysfunctional AST mitochondria may contribute to RTT pathophysiology by affecting neuronal health.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

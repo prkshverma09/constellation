@@ -1,0 +1,26 @@
+{
+  "pmid": "26933583",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "nonsyndromic intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations on N-methyl-D-aspartate (NMDA) receptors subunit GRIN1 (GluN1) identified in patients with nonsyndromic intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations on N-methyl-D-aspartate (NMDA) receptors subunit GRIN1 (GluN1) identified in patients with nonsyndromic intellectual disability and early-onset epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

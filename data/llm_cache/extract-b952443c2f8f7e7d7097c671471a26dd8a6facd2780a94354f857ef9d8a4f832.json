@@ -1,0 +1,46 @@
+{
+  "pmid": "33262389",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19-related epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense and truncating variants in protocadherin 19 (PCDH19) cause PCDH19-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The distribution of missense variants in patients was clearly different from that of healthy individuals and was uniform throughout the extracellular cadherin (EC) domain, which consisted of six highly conserved domains.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "later onset seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later onset seizures and milder intellectual disability occurred in patients with truncating variants located from EC domain 5 to the cytoplasmic domain",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "milder intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later onset seizures and milder intellectual disability occurred in patients with truncating variants located from EC domain 5 to the cytoplasmic domain",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

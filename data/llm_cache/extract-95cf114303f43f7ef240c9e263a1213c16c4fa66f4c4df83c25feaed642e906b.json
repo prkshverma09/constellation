@@ -1,0 +1,126 @@
+{
+  "pmid": "28357411",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo missense and splice site GNAO1 mutations",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early childhood onset (median age 10 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients first presented in early childhood (median age of presentation 10 months, range 0-48 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe motor and cognitive impairment with marked choreoathetosis, self-injurious behavior, and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe motor and cognitive impairment with marked choreoathetosis, self-injurious behavior, and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "moderate developmental delay with complex stereotypies, mainly facial dyskinesia, and mild epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a milder phenotype, featuring moderate developmental delay associated with complex stereotypies, mainly facial dyskinesia and mild epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movements exacerbated by triggers (voluntary movement, illness, emotion, high ambient temperature)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hyperkinetic movements were often exacerbated by specific triggers, such as voluntary movement, intercurrent illnesses, emotion, and high ambient temperature, leading to hospital admissions",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "most patients resistant to drug intervention",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients were resistant to drug intervention",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "tetrabenazine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tetrabenazine was effective in partially controlling dyskinesia for 2/7 patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep brain stimulation (DBS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Emergency deep brain stimulation (DBS) was life saving in 1 patient, resulting in immediate clinical benefit with complete cessation of violent hyperkinetic movements",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "five patients had well-controlled epilepsy; one had drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five patients had well-controlled epilepsy and 1 had drug-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "structural brain abnormalities including mild cerebral atrophy and corpus callosum dysgenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Structural brain abnormalities, including mild cerebral atrophy and corpus callosum dysgenesis, were evident in 5 patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "diffuse astrocytoma (WHO grade II) in one patient",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One patient had a diffuse astrocytoma (WHO grade II), surgically removed at age 16",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "expanded spectrum of early-onset epilepsy and movement disorders causally related to GNAO1 mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings support the causative role of GNAO1 mutations in an expanded spectrum of early-onset epilepsy and movement disorders, frequently exacerbated by specific triggers and at times associated with self-injurious behavior",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "40290421",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Causative variants in SLC2A1, SCN1A, STXBP1 and PAFAH1B1 showed significant diet response (P < 0.05)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

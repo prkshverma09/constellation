@@ -1,0 +1,56 @@
+{
+  "pmid": "23754617",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cell cycle progression and DNA repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A is a member of cohesin complex which has essential functions in cell cycle progression and DNA repair.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "siRNA-mediated SMC1A silencing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the lentivirus-mediated RNAi system efficiently decreased the expression level of SMC1A.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "proliferation and colony formation of U251 and U87MG cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inhibiting SMC1A expression efficiently (P < 0.001) resulted in inhibiting the proliferation and colony formation of U251 and U87MG cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "S cell-cycle arrest",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A silencing led to S cell-cycle arresting.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "siRNA-mediated silencing as a therapeutic tool for glioblastoma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Collectively, these results demonstrated the possibility of siRNA-mediated silencing of SMC1A as a therapeutic tool for the treatment of glioblastoma.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

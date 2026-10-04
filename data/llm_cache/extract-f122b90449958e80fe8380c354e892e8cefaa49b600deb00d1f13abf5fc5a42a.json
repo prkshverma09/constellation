@@ -1,0 +1,116 @@
+{
+  "pmid": "41427333",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "repressor of the mTORC1 signaling pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 (DEP domain-containing protein 5) encodes a repressor of the mTORC1 signaling pathway.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in DEPDC5 are associated with a range of focal epilepsies,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia (FCD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including mosaic variants associated with focal cortical dysplasia (FCD) and other focal brain malformations",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mosaic depdc5 loss-of-function zebrafish models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "mosaic depdc5 CRISPants (zebrafish)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The resulting mosaic depdc5 CRISPants demonstrated early larval death, with ~50% of CRISPants (vs. 10% of controls) dead by 7 days post fertilization (dpf),",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "reduced body and head size",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Body and head size were reduced in the depdc5 CRISPants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "reduced distance traveled and maximum velocity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Analysis of swimming behavior showed a striking reduction in distance traveled and maximum velocity in the depdc5 CRISPants vs. controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "increased episodes of posture loss in depdc5++ CRISPants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "depdc5++ CRISPants had increased episodes of posture loss,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "increased seizure-like behavior related to higher percentages of mutant cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting increased seizure-like behavior related to higher percentages of mutant cells.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "increased neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Local field potential recordings revealed increased neuronal hyperexcitability in depdc5 CRISPants vs. controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "early apoptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Acridine orange staining demonstrated early apoptosis in the CRISPants vs. controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

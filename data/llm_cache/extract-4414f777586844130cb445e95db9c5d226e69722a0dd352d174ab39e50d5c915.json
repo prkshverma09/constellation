@@ -1,0 +1,16 @@
+{
+  "pmid": "22554690",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "SPG30",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A (SPG30)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

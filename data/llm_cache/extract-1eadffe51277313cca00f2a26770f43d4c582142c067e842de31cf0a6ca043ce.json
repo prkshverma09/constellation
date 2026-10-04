@@ -1,0 +1,26 @@
+{
+  "pmid": "39907163",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "lower CSF SNAP25 in MS compared to AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Compared to AD, MS had higher CSF sCD27 (p < 0.001) but lower serum CHI3L1 and GFAP, and CSF OPN and SNAP25 (all p < 0.05).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "no difference in SNAP25 between RRMS and PPMS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Soluble and post-mortem tissue biomarkers did not differ between pwRRMS and pwPPMS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,96 @@
+{
+  "pmid": "34161333",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "severe epilepsy and global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo pathogenic missense variant in GRIA3 (c.1979G>C; p. R660T) identified in a 1-year-old female patient with severe epilepsy and global developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo pathogenic missense variant in GRIA3 (c.1979G>C; p. R660T)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a gain of function (GoF) variant in GRIA3 may cause epileptic encephalopathy and global developmental delay in a female subject by enhancing synaptic transmission.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "slower desensitization and deactivation kinetics",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GLUA3_R660T showed slower desensitization and deactivation kinetics compared to wildtype (wt) GLUA3 receptors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "substantial non-desensitized currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Substantial non-desensitized currents were observed with the mutant but not for wt GLUA3 with prolonged exposure to glutamate.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "slowed decay kinetics with non-desensitized steady state currents when co-expressed with GLUA2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When co-expressed with GLUA2, the decay kinetics were similarly slowed in GLUA2/A3_R660T with non-desensitized steady state currents.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "slower miniature excitatory postsynaptic currents (mEPSCs) in transfected neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In cultured cerebellar granule neurons, miniature excitatory postsynaptic currents (mEPSCs) were significantly slower in R660T transfected cells than those expressing wt GLUA3.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "overexpressed in hippocampal CA1 neurons by in utero electroporation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "When overexpressed in hippocampal CA1 neurons by in utero electroporation, the evoked EPSCs and mEPSCs were slower in neurons expressing R660T mutant compared to those expressing wt GLUA3.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "slower evoked EPSCs and mEPSCs in CA1 neurons expressing R660T",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the evoked EPSCs and mEPSCs were slower in neurons expressing R660T mutant compared to those expressing wt GLUA3.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

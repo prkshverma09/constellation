@@ -1,0 +1,86 @@
+{
+  "pmid": "37887313",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "seizures, motor dysfunction, and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "De novo mutations in GNAO1, the gene encoding the major neuronal G protein Gαo, cause a spectrum of pediatric encephalopathies with seizures, motor dysfunction, and developmental delay.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of the >80 distinct missense pathogenic variants, many appear to uniformly destabilize the guanine nucleotide handling of the mutant protein, speeding up GTP uptake and deactivating GTP hydrolysis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "destabilize the guanine nucleotide handling of the mutant protein, speeding up GTP uptake and deactivating GTP hydrolysis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "many appear to uniformly destabilize the guanine nucleotide handling of the mutant protein, speeding up GTP uptake and deactivating GTP hydrolysis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "Zinc supplementation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zinc supplementation emerges as a promising treatment option for this disease, as Zn2+ ions reactivate the GTP hydrolysis on the mutant Gαo and restore cellular interactions for some of the mutants studied earlier.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identify two unrelated patients from Norway and France with a previously unknown mutation in GNAO1, c.509C>G that results in the production of the Pro170Arg mutant Gαo, leading to severe developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel, biochemically distinct pathogenic missense variant of GNAO1",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "100-fold-accelerated GTP uptake is not accompanied by a loss in GTP hydrolysis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Its 100-fold-accelerated GTP uptake is not accompanied by a loss in GTP hydrolysis;",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "Zn2+ ions induce ... forcing it to lose the bound GTP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Zn2+ ions induce a previously unseen effect on the mutant, forcing it to lose the bound GTP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

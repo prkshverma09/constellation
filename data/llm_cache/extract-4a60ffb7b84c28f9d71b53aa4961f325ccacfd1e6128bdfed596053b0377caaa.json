@@ -1,0 +1,166 @@
+{
+  "pmid": "39093319",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant or sporadic sleep-related hypermotor epilepsy [(AD)SHE]",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal dominant or sporadic sleep-related hypermotor epilepsy [(AD)SHE]",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different types of developmental and epileptic encephalopathies (DEE)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global developmental delays",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KD resulted in benefit in 62.5% (25/40)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "all types of CBD resulted in benefit in 50% (6/12)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "QUIN resulted in benefit in 44.6% (25/56)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "we found only one report of treatment with KD, with no benefit noted.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "QUIN was trialed in 8 patients with no reported benefit.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KD resulted in benefit for 4/7, CBD for 1/2, and QUIN for 6/9.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KD resulted in benefit for 4/7, CBD for 1/2, and QUIN for 6/9.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KD resulted in benefit for 4/7, CBD for 1/2, and QUIN for 6/9.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "conventional anti-seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In all groups, conventional ASM are rarely reported as beneficial (in 5%-25% of patients).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet; cannabidiol; quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet, CBD, and QUIN treatments appear to be beneficial in a subset of patient with drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet; cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KD and CBD are reasonable to trial in patients with KCNT1-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

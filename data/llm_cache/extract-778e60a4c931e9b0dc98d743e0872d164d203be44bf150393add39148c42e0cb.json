@@ -1,0 +1,16 @@
+{
+  "pmid": "36895957",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "neuropathic pain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rare variant association testing showed a significant difference in distribution for genes NGF, KIF1A, SCN8A, TRPM8, KIF1A, TRPA1 and the regulatory regions of genes SCN11A, FLVCR1, KIF1A and SCN9A between European participants with neuropathic pain and controls.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

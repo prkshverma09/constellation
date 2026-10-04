@@ -1,0 +1,16 @@
+{
+  "pmid": "37254524",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "gene_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(1) VAMP2_rs1150 (3' UTR) was predicted as a target of hsa-mir-5010-3p miRNA, possibly disrupting its own gene expression;",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

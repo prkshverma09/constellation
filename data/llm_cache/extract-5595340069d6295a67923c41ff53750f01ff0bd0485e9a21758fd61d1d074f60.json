@@ -1,0 +1,76 @@
+{
+  "pmid": "38681799",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "α1 subunit of the P/Q-type calcium channel Cav2.1; globally expressed in the brain and crucial for fast synaptic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This gene encodes the α1 subunit of the P/Q-type calcium channel Cav2.1, which is globally expressed in the brain and crucial for fast synaptic neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "across both loss-of-function and gain-of-function variants",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "across both loss-of-function and gain-of-function variants",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure types: absence seizures; focal seizures with altered consciousness; generalized tonic-clonic seizures; tonic seizures; status epilepticus; infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and includes absence seizures, focal seizures with altered consciousness, generalized tonic-clonic seizures, tonic seizures, status epilepticus, and infantile spasms.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies; familial hemiplegic migraine type 1; episodic ataxia type 2; spinocerebellar ataxia type 6; developmental delay; ataxia; intellectual disability; autism spectrum disorder; language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The broad spectrum of CACNA1A-related neurological disorders includes developmental and epileptic encephalopathies, familial hemiplegic migraine type 1, episodic ataxia type 2, spinocerebellar ataxia type 6, together with unclassified presentations with developmental delay, ataxia, intellectual disability, autism spectrum disorder, and language impairment.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsies refractory to current therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "over half of CACNA1A-related epilepsies are refractory to current therapies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "model",
+      "object_text": "patient-derived induced pluripotent stem cells and novel disease models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the Foundation has built a robust preclinical toolbox that includes patient-derived induced pluripotent stem cells and novel disease models",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

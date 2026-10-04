@@ -1,0 +1,16 @@
+{
+  "pmid": "18302128",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "pervasive developmental disorders and epilepsy, epileptiform activity and subclinical seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "by means of molecular genetic studies and studies of candidate genes (FOXP2, WNT2, subunits of GABA receptors, neuroligins, ARX, SCN1A, SCN2A, MECP2, CDKL5 and DLX5).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

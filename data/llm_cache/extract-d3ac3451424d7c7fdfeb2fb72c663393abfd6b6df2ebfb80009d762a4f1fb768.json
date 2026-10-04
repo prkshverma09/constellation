@@ -1,0 +1,136 @@
+{
+  "pmid": "34139551",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "first_symptom_by_age_one_year",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nearly all (99%) reported the first symptom of concern by age one year",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypotonia (68%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental_delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All caregivers reported developmental delays with a spectrum of severity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement_disorders_more_common_than_epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Movement disorders (76%) were more common than epilepsy (52%),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy (52%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "cooccurrence_epilepsy_and_movement_disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "although 33% reported both.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "seizures_onset_earlier_than_movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset of seizures tended to be earlier than abnormal movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "seizure_remission_in_some_individuals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nearly half (48%) of those with any seizures, reported they were no longer having recurrent seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "no_single_most_effective_medication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "No single most effective medication for movement disorders or epilepsy was noted.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "deep_brain_stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten participants have had deep brain stimulator for their movement disorder, and all indicated positive effects.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "early_presentation_with_nonspecific_symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-related neurodevelopmental disorders most often present within the first year of life with nonspecific symptoms of hypotonia or developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy_and_movement_disorders_can_be_severe",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Although associated epilepsy and movement disorders can be severe,",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy_may_not_always_be_medically_refractory_or_lifelong",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1-associated epilepsy may not always be medically refractory or lifelong.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

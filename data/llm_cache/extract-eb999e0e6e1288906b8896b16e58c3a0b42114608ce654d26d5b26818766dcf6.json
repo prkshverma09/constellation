@@ -1,0 +1,96 @@
+{
+  "pmid": "37239332",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive and dominant spastic paraplegia 30 (SPG, OMIM610357)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants are responsible for autosomal recessive and dominant spastic paraplegia 30 (SPG, OMIM610357)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive hereditary sensory and autonomic neuropathy type 2 (HSN2C, OMIM614213)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants are responsible for autosomal recessive and dominant spastic paraplegia 30 (SPG, OMIM610357), autosomal recessive hereditary sensory and autonomic neuropathy type 2 (HSN2C, OMIM614213)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant neurodegeneration and spasticity with or without cerebellar atrophy or cortical visual impairment (NESCAV syndrome)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants are responsible for autosomal recessive and dominant spastic paraplegia 30 (SPG, OMIM610357), autosomal recessive hereditary sensory and autonomic neuropathy type 2 (HSN2C, OMIM614213), and autosomal dominant neurodegeneration and spasticity with or without cerebellar atrophy or cortical visual impairment (NESCAV syndrome), formerly named mental retardation type 9 (MRD9) (OMIM614255).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "progressive encephalopathy with brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants have also been occasionally linked with progressive encephalopathy with brain atrophy",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "progressive neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants have also been occasionally linked with progressive neurodegeneration",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "PEHO-like syndrome (progressive encephalopathy with edema, hypsarrhythmia, optic atrophy)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants have also been occasionally linked with PEHO-like syndrome (progressive encephalopathy with edema, hypsarrhythmia, optic atrophy)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "Rett-like syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A variants have also been occasionally linked with Rett-like syndrome",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "Polish patients with confirmed heterozygous pathogenic and potentially pathogenic KIF1A variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The first Polish patients with confirmed heterozygous pathogenic and potentially pathogenic KIF1A variants were analyzed.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "age of onset ranged from 6 weeks to 2 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of onset of the disease ranged from 6 weeks to 2 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

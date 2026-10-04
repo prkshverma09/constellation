@@ -1,0 +1,56 @@
+{
+  "pmid": "26241338",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "CACNA2D2 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2 knockout mice have spontaneous seizures and increased PTZ seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "Decreased CACNA2D2 mRNA in mice that lacked TSP1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased CACNA2D2 mRNA was only detected in mice that lacked TSP1",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "low CACNA2D2 mRNA expression associated with increased seizure susceptibility in TSP1 and TSP1/2 KO mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we report similar findings, TSP1, and TSP1/2 KO mice have low levels of CACNA2D2 mRNA expression and α2δ-1/2 receptor level in the cortex, and are more susceptible to seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "TSP1 may control CACNA2D2 levels and modify seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data suggest TSP1 in particular may control CACNA2D2 levels and could be a modifier of seizure susceptibility.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA2D2 mutations in mice and humans can cause epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

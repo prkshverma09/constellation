@@ -1,0 +1,16 @@
+{
+  "pmid": "25455059",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic-astatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One patient was found to have a mutation in SLC2A1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

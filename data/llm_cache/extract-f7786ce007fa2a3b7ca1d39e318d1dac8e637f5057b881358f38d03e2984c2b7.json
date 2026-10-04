@@ -1,0 +1,96 @@
+{
+  "pmid": "36979350",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "most variants associated with FS are harbored in the γ2 subunit (GABRG2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The loss of GABAA receptor function and dominant negative effect on GABAA receptor biogenesis likely caused the FS phenotype.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dominant negative effect on GABAA receptor biogenesis",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two-thirds of the GABRG2 variants followed the expected autosomal dominant inheritance in FS and occurred as missense and nonsense variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "receptor biogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we characterized the effects of eight variants in the GABAA receptor γ2 subunit on receptor biogenesis and channel function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "channel function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we characterized the effects of eight variants in the GABAA receptor γ2 subunit on receptor biogenesis and channel function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy with febrile seizures plus (GEFS+)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from asymptomatic, FS, genetic epilepsy with febrile seizures plus (GEFS+), and Dravet syndrome individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from asymptomatic, FS, genetic epilepsy with febrile seizures plus (GEFS+), and Dravet syndrome individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from asymptomatic, FS, genetic epilepsy with febrile seizures plus (GEFS+), and Dravet syndrome individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

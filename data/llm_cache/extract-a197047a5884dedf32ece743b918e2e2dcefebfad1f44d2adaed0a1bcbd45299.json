@@ -1,0 +1,86 @@
+{
+  "pmid": "34791091",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 stands out for its frequency and penetrance of loss-of-function variants found in patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "mouse models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 haploinsufficiency in mouse models",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "increased baseline gamma oscillation power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased baseline gamma oscillation power",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "increased theta/gamma phase amplitude coupling following stimulus presentation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased theta/gamma phase amplitude coupling following stimulus presentation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "abnormal neural entrainment in response to different sensory modality-specific frequencies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal neural entrainment in response to different sensory modality-specific frequencies",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "lack of habituation to repetitive auditory stimuli",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lack of habituation to repetitive auditory stimuli",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "abnormal deviant sound detection",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal deviant sound detection",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sensory-processing alterations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we found that most of these alterations are present in human patients as well",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

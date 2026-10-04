@@ -1,0 +1,146 @@
+{
+  "pmid": "37502687",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autistic spectrum disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic spectrum of SLC6A1-related neurodevelopmental disorders (SLC6A1-NDD) includes intellectual disability (ID), autistic spectrum disorders (ASD), epilepsy, developmental delay, beginning from early infancy or after seizure onset, and other neurological features such as hypotonia and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (generalized seizures) reported in 71% of probands and 36% of relatives",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(a) epilepsy, mainly presenting with generalized seizures, reported in 71% of probands and 36% of siblings or first/second-degree relatives.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability reported in 100% of probands and 13% of relatives",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(b) ID reported in 100% and in 13% of probands and siblings or first/second-degree relatives, respectively;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "learning disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(c) learning disabilities detected in 28% of the SLC6A1 carriers, all of them were relatives of a proband;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric symptoms or behavioral disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(d) around 51% of the whole cohort presented with psychiatric symptoms or behavioral disorders, including 82% of the probands.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "ASD diagnosed in 40% of those with psychiatric symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Out of the 19 patients with psychiatric symptoms, ASD were diagnosed in 40% of them;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "neurological findings (primarily tremor and speech difficulties) observed in 38.5% of cohort",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(e) neurological findings (primarily tremor and speech difficulties) were observed 38.5% of the whole cohort, including 10 probands.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our families harbored 12 different SLC6A1 variants, one was a frameshift, two stop-gain, while the remaining were missense.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual and/or learning disabilities in first- or second-degree relatives (less severe phenotype)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "first-or second-degree relatives presented with a less severe phenotype, featuring mainly mild intellectual and/or learning disabilities, at variance with the probands who suffered from moderate to severe ID, generalized, sometimes intractable, epileptic seizures, behavioral and psychiatric disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

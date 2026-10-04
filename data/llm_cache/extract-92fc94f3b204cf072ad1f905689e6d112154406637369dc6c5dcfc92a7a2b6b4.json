@@ -1,0 +1,66 @@
+{
+  "pmid": "23343561",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "benign familial infantile epilepsy (BFIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the gene PRRT2 encoding proline-rich transmembrane protein 2 have recently been identified as the cause of three clinical entities: benign familial infantile epilepsy (BFIE), infantile convulsions with choreoathetosis (ICCA) syndrome, and paroxysmal kinesigenic dyskinesia (PKD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile convulsions with choreoathetosis (ICCA) syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the gene PRRT2 encoding proline-rich transmembrane protein 2 have recently been identified as the cause of three clinical entities: benign familial infantile epilepsy (BFIE), infantile convulsions with choreoathetosis (ICCA) syndrome, and paroxysmal kinesigenic dyskinesia (PKD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal kinesigenic dyskinesia (PKD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the gene PRRT2 encoding proline-rich transmembrane protein 2 have recently been identified as the cause of three clinical entities: benign familial infantile epilepsy (BFIE), infantile convulsions with choreoathetosis (ICCA) syndrome, and paroxysmal kinesigenic dyskinesia (PKD).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The vast majority of these mutations are truncating and are predicted to lead to haploinsufficiency.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "interaction with SNAP-25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It is expressed in the brain and has been demonstrated to interact with SNAP-25, a component of the molecular machinery involved in the release of neurotransmitters at the presynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "release of neurotransmitters at the presynaptic membrane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Therefore, the PRRT2 protein may play a role in this process.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

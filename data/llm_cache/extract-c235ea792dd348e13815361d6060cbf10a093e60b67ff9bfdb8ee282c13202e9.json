@@ -1,0 +1,146 @@
+{
+  "pmid": "38309639",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "gait disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "personality changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "personality changes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "autoimmune encephalitis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autoimmune encephalitis",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "atypical dementia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "atypical dementia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "new-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "new-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "unexplained epileptic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "unexplained epileptic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "underlying tumor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 autoantibodies occurred in less than 10 % in association with an underlying tumor",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "binding in cerebellum, hippocampus and juxtaparanodal regions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 autoantibodies bound to characteristic anatomical areas in the cerebellum and hippocampus of mammalian brain and juxtaparanodal regions of peripheral nerves",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "intracellular epitopes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reacted exclusively with intracellular epitopes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "immunotherapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A subset of four KCNA2 autoantibody-positive patients responded markedly to immunotherapy alongside with conversion to seronegativity",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "early immunotherapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early immunotherapy should be considered",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

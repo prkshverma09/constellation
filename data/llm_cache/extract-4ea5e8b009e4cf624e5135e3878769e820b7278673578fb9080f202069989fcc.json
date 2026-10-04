@@ -1,0 +1,146 @@
+{
+  "pmid": "24731847",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "dosage-sensitive gene encoding G1, a forkhead protein that is a brain-specific transcription factor with a role in brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 was described as a dosage-sensitive gene encoding G1, a forkhead protein that is a brain-specific transcription factor with a role in brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay of variable severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay of variable severity",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "delayed/absent speech",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed/absent speech",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy/infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy/infantile spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasm (frequent seizure type)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At onset, the more frequent seizure type in the report and also in our patient is the epileptic spasm.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures (might be present)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizures might also be present.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures tend to disappear (remission)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures tend to disappear",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "stagnation of cognitive development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stagnation of cognitive development is evident in all of them",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe speech difficulties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe speech difficulties",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures with onset during the first year of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures with onset during the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "clusters of spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "particularly clusters of spasms and focal seizures with hypsarrhythmic electroencephalograph pattern",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures with hypsarrhythmic electroencephalograph pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal seizures with hypsarrhythmic electroencephalograph pattern",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "behavior disturbances (possibly associated)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "possibly associated with behavior disturbances",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features in the absence of significant microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysmorphic features in the absence of significant microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "41902602",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "severe pediatric encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GNAO1 disorder a severe pediatric encephalopathy associated with mutations in a gene encoding G protein subunit Gαo, a key transducer of neuromodulatory responses mediated by a vast number of G protein-coupled receptors.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "transducer of neuromodulatory responses mediated by G protein-coupled receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a gene encoding G protein subunit Gαo, a key transducer of neuromodulatory responses mediated by a vast number of G protein-coupled receptors.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a severe dominant negative GNAO1 variant G203R",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "model",
+      "object_text": "conditional knock-in mouse model of GNAO1 G203R",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "creating a conditional knock-in mouse model of a severe dominant negative GNAO1 variant G203R that allows circuit-specific induction of the mutation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "motor and epileptic manifestations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "parsing out circuit-specific contributions of Gαo dysfunction to motor and epileptic manifestations across neurons in striatum and forebrain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "impact on synaptic transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "documented the impact on synaptic transmission.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "caffeine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using caffeine, which effectively rescued motor abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "maintaining neural circuit homeostasis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the essential role of Gαo in maintaining neural circuit homeostasis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

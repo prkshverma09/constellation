@@ -1,0 +1,26 @@
+{
+  "pmid": "37898037",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Slc6a1-OPCs sub-cluster in hippocampus of db-/- diabetic mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More in-depth analysis of oligodendrocyte precursor cells(OPCs) showed five distinct OPCs sub-clusters including expressing marker gene Lingo2-OPCs, Kcnc1-OPCs, Sst-OPCs, Slc6a1-OPCs and Lhfpl3-OPCs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "proliferate, migrate, and finally differentiate into mature oligodendrocytes and produce myelin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1-OPCs and Lhfpl3-OPCs, which seems to be able to proliferate, migrate, and finally differentiate into mature oligodendrocytes and produce myelin.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

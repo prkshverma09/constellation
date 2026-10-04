@@ -1,0 +1,106 @@
+{
+  "pmid": "39416860",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.991C>A (amino acid change: p.Ser304Tyr) in the WWOX gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures in infants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by the onset of refractory seizures in infants.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "electroencephalography abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electroencephalography abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay or degeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay or degeneration",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "Early death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Early death can occur in severe cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "mental and motor retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mental and motor retardation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "hearing impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hearing impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "death at 6 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient died at 6 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

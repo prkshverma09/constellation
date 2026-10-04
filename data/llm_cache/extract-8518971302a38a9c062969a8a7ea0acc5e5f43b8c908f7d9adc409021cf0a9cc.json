@@ -1,0 +1,26 @@
+{
+  "pmid": "41484767",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "intersecting target between TXA and EP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TXA poses a neurotoxicity risk, with 51 intersecting targets identified between TXA and EP, among which GABRA1, GABBR2, GABRA5, GABRA2, and GAD1 exhibited the greatest relevance.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "disruption of GABA signaling and synaptic function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Analysis revealed that TXA induces EP by disrupting GABA signaling and synaptic function.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

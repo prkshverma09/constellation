@@ -1,0 +1,136 @@
+{
+  "pmid": "42017314",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "human GOF GABRB3 p.(Glu77Lys) variant (β3E77K)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "model",
+      "object_text": "novel mouse model based on the human GOF GABRB3 p.(Glu77Lys) variant (β3E77K)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We engineered a novel mouse model based on the human GOF GABRB3 p.(Glu77Lys) variant (β3E77K), identified in two individuals diagnosed with DEE, to explore the mechanisms underlying GABAA receptor GOF disease.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "embryonic lethality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypes of β3E77K mice included embryonic lethality consistent with a severe early developmental impact of the GOF GABAA receptor variant.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "vigabatrin exacerbates spike-wave-like discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spike-wave-like discharges that were exacerbated by vigabatrin and ameliorated by valproate",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "valproate ameliorates spike-wave-like discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spike-wave-like discharges that were exacerbated by vigabatrin and ameliorated by valproate",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "increased proconvulsant-induced seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "β3E77K mice also have increased proconvulsant-induced seizure susceptibility and a broad increase in ECoG spectral power amplitude, indicative of cortical hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "broad increase in ECoG spectral power amplitude indicative of cortical hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a broad increase in ECoG spectral power amplitude, indicative of cortical hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "hypoactivity and weakened grip-strength",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Additionally, neurological assessments revealed hypoactivity and weakened grip-strength.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased GABAA receptor-mediated current amplitudes at both excitatory and inhibitory synapses in CA1 hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ex-vivo electrophysiological recordings demonstrated increased GABAA receptor-mediated current amplitudes at both excitatory and inhibitory synapses in CA1 hippocampus, consistent with the GOF molecular phenotype previously identified in functional studies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "in cortical layer 2/3, interneurons showed increased synaptic GABAA currents while pyramidal neurons exhibited reduced inhibitory currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In cortical layer 2/3, inhibitory interneurons showed increased synaptic GABAA receptor-mediated current amplitude, while synapses onto pyramidal neurons exhibited reduced inhibitory currents.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "use-dependent collapse of feed-forward inhibition resulting in increased pyramidal neuron excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Enhanced GABAA receptor-mediated synaptic activity among layer 2/3 interneuron populations caused a use-dependent collapse of feed-forward inhibition resulting in increased pyramidal neuron excitability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "interneuron network dysfunction drives cortical hyperexcitability caused by GOF GABAA receptor variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings highlight the critical role of interneuron network dysfunction in driving cortical hyperexcitability caused by GOF GABAA receptor variants.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "variant identified in two individuals diagnosed with DEE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified in two individuals diagnosed with DEE",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

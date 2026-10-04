@@ -1,0 +1,126 @@
+{
+  "pmid": "36231081",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the SCN1A gene can cause a variety of phenotypes, ranging from mild forms, such as febrile seizures and generalized epilepsy with febrile seizures plus, to severe, such as Dravet and non-Dravet developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the SCN1A gene can cause a variety of phenotypes, ranging from mild forms, such as febrile seizures and generalized epilepsy with febrile seizures plus, to severe, such as Dravet and non-Dravet developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the SCN1A gene can cause a variety of phenotypes, ranging from mild forms, such as febrile seizures and generalized epilepsy with febrile seizures plus, to severe, such as Dravet and non-Dravet developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "non-Dravet developmental epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the SCN1A gene can cause a variety of phenotypes, ranging from mild forms, such as febrile seizures and generalized epilepsy with febrile seizures plus, to severe, such as Dravet and non-Dravet developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different pathogenic mechanisms (loss vs. gain of function) described",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "different pathogenic mechanisms (loss vs. gain of function) described",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "involvement of other genetic factors in its final expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the phenotypic variability proves the involvement of other genetic factors in its final expression.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "animal models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "animal models and cell line models used to explore the molecular pathology of SCN1A-related disorders are only of limited use.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "cell line models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "animal models and cell line models used to explore the molecular pathology of SCN1A-related disorders are only of limited use.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "patient-derived iPSCs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The generation of functional neurons and glia for patient-derived iPSCs",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "isogenic controls using CRISPR/Cas technology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the generation of isogenic controls using CRISPR/Cas technology",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "3D brain organoid models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the 3D brain organoid models",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

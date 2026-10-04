@@ -1,0 +1,76 @@
+{
+  "pmid": "35393335",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "subunit of the N-methyl-D-aspartate receptor (NMDAR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genes which encode for subunits of the N-methyl-D-aspartate receptor (NMDAR).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "malformations of cortical development (MCDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Malformations of cortical development (MCDs) have been reported in a subset of patients with pathogenic heterozygous variants in GRIN1 or GRIN2B, genes which encode for subunits of the N-methyl-D-aspartate receptor (NMDAR).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "diffuse dysgyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic basal ganglia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic hippocampi",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous variants in GRIN1 and GRIN2B were associated with overlapping severe clinical and imaging features, including global developmental delay, epilepsy, diffuse dysgyria, dysmorphic basal ganglia and hippocampi.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

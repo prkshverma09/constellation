@@ -1,0 +1,36 @@
+{
+  "pmid": "31321301",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a GABAA receptor subunit gamma2 pathogenic variant (GABRG2[R43Q])",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "increased fMRI connectivity within the somatosensory cortex and between the putamen and ventral thalamus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased fMRI connectivity within the somatosensory cortex and between the putamen and ventral thalamus",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures and generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "raising risk of febrile seizures and generalized epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

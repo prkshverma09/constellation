@@ -1,0 +1,16 @@
+{
+  "pmid": "28880996",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "DS-like phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genes that have been reported to cause DS-like phenotypes include SCN2A, SCN8A, SCN9A, SCN1B, PCDH19, GABRA1, GABRG2, STXBP1, HCN1, CHD2, and KCNA2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

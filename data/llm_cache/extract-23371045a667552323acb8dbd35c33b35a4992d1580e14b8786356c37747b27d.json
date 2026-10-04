@@ -1,0 +1,46 @@
+{
+  "pmid": "27259978",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic deafness (DFNB86, OMIM 614617)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "how different mutations of TBC1D24 cause non-syndromic deafness (DFNB86, OMIM 614617)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (OMIM 605021)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "how different mutations of TBC1D24 cause non-syndromic deafness (DFNB86, OMIM 614617), epilepsy (OMIM 605021)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "how different mutations of TBC1D24 cause non-syndromic deafness (DFNB86, OMIM 614617), epilepsy (OMIM 605021), epilepsy with deafness",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome (OMIM 220500)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "how different mutations of TBC1D24 cause non-syndromic deafness (DFNB86, OMIM 614617), epilepsy (OMIM 605021), epilepsy with deafness, or DOORS syndrome (OMIM 220500) that is characterized by deafness, onychodystrophy (alteration of toenail or fingernail morphology), osteodystrophy (defective development of bone), mental retardation, and seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

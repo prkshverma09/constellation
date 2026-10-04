@@ -1,0 +1,56 @@
+{
+  "pmid": "38657965",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "fewer adaptive behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed fewer adaptive behaviors",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "higher levels of internalizing behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "higher levels of internalizing and externalizing behaviors",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "higher levels of externalizing behaviors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "higher levels of internalizing and externalizing behaviors",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "differences greatest in older children",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was some evidence that these differences were greatest in older children",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "more apparent in those with co-occuring epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and more apparent in those with co-occuring epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

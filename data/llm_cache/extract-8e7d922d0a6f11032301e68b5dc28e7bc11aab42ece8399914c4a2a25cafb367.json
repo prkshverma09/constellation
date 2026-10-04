@@ -1,0 +1,106 @@
+{
+  "pmid": "37099824",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited (familial) neonatal epilepsy and developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This retrospective cohort study of children with self-limited (familial) neonatal epilepsy and developmental and epileptic encephalopathy due to pathogenic variants in KCNQ2 was conducted between 2019 and 2021.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "delayed seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Delayed seizure freedom was more frequent in DEE than in S(F)NE (P = 0.025)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "no correlation between age at seizure freedom and developmental outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "no correlation was observed between age at seizure freedom and developmental outcome in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "multifocal interictal epileptiform abnormalities at epilepsy onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multifocal interictal epileptiform abnormalities at epilepsy onset were more frequent in DEE than in S(F)NE (P = 0.014)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "higher GMFCS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and were associated with higher GMFCS (P = 0.027) and lower ABC SS (P = 0.048) in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "lower ABC SS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and were associated with higher GMFCS (P = 0.027) and lower ABC SS (P = 0.048) in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "disorganized background activity at follow-up",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disorganized background activity at follow-up was more frequent in DEE than in S(F)NE (P = 0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "higher GMFCS levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and was associated with higher GMFCS levels (P = 0.009) and lower ABC SS (P = 0.005) in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "lower ABC SS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and was associated with higher GMFCS levels (P = 0.009) and lower ABC SS (P = 0.005) in patients with DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "partial correlation between epileptic activity and developmental outcome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This study shows a partial correlation between epileptic activity and developmental outcome in KCNQ2-related epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

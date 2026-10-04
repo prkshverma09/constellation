@@ -1,0 +1,46 @@
+{
+  "pmid": "28761347",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some of which disrupt multiple genes, such as NRXN1, AUTS2, NLGN1, CNTNAP2, GRIN2A, PRRT2, NIPA2, and BMP5, implicated for neurodevelopmental disorders, including intellectual disability and autism.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some of which disrupt multiple genes, such as NRXN1, AUTS2, NLGN1, CNTNAP2, GRIN2A, PRRT2, NIPA2, and BMP5, implicated for neurodevelopmental disorders, including intellectual disability and autism.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some of which disrupt multiple genes, such as NRXN1, AUTS2, NLGN1, CNTNAP2, GRIN2A, PRRT2, NIPA2, and BMP5, implicated for neurodevelopmental disorders, including intellectual disability and autism.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "rare forms of familial epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent exome-sequencing studies have found some genetic mutations, most of which are located in nonion channel genes such as the LGI1, PRRT2, EFHC1, PRICKLE, RBFOX1, and DEPDC5 and in probands with rare forms of familial epilepsy, and some of these genes are involved with the neurodevelopment.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

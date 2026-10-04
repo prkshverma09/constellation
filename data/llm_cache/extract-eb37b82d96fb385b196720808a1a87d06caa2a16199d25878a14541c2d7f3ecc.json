@@ -1,0 +1,126 @@
+{
+  "pmid": "27521439",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four selected mutations studied functionally revealed a loss of function",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "model",
+      "object_text": "Xenopus laevis oocyte expression system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analysis of 4 selected mutations was performed using the Xenopus laevis oocyte expression system.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "unspecified epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum varied from unspecified epilepsy (1), juvenile myoclonic epilepsy (2), photosensitive idiopathic generalized epilepsy (1), and generalized epilepsy with febrile seizures plus (1) to severe epileptic encephalopathies (11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "juvenile myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum varied from unspecified epilepsy (1), juvenile myoclonic epilepsy (2), photosensitive idiopathic generalized epilepsy (1), and generalized epilepsy with febrile seizures plus (1) to severe epileptic encephalopathies (11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "photosensitive idiopathic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum varied from unspecified epilepsy (1), juvenile myoclonic epilepsy (2), photosensitive idiopathic generalized epilepsy (1), and generalized epilepsy with febrile seizures plus (1) to severe epileptic encephalopathies (11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum varied from unspecified epilepsy (1), juvenile myoclonic epilepsy (2), photosensitive idiopathic generalized epilepsy (1), and generalized epilepsy with febrile seizures plus (1) to severe epileptic encephalopathies (11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotypic spectrum varied from unspecified epilepsy (1), juvenile myoclonic epilepsy (2), photosensitive idiopathic generalized epilepsy (1), and generalized epilepsy with febrile seizures plus (1) to severe epileptic encephalopathies (11).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset between first day of life and 15 months (mean 7 months)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures beginning between the first day of life and 15 months, with a mean of 7 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Predominant seizure types in all patients were tonic-clonic in 9 participants (56%) and myoclonic seizures in 5 (31%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Predominant seizure types in all patients were tonic-clonic in 9 participants (56%) and myoclonic seizures in 5 (31%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "generalized photoparoxysmal response on EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG showed a generalized photoparoxysmal response in 6 patients (37%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "contribution to genetic etiology of both benign and severe epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1 mutations make a significant contribution to the genetic etiology of both benign and severe epilepsy syndromes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

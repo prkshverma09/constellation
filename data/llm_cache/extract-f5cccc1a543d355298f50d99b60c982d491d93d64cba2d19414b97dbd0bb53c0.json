@@ -1,0 +1,26 @@
+{
+  "pmid": "32247221",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathies with burst suppression (EOEE-BS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 (n = 3, 6.3 %)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "structural malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "those patients had pathogenic mutations in DEPDC5 and CASK or LIS1 deletion",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

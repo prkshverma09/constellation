@@ -1,0 +1,16 @@
+{
+  "pmid": "26648591",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "early onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified disease-causing variants in 11 children (22%) in the following genes: STXBP1 (n = 3), KCNB1 (n = 2), KCNT1, SCN1A, SCN2A, GRIN2A, DNM1, and KCNA2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

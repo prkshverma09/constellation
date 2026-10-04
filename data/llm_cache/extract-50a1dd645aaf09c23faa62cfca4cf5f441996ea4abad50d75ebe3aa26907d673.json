@@ -1,0 +1,106 @@
+{
+  "pmid": "35980457",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy refractory to seizure medications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a neurodevelopmental disorder with early-onset epilepsy refractory to seizure medications and the most common cause of infant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "regulating cilia length and motion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting its function in regulating cilia length and motion in the green alga Chlamydomonas might have implication in the etiology of CDD.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "cilia lengthening and abnormal cilia motion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both the CDD patients and the Cdkl5 knockout mice exhibit cilia lengthening and abnormal cilia motion.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "Cdkl5 knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Similar defects were observed for brain ventricular cilia in the Cdkl5 knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "altered patterning of flow in the ventral third ventricle (v3V)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Similar defects were observed for brain ventricular cilia in the Cdkl5 knockout mice. Mapping ependymal cilia generated flow in the ventral third ventricle (v3V), a brain region with important physiological functions showed altered patterning of flow.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "flow barrier at the inlet of v3V",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "revealed the appearance of a flow barrier at the inlet of v3V in Cdkl5 knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "increased susceptibility to anesthesia-induced seizure-like activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice exhibiting altered cilia-driven flow also showed increased susceptibility to anesthesia-induced seizure-like activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "altered cilia beating orientation with the disrupted polarity of the cilia anchoring rootlet meshwork",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The cilia-driven flow disturbance arises from altered cilia beating orientation with the disrupted polarity of the cilia anchoring rootlet meshwork.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "motile cilia disturbances have an essential role in CDD-associated seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motile cilia disturbances have an essential role in CDD-associated seizures",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "cilia regulating kinases as therapeutic target for medication-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting cilia regulating kinases may be a therapeutic target for medication-resistant epilepsy.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "32880860",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cell-adhesion molecule of the cadherin superfamily preferentially expressed in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 encodes for protocadherin-19 (PCDH19), a cell-adhesion molecule of the cadherin superfamily preferentially expressed in the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "binds the alpha subunits of GABAA receptors, modulating their surface availability and mIPSCs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We recently reported that PCDH19 binds the alpha subunits of GABAA receptors (GABAARs), modulating their surface availability and miniature inhibitory postsynaptic currents (mIPSCs).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "GABAAR-mediated tonic current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 downregulation reduces GABAAR-mediated tonic current, evaluated by current shift and baseline noise analysis.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "GABAARs kinetics (gating)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 regulates GABAARs kinetics without altering their conductance.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "flickering (brief openings of GABAARs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABAARs of shRNA-expressing neurons preferentially exhibit brief openings at the expense of long ones, thus displaying a flickering behavior.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "increases intrinsic excitability (reduced rheobase; increased AP firing)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 downregulation reduces the rheobase and increases the frequency of action potential firing, thus indicating neuronal hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutations cause a neurodevelopmental syndrome named epileptic encephalopathy, early infantile, 9 (EIEE9) characterized by seizures associated with cognitive and behavioral deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cognitive and behavioral deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutations cause a neurodevelopmental syndrome named epileptic encephalopathy, early infantile, 9 (EIEE9) characterized by seizures associated with cognitive and behavioral deficits.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

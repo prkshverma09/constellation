@@ -1,0 +1,66 @@
+{
+  "pmid": "41026459",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "age at onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "cognitive progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "motor progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "composite progression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "tremor dominant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "postural instability gait difficulty",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "age at onset, cognitive progression, motor progression, composite progression, tremor dominant, and postural instability gait difficulty, have been found to be underpinned by additional biomarkers, including APOE, NTRK2, SLCO1B3, SLC28A3, AQP10, SNCAIP, ANO2, CADM1, PTPRD, GPR32, GPR321, SQOR, SULT1C2, GABRG2,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

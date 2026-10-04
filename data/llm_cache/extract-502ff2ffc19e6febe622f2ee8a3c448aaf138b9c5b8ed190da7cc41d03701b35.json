@@ -1,0 +1,16 @@
+{
+  "pmid": "38145611",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RFC1-related ataxia was predominant, with two definitive cases, followed by KIF1A (one definitive and one probable) and SYNE-1 (two probable).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

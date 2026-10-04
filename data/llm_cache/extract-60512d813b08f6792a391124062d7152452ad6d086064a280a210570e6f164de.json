@@ -1,0 +1,66 @@
+{
+  "pmid": "35911425",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reduced membrane γ-amino butyric acid transporter 1 trafficking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced membrane γ-amino butyric acid transporter 1 trafficking",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "partial or complete loss of γ-amino butyric acid uptake due to reduced membrane γ-amino butyric acid transporter 1 trafficking is the primary aetiology.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting the mutant protein causes aberrant protein oligomerization and trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-Phenylbutyrate increased γ-amino butyric acid uptake in both mouse and human astrocytes and neurons bearing the variants.",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-Phenylbutyrate increased γ-amino butyric acid uptake in both mouse and human astrocytes and neurons bearing the variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-phenylbutyrate increased γ-amino butyric acid transporter 1 expression and suppressed spike wave discharges in heterozygous knockin mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "4-phenylbutyrate alone increased γ-amino butyric acid transporter 1 expression and suppressed spike wave discharges in heterozygous knockin mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "various epilepsy syndromes; autism; intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "associated with neurodevelopmental disorders, including various epilepsy syndromes, autism and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

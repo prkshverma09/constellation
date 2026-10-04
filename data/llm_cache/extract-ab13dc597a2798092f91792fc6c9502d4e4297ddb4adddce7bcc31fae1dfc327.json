@@ -1,0 +1,156 @@
+{
+  "pmid": "15331424",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "regulatory subunit of voltage-dependent calcium channels; expressed in brain, heart, and other tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The alpha2delta-2 protein encoded by the gene is a regulatory subunit of voltage-dependent calcium channels and is expressed in brain, heart, and other tissues.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "Cacna2d2(tm1NCIF) null",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice homozygous for targeted disruption of the Cacna2d2 gene exhibit growth retardation, reduced life span, ataxic gait with apoptosis of cerebellar granule cells followed by Purkinje cell depletion, enhanced susceptibility to seizures, and cardiac abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "growth retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "growth retardation",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "reduced life span",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced life span",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "ataxic gait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxic gait",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "apoptosis of cerebellar granule cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "apoptosis of cerebellar granule cells",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "Purkinje cell depletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Purkinje cell depletion",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "enhanced susceptibility to seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "enhanced susceptibility to seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "cardiac abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cardiac abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "component of P/Q-type calcium channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the alpha2delta-2 subunit serves in vivo as a component of P/Q-type calcium channels",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "indispensable for central nervous system function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is indispensable for the central nervous system function",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "hereditary cerebellar ataxias and epileptic disorders in humans",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may be involved in hereditary cerebellar ataxias and epileptic disorders in humans.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "sympathetic regulation of cardiac function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A tendency to bradycardia and limited response of null mutants to isoflurane implicate alpha2delta-2 in sympathetic regulation of cardiac function.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "tendency to bradycardia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A tendency to bradycardia",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "limited response of null mutants to isoflurane",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "limited response of null mutants to isoflurane",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

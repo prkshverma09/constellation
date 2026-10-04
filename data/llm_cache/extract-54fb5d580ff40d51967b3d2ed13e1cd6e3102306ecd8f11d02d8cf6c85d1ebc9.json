@@ -1,0 +1,26 @@
+{
+  "pmid": "37150330",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "downregulated in hippocampus of SAMP8 mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Upregulated protein/genes in the hippocampus of SAMP8 mice, such as Lmtk3, Usp10, Dzip1, Csnk2b, and Rtn1, were attenuated by DNLA; whereas downregulated protein/genes, such as Kctd16, Psd3, Bsn, Atxn2l, and Kif1a, were rescued by DNLA.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "therapy",
+      "object_text": "rescued by DNLA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Upregulated protein/genes in the hippocampus of SAMP8 mice, such as Lmtk3, Usp10, Dzip1, Csnk2b, and Rtn1, were attenuated by DNLA; whereas downregulated protein/genes, such as Kctd16, Psd3, Bsn, Atxn2l, and Kif1a, were rescued by DNLA.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

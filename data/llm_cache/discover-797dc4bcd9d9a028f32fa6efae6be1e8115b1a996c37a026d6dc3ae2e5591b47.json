@@ -1,0 +1,44 @@
+{
+  "symbol": "DNM1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:39:34.404174+00:00",
+  "usage": {
+    "input_tokens": 98912,
+    "output_tokens": 10457
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "Rare Dynamos · DNM1 Epilepsy",
+        "url": "https://dnm1epilepsy.org/",
+        "kind": "registry",
+        "snippet": "DNM1 epilepsy is an ultra-rare, severe neurological disorder caused by mutations in the Dynamin-1 gene."
+      },
+      {
+        "name": "DNM1 Slovakia",
+        "url": "https://www.dnm1.sk/dnm1/",
+        "kind": "foundation",
+        "snippet": "Patogénne varianty DNM1 determinujú vývin a fungovanie mozgu a spôsobujú epileptickú encefalopatiu spojenú so závažnými neurovývinovými komplikáciami."
+      },
+      {
+        "name": "ClinGen Epilepsy Gene Curation Expert Panel",
+        "url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_0d252b0e-4777-4fbf-a23f-4ea7175b37d5-2024-02-06T200000.000Z",
+        "kind": "research_network",
+        "snippet": "Since this initial report, patients with DEE and biallelic variants in DNM1 have also been identified."
+      },
+      {
+        "name": "PanelApp Australia (Australian Genomics)",
+        "url": "https://panelapp-aus.org/panels/3763/gene/DNM1/",
+        "kind": "research_network",
+        "snippet": "Well-established link between heterozygous variants in DNM1 and developmental and epileptic encephalopathy."
+      },
+      {
+        "name": "DNM1 Families",
+        "url": "https://dnm1families.wordpress.com/2016/03/05/connecting-of-families/",
+        "kind": "foundation",
+        "snippet": "Connecting DNM1 families through sharing."
+      }
+    ]
+  }
+}

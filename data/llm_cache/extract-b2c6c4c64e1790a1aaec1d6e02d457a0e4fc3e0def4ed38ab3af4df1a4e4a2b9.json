@@ -1,0 +1,16 @@
+{
+  "pmid": "22998673",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "MECP2 gene alterations present in typical and atypical Rett syndrome (higher frequency in typical cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Diagnostic criteria have been modified only slightly over time, even after discovering that MECP2 gene alterations are present in >90% of patients with typical Rett syndrome but only in 50-70% of atypical cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,116 @@
+{
+  "pmid": "41954126",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "expressed in both brain and heart",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5, which is expressed in both brain and heart.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "model",
+      "object_text": "Depdc5 haploinsufficient mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a Depdc5 haploinsufficient mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a Depdc5 haploinsufficient mouse model that genetically mimics DEPDC5 patients",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ventricular arrhythmias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased susceptibility to ventricular arrhythmias",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "systolic dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "systolic dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "ventricular fibrosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ventricular fibrosis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "shortened action potential duration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "shortened action potential duration",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased levels of sodium and potassium channel proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased levels of sodium and potassium channel proteins",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "increased sodium current and transient outward potassium current densities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased sodium current and transient outward potassium current densities in acutely isolated ventricular myocytes",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "impact heart as well as brain excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Thus, at least in mice, Depdc5 variants impact heart as well as brain excitability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "predispose patients to cardiac arrhythmias",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "to test the hypothesis that DEE variants resulting in DEPDC5 haploinsufficiency may predispose patients to cardiac arrhythmias.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

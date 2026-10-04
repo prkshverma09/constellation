@@ -1,0 +1,36 @@
+{
+  "pmid": "22998673",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intragenic or genomic alterations of the CDKL5 and FOXG1 genes have been associated with severe cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intragenic or genomic alterations of the CDKL5 and FOXG1 genes have been associated with severe cognitive impairment, early onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "dyskinetic movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intragenic or genomic alterations of the CDKL5 and FOXG1 genes have been associated with severe cognitive impairment, early onset epilepsy and, often, dyskinetic movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

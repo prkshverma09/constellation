@@ -1,0 +1,86 @@
+{
+  "pmid": "38015929",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "dynamic pattern of seizures in the first year of life and high variability in neurodevelopmental trajectories in early childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1-related disorders are characterized by a dynamic pattern of seizures in the first year of life and high variability in neurodevelopmental trajectories in early childhood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "90% cumulative onset for infantile spasms by 6 months and focal-onset seizures by 27 months of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy onset differed across seizure types, with 90% cumulative onset for infantile spasms by 6 months and focal-onset seizures by 27 months of life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "individuals with missense variants (n = 30) had an increased risk for focal seizures and ongoing seizures after the first year.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms between 5 and 6 months followed by seizure remission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "individuals with protein-truncating variants and deletions in STXBP1 (n = 39) were more likely to have infantile spasms between 5 and 6 months followed by seizure remission",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "earlier epilepsy onset associated with lower developmental abilities, most prominently gross motor development and expressive communication",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An earlier epilepsy onset was associated with lower developmental abilities, most prominently when assessing gross motor development and expressive communication.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "neonatal or early infantile seizures with offset by 12 months have more predictable seizure trajectories in early to late childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that individuals with neonatal seizures or early infantile seizures followed by seizure offset by 12 months of life had more predictable seizure trajectories in early to late childhood compared to individuals with more severe seizure presentations, including individuals with refractory epilepsy throughout the first year.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital; levetiracetam; topiramate; adrenocorticotropic hormone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "phenobarbital, levetiracetam, topiramate and adrenocorticotropic hormone effective in reducing seizures in the first year of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "clobazam; ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clobazam and the ketogenic diet were effective in long-term seizure management.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

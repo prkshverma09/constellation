@@ -1,0 +1,16 @@
+{
+  "pmid": "39596356",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "Alzheimer's disease age of onset (ADAOO)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "while ENST00000304677 (RNASE6), ENST00000640218 (HNRNPU), ENST00000602017 (PPP5D1), ENST00000224950 (STN1), and ENST00000322088 (PPP2R1A) emerged as the most important predictors.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

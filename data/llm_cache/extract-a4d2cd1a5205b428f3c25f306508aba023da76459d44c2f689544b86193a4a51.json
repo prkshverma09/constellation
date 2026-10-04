@@ -1,0 +1,36 @@
+{
+  "pmid": "34616284",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptobrevin (VAMP2), an integral element of the neuronal SNARE complex.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The complex formed by SYP and VAMP2 is thought to be involved in both trafficking to the pre-synaptic membrane as well as regulation of SNARE complex formation.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent structural observations specifically implicate the SYP/VAMP2 complex in anchoring the SNARE assembly at the pre-synaptic membrane prior to vesicle fusion.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

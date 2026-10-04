@@ -1,0 +1,66 @@
+{
+  "pmid": "38380699",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "children with GRIN genetic variants leading to loss-of-function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "therapy",
+      "object_text": "L-serine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The trial provides evidence that L-serine is a safe treatment for children with GRIN loss-of-function variants, having the potential to improve adaptive behaviour, motor function and quality of life, with a better response to the treatment in mild phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients had GRIN2B, GRIN1 and GRIN2A variants (12, 6 and 5 cases, respectively). Their clinical phenotypes showed 91% had intellectual disability (61% severe), 83% had behavioural problems, 78% had movement disorders and 58% had epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "behavioural problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients had GRIN2B, GRIN1 and GRIN2A variants (12, 6 and 5 cases, respectively). Their clinical phenotypes showed 91% had intellectual disability (61% severe), 83% had behavioural problems, 78% had movement disorders and 58% had epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients had GRIN2B, GRIN1 and GRIN2A variants (12, 6 and 5 cases, respectively). Their clinical phenotypes showed 91% had intellectual disability (61% severe), 83% had behavioural problems, 78% had movement disorders and 58% had epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients had GRIN2B, GRIN1 and GRIN2A variants (12, 6 and 5 cases, respectively). Their clinical phenotypes showed 91% had intellectual disability (61% severe), 83% had behavioural problems, 78% had movement disorders and 58% had epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

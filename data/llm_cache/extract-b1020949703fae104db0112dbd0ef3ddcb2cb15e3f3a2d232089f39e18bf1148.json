@@ -1,0 +1,66 @@
+{
+  "pmid": "34611970",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant or recessive neurodevelopmental disorder with global developmental delay, with or without seizures (AD or AR GRIN1-NDD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in glutamate receptor, ionotropic, NMDA-1 (GRIN1) cause an autosomal dominant or recessive neurodevelopmental disorder with global developmental delay, with or without seizures (AD or AR GRIN1-NDD).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early infantile epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy and infantile death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A similarly severe phenotype of intractable epilepsy and infantile death has only been reported in one other family with a homozygous nonsense variant in GRIN1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "biallelic predicted-null variants in GRIN1 can cause a markedly more severe clinical phenotype than AR GRIN1-NDD caused by missense variants.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the phenotype in our patient is much more severe than those seen with homozygous missense variants.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

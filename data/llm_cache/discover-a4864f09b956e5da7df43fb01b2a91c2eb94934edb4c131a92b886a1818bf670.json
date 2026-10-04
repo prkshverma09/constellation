@@ -1,0 +1,38 @@
+{
+  "symbol": "KCNT1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:59:47.174052+00:00",
+  "usage": {
+    "input_tokens": 76090,
+    "output_tokens": 8663
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "KCNT1 Epilepsy Foundation",
+        "url": "https://www.kcnt1epilepsy.org/about-the-foundation/",
+        "kind": "foundation",
+        "snippet": "Based in the U.S. and serving the global KCNT1 community, we exist to accelerate research and shape the future of care."
+      },
+      {
+        "name": "KCNT1 International Registry",
+        "url": "https://kcnt1.iamrare.org/faqs/",
+        "kind": "registry",
+        "snippet": "This study is open to anyone who has a KCNT1-related condition diagnosis and meets the study inclusion criteria for participation."
+      },
+      {
+        "name": "KCNT1 Family Contact List",
+        "url": "https://www.kcnt1epilepsy.org/registry-information-original/",
+        "kind": "registry",
+        "snippet": "The KCNT1 Foundation serves as the central point of contact and is keeping a Family Contact List of families impacted by this disease."
+      },
+      {
+        "name": "KCNT1 Specialist Network",
+        "url": "https://www.kcnt1epilepsy.org/clinicians/",
+        "kind": "research_network",
+        "snippet": "Be part of a growing network of specialists committed to KCNT1 epilepsy care."
+      }
+    ]
+  }
+}

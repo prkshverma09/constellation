@@ -1,0 +1,36 @@
+{
+  "pmid": "37901435",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "Kcnt1 antisense oligonucleotide (ASO) prolonged survival of Scn1a and Scn8a mutant mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A Kcnt1 antisense oligonucleotide (ASO) prolonged survival of both Scn1a and Scn8a mutant mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "modulatory effect on the balance between excitation and inhibition",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting a modulatory effect for KCNT1 on the balance between excitation and inhibition.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "therapeutic target for treatment of SCN1A and SCN8A epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our results implicate KCNT1 as a therapeutic target for treatment of SCN1A and SCN8A epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

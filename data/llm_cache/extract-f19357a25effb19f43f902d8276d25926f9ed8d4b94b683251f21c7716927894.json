@@ -1,0 +1,76 @@
+{
+  "pmid": "34074526",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "KNa1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1, the gene encoding the largest known potassium channel subunit, KNa1.1,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are associated with developmental and epileptic encephalopathies",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe psychomotor and intellectual disabilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "accompanied by severe psychomotor and intellectual disabilities",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Blocking hyperexcitable KNa1.1 channels with quinidine, a class I antiarrhythmic drug, has shown variable success in patients",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "cryo-EM structures of the chicken KNa1.1 channel in different activation states",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high-resolution cryogenic electron microscopy (cryo-EM) structures of the chicken KNa1.1 channel in different activation states have been determined",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "animal models of the diseases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "animal models of the diseases have been generated.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "functional effects of GOF pathogenic variants on KNa1.1 channel behaviour and how they lead to hyperexcitability",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "35534222",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a novel de novo missense variant in GRIA2 (c.1589A>T; p.Lys530Met; ENST00000264426.14).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant neurodevelopmental disorder with language impairments and behavioral abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in the GRIA2 gene were recently reported to cause an autosomal dominant neurodevelopmental disorder with language impairments and behavioral abnormalities",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a condition characterized by intellectual disability and developmental delay in which seizures are a common feature.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a condition characterized by intellectual disability and developmental delay in which seizures are a common feature.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a condition characterized by intellectual disability and developmental delay in which seizures are a common feature.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "ligand binding domain of the AMPA receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "maps to the edge of a key ligand binding domain of the AMPA receptor",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "dominant neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "support the link between GRIA2 and a dominant neurodevelopmental disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

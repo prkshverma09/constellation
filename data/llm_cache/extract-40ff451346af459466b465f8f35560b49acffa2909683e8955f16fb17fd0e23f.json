@@ -1,0 +1,16 @@
+{
+  "pmid": "36183186",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy-associated genetic diagnoses included tuberous sclerosis (n = 1), KAT6B (n = 1), and NPRL3 (n = 1).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "32383447",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "ancient transcription factor orchestrating neurodevelopmental processes in the rostral brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 is an ancient transcription factor gene orchestrating a number of neurodevelopmental processes taking place in the rostral brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "increased EEG spike frequency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mice overexpressing Foxg1 in neocortical pyramidal cells displayed an electroencephalography (EEG) with increased spike frequency",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "increased susceptibility to kainic acid-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were more prone to kainic acid (KA)-induced seizures.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "hyperactivity and hypersynchronization of primary neocortical neuron cultures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary cultures of neocortical neurons gain-of-function for Foxg1 were hyperactive and hypersynchronized.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "unbalanced expression of genes encoding ion channels, GABA and glutamate receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an unbalanced expression of key genes encoding for ion channels, gamma aminobutyric acid and glutamate receptors",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "interneuron depletion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "was likely exacerbated by a pronounced interneuron depletion.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "transient activity-dependent upregulation mediated by immediate early genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a transient Foxg1 upregulation ignited in turn by neuronal activity and mediated by immediate early genes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "small changes in Foxg1 levels can profoundly impact pyramidal cell activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "even small changes of Foxg1 levels may result in a profound impact on pyramidal cell activity",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

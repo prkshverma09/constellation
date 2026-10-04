@@ -1,0 +1,96 @@
+{
+  "pmid": "39379106",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rett syndrome (RTT) is a neurodevelopmental disorder caused by loss-of-function mutations in the methyl-CpG-binding protein 2 (MECP2) gene.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "restoring_MeCP2_levels_can_reverse_RTT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "studies in mouse models suggest that restoring MeCP2 levels can reverse RTT symptomology.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "narrow_therapeutic_window",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MeCP2's narrow therapeutic window, complicating the safe delivery of viral constructs without overshooting the threshold for toxicity.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "3UTR_regulates_expression_via_miRNAs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The 3' untranslated region (3' UTR) plays a key role in gene regulation, where factors like miRNAs bind to pre-mRNA and fine-tune expression.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "blocking_miRNA_binding_as_therapeutic_strategy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "blocking miRNA binding may represent a potential therapeutic strategy for diseases with high dosage sensitivity, like RTT.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "sbASOs_elevate_MeCP2_in_cell_lines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sbASOs can elevate MeCP2 levels in a dose-dependent manner in SH-SY5Y and patient fibroblast cell lines, plateauing at levels projected to be safe.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "sbASO_administration_upregulates_Mecp2_in_mice_and_induces_overexpression_phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sbASO administration in wild-type mice led to significant Mecp2 upregulation and the emergence of phenotypes associated with Mecp2 overexpression.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "model",
+      "object_text": "T158M_neural_stem_cell_model_of_RTT",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "T158M neural stem cell model of RTT",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "therapy",
+      "object_text": "sbASO_increases_MeCP2_and_BDNF_in_T158M_model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sbASO treatment significantly increased MeCP2 expression and levels of the downstream effector protein brain-derived neurotrophic factor (BDNF).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "32513829",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "truncation between third and fourth transmembrane domains producing α1Lys374Serfs*25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This truncated the α1 subunit between the third and fourth transmembrane domains and introduced 24 new residues forming the mature protein, α1Lys374Serfs*25",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "retention in the endoplasmic reticulum causes severely impaired cell surface expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cell surface expression of mutant murine GABAARs is severely impaired compared with WT, due to retention in the endoplasmic reticulum.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "differential coassembly with β3 but not β2 subunits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutant receptors were differentially coexpressed with β3, but not with β2, subunits in mammalian cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "reduced synaptic inhibition / smaller IPSCs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced surface expression was reflected by smaller IPSCs",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which may underlie the induction of seizures.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cell surface expression of mutant murine GABAARs is severely impaired compared with WT, due to retention in the endoplasmic reticulum.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "The mutant does not have a dominant-negative effect on native neuronal GABAAR expression since GABA current density was unaffected in hippocampal neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "reduced GABA sensitivity of mutant receptors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutant receptors exhibited limited GABA sensitivity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

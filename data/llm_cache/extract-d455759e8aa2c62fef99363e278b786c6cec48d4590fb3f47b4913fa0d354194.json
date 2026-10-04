@@ -1,0 +1,216 @@
+{
+  "pmid": "35851549",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic STXBP1 variants cause a severe early-onset developmental and epileptic encephalopathy (STXBP1-DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All patients had epilepsy, with a median onset age of 3.5 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "treatment-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At last follow-up, 80% of adults had treatment-resistant seizures despite long periods of seizure freedom in 37%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "tonic-clonic; focal; tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tonic-clonic, focal, and tonic seizures were most frequent in adults.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic spasms, an unusual feature beyond infancy, were present in 3 adults.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All individuals had developmental impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "periods of regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Periods of regression were present in 59% and did not always correlate with flare-ups in seizure activity.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "severe or profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eighty-seven percent had severe or profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "42% had autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "significant behavioral problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "65% had significant behavioral problems.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "gait disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Video examinations showed gait disorders in all 12 patients able to walk, including postural abnormalities with external rotation of the feet, broad-based gait, and asymmetric posture/dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "postural abnormalities with external rotation of the feet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Video examinations showed gait disorders in all 12 patients able to walk, including postural abnormalities with external rotation of the feet, broad-based gait, and asymmetric posture/dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "broad-based gait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Video examinations showed gait disorders in all 12 patients able to walk, including postural abnormalities with external rotation of the feet, broad-based gait, and asymmetric posture/dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "asymmetric posture/dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Video examinations showed gait disorders in all 12 patients able to walk, including postural abnormalities with external rotation of the feet, broad-based gait, and asymmetric posture/dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "tremor (intention/action type)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Tremor, present in 56%, was predominantly of the intention/action type.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "stereotypies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Stereotypies were seen in 63%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "independent walking",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional outcome concerning mobility was variable ranging from independent walking (50%) to wheelchair dependence (39%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "wheelchair dependence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional outcome concerning mobility was variable ranging from independent walking (50%) to wheelchair dependence (39%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "nonverbal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seventy-one percent of adults were nonverbal, and all were dependent on caregivers for most activities of daily living.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "dependent on caregivers for most activities of daily living",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seventy-one percent of adults were nonverbal, and all were dependent on caregivers for most activities of daily living.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "continuous monitoring for seizures in adult life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1-DEE warrants continuous monitoring for seizures in adult life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

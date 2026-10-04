@@ -1,0 +1,16 @@
+{
+  "pmid": "41751517",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with variants identified in genes including ALG13, ATP1A2, CACNA1A, CDKL5, CHD2, GABRG2, ITPA, KCNQ2, PCDH19, SCN1A, SCN2A, SCN3A, SCN8A, SMC1A, SPTAN1, STXBP1, and UBA5.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

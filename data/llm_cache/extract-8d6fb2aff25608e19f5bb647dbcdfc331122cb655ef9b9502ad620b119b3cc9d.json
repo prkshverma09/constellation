@@ -1,0 +1,166 @@
+{
+  "pmid": "30602030",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, deafness, onychodystrophy, osteodystrophy and intellectual disability are associated with a spectrum of mutations of human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, deafness, onychodystrophy, osteodystrophy and intellectual disability are associated with a spectrum of mutations of human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "onychodystrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, deafness, onychodystrophy, osteodystrophy and intellectual disability are associated with a spectrum of mutations of human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "osteodystrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, deafness, onychodystrophy, osteodystrophy and intellectual disability are associated with a spectrum of mutations of human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, deafness, onychodystrophy, osteodystrophy and intellectual disability are associated with a spectrum of mutations of human TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "mouse with a premature translation stop codon equivalent to human S324Tfs*3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using CRISPR-Cas9 genome editing, we engineered a mouse with a premature translation stop codon equivalent to human S324Tfs*3, a recessive mutation of TBC1D24 associated with early infantile epileptic encephalopathy (EIEE).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "normal auditory and vestibular functions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous S324Tfs*3 mice have normal auditory and vestibular functions but show an abrupt onset of spontaneous seizures at postnatal day 15 recapitulating human EIEE.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "early infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous S324Tfs*3 mice have normal auditory and vestibular functions but show an abrupt onset of spontaneous seizures at postnatal day 15 recapitulating human EIEE.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "S324Tfs*3 variant is located in an alternatively spliced micro-exon encoding six perfectly conserved amino acids incorporated postnatally into TBC1D24 protein due to a micro-exon utilization switch",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The S324Tfs*3 variant is located in an alternatively spliced micro-exon encoding six perfectly conserved amino acids incorporated postnatally into TBC1D24 protein due to a micro-exon utilization switch.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "produce predominantly the shorter wild-type TBC1D24 protein isoform that omits the micro-exon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "During embryonic and early postnatal development, S324Tfs*3 homozygotes produce predominantly the shorter wild-type TBC1D24 protein isoform that omits the micro-exon.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "seizure onset at P15 correlates with a developmental switch to utilization of the micro-exon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "S324Tfs*3 homozygotes show an abrupt onset of seizures at P15 that correlates with a developmental switch to utilization of the micro-exon.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "impairs incorporation of the Tbc1d24 micro-exon",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A mouse deficient for alternative splice factor SRRM3 impairs incorporation of the Tbc1d24 micro-exon.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "abundantly expressed in the hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Wild-type Tbc1d24 mRNA is abundantly expressed in the hippocampus using RNAscope in situ hybridization.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "associated with clathrin-coated vesicles and synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Immunogold electron microscopy using a TBC1D24-specific antibody revealed that TBC1D24 is associated with clathrin-coated vesicles and synapses of hippocampal neurons,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "vesicle trafficking important for neuronal signal transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting a crucial role of TBC1D24 in vesicle trafficking important for neuronal signal transmission.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "screen for antiepileptogenic drugs ameliorating TBCID24 seizure disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This is the first characterization of a mouse model of human TBC1D24-associated EIEE that can now be used to screen for antiepileptogenic drugs ameliorating TBCID24 seizure disorders.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

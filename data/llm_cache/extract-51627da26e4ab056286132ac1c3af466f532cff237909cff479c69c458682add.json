@@ -1,0 +1,76 @@
+{
+  "pmid": "32945607",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a missense variant in GABRB3 gene (c.842 C>T; p.Thr281IIe)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been identified in subjects with different types of epilepsy and epileptic syndromes, including West syndrome (WS), Dravet syndrome (DS), Lennox-Gastaut syndrome (LGS), myoclonic-atonic epilepsy (MAE), and others.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been identified in subjects with different types of epilepsy and epileptic syndromes, including West syndrome (WS), Dravet syndrome (DS), Lennox-Gastaut syndrome (LGS), myoclonic-atonic epilepsy (MAE), and others.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Lennox-Gastaut syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been identified in subjects with different types of epilepsy and epileptic syndromes, including West syndrome (WS), Dravet syndrome (DS), Lennox-Gastaut syndrome (LGS), myoclonic-atonic epilepsy (MAE), and others.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic-atonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRB3 have been identified in subjects with different types of epilepsy and epileptic syndromes, including West syndrome (WS), Dravet syndrome (DS), Lennox-Gastaut syndrome (LGS), myoclonic-atonic epilepsy (MAE), and others.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previously, one case of DS and two of DS-like linked with GABRB3 mutations have been reported.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "To the best of our knowledge, this is the first report of DS associated with this novel variant.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

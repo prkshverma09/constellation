@@ -1,0 +1,26 @@
+{
+  "pmid": "34693554",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline loss-of-function mutations in DEPDC5, and in its binding partners (NPRL2/3) of the mammalian target of rapamycin (mTOR) repressor GATOR1 complex, cause focal epilepsies and increase the risk of sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "no evidence for altered clinical cardiac function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Holter, echocardiographic, and electrocardiographic (ECG) examinations provided no evidence for altered clinical cardiac function in the patient cohort",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

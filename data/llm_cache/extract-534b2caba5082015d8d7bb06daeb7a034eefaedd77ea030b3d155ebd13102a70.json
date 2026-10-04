@@ -1,0 +1,16 @@
+{
+  "pmid": "37264161",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "downregulation in postmortem AD brain tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "validate the downregulation of SLC6A1 and upregulation of APOD, INSR and COL4A1 in postmortem AD brain tissues.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

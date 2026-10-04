@@ -1,0 +1,96 @@
+{
+  "pmid": "37061005",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "an essential DNA end-processing enzyme in mammals with 3'-phosphatase and 5'-kinase activities; plays a pivotal role in multiple DNA repair pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Polynucleotide kinase 3'-phosphatase (PNKP), an essential DNA end-processing enzyme in mammals with 3'-phosphatase and 5'-kinase activities, plays a pivotal role in multiple DNA repair pathways.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia type 4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutation at a conserved glutamine (Gln) in PNKP leads to late-onset ataxia with oculomotor apraxia type 4 (AOA4) in humans",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "embryonic lethality in pigs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and embryonic lethality in pigs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "the enzymatic activities of the mutant versus WT PNKP are comparable",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA double-strand break accumulation and activation of the DNA damage response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cells expressing mutant PNKP and peripheral blood mononuclear cells (PBMCs) of AOA4 patients showed a significant amount of DNA double-strand break accumulation and consequent activation of the DNA damage response.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "nuclear localization severely abrogated; mutant proteins remain primarily in the cytoplasm",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the nuclear localization of mutant PNKP is severely abrogated, and the mutant proteins remain primarily in the cytoplasm.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "mutated PNKP predominantly in the cytoplasm (patient PBMCs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Western blot analysis of AOA4 patient-derived PBMCs also revealed the presence of mutated PNKP predominantly in the cytoplasm.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "impeded interaction with importin alpha but not with importin beta",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutation at a conserved Gln residue impedes the interaction of PNKP with importin alpha but not with importin beta",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "absence of nuclear PNKP leads to persistent double-strand breaks, activation of the DNA damage response, and death of vulnerable brain cells (potential cause of neurodegeneration in AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the absence of PNKP in the nucleus leads to constant activation of the DNA damage response due to persistent accumulation of double-strand breaks in the mutant cells, triggering death of vulnerable brain cells-a potential cause of neurodegeneration in AOA4 patients.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

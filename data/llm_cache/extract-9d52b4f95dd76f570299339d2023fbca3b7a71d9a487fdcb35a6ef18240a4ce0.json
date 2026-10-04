@@ -1,0 +1,16 @@
+{
+  "pmid": "40771158",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the critical role of rare variants (e.g. in SCN1A, KCNQ2) and copy number variations (CNVs) in severe epileptic encephalopathies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

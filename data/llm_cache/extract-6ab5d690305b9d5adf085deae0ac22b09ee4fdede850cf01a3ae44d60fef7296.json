@@ -1,0 +1,106 @@
+{
+  "pmid": "40391499",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "AMPA-type glutamate receptors (AMPARs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIA-related disorders arise from disease-causing variants in GRIA1, GRIA2, GRIA3, or GRIA4 that encode α-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid (AMPA)-type glutamate receptors (AMPARs).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Rare monoallelic GRIA1-4 variants affecting AMPAR function can potentially lead to neurodevelopmental disorders.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three carried de novo GRIA2 variants (p.Gly792Arg, p.Gly792Val, or p.Gly792Glu) which we demonstrate are also GOF.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay affecting both motor skills and language abilities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay affecting both motor skills and language abilities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "behavioral and psychiatric comorbidities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "behavioral and psychiatric comorbidities",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "hypertonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypertonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "cerebral palsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cerebral palsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "non-epileptic myoclonus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-epileptic myoclonus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "treatment-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "treatment-resistant epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

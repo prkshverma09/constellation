@@ -1,0 +1,136 @@
+{
+  "pmid": "39417375",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "double-strand break and single-strand break repair pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is a DNA processing enzyme involved in double-strand break and single-strand break repair pathways",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PNKP biallelic loss-of-function variants have been associated with a broad spectrum of neurological anomalies",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "congenital microcephaly with intellectual disability and seizures (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "congenital microcephaly with intellectual disability and seizures (MCSZ)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia-oculomotor apraxia (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia-oculomotor apraxia (AOA4)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "peripheral neuropathy (CMT2B2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral neuropathy (CMT2B2)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "short stature",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "short stature",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "conductive hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "conductive hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "tracheoesophageal malformation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tracheoesophageal malformation",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "in the absence of seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "hybrid minigene assay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we performed a hybrid minigene assay, which successfully highlighted a deleterious impact on the transcript, particularly regarding the c.199-8_199-5del variant.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prove their pathogenicity, we performed a hybrid minigene assay, which successfully highlighted a deleterious impact on the transcript",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

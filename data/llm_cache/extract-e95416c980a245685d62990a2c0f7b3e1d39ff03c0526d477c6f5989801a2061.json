@@ -1,0 +1,46 @@
+{
+  "pmid": "36595163",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "surface_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no difference in the surface expression of GRIA2 in rats with I/R and PC12 cells exposed to OGD/R.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "surface_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was no difference in the surface expression of GRIA2 in rats with I/R and PC12 cells exposed to OGD/R.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "GRIA1/GRIA2_surface_expression_ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ratio of GRIA1/GRIA2 surface expression was reduced",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "GRIA1/GRIA2_surface_expression_ratio",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ratio of GRIA1/GRIA2 surface expression was reduced",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

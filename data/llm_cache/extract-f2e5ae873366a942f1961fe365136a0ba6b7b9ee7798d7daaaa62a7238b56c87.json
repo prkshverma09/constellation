@@ -1,0 +1,16 @@
+{
+  "pmid": "25296915",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced expression of presynaptic proteins, such as synaptophysin and the synaptosomal-associated protein 25 (SNAP-25)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

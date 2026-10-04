@@ -1,0 +1,76 @@
+{
+  "pmid": "37393984",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "AIS rat and PC12 cell models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we constructed AIS rat and PC12 cell models.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "ferroptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Snap25 gene overexpression significantly inhibited the ferroptosis level",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "AIS damage and OGD/R injury",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased the AIS damage and OGD/R injury level in the model group.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "ferroptosis and OGD/R injury in PC12 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Snap25 silencing exacerbated the ferroptosis level and aggravated OGD/R injury in PC12 cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "ROS levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The overexpression and silencing of Snap25 can significantly affect the expression level of ROS",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "ROS regulation of ferroptosis in AIS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting that the regulatory effect on the ROS level may be an important factor in regulating ferroptosis in AIS by Snap25.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "protective effect against ischemia/reperfusion injury by reducing ROS and ferroptosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Snap25 has a protective effect against ischemia/reperfusion injury by reducing ROS levels and ferroptosis levels.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

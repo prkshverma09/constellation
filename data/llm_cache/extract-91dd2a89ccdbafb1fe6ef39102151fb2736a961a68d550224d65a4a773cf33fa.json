@@ -1,0 +1,36 @@
+{
+  "pmid": "31807283",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN2B variants are commonly found in patients with neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "circuit function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "emphasize the distinct roles that the gene products serve in circuit function",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "characterization of the pharmacological properties of variant receptors could provide translational therapeutic strategies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterization of the pharmacological properties of variant receptors could provide the first opportunity for translational therapeutic strategies for these GRIN-related neurological and psychiatric disorders.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

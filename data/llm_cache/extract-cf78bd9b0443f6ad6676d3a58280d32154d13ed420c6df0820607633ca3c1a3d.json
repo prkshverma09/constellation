@@ -1,0 +1,126 @@
+{
+  "pmid": "37734923",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy, intellectual disability, and developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Natural variants to the GRIN1 gene, which encodes the obligatory GluN1 subunit of the NMDA receptor, are associated with severe neurological disorders that include epilepsy, intellectual disability, and developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we investigated the pathogenicity of three missense variants to the GRIN1 gene, p. Ile148Val (GluN1-3b[I481V]), p.Ala666Ser (GluN1-3b[A666S]), and p.Tyr668His (GluN1-3b[Y668H]).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "inhibited by ketamine and memantine with reduced potency; little effect on receptor function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our data demonstrate that the GluN1(I481V) variant is inhibited by the open pore blockers ketamine and memantine with reduce potency but otherwise has little effect on receptor function.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By contrast, the other two variants exhibit gain-of-function molecular phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "enhanced glycine sensitivity (A666S)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Glycine sensitivity was enhanced in receptors containing the GluN1(A666S) variant",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "reduced potency of memantine and ketamine; increased potency of MK-801 (A666S)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the potency of pore block by memantine and ketamine was reduced, whereas that for MK-801 was increased.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "impaired surface expression (Y668H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluN1(Y668H)/2A receptors showed impaired surface expression",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "increased sensitivity to glycine and glutamate by an order of magnitude (Y668H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "were more sensitive to glycine and glutamate by an order of magnitude",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "impaired block by extracellular magnesium, memantine, ketamine, and MK-801 (Y668H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and exhibited impaired block by extracellular magnesium ions, memantine, ketamine, and MK-801.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "activated by either glutamate or glycine alone (Y668H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These variant receptors were also activated by either glutamate or glycine alone.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "opened to several conductance levels and activated more frequently (Y668H)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Single-receptor recordings revealed that this receptor variant opened to several conductance levels and activated more frequently than wild-type GluN1/2A receptors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "GluN1[Y668] couples receptor gating to ion channel conductance; mutation may be associated with neurological disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our study reveals a critical functional locus of the receptor (GluN1[Y668]) that couples receptor gating to ion channel conductance, which when mutated may be associated with neurological disorder.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

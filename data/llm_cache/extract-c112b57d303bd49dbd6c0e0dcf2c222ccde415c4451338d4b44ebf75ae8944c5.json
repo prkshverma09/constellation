@@ -1,0 +1,46 @@
+{
+  "pmid": "34356019",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variant c.970G>A, p. (Gly324Arg) in the PRRT2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "atypical infantile convulsions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "atypical infantile convulsions with seizures in adulthood and paroxysmal choreoathetosis due to a pathogenic variant c.970G>A, p. (Gly324Arg) in the PRRT2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "seizures in adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "atypical infantile convulsions with seizures in adulthood and paroxysmal choreoathetosis due to a pathogenic variant c.970G>A, p. (Gly324Arg) in the PRRT2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal choreoathetosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "atypical infantile convulsions with seizures in adulthood and paroxysmal choreoathetosis due to a pathogenic variant c.970G>A, p. (Gly324Arg) in the PRRT2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

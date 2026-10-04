@@ -1,0 +1,86 @@
+{
+  "pmid": "33585817",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Typically, these variants cause a loss-of-function molecular phenotype whereby γ-aminobutyric acid has reduced inhibitory effectiveness leading to seizures.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "hypersensitivity to vigabatrin associated with hypotonia, sedation and respiratory suppression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypersensitivity in some patients associated with hypotonia, sedation and respiratory suppression.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A GABRB3 variant that responds well to vigabatrin involves a truncation variant (p.Arg194*) resulting in a clear loss-of-function.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an atypical gain-of-function molecular phenotype in the GABRB3 p.Glu77Lys and p.Thr287Ile variants",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased potency of GABA at GABAA receptors without change to open probability, deactivation kinetics, or absolute currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by increased potency of γ-aminobutyric acid A without change to the estimated maximum open channel probability, deactivation kinetics or absolute currents.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "increased chloride flux in response to low concentrations of GABA that mediate tonic currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Modelling of the activation properties of the receptors indicated that either variant caused increased chloride flux in response to low concentrations of γ-aminobutyric acid that mediate tonic currents.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "mechanism",
+      "object_text": "exacerbate GABAergic tonic currents leading to vigabatrin hypersensitivity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We therefore propose that the hypersensitivity reaction to vigabatrin is a result of GABRB3 variants that exacerbate GABAergic tonic currents and caution is required when prescribing vigabatrin.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "therapy",
+      "object_text": "vigabatrin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "vigabatrin should be considered in patients with clear loss-of-function GABRB3 variants.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

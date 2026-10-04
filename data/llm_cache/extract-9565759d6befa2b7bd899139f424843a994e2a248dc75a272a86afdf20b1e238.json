@@ -1,0 +1,16 @@
+{
+  "pmid": "41204331",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "cP1P and P1P",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, the cP1P and P1P effectively restored synaptic markers such as PSD-95, SNAP-25, and Syntaxin, and significantly improved behavioral outcomes in the Aβ-treated mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "32913952",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We newly identified four variants: SLC6A1 and HNRNPU missense variants and microdeletions at 2q24.2 involving SCN1A and Xp22.31 involving STS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with myoclonic-atonic seizures (MAE) / Doose syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU and STS emerged as possible candidate causative genes.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

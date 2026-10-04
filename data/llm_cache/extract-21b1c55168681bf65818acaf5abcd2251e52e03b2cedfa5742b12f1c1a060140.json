@@ -1,0 +1,16 @@
+{
+  "pmid": "26022171",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "therapy",
+      "object_text": "retigabine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "retigabine in KCNQ2-related epilepsies",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

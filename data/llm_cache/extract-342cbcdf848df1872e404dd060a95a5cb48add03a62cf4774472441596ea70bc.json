@@ -1,0 +1,86 @@
+{
+  "pmid": "26386245",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense and in-frame deletions within the SMC1A gene can be associated with epilepsy and milder craniofacial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "milder craniofacial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense and in-frame deletions within the SMC1A gene can be associated with epilepsy and milder craniofacial features.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two females who presented with developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prominent neurological involvement of severe developmental delay and refractory epilepsy, with mild craniofacial features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prominent neurological involvement of severe developmental delay and refractory epilepsy, with mild craniofacial features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "mild craniofacial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "prominent neurological involvement of severe developmental delay and refractory epilepsy, with mild craniofacial features",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "valproic acid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both individuals eventually had incomplete clinical responses to therapy with valproic acid.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "early infantile and early childhood epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A should be included in clinical gene panels for early infantile and early childhood epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

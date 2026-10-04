@@ -1,0 +1,106 @@
+{
+  "pmid": "33544220",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine type 1 (FHM1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A variants underlie three neurological disorders: familial hemiplegic migraine type 1 (FHM1), episodic ataxia type 2 (EA2) and spinocerebellar ataxia type 6 (SCA6).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "episodic ataxia type 2 (EA2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A variants underlie three neurological disorders: familial hemiplegic migraine type 1 (FHM1), episodic ataxia type 2 (EA2) and spinocerebellar ataxia type 6 (SCA6).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia type 6 (SCA6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A variants underlie three neurological disorders: familial hemiplegic migraine type 1 (FHM1), episodic ataxia type 2 (EA2) and spinocerebellar ataxia type 6 (SCA6).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "abnormal baseline EEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Baseline EEG was abnormal in 55% of cases (12 EA2, 9 FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "lateralized intermittent slowing, mainly affecting the temporal region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common finding was a lateralized intermittent slowing, mainly affecting the temporal region.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "slowing more pronounced after a recent attack and persistent during follow-up",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slowing was more pronounced after a recent attack but was consistently detected in the majority of patients also during the follow-up.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "interictal epileptic discharges (IEDs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interictal epileptic discharges (IEDs) were detected in eight patients (7 EA2,1 FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "EEG abnormalities and especially IEDs associated with younger age and earlier disease onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG abnormalities and especially IEDs were significantly associated with younger age at examination (16 ± 9 vs 43 ± 21 years in those without epileptic changes, p = 0.003) and with earlier onset of disease (1 (1-2) vs 12 (5-45) years, p = 0.0009).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "EEG abnormalities more prevalent than in CACNA1A-negative phenocopies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG findings in CACNA1A-negative phenocopies (n = 15) were largely unremarkable (p = 0.03 in the comparison with CACNA1A patients).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "age-dependent effect with more severe impairment when P/Q channel dysfunction manifests early in life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our findings underpin an age-dependent effect of CACNA1A variants, with a more severe impairment when P/Q channel dysfunction manifests early in life.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

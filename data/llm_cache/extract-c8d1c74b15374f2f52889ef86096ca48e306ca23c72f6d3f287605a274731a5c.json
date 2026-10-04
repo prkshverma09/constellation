@@ -1,0 +1,126 @@
+{
+  "pmid": "40894870",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sequence variants in KCNA2, the gene encoding voltage-gated potassium channel Kv1.2, cause epilepsy, delayed cognitive development, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "delayed cognitive development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sequence variants in KCNA2, the gene encoding voltage-gated potassium channel Kv1.2, cause epilepsy, delayed cognitive development, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sequence variants in KCNA2, the gene encoding voltage-gated potassium channel Kv1.2, cause epilepsy, delayed cognitive development, and movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "pain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv1.2 downregulation is also implicated in pain and amyotrophic lateral sclerosis (ALS).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "amyotrophic lateral sclerosis (ALS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kv1.2 downregulation is also implicated in pain and amyotrophic lateral sclerosis (ALS).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, using cellular electrophysiology, we classified 19 human Kv1.2 gene variants (pathogenic or of unknown significance) into LOF, gain of function (GOF), or mixed LOF/GOF.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, using cellular electrophysiology, we classified 19 human Kv1.2 gene variants (pathogenic or of unknown significance) into LOF, gain of function (GOF), or mixed LOF/GOF.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "pisiferic acid (PA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By hyperpolarizing their voltage dependence of activation, PA improved function in 13/13 LOF and 1/1 LOF/GOF pathogenic Kv1.2 variants tested, using cRNA ratios representative of autosomal dominant KCNA2 disorders.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "PA binding site in Kv1.2 voltage sensor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In silico docking, mutagenesis, and electrophysiology identified a PA binding site in the Kv1.2 voltage sensor.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "hyperpolarizing voltage dependence of activation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By hyperpolarizing their voltage dependence of activation, PA improved function in 13/13 LOF and 1/1 LOF/GOF pathogenic Kv1.2 variants tested, using cRNA ratios representative of autosomal dominant KCNA2 disorders.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "cRNA ratios representative of autosomal dominant KCNA2 disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By hyperpolarizing their voltage dependence of activation, PA improved function in 13/13 LOF and 1/1 LOF/GOF pathogenic Kv1.2 variants tested, using cRNA ratios representative of autosomal dominant KCNA2 disorders.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "pisiferic acid (PA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Given its in vitro efficacy and low preclinical toxicity, PA is a promising lead compound for Kv1.2 LOF disorders.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

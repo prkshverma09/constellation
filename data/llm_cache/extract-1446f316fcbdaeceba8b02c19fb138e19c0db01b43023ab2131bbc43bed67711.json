@@ -1,0 +1,216 @@
+{
+  "pmid": "30541864",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 mutations cause a generalized DEE with a distinctive syndrome combining epilepsy with eyelid myoclonia with absences and myoclonic-atonic seizures, as well as a predilection to seizures triggered by eating.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of the 57 patients, 56 had epilepsy: generalized in 55, with focal seizures in 7 and infantile spasms in 1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of the 57 patients, 56 had epilepsy: generalized in 55, with focal seizures in 7 and infantile spasms in 1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of the 57 patients, 56 had epilepsy: generalized in 55, with focal seizures in 7 and infantile spasms in 1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Of the 57 patients, 56 had epilepsy: generalized in 55, with focal seizures in 7 and infantile spasms in 1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "median seizure onset age 2 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Median seizure onset age was 2 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "novel drop attack: eyelid myoclonia evolving to myoclonic-atonic or atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A novel type of drop attack was identified comprising eyelid myoclonia evolving to a myoclonic-atonic (n = 5) or atonic (n = 8) seizure.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "eyelid myoclonia with absences",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included eyelid myoclonia with absences (65%), myoclonic seizures (34%), atypical (20%) and typical (18%) absences, and atonic seizures (14%), triggered by eating in 25%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included eyelid myoclonia with absences (65%), myoclonic seizures (34%), atypical (20%) and typical (18%) absences, and atonic seizures (14%), triggered by eating in 25%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "atonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included eyelid myoclonia with absences (65%), myoclonic seizures (34%), atypical (20%) and typical (18%) absences, and atonic seizures (14%), triggered by eating in 25%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "seizures triggered by eating",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included eyelid myoclonia with absences (65%), myoclonic seizures (34%), atypical (20%) and typical (18%) absences, and atonic seizures (14%), triggered by eating in 25%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay preceding seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental delay preceded seizure onset in 54 of 56 (96%) patients for whom early developmental history was available.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental plateauing or regression with seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Developmental plateauing or regression occurred with seizures in 56 in the context of a developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability (moderate to severe)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fifty-five of 57 patients had intellectual disability, which was moderate to severe in 50.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "behavioral problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "high pain threshold",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "eating problems including oral aversion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sleeping problems",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "ataxia or gait abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other common features included behavioral problems (73%); high pain threshold (72%); eating problems, including oral aversion (68%); hypotonia (67%); sleeping problems (62%); autism spectrum disorder (54%); and ataxia or gait abnormalities (51%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

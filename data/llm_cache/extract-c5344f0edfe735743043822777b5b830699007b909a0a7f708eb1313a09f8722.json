@@ -1,0 +1,166 @@
+{
+  "pmid": "39358043",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder (ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 is a high-confidence autism spectrum disorder (ASD) risk gene,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in SYNGAP1 lead to a neurodevelopmental disorder (NDD) that presents with epilepsy, ASD, motor developmental delay, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder (ASD)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in SYNGAP1 lead to a neurodevelopmental disorder (NDD) that presents with epilepsy, ASD, motor developmental delay, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "motor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in SYNGAP1 lead to a neurodevelopmental disorder (NDD) that presents with epilepsy, ASD, motor developmental delay, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in SYNGAP1 lead to a neurodevelopmental disorder (NDD) that presents with epilepsy, ASD, motor developmental delay, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "Ras/Rap GTP-ase activating protein SynGAP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1 codes for Ras/Rap GTP-ase activating protein SynGAP (SynGAP).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "regulates glutamate receptor trafficking in an activity-dependent manner",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SynGAP is located in the postsynaptic density of glutamatergic synapses and regulates glutamate receptor trafficking in an activity-dependent manner.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "highly expressed in the striatum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition to forebrain glutamatergic neurons, Syngap1 is highly expressed in the striatum,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "expressed in both direct and indirect pathway striatal projection neurons (dSPNs and iSPNs) in mice of both sexes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here we show that Syngap1 is expressed in both direct and indirect pathway striatal projection neurons (dSPNs and iSPNs) in mice of both sexes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "mouse model of Syngap1 haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a mouse model of Syngap1 haploinsufficiency,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Syngap1 haploinsufficiency",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "dendritic spine density, morphology, and intrinsic excitability are altered primarily in iSPNs, but not dSPNs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dendritic spine density, morphology, and intrinsic excitability are altered primarily in iSPNs, but not dSPNs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "alters striatal-dependent motor learning and goal-directed behavior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At the behavioral level, SynGAP reduction alters striatal-dependent motor learning and goal-directed behavior.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "iSPN-specific Syngap1 reduction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "iSPN-specific Syngap1 reduction",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "model",
+      "object_text": "iSPN-specific Syngap1 rescue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "iSPN-specific Syngap1 rescue",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "mechanism",
+      "object_text": "indirect pathway as a key circuit in the neurobiology of SYNGAP1-related NDD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pinpoint the indirect pathway as a key circuit in the neurobiology of SYNGAP1-related NDD.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

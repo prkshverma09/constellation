@@ -1,0 +1,136 @@
+{
+  "pmid": "27817982",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A haploinsufficiency producing NaV1.1 dysfunction mainly affects GABAergic neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "GABAergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NaV1.1 dysfunction mainly affects GABAergic neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In cortical interneurons it explains epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in cerebellum the ataxia",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "crouching gait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in basal ganglia and motor neurons the crouching gait",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "thermodysregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in hypothalamus the thermodysregulation and sleep troubles",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "sleep troubles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in hypothalamus the thermodysregulation and sleep troubles",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dysfunction in all these structures contributes to psychomotor delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Valproate, stiripentol, topiramate and bromide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproate, stiripentol, topiramate and bromide are the basis of antiepileptic treatment,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "inhibitors of sodium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas inhibitors of sodium channel worsen the condition.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Benzodiazepines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benzodiazepines seem to facilitate acute encephalopathy when given chronically",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "Ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ketogenic diet is useful in both chronic and acute conditions.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "targeting SCN1A haploinsufficiency and NaV1.1 dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only targeting SCN1A haploinsufficiency and NaV1.1 dysfunction could improve non epileptic manifestations of this condition",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

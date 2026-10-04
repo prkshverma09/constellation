@@ -1,0 +1,36 @@
+{
+  "pmid": "37364240",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The underlying cause is mutations in SCN1A, encoding the sodium channel subunit NaV1.1, in >90% of patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "sodium channel subunit NaV1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A, encoding the sodium channel subunit NaV1.1,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotides or virus-borne vectors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Increasing functional NaV1.1 via antisense oligonucleotides or virus-borne vectors is the most promising avenue for meaningful improvement in Dravet syndrome treatment, with the potential to not only reduce seizures but also address the multiple co-morbidities associated with this disease.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

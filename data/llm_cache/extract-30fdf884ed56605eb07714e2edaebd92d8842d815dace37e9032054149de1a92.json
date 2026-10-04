@@ -1,0 +1,16 @@
+{
+  "pmid": "38722169",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "in vitro neuron cultures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vitro neuron cultures can be used to probe network scale deficits and drug impacts in SCN2A disease.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

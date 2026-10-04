@@ -1,0 +1,76 @@
+{
+  "pmid": "39535073",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "N-methyl-D-aspartate receptor subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encode subunits of the N-methyl-D-aspartate receptor (NMDAR)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "early onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with severe and heterogeneous neurologic and neurodevelopmental disorders, including early onset epilepsy, developmental and epileptic encephalopathy, intellectual disability, and autism spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with severe and heterogeneous neurologic and neurodevelopmental disorders, including early onset epilepsy, developmental and epileptic encephalopathy, intellectual disability, and autism spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with severe and heterogeneous neurologic and neurodevelopmental disorders, including early onset epilepsy, developmental and epileptic encephalopathy, intellectual disability, and autism spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with severe and heterogeneous neurologic and neurodevelopmental disorders, including early onset epilepsy, developmental and epileptic encephalopathy, intellectual disability, and autism spectrum disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants in these genes can result in gain or loss of the NMDAR function, requiring opposite therapeutic treatments.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense variants in these genes can result in gain or loss of the NMDAR function, requiring opposite therapeutic treatments.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,46 @@
+{
+  "pmid": "42786260",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "interaction with PQBP1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "disrupted PQBP1-HNRNPU interaction by PQBP1 R10G mutation",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "U1/U2 small nuclear ribonucleoprotein (snRNP) recruitment to splicing sites",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired U1/U2 small nuclear ribonucleoprotein (snRNP) recruitment to splicing sites",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "L1-containing intron retention of neurodevelopmental genes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to increased L1-containing intron retention of neurodevelopmental genes, including WDR11",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "PQBP1-HNRNPU-L1 axis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "establish the dysregulated PQBP1-HNRNPU-L1 axis as a pathogenic driver of RS",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

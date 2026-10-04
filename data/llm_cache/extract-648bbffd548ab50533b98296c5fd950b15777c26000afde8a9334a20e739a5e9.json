@@ -1,0 +1,16 @@
+{
+  "pmid": "11888238",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "generalized epilepsy with febrile seizures plus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the GABRG2 subunit of the GABA(A) receptor are involved in the pathology of the newly described syndrome generalized epilepsy with febrile seizures plus",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

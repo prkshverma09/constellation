@@ -1,0 +1,46 @@
+{
+  "pmid": "14624354",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "voltage gated calcium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the voltage gated calcium channel gene, CACNA1A,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CACNA1A, previously identified as the first hemiplegic migraine gene (FHM1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "expressed in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ATP1A2 is expressed in the brain, like the voltage gated calcium channel gene, CACNA1A,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "mechanism",
+      "object_text": "coordinate regulation of ion homeostasis affecting susceptibility to migraine aura and pain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "raises the possibility that they coordinately regulate ion homeostasis that determines susceptibility to the initiation of both migraine aura and the pain phase of migraine.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

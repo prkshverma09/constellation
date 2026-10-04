@@ -1,0 +1,76 @@
+{
+  "pmid": "31824897",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "expressed in the developing nervous system with a critical role in forebrain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transcription factor Forkhead box G1 (FOXG1) is expressed in the developing nervous system with a critical role in forebrain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Altered dosage of FOXG1 due to deletions, duplications, or functional gain- or loss-of-function mutations, leads to a complex array of cellular effects with important consequences for human disease including neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Altered dosage of FOXG1 due to deletions, duplications, or functional gain- or loss-of-function mutations, leads to a complex array of cellular effects with important consequences for human disease including neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "multiple species and cell models where FOXG1 dose is altered",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we review studies in multiple species and cell models where FOXG1 dose is altered.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "non-linear, non-symmetrical relationship between FOXG1 dosage states",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We argue against a linear, symmetrical relationship between FOXG1 dosage states",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "temporal and spatial regulation of FOXG1 levels is required",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 levels at the right time and place need to be carefully regulated.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "neurodevelopmental disease states caused by FOXG1 mutations may be regulated through different mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neurodevelopmental disease states caused by mutations in FOXG1 may therefore be regulated through different mechanisms.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

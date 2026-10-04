@@ -1,0 +1,86 @@
+{
+  "pmid": "27541164",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "mild to lethal seizure disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild to lethal seizure disorders",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-syndromic deafness",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS (deafness, onychodystrophy, osteodystrophy, mental retardation, and seizures)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DOORS (deafness, onychodystrophy, osteodystrophy, mental retardation, and seizures)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "role in cerebral cortex development and in presynaptic neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The TBC1D24 gene has a role in cerebral cortex development and in presynaptic neurotransmission.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "lethal early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lethal early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "compound heterozygous missense variants",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "result in a loss of expression of the protein",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "correlation between residual expression and disease severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggesting a correlation between residual expression, and the disease severity.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

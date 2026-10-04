@@ -1,0 +1,16 @@
+{
+  "pmid": "35750198",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "reduced protein level after Aβ42 exposure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Aβ42 significantly reduced pre-synaptic proteins synaptophysin and VAMP2 and mean neuritic length.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

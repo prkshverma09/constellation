@@ -1,0 +1,96 @@
+{
+  "pmid": "40738011",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cognitive impairment",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "gait abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gait abnormalities",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "reduced symmetry and smoothness of trunk acceleration during gait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed decreased HR (P < 0.005) across all directions, reflecting reduced symmetry and smoothness of trunk acceleration during gait.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "gait instability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sLLE was higher in GLUT1-DS, indicating gait instability (P < 0.005)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "lower smoothness of trunk accelerations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "LDLJa was elevated (P = 0.001), corroborating lower smoothness of trunk accelerations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "step length variability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Step length variability was also higher in GLUT1-DS patients (P = 0.001).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "reduced fluidity, stability, and smoothness of gait",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The gait pattern of GLUT1-DS patients is marked by reduced fluidity, stability, and smoothness.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

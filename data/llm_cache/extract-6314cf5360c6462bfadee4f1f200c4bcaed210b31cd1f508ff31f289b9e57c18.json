@@ -1,0 +1,46 @@
+{
+  "pmid": "36870948",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "attenuated visual evoked potentials (VEPs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "group-level comparisons revealed attenuated visual evoked potentials (VEPs) in participants with Rett syndrome (n = 43) and CDKL5 deficiency disorder (n = 16) compared to typically-developing participants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "AEP amplitude correlated with clinical severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AEP amplitude correlated with severity in Rett syndrome and CDKL5 deficiency disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "AEP latency correlated with clinical severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "AEP latency correlated with severity in CDKL5 deficiency disorder, MECP2 duplication syndrome, and FOXG1 syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "feasibility of evoked potentials to track disease severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We have previously demonstrated the feasibility and tracking of evoked potentials to disease severity in Rett syndrome and CDKL5 deficiency disorder.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "39380901",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "gamma-aminobutyric acid (GABA) transporter 1 (GAT-1) protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the gene encodes for the gamma-aminobutyric acid (GABA) transporter 1 (GAT-1) protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reuptake of the inhibitory neurotransmitter GABA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This transporter is responsible for the reuptake of the inhibitory neurotransmitter, GABA.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "removes GABA from the synapse limiting over-excitability in the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The transporter usually removes GABA from the synapse space between two neurons, limiting over-excitability in the brain, which can lead to seizures and motor deficits as Amber noticed in her son, Maxwell.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "missed motor development milestones",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "missed motor development milestones",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "staring",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "would often stare.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures and motor deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures and motor deficits",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "gene replacement therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developed a research plan for a gene replacement therapy to treat the variant",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

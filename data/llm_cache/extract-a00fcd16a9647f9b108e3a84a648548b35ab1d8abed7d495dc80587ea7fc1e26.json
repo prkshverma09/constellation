@@ -1,0 +1,36 @@
+{
+  "pmid": "39344616",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WES revealed that the proband has harbored a heterozygous c.1642C>T (p.Arg548Cys) missense variant in exon 15 of the NPRL3 gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype of FFEVF patients caused by variants of NPRL3 gene is extensive, and the patients may present with neurological abnormality of autism spectrum disorder in addition to seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical phenotype of FFEVF patients caused by variants of NPRL3 gene is extensive, and the patients may present with neurological abnormality of autism spectrum disorder in addition to seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

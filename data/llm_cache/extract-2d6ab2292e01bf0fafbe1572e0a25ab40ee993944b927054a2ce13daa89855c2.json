@@ -1,0 +1,56 @@
+{
+  "pmid": "42003125",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "no_precision_therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There is currently no precision therapy for KCNT2 variants;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "quinidine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potential treatments supported by cell model evidence include quinidine, fluoxetine, loxapine, and riluzole.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "fluoxetine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potential treatments supported by cell model evidence include quinidine, fluoxetine, loxapine, and riluzole.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "loxapine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potential treatments supported by cell model evidence include quinidine, fluoxetine, loxapine, and riluzole.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "therapy",
+      "object_text": "riluzole",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "potential treatments supported by cell model evidence include quinidine, fluoxetine, loxapine, and riluzole.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

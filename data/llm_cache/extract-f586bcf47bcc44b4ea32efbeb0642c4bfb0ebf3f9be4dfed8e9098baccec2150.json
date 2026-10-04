@@ -1,0 +1,56 @@
+{
+  "pmid": "34852950",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "limbic-predominant age-related TDP-43 encephalopathy NC (LATE-NC)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several WWOX/MAF variants had significant adjusted associations with limbic-predominant age-related TDP-43 encephalopathy NC (LATE-NC), HS, and brain arteriolosclerosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "hippocampal sclerosis (HS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several WWOX/MAF variants had significant adjusted associations with limbic-predominant age-related TDP-43 encephalopathy NC (LATE-NC), HS, and brain arteriolosclerosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "brain arteriolosclerosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "several WWOX/MAF variants had significant adjusted associations with limbic-predominant age-related TDP-43 encephalopathy NC (LATE-NC), HS, and brain arteriolosclerosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "hippocampal sclerosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a prior GWAS, we identified a variant in WWOX as a suggestive risk allele for hippocampal sclerosis.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "ADNC",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Thus, WWOX genetic variants were associated pathologically with LATE-NC, not ADNC.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

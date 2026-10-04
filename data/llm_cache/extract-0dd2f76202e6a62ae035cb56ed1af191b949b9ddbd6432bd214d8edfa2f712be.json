@@ -1,0 +1,66 @@
+{
+  "pmid": "38227384",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "encodes the GluA2 subunit of the AMPARs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gria2 mRNA, responsible for encoding the GluA2 subunit of the AMPARs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "decreased Gria2 mRNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibited enduring decreases in Gria2 mRNA",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "decreased synaptic GluA2 protein expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreased synaptic GluA2 protein expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "GluA2 internalization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heightened phosphorylated GluA2 at Ser880 in dendrites, indicative of GluA2 internalization.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "GluA2-lacking AMPARs (increased)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased GluA2-lacking AMPARs",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "IEM-1460 (inhibitor of GluA2-lacking AMPARs) mitigates ELS-induced changes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vivo postseizure treatment with IEM-1460, an inhibitor of GluA2-lacking AMPARs, markedly mitigated ELS-induced changes in TRAPed neurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "25833943",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "mTOR regulatory gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mTOR regulatory genes (e.g., TSC1, TSC2, AKT3, DEPDC5)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal malformations of cortical development (MCD) highly associated with epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in mTOR regulatory genes (e.g., TSC1, TSC2, AKT3, DEPDC5) have been associated with several focal MCD highly associated with epilepsy such as tuberous sclerosis complex (TSC), hemimegalencephaly (HME; brain malformation associated with dramatic enlargement of one brain hemisphere), and cortical dysplasia.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

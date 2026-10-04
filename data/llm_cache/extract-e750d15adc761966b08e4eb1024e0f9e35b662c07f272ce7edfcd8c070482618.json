@@ -1,0 +1,106 @@
+{
+  "pmid": "34061450",
+  "claims": [
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2 variants resulting in substitutions affecting the Arg190 residue have been shown to cause epileptic encephalopathy and a recognizable facial gestalt.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "recognizable facial gestalt",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT2 variants resulting in substitutions affecting the Arg190 residue have been shown to cause epileptic encephalopathy and a recognizable facial gestalt.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two additional individuals with intellectual disability, dysmorphic features, hypertrichosis, macrocephaly and the same de novo KCNT2 missense variants affecting the Arg190 residue as previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two additional individuals with intellectual disability, dysmorphic features, hypertrichosis, macrocephaly and the same de novo KCNT2 missense variants affecting the Arg190 residue as previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "hypertrichosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two additional individuals with intellectual disability, dysmorphic features, hypertrichosis, macrocephaly and the same de novo KCNT2 missense variants affecting the Arg190 residue as previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "macrocephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We report two additional individuals with intellectual disability, dysmorphic features, hypertrichosis, macrocephaly and the same de novo KCNT2 missense variants affecting the Arg190 residue as previously described.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "Notably, neither patient has epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the same de novo KCNT2 missense variants affecting the Arg190 residue",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homology modeling of these missense variants revealed that they are likely to disrupt the stabilization of a closed channel conformation of KCNT2 resulting in a constitutively open state.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT2",
+      "claim_type": "phenotype",
+      "object_text": "developmental phenotype without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This is the first report of pathogenic variants in KCNT2 causing a developmental phenotype without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

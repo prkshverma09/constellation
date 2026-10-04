@@ -1,0 +1,106 @@
+{
+  "pmid": "42341995",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in the KCNA2 gene are associated with developmental and epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are classified as loss-of-function, gain-of-function (GoF), or mixed-type based on electrophysiological characteristics.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are classified as loss-of-function, gain-of-function (GoF), or mixed-type based on electrophysiological characteristics.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "model",
+      "object_text": "CRISPR-edited heterozygous mice carrying R297Q or L290R variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPR-edited heterozygous mice carrying R297Q or L290R variants were generated.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous lethal seizures within 1-2 months; median survival times of 52 and 49 days",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "R297Q and L290R heterozygous mice developed spontaneous lethal seizures within 1-2 months, with median survival times of 52 and 49 days, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "SUDEP-like terminal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "producing a terminal pattern that resembled human sudden unexpected death in epilepsy (SUDEP).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "autonomic dysfunction (increased skipped beats and elevated heart rate variability)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interictal ECG analysis demonstrated increased skipped beats and elevated heart rate variability, suggesting autonomic dysfunction.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic pathway disruption",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both variants converged on synaptic pathway disruption.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "enhanced Npy-Npy1r signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "enhanced NPY signaling was identified in both models, reflected in upregulation of Npy1r.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "Enhanced Npy-Npy1r signaling as a potential therapeutic target",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Enhanced Npy-Npy1r signaling may represent a potential therapeutic target for KCNA2-related epilepsies.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

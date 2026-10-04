@@ -1,0 +1,36 @@
+{
+  "pmid": "40986432",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "childhood epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SYNGAP1-related childhood epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "alpha-theta ratio in occipital electrodes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we isolated highly correlated biomarkers, including the alpha-theta ratio in frontal, occipital, and parietal electrodes associated with STXBP1, SYNGAP1, and SCN1A, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "diagnosis of SYNGAP1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Models accurately predicted a diagnosis of STXBP1 (area under the curve [AUC] = 0.92), SYNGAP1 (AUC = 0.86), and SCN1A (AUC = 0.85) against controls and each other (accuracy = 0.74).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "25366275",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "component of the GATOR-1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5, that encodes one of the components of the GATOR-1 complex,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have recently been associated with different forms of focal epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "inhibition of TORC1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5-dependent inhibition of TORC1",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three variants clearly disrupted the DEPDC5-dependent inhibition of TORC1.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "We did not obtain functional evidence to support pathogenicity in the remaining cases.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "38175993",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexplained death in childhood (SUDC)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identification of genetic variants in SCN1A and other epilepsy-associated genes",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

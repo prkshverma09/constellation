@@ -1,0 +1,136 @@
+{
+  "pmid": "31257402",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Genetic mutations in TBC1D24 have been associated with multiple phenotypes, with epilepsy being the main clinical manifestation.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 50 missense and loss-of-function mutations have been described and are spread over the entire protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More than 50 missense and loss-of-function mutations have been described and are spread over the entire protein.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Rolandic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Through whole genome/exome sequencing we identified compound heterozygous mutations, R360H and G501R, within the TLDc domain, in an index family with a Rolandic epilepsy exercise-induced dystonia phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "exercise-induced dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Through whole genome/exome sequencing we identified compound heterozygous mutations, R360H and G501R, within the TLDc domain, in an index family with a Rolandic epilepsy exercise-induced dystonia phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A 20-year long clinical follow-up revealed that epilepsy was self-limited in all three affected patients, but exercise-induced dystonia persisted into adulthood in two.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "exercise-induced dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A 20-year long clinical follow-up revealed that epilepsy was self-limited in all three affected patients, but exercise-induced dystonia persisted into adulthood in two.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "overall revealing that all six patients harbour a missense mutation in the subdomain of TLDc between residues 500 and 511.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "Drosophila model neuronally expressing human TBC1D24",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In a Drosophila model neuronally expressing human TBC1D24, we demonstrated that the TBC1D24G501R TLDc mutation causes activity-induced locomotion and synaptic vesicle trafficking defects, while TBC1D24R360H is benign.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we demonstrated that the TBC1D24G501R TLDc mutation causes activity-induced locomotion and synaptic vesicle trafficking defects",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "N-acetylcysteine amide or α-tocopherol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the neuronal phenotypes of the TBC1D24G501R mutation are consistent with exacerbated oxidative stress sensitivity, which is rescued by treating TBC1D24G501R mutant animals with antioxidants N-acetylcysteine amide or α-tocopherol as indicated by restored synaptic vesicle trafficking levels and sustained behavioural activity.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "reactive oxygen species sensor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose that the TBC1D24/Sky TLDc domain is a reactive oxygen species sensor mediating synaptic vesicle trafficking rates that, when dysfunctional, causes a movement disorder in patients and flies.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "combining antioxidant-based therapeutic approaches with lipid-altering strategies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The TLDc and TBC domain mutations' response to antioxidant treatment we observed in the animal model suggests a potential for combining antioxidant-based therapeutic approaches to TBC1D24-associated disorders with previously described lipid-altering strategies for TBC domain mutations.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

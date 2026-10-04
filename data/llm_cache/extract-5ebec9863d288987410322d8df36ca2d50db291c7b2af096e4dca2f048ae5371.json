@@ -1,0 +1,186 @@
+{
+  "pmid": "39867409",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All but one of 67 adults (55 females, median age of 24 years at last follow-up) had epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms or tonic seizures before 4 months of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "typically beginning with epileptic spasms or tonic seizures before 4 months of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "Focal-onset and non-motor seizures emerged later",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal-onset and non-motor seizures emerged later.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic-clonic seizures or status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Fewer than a third had been documented as having bilateral tonic-clonic seizures or status epilepticus.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures often improved with age; 73% had never experienced more than 6 months of seizure-freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures often improved with age, but 73% had never experienced more than 6 months of seizure-freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "Clobazam, sodium valproate, and lamotrigine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Clobazam, sodium valproate, and lamotrigine were the most frequently prescribed antiseizure medications, but no specific treatment demonstrated superiority.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "therapy",
+      "object_text": "no specific treatment demonstrated superiority",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but no specific treatment demonstrated superiority.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders, visual impairment, sleep disorders, constipation, and scoliosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Common comorbidities included movement disorders, visual impairment, sleep disorders, constipation, and scoliosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All participants had intellectual disability, 75% had not acquired speech and 45% had regressed developmentally.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "had not acquired speech",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "75% had not acquired speech",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "regressed developmentally",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "45% had regressed developmentally.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "never achieved any CDS skill",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16% never achieved any CDS skill, but most attained at least three, and 28% attained six or all seven.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "attained six or all seven CDS skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "16% never achieved any CDS skill, but most attained at least three, and 28% attained six or all seven.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "By adulthood, half of those who had achieved any CDS skill retained all their CDS skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "By adulthood, half of those who had achieved any CDS skill retained all their CDS skills.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "independent walking and standing were the skills most frequently lost",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The skills most frequently lost were independent walking and standing.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "history of neonatal seizures associated with fewer CDS skills and abnormal muscle tone, atrioventricular conduction delay, and potential complications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Those with a history of neonatal seizures tended to attain fewer CDS skills and were more likely to have abnormal muscle tone in adulthood, atrioventricular conduction delay, and potential complications of their illness and treatment.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Individuals carrying missense variants attained more CDS skills than those with other variants and were more likely to lose skills in adulthood and develop anxiety, possibly reflecting the limited neurodevelopment of those with non-missense variants, who manifested a more multisystemic disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "non-missense variants indicate a more complex disorder and lower developmental trajectory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Presence a non-missense variants or a history of neonatal seizures indicates a more complex disorder and lower developmental trajectory.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

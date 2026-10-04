@@ -1,0 +1,36 @@
+{
+  "pmid": "37123280",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter; member of solute carrier 6 (SLC6) family of sodium-dependent transporters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The four GATs identified in humans are GAT1 (SLC6A1), GAT2 (SLC6A13), GAT3 (SLC6A11), and betaine/GABA transporter-1 BGT-1 (SLC6A12) which are all members of the solute carrier 6 (SLC6) family of sodium-dependent transporters.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "cryo-EM structure available",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recent cryo-EM structure of GAT1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "binding sites for Na+, Cl-, substrates, and inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "binding sites for Na+, Cl-, substrates, and inhibitors by building on the recent cryo-EM structure of GAT1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

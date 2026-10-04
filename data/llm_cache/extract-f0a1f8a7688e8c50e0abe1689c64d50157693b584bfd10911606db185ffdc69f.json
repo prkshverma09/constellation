@@ -1,0 +1,56 @@
+{
+  "pmid": "29691040",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "infantile seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A dysfunction as a leading cause of infantile seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A dysfunction as a leading cause of infantile seizures, autism spectrum disorder",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A dysfunction as a leading cause of infantile seizures, autism spectrum disorder, and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "neuronal sodium channel NaV1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A encodes the neuronal sodium channel NaV1.2.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "ligands that selectively enhance or diminish channel function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ligands that selectively enhance or diminish channel function may improve symptoms.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

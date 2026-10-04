@@ -1,0 +1,106 @@
+{
+  "pmid": "30335140",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "drug-refractory lethal epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drug-refractory lethal epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome (deafness, onychodystrophy, osteodystrophy, mental retardation, seizures)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DOORS syndrome (deafness, onychodystrophy, osteodystrophy, mental retardation, seizures)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "non-syndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-syndromic hearing loss",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "haploinsufficiency for TBC1D24 is significant clinically.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "are likely acting as loss-of-function alleles.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "neuronal development and survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "implicated in neuronal development and survival",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 is also crucial for normal presynaptic function:",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "endocytosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic disruption of Tbc1d24 expression in the mouse leads to an impairment of endocytosis",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "enlarged endosomal compartment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an enlarged endosomal compartment in neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a decrease in spontaneous neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

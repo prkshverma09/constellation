@@ -1,0 +1,116 @@
+{
+  "pmid": "39429078",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including 15 missense variations, 3 frameshift variations and 2 nonsense variations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures were present in 21 children (88%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset before 2 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "76% (16/21) began before 2 years of age.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The seizure types included focal seizures in 15 children (71%),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "clustered seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seventeen children (81%) had a cluster of seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 24 children had varying degrees of developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "EEG abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG abnormalities were present in all the 21 children with seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "hypsarrhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hypsarrhythmia in 2 children",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "electrical status epilepticus during sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electrical status epilepticus during sleep in 3 children",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "magnetic resonance imaging abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Magnetic resonance imaging abnormalities were found in 5 of the 24 children.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "seizure control achieved",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "57% (12/21) achieved seizure control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

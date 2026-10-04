@@ -1,0 +1,76 @@
+{
+  "pmid": "30737342",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the presynaptic protein syntaxin-1B",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile and afebrile seizures with a benign course, generally good drug response, normal development, and without permanent neurologic deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "febrile and afebrile seizures with a benign course, generally good drug response, normal development, and without permanent neurologic deficits",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "genetic generalized epilepsy without febrile seizures and cognitive deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genetic generalized epilepsy without febrile seizures and cognitive deficits",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures, developmental regression after seizure onset and additional neuropsychiatric symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable seizures, developmental regression after seizure onset and additional neuropsychiatric symptoms",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "focal epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More often, we found loss-of-function mutations in benign syndromes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "missense variants in the SNARE motif of syntaxin-1B were associated with more severe phenotypes",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

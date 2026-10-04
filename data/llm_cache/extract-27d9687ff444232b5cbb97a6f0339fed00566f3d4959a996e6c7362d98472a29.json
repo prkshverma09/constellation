@@ -1,0 +1,86 @@
+{
+  "pmid": "36980817",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "G (o) subunit α of G-proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the G (o) subunit α of G-proteins.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "discrimination and perception of distance, depth and volume impaired",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "discrimination and perception of distance, depth and volume, appeared to be impaired at all ages, with no sign of improvement.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "ventral stream functions preserved and improved with age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other aspects, reliant on temporal lobe competences (ventral stream) and more related to object-face exploration, recognition and environmental control, appeared to be preserved and improved with age.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "visual function impaired",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Visual function is often impaired",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "ventral stream less affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patterns of visual impairment affecting the ventral stream less.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

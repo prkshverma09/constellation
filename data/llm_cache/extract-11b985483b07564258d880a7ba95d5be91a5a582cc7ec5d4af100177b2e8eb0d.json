@@ -1,0 +1,66 @@
+{
+  "pmid": "36262748",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant or sporadic sleep-related hypermotor epilepsy (ADSHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The phenotype autosomal dominant or sporadic sleep-related hypermotor epilepsy (ADSHE) (n = 10, 71.4%) was most reported; the remaining 4 cases had either epilepsy of infancy with migrating focal seizures (EIMFS) or an unclassifiable developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures (EIMFS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the remaining 4 cases had either epilepsy of infancy with migrating focal seizures (EIMFS) or an unclassifiable developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "unclassifiable developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the remaining 4 cases had either epilepsy of infancy with migrating focal seizures (EIMFS) or an unclassifiable developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "familial KCNT1-related epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There were 3 families with at least 2 cases diagnosed with KCNT1-related epilepsies (on average 3.3 cases per family), indicating 10 cases in total within the 3 families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "mean age at diagnosis 20.6 years (median 19 years)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mean age at diagnosis was 20.6 years (median 19 years) for KCNT1 cases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "autosomal dominant or sporadic sleep-related hypermotor epilepsy (ADSHE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All KCNT1 cases of ADSHE phenotype came from the 3 families.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

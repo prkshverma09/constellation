@@ -1,0 +1,16 @@
+{
+  "pmid": "35299616",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "atypical Rett",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "other genes are involved such as the cyclin-dependent kinase-like 5 (CDKL5) and the forkhead box G1 (FOXG1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

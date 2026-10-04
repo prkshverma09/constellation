@@ -1,0 +1,16 @@
+{
+  "pmid": "35363364",
+  "claims": [
+    {
+      "subject_gene": "FRRS1L",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this review, we executed a comprehensive state-of-art literature review regarding epilepsy genetics to offer a perception into the genes associated with epilepsy recognized in Saudi epileptic patients. Several genes' mutations were incorporated in this review including AFG3L2, ASPM, ATN1, ATP1A2, BMP5, CCDC88A, C12orf57, DNAJA1, EML1, ERLIN2, FRRS1L,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

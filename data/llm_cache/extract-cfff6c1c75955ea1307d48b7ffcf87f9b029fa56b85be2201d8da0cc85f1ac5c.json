@@ -1,0 +1,166 @@
+{
+  "pmid": "31714027",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 has become the second most relevant gene in epilepsy after SCN1A.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures provoked by fever",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizures often provoked by fever.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "cluster seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "who also had cluster seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal or tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mainly focal or tonic-clonic seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "absence of status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "absence of status epilepticus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "normal intelligence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "normal intelligence",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "mild-to-moderate cognitive impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild-to-moderate cognitive impairment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "onset age 5 months to 20 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the onset age ranges from 5 months to 20 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "multiple or focal transient interictal EEG discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Only four patients had multiple or focal transient discharges in interictal EEG.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures originating in the frontal region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Focal seizures originating in the frontal region were recorded in four patients, two from the parietal region, and one from the occipital region.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "inherited or de novo mutation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutation can be inherited or de novo.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "mental retardation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with or without mental retardation",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "psychosis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "psychosis",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "asymptomatic male",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "asymptomatic male",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "onset from infancy to adulthood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset age of PCDH19 Girls Clustering Epilepsy can range from infancy to adulthood.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "sisters sensitive to the same antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sisters in the same family may be sensitive to the same antiepileptic drugs.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

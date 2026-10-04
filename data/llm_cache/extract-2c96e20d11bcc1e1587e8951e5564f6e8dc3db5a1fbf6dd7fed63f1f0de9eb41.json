@@ -1,0 +1,76 @@
+{
+  "pmid": "41129843",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in the SLC2A1 gene, that limits the transport of glucose across the blood-brain barrier.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "transport of glucose across the blood-brain barrier",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "limits the transport of glucose across the blood-brain barrier.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, intellectual disability, movement disorders and coordination disorder are common characteristics found in the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, intellectual disability, movement disorders and coordination disorder are common characteristics found in the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, intellectual disability, movement disorders and coordination disorder are common characteristics found in the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "coordination disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy, intellectual disability, movement disorders and coordination disorder are common characteristics found in the syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "impaired motor performance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demonstrated an impaired motor performance.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

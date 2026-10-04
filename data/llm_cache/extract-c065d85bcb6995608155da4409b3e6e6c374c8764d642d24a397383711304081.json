@@ -1,0 +1,26 @@
+{
+  "pmid": "42737835",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "expression increased in kindled hippocampi",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All 11 genes were significantly upregulated in kindled hippocampi",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced expression with sarcosine relative to vehicle-kindled rats",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sarcosine was associated with reduced expression relative to vehicle-kindled rats for eight genes (Hdac9, Fos, Smad7, Unc5a, Grik2, Gpr37l1, Cacna2d2, and Yy1).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

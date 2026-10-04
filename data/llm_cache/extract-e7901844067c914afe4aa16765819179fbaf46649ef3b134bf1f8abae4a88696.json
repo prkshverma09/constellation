@@ -1,0 +1,46 @@
+{
+  "pmid": "22166420",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exertion-induced dystonia (DYT18, GLUT1 deficiency)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paroxysmal exertion-induced dystonia (DYT18, GLUT1 deficiency) is caused by mutations in the SLC2A1 gene (DYT9 and DYT18).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxystic movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "manifests with paroxystic movements sometimes associated with seizures and psychomotor developmental delay.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sometimes associated with seizures",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "psychomotor developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "psychomotor developmental delay.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

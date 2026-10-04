@@ -1,0 +1,16 @@
+{
+  "pmid": "39293730",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "RNA editing",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Significant time-dependent changes in brain RNA editing during microglial depletion and repopulation were primarily observed in synapse-related genes, such as Tbc1d24 and Slc1a2.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

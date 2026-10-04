@@ -1,0 +1,16 @@
+{
+  "pmid": "36628952",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "anxiety and depression in Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GABRA1, HMGCR, HTR2C, IFNL3, NBEA, UGT1A1, ABCB1, ABCC2, ABCG2, SLC6A2, SLC6A3, SLC6A4, MTHFR and OPRM1 variants affect anxiety and depression in Alzheimer's disease.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

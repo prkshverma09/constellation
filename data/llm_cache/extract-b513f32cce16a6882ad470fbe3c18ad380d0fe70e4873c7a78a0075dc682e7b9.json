@@ -1,0 +1,16 @@
+{
+  "pmid": "38101940",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "genetic generalized epilepsy or nonacquired focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo deletion of HNRNPU in one affected individual from a multiplex family.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

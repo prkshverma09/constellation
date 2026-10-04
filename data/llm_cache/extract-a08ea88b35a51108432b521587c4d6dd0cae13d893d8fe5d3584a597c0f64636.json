@@ -1,0 +1,26 @@
+{
+  "pmid": "41024644",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamatergic transmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "glutamatergic transmission (GRIA3)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "proteoform P42263-2 implicated in neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This approach implicates specific proteoforms in neurodegeneration: DPP6 (P42658-2), GRIA3 (P42263-2), the three-repeat isoforms of tau (3R-MAPT), and ASPH (Q12797-7).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

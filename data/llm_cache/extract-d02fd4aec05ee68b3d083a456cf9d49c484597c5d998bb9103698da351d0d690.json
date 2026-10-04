@@ -1,0 +1,26 @@
+{
+  "pmid": "27264139",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dravet syndrome is associated with mutations in the sodium channel alpha1 subunit gene (SCN1A) in 70-80% of individuals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "inhibition of the GABAergic inhibitory interneurons, leading to excessive neuronal excitation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A mutation results in inhibition of the GABAergic inhibitory interneurons, leading to excessive neuronal excitation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

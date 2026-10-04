@@ -1,0 +1,96 @@
+{
+  "pmid": "39745620",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "Glucose transporter 1 deficiency syndrome (Glut1DS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This disease arises from mutations in the SLC2A1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures, episodic or persistent movement disorders (often triggered by fasting, fatigue, or exercise), delayed motor and cognitive development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "episodic or persistent movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures, episodic or persistent movement disorders (often triggered by fasting, fatigue, or exercise), delayed motor and cognitive development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "delayed motor and cognitive development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures, episodic or persistent movement disorders (often triggered by fasting, fatigue, or exercise), delayed motor and cognitive development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "episodic eye-head movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures combined with movement disorders, episodic eye-head movements, and paroxysmal exercise-induced dyskinesia (PED).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "phenotype",
+      "object_text": "paroxysmal exercise-induced dyskinesia (PED)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures combined with movement disorders, episodic eye-head movements, and paroxysmal exercise-induced dyskinesia (PED).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ketogenic diet is internationally recognized as the first-line treatment; the earlier it is started, the better the prognosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "It can effectively control seizures and improve motor disorders.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "therapy",
+      "object_text": "antiepileptic drug treatment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Antiepileptic drug treatment is generally ineffective or provides limited symptom improvement before starting the ketogenic diet.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

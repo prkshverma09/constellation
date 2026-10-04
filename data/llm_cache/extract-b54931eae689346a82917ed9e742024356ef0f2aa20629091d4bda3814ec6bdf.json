@@ -1,0 +1,16 @@
+{
+  "pmid": "34653234",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "phenotype",
+      "object_text": "Angelman-like syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As a result, we identified 10 de novo and 1 X-linked pathogenic/likely pathogenic variants in 10 neurodevelopmental genes (SYNGAP1, VAMP2, TBL1XR1, ASXL3, SATB2, SMARCE1, SPTAN1, KCNQ3, SLC6A1 and LAS1L) and one deleterious de novo variant in a candidate gene (HSF2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

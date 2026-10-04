@@ -1,0 +1,16 @@
+{
+  "pmid": "23756480",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "phenotype",
+      "object_text": "juvenile myoclonic epilepsy (JME)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five Mendelian JME genes have been identified, namely, CACNB4, CASR, GABRa1, GABRD, and Myoclonin1/EFHC1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "40181518",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "hiPSC lines carrying the pathogenic I67N variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we generated CRISPR/Cas9-engineered human-induced pluripotent stem-cell (hiPSC) lines carrying the pathogenic variant I67N in the SNAREopathy gene SNAP25.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "model",
+      "object_text": "NGN2-programmed forebrain glutamatergic neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using fast forward NGN2 (NEUROG2)-dependent programming into forebrain glutamatergic neurons, we examined synaptic phenotypes using electrophysiology and immunostaining, as well as protein changes by means of proteomics.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "passive or active electrical properties",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The variant did not affect passive or active electrical properties,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "variant_effect",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but caused changes in synaptic transmission, including reduced evoked and spontaneous release, decreased synaptic vesicle release probability",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "short-term plasticity towards facilitation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "consequential changes in short-term plasticity towards facilitation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "4-aminopyridine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The I67N variant phenotype could be ameliorated by the clinically approved K+-channel blocker 4-aminopyridine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "downregulated synaptic proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteomic analysis of hiPSC-derived neurons revealed a significant enrichment in downregulated synaptic proteins (e.g. CALB1, SCN2A, LRRC4B, PPFIA2).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

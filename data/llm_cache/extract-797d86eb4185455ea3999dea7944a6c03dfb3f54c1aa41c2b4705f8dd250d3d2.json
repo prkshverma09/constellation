@@ -1,0 +1,26 @@
+{
+  "pmid": "30692144",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "increased proportion of immature AMPA receptors (incomplete glycosylation)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Frrsl1 deletion results in an increased proportion of immature AMPA receptors, indicated by incomplete glycosylation of GLUA2 (also known as GRIA2) and GLUA4 (also known as GRIA4) AMPA receptor proteins.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "cytoplasmic retention and reduced postsynaptic membrane levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This incomplete maturation leads to cytoplasmic retention and a reduction of those specific AMPA receptor levels in the postsynaptic membrane.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,56 @@
+{
+  "pmid": "33681646",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "age- and disease-specific stereotyped seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a clinical phenotype that includes age- and disease-specific stereotyped seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "focal tonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The typical seizure type of KCNQ2-DEE, focal tonic,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "onset within 0-5 days of life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "starts within 0-5 days of life",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures readily captured by video-electroencephalography (VEEG)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "readily captured by video-electroencephalography VEEG for clinical and genetic diagnosis.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "seizures clinically apparent and identifiable without EEG or VEEG",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After initial identification, KCNQ2-DEE seizures are clinically apparent and can be clearly identified without the use of EEG or VEEG.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

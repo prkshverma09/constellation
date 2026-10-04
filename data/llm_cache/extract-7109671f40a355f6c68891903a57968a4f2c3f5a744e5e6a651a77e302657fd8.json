@@ -1,0 +1,16 @@
+{
+  "pmid": "36177513",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "MR analysis nominated 10 risk genes whose genetically regulated expression in dopaminergic neurons may have a causal role in PD. These MR significant genes include FAM200B, NDUFAF2, NUP42, SH3GL2, STX1B, CCDC189, KAT8, PRSS36, VAMP4, and ZSWIM7.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "39731461",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Twenty-one parents of children with DEEs caused by SCN1A, KCNQ2, CDKL5, PCDH19, and GNAO1 variants were included.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

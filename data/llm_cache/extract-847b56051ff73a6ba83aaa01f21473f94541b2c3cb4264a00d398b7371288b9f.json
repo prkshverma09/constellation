@@ -1,0 +1,36 @@
+{
+  "pmid": "37369021",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "categorize GRIN variants as either gain-of-function (GoF) or loss-of-function (LoF) and apply this approach to GRIN2B variants identified in patients and the general population.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "categorize GRIN variants as either gain-of-function (GoF) or loss-of-function (LoF) and apply this approach to GRIN2B variants identified in patients and the general population.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "NMDAR sensitivity to agonists and endogenous modulators, trafficking to the plasma membrane, response time course and channel open probability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "apply this approach to GRIN2B variants identified in patients and the general population. This framework draws on results from six different assays that assess the impact of the variant on NMDAR sensitivity to agonists and endogenous modulators, trafficking to the plasma membrane, response time course and channel open probability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "34697416",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder with microcephaly/seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic PNKP variants cause heterogeneous disorders ranging from neurodevelopmental disorder with microcephaly/seizures to adult-onset Charcot-Marie-Tooth disease.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "adult-onset Charcot-Marie-Tooth disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic PNKP variants cause heterogeneous disorders ranging from neurodevelopmental disorder with microcephaly/seizures to adult-onset Charcot-Marie-Tooth disease.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "primary microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We present the first prenatal diagnosis of PNKP-related primary microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "micrencephaly with extracerebral malformations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathological examination of a male fetus in the 18th gestational week revealed micrencephaly with extracerebral malformations and thus presumed syndromic microcephaly.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "exon 4 skipping affecting the PNKP forkhead-associated (FHA) and phosphatase domains (p.Leu67_Lys166del)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exon 4 skipping affecting the PNKP forkhead-associated (FHA) and phosphatase domains (p.Leu67_Lys166del)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "RNA-seq showed complex splicing for c.1029+2T>C and c.151G>C",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RNA-seq showed complex splicing for c.1029+2T>C and c.151G>C.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "significant clustering of missense variants in the FHA domain with variants generating structural damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Structural modeling revealed significant clustering of missense variants in the FHA domain with variants generating structural damage.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.302C>T, p.(Pro101Leu)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.311T>C, p.(Leu104Pro)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.151G>C, p.(Val51Leu)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

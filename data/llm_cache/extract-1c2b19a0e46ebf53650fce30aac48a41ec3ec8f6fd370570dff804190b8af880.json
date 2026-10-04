@@ -1,0 +1,16 @@
+{
+  "pmid": "38931004",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "epileptic and developmental encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNT1 channels are the most widely characterized as responsible for several epileptic and developmental encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

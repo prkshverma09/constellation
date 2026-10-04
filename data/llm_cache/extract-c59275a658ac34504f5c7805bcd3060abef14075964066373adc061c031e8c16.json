@@ -1,0 +1,116 @@
+{
+  "pmid": "31747920",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy in Females with Mental Retardation (EFMR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in protocadherin 19 (PCDH19), which is on the X-chromosome, cause the brain disease Epilepsy in Females with Mental Retardation (EFMR).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism-like symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EFMR is also often associated with autism-like symptoms.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mice and humans, epilepsy occurs only in heterozygous females who have a mixture of PCDH19 wild-type (WT) and mutant cells caused by random X-inactivation; it does not occur in hemizygous PCDH19 mutant males.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "interference between WT and mutant cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "strongly suggests the underlying disease mechanism operates via interference between WT and mutant cells rather than being a result of complete loss of PCDH19 functions.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "model",
+      "object_text": "Pcdh19 knockout (KO) mouse model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pcdh19 knockout (KO) mouse model",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "defects in sociability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pcdh19 heterozygous KO female mice (with mosaic expression of PCDH19) show defects in sociability in the 3-chamber test.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "impaired sociability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygous Pcdh19 KO male mice (without any PCDH19 expression) exhibit impaired sociability in the 3-chamber test",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "reduced social interactions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hemizygous Pcdh19 KO male mice (without any PCDH19 expression) exhibit ... reduced social interactions in the reciprocal social interaction test.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "repetitive behaviors (self-grooming and rearing)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We also observed that, compared to WT mice, mutant mice display more repetitive behaviors, including self-grooming and rearing.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism-like phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings indicate that hemizygous Pcdh19 KO male mice show autism-like phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "autism-like symptoms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PCDH19 mutant males were recently reported to demonstrate autism-like symptoms.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

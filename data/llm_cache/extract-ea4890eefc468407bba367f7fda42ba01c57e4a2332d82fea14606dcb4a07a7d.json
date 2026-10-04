@@ -1,0 +1,16 @@
+{
+  "pmid": "31796679",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "mRNA decreased due to ovariectomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mRNA encoding Grin1 significantly decreased due to ovariectomy",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

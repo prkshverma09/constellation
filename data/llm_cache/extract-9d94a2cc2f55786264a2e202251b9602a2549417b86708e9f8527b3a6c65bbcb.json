@@ -1,0 +1,166 @@
+{
+  "pmid": "36257979",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "α-subunit of Kv2.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNB1 encodes the α-subunit of Kv2.1",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal delayed rectifier potassium currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the main contributor to neuronal delayed rectifier potassium currents",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "voltage-sensing domain (S1-S4) and the pore domain (S5-P-S6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The subunit consists of six transmembrane α helices (S1-S6), comprising the voltage-sensing domain (S1-S4) and the pore domain (S5-P-S6).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous KCNB1 pathogenic variants are associated with developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "delayed language development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delayed language development",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mild intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "attention deficit hyperactivity disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "attention deficit hyperactivity disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "late-onset epilepsy responsive to an antiepileptic drug",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "late-onset epilepsy responsive to an antiepileptic drug",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "elevation of serum creatine kinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "elevation of serum creatine kinase",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "peripheral axonal neuropathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "peripheral axonal neuropathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "periventricular heterotopia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "periventricular heterotopia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "polymicrogyria",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polymicrogyria",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "abnormal corpus callosum",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.574G>A, p.(Ala192Thr)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "activation and inactivation of the channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Functional analysis using the whole-cell patch-clamp technique in Neuro2a cells showed that the Ala192Thr mutant reduces both activation and inactivation of the channel at membrane voltages in the range of -50 to -30 mV.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "milder outcome of seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "suggested that variants located in the S1 segment might be associated with a milder outcome of seizures.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

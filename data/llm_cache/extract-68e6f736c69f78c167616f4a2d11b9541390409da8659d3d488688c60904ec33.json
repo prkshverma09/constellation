@@ -1,0 +1,66 @@
+{
+  "pmid": "39463124",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "higher δRP compared to control groups",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The δRP was higher in recordings of STXBP1-DEE (p < .001) compared to both control groups",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "higher anterior δRP compared to posterior",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In STXBP1-DEE, the δRP was significantly higher in the anterior electrode group compared to the posterior one (p = .003).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "widespread involvement of the dorsomesial frontal cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ESI modeling of this activity showed a widespread involvement of the dorsomesial frontal cortex, suggesting a large corticosubcortical pathologic network.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "predominant frontal slow activity as a specific STXBP1 feature that correlates with severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The qEEG analysis showed a predominant frontal slow activity as a specific STXBP1 feature that correlates with the severity of the phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "predominant frontal slow activity may represent a biomarker for prospective longitudinal studies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "may represent a biomarker for prospective longitudinal studies of STXBP1-DEE.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "cluster.1 (higher anterior δRP and low dynamics) associated with more severe epilepsy and neurological phenotype",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients in cluster.1 had a more severe epilepsy and neurological phenotype compared to patients in cluster 2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

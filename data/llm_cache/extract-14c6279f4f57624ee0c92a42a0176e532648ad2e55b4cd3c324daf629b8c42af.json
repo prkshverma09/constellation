@@ -1,0 +1,106 @@
+{
+  "pmid": "27117551",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss- or gain-of-function mutations in the KCNA2 gene; have been described in individuals with epileptic encephalopathy, ataxia or intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss- or gain-of-function mutations in the KCNA2 gene; have been described in individuals with epileptic encephalopathy, ataxia or intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss- or gain-of-function mutations in the KCNA2 gene; have been described in individuals with epileptic encephalopathy, ataxia or intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss- or gain-of-function mutations in the KCNA2 gene; have been described in individuals with epileptic encephalopathy, ataxia or intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "de novo loss- or gain-of-function mutations in the KCNA2 gene; have been described in individuals with epileptic encephalopathy, ataxia or intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intractable seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient presented since birth with intractable seizures, progressive microcephaly, developmental delay, and progressive brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "progressive microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient presented since birth with intractable seizures, progressive microcephaly, developmental delay, and progressive brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient presented since birth with intractable seizures, progressive microcephaly, developmental delay, and progressive brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "progressive brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient presented since birth with intractable seizures, progressive microcephaly, developmental delay, and progressive brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1120A > G (p.Thr374Ala)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

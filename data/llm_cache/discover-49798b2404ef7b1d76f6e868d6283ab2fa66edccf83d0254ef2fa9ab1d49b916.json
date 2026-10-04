@@ -1,0 +1,44 @@
+{
+  "symbol": "SCN8A",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T10:20:01.493965+00:00",
+  "usage": {
+    "input_tokens": 40074,
+    "output_tokens": 7935
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "The Cute Syndrome Foundation",
+        "url": "https://thecutesyndrome.com/about-scn8a/",
+        "kind": "foundation",
+        "snippet": "SCN8A-related disorders are rare genetic neurodevelopmental conditions caused by pathogenic variants in the SCN8A gene."
+      },
+      {
+        "name": "SCN8A Alliance",
+        "url": "https://scn8aalliance.org/",
+        "kind": "research_network",
+        "snippet": "The International SCN8A Registry is the most comprehensive repository of caregiver reported SCN8A data."
+      },
+      {
+        "name": "Shay Emma Hammer Research Foundation – International SCN8A Registry",
+        "url": "https://scn8a.net/",
+        "kind": "registry",
+        "snippet": "Researchers and medical experts analyze data from the Registry Research Study questionnaire to accelerate progress in understanding the causes and consequences of SCN8A-related disorders."
+      },
+      {
+        "name": "SCN8A UK & Ireland",
+        "url": "https://www.scn8a.co.uk/about-us",
+        "kind": "foundation",
+        "snippet": "Living with someone with SCN8A can be a very difficult and potentially isolating experience for families."
+      },
+      {
+        "name": "SCN8A España",
+        "url": "https://www.scn8a.es/",
+        "kind": "foundation",
+        "snippet": "Bienvenido a la asociación de afectados por la mutación SCN8A en España."
+      }
+    ]
+  }
+}

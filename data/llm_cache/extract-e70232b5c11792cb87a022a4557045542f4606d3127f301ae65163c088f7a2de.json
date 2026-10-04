@@ -1,0 +1,46 @@
+{
+  "pmid": "41009659",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "hub aging-related gene in Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four hub genes, GFAP, NPY, SNAP25, and SST, were found as possibly hub aging-related genes in Alzheimer's disease",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "downregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NPY, SNAP25, and SST exhibited significant downregulation (p < 0.05)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "gastrodin binding (docking) to SNAP25",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "molecular docking and molecular dynamics simulation exhibited that gastrodin has an excellent affinity in docking with SNAP25",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "therapy",
+      "object_text": "gastrodin",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gastrodin could treat AD by targeting specific genes and signaling pathways",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

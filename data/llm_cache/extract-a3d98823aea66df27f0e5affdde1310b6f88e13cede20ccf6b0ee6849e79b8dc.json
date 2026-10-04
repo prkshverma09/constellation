@@ -1,0 +1,106 @@
+{
+  "pmid": "40401013",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "self-limited infantile epilepsy (SeLIE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the PRRT2 gene cause self-limited infantile epilepsy (SeLIE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "SeLIE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SeLIE was most common, diagnosed in 32 children with heterozygous PRRT2 variants (n = 32/33, 97%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "SeLIE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All children with homozygous PRRT2 variants had SeLIE with movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All children with homozygous PRRT2 variants had SeLIE with movement disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "infantile epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "1 child evolved from SeLIE to infantile epileptic spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "spike-wave activation in sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "another developed spike-wave activation in sleep",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy in adolescence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and 1 developed focal epilepsy in adolescence.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "medically refractory genetic generalized epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Medically refractory genetic generalized epilepsy and intellectual disability were diagnosed in 1 child with a whole-gene PRRT2 deletion and 16p11.2 microdeletion.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Medically refractory genetic generalized epilepsy and intellectual disability were diagnosed in 1 child with a whole-gene PRRT2 deletion and 16p11.2 microdeletion.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers were effective in most (20/27 responded, 74%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

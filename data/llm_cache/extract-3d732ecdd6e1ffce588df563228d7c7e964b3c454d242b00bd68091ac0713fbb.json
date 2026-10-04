@@ -1,0 +1,156 @@
+{
+  "pmid": "38881224",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "aberrant GTP binding and hydrolysis activities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "aberrant GTP binding and hydrolysis activities",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "an inability to interact with cellular binding partners",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an inability to interact with cellular binding partners",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "mechanism",
+      "object_text": "reduced coupling to GPCRs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced coupling to GPCRs.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy 17",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Decreased localization of Gαo in the plasma membrane was correlated with the phenotype of \"developmental and epileptic encephalopathy 17.\"",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "complex neurodevelopmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a complex neurodevelopmental disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "central hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "central hypotonia",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "neurological deterioration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurological deterioration",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "recurrent hyperkinetic crisis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "recurrent hyperkinetic crisis with partial recovery",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "secondary complications leading to death in three cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "therapy",
+      "object_text": "Deep brain stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Deep brain stimulation improved hyperkinetic crisis, but had inconsistent benefits in dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic variants in position 203 were related to developmental and epileptic encephalopathy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disorder with involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas those in position 209 were related to neurodevelopmental disorder with involuntary movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "milder phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Milder phenotypes were associated with other molecular defects such as del.16q12.2q21 and I344del.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

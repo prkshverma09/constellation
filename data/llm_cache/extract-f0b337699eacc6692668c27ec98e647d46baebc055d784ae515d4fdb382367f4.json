@@ -1,0 +1,16 @@
+{
+  "pmid": "30737342",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "fever-associated epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN1A, the most important gene associated with fever-associated epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

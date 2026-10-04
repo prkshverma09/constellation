@@ -1,0 +1,106 @@
+{
+  "pmid": "35310859",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "neuronal voltage-gated sodium channel primarily found in excitatory neurons throughout the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN2A encodes a neuronal voltage-gated sodium channel, NaV1.2 that is primarily found in excitatory neurons throughout the brain.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "most concentrated within the principal neurons of the corticostriatal circuit, which includes pyramidal neurons in the medial prefrontal cortex and medium spiny neurons in the striatum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NaV1.2 is most concentrated within the principal neurons of the corticostriatal circuit, which includes pyramidal neurons in the medial prefrontal cortex and medium spiny neurons in the striatum.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "plays critical roles in generation and propagation of action potentials in these neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the early stage of adult development, the NaV1.2 channel plays critical roles in generation and propagation of action potentials in these neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain of Function variants of SCN2A results in unprovoked seizures and epilepsy,",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "loss-of-function variants of SCN2A is a leading cause for autism spectrum disorder as well as intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "full deletion of Scn2a gene in mice is lethal",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "full deletion of Scn2a gene in mice is lethal",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "partial disruption (<50%) leads to inhibition of neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "partial disruption of Scn2a gene (less than 50%) leads to inhibition of neuronal excitability.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "neuronal hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe deletion of Scn2a gene (around 68% gene disruption) in NaV1.2 triggers neuronal hyperexcitability in adult mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "unprovoked seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "certain individuals with NaV1.2 deficiency still develop unprovoked seizure.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "sodium-channel blockers exacerbate seizure",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "using sodium-channel blockers simply exacerbates the seizure",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

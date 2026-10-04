@@ -1,0 +1,16 @@
+{
+  "pmid": "39152783",
+  "claims": [
+    {
+      "subject_gene": "CACNA1A",
+      "claim_type": "phenotype",
+      "object_text": "SCA6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "repeat expansion analyses revealed that two patients carried the pathogenic CAG repeat expansion in the CACNA1A gene (SCA6)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

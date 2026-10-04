@@ -1,0 +1,106 @@
+{
+  "pmid": "34441836",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 gene mutations are associated with a neurodevelopmental disorder characterized by developmental delay, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 gene mutations are associated with a neurodevelopmental disorder characterized by developmental delay, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 gene mutations are associated with a neurodevelopmental disorder characterized by developmental delay, epilepsy, and movement disorder.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "wheelchair-bound",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 children are usually wheelchair-bound and with numerous motor constrains, including dystonic movements and postures, heterotropia, and hypotonia, making the cognitive assessment arduous.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "dystonic movements and postures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 children are usually wheelchair-bound and with numerous motor constrains, including dystonic movements and postures, heterotropia, and hypotonia, making the cognitive assessment arduous.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "heterotropia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 children are usually wheelchair-bound and with numerous motor constrains, including dystonic movements and postures, heterotropia, and hypotonia, making the cognitive assessment arduous.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "hypotonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GNAO1 children are usually wheelchair-bound and with numerous motor constrains, including dystonic movements and postures, heterotropia, and hypotonia, making the cognitive assessment arduous.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "communicative intent through intentionally directed gaze",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We have herein demonstrated that, through an eye tracking system, six GNAO1 patients evaluated showed variable degrees of communicative intent through intentionally directed gaze.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "normal fluid intelligence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, three of these were able to complete a cognitive evaluation, and showed normal fluid intelligence and lexical comprehension.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "normal lexical comprehension",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, three of these were able to complete a cognitive evaluation, and showed normal fluid intelligence and lexical comprehension.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

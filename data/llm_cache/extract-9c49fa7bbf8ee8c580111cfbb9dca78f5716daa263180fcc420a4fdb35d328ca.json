@@ -1,0 +1,16 @@
+{
+  "pmid": "31356291",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "benign hereditary chorea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Benign hereditary chorea is a syndrome or phenotype due to mutations in several genes, including NKX2-1, ADCY5, GNAO1, and PDE10A.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

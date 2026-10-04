@@ -1,0 +1,46 @@
+{
+  "pmid": "36750385",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "convulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The highest proportion of CSE occurred in patients with SCN1A-associated DEEs, including 181/203 (89%; 95% CI 84-93) patients with Dravet syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "convulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The highest proportion of CSE occurred in patients with SCN1A-associated DEEs, including 181/203 (89%; 95% CI 84-93) patients with Dravet syndrome and 8/15 (53%; 95% CI 27-79) non-Dravet SCN1A-DEEs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "nonconvulsive status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "NCSE was common in patients with non-Dravet SCN1A-DEEs (8/15; 53%; 95% CI 27-79)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "sudden unexplained death in epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four genes were associated with SUDEP: SCN1A, SCN2A, SCN8A, and STXBP1.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

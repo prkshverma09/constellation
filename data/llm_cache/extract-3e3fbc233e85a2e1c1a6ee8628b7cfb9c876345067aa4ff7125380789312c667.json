@@ -1,0 +1,96 @@
+{
+  "pmid": "35178022",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the c.889C>T de novo missense variant in the KCNA2 gene in heterozygous state.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic epilepsy characterized by daily episodes of upward movements of the eyebrows, and myoclonic jerks of both head and upper limbs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic epilepsy characterized by daily episodes of upward movements of the eyebrows, and myoclonic jerks of both head and upper limbs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "speech delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "speech delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "tremors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "tremors",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "lack of motor coordination",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lack of motor coordination",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic jerks of both head and upper limbs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "myoclonic jerks of both head and upper limbs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "valproic acid and ethosuximide",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient was treated with valproic acid and ethosuximide with a good clinical response.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "seizure-free with tremors and clumsiness in movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the proband was seizure-free with tremors and clumsiness in movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this case supports the correlation between myoclonic epilepsy and KCNA2 alterations.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

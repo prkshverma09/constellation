@@ -1,0 +1,16 @@
+{
+  "pmid": "40296287",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "therapy",
+      "object_text": "potential diagnostic and therapeutic target for epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the genes PRRT2, KMT2C, PRKRA, NOTCH3, NAGLU, and SCN1A were identified as potentially important for epilepsy, suggesting they could become key targets for clinical diagnosis and treatment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

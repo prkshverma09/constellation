@@ -1,0 +1,106 @@
+{
+  "pmid": "40543705",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "altered TDP-43 localization and interactions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reveal pathologic features of altered transactive response DNA binding protein 43 kDa (TDP-43) localization, interactions, and stunted dendritic arbors.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "model",
+      "object_text": "iPSC-derived motor neurons from fibroblasts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "iPSC-derived motor neurons from fibroblasts donated by the son were generated",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "TDP-43 mislocalization to the soma",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Quantitative imaging of patient iPSC neurons identified TDP-43 mislocalization to the soma and dendritic atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "decreased biochemical interactions with TDP-43-associated proteins",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The KIF1A mutant also elicited decreased biochemical interactions of both itself and TDP-43 with a spectrum of known TDP-43-associated proteins.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "spasticity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both patients developed spasticity and parkinsonism in their mid-60s",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "parkinsonism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both patients developed spasticity and parkinsonism in their mid-60s",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "impaired putamenal dopamine uptake with preserved uptake in the caudate nuclei",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was impaired putamenal dopamine uptake with preserved uptake in the caudate nuclei, and decreased anisotropy by tractography in multiple motor pathways.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "decreased anisotropy by tractography in multiple motor pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There was impaired putamenal dopamine uptake with preserved uptake in the caudate nuclei, and decreased anisotropy by tractography in multiple motor pathways.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "tauopathy and TDP-43 proteinopathy throughout the brainstem",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Neuropathologic assessment of the father, who shared the same KIF1A variants, revealed tauopathy and TDP-43 proteinopathy throughout the brainstem.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "mutant mediates altered TDP-43 interactions and stunting of synaptic architecture (suggested)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These data suggest that this novel KIF1A mutant mediates altered TDP-43 interactions, stunting of the synaptic architecture, and clinical phenotypes coincident with neurodegenerative movement disorders.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

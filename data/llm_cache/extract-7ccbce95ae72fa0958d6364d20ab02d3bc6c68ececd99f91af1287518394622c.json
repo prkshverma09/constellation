@@ -1,0 +1,126 @@
+{
+  "pmid": "32504494",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly with early onset seizures (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hereditary mutations in polynucleotide kinase-phosphatase (PNKP) result in a spectrum of neurological pathologies ranging from neurodevelopmental dysfunction in microcephaly with early onset seizures (MCSZ)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia oculomotor apraxia-4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hereditary mutations in polynucleotide kinase-phosphatase (PNKP) result in a spectrum of neurological pathologies ranging from neurodevelopmental dysfunction in microcephaly with early onset seizures (MCSZ) to neurodegeneration in ataxia oculomotor apraxia-4 (AOA4) and Charcot-Marie-Tooth disease (CMT2B2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "Charcot-Marie-Tooth disease (CMT2B2)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hereditary mutations in polynucleotide kinase-phosphatase (PNKP) result in a spectrum of neurological pathologies ranging from neurodevelopmental dysfunction in microcephaly with early onset seizures (MCSZ) to neurodegeneration in ataxia oculomotor apraxia-4 (AOA4) and Charcot-Marie-Tooth disease (CMT2B2).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA single-strand break repair (SSBR) and DNA double-strand break repair (DSBR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Consistent with this, PNKP is implicated in the repair of both DNA single-strand breaks (SSBs) and DNA double-strand breaks (DSBs);",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA double-strand break repair (DSBR)",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "we did not detect a significant defect in DSB repair (DSBR) in primary fibroblasts from PNKP patients spanning the spectrum of PNKP-mutated pathologies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA single-strand break repair (SSBR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the rate of SSB repair (SSBR) is markedly reduced.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA kinase activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the restoration of SSBR in patient fibroblasts collectively requires both the DNA kinase and DNA phosphatase activities of PNKP",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "DNA phosphatase activity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the restoration of SSBR in patient fibroblasts collectively requires both the DNA kinase and DNA phosphatase activities of PNKP",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "FHA domain interaction with XRCC1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the restoration of SSBR in patient fibroblasts collectively requires both the DNA kinase and DNA phosphatase activities of PNKP, and the fork-head associated (FHA) domain that interacts with the SSBR protein, XRCC1.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with reduced DNA phosphatase activity correlating with neurodevelopmental dysfunction",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "neurodegeneration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and reduced DNA kinase activity correlating with neurodegeneration.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "reduced rates of SSBR as cause of neurodevelopmental and neurodegenerative pathology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In summary, these data implicate reduced rates of SSBR, not DSBR, as the source of both neurodevelopmental and neurodegenerative pathology in PNKP-mutated disease,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

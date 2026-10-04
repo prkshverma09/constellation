@@ -1,0 +1,16 @@
+{
+  "pmid": "36878965",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "schizophrenia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a large-scale exome sequencing study identified single genes whose rare mutations substantially increase the risk for schizophrenia, of which six genes (SETD1A, CUL1, XPO7, GRIA3, GRIN2A, and RB1CC1) showed odds ratios larger than ten.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

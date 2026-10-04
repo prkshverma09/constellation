@@ -1,0 +1,56 @@
+{
+  "pmid": "28406046",
+  "claims": [
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "protein subunit of the GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dishevelled, Egl-10 and Pleckstrin (DEP) domain-containing protein 5 (DEPDC5) is a protein subunit of the GTPase-activating proteins towards Rags 1 (GATOR1) complex.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "mechanism",
+      "object_text": "modulator of mTOR activity via GATOR1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GATOR1 is a recently identified modulator of mechanistic target of rapamycin (mTOR) activity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "phenotype",
+      "object_text": "lesional and non-lesional focal epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GATOR1 gene mutations have recently been shown to cause lesional and non-lesional focal epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "DEPDC5 agonists",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEPDC5 is an attractive therapeutic target in focal epilepsy, as effects of DEPDC5 agonists would likely be anti-epileptogenic and more selective than currently available mTOR inhibitors.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "DEPDC5",
+      "claim_type": "therapy",
+      "object_text": "synergy with ketogenic diet",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Therapeutic effects might be synergistic with certain existing dietary therapies, including the ketogenic diet.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

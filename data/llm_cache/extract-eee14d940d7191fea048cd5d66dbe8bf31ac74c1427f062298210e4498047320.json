@@ -1,0 +1,56 @@
+{
+  "pmid": "32848094",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused largely by de novo variants in the SCN1A gene, resulting in haploinsufficiency of the voltage-gated sodium channel α subunit NaV1.1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "specifically increase the expression of productive Scn1a transcript in human cell lines, as well as in mouse brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified antisense oligonucleotides (ASOs) that specifically increase the expression of productive Scn1a transcript in human cell lines, as well as in mouse brain.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "reduced the incidence of electrographic seizures and sudden unexpected death in epilepsy (SUDEP)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a single intracerebroventricular dose of a lead ASO at postnatal day 2 or 14 reduced the incidence of electrographic seizures and sudden unexpected death in epilepsy (SUDEP) in the F1:129S-Scn1a +/- × C57BL/6J mouse model of DS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "productive Scn1a transcript and NaV1.1 protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Increased expression of productive Scn1a transcript and NaV1.1 protein was confirmed in brains of treated mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "F1:129S-Scn1a +/- × C57BL/6J mouse model of DS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the F1:129S-Scn1a +/- × C57BL/6J mouse model of DS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

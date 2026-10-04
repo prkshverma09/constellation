@@ -1,0 +1,66 @@
+{
+  "pmid": "34913468",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a loss-of-function zebrafish model for CDD, containing a nonsense mutation in cdkl5.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "model",
+      "object_text": "loss-of-function zebrafish model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a loss-of-function zebrafish model for CDD, containing a nonsense mutation in cdkl5.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cdkl5 mutant zebrafish display defects in neuronal patterning, seizures, microcephaly, and reduced muscle function caused by impaired muscle innervation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cdkl5 mutant zebrafish display defects in neuronal patterning, seizures, microcephaly, and reduced muscle function caused by impaired muscle innervation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "defects in neuronal patterning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cdkl5 mutant zebrafish display defects in neuronal patterning, seizures, microcephaly, and reduced muscle function caused by impaired muscle innervation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "impaired muscle innervation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduced muscle function caused by impaired muscle innervation.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

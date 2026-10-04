@@ -1,0 +1,126 @@
+{
+  "pmid": "42157447",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in SLC6A1, encoding the GABA transporter 1 (GAT-1), cause epilepsy, autism spectrum disorder, and developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in SLC6A1, encoding the GABA transporter 1 (GAT-1), cause epilepsy, autism spectrum disorder, and developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in SLC6A1, encoding the GABA transporter 1 (GAT-1), cause epilepsy, autism spectrum disorder, and developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "via loss of GABA uptake, impaired trafficking, and ER retention.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "GABA transporter 1 (GAT-1)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding the GABA transporter 1 (GAT-1)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-Phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PBA restored GABA uptake and GAT-1 surface expression across all variants, and TUDCA mimicked the effects of PBA.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "pharmacochaperone",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PBA acts as a pharmacochaperone, not an HDAC inhibitor, to restore GAT-1 function and reduce seizure burden in the diseased mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "4-Phenylbutyrate (PBA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PBA acts as a pharmacochaperone, not an HDAC inhibitor, to restore GAT-1 function and reduce seizure burden in the diseased mice",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Slc6a1+/A288V",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1+/A288V",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "Slc6a1+/S295L",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc6a1+/S295L",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "HDAC inhibitors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HDAC inhibitors exhibited modest rescue in vitro but failed to restore GAT-1 function or mitigate seizures in the knockin mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "TUDCA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TUDCA mimicked the effects of PBA.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

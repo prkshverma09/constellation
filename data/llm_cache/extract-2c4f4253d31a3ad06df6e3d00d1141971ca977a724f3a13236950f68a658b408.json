@@ -1,0 +1,26 @@
+{
+  "pmid": "35809380",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "dysautonomia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nine of the 13 cases had at least one system affected by dysautonomia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "dysautonomia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Dysautonomic signs were found in both subgroups: 7 of seven patients in the severe array subgroup and 2 of six in the mild array subgroup.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

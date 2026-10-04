@@ -1,0 +1,56 @@
+{
+  "pmid": "41061183",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "synaptic damage",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Beta-synuclein (beta-syn), synaptosomal-associated protein 25 (SNAP-25), and neurogranin are CSF biomarkers of synaptic damage, which have been poorly investigated in non-neurodegenerative neurologic diseases.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "altered mental status",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All synaptic biomarkers were elevated in participants with IINDs presenting with altered mental status (beta-syn, p < 0.001; SNAP-25, p = 0.002; and neurogranin, p = 0.008), seizures (beta-syn, p = 0.013; SNAP-25, p = 0.005; and neurogranin, p = 0.004), and inflammatory changes on neuroimaging (beta-syn, p = 0.016; SNAP-25, p = 0.029; and neurogranin, p = 0.007).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All synaptic biomarkers were elevated in participants with IINDs presenting with altered mental status (beta-syn, p < 0.001; SNAP-25, p = 0.002; and neurogranin, p = 0.008), seizures (beta-syn, p = 0.013; SNAP-25, p = 0.005; and neurogranin, p = 0.004), and inflammatory changes on neuroimaging (beta-syn, p = 0.016; SNAP-25, p = 0.029; and neurogranin, p = 0.007).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "inflammatory changes on neuroimaging",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All synaptic biomarkers were elevated in participants with IINDs presenting with altered mental status (beta-syn, p < 0.001; SNAP-25, p = 0.002; and neurogranin, p = 0.008), seizures (beta-syn, p = 0.013; SNAP-25, p = 0.005; and neurogranin, p = 0.004), and inflammatory changes on neuroimaging (beta-syn, p = 0.016; SNAP-25, p = 0.029; and neurogranin, p = 0.007).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "poor functional status (modified Rankin Scale [mRS] scores of 3-6)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Participants with IINDs with a poor functional status (modified Rankin Scale [mRS] scores of 3-6) exhibited higher concentrations of beta-syn (p < 0.001), SNAP-25 (p = 0.022), neurogranin (p = 0.004), and NfL (p < 0.001) compared with those with mRS scores of 0-2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

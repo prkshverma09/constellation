@@ -1,0 +1,96 @@
+{
+  "pmid": "37295561",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The most common cause of DS is haploinsufficiency of the SCN1A gene",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel Nav1.1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes the voltage-gated sodium channel Nav1.1.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a halploinsufficiency rat model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we report the generation and characterization of a Scn1a halploinsufficiency rat model of DS by disrupting the Scn1a allele.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "reduced SCN1A expression in cerebral cortex, hippocampus and thalamus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn1a+/- rats show reduced Scn1a expression in the cerebral cortex, hippocampus and thalamus.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "premature death of homozygous null rats",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Homozygous null rats die prematurely.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "high susceptibility to heat-induced (hyperthermia-induced) seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Heterozygous animals are highly susceptible to heat-induced seizures, the clinical hallmark of DS, but are otherwise normal in survival, growth, and behavior without seizure induction.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "activation of distinct sets of neurons in hippocampus and hypothalamus during hyperthermia-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hyperthermia-induced seizures activate distinct sets of neurons in the hippocampus and hypothalamus in Scn1a+/- rats.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "ictal EEG with high amplitude bursts and increased delta and theta power",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Electroencephalogram (EEG) recordings in Scn1a+/- rats reveal characteristic ictal EEG with high amplitude bursts with significantly increased delta and theta power.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous non-convulsive and convulsive seizures following initial hyperthermia-induced seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "After the initial hyperthermia-induced seizures, non-convulsive, and convulsive seizures occur spontaneously in Scn1a+/- rats.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

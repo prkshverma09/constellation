@@ -1,0 +1,76 @@
+{
+  "pmid": "35589488",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "infantile-onset epilepsy and severe intellectual disability in girls",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic truncating variants in SMC1A, which is located on chromosome Xp11.2, are known to cause infantile-onset epilepsy and severe intellectual disability in girls.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "seizure clustering",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Several studies have reported a correlation between SMC1A truncations and seizure clustering;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "mild abnormality in the interictal EEG during infancy and early childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Our patient presented with a mild abnormality in the interictal EEG during infancy and early childhood despite frequent seizure clustering.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "gradually deteriorated EEG findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Notably, the patient's EEG findings gradually deteriorated over time, which was inconsistent with the amelioration of seizure clustering.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "tonic-clonic seizures occurring in clusters several times a week",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The patient experienced unknown onset, tonic-clonic seizures that occurred in clusters several times a week.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy onset at 4 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had developed epilepsy at the age of 4 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "no seizure clustering since age 9 years",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the patient did not experience seizure clustering since the age of 9 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

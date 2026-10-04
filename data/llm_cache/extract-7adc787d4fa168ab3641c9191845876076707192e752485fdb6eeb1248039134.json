@@ -1,0 +1,126 @@
+{
+  "pmid": "28548707",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "a phenotype resembling Cornelia de Lange syndrome (CdLS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A variants are known to cause a phenotype resembling Cornelia de Lange syndrome (CdLS).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "encephalopathy with epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Exome sequencing has allowed recognizing SMC1A variants in individuals with encephalopathy with epilepsy who do not resemble CdLS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "growth is less disturbed",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "growth is less disturbed",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "facial signs are less marked (except for periocular signs and thin upper vermillion)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "facial signs are less marked (except for periocular signs and thin upper vermillion)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "there are no major limb anomalies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "there are no major limb anomalies",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "a higher level of cognitive and adaptive functioning",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they have a higher level of cognitive and adaptive functioning.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "a phenotype that shows a remarkable resemblance to Rett syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "had a phenotype that shows a remarkable resemblance to Rett syndrome:",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "severe or profound intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe or profound intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "stereotypic movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "stereotypic movements",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "regression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "(in some) regression",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Their missense, nonsense, and frameshift mutations are evenly spread over the gene.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

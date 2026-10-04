@@ -1,0 +1,16 @@
+{
+  "pmid": "39419567",
+  "claims": [
+    {
+      "subject_gene": "GNAO1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "noteworthy, novel genes linked to DEE phenotypes, such as gBRAT-1 and GNAO1",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

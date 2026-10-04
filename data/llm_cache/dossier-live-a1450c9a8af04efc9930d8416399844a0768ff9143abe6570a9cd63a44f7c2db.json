@@ -1,0 +1,226 @@
+{
+  "sections": [
+    {
+      "key": "who_shares",
+      "title": "Who shares our characteristics",
+      "sentences": [
+        {
+          "text": "STXBP1 sits in the Neurotransmitter release cycle.",
+          "edge_ids": [
+            "8b8a74101835d1d2"
+          ]
+        },
+        {
+          "text": "STX1B-related disease shares a research pattern with STXBP1.",
+          "edge_ids": [
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "VAMP2-related disease shares a research pattern with STXBP1.",
+          "edge_ids": [
+            "ca33d6f8f475990e"
+          ]
+        },
+        {
+          "text": "SNAP25-related disease shares a research pattern with STXBP1.",
+          "edge_ids": [
+            "fcb938d1b0386f7c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_exists",
+      "title": "What already exists",
+      "sentences": [
+        {
+          "text": "A natural history study for STXBP1 is registered.",
+          "edge_ids": [
+            "bc71e274e1c691ec"
+          ]
+        },
+        {
+          "text": "Another natural history study lists STXBP1 and SYNGAP1.",
+          "edge_ids": [
+            "dcec503694916ae3"
+          ]
+        },
+        {
+          "text": "This STXBP1 study covers 5 of 8 STX1B phenotype terms.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92",
+            "4e5e828ba255e763",
+            "4a4f52c38a51ab40",
+            "ab5fe5ff268d13ba"
+          ]
+        },
+        {
+          "text": "Asociación Síndrome STXBP1 serves STXBP1 disease.",
+          "edge_ids": [
+            "453d4be996145f4e"
+          ]
+        },
+        {
+          "text": "The European STXBP1 Consortium serves STXBP1 disease.",
+          "edge_ids": [
+            "ba44da54694ec39f"
+          ]
+        },
+        {
+          "text": "Raging Raymond Foundation serves VAMP2 disorder.",
+          "edge_ids": [
+            "202ca5201eca2102"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "what_differs",
+      "title": "What differs and must be verified",
+      "sentences": [
+        {
+          "text": "GNAO1 disease looks similar but has no supported shared mechanism here, so it is excluded.",
+          "edge_ids": [
+            "f94ad5494a3e9ab8"
+          ]
+        },
+        {
+          "text": "CACNA1A overlaps at Regulation of insulin secretion, which is a different step.",
+          "edge_ids": [
+            "34c9bc447921f8cb",
+            "187be2699f417de6",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "SLC2A1 overlaps at Regulation of insulin secretion, which is a different step.",
+          "edge_ids": [
+            "20c30f77dc2491fb",
+            "5490966f0991bdf8",
+            "3a40a3f53a18b664"
+          ]
+        },
+        {
+          "text": "GRIN1 overlaps at Neurexins and neuroligins, which is a different step.",
+          "edge_ids": [
+            "9b5a310872598764",
+            "072a91fd2fdb335f",
+            "ce6dd3aad07a277e"
+          ]
+        },
+        {
+          "text": "STXBP1 shows loss of function, while CACNA1A shows gain of function.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "4e69b8ecbf6740e9",
+            "c3ec464ea6412040"
+          ]
+        },
+        {
+          "text": "STXBP1 shows loss of function, while GRIN1 shows gain of function.",
+          "edge_ids": [
+            "87257c69fcfbcdad",
+            "df57b34e24ef5206",
+            "c9e703902a0fb3f5",
+            "0211d2b50f1f9730"
+          ]
+        },
+        {
+          "text": "Some reports find no link between seizure and thinking severity.",
+          "edge_ids": [
+            "b1f9e5eeafbc81d2"
+          ]
+        },
+        {
+          "text": "Some reports find no link between mutation type and seizure or cognition.",
+          "edge_ids": [
+            "e362983ef11a54b1"
+          ]
+        },
+        {
+          "text": "Some reports find no clear syndromes tied to recurrent variants.",
+          "edge_ids": [
+            "ddc8cd6784a496fb"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "who_to_contact",
+      "title": "Who to contact",
+      "sentences": [
+        {
+          "text": "Rikke S Møller has published on STXBP1 and STX1B.",
+          "edge_ids": [
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        },
+        {
+          "text": "Ingo Helbig has published on STXBP1.",
+          "edge_ids": [
+            "18e9e45f700b90dd",
+            "220ad6798167d0d5"
+          ]
+        },
+        {
+          "text": "Ingrid E Scheffer has published on STXBP1.",
+          "edge_ids": [
+            "b57c18a44198a014"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "next_step",
+      "title": "Proposed first joint step",
+      "sentences": [
+        {
+          "text": "Review the STXBP1 natural history study record and contact Rikke S Møller to discuss alignment.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "00ad11fdd61a5e6f",
+            "2eea3ae9e8a1455e",
+            "4e3da81614f6d08d"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coverage",
+      "title": "Search coverage",
+      "sentences": [
+        {
+          "text": "Coverage of STX1B phenotype information is 5 of 8 terms using the STXBP1 natural history study.",
+          "edge_ids": [
+            "bc71e274e1c691ec",
+            "3c0ab7caccfc6cb4",
+            "3ddef56861713c92"
+          ]
+        }
+      ]
+    }
+  ],
+  "dropped_sentences": 0,
+  "markdown": "## Who shares our characteristics\nSTXBP1 sits in the Neurotransmitter release cycle. [8b8a74101835d1d2]\nSTX1B-related disease shares a research pattern with STXBP1. [ab5fe5ff268d13ba]\nVAMP2-related disease shares a research pattern with STXBP1. [ca33d6f8f475990e]\nSNAP25-related disease shares a research pattern with STXBP1. [fcb938d1b0386f7c]\n\n## What already exists\nA natural history study for STXBP1 is registered. [bc71e274e1c691ec]\nAnother natural history study lists STXBP1 and SYNGAP1. [dcec503694916ae3]\nThis STXBP1 study covers 5 of 8 STX1B phenotype terms. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92, 4e5e828ba255e763, 4a4f52c38a51ab40, ab5fe5ff268d13ba]\nAsociación Síndrome STXBP1 serves STXBP1 disease. [453d4be996145f4e]\nThe European STXBP1 Consortium serves STXBP1 disease. [ba44da54694ec39f]\nRaging Raymond Foundation serves VAMP2 disorder. [202ca5201eca2102]\n\n## What differs and must be verified\nGNAO1 disease looks similar but has no supported shared mechanism here, so it is excluded. [f94ad5494a3e9ab8]\nCACNA1A overlaps at Regulation of insulin secretion, which is a different step. [34c9bc447921f8cb, 187be2699f417de6, 3a40a3f53a18b664]\nSLC2A1 overlaps at Regulation of insulin secretion, which is a different step. [20c30f77dc2491fb, 5490966f0991bdf8, 3a40a3f53a18b664]\nGRIN1 overlaps at Neurexins and neuroligins, which is a different step. [9b5a310872598764, 072a91fd2fdb335f, ce6dd3aad07a277e]\nSTXBP1 shows loss of function, while CACNA1A shows gain of function. [87257c69fcfbcdad, df57b34e24ef5206, 4e69b8ecbf6740e9, c3ec464ea6412040]\nSTXBP1 shows loss of function, while GRIN1 shows gain of function. [87257c69fcfbcdad, df57b34e24ef5206, c9e703902a0fb3f5, 0211d2b50f1f9730]\nSome reports find no link between seizure and thinking severity. [b1f9e5eeafbc81d2]\nSome reports find no link between mutation type and seizure or cognition. [e362983ef11a54b1]\nSome reports find no clear syndromes tied to recurrent variants. [ddc8cd6784a496fb]\n\n## Who to contact\nRikke S Møller has published on STXBP1 and STX1B. [00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\nIngo Helbig has published on STXBP1. [18e9e45f700b90dd, 220ad6798167d0d5]\nIngrid E Scheffer has published on STXBP1. [b57c18a44198a014]\n\n## Proposed first joint step\nReview the STXBP1 natural history study record and contact Rikke S Møller to discuss alignment. [bc71e274e1c691ec, 00ad11fdd61a5e6f, 2eea3ae9e8a1455e, 4e3da81614f6d08d]\n\n## Search coverage\nCoverage of STX1B phenotype information is 5 of 8 terms using the STXBP1 natural history study. [bc71e274e1c691ec, 3c0ab7caccfc6cb4, 3ddef56861713c92]",
+  "usage": {
+    "input_tokens": 74943,
+    "output_tokens": 7955
+  },
+  "disease_id": "MONDO:0012812",
+  "persona": "devon",
+  "mode": "live",
+  "snapshot_hash": "d886fcdc69d2b1643c56b7ebd73e6e552b058b8fa9ee6588347ebdc309aa748b",
+  "trace_id": "68e89bec-9313-4ddb-97da-613fb32ea8c4",
+  "generated_at": "2026-10-04T11:10:37.501969+00:00",
+  "gap_plan": null,
+  "fallback_sections": [],
+  "model": "gpt-5",
+  "elapsed_ms": 117302,
+  "comparator_id": null
+}

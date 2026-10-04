@@ -1,0 +1,116 @@
+{
+  "pmid": "39161180",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in CACNA2D2 have been associated with developmental and epileptic encephalopathy (DEE) and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in CACNA2D2 have been associated with developmental and epileptic encephalopathy (DEE) and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "the corresponding p.R596P mutation in mouse α2δ-2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the corresponding p.R596P mutation in mouse α2δ-2",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drastically decreases membrane expression and synaptic targeting of α2δ-2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "altered biophysical properties of postsynaptic CaV1.3 channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This defect correlates with altered biophysical properties of postsynaptic CaV1.3 channel",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "no effect on presynaptic CaV2.1 channels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "has no effect on presynaptic CaV2.1 channels upon heterologous expression in tsA201 cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced presynaptic abundance of endogenous CaV2.1 channels and presynaptic calcium transients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "affects the ability of α2δ-2 to induce a statistically significant increase in the presynaptic abundance of endogenous CaV2.1 channels and presynaptic calcium transients.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced trans-synaptic recruitment of GABAA receptors and presynaptic synapsin clustering in glutamatergic synapses",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduces the trans-synaptic recruitment of GABAA receptors and presynaptic synapsin clustering in glutamatergic synapses.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "mechanism",
+      "object_text": "reduced amplitudes of glutamatergic miniature postsynaptic currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "reduces the amplitudes of glutamatergic miniature postsynaptic currents in transduced hippocampal neurons.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "heterologous expression in tsA201 cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "heterologous expression in tsA201 cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "model",
+      "object_text": "primary cultures of hippocampal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "primary cultures of hippocampal neurons",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

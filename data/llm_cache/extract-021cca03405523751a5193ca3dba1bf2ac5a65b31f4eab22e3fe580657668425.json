@@ -1,0 +1,16 @@
+{
+  "pmid": "39581982",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "top 5 key gene in PPI network of neuronal DEGs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The PPI network of the DEGs consisted of 126 nodes and 209 edges, identifying the top 5 key genes: Dlgap1, Cacna1c, Gria2, Hsp90ab1, and Gapdh.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

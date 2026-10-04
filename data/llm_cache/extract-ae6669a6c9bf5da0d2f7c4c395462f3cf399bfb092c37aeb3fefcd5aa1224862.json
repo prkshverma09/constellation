@@ -1,0 +1,16 @@
+{
+  "pmid": "37509594",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "mechanism",
+      "object_text": "mRNA expression decreased",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "decreasing the immunoreactivity of the glial fibrillary acidic protein and mRNA expression of glutamate receptor subunit zeta-1 (NMDAR; Grin1),",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

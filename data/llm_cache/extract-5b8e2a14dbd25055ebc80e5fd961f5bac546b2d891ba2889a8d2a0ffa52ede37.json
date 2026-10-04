@@ -1,0 +1,36 @@
+{
+  "pmid": "24214579",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "1q44 microdeletion region",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU and FAM36A are two important genes in the deleted region.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "mechanism",
+      "object_text": "long range control of SHH gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU gene mediate long range control of SHH gene which is likely explanation of preaxial polydactyly in the present patient.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "preaxial polydactyly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "HNRNPU gene mediate long range control of SHH gene which is likely explanation of preaxial polydactyly in the present patient.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

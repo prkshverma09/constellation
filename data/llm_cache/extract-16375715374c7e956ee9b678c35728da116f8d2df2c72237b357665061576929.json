@@ -1,0 +1,16 @@
+{
+  "pmid": "27191890",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "phenotype",
+      "object_text": "familial and sporadic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The genes analysed in familial and sporadic migraine are: MTHFR, KCNK18, HCRTR1, SLC6A4, STX1A, GRIA1 and GRIA3.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

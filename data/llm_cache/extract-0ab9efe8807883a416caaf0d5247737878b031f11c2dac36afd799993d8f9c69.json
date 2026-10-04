@@ -1,0 +1,126 @@
+{
+  "pmid": "37759260",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Q/R site editing occurs with ~99% efficiency; majority of AMPARs contain GluA2(R)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "RNA editing at the Q/R site of GluA2 occurs with ~99% efficiency in the healthy brain, so that the majority of AMPARs contain GluA2(R) instead of the exonically encoded GluA2(Q).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Reduced Q/R site editing increases AMPA receptor calcium permeability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced Q/R site editing infcreases AMPA receptor calcium permeability and leads to dendritic spine loss, neurodegeneration, seizures and learning impairments.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "dendritic spine loss; neurodegeneration; seizures; learning impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Reduced Q/R site editing infcreases AMPA receptor calcium permeability and leads to dendritic spine loss, neurodegeneration, seizures and learning impairments.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "GluA2 Q/R site editing is impaired in Alzheimer's disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GluA2 Q/R site editing is impaired in Alzheimer's disease (AD)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "therapy",
+      "object_text": "inhibiting expression of unedited GluA2(Q) while maintaining GluA2(R) expression as a strategy to prevent synapse loss and neurodegeneration in AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "inhibiting expression of unedited GluA2(Q), while maintaining expression of GluA2(R), may be a novel strategy of preventing synapse loss and neurodegeneration in AD.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "mouse engineered with arginine codon (CGG) at position 607 of Gria2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We engineered mice with the 'edited' arginine codon (CGG) in place of the unedited glutamine codon (CAG) at position 607 of the Gria2 gene.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "Gria2-edited mice crossbred with the J20 mouse model of AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We crossbred this line with the J20 mouse model of AD and conducted anatomical, electrophysiological and behavioural assays to determine the impact of eliminating unedited GluA2(Q) expression on AD-related phenotypes.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "prevention of dendritic spine loss and hippocampal CA1 neurodegeneration in AD mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eliminating unedited GluA2(Q) expression in AD mice prevented dendritic spine loss and hippocampal CA1 neurodegeneration as well as improved working and reference memory in the radial arm maze.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "improved working and reference memory in radial arm maze",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eliminating unedited GluA2(Q) expression in AD mice prevented dendritic spine loss and hippocampal CA1 neurodegeneration as well as improved working and reference memory in the radial arm maze.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "phenotypic improvements occurred independently of Aβ pathology and ongoing seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These phenotypes were improved independently of Aβ pathology and ongoing seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "phenotype",
+      "object_text": "increased spine density in non-AD mice with exonically encoded GluA2(R)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Surprisingly, our data also revealed increased spine density in non-AD mice with exonically encoded GluA2(R) as compared to their wild-type littermates, suggesting an unexpected and previously unknown role for unedited GluA2(Q) in regulating dendritic spines.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "Q/R editing site may act as an epigenetic switch regulating dendritic spines, neurodegeneration and memory deficits in AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The Q/R editing site of the AMPA receptor subunit GluA2 may act as an epigenetic switch that regulates dendritic spines, neurodegeneration and memory deficits in AD.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

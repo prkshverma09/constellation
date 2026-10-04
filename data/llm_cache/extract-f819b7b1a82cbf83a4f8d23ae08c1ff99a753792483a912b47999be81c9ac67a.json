@@ -1,0 +1,16 @@
+{
+  "pmid": "37415806",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Across tissue-specific and multi-tissue analyses, we identified 53 genes for which genetically predicted gene expression was associated with migraine after correcting for multiple testing. Of these 53 genes, 10 (ATF5, CNTNAP1, KTN1-AS1, NEIL1, NEK4, NNT, PNKP, RUFY2, TUBG2, and VAT1) did not overlap known migraine-associated loci identified from GWAS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

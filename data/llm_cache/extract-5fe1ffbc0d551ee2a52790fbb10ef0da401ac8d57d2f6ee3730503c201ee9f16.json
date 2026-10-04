@@ -1,0 +1,36 @@
+{
+  "pmid": "37188538",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "increased CSF SNAP-25 levels in AD compared with LBD and controls",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF β-synuclein, α-synuclein, SNAP-25, neurogranin, and NfL levels did not differ between LBD (n = 101, age 67.2 ± 7.8 years, 27.7% females) and controls (age 64.8 ± 8.6 years, 39.3% females) and were increased in AD (AD-MCI: n = 30, AD-dem: n = 30, age 72.3 ± 6.0 years, 63.3% females) compared with both groups (p < 0.001 for all comparisons).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "higher CSF SNAP-25 concentrations in LBD/A+T+ than in LBD/A+T-",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CSF β-synuclein (p = 0.0021), α-synuclein (p = 0.0099), and SNAP-25 concentrations (p = 0.013) were also higher in LBD/A+T+ than in LBD/A+T- cases, which had synaptic biomarker levels within the normal range.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "no difference in SNAP-25 levels between LBD/A+T+ and AD",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, LBD/A+T+ and AD cases did not differ in any biomarker level.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

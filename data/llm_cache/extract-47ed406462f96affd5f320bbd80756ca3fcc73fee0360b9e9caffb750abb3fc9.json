@@ -1,0 +1,16 @@
+{
+  "pmid": "36216271",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy with eyelid myoclonia and absences (EMA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we discuss the contribution of pathogenic variants in CHD2, SYNGAP1 and some other genes as, RORB, NEXMIF and KCNB1 to this peculiar EMA phenotype.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

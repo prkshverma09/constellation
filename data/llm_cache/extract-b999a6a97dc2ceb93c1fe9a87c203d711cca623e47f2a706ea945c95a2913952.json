@@ -1,0 +1,96 @@
+{
+  "pmid": "35439054",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a heterozygous KCNA2 variant in a child with epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "forms homotetrameric potassium channels and participate in heterotetrameric channel complexes, regulating neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 encodes KV1.2 subunits, which form homotetrameric potassium channels and participate in heterotetrameric channel complexes with other KV1-family subunits, regulating neuronal excitability.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mutation causes substitution F233S at the KV1.2 charge transfer center of the voltage-sensing domain.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KV1.2(F233S) subunits are trafficking deficient and reduce the surface expression of wild-type KV1.2 and KV1.4: a dominant-negative phenotype extending beyond KCNA2",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "impairs trafficking along the biosynthesis and secretion pathway",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "both early and late events along the biosynthesis and secretion pathway impair trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "some KV1.2(F233S) trafficking was rescued by wild-type KV1.2 and KV1.4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Yet some KV1.2(F233S) trafficking was rescued by wild-type KV1.2 and KV1.4 subunits, likely in permissible heterotetrameric stoichiometries:",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "up to one or two KV1.2(F233S) subunits can participate in trafficking-capable heterotetramers with wild-type KV1.2 or KV1.4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "support that up to one or two KV1.2(F233S) subunits can participate in trafficking-capable heterotetramers with wild-type KV1.2 or KV1.4, respectively",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "depolarizing shift of ∼48 mV on KV1.2 voltage dependence",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "F233S causes a depolarizing shift of ∼48 mV on KV1.2 voltage dependence.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "retains pore coupling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "it operates with modestly perturbed voltage dependence and retains pore coupling, evidenced by off-charge immobilization.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

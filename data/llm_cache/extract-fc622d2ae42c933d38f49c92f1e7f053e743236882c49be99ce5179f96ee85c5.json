@@ -1,0 +1,76 @@
+{
+  "pmid": "28821613",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "dual-function DNA kinase/phosphatase that processes damaged DNA termini",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "polynucleotide kinase/phosphatase (PNKP), a dual-function DNA kinase/phosphatase that processes damaged DNA termini",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ataxia with oculomotor apraxia 4 (AOA4)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ataxia with oculomotor apraxia 4 (AOA4)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly with early-onset seizures and developmental delay (MCSZ)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "microcephaly with early-onset seizures and developmental delay (MCSZ)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "interaction via a forkhead-associated domain in PNKP",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "XRCC1 and PNKP interact via a high-affinity phosphorylation-dependent interaction site in XRCC1 and a forkhead-associated domain in PNKP.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "a second PNKP interaction site in XRCC1 that binds PNKP with lower affinity and independently of XRCC1 phosphorylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Here, we identified using biochemical and biophysical approaches a second PNKP interaction site in XRCC1 that binds PNKP with lower affinity and independently of XRCC1 phosphorylation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "stimulation of PNKP activity and promotion of SSBR and cell survival",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, this interaction nevertheless stimulated PNKP activity and promoted SSBR and cell survival.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "bipartite interaction model in which high-affinity tether promotes a low-affinity interaction that stimulates PNKP directly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We propose a bipartite interaction model in which the previously identified high-affinity interaction acts as a molecular tether, holding XRCC1 and PNKP together and thereby promoting the low-affinity interaction identified here, which then stimulates PNKP directly.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

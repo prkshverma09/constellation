@@ -1,0 +1,46 @@
+{
+  "pmid": "37961108",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the activity, but not the protein level, of an essential DNA repair enzyme, polynucleotide kinase 3'-phosphatase (PNKP), is severely abrogated in both HD and SCA3 resulting in accumulation of double-strand breaks in patients' brain genome.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Supplementation of F2,6BP restored PNKP activity in the nuclear extracts of patients' brain.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "model",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, intracellular delivery of F2,6BP restored both the activity of PNKP and the integrity of transcribed genome in neuronal cells derived from striatum of HD mouse.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supplementing F2,6BP rescued the HD phenotype in Drosophila",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

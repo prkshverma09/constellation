@@ -1,0 +1,146 @@
+{
+  "pmid": "28379373",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel Nav1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a gene encoding the voltage-gated sodium channel Nav1.2",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "spectrum of epilepsies and neurodevelopmental disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "have been associated with a spectrum of epilepsies and neurodevelopmental disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "encephalopathies with infantile/childhood onset epilepsies (≥3 months of age)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encephalopathies with infantile/childhood onset epilepsies (≥3 months of age) occur almost as often as those with an early infantile onset (<3 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic-atonic epilepsy; Lennox-Gastaut not emerging from West syndrome; focal epilepsies with an electrical status epilepticus during slow sleep-like EEG pattern",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "distinct phenotypes can be seen within the late onset group, including myoclonic-atonic epilepsy (two patients), Lennox-Gastaut not emerging from West syndrome (two patients), and focal epilepsies with an electrical status epilepticus during slow sleep-like EEG pattern (six patients)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "West syndrome constitutes a common phenotype",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Other known phenotypes include Ohtahara syndrome",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of infancy with migrating focal seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability or autism without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability or autism without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the use of sodium channel blockers was often associated with clinically relevant seizure reduction or seizure freedom in children with early infantile epilepsies (<3 months)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "sodium channel blockers",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium channel blockers were rarely effective in epilepsies with later onset (≥3 months) and sometimes induced seizure worsening.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "truncating mutations",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "truncating mutations were exclusively seen in patients with late onset epilepsies and lack of response to sodium channel blockers.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations associated with early infantile epilepsy result in increased sodium channel activity with gain-of-function, characterized by slowing of fast inactivation, acceleration of its recovery or increased persistent sodium current.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations in patients with late-onset forms and an insufficient response to sodium channel blockers were associated with loss-of-function effects, including a depolarizing shift of voltage-dependent activation or a hyperpolarizing shift of channel availability (steady-state inactivation).",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a good response to sodium channel blockers clinically was found to be associated with a relatively small gain-of-function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

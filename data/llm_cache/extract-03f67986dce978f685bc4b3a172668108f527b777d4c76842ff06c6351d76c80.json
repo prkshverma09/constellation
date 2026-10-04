@@ -1,0 +1,46 @@
+{
+  "pmid": "28292732",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "familial infantile myoclonic epilepsy (FIME; 605021) and early infantile epileptic encephalopathy-16 (EIEE16; 615338)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in the TBC1D24 gene (MIM 613577) cause familial infantile myoclonic epilepsy (FIME; 605021) and early infantile epileptic encephalopathy-16 (EIEE16; 615338), both inherited with an autosomal recessive trait.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "cell signaling and oxidative stress resistance",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The TBC1D24 gene encodes a member of the TBC family domain proteins, involved in cell signaling and oxidative stress resistance.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The NGS study showed the presence of two different heterozygous, probably pathogenic variants in the TBC1D24 gene, inherited in trans from her parents: the c.116C>T (p.Ala39Val) and the c.457G>A (p.Glu153Lys).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Alternating Hemiplegia (AH)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "This study describes for the first time the association between TBC1D24 variants and AH expanding the phenotypic spectrum of TBC1D24-related diseases",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

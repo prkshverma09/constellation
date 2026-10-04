@@ -1,0 +1,16 @@
+{
+  "pmid": "36734057",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "overactive excitatory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "overactive excitatory neurons (e.g., SCN2A, SCN8A)",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

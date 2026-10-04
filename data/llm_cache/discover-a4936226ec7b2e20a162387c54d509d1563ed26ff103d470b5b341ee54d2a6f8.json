@@ -1,0 +1,44 @@
+{
+  "symbol": "GNAO1",
+  "model": "gpt-5",
+  "prompt_version": "discover-v1",
+  "generated_at": "2026-10-04T09:50:39.735542+00:00",
+  "usage": {
+    "input_tokens": 64900,
+    "output_tokens": 5908
+  },
+  "result": {
+    "orgs": [
+      {
+        "name": "The Bow Foundation",
+        "url": "https://gnao1.org/about/",
+        "kind": "foundation",
+        "snippet": "There is no known treatment or cure for GNAO1."
+      },
+      {
+        "name": "Famiglie GNAO1 (Italy)",
+        "url": "https://gnao1.it/?lang=en",
+        "kind": "foundation",
+        "snippet": "GNAO1 is a rare genetic neurodevelopmental disorder arising from a mutation of the eponymous gene."
+      },
+      {
+        "name": "Asociación GNAO1 España",
+        "url": "https://gnao1.es/",
+        "kind": "foundation",
+        "snippet": "Cuando la mutación tiene lugar en GNAO1 las consecuencias para las personas afectadas suelen ser graves."
+      },
+      {
+        "name": "Stichting GNAO1 NL (Netherlands)",
+        "url": "https://gnao1.nl/",
+        "kind": "foundation",
+        "snippet": "Variaties in het gen voor GNAO1 zijn erg zeldzaam maar kunnen een groot effect hebben op de lichamelijke- en geestelijke ontwikkeling."
+      },
+      {
+        "name": "GNAO1‑EU (University of Cologne)",
+        "url": "https://www.bi-koeln.de/en/research/projects/gnao1-eu",
+        "kind": "research_network",
+        "snippet": "GNAO1-associated disorders encompass a wide spectrum of neurological disorders featuring variable association with early-onset movement disorder, epilepsy, developmental delay and intellectual disability."
+      }
+    ]
+  }
+}

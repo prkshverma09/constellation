@@ -1,0 +1,116 @@
+{
+  "pmid": "34028503",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "abundant expression in the developing brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Solute carrier family 6 member 1 (SLC6A1) is abundantly expressed in the developing brain even before the CNS is formed.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reuptake of GABA into presynaptic neurons and glia; modulation of neurotransmission",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Its encoded GABA transporter 1 (GAT-1) is responsible for the reuptake of GABA into presynaptic neurons and glia, thereby modulating neurotransmission.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "expression in both astrocytes and neurons throughout the brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GAT-1 is expressed globally in the brain, in both astrocytes and neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal GABA uptake non-compensable; glial function partially replaceable by GABA transporter 3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GABA uptake function of GAT-1 in neurons cannot be compensated for by other GABA transporters, while the function in glia can be partially replaced by GABA transporter 3.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "phenotype",
+      "object_text": "spectrum of epilepsy syndromes and neurodevelopmental disorders, including myoclonic atonic epilepsy, childhood absence epilepsy, autism, and intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, many variants in SLC6A1 have been associated with a spectrum of epilepsy syndromes and neurodevelopmental disorders, including myoclonic atonic epilepsy, childhood absence epilepsy, autism, and intellectual disability,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that a partial or complete loss-of-function represents a common disease mechanism, although the extent of GABA uptake reduction is variable.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "reduced cell surface expression caused by protein misfolding, ER retention, and degradation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The reduced GABA uptake appears to be due to reduced cell surface expression of the variant transporter caused by variant protein misfolding, endoplasmic reticulum retention, and subsequent degradation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "neurons and astrocytes derived from human patient induced pluripotent stem cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neurons and astrocytes derived from human patient induced pluripotent stem cells",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "consistent loss of GABA uptake function and ER retention across iPSC-derived cell types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the loss of GABA uptake function and endoplasmic reticulum retention is consistent across induced pluripotent stem cell-derived cell types, including astrocytes and neurons, for the surveyed variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "impaired transporter protein trafficking and surface expression are major disease-associated mechanisms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Together, our study suggests that impaired transporter protein trafficking and surface expression are the major disease-associated mechanisms associated with pathogenic SLC6A1 variants.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "therapy",
+      "object_text": "boosting transporter function by genetic or pharmacological approaches",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "boosting transporter function by either genetic or pharmacological approaches would be beneficial.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

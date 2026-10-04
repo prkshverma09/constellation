@@ -1,0 +1,16 @@
+{
+  "pmid": "37642942",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "repressive complex containing MECP2 recruited to PU.1 motifs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A11 regulated genes putatively by recruiting a repressive complex containing MECP2, HDAC1, SIN3A, and DNMT3A to PU.1 motifs",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

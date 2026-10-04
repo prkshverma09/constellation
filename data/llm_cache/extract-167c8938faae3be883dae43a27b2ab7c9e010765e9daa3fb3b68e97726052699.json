@@ -1,0 +1,136 @@
+{
+  "pmid": "42033987",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All our 18 patients presented with epilepsy, with a median seizure onset age of 6 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Intellectual disability was observed in 83.3% of patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "developmental delay in 77.8%.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "abnormal electroencephalography findings",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Abnormal electroencephalography findings were present in 94.4% of patients",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "SWAS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with 44.4% exhibiting SWAS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "motor disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the pore domain were significantly associated with higher rates of motor disorders (P = 0.007) and SWAS (P < 0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "SWAS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in the pore domain were significantly associated with higher rates of motor disorders (P = 0.007) and SWAS (P < 0.001)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "magnetic resonance imaging abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "S1-S4 segment variants showed a higher incidence of magnetic resonance imaging abnormalities (P = 0.049).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "effective treatment response",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "only 42.9% responded effectively to treatment",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with 28.6% developing drug-resistant epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "Valproic acid",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Valproic acid was the most commonly prescribed medication",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "combination therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "combination therapies showed promising results in some cases.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "SWAS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "supporting the association between KCNA2 pathogenic variants and SWAS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

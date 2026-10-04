@@ -1,0 +1,16 @@
+{
+  "pmid": "37250406",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified 11 variants in seven genes (ALDH7A1, CDKL5, PCDH19, QARS1, POLG, GRIN2A, and MFSD8) responsible for genetic epilepsy in the seven families, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

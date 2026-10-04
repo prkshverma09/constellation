@@ -1,0 +1,76 @@
+{
+  "pmid": "28721938",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive disorders of the central nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is implicated in autosomal recessive disorders of the central nervous system",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spinocerebellar ataxia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early-infantile epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-infantile epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "profound global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "persistent hypsarrhythmia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "persistent hypsarrhythmia",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic spasms",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "progressive cerebral atrophy without microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "progressive cerebral atrophy without microcephaly",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

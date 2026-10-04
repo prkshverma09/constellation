@@ -1,0 +1,26 @@
+{
+  "pmid": "39008349",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "mechanism",
+      "object_text": "NaV1.1 channel density in inhibitory γ-aminobutyric acidergic (GABAergic) neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increase NaV1.1 channel density in inhibitory γ-aminobutyric acidergic (GABAergic) neurons",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "therapy",
+      "object_text": "ETX101 in development for the treatment of SCN1A-positive Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ETX101, a recombinant adeno-associated virus serotype 9 designed to increase NaV1.1 channel density in inhibitory γ-aminobutyric acidergic (GABAergic) neurons, in development for the treatment of SCN1A-positive Dravet syndrome;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

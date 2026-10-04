@@ -1,0 +1,56 @@
+{
+  "pmid": "40540154",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "model",
+      "object_text": "patient-derived organoid model with a novel SCN2A mutation (p.E512K)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a patient-derived organoid model with a novel SCN2A mutation (p.E512K)",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The electrophysiological properties of the variant Nav1.2 exhibited gain-of-function effects with increased current amplitude and premature activation.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "hyperexcitability with increased spiking and remarkable network bursts",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multielectrode array (MEA) recordings of patient-derived COs showed hyperexcitability with increased spiking and remarkable network bursts.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "various anti-seizure drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibit differential responses to various anti-seizure drugs",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "carbamazepine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "respond well to carbamazepine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,126 @@
+{
+  "pmid": "25864721",
+  "claims": [
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified four de novo missense GRIN1 mutations in 4 of 88 patients with unclassified EOEEs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the mutations were predicted to impair the function of the NMDA receptor.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "onset within 3 months of birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "initial symptoms appeared within 3 months of birth",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "hyperkinetic movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "hyperkinetic movements in two patients (2/4, 50%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures in two patients (2/4, 50%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "Involuntary movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Involuntary movements, severe developmental delay, and intellectual disability were recognized in all four patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "severe developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Involuntary movements, severe developmental delay, and intellectual disability were recognized in all four patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Involuntary movements, severe developmental delay, and intellectual disability were recognized in all four patients.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal eye movements resembling oculogyric crises",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, abnormal eye movements resembling oculogyric crises and stereotypic hand movements were observed in two and three patients, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "stereotypic hand movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, abnormal eye movements resembling oculogyric crises and stereotypic hand movements were observed in two and three patients, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "no suppression-burst or hypsarrhythmia during infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "never showed suppression-burst or hypsarrhythmia during infancy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN1",
+      "claim_type": "phenotype",
+      "object_text": "encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "GRIN1 mutations cause encephalopathy resulting in seizures and movement disorders.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

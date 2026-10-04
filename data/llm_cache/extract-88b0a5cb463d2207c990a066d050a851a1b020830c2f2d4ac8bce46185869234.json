@@ -1,0 +1,46 @@
+{
+  "pmid": "40541047",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome (CdLS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Missense or small in-frame deletions are associated with Cornelia de Lange syndrome (CdLS)",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "moderate-to-severe intellectual disability (ID)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderate-to-severe intellectual disability (ID) and pharmaco-resistant epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "pharmaco-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "moderate-to-severe intellectual disability (ID) and pharmaco-resistant epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "model",
+      "object_text": "human iPSC lines",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We generated two human iPSC lines from two patients with pharmaco-resistant epilepsy carrying nonsense heterozygous c.901C > T (p.E323*) and c.3103C > T (p.R1035*) variants in the SMC1A gene.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

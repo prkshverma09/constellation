@@ -1,0 +1,26 @@
+{
+  "pmid": "33874999",
+  "claims": [
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "NDD gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "five of which have been recently identified as NDD genes (HNRNPK, HNRNPU, HNRNPH1, HNRNPH2, and HNRNPR)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "HNRNPU",
+      "claim_type": "phenotype",
+      "object_text": "significant enrichment of de novo variants in NDD probands",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "two of which have significant enrichment in our previous meta-analysis of probands with NDDs (HNRNPU and SYNCRIP)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

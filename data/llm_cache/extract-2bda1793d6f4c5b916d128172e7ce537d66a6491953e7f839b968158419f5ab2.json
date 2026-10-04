@@ -1,0 +1,16 @@
+{
+  "pmid": "42003125",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "Cannabidiol",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cannabidiol is a potential therapy for KCNB1 variants.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

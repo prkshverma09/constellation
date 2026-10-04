@@ -1,0 +1,146 @@
+{
+  "pmid": "34916088",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "cargo transport along neurites",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A, a gene that encodes a neuron-specific motor protein, plays important roles in cargo transport along neurites.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "mechanism",
+      "object_text": "neuron-specific motor protein",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KIF1A, a gene that encodes a neuron-specific motor protein, plays important roles in cargo transport along neurites.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a de novo heterozygous missense variant in KIF1A (NM_001244008.1: c. 757G > A, p.E253K).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At five months of age, she visited our hospital due to developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "multiple epileptic discharge",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An EEG showed multiple epileptic discharge",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe axonopathy of both motor and sensory nerves",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a nerve conduction study showed severe axonopathy of both motor and sensory nerves.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "acute encephalopathy, multiple organ failure and disseminated intravascular coagulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "At six months of age, she developed acute encephalopathy, multiple organ failure and disseminated intravascular coagulation, necessitating intensive care.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe brain edema and profound brain atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Her brain CT showed severe brain edema, followed by profound brain atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "bed-ridden",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currently, she is bed-ridden, and requires gastrostomy because of dysphagia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "requires gastrostomy because of dysphagia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Currently, she is bed-ridden, and requires gastrostomy because of dysphagia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "severe neurological features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical course of our case confirmed that p.E253K is associated with severe neurological features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "thermoregulatory dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe KIF1A deficiency could cause thermoregulatory dysfunction and may increase the risk of acute encephalopathy including HSES.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "increased risk of acute encephalopathy including HSES",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Severe KIF1A deficiency could cause thermoregulatory dysfunction and may increase the risk of acute encephalopathy including HSES.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "hemorrhagic shock and encephalopathy syndrome (HSES)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We diagnosed hemorrhagic shock and encephalopathy syndrome (HSES) according to the clinico-radiological features.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

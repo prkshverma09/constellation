@@ -1,0 +1,66 @@
+{
+  "pmid": "39344240",
+  "claims": [
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "lower_methylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A significant difference was observed in the DNA methylation rate of SLC6A1 between TLE patients and controls, with TLE patients showing a lower rate (4.81% vs. 5.77%, p = 0.0000), which remained significant even after Bonferroni correction (p = 0.0000).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "age-associated_lower_methylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the TLE group, there were differences in DNA methylation rates of SLC6A1 between the young patients and the older controls (4.42% vs. 5.22%, p = 0.0004). A similar trend (p = 0.0436) was noted after adjusting for sex, age at onset, and drug response.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "methylation_silencing_expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In addition, the study found that DNA methylation had a silencing impact on the expression of the SLC6A1 gene in SH-SY5Y cells, which were treated with decitabine at a set dose gradient.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "SH-SY5Y_cells_with_decitabine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "demethylation experiments were carried out using SH-SY5Y cells with the DNA methylation inhibitor decitabine.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "model",
+      "object_text": "predictive_model_based_on_SLC6A1_hypomethylation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Based on the hypomethylated SLC6A1 in TLE, a predictive model was established that showed promise in distinguishing and calibrating TLE.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC6A1",
+      "claim_type": "mechanism",
+      "object_text": "stimulate_transcription",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The evidence suggests that lower methylation of SLC6A1 may stimulate transcription in TLE, however, further investigation is necessary to confirm the exact mechanism.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "40497637",
+  "claims": [
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "HGG neuronal regulation module hub",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Hubs within this module included γ-Aminobutyric-acid type A receptor (GABAAR) genes GABRA1 (α1) and GABRG2 (γ2)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRA1",
+      "claim_type": "mechanism",
+      "object_text": "colocalized with GABAergic synaptic markers at the leading edge",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which immunohistochemically colocalized with GABAergic synaptic markers at the leading edge.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

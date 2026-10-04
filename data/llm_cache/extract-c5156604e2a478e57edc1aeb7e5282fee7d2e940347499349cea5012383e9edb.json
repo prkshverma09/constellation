@@ -1,0 +1,66 @@
+{
+  "pmid": "41389134",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "severe early-onset epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in KCNT1, a gene encoding a sodium-activated potassium channel, are classically associated with severe early-onset epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sodium-activated potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a gene encoding a sodium-activated potassium channel",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "systemic-to-pulmonary vascular anomalies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Emerging evidence indicates that some individuals with KCNT1-related disorders also develop systemic-to-pulmonary vascular anomalies",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "abnormal angiogenesis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "appear to result from abnormal angiogenesis driven by dysregulated KCNT1-mediated signaling.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "catheter-based embolization",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "judicious catheter-based embolization when physiologically indicated",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "therapy",
+      "object_text": "avoidance of standard pulmonary vasodilators",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "careful avoidance of standard pulmonary vasodilators are emphasized.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

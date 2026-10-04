@@ -1,0 +1,76 @@
+{
+  "pmid": "40227275",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "severe early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "STXBP1 syndrome is a severe early-onset epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by developmental delay and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by developmental delay and intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "CRISPR-Cas9",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CRISPR-Cas9",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "adeno-associated viral (AAV) vectors",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "adeno-associated viral (AAV) vectors",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotides (ASOs)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "antisense oligonucleotides (ASOs)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "in vivo and in vitro models",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in vivo and in vitro models",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

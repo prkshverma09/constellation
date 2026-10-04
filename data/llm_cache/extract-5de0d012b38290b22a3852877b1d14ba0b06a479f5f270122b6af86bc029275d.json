@@ -1,0 +1,146 @@
+{
+  "pmid": "41283299",
+  "claims": [
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused by biallelic loss-of-function variants in the polynucleotide kinase/phosphatase (PNKP) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "mechanism",
+      "object_text": "encodes an enzyme critical for DNA repair",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes an enzyme critical for DNA repair.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with microcephaly, epilepsy, growth deficiency, language impairment, and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with microcephaly, epilepsy, growth deficiency, language impairment, and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "growth deficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with microcephaly, epilepsy, growth deficiency, language impairment, and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "language impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with microcephaly, epilepsy, growth deficiency, language impairment, and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "presenting with microcephaly, epilepsy, growth deficiency, language impairment, and severe intellectual disability.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "lissencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including lissencephaly, ventriculomegaly, dysmorphic hippocampi, and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "ventriculomegaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including lissencephaly, ventriculomegaly, dysmorphic hippocampi, and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "dysmorphic hippocampi",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including lissencephaly, ventriculomegaly, dysmorphic hippocampi, and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "cerebellar atrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including lissencephaly, ventriculomegaly, dysmorphic hippocampi, and cerebellar atrophy.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "phenotype",
+      "object_text": "seizures persisted",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures persisted in the first patient",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "therapy",
+      "object_text": "valproate and clobazam",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "full control was achieved in the second case with combined therapy of valproate and clobazam.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "PNKP",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "we detected the missense variant p.Gln50Glu (c.148C>G) in exon 2 (rs756746191)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

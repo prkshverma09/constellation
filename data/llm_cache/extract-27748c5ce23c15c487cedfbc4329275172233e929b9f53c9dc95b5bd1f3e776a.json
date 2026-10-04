@@ -1,0 +1,116 @@
+{
+  "pmid": "39435659",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SCN8A developmental and epileptic encephalopathy (DEE) is a severe epilepsy syndrome resulting from mutations in the voltage-gated sodium channel Nav1.6, encoded by the gene SCN8A.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "expressed in excitatory and inhibitory neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Nav1.6 is expressed in excitatory and inhibitory neurons",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mouse models harboring patient-derived SCN8A gain-of-function variants",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "Scn8aD/+",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn8aD/+",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "model",
+      "object_text": "Scn8aW/+-PV",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn8aW/+-PV",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "led to development of spontaneous seizures",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "seizure-induced death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizure-induced death",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "depolarization block",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Scn8aD/+ and Scn8aW/+-PV interneurons were susceptible to depolarization block",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "increased persistent sodium current",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "exhibited increased persistent sodium current",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "synaptic transmission deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "synaptic transmission deficits in Scn8aD/+ and Scn8aW/+-PV interneurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "PV interneuron failure via depolarization block along with inhibitory synaptic impairment elicits an overall inhibitory reduction leading to seizures and seizure-induced death",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "PV interneuron failure via depolarization block along with inhibitory synaptic impairment likely elicits an overall inhibitory reduction in SCN8A DEE, leading to unchecked excitation and ultimately resulting in seizures and seizure-induced death.",
+      "confidence": 0.3,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

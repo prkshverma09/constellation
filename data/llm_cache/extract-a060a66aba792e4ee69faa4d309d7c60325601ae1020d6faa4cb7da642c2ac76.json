@@ -1,0 +1,16 @@
+{
+  "pmid": "34932815",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "early expression in breast and lung cancer cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Coculture with neurons induces early expression of classical NT receptor genes (HTR4, GRIA2, GRIN2B, GRM4, GRM8, DRD1) and neuronal synaptic mediators (CNR1, EGR2, ARC, NGFR, NRXN1) in breast and lung cancer cells.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

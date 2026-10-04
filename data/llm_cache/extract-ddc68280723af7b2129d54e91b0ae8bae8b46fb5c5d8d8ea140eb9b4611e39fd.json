@@ -1,0 +1,26 @@
+{
+  "pmid": "32873933",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "regulates vesicular transport",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which encodes a protein that regulates vesicular transport",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Biallelic variants in TBC1D24, which encodes a protein that regulates vesicular transport, are frequently identified in patients with DOORS (deafness, onychodystrophy, osteodystrophy, intellectual disability [previously referred to as mental retardation], and seizures) syndrome.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

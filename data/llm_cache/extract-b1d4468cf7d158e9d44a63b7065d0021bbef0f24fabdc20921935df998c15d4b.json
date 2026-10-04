@@ -1,0 +1,96 @@
+{
+  "pmid": "34747138",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "neural gene-regulating homeostasis of the central nervous system",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WW domain-containing oxidoreductase (WWOX) is an emerging neural gene-regulating homeostasis of the central nervous system.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "WOREE syndrome and spinocerebellar ataxia and autosomal recessive 12 (SCAR12)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline biallelic mutations in WWOX cause WWOX-related epileptic encephalopathy (WOREE) syndrome and spinocerebellar ataxia and autosomal recessive 12 (SCAR12)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "severe epileptic encephalopathy",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "profound global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "profound global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "neuronal ablation of murine Wwox",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "neuronal ablation of murine Wwox recapitulates phenotypes of Wwox-null mice leading to intractable epilepsy, hypomyelination, and postnatal lethality.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "intractable epilepsy, hypomyelination, and postnatal lethality",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intractable epilepsy, hypomyelination, and postnatal lethality",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "AAV-SynI-WWOX (AAV9 harboring WWOX cDNA driven by Synapsin I promoter)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an adeno-associated viral vector (AAV9) harboring murine Wwox or human WWOX cDNA and driven by the human neuronal Synapsin I promoter (AAV-SynI-WWOX).",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "rescued brain hyperexcitability and seizures, hypoglycemia, myelination deficits, and premature lethality and behavioral deficits in Wwox-null mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "specific neuronal restoration of WWOX expression rescued brain hyperexcitability and seizures, hypoglycemia, myelination deficits, and the premature lethality and behavioral deficits of Wwox-null mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "WWOX gene therapy for WOREE and SCAR12",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings provide a proof-of-concept for WWOX gene therapy as a promising approach to curing children with WOREE and SCAR12.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

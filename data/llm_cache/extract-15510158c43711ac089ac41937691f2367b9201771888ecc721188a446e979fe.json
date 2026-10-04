@@ -1,0 +1,86 @@
+{
+  "pmid": "27224923",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "inhibit Cdkn1a transcription",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "IGF1/PI3K signaling and the transcription factor FOXG1 inhibit FOXO- and TGFβ-mediated Cdkn1a transcription.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "prevents cell cycle exit by binding to SMAD/FOXO-protein complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1 prevents cell cycle exit by binding to the SMAD/FOXO-protein complex.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Foxo1",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified ligands of the TGFβ- and IGF-family, Foxo1, Foxo3 and Kcnh3 as novel FOXG1-target genes during telencephalic development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Foxo3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified ligands of the TGFβ- and IGF-family, Foxo1, Foxo3 and Kcnh3 as novel FOXG1-target genes during telencephalic development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "Kcnh3",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified ligands of the TGFβ- and IGF-family, Foxo1, Foxo3 and Kcnh3 as novel FOXG1-target genes during telencephalic development",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "interferes with Foxo1 transcription",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed that FOXG1 interferes with Foxo1 and Tgfβ transcription.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "interferes with Tgfβ transcription",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed that FOXG1 interferes with Foxo1 and Tgfβ transcription.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "activates Kcnh3 transcription in mature neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In mature neurons, FOXG1 activates transcription of the seizure-related Kcnh3",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

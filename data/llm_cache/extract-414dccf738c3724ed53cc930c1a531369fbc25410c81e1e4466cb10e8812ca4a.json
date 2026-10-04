@@ -1,0 +1,86 @@
+{
+  "pmid": "41914769",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "encodes the pore-forming subunits of the KV1.2 channel that controls excitability of central and peripheral neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 encodes the pore-forming subunits of the voltage-gated, potassium-selective channel KV1.2, which controls the excitability of both central and peripheral neurons.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental epileptic encephalopathy (DEE) type 32",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Either gain- or loss-of-function KCNA2 variants can cause severe neurological disease, assigned developmental epileptic encephalopathy (DEE) type 32.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "global developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.H310D and p.G318D, both discovered in patients with global developmental delay",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found that both are loss-of-function variants, completely abolishing channel current and subunit trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "mechanism",
+      "object_text": "shifted half-activation potentials by 27 and 19 mV for p.H310D and p.G318D",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Channel constructs of KV1.2-variant subunits in tandem with KV1.4 had a conductance with inhibited voltage-dependence, with shifted half-activation potentials by 27 and 19 mV for p.H310D and p.G318D, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "p.H310D was strongly negative-dominant: heterozygous cells exhibited only 7% conductance relative to homozygous wild-type, while only half of wild-type subunits could traffic to the surface.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, p.G318D exhibited weaker negative dominance, with 32% conductance in heterozygous cells and 86% wild-type-subunit trafficking.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Taken together with the p.G318D-patient's neurological symptoms, the latter suggests that KCNA2 is a haploinsufficient gene in humans.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

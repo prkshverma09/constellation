@@ -1,0 +1,16 @@
+{
+  "pmid": "16075041",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Coding variants of SCN2A, SCN8A, and SCN9A have also been identified in patients with seizures, ataxia, and sensitivity to pain, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "39513870",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "potassium channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the potassium channels KCNA1, KCNQ2, and KCNT1;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "DEE-associated voltage-gated ion channel",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DEE-associated voltage-gated ion channels and their therapeutic implications in DEE. We will enter into detailed considerations regarding the sodium channels SCN1A, SCN2A, and SCN8A; the potassium channels KCNA1, KCNQ2, and KCNT1;",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

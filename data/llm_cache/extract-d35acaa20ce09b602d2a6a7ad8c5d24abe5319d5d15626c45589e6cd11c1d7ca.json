@@ -1,0 +1,16 @@
+{
+  "pmid": "34827633",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "mechanism",
+      "object_text": "linked with both disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A number of genes and proteins linked with both disorders have been tabulated, including MECP2, ADNP, SCN2A, NLGN, SHANK, PTEN, RELN, and FMR1.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

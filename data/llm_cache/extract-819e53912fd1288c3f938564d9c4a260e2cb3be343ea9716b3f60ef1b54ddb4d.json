@@ -1,0 +1,16 @@
+{
+  "pmid": "26670097",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "Parkinson disease",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, among 48,844 miRNA-binding site variants, we found 32 variants (within 13 genes) that are associated with PD. Four of the host genes, CTSB, STX1B, IGSF9B, and HSD3B7, had not previously been reported to be associated with PD.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

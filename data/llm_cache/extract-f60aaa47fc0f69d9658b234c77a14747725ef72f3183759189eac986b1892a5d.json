@@ -1,0 +1,86 @@
+{
+  "pmid": "41153413",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Germline mutations in the X-linked cohesin subunit gene SMC1A have been increasingly recognized as a cause of developmental and epileptic encephalopathy (DEE);",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "early-onset, therapy-resistant seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset, therapy-resistant seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "milder intellectual disability profiles",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "milder intellectual disability profiles",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "chromatin loop formation and sister-chromatid cohesion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A mutations perturb cohesin's canonical roles in chromatin loop formation and sister-chromatid cohesion",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "widespread transcriptional dysregulation of neurodevelopmental gene networks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "leading to widespread transcriptional dysregulation of neurodevelopmental gene networks.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "XCI skewing modulates seizure threshold",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Evidence that XCI skewing can ameliorate or exacerbate neuronal cohesin deficits and, thus modulate seizure threshold, is presented.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "somatic mosaicism and epigenetic variability underlie clinical diversity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "how somatic mosaicism and epigenetic variability underlie the clinical diversity of SMC1A-associated epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "cohesin subunit",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "X-linked cohesin subunit gene SMC1A",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

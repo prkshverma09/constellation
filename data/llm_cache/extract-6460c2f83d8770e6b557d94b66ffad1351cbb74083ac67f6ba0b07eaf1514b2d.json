@@ -1,0 +1,26 @@
+{
+  "pmid": "39442533",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "hemimegalencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "patients with HME at UCLA who underwent hemispherectomy. Genetic evaluation identified nine patients with the following variants: NPRL3 x2 germline",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "seizures secondary to focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "A third child with germline NPRL3 variant inherited from their unaffected mother resulted in a sibling being diagnosed with the variant who later developed seizures secondary to focal cortical dysplasia.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

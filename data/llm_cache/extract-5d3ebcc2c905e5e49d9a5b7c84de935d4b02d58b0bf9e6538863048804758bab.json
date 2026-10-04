@@ -1,0 +1,106 @@
+{
+  "pmid": "34634460",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of function mutations of the WW domain-containing oxidoreductase (WWOX) gene are associated with severe and fatal drug-resistant pediatric epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "mouse model of neuronal Wwox-deletion that exhibit spontaneous seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Using a mouse model of neuronal Wwox-deletion that exhibit spontaneous seizures,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "spontaneous bursting activity in the neocortex (network hyperexcitability)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified spontaneous bursting activity in the neocortex, a marker of the underlying network hyperexcitability.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "increased phase-amplitude coupling and propagation from layer II/III to layer V",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Spectral analysis of the neocortical bursting events highlighted increased phase-amplitude coupling, and a propagation from layer II/III to layer V.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "bursts were NMDAR and gap junction dependent",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These bursts were NMDAR and gap junction dependent.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "elevated amplitude of excitatory post-synaptic currents in layer II/III pyramidal neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In layer II/III pyramidal neurons, Wwox knockout mice demonstrated elevated amplitude of excitatory post-synaptic currents,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "reduced frequency and amplitude of inhibitory post-synaptic currents",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas the frequency and amplitude of inhibitory post-synaptic currents were reduced, as compared to heterozygote and wild-type littermate controls.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "neurons were depolarized with increased action potential frequency, sag current, and post-inhibitory rebound",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Furthermore, these neurons were depolarized and demonstrated increased action potential frequency, sag current, and post-inhibitory rebound.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "plays an essential role in balancing neocortical excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These findings suggest WWOX plays an essential role in balancing neocortical excitability",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "therapy",
+      "object_text": "developing therapeutics for those suffering from WWOX disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and provide insight towards developing therapeutics for those suffering from WWOX disorders.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "34859793",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "therapy",
+      "object_text": "ketogenic diet add-on therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three patients with SMC1A mutations responded well to ketogenic diet add-on therapy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

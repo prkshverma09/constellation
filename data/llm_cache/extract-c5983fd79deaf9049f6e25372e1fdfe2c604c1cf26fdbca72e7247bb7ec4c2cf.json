@@ -1,0 +1,56 @@
+{
+  "pmid": "41031595",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "abundant expression in brain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "γ-aminobutyric acid A receptor γ2 subunit (GABRG2), which is abundantly expressed within the brain.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "therapy",
+      "object_text": "antisense oligonucleotide targeting GABRG2 mRNA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an ASO designed to target the mRNA that translates for γ-aminobutyric acid A receptor γ2 subunit (GABRG2)",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "model",
+      "object_text": "rat model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In this study, a rat model was used to develop a multiomics mass spectrometry (imaging) approach to map ASO distribution in brain and kidney,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic activity and plasticity-related proteins affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteins corresponding to synaptic activity and plasticity were mainly affected by the ASO.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "mechanism",
+      "object_text": "alterations in multiple neurotransmitters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "which revealed significant alterations for multiple neurotransmitters.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

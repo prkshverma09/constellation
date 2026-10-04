@@ -1,0 +1,46 @@
+{
+  "pmid": "34034642",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "sexual differentiation disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of the WWOX gene have been linked to sexual differentiation disorders, spinocerebellar ataxia, and epileptic encephalopathy (EE).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "spinocerebellar ataxia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of the WWOX gene have been linked to sexual differentiation disorders, spinocerebellar ataxia, and epileptic encephalopathy (EE).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants of the WWOX gene have been linked to sexual differentiation disorders, spinocerebellar ataxia, and epileptic encephalopathy (EE).",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic WWOX mutations are associated with early-onset EE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

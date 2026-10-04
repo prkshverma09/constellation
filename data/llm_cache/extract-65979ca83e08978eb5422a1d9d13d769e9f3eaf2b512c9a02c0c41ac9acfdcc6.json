@@ -1,0 +1,76 @@
+{
+  "pmid": "29912324",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most patients with Foxg1 syndrome experience seizures",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "postnatal distributions of somatostatin-, calretinin-, and neuropeptide Y-positive interneurons in the cortex were impaired",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the postnatal distributions of somatostatin-, calretinin-, and neuropeptide Y-positive interneurons in the cortex were impaired",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "enhanced dendritic complexity and decreased migration capacity of interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an enhanced dendritic complexity and decreased migration capacity of Foxg1-deficient interneurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "downregulation of Dlx1 and CXCR4",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "accompanied by remarkable downregulation of Dlx1 and CXCR4.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "upstream of Dlx1-Pak3 signal pathway to regulate postnatal development of cortical interneurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 functioned upstream of Dlx1-Pak3 signal pathway to regulate the postnatal development of cortical interneurons.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "increased seizure susceptibility",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Foxg1 mutants showed increased seizure susceptibility.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "conditional deletion of Foxg1 by crossing Foxg1fl/fl with the Gad2-CreER line",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "conditional deletion of Foxg1, which was achieved by crossing Foxg1fl/fl with the Gad2-CreER line",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41470225",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "linked to partially actionable pathways",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variants in STXBP1, KCNQ2, GRIN2A, GRIN2B, and TSC-related genes are more common than previously recognized and can be linked to partially actionable pathways.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

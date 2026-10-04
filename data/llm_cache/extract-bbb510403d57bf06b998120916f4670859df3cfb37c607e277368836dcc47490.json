@@ -1,0 +1,16 @@
+{
+  "pmid": "41020456",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "phenotype",
+      "object_text": "genetic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "confirmed as a genetic epilepsy in 2001 due to SCN1A gene mutations",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,76 @@
+{
+  "pmid": "37107610",
+  "claims": [
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "encodes a core subunit of the cohesin complex that plays a pivotal role in genome organization and gene regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The X-linked SMC1A gene encodes a core subunit of the cohesin complex that plays a pivotal role in genome organization and gene regulation.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in SMC1A are often dominant-negative and cause Cornelia de Lange syndrome (CdLS) with growth retardation and typical facial features;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "Cornelia de Lange syndrome (CdLS) with growth retardation and typical facial features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cause Cornelia de Lange syndrome (CdLS) with growth retardation and typical facial features;",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE) with intractable early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "rare SMC1A variants cause a developmental and epileptic encephalopathy (DEE) with intractable early-onset epilepsy that is absent in CdLS.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "SMC1A-DEE loss-of-function (LOF) variants are found exclusively in females due to presumed lethality in males.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "non-LOF variants in ATPase head or hinge predicted to affect cohesin assembly, mimicking LOFs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "7/8 non-LOFs are specifically located in the N/C-terminal ATPase head or the central hinge domain, both of which are predicted to affect cohesin assembly, thus mimicking LOFs.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SMC1A",
+      "claim_type": "mechanism",
+      "object_text": "differential SMC1A dosage effect associated with DEE phenotypes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "these variants strongly suggest that a differential SMC1A dosage effect of SMC1A-DEE variants is closely associated with the manifestation of DEE phenotypes.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

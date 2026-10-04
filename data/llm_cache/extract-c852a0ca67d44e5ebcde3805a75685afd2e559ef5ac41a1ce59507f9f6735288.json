@@ -1,0 +1,96 @@
+{
+  "pmid": "41603155",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We aimed to delineate the clinical trajectories associated with gain-of-function (GoF) and loss-of-function (LoF) variants in GABRB2 and GABRB3,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We aimed to delineate the clinical trajectories associated with gain-of-function (GoF) and loss-of-function (LoF) variants in GABRB2 and GABRB3,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "earlier seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GoF group was associated with earlier seizure onset, higher seizure frequency, and lower rates of seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "higher seizure frequency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GoF group was associated with earlier seizure onset, higher seizure frequency, and lower rates of seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "lower rates of seizure freedom",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The GoF group was associated with earlier seizure onset, higher seizure frequency, and lower rates of seizure freedom.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "non-ambulation (GMFCS IV or V)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gross motor dysfunction was markedly worse in the GoF group, with 64% classified as GMFCS IV or V (non-ambulation), compared to 7.5% in the LoF group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "inverse correlation between age at seizure onset and GMFCS severity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "An inverse correlation was found between age at seizure onset and GMFCS severity in the GoF, but not the LOF group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "age at seizure onset predicts motor outcomes in GoF variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age at seizure onset serves as a biomarker for predicting motor outcomes in individuals with GoF variants.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "phenotype",
+      "object_text": "more severe neurodevelopmental trajectory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We found a clear genotype-phenotype correlation in GABRB2- and GABRB3-related disorders, demonstrating that GoF variants are associated with a more severe neurodevelopmental trajectory.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

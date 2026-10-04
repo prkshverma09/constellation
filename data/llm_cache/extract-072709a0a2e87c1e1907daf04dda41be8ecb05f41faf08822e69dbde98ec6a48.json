@@ -1,0 +1,16 @@
+{
+  "pmid": "33876820",
+  "claims": [
+    {
+      "subject_gene": "SCN1A",
+      "claim_type": "model",
+      "object_text": "Scn1a knockdown Drosophila",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "sodium voltage-gated channel alpha subunit 1 (Scn1a) knockdown Drosophila",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

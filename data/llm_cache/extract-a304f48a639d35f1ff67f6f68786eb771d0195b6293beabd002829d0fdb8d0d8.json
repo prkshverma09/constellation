@@ -1,0 +1,26 @@
+{
+  "pmid": "15159788",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "SNARE_complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteins like sinaptobrevin (located in the membrane of the synaptic vesicle), sintaxin and SNAP-25 (both located at the presynaptic plasma membrane) constitute a trimeric complex which is responsible of the vesicular docking at the active sites for exocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Proteins like sinaptobrevin (located in the membrane of the synaptic vesicle), sintaxin and SNAP-25 (both located at the presynaptic plasma membrane) constitute a trimeric complex which is responsible of the vesicular docking at the active sites for exocytosis.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

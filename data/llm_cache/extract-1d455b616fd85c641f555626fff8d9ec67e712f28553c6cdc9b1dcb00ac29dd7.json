@@ -1,0 +1,136 @@
+{
+  "pmid": "39214300",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "deafness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "onychodystrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "osteodystrophy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cognitive disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations of human TBC1D24 are associated with deafness, epilepsy, or DOORS syndrome (deafness, onychodystrophy, osteodystrophy, cognitive disability, and seizures).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "KIBRA",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kidney and brain protein (KIBRA), a scaffold protein encoded by Wwc1, was identified as a partner of TBC1D24.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "KIBRA C2 domain",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The TBC1D24 TLDc domain binds to KIBRA full-length and to its C2 domain, confirmed by Y2H assays.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "no interaction with other WWC family C2 domains",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Moreover, the C2 domains of other WWC family proteins do not interact with the TLDc domain of TBC1D24, demonstrating specificity.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "model",
+      "object_text": "mouse hippocampal cells",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mRNAs encoding TBC1D24 and KIBRA proteins in mouse are coexpressed at least in a subset of hippocampal cells indicating availability to interact in vivo.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As two epilepsy-associated recessive variants (Gly511Arg and Ala515Val) in the TLDc domain of human TBC1D24 disrupt the interaction with the human KIBRA C2 domain,",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "risk of epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The interaction of TBC1D24-KIBRA is physiologically meaningful and necessary to reduce the risk of epilepsy.",
+      "confidence": 0.6,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

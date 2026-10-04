@@ -1,0 +1,136 @@
+{
+  "pmid": "35240744",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "mild intellectual impairment without epilepsy to severe epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "ranging from mild intellectual impairment without epilepsy to severe epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two of them were diagnosed with developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "onset age of infancy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Patients with epileptic phenotype usually have an onset age of infancy,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "spasm and focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "spasm and focal seizures are the most common seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "refractory seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "And the epiletice episodes are refractory.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasm; tonic seizures; tonic spasm; focal seizures; startle attacks",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included epileptic spasm, tonic seizures, tonic spasm and focal seizures, and 1 patient also had startle attacks.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "interictal multifocal epileptiform discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EEG showed interictal multifocal epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "multi-focal epileptiform discharges observed in 3 cases",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Multi-focal epileptiform discharges were observed in 3 cases",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "nonspecific MRI abnormalities in some patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Ten cases underwent brain magnetic resonance imaging (MRI), 6 cases had nonspecific abnormalities and 4 cases were normal.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "therapy",
+      "object_text": "treatment with more than 2 anti-seizure drugs, partially effective but could not control",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both of them were added with more than 2 anti-seizure drugs, which were partially effective but could not control.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Most of the patients with missense variants had severe developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "mild developmental delay without epilepsy (nonsense variant patient)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the patient with nonsense variant showed mild developmental delay without epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset at 3 months and 9 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The ages of seizures onset were 3 months and 9 months, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

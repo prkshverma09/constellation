@@ -1,0 +1,106 @@
+{
+  "pmid": "42006794",
+  "claims": [
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 -related disorder is a rare developmental and epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "mechanism",
+      "object_text": "mutational hotspots within the gene",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Disease-causing variants in DNM1 cluster in mutational hotspots within the gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "phenotype was homogeneous compared to other genetic epilepsy conditions",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The overall DNM1 phenotype was homogeneous compared to other genetic epilepsy conditions",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "bilateral tonic-clonic seizures, infantile spasms, and dystonia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The p.R237W (n=15) variant was associated with bilateral tonic-clonic seizures, infantile spasms, and dystonia.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "severe hypotonia, profound global delay, and cortical visual impairment",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The p.I398_R399insCR (n=14) variant was associated with severe hypotonia, profound global delay, and cortical visual impairment.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Five individuals with homozygous loss-of-function variants were clinically similar to dominant-negative DNM1 -related disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "variant_effect",
+      "object_text": "dominant_negative",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "dominant-negative DNM1 -related disorder",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but microcephaly and brain MRI abnormalities were more common in this group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "phenotype",
+      "object_text": "brain MRI abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "but microcephaly and brain MRI abnormalities were more common in this group.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "DNM1",
+      "claim_type": "therapy",
+      "object_text": "attractive target for targeted therapy development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DNM1 represents an attractive target for targeted therapy development.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

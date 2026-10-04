@@ -1,0 +1,76 @@
+{
+  "pmid": "40777472",
+  "claims": [
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "model",
+      "object_text": "C57BL/6- Kcnt1 em1Bryd carrying the G269S variant",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generated a novel mouse model (C57BL/6- Kcnt1 em1Bryd ) carrying the G269S variant",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "sustained hyperexcitability and hypersynchronous bursting in cultured cortical neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Network excitability of cultured cortical neurons from Kcnt1 +/G269S exhibited sustained hyperexcitability and hypersynchronous bursting",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "mechanism",
+      "object_text": "early excessive bursting followed by network collapse suggesting excitotoxicity",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1 G269S/G269S neurons showed early excessive bursting followed by network collapse, suggesting excitotoxicity.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "poor motor coordination; erratic breathing; increased apneas",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1 +/G269S displayed poor motor coordination, erratic breathing, and increased apneas.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "thermal-induced seizures in early life",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Kcnt1 +/G269S were more susceptible to thermal-induced seizures in early life.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Gain-of-function mutations in the sodium-gated potassium channel KCNT1 have been linked to pediatric epilepsy of varying severity.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNT1",
+      "claim_type": "phenotype",
+      "object_text": "Autosomal Dominant Nocturnal Frontal Lobe Epilepsy (ADNFLE); Epilepsy of Infancy with Migrating Focal Seizures (EIMFS); severe developmental epileptic encephalopathies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The human KCNT1 variant G288S (G269S in mice) is linked to Autosomal Dominant Nocturnal Frontal Lobe Epilepsy (ADNFLE), Epilepsy of Infancy with Migrating Focal Seizures (EIMFS), and other severe developmental epileptic encephalopathies.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

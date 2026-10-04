@@ -1,0 +1,16 @@
+{
+  "pmid": "38014242",
+  "claims": [
+    {
+      "subject_gene": "GABRB3",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "to predict the pathogenicity of saturating missense variants in genes that encode the major subunits of GABAA receptors in the central nervous system, including GABRA1, GABRB2, GABRB3, and GABRG2.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

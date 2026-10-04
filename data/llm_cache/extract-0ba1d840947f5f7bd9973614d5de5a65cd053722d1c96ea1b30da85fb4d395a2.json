@@ -1,0 +1,26 @@
+{
+  "pmid": "41090798",
+  "claims": [
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "mechanism",
+      "object_text": "higher expression in dopaminergic neurons (DNs) compared to SNpc tissue",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "whereas that of Gria2, Chrnb2, Gper1, Igf1r is higher in DNs.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "GRIA2",
+      "claim_type": "model",
+      "object_text": "decreased expression in preclinical PD (MPTP mouse) model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the preclinical PD, Drd2 expression increased and Gria2 decreased,",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

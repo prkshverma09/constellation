@@ -1,0 +1,26 @@
+{
+  "pmid": "28707022",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic mutations leading to epilepsy and hearing loss being discovered in the TLDc protein TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "pathogenic mutations leading to epilepsy and hearing loss being discovered in the TLDc protein TBC1D24",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

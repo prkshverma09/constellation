@@ -1,0 +1,26 @@
+{
+  "pmid": "39970850",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "increased expression",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "increased Slc2a1 (glucose) and decreased Slc2a5 (fructose) expression",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "glucose transporter",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Slc2a1 (glucose)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

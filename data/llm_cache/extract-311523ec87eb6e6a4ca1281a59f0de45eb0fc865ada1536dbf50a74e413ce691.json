@@ -1,0 +1,16 @@
+{
+  "pmid": "40345179",
+  "claims": [
+    {
+      "subject_gene": "SLC2A1",
+      "claim_type": "mechanism",
+      "object_text": "mediates transmission of redox imbalance, mitochondrial dysfunction, and metabolic defects to microglia via the miR-101-3p-Nrf2-Slc2a1 axis",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mechanistically, foam cell-derived exosomes transmitted redox imbalance, mitochondrial dysfunction, and metabolic defects to microglia via the miR-101-3p-Nrf2-Slc2a1 axis.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

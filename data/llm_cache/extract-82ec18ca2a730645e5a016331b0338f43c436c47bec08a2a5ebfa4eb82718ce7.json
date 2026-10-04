@@ -1,0 +1,176 @@
+{
+  "pmid": "40462216",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the neonatal missense mutation was the most common, followed by nonsense mutation,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "age of onset from 22 h after birth to 10 years and 11 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of onset of disease in the 12 children with SCN2A was distributed from 22 h after birth to 10 years and 11 months of age,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures (GTCS)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the type of seizure was predominantly generalized tonic-clonic seizures(Generalized tonic-clonic seizures, GTCS),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "paraventricular white matter echo enhancement on MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "paraventricular white matter echo enhancement was the most common of the magnetic resonance image(Magnetic resonance image, MRI),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "EEG predominantly spiking and spiking-slow wave issuance in wakefulness and sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "electroencephalogram(Electroencephalogram, EEG) were predominantly spiking and spiking-slow wave issuance in all phases of wakefulness and sleep,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "generalized developmental disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and there was a generalized developmental disorder in 11 cases;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "of which 4 cases of Dravet syndrome(Dravet syndrome, DS) had the highest number of cases,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "West syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 children with west syndrome(West syndrome, WS) were ineffective in the administration of topiramate(Topiramate, TPM), clonazepam(Clonazepam, CZP), and pro-adrenocorticotropic hormone, All have global developmental delays;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "Ohtahara syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 cases of ohtahara syndrome(Ohtahara syndrome, OS),",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "self-limited epilepsy with centrotemporal spikes (SeLECTS) with normal development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "1 case of self-limited epilepsy with centrotemporal spikes(self-limited epilepsy with centrotemporal spikes, SeLECTS) with normal development of central temporal spikes,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "levetiracetam ineffective (in 3 epilepsy-diagnosed cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the diagnosis of epilepsy was diagnosed in 3 cases, and levetiracetam(Levetiracetam, LEV) treatment was ineffective in all of them;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "LEV and valproate effective in 50% of the children",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "LEV and valproate(Valproate, VPA) were effective in 50% of the children,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "topiramate, clonazepam, and ACTH ineffective (in 2 WS cases)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 children with west syndrome(West syndrome, WS) were ineffective in the administration of topiramate(Topiramate, TPM), clonazepam(Clonazepam, CZP), and pro-adrenocorticotropic hormone, All have global developmental delays;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "phenobarbital effective (in 1 Ohtahara case)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "2 cases of ohtahara syndrome(Ohtahara syndrome, OS), 1 case of phenobarbital(Phenobarbital, PB) treatment was effective, 1 case was ineffective in multiple drug treatment;",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "LEV could control seizures (SeLECTS case)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "LEV could control seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "treatment with LEV, VPA, and PB can achieve therapeutic effects in controlling epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "treatment with LEV, VPA, and PB can achieve therapeutic effects in controlling epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "refractory epilepsy in infancy/young children with autism and abnormal paraventricular white matter on MRI associated with SCN2A mutations (recommend vigilance)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Cases of refractory epilepsy in infancy and young children with autism and abnormal paraventricular white matter on magnetic resonance imaging should be vigilant of SCN2A gene mutations.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

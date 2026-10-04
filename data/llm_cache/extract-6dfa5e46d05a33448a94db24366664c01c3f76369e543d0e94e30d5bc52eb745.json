@@ -1,0 +1,16 @@
+{
+  "pmid": "20351042",
+  "claims": [
+    {
+      "subject_gene": "KCNQ2",
+      "claim_type": "model",
+      "object_text": "mouse model of genetic modifier effects",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Interactions between genetic variants of SCN2A and KCNQ2 in the mouse and variants of SCN1A and SCN9A in patients provide models of potential genetic modifier effects in the more common human polygenic epilepsies.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

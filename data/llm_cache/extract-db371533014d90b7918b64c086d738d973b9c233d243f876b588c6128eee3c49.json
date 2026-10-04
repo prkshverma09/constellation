@@ -1,0 +1,116 @@
+{
+  "pmid": "38898886",
+  "claims": [
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "global neurodevelopmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "global neurodevelopmental delay",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "early-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "motor abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "motor abnormalities",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicle fusion and neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The STXBP1 protein is involved in synaptic vesicle fusion and neurotransmitter release.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "variant_effect",
+      "object_text": "haploinsufficiency",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Pathogenic variants in the STXBP1 gene generally result in haploinsufficiency",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "mechanism",
+      "object_text": "impairment in neurotransmitter release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "an impairment in neurotransmitter release",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "animal model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the development of animal and cellular models usable by the research community",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "model",
+      "object_text": "cellular model",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the development of animal and cellular models usable by the research community",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "STXBP1",
+      "claim_type": "therapy",
+      "object_text": "precision therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "drive forward the development of new precision therapies for STXBP1-RD.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

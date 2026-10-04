@@ -1,0 +1,26 @@
+{
+  "pmid": "34070602",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "Eyelid myoclonia with absences (EMA)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "three more genes present also different alterations in some patients with clinical diagnosis of the disease (SLC2A1, NAA10, and KCNB1).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "Eyelid myoclonia with absences (EMA)",
+      "object_hint_id": null,
+      "polarity": "contradicts",
+      "quote": "there is not enough evidence yet to consider them as candidate for EMA",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,86 @@
+{
+  "pmid": "25204757",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "Epilepsy in females with mental retardation (EFMR)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "EFMR is caused by heterozygous mutations in the PCDH19 gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cell adhesion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The protein is involved in cell adhesion",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "neuronal migration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "probably plays an important role in neuronal migration",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "formation of synaptic connections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "formation of synaptic connections",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "cell interference",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "cell interference as a pathogenic molecular mechanism leading to neuronal dysfunction",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "highly expressed during brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encoding protocadherin-19, a protein that is highly expressed during brain development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "heterozygous females affected; hemizygous males not affected",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Females with heterozygous mutations are affected, while hemizygous males are not, regardless of mutation carriage.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "PCDH19-related EIEE contributes to ~16% of SCN1A-negative DS-like patients (25% in females)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recently, PCDH19-related EIEE turned out to be more frequent than initially thought, contributing to around 16% of cases (25% in female groups) in the SCN1A-negative DS-like patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

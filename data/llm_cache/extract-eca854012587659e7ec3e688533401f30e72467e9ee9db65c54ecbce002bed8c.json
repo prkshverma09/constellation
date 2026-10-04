@@ -1,0 +1,76 @@
+{
+  "pmid": "39792727",
+  "claims": [
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "mechanism",
+      "object_text": "neuronal excitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The voltage-gated potassium channel subfamily 2 voltage-gated potassium channel α subunit encoded by the KCNB1 gene is essential for neuronal excitability.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Previous studies have shown that KCNB1 variants can cause DEE.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "frequent seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two children were admitted to our hospital for a detailed evaluation of frequent seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal electroencephalogram",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both of these children have abnormal electroencephalogram and brain magnetic resonance imaging results, accompanied by developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "abnormal brain magnetic resonance imaging",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both of these children have abnormal electroencephalogram and brain magnetic resonance imaging results, accompanied by developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Both of these children have abnormal electroencephalogram and brain magnetic resonance imaging results, accompanied by developmental delay.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNB1",
+      "claim_type": "therapy",
+      "object_text": "sodium valproate and lamotrigine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "1 patient had seizure remission with a combination of sodium valproate and lamotrigine,",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

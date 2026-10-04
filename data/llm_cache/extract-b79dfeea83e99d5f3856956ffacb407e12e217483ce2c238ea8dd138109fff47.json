@@ -1,0 +1,16 @@
+{
+  "pmid": "19837565",
+  "claims": [
+    {
+      "subject_gene": "CACNA2D2",
+      "claim_type": "phenotype",
+      "object_text": "childhood absence epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The linked region harbours the functional candidate genes TRAK1 and CACNA2D2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

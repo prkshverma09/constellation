@@ -1,0 +1,16 @@
+{
+  "pmid": "23232665",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "phenotype",
+      "object_text": "impulse control disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recent genetic studies have investigated associations between ICD and polymorphisms of genes involved in the dopamine metabolism pathway (COMT, DAT), dopamine receptors (DRD1, DRD2, DRD3, DRD4), serotonin receptors and its transporter (HTR2A, 5HTT), and glutamate receptors (GRIN2B).",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

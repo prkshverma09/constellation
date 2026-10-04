@@ -1,0 +1,146 @@
+{
+  "pmid": "38651838",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel Nav1.2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "altered function in the voltage-gated sodium channel Nav1.2",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "include epilepsy, autism and multiple severe to profound impairments",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "include epilepsy, autism and multiple severe to profound impairments",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "multiple severe to profound impairments",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "include epilepsy, autism and multiple severe to profound impairments",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of neonatal onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epilepsy of neonatal onset",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "infant-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "infant-onset (67%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "later-onset epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "later-onset (29%) epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "autism without seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autism without seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "epileptic spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epileptic spasms were significantly more common in infant-onset (67%) than in neonatal (22%) or later-onset (29%) epilepsy (P = 0.007).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "gain-of-function and mixed function variants predominated in neonatal-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "shifting to moderate loss of function in infant-onset epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "and to severe and complete loss of function in later-onset epilepsy and autism groups",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "phenotype",
+      "object_text": "non-seizure severity depends on age at seizure onset and variant function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The non-seizure severity of SCN2A disorders depends on a combination of the age at seizure onset (primary phenotype) and variant function.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "therapy",
+      "object_text": "precision therapies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "As precision therapies for SCN2A-related disorders advance towards clinical trials",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

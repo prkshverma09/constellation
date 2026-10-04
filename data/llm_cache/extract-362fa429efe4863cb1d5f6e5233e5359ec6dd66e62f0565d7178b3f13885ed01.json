@@ -1,0 +1,16 @@
+{
+  "pmid": "39701184",
+  "claims": [
+    {
+      "subject_gene": "SNAP25",
+      "claim_type": "phenotype",
+      "object_text": "variations in synaptic density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a range of biomarkers in cerebrospinal fluid (CSF), such as synaptosome-associated protein 25 (SNAP-25), synaptotagmin-1, growth-associated protein-43 (GAP-43), and neurogranin (Ng), along with functional brain imaging techniques, can detect variations in synaptic density, offering high sensitivity and specificity for AD diagnosis.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

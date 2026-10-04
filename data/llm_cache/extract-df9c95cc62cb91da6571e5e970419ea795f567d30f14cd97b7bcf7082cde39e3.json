@@ -1,0 +1,16 @@
+{
+  "pmid": "38425576",
+  "claims": [
+    {
+      "subject_gene": "SCN2A",
+      "claim_type": "mechanism",
+      "object_text": "mRNA abundance increased in Scn1bC89/C89 somatosensory cortex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mRNA abundance of Scn2a, Scn3a, Scn5a and Scn1b was increased in Scn1bC89/C89 somatosensory cortex, with no changes in Scn1a.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "29655203",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "recurrent pathogenic or likely pathogenic variants",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Recurrent P/LP variants were observed in 14 distinct genes, most commonly in MECP2, KCNQ2, SCN1A, SCN2A, STXBP1, and PRRT2.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

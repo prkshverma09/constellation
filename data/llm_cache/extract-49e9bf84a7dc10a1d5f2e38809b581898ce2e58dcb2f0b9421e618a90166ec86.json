@@ -1,0 +1,106 @@
+{
+  "pmid": "38057990",
+  "claims": [
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "caused by loss-of-function mutations in the methyl-CpG binding protein-2 (MeCP2) gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy, intellectual disability, autistic features, speech deficits, and sleep and breathing abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy, intellectual disability, autistic features, speech deficits, and sleep and breathing abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy, intellectual disability, autistic features, speech deficits, and sleep and breathing abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "speech deficits",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy, intellectual disability, autistic features, speech deficits, and sleep and breathing abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "sleep and breathing abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "characterized by epilepsy, intellectual disability, autistic features, speech deficits, and sleep and breathing abnormalities.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "display microcephaly, aberrant dendritic morphology, reduced spine density, and an imbalance of excitatory/inhibitory signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "aberrant dendritic morphology",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "display microcephaly, aberrant dendritic morphology, reduced spine density, and an imbalance of excitatory/inhibitory signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "reduced spine density",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "display microcephaly, aberrant dendritic morphology, reduced spine density, and an imbalance of excitatory/inhibitory signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "MECP2",
+      "claim_type": "phenotype",
+      "object_text": "an imbalance of excitatory/inhibitory signaling",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "display microcephaly, aberrant dendritic morphology, reduced spine density, and an imbalance of excitatory/inhibitory signaling.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

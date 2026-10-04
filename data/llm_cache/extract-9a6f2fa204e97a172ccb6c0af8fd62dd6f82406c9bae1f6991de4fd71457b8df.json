@@ -1,0 +1,16 @@
+{
+  "pmid": "38545656",
+  "claims": [
+    {
+      "subject_gene": "KIF1A",
+      "claim_type": "phenotype",
+      "object_text": "phenotypic features resembling HIE",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Four neonates had variants at loci linked to conditions with phenotypic features resembling HIE, including KIF1A, GBE1, ACTA1, and a 15q13.3 deletion.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

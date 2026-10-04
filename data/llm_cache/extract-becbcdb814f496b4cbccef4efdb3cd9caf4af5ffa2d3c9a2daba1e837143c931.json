@@ -1,0 +1,86 @@
+{
+  "pmid": "27648472",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Loss of Munc13-1 function predicts that syntaxin 1B is consigned to a nonfunctional closed state;",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "presynaptic_release",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "this inhibits cholinergic transmission at the neuromuscular junction and glutamatergic transmission in the brain.",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "cortical hyperexcitability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Inactivation of syntaxin 1B likely accounts for the patient's cortical hyperexcitability",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "febrile seizures with or without epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "mutations of syntaxin 1B cause febrile seizures with or without epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "myoclonic astatic epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "haploinsufficiency of the STX1B is associated with myoclonic astatic epilepsy",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "antisense knockdown of stx1b in zebrafish larvae",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "antisense knockdown of stx1b in zebrafish larvae elicits epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "maintenance of developing and mature neurons",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syntaxin 1B has a separate obligatory role for maintenance of developing and mature neurons",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "model",
+      "object_text": "syntaxin 1A/1B double knockout mice",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syntaxin 1A/1B double knockout mice.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

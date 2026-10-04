@@ -1,0 +1,16 @@
+{
+  "pmid": "32916768",
+  "claims": [
+    {
+      "subject_gene": "PRRT2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic vesicle fusion",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "alterations to genes encoding the key proteins that control and regulate fusion: the SNARE proteins (synaptobrevin, syntaxin-1 and SNAP-25), Munc18, Munc13, synaptotagmin, complexin, CSPα, α-synuclein, PRRT2 and tomosyn.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

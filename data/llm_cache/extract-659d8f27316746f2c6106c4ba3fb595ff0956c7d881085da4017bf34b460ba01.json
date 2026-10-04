@@ -1,0 +1,186 @@
+{
+  "pmid": "24836831",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "severe intellectual disability",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1-related disorders are associated with severe intellectual disability, absent speech with autistic features, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "absent speech with autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1-related disorders are associated with severe intellectual disability, absent speech with autistic features, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FOXG1-related disorders are associated with severe intellectual disability, absent speech with autistic features, and epilepsy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy (87% of subjects)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Epilepsy was diagnosed in 87% of the subjects with FOXG1-related disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "postnatal microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with deletions or intragenic mutations of FOXG1 also have postnatal microcephaly, morphologic abnormalities of the corpus callosum, and choreiform movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "morphologic abnormalities of the corpus callosum",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with deletions or intragenic mutations of FOXG1 also have postnatal microcephaly, morphologic abnormalities of the corpus callosum, and choreiform movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "choreiform movements",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Children with deletions or intragenic mutations of FOXG1 also have postnatal microcephaly, morphologic abnormalities of the corpus callosum, and choreiform movements.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "infantile spasms",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplications of 14q12 often present with infantile spasms, and have subsequent intellectual disability with autistic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability with autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Duplications of 14q12 often present with infantile spasms, and have subsequent intellectual disability with autistic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "hormonal therapy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All of the duplication FOXG1 children with infantile spasms responded to hormonal therapy, and only one required long-term antiepileptic therapy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "requirement for antiepileptic drugs on follow-up",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In contrast, more children with deletions/intragenic mutations required antiepileptic drugs on follow-up (p < 0.0005).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "neurodevelopmental disabilities after 3 years of age",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All subjects with FOXG1-related disorders had neurodevelopmental disabilities after 3 years of age, regardless of the epilepsy type or intractability of seizures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "impaired verbal language",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had impaired verbal language and social contact, and three duplication subjects were formally diagnosed with autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "impaired social contact",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had impaired verbal language and social contact, and three duplication subjects were formally diagnosed with autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "autism (diagnosed in three duplication subjects)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had impaired verbal language and social contact, and three duplication subjects were formally diagnosed with autism.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "significantly worse ambulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subjects with deletion/intragenic mutations, however, had significantly worse ambulation (p = 0.04) and functional hand use (p < 0.0005).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "significantly worse functional hand use",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Subjects with deletion/intragenic mutations, however, had significantly worse ambulation (p = 0.04) and functional hand use (p < 0.0005).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "younger mean age of epilepsy diagnosis in duplications",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The mean age of epilepsy diagnosis in FOXG1 duplications was significantly younger than those with deletions/intragenic mutations (p = 0.0002).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

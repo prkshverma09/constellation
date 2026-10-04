@@ -1,0 +1,16 @@
+{
+  "pmid": "35765698",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "severe, drug-resistant seizures in early childhood",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The onset of severe, drug-resistant seizures in early childhood is characteristic of the rare epileptic disorders Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), and CDKL5 deficiency disorder (CDD)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

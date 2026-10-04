@@ -1,0 +1,16 @@
+{
+  "pmid": "38378084",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "neutral lipid accumulation co-localizes with VAMP2",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The neutral lipid staining was not co-localized with IBA1-labeled microglia or GFAP-labeled astrocytes, but it was co-labeled with VAMP2 and neurofilament.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

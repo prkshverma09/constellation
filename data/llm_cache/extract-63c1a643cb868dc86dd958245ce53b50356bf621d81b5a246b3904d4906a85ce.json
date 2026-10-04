@@ -1,0 +1,76 @@
+{
+  "pmid": "32079229",
+  "claims": [
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "mechanism",
+      "object_text": "serine-threonine kinase",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "non-functional CDKL5 protein, i.e., serine-threonine kinase (previously referred to as STK9)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CDKL5 deficiency disorder (CDD) is a complex of clinical symptoms resulting from the presence of non-functional CDKL5 protein, i.e., serine-threonine kinase (previously referred to as STK9), or its complete absence.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic seizures (that start within the first three months of life and most often do not respond to pharmacological treatment)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic seizures (that start within the first three months of life and most often do not respond to pharmacological treatment)",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "epileptic encephalopathy secondary to seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "epileptic encephalopathy secondary to seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "retardation of psychomotor development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "retardation of psychomotor development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "prevalence of CDD among women is four times higher than in men",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Due to the fact that CDKL5 is located on the X chromosome, the prevalence of CDD among women is four times higher than in men.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "CDKL5",
+      "claim_type": "phenotype",
+      "object_text": "the course is usually more severe among male patients",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "However, the course is usually more severe among male patients.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

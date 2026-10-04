@@ -1,0 +1,166 @@
+{
+  "pmid": "30180405",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset at 1 day to 8 months (median 90 days)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The age of seizure onset was 1 day to 8 months, and the median age was 90 days.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "generalized tonic-clonic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included generalized tonic-clonic seizures (GTCS) in 3 cases,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included generalized tonic-clonic seizures (GTCS) in 3 cases, focal seizures in 18 cases,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonus (including focal myoclonus and myoclonus status)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seizure types included generalized tonic-clonic seizures (GTCS) in 3 cases, focal seizures in 18 cases, myoclonus in 18 cases, and 17 cases had focal myoclonus and myoclonus status.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "therapy",
+      "object_text": "sleep or sedation drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "lasting up to minutes to several days, and could be terminated by sleep or sedation drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "myoclonus exacerbated by fever or infections",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In 11 cases, myoclonus was exacerbated by fever or infections, and 2 cases developed into myoclonic status during infection, in a severe case with the loss of consciousness.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "cerebral atrophy or cerebellar atrophy with abnormal signals on MRI",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The magnetic resonance imaging (MRI) of seven patients was abnormal, including cerebral atrophy or cerebellar atrophy with abnormal signals.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "segment myoclonus without correlated epileptiform discharges",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Segment myoclonus was captured in 10 patients, but without correlated epileptiform discharges.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "There were ten cases had varying degrees of developmental delay, 7 were normal, and one patient died of status epilepticus at the age of 4 months.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "hearing disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Three cases had hearing disorders.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy of infancy with migrating focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 18 patients, the clinical phenotype of 4 cases consisted of epilepsy of infancy with migrating focal seizures,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "progressive myoclonus epilepsies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 18 patients, the clinical phenotype of 4 cases consisted of epilepsy of infancy with migrating focal seizures, 2 with progressive myoclonus epilepsies,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "Dravet syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 18 patients, the clinical phenotype of 4 cases consisted of epilepsy of infancy with migrating focal seizures, 2 with progressive myoclonus epilepsies, 1 with Dravet syndrome,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 18 patients, the clinical phenotype of 4 cases consisted of epilepsy of infancy with migrating focal seizures, 2 with progressive myoclonus epilepsies, 1 with Dravet syndrome, 1 with DOORS syndrome,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "unclassified epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "In the 18 patients, the clinical phenotype of 4 cases consisted of epilepsy of infancy with migrating focal seizures, 2 with progressive myoclonus epilepsies, 1 with Dravet syndrome, 1 with DOORS syndrome, and 3 with unclassified epileptic encephalopathy.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "focal myoclonus that tends to develop into myoclonic status epilepticus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The clinical feature of TBC1D24 gene mutation related epilepsy was focal myoclonus, and tended to develop into myoclonic status epilepticus,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "41121516",
+  "claims": [
+    {
+      "subject_gene": "GRIN2B",
+      "claim_type": "mechanism",
+      "object_text": "targeting GRIN2A, GRIN1, GRIN3A, and GRIN2B to regulate melatonin levels",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "targeting GRIN2A, GRIN1, GRIN3A, and GRIN2B to regulate melatonin levels",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

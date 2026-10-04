@@ -1,0 +1,16 @@
+{
+  "pmid": "16302874",
+  "claims": [
+    {
+      "subject_gene": "GABRG2",
+      "claim_type": "phenotype",
+      "object_text": "absence seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mutations in GABRA1, GABRG2, and GABRB3 are associated with absence seizures",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

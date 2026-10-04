@@ -1,0 +1,126 @@
+{
+  "pmid": "38238304",
+  "claims": [
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "early-onset epilepsy syndrome with limbic seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Protocadherin-19 (PCDH19) developmental and epileptic encephalopathy causes an early-onset epilepsy syndrome with limbic seizures, typically occurring in clusters and variably associated with intellectual disability and a range of psychiatric disorders including hyperactive, obsessive-compulsive and autistic features.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "seizures occurring in clusters",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "typically occurring in clusters",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "intellectual disability (variable association)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "variably associated with intellectual disability",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "psychiatric disorders including hyperactive, obsessive-compulsive and autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a range of psychiatric disorders including hyperactive, obsessive-compulsive and autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "reductions of cortical surface area at a whole-brain level",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "high-significant reductions of cortical surface area at a whole-brain level",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "parahippocampal gyri structural alteration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "left/right parahippocampal gyri pvalue = 0.230/0.016",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "entorhinal gyri structural alteration",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "left/right entorhinal gyri pvalue = 0.002/0.327",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "bilateral atrophy of subunits of the amygdala and hippocampus",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "bilateral atrophy of several subunits of the amygdala and hippocampus",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "atrophy of left CA3 head and right CA3 body",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "head of the left CA3 pvalue = 0.002; body of the right CA3 pvalue = 0.004",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "differences in the shape of hippocampal structures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "differences in the shape of hippocampal structures.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "phenotype",
+      "object_text": "more severe psychiatric comorbidities correlate with more significant altered morphometric patterns",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "More severe psychiatric comorbidities correlated with more significant altered patterns",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "PCDH19",
+      "claim_type": "mechanism",
+      "object_text": "morphometric alterations correlate with the known expression patterns of PCDH19",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Morphometric alterations correlated significantly with the known expression patterns of PCDH19 (rvalue = -0.26, pspin = 0.092).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

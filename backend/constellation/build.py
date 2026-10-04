@@ -19,6 +19,17 @@ from constellation.analytics.similarity import (
     string_mechanism_score,
 )
 from constellation.config import CACHE, DATA, RAW, configured_mode
+from constellation.discover.web import (
+    MODEL as DISCOVERY_MODEL,
+)
+from constellation.discover.web import (
+    PROMPT_VERSION as DISCOVERY_PROMPT_VERSION,
+)
+from constellation.discover.web import (
+    load_cached_discovery,
+    registrable_domain,
+    validate_discovered_org,
+)
 from constellation.extract.cache import extract_claims
 from constellation.extract.heuristic import extract_heuristic
 from constellation.graph.store import Snapshot, write_snapshot
@@ -54,18 +65,9 @@ from constellation.ledger import (
     sanitize_snapshot_record,
     validate_edge,
 )
+from constellation.variant_classes import MECHANISM_CLASS_LABELS
 
 TRIAL_SEED = "NCT06555965"
-MECHANISM_CLASS_LABELS = {
-    "haploinsufficiency": "loss_of_function",
-    "loss_of_function": "loss_of_function",
-    "dominant_negative": "dominant_negative",
-    "gain_of_function": "gain_of_function",
-    "SNARE_complex": "unknown",
-    "synaptic_vesicle_cycle": "unknown",
-    "presynaptic_release": "unknown",
-    "missense": "unknown",
-}
 
 
 def add_node(
@@ -371,6 +373,135 @@ def _add_seed_foundations(
             )
         verified.append({"name": seed["name"], "url": str(response.url)})
     return verified
+
+
+def _web_org_id(domain: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", domain.casefold()).strip("-")[:55] or "organization"
+    digest = hashlib.sha1(domain.casefold().encode("utf-8")).hexdigest()[:8]
+    return f"constellation:org/web-{slug}-{digest}"
+
+
+def _web_candidate_id(symbol: str, url: str) -> str:
+    digest = hashlib.sha1(f"{symbol}\x1f{url}".encode()).hexdigest()[:12]
+    return f"constellation:org/web-candidate-{digest}"
+
+
+def _add_web_discovered_orgs(
+    http: CachedHTTP,
+    seeds: list[dict[str, Any]],
+    genes: dict[str, dict[str, Any]],
+    nodes: dict[str, dict[str, Any]],
+    edges: list[dict[str, Any]],
+    source_counts: dict[str, dict[str, Any]],
+) -> list[tuple[dict[str, Any], str]]:
+    seed_domains = {
+        domain
+        for seed in seeds
+        if (domain := registrable_domain(str(seed.get("url", ""))))
+    }
+    rejected: list[tuple[dict[str, Any], str]] = []
+    for symbol, gene in genes.items():
+        discovery = load_cached_discovery(symbol)
+        accepted_count = 0
+        rejected_count = 0
+        seen_domains = set(seed_domains)
+        disease_id = gene["disease_id"]
+        disease_label = nodes[disease_id]["label"]
+        if discovery:
+            for organization in discovery.orgs:
+                candidate_id = _web_candidate_id(symbol, organization.url)
+                candidate_edge = make_edge(
+                    candidate_id,
+                    organization.name,
+                    "serves",
+                    disease_id,
+                    disease_label,
+                    evidence_class="web_discovered",
+                    source="openai_web_search",
+                    source_record=organization.url,
+                    source_url=organization.url,
+                    confidence=0.6,
+                    quote=organization.snippet,
+                    method=f"{DISCOVERY_MODEL} web_search {DISCOVERY_PROMPT_VERSION}",
+                    properties={"gene_symbol": symbol, "kind": organization.kind},
+                )
+                try:
+                    page = http.get_html(organization.url)
+                except Exception as error:
+                    rejected.append(
+                        (candidate_edge, f"page_fetch_error:{type(error).__name__}")
+                    )
+                    rejected_count += 1
+                    continue
+                validated, reason = validate_discovered_org(organization, symbol, page)
+                if reason or validated is None:
+                    rejected.append((candidate_edge, reason or "page_validation_failed"))
+                    rejected_count += 1
+                    continue
+                if validated.domain in seed_domains:
+                    rejected.append(
+                        (
+                            candidate_edge,
+                            f"duplicate_seed_registrable_domain:{validated.domain}",
+                        )
+                    )
+                    rejected_count += 1
+                    continue
+                if validated.domain in seen_domains:
+                    rejected.append(
+                        (
+                            candidate_edge,
+                            f"duplicate_discovered_registrable_domain:{validated.domain}",
+                        )
+                    )
+                    rejected_count += 1
+                    continue
+                seen_domains.add(validated.domain)
+                org_id = _web_org_id(validated.domain)
+                if org_id not in nodes:
+                    add_node(
+                        nodes,
+                        org_id,
+                        "patient_group",
+                        organization.name,
+                        {
+                            "url": validated.page_url,
+                            "kind": organization.kind,
+                            "match_kind": "exact",
+                            "verified_on": date.today().isoformat(),
+                        },
+                    )
+                edges.append(
+                    make_edge(
+                        org_id,
+                        organization.name,
+                        "serves",
+                        disease_id,
+                        disease_label,
+                        evidence_class="web_discovered",
+                        source="openai_web_search",
+                        source_record=organization.url,
+                        source_url=validated.page_url,
+                        confidence=0.6,
+                        quote=validated.quote,
+                        method=f"{DISCOVERY_MODEL} web_search {DISCOVERY_PROMPT_VERSION}",
+                        properties={
+                            "gene_symbol": symbol,
+                            "kind": organization.kind,
+                            "match_kind": "exact",
+                            "verified_on": date.today().isoformat(),
+                        },
+                    )
+                )
+                accepted_count += 1
+        source_counts[f"discover:{symbol}"] = {
+            "source": "OpenAI web search (validated)",
+            "query": symbol,
+            "count": accepted_count,
+            "rejected": rejected_count,
+            "retrieved_at": date.today().isoformat(),
+        }
+    return rejected
 
 
 def _author_edges(
@@ -1357,6 +1488,15 @@ def build() -> dict[str, Any]:
             )
         )
 
+    discovery_rejections = _add_web_discovered_orgs(
+        http,
+        slice_config["foundations"],
+        genes,
+        nodes,
+        edges,
+        source_counts,
+    )
+
     for node in nodes.values():
         sanitize_snapshot_record(node)
     for edge in edges:
@@ -1367,6 +1507,8 @@ def build() -> dict[str, Any]:
     rejected_path = DATA / "rejected_edges.jsonl"
     if rejected_path.exists():
         rejected_path.unlink()
+    for edge, reason in discovery_rejections:
+        reject_edge(edge, reason)
     for edge in edges:
         reason = validate_edge(edge, known_ids)
         if reason:
@@ -1383,6 +1525,7 @@ def build() -> dict[str, Any]:
         trials_for_gene = trial_counts.get(symbol, 0)
         has_group = any(
             edge["predicate"] == "serves"
+            and edge["source"] == "seed_list"
             and edge["subject"].startswith("constellation:org/")
             and edge["object"] == gene["disease_id"]
             for edge in valid_edges
@@ -1463,6 +1606,25 @@ def build() -> dict[str, Any]:
         "the weights.\n"
         "- Animal-model assets were omitted unless a source-validated MGI allele record and live "
         "URL could be verified.\n"
+        "- Live literature extraction uses `CONSTELLATION_EXTRACT_MODEL` (default `gpt-5-mini`), "
+        "the `extraction-schema-v2` prompt/cache key, exact-abstract quote validation, and "
+        "cache-only reads during the build.\n"
+        "- Patient-organization discovery uses `gpt-5` with `web_search` and `discover-v1`. "
+        "A discovered page is accepted only after redirect-following HTML validation, HTTP 200, "
+        "a whole-word gene-symbol check, snippet verification or a page-text quote, and "
+        "registrable-domain deduplication against curated seeds. At most four gene requests run "
+        "concurrently, with a 120-second timeout; failures are logged and skipped. "
+        "`web_discovered` evidence is added after analytics and does not affect "
+        "mechanism support.\n"
+        "- Live dossiers use `CONSTELLATION_AGENT_MODEL` (default `gpt-5`) and `writer-v1`. "
+        "The writer receives at most 400 compact evidence rows; post-validation drops "
+        "out-of-pack citations and unsupported numeric claims, and empty sections fall back "
+        "to the offline draft. Successful output is cached by disease, persona, comparator, "
+        "snapshot, model, and prompt version.\n"
+        "- OpenAI cost estimates use API-reported input/output token counts for extraction, "
+        "discovery, and live dossiers, plus the applicable web-search request charge; cached "
+        "results add no new model-call cost. The per-run estimate is recorded after live "
+        "operations complete.\n"
     )
     (DATA.parent / "docs" / "DECISIONS.md").write_text(decisions, encoding="utf-8")
     (DATA / "demo_config.json").write_text(
@@ -1494,6 +1656,8 @@ def build() -> dict[str, Any]:
                 json.dumps(dossier, ensure_ascii=False, indent=2), encoding="utf-8"
             )
     for cache_path in CACHE.glob("*.json"):
+        if cache_path.name.startswith(("extract-", "discover-", "dossier-live-")):
+            continue
         if cache_path in current_dossier_paths:
             continue
         try:

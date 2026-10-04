@@ -1,0 +1,56 @@
+{
+  "pmid": "26499798",
+  "claims": [
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "tumor suppressor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "originally marked as a likely tumor suppressor gene",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "metabolic regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Results from a series of complementary experiments seem to indicate WWOX's involvement in metabolic regulation.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "model",
+      "object_text": "animal studies",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Phenotypic effects displayed in animal studies",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "phenotype",
+      "object_text": "severe encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "clinical studies involving cases of severe encephalopathy suggest that WWOX also plays a part in controlling CNS development",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "WWOX",
+      "claim_type": "mechanism",
+      "object_text": "CNS development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "WWOX also plays a part in controlling CNS development",
+      "confidence": 0.3,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "37968596",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "model",
+      "object_text": "altered RNA editing in mouse ZIKV samples",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Mouse ZIKV samples showed altered editing of well-established protein-recoding sites such as Gria3, Grik5, and Nova1, as well as editing sites that may impact miRNA binding.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

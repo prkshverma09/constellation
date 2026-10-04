@@ -1,0 +1,16 @@
+{
+  "pmid": "30001398",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "synaptic_vesicle_cycle",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "identified a number of Rbfox1-regulated genes that are involved in establishing neuronal circuits and synaptic transmission, including Vamp1, Vamp2, Snap25, Trak2, and Slc1A7",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    }
+  ],
+  "investigator_roles": []
+}

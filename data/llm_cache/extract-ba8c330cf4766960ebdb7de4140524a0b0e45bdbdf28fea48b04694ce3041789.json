@@ -1,0 +1,106 @@
+{
+  "pmid": "35655128",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "showed high rates of autism spectrum disorder (52%)",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a high prevalence of epilepsy (70%).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "difficulties with fine and gross motor skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "difficulties with fine and gross motor skills",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "delays in language development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "delays in language development,",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "daily living skills",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "daily living skills",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "distress-related behaviours",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "distress-related behaviours",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "emotional regulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "emotional regulation",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "difficulties with change",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "difficulties with change",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "lack of danger awareness",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a lack of danger awareness",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "sensory differences (auditory, visual, tactile, gustatory, proprioceptive)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Sensory features described involved auditory, visual, tactile, gustatory, and proprioceptive themes.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

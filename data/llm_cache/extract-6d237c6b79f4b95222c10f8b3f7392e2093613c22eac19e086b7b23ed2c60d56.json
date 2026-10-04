@@ -1,0 +1,36 @@
+{
+  "pmid": "38431908",
+  "claims": [
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "DCS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DCS and BtDCS prevented the reduction of the mitochondrial quality-control signalling, vesicle-associated membrane protein 2 (VAMP2) and syntaxin-4 (STX4), in OGD/R-insulted neurons cocultured with astrocytes",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "therapy",
+      "object_text": "BtDCS",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DCS and BtDCS prevented the reduction of the mitochondrial quality-control signalling, vesicle-associated membrane protein 2 (VAMP2) and syntaxin-4 (STX4), in OGD/R-insulted neurons cocultured with astrocytes and the ischaemic brain respectively.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "VAMP2",
+      "claim_type": "mechanism",
+      "object_text": "SEPP1-dependent upregulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "downregulation of SEPP1 blocked DCS- and BtDCS-induced upregulation of VAMP2 and STX4.",
+      "confidence": 0.9,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

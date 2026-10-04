@@ -1,0 +1,36 @@
+{
+  "pmid": "27323939",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "mechanism",
+      "object_text": "component of the GATOR1 complex",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "genes encoding the components of the GATOR1 complex (DEPDC5, NPRL2, NPRL3)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal epilepsy syndromes",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "causing a wide and yet evolving spectrum of focal epilepsy syndromes",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "focal cortical dysplasia",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "with and without cortical structural abnormalities (usually focal cortical dysplasia)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

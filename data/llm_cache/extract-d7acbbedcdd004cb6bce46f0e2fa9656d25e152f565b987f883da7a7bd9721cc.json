@@ -1,0 +1,46 @@
+{
+  "pmid": "34305610",
+  "claims": [
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The rs140820592 was associated with significantly lower epilepsy risk among 1,000 subjects in the dominant model after adjusting for gender and age and Bonferroni correction (OR = 0.542, 95%CI = 0.358-0.819, p = 0.004).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "phenotype",
+      "object_text": "drug-resistant epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The rs140820592 also conferred significantly lower risk of drug-resistant epilepsy among 450 subjects using the same dominant model after adjusting for gender and age and Bonferroni correction (OR = 0.260, 95%CI = 0.103-0.653, p = 0.004).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "STX1B expression in brain tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Expression quantitative trait loci analysis revealed that rs140820592 was associated with STX1B expression level in drug-resistant epileptic brain tissues (p = 0.012), and this result was further verified in the BrainCloud database (http://eqtl.brainseq.org) (p = 2.3214 × 10-5).",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "STX1B",
+      "claim_type": "mechanism",
+      "object_text": "regulating STX1B expression in brain tissues",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "The STX1B rs140820592 may influence the risks of epilepsy and drug-resistant epilepsy by regulating STX1B expression in brain tissues.",
+      "confidence": 0.3,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

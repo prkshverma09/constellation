@@ -1,0 +1,136 @@
+{
+  "pmid": "36223387",
+  "claims": [
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "is caused by a heterozygous loss-of-function (LOF) mutation of the FOXG1 gene",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "encodes a transcriptional regulator important for telencephalic brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "encodes a transcriptional regulator important for telencephalic brain development.",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "marked developmental delays",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "marked developmental delays",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "impaired ambulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "impaired ambulation",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "movement disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "movement disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "seizures",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "autistic features",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autistic features",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "model",
+      "object_text": "heterozygous mutant animals",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generated a new mouse allele of Foxg1 that disrupts protein expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "generated a new mouse allele of Foxg1 that disrupts protein expression",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "changes in locomotor behavior, gait, anxiety, social interaction, aggression, and learning and memory",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "These mutant animals display changes in locomotor behavior, gait, anxiety, social interaction, aggression, and learning and memory compared to littermate controls.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "phenotype",
+      "object_text": "structural brain abnormalities",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they have structural brain abnormalities reminiscent of people with FS.",
+      "confidence": 0.9,
+      "evidence_level": "animal"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "mechanism",
+      "object_text": "FoxG1 protein function plays a critical role in embryonic brain development",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "FoxG1 protein function plays a critical role in embryonic brain development",
+      "confidence": 0.9,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "FOXG1",
+      "claim_type": "therapy",
+      "object_text": "postnatal expression of gene products",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "postnatal expression of gene products has led to hope that similar approaches could help modify the disease course in other neurodevelopmental disorders such as FS.",
+      "confidence": 0.3,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}

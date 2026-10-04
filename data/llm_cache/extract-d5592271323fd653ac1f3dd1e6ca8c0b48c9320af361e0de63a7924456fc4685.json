@@ -1,0 +1,106 @@
+{
+  "pmid": "40849994",
+  "claims": [
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy (DEE)",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Variants in SYNGAP1 cause a rare childhood-onset developmental and epileptic encephalopathy (DEE).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "We identified 185 children with likely pathogenic/pathogenic variants in SYNGAP1; 156 had epilepsy (n = 156/185, 84.3 %).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "corpus callosotomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Limited reports describe palliative surgical procedures such as corpus callosotomy (CC) and vagus nerve stimulation (VNS) in SYNGAP1-related DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Limited reports describe palliative surgical procedures such as corpus callosotomy (CC) and vagus nerve stimulation (VNS) in SYNGAP1-related DEE.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Eleven children had VNS (n = 11/15, 73.3 %), and the median follow-up was 3.3 years (IQR 5.6, 3.3).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Seven children had an initial > 50 % seizure reduction (n = 7/11, 63.6 %), 2 had worsening (n = 2/11, 18.2 %), 1 had no change (n = 1/11, 9.1 %), and 1 had an unknown response (n = 1/11, 9.1 %).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "vagus nerve stimulation",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "VNS response was sustained in 3 children (3/11, 27.3 %).",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "corpus callosotomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two children (n = 2/15, 13.3 %) had CC only with a mean follow-up of 3.1 years; 1 became seizure-free, and the other had > 50 % seizure reduction.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "corpus callosotomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One child from our centre had a sustained > 80 % seizure reduction (1.5 years) following CC at 7 years.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    },
+    {
+      "subject_gene": "SYNGAP1",
+      "claim_type": "therapy",
+      "object_text": "corpus callosotomy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "CC appeared to be more effective in the few treated.",
+      "confidence": 0.6,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

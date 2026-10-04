@@ -1,0 +1,26 @@
+{
+  "pmid": "30029590",
+  "claims": [
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "mechanism",
+      "object_text": "glutamate receptor",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Among the module d, four glutamate receptors as Gria4, Gria3, Grin3a and Grik4 were highlighted.",
+      "confidence": 0.6,
+      "evidence_level": "in_vitro"
+    },
+    {
+      "subject_gene": "GRIA3",
+      "claim_type": "therapy",
+      "object_text": "potential therapeutic target for cerebral ischemic injury",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "some functionally significant DEGs such as BDNF, ADAM17, Gria4, Gria3, Grin3a, Grik4, Gys2 and Ugtla2, and new miRNAs like MIR-338 and MIR-376A were identified, which may serve as potential therapeutic targets for the effective treatment of cerebral ischemic injury.",
+      "confidence": 0.3,
+      "evidence_level": "in_vitro"
+    }
+  ],
+  "investigator_roles": []
+}

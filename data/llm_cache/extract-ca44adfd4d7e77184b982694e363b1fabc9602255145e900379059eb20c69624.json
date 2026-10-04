@@ -1,0 +1,156 @@
+{
+  "pmid": "31905474",
+  "claims": [
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1214C>T (loss-of-function)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "gain_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1120A>G (gain-and loss-of-function)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "variant_effect",
+      "object_text": "loss_of_function",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "c.1120A>G (gain-and loss-of-function)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental and epileptic encephalopathy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "KCNA2 gene variants can lead to DEE with multiple seizures types.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "multiple seizure types",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they were characterized by multiple seizure types.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "focal seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had focal seizures and had normal development before seizure onset with developmental regression after seizure onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "normal development before seizure onset with developmental regression after seizure onset",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All had focal seizures and had normal development before seizure onset with developmental regression after seizure onset.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "epileptic electrical status (ESES) during sleep",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "in 5 of them the Rolandic discharges developed into epileptic electrical status (ESES) during sleep.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "seizure onset on the 1st day after birth",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "they had seizure onset on the 1st day after birth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "frequent and difficult to control seizures",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Their epileptic seizures were frequent and difficult to control.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "developmental delay",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They had remarkably developmental delay and microcephaly since birth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "microcephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "They had remarkably developmental delay and microcephaly since birth.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "wide forehead",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "One case (case 8) had a wide forehead.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "therapy",
+      "object_text": "combination of multiple antiepileptic drugs",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "All the six patients were still treated with a combination of multiple antiepileptic drugs.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "KCNA2",
+      "claim_type": "phenotype",
+      "object_text": "seizure controlled at 80 months and 68 months",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "Two of them had seizure controlled at 80 months and 68 months, respectively.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

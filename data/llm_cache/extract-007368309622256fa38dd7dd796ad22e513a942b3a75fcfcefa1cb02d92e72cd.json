@@ -1,0 +1,66 @@
+{
+  "pmid": "24729539",
+  "claims": [
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "variant_effect",
+      "object_text": "missense",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a unique variant, p.Ser178Leu, in TBC1D24 that segregates with the hearing loss phenotype.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "mechanism",
+      "object_text": "GTPase-activating protein expressed in the cochlea",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "TBC1D24 encodes a GTPase-activating protein expressed in the cochlea.",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "progressive autosomal-dominant nonsyndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "progressive autosomal-dominant nonsyndromic hearing loss (NSHL)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "autosomal recessive nonsyndromic hearing loss",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "autosomal recessive NSHL",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "DOORS syndrome",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "syndromic hearing impairment associated with onychodystrophy, osteodystrophy, mental retardation, and seizures (DOORS syndrome)",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    },
+    {
+      "subject_gene": "TBC1D24",
+      "claim_type": "phenotype",
+      "object_text": "epileptic disorders",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "a wide range of epileptic disorders",
+      "confidence": 0.9,
+      "evidence_level": "human_case"
+    }
+  ],
+  "investigator_roles": []
+}

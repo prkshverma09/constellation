@@ -1,0 +1,16 @@
+{
+  "pmid": "41853045",
+  "claims": [
+    {
+      "subject_gene": "NPRL3",
+      "claim_type": "phenotype",
+      "object_text": "lissencephaly",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "DARS2 and NPRL3 were reported to be associated with LIS for the first time in this study.",
+      "confidence": 0.9,
+      "evidence_level": "human_cohort"
+    }
+  ],
+  "investigator_roles": []
+}

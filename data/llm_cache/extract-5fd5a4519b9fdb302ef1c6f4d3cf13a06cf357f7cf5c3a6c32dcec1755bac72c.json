@@ -1,0 +1,66 @@
+{
+  "pmid": "40808385",
+  "claims": [
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "mechanism",
+      "object_text": "voltage-gated sodium channel subtype Nav1.6",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "distinct subtypes of these channels, including Nav1.1, Nav1.2, and Nav1.6,",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "familial hemiplegic migraine",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including Nav1.1, Nav1.2, and Nav1.6, across various neurological disorders such as familial hemiplegic migraine, epilepsy, autism spectrum disorder, and retinal dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "epilepsy",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including Nav1.1, Nav1.2, and Nav1.6, across various neurological disorders such as familial hemiplegic migraine, epilepsy, autism spectrum disorder, and retinal dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "autism spectrum disorder",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including Nav1.1, Nav1.2, and Nav1.6, across various neurological disorders such as familial hemiplegic migraine, epilepsy, autism spectrum disorder, and retinal dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "phenotype",
+      "object_text": "retinal dysfunction",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "including Nav1.1, Nav1.2, and Nav1.6, across various neurological disorders such as familial hemiplegic migraine, epilepsy, autism spectrum disorder, and retinal dysfunction.",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    },
+    {
+      "subject_gene": "SCN8A",
+      "claim_type": "therapy",
+      "object_text": "NBI-921352",
+      "object_hint_id": null,
+      "polarity": "supports",
+      "quote": "the selective Nav1.6 inhibitor NBI-921352 (for SCN8A -related epilepsy)",
+      "confidence": 0.6,
+      "evidence_level": "review"
+    }
+  ],
+  "investigator_roles": []
+}
