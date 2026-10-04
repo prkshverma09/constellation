@@ -392,8 +392,24 @@ def build_dossier(
             for edge in serves_edges[:2]
             if edge["object"] in snapshot.node_by_id
         )
-        if persona == "devon":
-            text = f"{asset['label']} is a possible cluster resource."
+        if persona in {"maria", "devon"}:
+            asset_properties = asset.get("properties", {})
+            record_id = asset_properties.get("record_id")
+            asset_name = (
+                f"{asset['label']} ({record_id})" if record_id else asset["label"]
+            )
+            if (
+                asset_properties.get("asset_type") == "natural_history_study"
+                and asset_properties.get("overall_status") == "RECRUITING"
+            ):
+                text = f"The {asset_name} already enrolls {gene_symbol} patients."
+            elif asset_properties.get("asset_type") == "natural_history_study":
+                text = f"The {asset_name} is a study record for {gene_symbol} patients."
+            else:
+                text = (
+                    f"The {asset_name} is a reusable research resource for "
+                    f"{gene_symbol}."
+                )
         elif persona == "osei":
             text = f"Verify cluster asset {asset['label']} and its mapped disease links."
         else:
@@ -442,12 +458,19 @@ def build_dossier(
     if best_coverage:
         asset, coverage, refs = best_coverage
         percent = round(float(coverage["value"]) * 100)
-        text = (
-            f"{asset['label']} is mapped to {top_neighbor_label}; it covers {percent}% "
-            f"of the target disease phenotype information "
-            f"({coverage['n_matched']} of {coverage['n_total']} terms; IC "
-            f"{coverage['numerator_ic']:.2f}/{coverage['denominator_ic']:.2f})."
-        )
+        if persona in {"maria", "devon"}:
+            text = (
+                f"{asset['label']} covers {percent}% of "
+                f"{top_neighbor_label} phenotype information "
+                f"({coverage['n_matched']} of {coverage['n_total']} terms)."
+            )
+        else:
+            text = (
+                f"{asset['label']} is mapped to {top_neighbor_label}; it covers {percent}% "
+                f"of the target disease phenotype information "
+                f"({coverage['n_matched']} of {coverage['n_total']} terms; IC "
+                f"{coverage['numerator_ic']:.2f}/{coverage['denominator_ic']:.2f})."
+            )
         asset_sentences.append(_sentence(text, refs))
 
     exact_group_sentences = []
@@ -648,10 +671,16 @@ def build_dossier(
             )
         )
 
-    def verified_bridges(comparator: dict[str, Any] | None) -> list[tuple[Any, list[str], str]]:
+    def verified_bridges(
+        comparator: dict[str, Any] | None,
+    ) -> list[tuple[Any, list[str], str, str]]:
         if not comparator:
             return []
         rows = []
+        comparator_node = snapshot.node_by_id.get(comparator["disease_id"], {})
+        comparator_gene = comparator_node.get("properties", {}).get(
+            "gene_symbol", comparator["label"]
+        )
         for bridge in find_bridges(snapshot, disease_id, comparator["disease_id"]):
             proof_ids = list(
                 dict.fromkeys(
@@ -661,7 +690,7 @@ def build_dossier(
                 )
             )[:3]
             if proof_ids:
-                rows.append((bridge, proof_ids, comparator["label"]))
+                rows.append((bridge, proof_ids, comparator["label"], comparator_gene))
         return rows
 
     cluster_bridge_rows = verified_bridges(top_neighbor)
@@ -684,10 +713,22 @@ def build_dossier(
             contact_rows.append(row)
             seen_bridge_ids.add(row[0]["id"])
     contact_sentences = []
-    for bridge, proof_ids, comparator_label in contact_rows[:3]:
-        if persona == "devon":
+    for bridge, proof_ids, comparator_label, comparator_gene in contact_rows[:3]:
+        if persona in {"maria", "devon"}:
+            institution = next(iter(bridge.get("affiliations", [])), "")
+            institution_text = f" ({institution})" if institution else ""
+            has_paper = any(
+                proof.get("kind") == "paper"
+                for proof in bridge.get("proving_edges", [])
+            )
+            relation = (
+                "has published on both"
+                if has_paper
+                else "appears in evidence for both"
+            )
             text = (
-                f"{bridge['display_name']} is a verified bridge to {comparator_label}."
+                f"{bridge['display_name']}{institution_text} {relation} "
+                f"{gene_symbol}- and {comparator_gene}-related disease."
             )
         elif persona == "osei":
             text = (

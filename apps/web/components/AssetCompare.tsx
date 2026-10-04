@@ -37,7 +37,7 @@ export function AssetCompare({ assets, persona, options, selected, onSelect }: {
       </div>
       <p className="serves-line"><strong>Serves:</strong> {asset.serves.map((disease) => disease.gene_symbol).join(" · ")}</p>
       {asset.coverage ? <div className="coverage-score"><strong>{Math.round(asset.coverage.value * 100)}%</strong>{" "}
-        <span>(IC {asset.coverage.numerator_ic} / {asset.coverage.denominator_ic}, {asset.coverage.n_matched} of {asset.coverage.n_total} phenotypes)</span>
+        <span>(IC {asset.coverage.numerator_ic.toFixed(1)} / {asset.coverage.denominator_ic.toFixed(1)}, {asset.coverage.n_matched} of {asset.coverage.n_total} phenotypes)</span>
       </div> : <div className="notice subtle">Coverage not computed for this asset type</div>}
       {asset.coverage && <div className="phenotype-disclosure">
         <button className="text-button" type="button" aria-expanded={open === asset.id} onClick={() => setOpen(open === asset.id ? null : asset.id)}>
@@ -52,8 +52,8 @@ export function AssetCompare({ assets, persona, options, selected, onSelect }: {
         <h4><span aria-hidden="true">{status.icon}</span> {status.label}</h4>
         <ul>{asset.eligibility_diff.filter((item) => item.status === status.key).map((item) => <li key={item.field}>
           <strong>{fieldLabels[item.field] ?? item.field}</strong>
-          <span>Asset: {item.asset_value}</span>
-          <span>Target: {item.target_value}</span>
+          <span className="eligibility-value">Asset: {item.asset_value}</span>
+          <span className="eligibility-value">Target: {item.target_value}</span>
         </li>)}</ul>
       </div>)}</div>
       {asset.eligibility_text && <details className="diff-details"><summary>Full eligibility text</summary><pre>{asset.eligibility_text}</pre></details>}

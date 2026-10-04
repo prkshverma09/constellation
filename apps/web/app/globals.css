@@ -181,7 +181,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .eligibility-col { padding: 11px; border: 1px solid #e5e8ed; border-radius: 8px; background: #fbfcfd; }
 .eligibility-col h4 { margin: 0; color: #3d495b; font-size: 12px; }
 .eligibility-col ul { margin: 8px 0 0; padding-left: 16px; color: #626d7d; font-size: 11px; }
-.eligibility-col li { margin: 6px 0; }
+.eligibility-col li { margin: 8px 0; }
+.eligibility-col li > strong, .eligibility-value { display: block; }
+.eligibility-value { margin-top: 3px; line-height: 1.4; }
 .diff-details { margin-top: 14px; font-size: 12px; }
 .diff-details summary, .why-person summary { cursor: pointer; color: var(--accent); }
 .table-scroll { overflow-x: auto; margin-top: 9px; }

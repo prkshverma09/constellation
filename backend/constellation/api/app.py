@@ -362,6 +362,7 @@ def disease_overview(mondo: str) -> dict[str, Any]:
     technical = []
     plain = []
     cluster = snapshot.cluster_for(disease_id)
+    gap = is_gap(snapshot, disease_id)
     member_ids = set(cluster.get("member_ids", [])) - {disease_id} if cluster else set()
     member_edges = [
         edge
@@ -386,7 +387,66 @@ def disease_overview(mondo: str) -> dict[str, Any]:
     membership_refs = [
         edge["edge_id"] for edge in member_edges[:1]
     ] + [row["edge_id"] for row in supported_members[:1]]
-    if membership_refs:
+    if gap:
+        gap_refs = [edge["edge_id"] for edge in phenotype_edges[:3]]
+        if cause_edge:
+            gap_refs.append(cause_edge["edge_id"])
+        no_neighbor = {
+            "text": (
+                f"No supported mechanism neighbour exists yet for "
+                f"{properties.get('gene_symbol', disease['label'])} in the indexed snapshot."
+            ),
+            "edge_ids": list(dict.fromkeys(gap_refs)),
+        }
+        technical.append(no_neighbor)
+        plain.append(no_neighbor)
+
+        specific_go_edges = []
+        for edge in snapshot.edges_by_subject.get(gene_id, []):
+            if edge.get("source") != "go" or edge["predicate"] != "annotated_to":
+                continue
+            term = snapshot.node_by_id.get(edge["object"], {})
+            term_count = int(
+                edge.get("properties", {}).get("human_gene_count")
+                or term.get("properties", {}).get("human_gene_count")
+                or 1_000_000
+            )
+            if term_count <= 500:
+                specific_go_edges.append(
+                    (
+                        term_count,
+                        str(term.get("label", edge["object"])),
+                        edge["object"],
+                        edge["edge_id"],
+                    )
+                )
+        specific_go_edges.sort(key=lambda row: (row[0], row[1].casefold(), row[2]))
+        specific_go_edges = list(
+            {row[2]: row for row in specific_go_edges}.values()
+        )[:3]
+        if specific_go_edges:
+            go_terms = ", ".join(
+                f"{label} ({term_id})"
+                for _, label, term_id, _ in specific_go_edges
+            )
+            go_sentence = {
+                "text": (
+                    f"{properties.get('gene_symbol', disease['label'])} has specific "
+                    f"GO annotations for {go_terms}."
+                ),
+                "edge_ids": [row[3] for row in specific_go_edges],
+            }
+        else:
+            go_sentence = {
+                "text": (
+                    f"No specific GO annotation is currently mapped for "
+                    f"{properties.get('gene_symbol', disease['label'])}."
+                ),
+                "edge_ids": list(dict.fromkeys(gap_refs)),
+            }
+        technical.append(go_sentence)
+        plain.append(go_sentence)
+    elif membership_refs:
         member_text = ", ".join(member_names) or "related diseases"
         technical.append(
             {
@@ -440,7 +500,7 @@ def disease_overview(mondo: str) -> dict[str, Any]:
         ),
         None,
     )
-    if counterexample:
+    if counterexample and not gap:
         symbol = properties.get("gene_symbol", disease["label"])
         label = counterexample["disease"]["gene_symbol"]
         technical.append(

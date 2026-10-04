@@ -1303,9 +1303,21 @@ def test_offline_dossier_has_cited_required_sections() -> None:
     assert all(len(sentence["edge_ids"]) <= 3 for sentence in contact_sentences)
     assert any("Ingo Helbig" in sentence["text"] for sentence in contact_sentences)
     assert all(
-        "signals:" in sentence["text"]
+        "signals:" not in sentence["text"]
         for sentence in contact_sentences
         if "No corroborated" not in sentence["text"]
+    )
+    assert any(
+        "has published on both STXBP1- and STX1B-related disease" in sentence["text"]
+        and "(" in sentence["text"]
+        for sentence in contact_sentences
+    )
+    assert "Cluster asset" not in what_exists
+    assert "is mapped to" not in what_exists
+    assert any(
+        "NCT06555965" in sentence["text"]
+        and "already enrolls STXBP1 patients" in sentence["text"]
+        for sentence in sections["what_exists"]["sentences"]
     )
     next_step_ids = set(
         edge_id
@@ -1330,9 +1342,16 @@ def test_offline_dossier_has_cited_required_sections() -> None:
 def test_dossier_personas_change_language_and_order() -> None:
     snapshot = Snapshot()
     supported, _ = _demo_ids()
-    devon = build_dossier(snapshot, supported, "devon")
-    priya = build_dossier(snapshot, supported, "priya")
-    osei = build_dossier(snapshot, supported, "osei")
+    dnm1_id = next(
+        node["id"]
+        for node in snapshot.nodes
+        if node.get("type") == "disease"
+        and node.get("properties", {}).get("gene_symbol") == "DNM1"
+    )
+    maria = build_dossier(snapshot, supported, "maria", comparator_id=dnm1_id)
+    devon = build_dossier(snapshot, supported, "devon", comparator_id=dnm1_id)
+    priya = build_dossier(snapshot, supported, "priya", comparator_id=dnm1_id)
+    osei = build_dossier(snapshot, supported, "osei", comparator_id=dnm1_id)
     devon_text = " ".join(
         sentence["text"]
         for section in devon["sections"]
@@ -1344,6 +1363,28 @@ def test_dossier_personas_change_language_and_order() -> None:
         for sentence in section["sentences"]
     )
     assert "Verify" not in devon_text
+    for dossier in (maria, devon):
+        sections = {section["key"]: section for section in dossier["sections"]}
+        contacts = " ".join(
+            sentence["text"] for sentence in sections["who_to_contact"]["sentences"]
+        )
+        assets = " ".join(
+            sentence["text"] for sentence in sections["what_exists"]["sentences"]
+        )
+        assert "signals:" not in contacts
+        assert "Cluster asset" not in assets
+        assert "is mapped to" not in assets
+        assert "NCT06555965" in assets
+    for dossier in (priya, osei):
+        contacts = " ".join(
+            sentence["text"]
+            for section in dossier["sections"]
+            if section["key"] == "who_to_contact"
+            for sentence in section["sentences"]
+        )
+        assert "matching ORCID" in contacts
+        assert "overlapping affiliation tokens" in contacts
+        assert "shared co-author" in contacts
     assert "Verify" in " ".join(
         sentence["text"]
         for section in osei["sections"]
@@ -1437,6 +1478,34 @@ def test_api_contract_for_both_demo_diseases() -> None:
             assert group_edge["properties"]["match_kind"] == group["match_kind"]
             assert group_node["properties"]["match_kind"] == group["match_kind"]
         assert {"technical", "plain"} <= overview["summary"].keys()
+        if overview["disease"]["gene_symbol"] == "FRRS1L":
+            for persona_summary in overview["summary"].values():
+                no_neighbor = next(
+                    sentence
+                    for sentence in persona_summary
+                    if "No supported mechanism neighbour exists yet" in sentence["text"]
+                )
+                go_sentence = next(
+                    sentence
+                    for sentence in persona_summary
+                    if "regulation of glutamate receptor signaling pathway (GO:1900449)"
+                    in sentence["text"]
+                )
+                assert no_neighbor["edge_ids"]
+                gene_id = overview["disease"]["gene_id"]
+                go_edge_ids = {
+                    edge["edge_id"]
+                    for edge in snapshot.edges_by_subject.get(gene_id, [])
+                    if edge.get("source") == "go"
+                    and edge["predicate"] == "annotated_to"
+                    and edge["object"] == "GO:1900449"
+                }
+                assert set(go_sentence["edge_ids"]) & go_edge_ids
+                assert not any(
+                    "looks clinically similar" in sentence["text"]
+                    or "is grouped with" in sentence["text"]
+                    for sentence in persona_summary
+                )
         assert {
             "phenotypes",
             "pathogenic_variants",
